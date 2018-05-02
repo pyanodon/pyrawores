@@ -11,4 +11,4 @@ RECIPE {
         {type = 'item', name = 'iron-plate', amount = 3}
     },
     main_product = 'iron-plate'
-}
+}:add_unlock("machines-mk01")
