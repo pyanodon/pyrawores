@@ -79,10 +79,10 @@ ENTITY {
     },
     working_visualisations = {
         {
-            north_position = util.by_pixel(-1, -16),
-            west_position = util.by_pixel(-1, -16),
-            south_position = util.by_pixel(-1, -16),
-            east_position = util.by_pixel(-1, -16),
+            north_position = util.by_pixel(-1, -17.5),
+            west_position = util.by_pixel(-1, -17.5),
+            south_position = util.by_pixel(-1, -17.5),
+            east_position = util.by_pixel(-1, -17.5),
             animation = {
                 filename = "__pyrawores__/graphics/entity/flotation-cell-mk01/flotation-cell-mk01.png",
                 --priority = "low",
@@ -125,7 +125,21 @@ ENTITY {
             pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_level = 1,
-            pipe_connections = {{type = "output", position = {0.5, 3.5}}}
+            pipe_connections = {{type = "output", position = {-0.5, 3.5}}}
+        },
+        {
+            production_type = "output",
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_covers = DATA.Pipes.covers(false, true, true, true),
+            base_level = 1,
+            pipe_connections = {{type = "output", position = {-2.5, 3.5}}}
+        },
+        {
+            production_type = "output",
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_covers = DATA.Pipes.covers(false, true, true, true),
+            base_level = 1,
+            pipe_connections = {{type = "output", position = {1.5, 3.5}}}
         },
         off_when_no_fluid_recipe = false
     },
