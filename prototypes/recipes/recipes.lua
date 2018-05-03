@@ -1,7 +1,7 @@
 RECIPE {
     type = 'recipe',
     name = 'test',
-    category = 'flotation',
+    category = 'scrubber',
     enabled = false,
     energy_required = 10,
     ingredients = {

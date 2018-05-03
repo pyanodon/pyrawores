@@ -17,4 +17,5 @@ require("prototypes.ores.quartz")
 --(( BUILDINGS ))--
 require("prototypes/buildings/quartz-drill-mk01")
 require("prototypes/buildings/flotation-cell-mk01")
+require("prototypes/buildings/scrubber-mk01")
 --))

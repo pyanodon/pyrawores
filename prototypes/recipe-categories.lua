@@ -7,4 +7,8 @@ data:extend {
         type = "recipe-category",
         name = "flotation"
     },
+    {
+        type = "recipe-category",
+        name = "scrubber"
+    },
 }
