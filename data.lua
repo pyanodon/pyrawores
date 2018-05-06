@@ -5,6 +5,7 @@ require("prototypes/recipe-categories")
 
 --(( Technology ))--
 require("prototypes/technologies/machines")
+require("prototypes/technologies/quartz")
 --))
 
 require('prototypes/recipes/recipes')
@@ -18,4 +19,8 @@ require("prototypes.ores.quartz")
 require("prototypes/buildings/quartz-drill-mk01")
 require("prototypes/buildings/flotation-cell-mk01")
 require("prototypes/buildings/scrubber-mk01")
+--))
+
+--(( FLUIDS ))--
+require("prototypes/fluids/quartz-pulp-1")
 --))
