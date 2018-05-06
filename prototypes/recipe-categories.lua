@@ -1,7 +1,7 @@
 data:extend {
     {
         type = "resource-category",
-        name = "quartz-ore"
+        name = "quartz"
     },
     {
         type = "recipe-category",
