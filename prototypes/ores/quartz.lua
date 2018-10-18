@@ -1,20 +1,20 @@
 DATA {
     type = "autoplace-control",
     category = "resource",
-    name = "quartz-ore",
+    name = "ore-quartz",
     richness = true,
     order = "b-e"
 }
 
 DATA {
     type = "noise-layer",
-    name = "quartz-ore"
+    name = "ore-quartz"
 }
 
 ENTITY {
     type = "resource",
-    name = "quartz-ore",
-    category = "quartz-ore",
+    name = "ore-quartz",
+    category = "ore-quartz",
     icon = "__pyrawores__/graphics/icons/ores/quartz.png",
     icon_size = 32,
     flags = {"placeable-neutral"},
@@ -28,13 +28,13 @@ ENTITY {
         -- mining_particle = "quartz-ore-particle",
         mining_time = 1,
         results = {
-            {"quartz-ore", 1}
+            {"ore-quartz", 1}
         }
     },
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     autoplace = {
-        control = "quartz-ore",
+        control = "ore-quartz",
         sharpness = 1,
         starting_area = true,
         richness_multiplier = 1500,
@@ -43,7 +43,7 @@ ENTITY {
         coverage = 0.006,
         peaks = {
             {
-                noise_layer = "quartz-ore",
+                noise_layer = "ore-quartz",
                 noise_octaves_difference = -1.5,
                 noise_persistence = 0.3
             }
