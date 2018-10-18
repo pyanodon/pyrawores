@@ -36,7 +36,7 @@ ENTITY {
     minable = {mining_time = 1, result = "quartz-drill-mk01"},
     fast_replaceable_group = "quartz-drill-mk01",
     max_health = 700,
-    resource_categories = {"quartz-ore"},
+    resource_categories = {"ore-quartz"},
     corpse = "medium-remnants",
     dying_explosion = "big-explosion",
     collision_box = {{-2.1, -2.1}, {2.1, 2.1}},
