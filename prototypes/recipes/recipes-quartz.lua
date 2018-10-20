@@ -40,6 +40,48 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
+    name = "purified-quartz",
+    category = "pan",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "prepared-quartz", amount = 50},
+        {type = "fluid", name = "creosote", amount = 80},
+    },
+    results = {
+        {type = "item", name = "purified-quartz", amount = 1},
+        {type = "fluid", name = "dirty-water", amount = 50}
+    },
+    main_product = "purified-quartz",
+    icon = "__pyrawores__/graphics/icons/purified-quartz.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "q-2"
+}:add_unlock("quartz-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "high-grade-quartz",
+    category = "evaporator",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "high-grade-quartz-pulp", amount = 50},
+        {type = "fluid", name = "syngas", amount = 100},
+    },
+    results = {
+        {type = "item", name = "high-grade-quartz", amount = 1},
+        {type = "fluid", name = "dirty-water", amount = 80}
+    },
+    main_product = "high-grade-quartz",
+    icon = "__pyrawores__/graphics/icons/high-grade-quartz.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "q-2"
+}:add_unlock("quartz-mk04")
+
+RECIPE {
+    type = "recipe",
     name = "sand-classification2",
     category = "classifier",
     enabled = false,
@@ -83,7 +125,7 @@ RECIPE {
     name = "glass-2",
     category = "hpf",
     enabled = false,
-    energy_required = 5,
+    energy_required = 1,
     ingredients = {
         {type = "item", name = "crushed-quartz", amount = 1},
         {type = "fluid", name = "coal-gas", amount = 100},
@@ -103,11 +145,11 @@ RECIPE {
     name = "glass-3",
     category = "hpf",
     enabled = false,
-    energy_required = 5,
+    energy_required = 1,
     ingredients = {
         {type = "item", name = "powdered-quartz", amount = 1},
         {type = "fluid", name = "coal-gas", amount = 100},
-        {type = "item", name = "sand", amount = 15},
+        {type = "item", name = "sand", amount = 10},
     },
     results = {
         {type = "item", name = "glass", amount = 3}
@@ -118,3 +160,67 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("quartz-mk01")
+
+RECIPE {
+    type = "recipe",
+    name = "glass-4",
+    category = "hpf",
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+        {type = "item", name = "purified-quartz", amount = 1},
+        {type = "fluid", name = "coal-gas", amount = 100},
+        {type = "item", name = "pure-sand", amount = 10},
+    },
+    results = {
+        {type = "item", name = "glass", amount = 4}
+    },
+    --main_product= "glass",
+    icon = "__pyrawores__/graphics/icons/glass.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("quartz-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "glass-5",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "fluid", name = "high-grade-quartz-pulp", amount = 100},
+        {type = "item", name = "sand-casting", amount = 2},
+        {type = "item", name = "fuelrod-mk01", amount = 1},
+    },
+    results = {
+        {type = "item", name = "glass", amount = 8}
+    },
+    --main_product= "glass",
+    icon = "__pyrawores__/graphics/icons/glass.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("quartz-mk04")
+
+RECIPE {
+    type = "recipe",
+    name = "glass-6",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "high-grade-quartz", amount = 1},
+        {type = "fluid", name = "syngas", amount = 100},
+        {type = "item", name = "sand-casting", amount = 2},
+        {type = "item", name = "fuelrod-mk01", amount = 1},
+    },
+    results = {
+        {type = "item", name = "glass", amount = 15}
+    },
+    --main_product= "glass",
+    icon = "__pyrawores__/graphics/icons/glass.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("quartz-mk04")

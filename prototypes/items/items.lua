@@ -33,6 +33,28 @@ ITEM {
 
 ITEM {
     type = "item",
+    name = "purified-quartz",
+    icon = "__pyrawores__/graphics/icons/purified-quartz.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 50
+}
+
+ITEM {
+    type = "item",
+    name = "high-grade-quartz",
+    icon = "__pyrawores__/graphics/icons/high-grade-quartz.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 50
+}
+
+ITEM {
+    type = "item",
     name = "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
 	icon_size = 32,
