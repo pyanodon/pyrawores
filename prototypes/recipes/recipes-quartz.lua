@@ -208,7 +208,7 @@ RECIPE {
     name = "glass-6",
     category = "advanced-foundry",
     enabled = false,
-    energy_required = 3,
+    energy_required = 8,
     ingredients = {
         {type = "item", name = "high-grade-quartz", amount = 1},
         {type = "fluid", name = "syngas", amount = 100},
