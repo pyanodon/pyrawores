@@ -10,15 +10,15 @@ require('prototypes/items/items')
 require("prototypes.ores.quartz")
 --))
 
+--(( Technology ))--
+require("prototypes/technologies/machines")
+require("prototypes/technologies/quartz")
+
 --(( BUILDINGS ))--
 require("prototypes/buildings/quartz-drill-mk01")
 require("prototypes/buildings/scrubber-mk01")
 require("prototypes/buildings/flotation-cell-mk01")
 --))
-
---(( Technology ))--
-require("prototypes/technologies/machines")
-require("prototypes/technologies/quartz")
 
 --(( RECIPES ))--
 --require("prototypes/recipes/recipes")
@@ -26,3 +26,6 @@ require("prototypes/recipes/recipes-quartz")
 
 --(( FLUIDs ))--
 require("prototypes/fluids/quartz-pulp-01")
+require("prototypes/fluids/quartz-pulp-02")
+require("prototypes/fluids/prepared-quartz")
+require("prototypes/fluids/high-grade-quartz-pulp")
