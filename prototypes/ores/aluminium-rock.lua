@@ -1,59 +1,55 @@
 DATA {
     type = "autoplace-control",
     category = "resource",
-    name = "quartz-rock",
+    name = "aluminium-rock",
     richness = true,
     order = "b"
 }
 
 DATA {
     type = "noise-layer",
-    name = "quartz-rock"
+    name = "aluminium-rock"
 }
 
 DATA {
     type = "resource",
-    name = "quartz-rock",
-    category = "quartz-rock",
-    icon = "__pyrawores__/graphics/icons/ores/quartz-rock.png",
+    name = "aluminium-rock",
+    category = "aluminium-rock",
+    icon = "__pyrawores__/graphics/icons/ores/aluminium-rock.png",
 	icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
-    map_color = {r = 0.670, g = 0.792, b = 0.913},
+    map_color = {r = 1, g = 0.709, b = 0.286},
     highlight = true,
     minimum = 100,
     normal = 200,
     maximum = 300,
-    map_grid = false,
+    map_grid = true,
     minable = {
         hardness = 1.0,
-        -- mining_particle = "quartz-rock-particle",
+        -- mining_particle = "aluminium-rock-particle",
         mining_time = 2,
         results = {
-            {"ore-quartz", 1}
+            {"ore-aluminium", 1}
         },
-        fluid_amount = 30,
-        required_fluid = "diesel"
     },
     resource_patch_search_radius = 12,
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
-    starting_area_size = 0,
-    starting_area_amount = 0,
-    collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
-    selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
+    collision_box = {{-5.3, -5.3}, {5.3, 5.3}},
+    selection_box = {{-5.5, -5.5}, {5.5, 5.5}},
     autoplace = {
-        control = "quartz-rock",
-        sharpness = 2,
+        control = "aluminium-rock",
+        sharpness = 3,
         --max_probability = 0.035,
         richness_multiplier = 800,
         richness_multiplier_distance_bonus = 1000,
         richness_base = 5000000,
-        coverage = 0.00003 / 3,
+        coverage = 0.00003 / 20,
         peaks = {
             {
-                noise_layer = "quartz-rock",
-                noise_octaves_difference = -2.85,
+                noise_layer = "aluminium-rock",
+                noise_octaves_difference = -2.25,
                 noise_persistence = 0.4
             },
             --no starting area
@@ -68,13 +64,13 @@ DATA {
     stage_counts = {0},
     stages = {
         sheet = {
-            filename = "__pyrawores__/graphics/entity/ores/quartz/quartz-mine-place.png",
+            filename = "__pyrawores__/graphics/entity/ores/aluminium/aluminium-mine-place.png",
             priority = "extra-high",
-            width = 424,
-            height = 446,
+            width = 352,
+            height = 352,
             frame_count = 1,
             variation_count = 1,
-            shift = util.by_pixel(3, -10)
+            shift = util.by_pixel(0, 0)
         }
     }
 }
