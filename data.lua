@@ -16,10 +16,12 @@ require("prototypes.ores.aluminium-rock")
 --(( Technology ))--
 require("prototypes/technologies/machines")
 require("prototypes/technologies/quartz")
+require("prototypes/technologies/aluminium")
 
 --(( BUILDINGS ))--
 require("prototypes/buildings/quartz-drill-mk01")
 require("prototypes/buildings/quartz-mine")
+require("prototypes/buildings/aluminium-mine")
 require("prototypes/buildings/scrubber-mk01")
 require("prototypes/buildings/flotation-cell-mk01")
 --))
