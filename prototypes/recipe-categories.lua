@@ -4,6 +4,10 @@ data:extend {
         name = "ore-quartz"
     },
     {
+        type = "resource-category",
+        name = "quartz-rock"
+    },
+    {
         type = "recipe-category",
         name = "scrubber"
     },
