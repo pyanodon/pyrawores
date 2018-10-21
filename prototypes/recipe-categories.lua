@@ -8,6 +8,10 @@ data:extend {
         name = "quartz-rock"
     },
     {
+        type = "resource-category",
+        name = "aluminium-rock"
+    },
+    {
         type = "recipe-category",
         name = "scrubber"
     },

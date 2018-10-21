@@ -3,7 +3,7 @@ DATA {
     category = "resource",
     name = "quartz-rock",
     richness = true,
-    order = "b-e"
+    order = "b"
 }
 
 DATA {
@@ -35,23 +35,34 @@ DATA {
         fluid_amount = 30,
         required_fluid = "diesel"
     },
+    resource_patch_search_radius = 12,
+    tree_removal_probability = 0.7,
+    tree_removal_max_distance = 32 * 32,
+    starting_area_size = 0,
+    starting_area_amount = 0,
     collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
     selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
     autoplace = {
         control = "quartz-rock",
-        sharpness = 1,
-        starting_area = false,
+        sharpness = 2,
         --max_probability = 0.035,
         richness_multiplier = 800,
         richness_multiplier_distance_bonus = 1000,
         richness_base = 5000000,
-        coverage = 0.000015,
+        coverage = 0.00003 / 3,
         peaks = {
             {
                 noise_layer = "quartz-rock",
-                noise_octaves_difference = -1.5,
+                noise_octaves_difference = -2.85,
                 noise_persistence = 0.4
-            }
+            },
+            --no starting area
+            {
+                influence = -1.0,
+                starting_area_weight_optimal = 1,
+                starting_area_weight_range = 0,
+                starting_area_weight_max_range = 2
+            },
         }
     },
     stage_counts = {0},

@@ -63,3 +63,14 @@ ITEM {
     order = "a",
     stack_size = 500
 }
+
+ITEM {
+    type = "item",
+    name = "ore-aluminium",
+    icon = "__pyrawores__/graphics/icons/ore-aluminium.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}

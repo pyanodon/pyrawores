@@ -52,14 +52,14 @@ ENTITY {
     stage_counts = {2000, 1600, 1400, 1200, 800, 400, 200, 10},
     stages = {
         sheet = {
-            filename = "__pyrawores__/graphics/entity/ores/quartz/quartz-ore.png",
+            filename = "__pyrawores__/graphics/entity/ores/quartz/quartz.png",
             priority = "extra-high",
             width = 64,
             height = 64,
             frame_count = 8,
             variation_count = 8,
             hr_version = {
-                filename = "__pyrawores__/graphics/entity/ores/quartz/hr-quartz-ore.png",
+                filename = "__pyrawores__/graphics/entity/ores/quartz/hr-quartz.png",
                 priority = "extra-high",
                 width = 128,
                 height = 128,
