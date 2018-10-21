@@ -15,14 +15,14 @@ ENTITY {
     type = "resource",
     name = "ore-quartz",
     category = "ore-quartz",
-    icon = "__pyrawores__/graphics/icons/ores/quartz.png",
+    icon = "__pyrawores__/graphics/icons/ores/ore-quartz.png",
     icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
     map_color = {r = 0.670, g = 0.792, b = 0.913},
     minimum = 400,
-    normal = 1200,
-    maximum = 5000,
+    normal = 1000,
+    maximum = 3000,
     minable = {
         hardness = 1,
         -- mining_particle = "quartz-ore-particle",
@@ -39,8 +39,8 @@ ENTITY {
         starting_area = true,
         richness_multiplier = 1500,
         richness_multiplier_distance_bonus = 30,
-        richness_base = 500,
-        coverage = 0.006,
+        richness_base = 300,
+        coverage = 0.004,
         peaks = {
             {
                 noise_layer = "ore-quartz",

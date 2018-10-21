@@ -8,6 +8,7 @@ require('prototypes/items/items')
 
 --(( RESOURCEs ))--
 require("prototypes.ores.quartz")
+require("prototypes.ores.quartz-rock")
 --))
 
 --(( Technology ))--
@@ -16,6 +17,7 @@ require("prototypes/technologies/quartz")
 
 --(( BUILDINGS ))--
 require("prototypes/buildings/quartz-drill-mk01")
+require("prototypes/buildings/quartz-mine")
 require("prototypes/buildings/scrubber-mk01")
 require("prototypes/buildings/flotation-cell-mk01")
 --))
