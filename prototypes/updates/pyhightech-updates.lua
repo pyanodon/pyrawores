@@ -1,0 +1,1 @@
+RECIPE('al-pulp-01'):replace_ingredient('boric-acid', 'phosphoric-acid')
