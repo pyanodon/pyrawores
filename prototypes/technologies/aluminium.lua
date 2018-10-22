@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyrawores__/graphics/technology/aluminium-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"machines-mk01"},
+    prerequisites = {'machines-mk01'},
     effects = {},
     unit = {
         count = 100,
@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyrawores__/graphics/technology/aluminium-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'machines-mk02','aluminium-mk01'},
+    prerequisites = {'machines-mk02','aluminium-mk01','coal-processing-2'},
     effects = {},
     unit = {
         count = 100,

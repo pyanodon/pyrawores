@@ -1,3 +1,5 @@
+--QUARTZ
+
 ITEM {
     type = "item",
     name = "ore-quartz",
@@ -64,10 +66,47 @@ ITEM {
     stack_size = 500
 }
 
+--ALUMINIUM
+
 ITEM {
     type = "item",
     name = "ore-aluminium",
     icon = "__pyrawores__/graphics/icons/ore-aluminium.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "powdered-aluminium",
+    icon = "__pyrawores__/graphics/icons/powdered-aluminium.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "b",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "aluminium-plate",
+    icon = "__pyrawores__/graphics/icons/aluminium-plate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "b",
+    stack_size = 500
+}
+
+--TITANIUM
+
+ITEM {
+    type = "item",
+    name = "ore-titanium",
+    icon = "__pyrawores__/graphics/icons/ore-titanium.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "py-rawores-ores",
