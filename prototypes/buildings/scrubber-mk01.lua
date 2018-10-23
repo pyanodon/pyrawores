@@ -7,7 +7,7 @@ RECIPE {
         {"steel-plate", 20},
         {"engine-unit", 5},
         {"washer", 2},
-        {"advanced-circuit", 15},
+        {"electronic-circuit", 15},
     },
     results = {
         {"scrubber-mk01", 1}

@@ -92,6 +92,39 @@ ITEM {
 
 ITEM {
     type = "item",
+    name = "sodium-aluminate",
+    icon = "__pyrawores__/graphics/icons/sodium-aluminate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "b",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "crystalized-sodium-aluminate",
+    icon = "__pyrawores__/graphics/icons/crystalized-sodium-aluminate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "b",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "high-grade-alumina",
+    icon = "__pyrawores__/graphics/icons/high-grade-alumina.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "b",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
     name = "aluminium-plate",
     icon = "__pyrawores__/graphics/icons/aluminium-plate.png",
 	icon_size = 32,
@@ -107,6 +140,33 @@ ITEM {
     type = "item",
     name = "ore-titanium",
     icon = "__pyrawores__/graphics/icons/ore-titanium.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+
+
+
+--EXTRAS--
+
+ITEM {
+    type = "item",
+    name = "powdered-ralesia-seeds",
+    icon = "__pyrawores__/graphics/icons/powdered-ralesia-seeds.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "starch",
+    icon = "__pyrawores__/graphics/icons/starch.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "py-rawores-ores",

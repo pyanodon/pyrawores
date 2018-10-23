@@ -7,7 +7,7 @@ RECIPE {
         {"steel-plate", 20},
         {"iron-plate", 15},
         {"evaporator", 1},
-        {"advanced-circuit", 20},
+        {"electronic-circuit", 20},
     },
     results = {
         {"flotation-cell-mk01", 1}
