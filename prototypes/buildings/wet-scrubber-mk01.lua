@@ -8,7 +8,7 @@ RECIPE {
         {"steel-plate", 15},
         {"distilator", 1},
         {"pipe", 10},
-        {"advanced-circuit", 5},
+        {"electronic-circuit", 5},
     },
     results = {
         {"wet-scrubber-mk01", 1}
@@ -96,12 +96,12 @@ ENTITY {
             east_position = util.by_pixel(-1, -190),
             animation = {
                 filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/anim.png",
-                --priority = "low",
+                priority = "high",
                 frame_count = 2,
                 line_length = 2,
                 width = 192,
                 height = 128,
-                animation_speed = 0.2
+                animation_speed = 0.4
             }
         }
     },
@@ -156,8 +156,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/wet-scrubber.ogg", volume = 1.6},
-        idle_sound = {filename = "__pyrawores__/sounds/wet-scrubber.ogg", volume = 1.2},
+        sound = {filename = "__pyrawores__/sounds/wet-scrubber.ogg", volume = 1.4},
+        idle_sound = {filename = "__pyrawores__/sounds/wet-scrubber.ogg", volume = 1.0},
         apparent_volume = 2.5
     }
 }

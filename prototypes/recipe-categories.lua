@@ -23,4 +23,12 @@ data:extend {
         type = "recipe-category",
         name = "wet-scrubber"
     },
+    {
+        type = "recipe-category",
+        name = "hydroclassifier"
+    },
+    {
+        type = "recipe-category",
+        name = "electrolyzer"
+    },
 }
