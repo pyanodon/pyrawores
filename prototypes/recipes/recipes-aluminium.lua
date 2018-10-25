@@ -64,11 +64,11 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-alumina",
-    category = "hpf",
+    category = "electrolyzer",
     enabled = false,
-    energy_required = 6,
+    energy_required = 5,
     ingredients = {
-        {type = "item", name = "crystalized-sodium-aluminate", amount = 1},
+        {type = "item", name = "crystalized-sodium-aluminate", amount = 1},--pyht graphite
     },
     results = {
         {type = "item", name = "high-grade-alumina", amount = 1},
