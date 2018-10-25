@@ -6,7 +6,7 @@ require("prototypes/recipe-categories")
 --require('prototypes/recipes/recipes')
 require('prototypes/items/items')
 
---(( RESOURCEs ))--
+--(( RESOURCES ))--
 require("prototypes.ores.quartz")
 require("prototypes.ores.aluminium")
 require("prototypes.ores.chromium")
@@ -18,6 +18,7 @@ require("prototypes.ores.aluminium-rock")
 require("prototypes/technologies/machines")
 require("prototypes/technologies/quartz")
 require("prototypes/technologies/aluminium")
+require("prototypes/technologies/chromium")
 
 --(( BUILDINGS ))--
 require("prototypes/buildings/quartz-drill-mk01")
@@ -35,6 +36,7 @@ require("prototypes/buildings/electrolyzer-mk01")
 require("prototypes/recipes/recipes")
 require("prototypes/recipes/recipes-quartz")
 require("prototypes/recipes/recipes-aluminium")
+require("prototypes/recipes/recipes-chromium")
 
 --(( FLUIDs ))--
 require("prototypes/fluids/quartz-pulp-01")
@@ -46,5 +48,6 @@ require("prototypes/fluids/al-pulp-02")
 require("prototypes/fluids/al-pulp-03")
 require("prototypes/fluids/al-pulp-03")
 require("prototypes/fluids/al-pulp-04")
+require("prototypes/fluids/chromite-pulp-01")
 require("prototypes/fluids/al-tailings")
 require("prototypes/fluids/alamac")

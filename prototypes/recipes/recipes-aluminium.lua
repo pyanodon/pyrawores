@@ -32,7 +32,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "sodium-aluminate", amount = 1},
-        {type = "fluid", name = "al-tailings", amount = 50}
+        {type = "fluid", name = "water", amount = 50} -- replace result
     },
     main_product = "sodium-aluminate",
     icon = "__pyrawores__/graphics/icons/sodium-aluminate.png",
