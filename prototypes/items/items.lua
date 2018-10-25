@@ -148,6 +148,20 @@ ITEM {
 }
 
 
+--CHROMIUM
+
+ITEM {
+    type = "item",
+    name = "ore-chromium",
+    icon = "__pyrawores__/graphics/icons/ore-chromium.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+
 
 
 --EXTRAS--

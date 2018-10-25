@@ -9,6 +9,7 @@ require('prototypes/items/items')
 --(( RESOURCEs ))--
 require("prototypes.ores.quartz")
 require("prototypes.ores.aluminium")
+require("prototypes.ores.chromium")
 require("prototypes.ores.quartz-rock")
 require("prototypes.ores.aluminium-rock")
 --))
@@ -26,6 +27,8 @@ require("prototypes/buildings/scrubber-mk01")
 require("prototypes/buildings/flotation-cell-mk01")
 require("prototypes/buildings/wet-scrubber-mk01")
 require("prototypes/buildings/hydroclassifier-mk01")
+require("prototypes/buildings/impact-crusher-mk01")
+require("prototypes/buildings/electrolyzer-mk01")
 --))
 
 --(( RECIPES ))--

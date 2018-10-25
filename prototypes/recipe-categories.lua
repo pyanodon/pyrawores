@@ -31,4 +31,8 @@ data:extend {
         type = "recipe-category",
         name = "electrolyzer"
     },
+    {
+        type = "recipe-category",
+        name = "impact-crusher"
+    },
 }
