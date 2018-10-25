@@ -148,7 +148,7 @@ ITEM {
 }
 
 
---CHROMIUM
+--chromite
 
 ITEM {
     type = "item",
@@ -161,7 +161,49 @@ ITEM {
     stack_size = 500
 }
 
+ITEM {
+    type = "item",
+    name = "grade-1-chromite",
+    icon = "__pyrawores__/graphics/icons/grade-1-chromite.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
 
+ITEM {
+    type = "item",
+    name = "grade-2-chromite",
+    icon = "__pyrawores__/graphics/icons/grade-2-chromite.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-3-chromite",
+    icon = "__pyrawores__/graphics/icons/grade-3-chromite.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-4-chromite",
+    icon = "__pyrawores__/graphics/icons/grade-4-chromite.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
 
 
 --EXTRAS--
