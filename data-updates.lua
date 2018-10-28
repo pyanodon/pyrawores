@@ -21,3 +21,5 @@ RECIPE('py-construction-robot-01'):replace_ingredient('iron-plate', 'aluminium-p
 RECIPE('py-roboport-mk01'):replace_ingredient('iron-plate', 'aluminium-plate')
 RECIPE('py-recharge-station-mk01'):add_ingredient({type = "item", name = "aluminium-plate", amount =10})
 RECIPE('quartz-mine'):add_ingredient({type = "item", name = "py-construction-robot-01", amount =10})
+RECIPE("niobium-plate"):replace_ingredient("coal", "salt")
+RECIPE("sulfur-crudeoil"):replace_ingredient("iron-ore", "salt")

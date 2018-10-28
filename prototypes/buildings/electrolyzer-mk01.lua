@@ -124,14 +124,14 @@ ENTITY {
             base_level = 1,
             pipe_connections = {{type = "output", position = {1.5, 3.5}}}
         },
-        off_when_no_fluid_recipe = false
+        off_when_no_fluid_recipe = true
     },
     working_visualisations = {
         {
-            north_position = util.by_pixel(-14, -16),
-            west_position = util.by_pixel(-14, -16),
-            south_position = util.by_pixel(-14, -16),
-            east_position = util.by_pixel(-14, -16),
+            north_position = util.by_pixel(-14.5, -16),
+            west_position = util.by_pixel(-14.5, -16),
+            south_position = util.by_pixel(-14.5, -16),
+            east_position = util.by_pixel(-14.5, -16),
             animation = {
                 filename = "__pyrawores__/graphics/entity/electrolyzer-mk01/on.png",
                 priority = "high",

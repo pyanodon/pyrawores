@@ -167,7 +167,7 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/grade-1-chromite.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-ores",
+    subgroup = "py-rawores-items",
     order = "a",
     stack_size = 500
 }
@@ -178,7 +178,7 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/grade-2-chromite.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-ores",
+    subgroup = "py-rawores-items",
     order = "a",
     stack_size = 500
 }
@@ -189,7 +189,7 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/grade-3-chromite.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-ores",
+    subgroup = "py-rawores-items",
     order = "a",
     stack_size = 500
 }
@@ -200,7 +200,7 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/grade-4-chromite.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-ores",
+    subgroup = "py-rawores-items",
     order = "a",
     stack_size = 500
 }
@@ -214,7 +214,7 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/powdered-ralesia-seeds.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-ores",
+    subgroup = "py-rawores-items",
     order = "a",
     stack_size = 500
 }
@@ -225,7 +225,29 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/starch.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "salt",
+    icon = "__pyrawores__/graphics/icons/salt.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
     subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sodium-hydroxide",
+    icon = "__pyrawores__/graphics/icons/sodium-hydroxide.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
     order = "a",
     stack_size = 500
 }

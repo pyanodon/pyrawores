@@ -17,10 +17,10 @@ RECIPE {
 ITEM {
     type = "item",
     name = "quartz-mine",
-    icon = "__pyrawores__/graphics/icons/quartz-mine.png",
+    icon = "__pyrawores__/graphics/icons/mega-quartz.png",
 	icon_size = 32,
     flags = {"goes-to-quickbar"},
-    subgroup = "py-rawores-drills",
+    subgroup = "py-rawores-mines",
     order = "a",
     place_result = "quartz-mine",
     stack_size = 10
@@ -29,7 +29,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "quartz-mine",
-    icon = "__pyrawores__/graphics/icons/quartz-mine.png",
+    icon = "__pyrawores__/graphics/icons/mega-quartz.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "quartz-mine"},

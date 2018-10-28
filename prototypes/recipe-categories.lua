@@ -5,6 +5,10 @@ data:extend {
     },
     {
         type = "resource-category",
+        name = "salt-rock"
+    },
+    {
+        type = "resource-category",
         name = "quartz-rock"
     },
     {
