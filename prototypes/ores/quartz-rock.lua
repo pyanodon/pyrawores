@@ -24,7 +24,7 @@ DATA {
     minimum = 100,
     normal = 200,
     maximum = 300,
-    map_grid = false,
+    map_grid = true,
     minable = {
         hardness = 1.0,
         -- mining_particle = "quartz-rock-particle",

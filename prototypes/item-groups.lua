@@ -15,6 +15,12 @@ data:extend {
     },
     {
         type = "item-subgroup",
+        name = "py-rawores-mines",
+        group = "py-rawores",
+        order = "f"
+    },
+    {
+        type = "item-subgroup",
         name = "py-rawores-buildings",
         group = "py-rawores",
         order = "b"

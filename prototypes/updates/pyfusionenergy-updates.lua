@@ -13,7 +13,8 @@ RECIPE('automated-screener'):remove_unlock('advanced-mining-facilities'):add_unl
 RECIPE('centrifugal-pan'):remove_unlock('diamond-mining'):add_unlock('machines-mk03')
 
 RECIPE('agitador'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk03')
-RECIPE('sodium-clhorate'):remove_unlock('vanadium-processing'):add_unlock('machines-mk02'):change_category('electrolyzer')
+RECIPE('sodium-chlorate'):remove_unlock('vanadium-processing'):add_unlock('machines-mk02'):change_category('electrolyzer')
+
 
 RECIPE('purified-quartz'):change_category('pan')
 RECIPE('prepared-quartz'):change_category('pan')
