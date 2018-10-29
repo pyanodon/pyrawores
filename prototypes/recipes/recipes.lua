@@ -95,3 +95,88 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/salt.png",
     icon_size = 32
 }:add_unlock("coal-processing-2")
+
+RECIPE {
+    type = "recipe",
+    name = "methanol-from-hydrogen",
+    category = "methanol",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "carbon-dioxide", amount = 30},
+        {type = "fluid", name = "hydrogen", amount = 50},
+        --{type = "item", name = "zinc-plate", amount = 1},
+        {type = "item", name = "nichrome", amount = 2}
+    },
+    results = {
+        {type = "fluid", name = "methanol", amount = 40}
+    },
+    subgroup = "py-methanol",
+    icon = "__pycoalprocessing__/graphics/icons/methanol.png",
+    icon_size = 32,
+    order = "b"
+}:add_unlock("methanol-processing-2")
+
+RECIPE {
+    type = "recipe",
+    name = "syngas2",
+    category = "gasifier",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "coal-gas", amount = 40},
+        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "water", amount = 100}
+    },
+    results = {
+        {type = "fluid", name = "syngas", amount = 100},
+        {type = "fluid", name = "tar", amount = 30},
+        {type = "item", name = "ash", amount = 1}
+    },
+    icon = "__pycoalprocessing__/graphics/icons/syngas.png",
+    icon_size = 32,
+    subgroup = "py-syngas",
+    order = "a-b-[syn-gas]"
+}:add_unlock("coal-processing-2")
+
+RECIPE {
+    type = "recipe",
+    name = "syngas-distilation",
+    category = "distilator",
+    enabled = false,
+    energy_required = 1.5,
+    ingredients = {
+        {type = "fluid", name = "syngas", amount = 150}
+    },
+    results = {
+        {type = "fluid", name = "hydrogen", amount = 100},
+        {type = "fluid", name = "carbon-dioxide", amount = 50}
+    },
+    main_product = "hydrogen",
+    icon = "__pycoalprocessing__/graphics/icons/syngas-distilation.png",
+    icon_size = 32,
+    subgroup = "py-items",
+    order = "a [coal-gas]"
+}:add_unlock("coal-processing-2")
+
+RECIPE {
+    type = "recipe",
+    name = "hydrogen-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "hydrogen", amount = 200},
+        {type = "fluid", name = "water", amount = 500},
+        {type = "item", name = "coke", amount = 3}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 520},
+        {type = "fluid", name = "steam", amount = 500, temperature = 60}
+    },
+    icon = "__pycoalprocessing__/graphics/icons/combustion-hydrogen.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "k"
+}:add_unlock("energy-1")
