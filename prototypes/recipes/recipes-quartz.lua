@@ -101,6 +101,10 @@ RECIPE {
     order = "a"
 }:add_unlock("quartz-mk02")
 
+
+--GLASS--
+
+
 RECIPE {
     type = "recipe",
     name = "glass-1",
@@ -171,6 +175,7 @@ RECIPE {
         {type = "item", name = "purified-quartz", amount = 1},
         {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "pure-sand", amount = 10},
+        {type = "item", name = "sodium-sulfate", amount = 1},
     },
     results = {
         {type = "item", name = "glass", amount = 4}
@@ -192,6 +197,7 @@ RECIPE {
         {type = "fluid", name = "high-grade-quartz-pulp", amount = 100},
         {type = "item", name = "sand-casting", amount = 2},
         {type = "item", name = "fuelrod-mk01", amount = 1},
+        {type = "item", name = "sodium-sulfate", amount = 1},
     },
     results = {
         {type = "item", name = "glass", amount = 8}
@@ -211,6 +217,7 @@ RECIPE {
     energy_required = 8,
     ingredients = {
         {type = "item", name = "high-grade-quartz", amount = 1},
+        {type = "item", name = "sodium-sulfate", amount = 1},
         {type = "fluid", name = "syngas", amount = 100},
         {type = "item", name = "sand-casting", amount = 2},
         {type = "item", name = "fuelrod-mk01", amount = 1},
