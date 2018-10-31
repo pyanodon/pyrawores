@@ -27,6 +27,27 @@ RECIPE {
         {type = "item", name = "powdered-ralesia-seeds", amount = 1}
     },
     results = {
+        {type = "item", name = "starch", amount = 3},
+        {type = "item", name = "organics", amount = 5},
+    },
+    main_product= "starch",
+    icon = "__pyrawores__/graphics/icons/starch.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("machines-mk02")
+
+RECIPE {
+    type = "recipe",
+    name = "starch-2",
+    category = "solid-separator",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "powdered-ralesia-seeds", amount = 1},
+        {type = "item", name = "sodium-sulfate", amount = 1},
+    },
+    results = {
         {type = "item", name = "starch", amount = 10},
         {type = "item", name = "organics", amount = 5},
     },
@@ -180,3 +201,40 @@ RECIPE {
     subgroup = "py-combustion",
     order = "k"
 }:add_unlock("energy-1")
+
+RECIPE {
+    type = "recipe",
+    name = "bonemeal-salt",
+    category = "ulric",
+    enabled = false,
+    energy_required = 25,
+    ingredients = {
+        {type = "item", name = "ralesia", amount = 10},
+        {type = "item", name = "salt", amount = 10},
+    },
+    results = {
+        {type = "item", name = "bonemeal", amount = 10}
+    },
+    main_product = "bonemeal",
+    icon = "__pycoalprocessing__/graphics/icons/bonemeal.png",
+    icon_size = 32,
+    subgroup = "py-items",
+    order = "g"
+}:add_unlock("machines-mk02")
+
+RECIPE {
+    type = 'recipe',
+    name = 'mukmoux-fat-salt',
+    category = 'mukmoux',
+    enabled = 'false',
+    energy_required = 35,
+    ingredients = {
+        {type = 'item', name = 'fawogae', amount = 5},
+        {type = 'item', name = 'ralesia-seeds', amount = 30},
+        {type = 'item', name = 'salt', amount = 10},
+        {type = 'item', name = 'ash', amount = 10}
+    },
+    results = {
+        {type = 'item', name = 'mukmoux-fat', amount = 30}
+    }
+}:add_unlock("machines-mk02")

@@ -27,6 +27,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "al-pulp-04", amount = 300},
         {type = "fluid", name = "water", amount = 300},
+        {type = "item", name = "sodium-hydroxide", amount =10},
         {type = "item", name = "sodium-chlorate", amount = 10},
         {type = "item", name = "starch", amount = 5},
     },
@@ -69,12 +70,13 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 1},--pyht graphite
+        {type = "item", name = "sodium-hydroxide", amount =8},
     },
     results = {
         {type = "item", name = "high-grade-alumina", amount = 1},
         {type = "fluid", name = "water", amount = 50},
     },
-    --main_product = "crystalized-sodium-aluminate",
+    main_product = "high-grade-alumina",
     icon = "__pyrawores__/graphics/icons/high-grade-alumina.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
