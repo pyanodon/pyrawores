@@ -148,7 +148,7 @@ ITEM {
 }
 
 
---chromite
+--CHROMIUM
 
 ITEM {
     type = "item",
@@ -231,6 +231,63 @@ ITEM {
     type = "item",
     name = "processed-chromite",
     icon = "__pyrawores__/graphics/icons/processed-chromite.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+--GOLD
+
+ITEM {
+    type = "item",
+    name = "gold-precipitate",
+    icon = "__pyrawores__/graphics/icons/gold-precipitate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "purified-gold",
+    icon = "__pyrawores__/graphics/icons/purified-gold.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "gold-concentrate",
+    icon = "__pyrawores__/graphics/icons/gold-concentrate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "gold-precipitate-2",
+    icon = "__pyrawores__/graphics/icons/gold-precipitate-2.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "gold-plate",
+    icon = "__pyrawores__/graphics/icons/gold-plate.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "py-rawores-items",
