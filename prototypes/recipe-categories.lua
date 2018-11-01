@@ -39,4 +39,16 @@ data:extend {
         type = "recipe-category",
         name = "impact-crusher"
     },
+    {
+        type = "recipe-category",
+        name = "casting"
+    },
+    {
+        type = "recipe-category",
+        name = "leaching"
+    },
+    {
+        type = "recipe-category",
+        name = "bof"
+    },
 }
