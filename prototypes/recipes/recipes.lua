@@ -236,5 +236,39 @@ RECIPE {
     },
     results = {
         {type = 'item', name = 'mukmoux-fat', amount = 30}
-    }
+    },
 }:add_unlock("machines-mk02")
+
+RECIPE {
+    type = 'recipe',
+    name = 'p2s5',
+    category = 'hpf',
+    enabled = 'false',
+    energy_required = 3,
+    ingredients = {
+        {type = 'item', name = 'stone', amount = 15},
+        {type = 'item', name = 'pyrite', amount = 10},
+    },
+    results = {
+        {type = 'item', name = 'p2s5', amount = 1},
+        {type = 'item', name = 'iron-ore', amount = 3},
+    },
+    main_product = "p2s5",
+}:add_unlock("machines-mk03"):replace_ingredient("stone", "phosphate-rock")
+
+RECIPE {
+    type = 'recipe',
+    name = 'p2s5-2',
+    category = 'hpf',
+    enabled = 'false',
+    energy_required = 3,
+    ingredients = {
+        {type = 'item', name = 'stone', amount = 15},
+        {type = 'item', name = 'sulfur', amount = 10},
+    },
+    results = {
+        {type = 'item', name = 'p2s5', amount = 1},
+        {type = 'item', name = 'pyrite', amount = 1},
+    },
+    main_product = "p2s5",
+}:add_unlock("machines-mk03"):replace_ingredient("stone", "phosphate-rock")

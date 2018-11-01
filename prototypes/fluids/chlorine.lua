@@ -3,14 +3,14 @@ RECIPE {
     name = "chlorine",
     category = "electrolyzer", 
     enabled = false,
-    energy_required = 4,
+    energy_required = 2,
     ingredients = {
         {type = "fluid", name = "water-saline", amount = 100},
     },
     results = {
-        {type = "fluid", name = "chlorine", amount = 50},
-        {type = "fluid", name = "hydrogen", amount = 50},
-        {type = "item", name = "sodium-hydroxide", amount = 1},
+        {type = "fluid", name = "chlorine", amount = 30},
+        {type = "fluid", name = "hydrogen", amount = 30},
+        {type = "item", name = "sodium-hydroxide", amount = 2},
     },
     --main_product = "chlorine",
     icon = "__pyrawores__/graphics/icons/water-saline-electrolyzer.png",

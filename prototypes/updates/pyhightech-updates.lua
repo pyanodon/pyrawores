@@ -11,6 +11,8 @@ RECIPE('micro-fiber'):add_ingredient({type = "item", name = "sodium-hydroxide", 
 RECIPE('phenolicboard'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =3})
 RECIPE('epoxy'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =5})
 
+RECIPE('cresylic-acid'):remove_ingredient('aromatics'):add_ingredient({type = 'item', name = 'phenol', amount = 15})
+
 
 RECIPE {
     type = "recipe",
@@ -52,3 +54,20 @@ RECIPE {
     },
     main_product = 'fiberboard'
 }:add_unlock("machines-mk02")
+
+RECIPE {
+    type = 'recipe',
+    name = 'biofilm-pyht',
+    category = 'nano',
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = 'item', name = 'sub-denier-microfiber', amount = 1},
+        {type = 'item', name = 'resilin', amount = 1},
+        {type = 'fluid', name = 'nitrogen', amount = 500}
+    },
+    results = {
+        {type = 'item', name = 'biofilm', amount = 15},
+    },
+    main_product = 'biofilm'
+}:add_unlock("nano-tech")

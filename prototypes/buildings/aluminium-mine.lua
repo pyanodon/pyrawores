@@ -4,10 +4,13 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"automated-factory", 1},
+        {"automated-factory", 2},
         {"iron-plate", 60},
         {"jaw-crusher", 1},
-        {"electronic-circuit", 40}
+        {"electronic-circuit", 40} --add pyht hyperelastic material/intelligent unit
+        
+        -- addpyfe super-alloy/control-unit
+        -- add special drill made of titanium-aramide-(pyfe)molybdenium alloy
     },
     results = {
         {"aluminium-mine", 1}
