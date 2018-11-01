@@ -227,6 +227,17 @@ ITEM {
     stack_size = 500
 }
 
+ITEM {
+    type = "item",
+    name = "processed-chromite",
+    icon = "__pyrawores__/graphics/icons/processed-chromite.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
 --EXTRAS--
 
 ITEM {

@@ -27,7 +27,7 @@ RECIPE('al-pulp-03'):change_category('agitator')
 RECIPE('al-pulp-04'):change_category('agitator')
 RECIPE('crystalized-sodium-aluminate'):remove_ingredient('steam'):add_ingredient({type = "fluid", name = "pressured-air", amount = 500})
 RECIPE('sodium-aluminate'):replace_result('water','al-tailings')
-
+RECIPE('cold-clean-air'):replace_ingredient('filtration-media','biofilm')
 
 
 RECIPE('grade-4-chromite'):change_category('hydrocyclone')
