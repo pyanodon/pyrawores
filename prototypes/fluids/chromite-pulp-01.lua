@@ -5,18 +5,16 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "grade-4-chromite", amount = 1}, --add sodium chlorate --add sodium hydroxide
+        {type = "item", name = "grade-4-chromite", amount = 5},
         {type = "fluid", name = "water", amount = 100},
     },
     results = {
         {type = "fluid", name = "chromite-pulp-01", amount = 100},
     },
-    --main_product = "grade-4-chromite",
-    icon = "__pyrawores__/graphics/icons/chromite-pulp-01.png",
-    icon_size = 32,
+    main_product = "chromite-pulp-01",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("chromium-mk03")
+}:add_unlock("chromium-mk03"):change_category('agitator'):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 10})
 
 
 FLUID {

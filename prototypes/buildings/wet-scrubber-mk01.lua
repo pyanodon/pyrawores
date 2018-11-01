@@ -96,9 +96,9 @@ ENTITY {
             east_position = util.by_pixel(-1, -190),
             animation = {
                 filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/anim.png",
-                priority = "high",
+                --priority = "extra-high",
                 frame_count = 2,
-                line_length = 2,
+                --line_length = 2,
                 width = 192,
                 height = 128,
                 animation_speed = 0.4

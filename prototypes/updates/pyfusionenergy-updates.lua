@@ -1,4 +1,5 @@
 TECHNOLOGY('crusher'):add_prereq('machines-mk01')
+TECHNOLOGY('helium-processing'):remove_pack('production-science-pack')
 
 RECIPE('hydrocyclone'):replace_ingredient('centrifuge', 'classifier')
 RECIPE('hydrocyclone'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk02')
@@ -31,7 +32,6 @@ RECIPE('sodium-aluminate'):replace_result('water','al-tailings')
 
 RECIPE('grade-4-chromite'):change_category('hydrocyclone')
 RECIPE('grade-2-chromite-beneficiation'):change_category('screener')
-RECIPE('chromite-pulp-01'):change_category('agitator')
 
 RECIPE("molybdenum-plate"):add_ingredient({type = "fluid", name = "hydrogen", amount = 100}):change_category('electrolyzer')
 RECIPE("agitator"):replace_ingredient("iron-plate", "glass")
@@ -73,6 +73,7 @@ RECIPE("silver-foam"):replace_ingredient("water", "hydrogen-chloride")
 
 
 
+
 RECIPE {
     type = "recipe",
     name = "al-tailings-separation",
@@ -92,3 +93,25 @@ RECIPE {
     subgroup = "py-rawores-fluids",
     order = "q-2"
 }:add_unlock("aluminium-mk03")
+
+
+--NITROGEN 2 -- 
+
+RECIPE {
+    type = "recipe",
+    name = "nitrogen-pyfe",
+    category = "wet-scrubber",
+    enabled = false,
+    energy_required = 2,
+    ingredients = {
+        {type = "fluid", name = "cold-clean-air", amount = 200},
+        {type = "item", name = "active-carbon", amount = 2},
+    },
+    results = {
+        {type = "fluid", name = "nitrogen", amount = 150},
+        {type = "fluid", name = "carbon-dioxide", amount = 50}
+    },
+    main_product = "nitrogen",
+    subgroup = "py-rawores-fluids",
+    order = "q-2"
+}:add_unlock("machines-mk03")

@@ -205,6 +205,27 @@ ITEM {
     stack_size = 500
 }
 
+ITEM {
+    type = "item",
+    name = "chromite-rejects",
+    icon = "__pyrawores__/graphics/icons/chromite-rejects.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "high-chromite",
+    icon = "__pyrawores__/graphics/icons/high-chromite.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
 
 --EXTRAS--
 
@@ -267,6 +288,28 @@ ITEM {
     type = "item",
     name = "sodium-sulfate",
     icon = "__pyrawores__/graphics/icons/sodium-sulfate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "p2s5",
+    icon = "__pyrawores__/graphics/icons/p2s5.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "pyrite",
+    icon = "__pyrawores__/graphics/icons/pyrite.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "py-rawores-items",
