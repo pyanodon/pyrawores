@@ -35,6 +35,7 @@ require("prototypes/buildings/electrolyzer-mk01")
 require("prototypes/buildings/casting-unit-mk01")
 require("prototypes/buildings/leaching-station-mk01")
 require("prototypes/buildings/bof-mk01")
+require("prototypes/buildings/eaf-mk01")
 require("prototypes/buildings/salt-mine")
 
 --))

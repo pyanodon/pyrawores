@@ -64,6 +64,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "gold-solution", amount = 100}, 
         {type = "item", name = "iron-oxide", amount = 2},
+        {type = "item", name = "nichrome", amount =4},
         --pyht graphite
     },
     results = {

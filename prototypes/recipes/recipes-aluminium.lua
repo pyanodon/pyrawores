@@ -71,6 +71,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 1},--pyht graphite
         {type = "item", name = "sodium-hydroxide", amount =8},
+        {type = "item", name = "nichrome", amount =4},
     },
     results = {
         {type = "item", name = "high-grade-alumina", amount = 1},
@@ -81,7 +82,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("aluminium-mk04")
+}:add_unlock("aluminium-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 ----PLATES----
 

@@ -3,7 +3,7 @@ RECIPE {
     name = "chromite-pulp-02",
     category = "chemistry",--pyFE pan
     enabled = false,
-    energy_required = 3,
+    energy_required = 5,
     ingredients = {
         {type = "item", name = "high-chromite", amount = 1},
         {type = "fluid", name = "water", amount = 300},

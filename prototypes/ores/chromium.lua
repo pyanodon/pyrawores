@@ -27,7 +27,7 @@ ENTITY {
         results = {
             {"ore-chromium", 1}
         },
-        fluid_amount = 20,
+        fluid_amount = 40,
         required_fluid = "syngas"
     },
     starting_area = false,

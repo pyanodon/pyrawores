@@ -264,7 +264,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = 'item', name = 'stone', amount = 15},
-        {type = 'item', name = 'sulfur', amount = 10},
+        {type = 'item', name = 'sulfur', amount = 20},
     },
     results = {
         {type = 'item', name = 'p2s5', amount = 1},

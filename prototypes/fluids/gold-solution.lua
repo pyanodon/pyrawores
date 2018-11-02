@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "gold-precipitate", amount = 1},
+        {type = "item", name = "gold-precipitate-2", amount = 1},
         {type = "item", name = "coal-dust", amount = 10},
         {type = "fluid", name = "water", amount = 200}, --pyht ammonia
     },
