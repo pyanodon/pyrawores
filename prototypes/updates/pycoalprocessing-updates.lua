@@ -10,3 +10,5 @@ RECIPE('diborane'):replace_ingredient('water','hydrogen')
 RECIPE('ppd'):replace_ingredient('water','hydrogen')
 RECIPE('aromatics2'):replace_ingredient('water','hydrogen')
 RECIPE('niobium-complex'):replace_ingredient('water','hydrogen-chloride')
+
+RECIPE('making-chromium'):remove_unlock('coal-processing-2')

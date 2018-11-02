@@ -203,3 +203,45 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "q-2"
 }:add_unlock("chromium-mk01")
+
+
+--CHROMIUM SMELTING YIELDS
+
+
+RECIPE {
+    type = "recipe",
+    name = "chromium-01",
+    category = "casting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "chromite-sand", amount = 15},
+        {type = "item", name = "limestone", amount = 3},
+        {type = "fluid", name = "carbon-dioxide", amount = 150},
+    },
+    results = {
+        {type = "item", name = "chromium", amount = 5},
+    },
+    main_product = "chromium",
+    subgroup = "py-rawores-recipes",
+    order = "q-2"
+}:add_unlock("chromium-mk01")
+
+RECIPE {
+    type = "recipe",
+    name = "chromium-02",
+    category = "eaf",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "chromite-sand", amount = 15},
+        {type = "item", name = "limestone", amount = 3},
+        {type = "fluid", name = "carbon-dioxide", amount = 150},
+    },
+    results = {
+        {type = "item", name = "chromium", amount = 5},
+    },
+    main_product = "chromium",
+    subgroup = "py-rawores-recipes",
+    order = "q-2"
+}:add_unlock("chromium-mk02")

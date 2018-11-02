@@ -1,7 +1,6 @@
 RECIPE('al-pulp-01'):replace_ingredient('boric-acid', 'phosphoric-acid')
 RECIPE('powdered-ralesia-seeds'):change_category('pulp')
 RECIPE('starch'):add_ingredient({type = "item", name = "fiberboard", amount =1})
-RECIPE('high-grade-alumina'):add_ingredient({type = "item", name = "graphite", amount =3})
 RECIPE('glass-fiber'):add_ingredient({type = "item", name = "sodium-sulfate", amount =1})
 RECIPE('phosphate-glass'):add_ingredient({type = "item", name = "sodium-sulfate", amount =1})
 RECIPE("nexelit-matrix"):replace_ingredient("wood", "epoxy")
