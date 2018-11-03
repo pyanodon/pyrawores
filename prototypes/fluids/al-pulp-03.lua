@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "al-pulp-03",
-    category = "chemistry", --pyfe agitator
+    category = "leaching",
     enabled = false,
     energy_required = 3,
     ingredients = {

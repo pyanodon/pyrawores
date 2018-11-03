@@ -134,6 +134,28 @@ ITEM {
     stack_size = 500
 }
 
+ITEM {
+    type = "item",
+    name = "sintered-aluminium",
+    icon = "__pyrawores__/graphics/icons/sintered-aluminium.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "reduced-aluminium",
+    icon = "__pyrawores__/graphics/icons/reduced-aluminium.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
 --TITANIUM
 
 ITEM {

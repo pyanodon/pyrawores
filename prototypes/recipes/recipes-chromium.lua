@@ -366,3 +366,25 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "q-2"
 }:add_unlock("chromium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+
+
+--INITIAL PLATE
+
+RECIPE {
+    type = "recipe",
+    name = "chromium-plate-1",
+    category = "smelting",
+    enabled = true,
+    energy_required = 12,
+    ingredients = {
+        {type = "item", name = "ore-chromium", amount = 6}
+    },
+    results = {
+        {type = "item", name = "chromium", amount = 1}
+    },
+    --main_product= "glass",
+    icon = "__pycoalprocessing__/graphics/icons/chromium.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}

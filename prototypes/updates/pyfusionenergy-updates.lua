@@ -23,10 +23,9 @@ RECIPE('quartz-pulp-01'):change_category('hydrocyclone')
 RECIPE('al-pulp-01'):change_category('mixer')
 RECIPE('sodium-bisulfate'):change_category('mixer')
 RECIPE('al-pulp-02'):change_category('agitator')
-RECIPE('al-pulp-03'):change_category('agitator')
 RECIPE('al-pulp-04'):change_category('agitator')
 RECIPE('crystalized-sodium-aluminate'):remove_ingredient('steam'):add_ingredient({type = "fluid", name = "pressured-air", amount = 500})
-RECIPE('sodium-aluminate'):replace_result('water','al-tailings')
+--RECIPE('sodium-aluminate'):replace_result('water','al-tailings')
 RECIPE('cold-clean-air'):replace_ingredient('filtration-media','biofilm')
 
 

@@ -16,6 +16,10 @@ data:extend {
         name = "aluminium-rock"
     },
     {
+        type = "resource-category",
+        name = "chromium-rock"
+    },
+    {
         type = "recipe-category",
         name = "scrubber"
     },
