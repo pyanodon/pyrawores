@@ -8,8 +8,8 @@ RECIPE {
         {type = "fluid", name = "water", amount = 200},
     },
     results = {
-        {type = "fluid", name = "hydrogen", amount = 100},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "hydrogen", amount = 80},
+        {type = "fluid", name = "oxygen", amount = 40},
     },
     --main_product = "hydrogen",
     icon = "__pyrawores__/graphics/icons/water-electrolysis.png",

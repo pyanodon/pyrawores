@@ -8,8 +8,8 @@ RECIPE {
         {type = "fluid", name = "water-saline", amount = 100},
     },
     results = {
-        {type = "fluid", name = "chlorine", amount = 30},
-        {type = "fluid", name = "hydrogen", amount = 30},
+        {type = "fluid", name = "chlorine", amount = 20},
+        {type = "fluid", name = "hydrogen", amount = 20},
         {type = "item", name = "sodium-hydroxide", amount = 4},
     },
     --main_product = "chlorine",

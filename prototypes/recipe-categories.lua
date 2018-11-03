@@ -55,4 +55,12 @@ data:extend {
         type = "recipe-category",
         name = "eaf"
     },
+    {
+        type = "recipe-category",
+        name = "sinter"
+    },
+    {
+        type = "recipe-category",
+        name = "drp"
+    },
 }

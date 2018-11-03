@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "chromite-pulp-03",
-    category = "chemistry",--pyFE agitator
+    category = "leaching",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -14,7 +14,7 @@ RECIPE {
     main_product = "chromite-pulp-03",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("chromium-mk03"):change_category('agitator')
+}:add_unlock("chromium-mk03")
 
 
 FLUID {
