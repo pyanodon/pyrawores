@@ -238,6 +238,28 @@ ITEM {
     stack_size = 500
 }
 
+ITEM {
+    type = "item",
+    name = "sintered-chromium",
+    icon = "__pyrawores__/graphics/icons/sintered-chromium.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "reduced-chromium",
+    icon = "__pyrawores__/graphics/icons/reduced-chromium.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
 --GOLD
 
 ITEM {
