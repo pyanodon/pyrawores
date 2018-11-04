@@ -339,6 +339,132 @@ ITEM {
     stack_size = 500
 }
 
+
+--COPPER
+
+ITEM {
+    type = "item",
+    name = "grade-1-copper",
+    icon = "__pyrawores__/graphics/icons/grade-1-copper.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-2-copper",
+    icon = "__pyrawores__/graphics/icons/grade-2-copper.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-3-copper",
+    icon = "__pyrawores__/graphics/icons/grade-3-copper.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-4-copper",
+    icon = "__pyrawores__/graphics/icons/grade-4-copper.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "copper-low-dust",
+    icon = "__pyrawores__/graphics/icons/copper-low-dust.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "copper-rejects",
+    icon = "__pyrawores__/graphics/icons/copper-rejects.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "low-grade-copper",
+    icon = "__pyrawores__/graphics/icons/low-grade-copper.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "low-grade-rejects",
+    icon = "__pyrawores__/graphics/icons/low-grade-copper-rejects.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+
+ITEM {
+    type = "item",
+    name = "high-grade-copper",
+    icon = "__pyrawores__/graphics/icons/high-grade-copper.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sintered-copper",
+    icon = "__pyrawores__/graphics/icons/sintered-copper.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "reduced-copper",
+    icon = "__pyrawores__/graphics/icons/reduced-copper.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+
 --EXTRAS--
 
 ITEM {
