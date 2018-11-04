@@ -20,6 +20,10 @@ data:extend {
         name = "chromium-rock"
     },
     {
+        type = "resource-category",
+        name = "copper-rock"
+    },
+    {
         type = "recipe-category",
         name = "scrubber"
     },
