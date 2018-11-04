@@ -12,3 +12,5 @@ RECIPE('aromatics2'):replace_ingredient('water','hydrogen')
 RECIPE('niobium-complex'):replace_ingredient('water','hydrogen-chloride')
 
 RECIPE('making-chromium'):remove_unlock('coal-processing-2')
+RECIPE('crushing-iron'):remove_unlock('crusher')
+RECIPE('crushing-copper'):remove_unlock('crusher')

@@ -56,10 +56,10 @@ ENTITY {
       {
         {
             name = "smoke",
-            north_position = {3.0, -5.0},
-            east_position = {3.0, -5.0},
-            west_position = {3.0, -5.0},
-            south_position = {3.0, -5.0},
+            north_position = {2.95, -5.0},
+            east_position = {2.95, -5.0},
+            west_position = {2.95, -5.0},
+            south_position = {2.95, -5.0},
             frequency = 90,
             starting_vertical_speed = 0.05,
             slow_down_factor = 1,
