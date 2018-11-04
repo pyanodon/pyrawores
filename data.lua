@@ -13,6 +13,7 @@ require("prototypes.ores.chromium")
 require("prototypes.ores.quartz-rock")
 require("prototypes.ores.chromium-rock")
 require("prototypes.ores.aluminium-rock")
+require("prototypes.ores.copper-rock")
 require("prototypes.ores.salt-rock")
 --))
 
@@ -42,6 +43,7 @@ require("prototypes/buildings/eaf-mk01")
 require("prototypes/buildings/sinter-unit")
 require("prototypes/buildings/drp")
 require("prototypes/buildings/salt-mine")
+require("prototypes/buildings/copper-mine")
 
 --))
 
