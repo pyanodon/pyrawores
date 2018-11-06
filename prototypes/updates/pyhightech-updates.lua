@@ -9,8 +9,10 @@ RECIPE('fiberboard'):add_ingredient({type = "item", name = "sodium-hydroxide", a
 RECIPE('micro-fiber'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =3})
 RECIPE('phenolicboard'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =3})
 RECIPE('epoxy'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =5})
+--RECIPE('outlet-gas-3'):add_result({type = "fluid", name = "ammonia", amount = 50})
 
 RECIPE('cresylic-acid'):remove_ingredient('aromatics'):add_ingredient({type = 'item', name = 'phenol', amount = 15})
+RECIPE('outlet-gas-02'):change_category('fbreactor')
 
 
 RECIPE {

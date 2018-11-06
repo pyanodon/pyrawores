@@ -16,7 +16,8 @@ local default = setmetatable({}, require("stdlib/utils/classes/string_array"))
 
 --ADAPTATIONS
 
-
+ITEM("copper-plate"):set("icon", "__pyrawores__/graphics/icons/copper-plate.png")
+ITEM("iron-plate"):set("icon", "__pyrawores__/graphics/icons/iron-plate.png")
 
 --RECIPES UPDATES
 
@@ -25,3 +26,4 @@ RECIPE('py-construction-robot-01'):replace_ingredient('iron-plate', 'aluminium-p
 RECIPE('py-roboport-mk01'):replace_ingredient('iron-plate', 'aluminium-plate')
 RECIPE('py-recharge-station-mk01'):add_ingredient({type = "item", name = "aluminium-plate", amount =10})
 RECIPE('quartz-mine'):add_ingredient({type = "item", name = "py-construction-robot-01", amount =10})
+
