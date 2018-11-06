@@ -340,6 +340,20 @@ ITEM {
 }
 
 
+--COKE
+
+ITEM {
+    type = "item",
+    name = "redhot-coke",
+    icon = "__pyrawores__/graphics/icons/redhot-coke.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+
 --COPPER
 
 ITEM {
@@ -464,6 +478,19 @@ ITEM {
     stack_size = 500
 }
 
+
+--NICKEL
+
+ITEM {
+    type = "item",
+    name = "nickel-plate",
+    icon = "__pyrawores__/graphics/icons/nickel-plate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
 
 --EXTRAS--
 
