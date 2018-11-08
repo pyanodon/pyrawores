@@ -244,7 +244,7 @@ RECIPE {
     main_product = "molten-copper",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("copper-mk02"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("copper-mk02")
 
 RECIPE {
     type = "recipe",
@@ -263,7 +263,7 @@ RECIPE {
     main_product = "molten-copper",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("copper-mk03"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("copper-mk03")
 
 
 

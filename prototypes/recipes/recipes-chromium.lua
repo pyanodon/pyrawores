@@ -128,6 +128,8 @@ RECIPE {
         {type = "item", name = "sand", amount = 1, probability = 0.4},
     },
     main_product = "high-chromite",
+    icon = "__pyrawores__/graphics/icons/recrush-high-chromite.png",
+    icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "q-2"
 }:add_unlock("chromium-mk03"):change_category('secondary-crusher')

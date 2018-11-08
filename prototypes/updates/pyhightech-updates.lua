@@ -72,3 +72,40 @@ RECIPE {
     },
     main_product = 'biofilm'
 }:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "xylenol-2",
+    category = "chemistry",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "methanol", amount = 100},
+        {type = "item", name = "phenol", amount = 30},
+        {type = "item", name = "iron-oxide", amount = 10},
+    },
+    results = {
+        {type = "fluid", name = "xylenol", amount = 100},
+    },
+    main_product = "xylenol",
+    subgroup = "py-rawores-fluids",
+    order = "q-1"
+}:add_unlock("iron-mk04")
+
+RECIPE {
+    type = "recipe",
+    name = "xylenol-3",
+    category = "chemistry",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "benzene", amount = 50},
+        {type = "fluid", name = "aromatics", amount = 100},
+    },
+    results = {
+        {type = "fluid", name = "xylenol", amount = 50},
+    },
+    main_product = "xylenol",
+    subgroup = "py-rawores-fluids",
+    order = "q-1"
+}:add_unlock("iron-mk04"):change_category('mixer')

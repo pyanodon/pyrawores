@@ -581,3 +581,138 @@ ITEM {
     order = "a",
     stack_size = 500
 }
+
+
+--IRON
+
+ITEM {
+    type = "item",
+    name = "processed-iron-ore",
+    icon = "__pyrawores__/graphics/icons/processed-iron-ore.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-1-iron",
+    icon = "__pyrawores__/graphics/icons/grade-1-iron.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-2-iron",
+    icon = "__pyrawores__/graphics/icons/grade-2-iron.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-3-iron",
+    icon = "__pyrawores__/graphics/icons/grade-3-iron.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-4-iron",
+    icon = "__pyrawores__/graphics/icons/grade-4-iron.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "unslimed-iron",
+    icon = "__pyrawores__/graphics/icons/unslimed-iron.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "high-grade-iron",
+    icon = "__pyrawores__/graphics/icons/high-grade-iron.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "iron-dust-concentrate",
+    icon = "__pyrawores__/graphics/icons/iron-dust-concentrate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "iron-concentrate",
+    icon = "__pyrawores__/graphics/icons/iron-concentrate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "iron-ore-dust",
+    icon = "__pyrawores__/graphics/icons/iron-ore-dust.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sintered-iron",
+    icon = "__pyrawores__/graphics/icons/sintered-iron.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "reduced-iron",
+    icon = "__pyrawores__/graphics/icons/reduced-iron.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
