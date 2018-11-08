@@ -11,6 +11,8 @@ RECIPE('secondary-crusher'):remove_unlock('advanced-mining-facilities'):add_unlo
 
 RECIPE('automated-screener'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk02')
 
+RECIPE('jig'):remove_unlock('diamond-mining'):add_unlock('machines-mk03')
+
 RECIPE('centrifugal-pan'):remove_unlock('diamond-mining'):add_unlock('machines-mk03')
 
 RECIPE('agitador'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk03')
@@ -70,6 +72,7 @@ RECIPE("science-coating"):replace_ingredient("steel-plate", "titanium-plate")
 RECIPE("agzn-alloy"):replace_ingredient("iron-plate", "silver-plate"):replace_ingredient("stone", "zinc-plate")
 RECIPE("silver-foam"):replace_ingredient("water", "hydrogen-chloride")
 
+RECIPE("automated-screener"):replace_ingredient("electric-engine-unit", "engine-unit"):replace_ingredient("ground-borer", "electric-mining-drill")
 
 
 
