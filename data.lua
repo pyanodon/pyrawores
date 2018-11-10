@@ -15,6 +15,7 @@ require("prototypes.ores.chromium-rock")
 require("prototypes.ores.aluminium-rock")
 require("prototypes.ores.copper-rock")
 require("prototypes.ores.salt-rock")
+require("prototypes.ores.iron-rock")
 --))
 
 --(( Technology ))--
@@ -26,6 +27,7 @@ require("prototypes/technologies/copper")
 require("prototypes/technologies/iron")
 require("prototypes/technologies/gold")
 require("prototypes/technologies/coke")
+require("prototypes/technologies/coal")
 
 --(( BUILDINGS ))--
 require("prototypes/buildings/quartz-drill-mk01")
@@ -46,6 +48,7 @@ require("prototypes/buildings/sinter-unit")
 require("prototypes/buildings/drp")
 require("prototypes/buildings/salt-mine")
 require("prototypes/buildings/copper-mine")
+require("prototypes/buildings/iron-mine")
 
 --))
 
