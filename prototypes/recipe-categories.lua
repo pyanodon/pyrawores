@@ -9,6 +9,10 @@ data:extend {
     },
     {
         type = "resource-category",
+        name = "iron-rock"
+    },
+    {
+        type = "resource-category",
         name = "quartz-rock"
     },
     {
