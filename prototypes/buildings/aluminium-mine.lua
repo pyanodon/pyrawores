@@ -15,7 +15,7 @@ RECIPE {
     results = {
         {"aluminium-mine", 1}
     }
-}:add_unlock("aluminium-mk04")
+}:add_unlock("aluminium-mk03")
 
 ITEM {
     type = "item",

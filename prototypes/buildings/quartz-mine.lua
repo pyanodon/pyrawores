@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {"quartz-mine", 1}
     }
-}:add_unlock("quartz-mk04")
+}:add_unlock("quartz-mk03")
 
 ITEM {
     type = "item",

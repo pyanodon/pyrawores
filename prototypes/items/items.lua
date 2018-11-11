@@ -716,3 +716,17 @@ ITEM {
     order = "a",
     stack_size = 500
 }
+
+
+--COAL
+
+ITEM {
+    type = "item",
+    name = "raw-coal",
+    icon = "__pyrawores__/graphics/icons/raw-coal.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}

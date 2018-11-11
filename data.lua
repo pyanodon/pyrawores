@@ -16,6 +16,7 @@ require("prototypes.ores.aluminium-rock")
 require("prototypes.ores.copper-rock")
 require("prototypes.ores.salt-rock")
 require("prototypes.ores.iron-rock")
+require("prototypes.ores.coal-rock")
 --))
 
 --(( Technology ))--
@@ -49,6 +50,7 @@ require("prototypes/buildings/drp")
 require("prototypes/buildings/salt-mine")
 require("prototypes/buildings/copper-mine")
 require("prototypes/buildings/iron-mine")
+require("prototypes/buildings/coal-mine")
 
 --))
 
