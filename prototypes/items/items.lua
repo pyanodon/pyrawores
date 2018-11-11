@@ -728,5 +728,33 @@ ITEM {
     flags = {"goes-to-main-inventory"},
     subgroup = "py-rawores-items",
     order = "a",
+    stack_size = 500,
+    fuel_value = "5MJ",
+    fuel_category = "chemical",
+}
+
+ITEM {
+    type = "item",
+    name = "crushed-coal",
+    icon = "__pyrawores__/graphics/icons/crushed-coal.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    fuel_value = "15MJ",
+    fuel_category = "chemical",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "coarse-coal",
+    icon = "__pyrawores__/graphics/icons/coarse-coal.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    fuel_value = "30MJ",
+    fuel_category = "chemical",
     stack_size = 500
 }
