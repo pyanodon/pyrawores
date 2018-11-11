@@ -13,6 +13,10 @@ data:extend {
     },
     {
         type = "resource-category",
+        name = "coal-rock"
+    },
+    {
+        type = "resource-category",
         name = "quartz-rock"
     },
     {

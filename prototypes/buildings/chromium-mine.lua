@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"chromium-mine", 1}
     }
-}:add_unlock("machines-mk04")
+}:add_unlock("chromium-mk03")
 
 ITEM {
     type = "item",
