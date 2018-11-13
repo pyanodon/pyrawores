@@ -56,7 +56,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("chromium-mk01")
+}:add_unlock("chromium-mk01"):change_category('screener')
 
 RECIPE {
     type = "recipe",

@@ -212,7 +212,7 @@ RECIPE {
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "reduced-iron", amount = 2},
+        {type = "item", name = "reduced-iron", amount = 1},
     },
     main_product = "reduced-iron",
     subgroup = "py-rawores-recipes",
@@ -237,7 +237,7 @@ RECIPE {
     main_product = "sintered-iron",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("iron-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("iron-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",

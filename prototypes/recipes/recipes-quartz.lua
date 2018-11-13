@@ -110,9 +110,9 @@ RECIPE {
     name = "glass-1",
     category = "smelting",
     enabled = true,
-    energy_required = 5,
+    energy_required = 10,
     ingredients = {
-        {type = "item", name = "ore-quartz", amount = 1}
+        {type = "item", name = "ore-quartz", amount = 6}
     },
     results = {
         {type = "item", name = "glass", amount = 1}

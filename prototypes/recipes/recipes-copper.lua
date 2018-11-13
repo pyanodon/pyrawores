@@ -174,7 +174,7 @@ RECIPE {
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "reduced-copper", amount = 2},
+        {type = "item", name = "reduced-copper", amount = 1},
     },
     main_product = "reduced-copper",
     subgroup = "py-rawores-recipes",

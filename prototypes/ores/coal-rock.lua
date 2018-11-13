@@ -49,7 +49,7 @@ DATA {
         richness_multiplier = 800,
         richness_multiplier_distance_bonus = 1000,
         richness_base = 400000,
-        coverage = 0.00001,
+        coverage = 0.000002,
         peaks = {
             {
                 noise_layer = "coal-rock",
