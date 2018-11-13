@@ -32,7 +32,6 @@ RECIPE('cold-clean-air'):replace_ingredient('filtration-media','biofilm')
 
 
 RECIPE('grade-4-chromite'):change_category('hydrocyclone')
-RECIPE('grade-2-chromite-beneficiation'):change_category('screener')
 
 RECIPE("molybdenum-plate"):add_ingredient({type = "fluid", name = "hydrogen", amount = 100}):change_category('electrolyzer')
 RECIPE("agitator"):replace_ingredient("iron-plate", "glass")

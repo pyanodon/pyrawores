@@ -3,7 +3,7 @@
 RECIPE {
     type = "recipe",
     name = "crushed-coal",
-    category = "secondary-crusher",
+    category = "crusher",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -15,14 +15,16 @@ RECIPE {
         {type = "item", name = "coal-dust", amount = 1, probability = 0.3}
     },
     main_product = "crushed-coal",
+    icon = "__pyrawores__/graphics/icons/recrush-coal.png",
+    icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("coal-mk01")
+}:add_unlock("coal-mk01"):change_category('secondary-crusher')
 
 RECIPE {
     type = "recipe",
     name = "coarse-coal",
-    category = "screener",
+    category = "solid-separator",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -36,7 +38,8 @@ RECIPE {
     main_product = "coarse-coal",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("coal-mk02")
+}:add_unlock("coal-mk02"):change_category('screener')
+
 
 RECIPE {
     type = "recipe",
