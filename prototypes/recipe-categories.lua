@@ -17,6 +17,10 @@ data:extend {
     },
     {
         type = "resource-category",
+        name = "lead-rock"
+    },
+    {
+        type = "resource-category",
         name = "quartz-rock"
     },
     {
