@@ -44,17 +44,24 @@ DATA {
     selection_box = {{-5.5, -5.5}, {5.5, 5.5}},
     autoplace = {
         control = "coal-rock",
-        sharpness = 2,
+        sharpness = 3,
         --max_probability = 0.035,
         richness_multiplier = 800,
         richness_multiplier_distance_bonus = 1000,
-        richness_base = 400000,
-        coverage = 0.000002,
+        richness_base = 5000000,
+        coverage = 0.00003 / 20,
         peaks = {
             {
                 noise_layer = "coal-rock",
-                noise_octaves_difference = -2.85,
+                noise_octaves_difference = -2.25,
                 noise_persistence = 0.4
+            },
+            --no starting area
+            {
+                influence = -1.0,
+                starting_area_weight_optimal = 1,
+                starting_area_weight_range = 0,
+                starting_area_weight_max_range = 2
             },
         }
     },

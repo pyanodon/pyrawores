@@ -36,6 +36,10 @@ data:extend {
         name = "copper-rock"
     },
     {
+        type = "resource-category",
+        name = "nexelit-rock"
+    },
+    {
         type = "recipe-category",
         name = "scrubber"
     },
