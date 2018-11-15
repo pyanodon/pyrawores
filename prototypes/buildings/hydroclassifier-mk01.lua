@@ -44,7 +44,7 @@ ENTITY {
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"hydroclassifier"},
-    crafting_speed = 0.2,
+    crafting_speed = 0.4,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
@@ -61,7 +61,7 @@ ENTITY {
                 height = 227,
                 line_length = 21,
                 frame_count = 150,
-                animation_speed = 2,
+                animation_speed = 1,
                 shift = util.by_pixel(-63, -2)
             },
             {
@@ -71,7 +71,7 @@ ENTITY {
                 height = 227,
                 line_length = 21,
                 frame_count = 150,
-                animation_speed = 2,
+                animation_speed = 1,
                 shift = util.by_pixel(31, -2)
             },
             {
@@ -81,7 +81,7 @@ ENTITY {
                 height = 227,
                 line_length = 21,
                 frame_count = 150,
-                animation_speed = 2,
+                animation_speed = 1,
                 shift = util.by_pixel(95, -2)
             },
             {
@@ -91,7 +91,7 @@ ENTITY {
                 height = 222,
                 line_length = 21,
                 frame_count = 150,
-                animation_speed = 2,
+                animation_speed = 1,
                 draw_as_shadow = true,
                 shift = util.by_pixel(79, -2)
             }

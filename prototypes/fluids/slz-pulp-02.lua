@@ -1,13 +1,13 @@
 RECIPE {
     type = "recipe",
     name = "slz-pulp-02",
-    category = "flotation",
+    category = "leaching",
     enabled = false,
     energy_required = 1,
     ingredients = {
         {type = "fluid", name = "slz-pulp-01", amount = 100},
         {type = "fluid", name = "organic-solvent", amount = 100}, --pyfe soda-ash
-        --pyfe pressured air
+
     },
     results = {
         {type = "fluid", name = "slz-pulp-02", amount = 100},
@@ -15,7 +15,7 @@ RECIPE {
     main_product = "slz-pulp-02",
     subgroup = "py-rawores-fluids",
     order = "q-1"
-}:add_unlock("lead-mk03"):replace_ingredient("organic-solvent", "soda-ash"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("lead-mk03"):replace_ingredient("organic-solvent", "soda-ash")
 
 
 FLUID {

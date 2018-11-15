@@ -963,3 +963,104 @@ ITEM {
     order = "a",
     stack_size = 500
 }
+
+--NEXELIT
+
+ITEM {
+    type = "item",
+    name = "clean-nexelit",
+    icon = "__pyrawores__/graphics/icons/clean-nexelit.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-1-nexelit",
+    icon = "__pyrawores__/graphics/icons/grade-1-nexelit.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-2-nexelit",
+    icon = "__pyrawores__/graphics/icons/grade-2-nexelit.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-3-nexelit",
+    icon = "__pyrawores__/graphics/icons/grade-3-nexelit.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "fine-nexelit-powder",
+    icon = "__pyrawores__/graphics/icons/fine-nexelit-powder.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "nexelit-rejects",
+    icon = "__pyrawores__/graphics/icons/nexelit-rejects.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "high-grade-nexelit",
+    icon = "__pyrawores__/graphics/icons/high-grade-nexelit.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "reduced-nexelit",
+    icon = "__pyrawores__/graphics/icons/reduced-nexelit.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sintered-nexelit",
+    icon = "__pyrawores__/graphics/icons/sintered-nexelit.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
