@@ -44,7 +44,7 @@ ENTITY {
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"scrubber"},
-    crafting_speed = 0.2,
+    crafting_speed = 0.4,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
@@ -60,7 +60,7 @@ ENTITY {
                 height = 317,
                 line_length = 9,
                 frame_count = 50,
-                animation_speed = 2,
+                animation_speed = 1,
                 shift = util.by_pixel(0, -47)
             },
             {
@@ -69,7 +69,7 @@ ENTITY {
                 height = 192,
                 line_length = 10,
                 frame_count = 50,
-                animation_speed = 2,
+                animation_speed = 1,
                 draw_as_shadow = true,
                 shift = util.by_pixel(64, 16)
             }

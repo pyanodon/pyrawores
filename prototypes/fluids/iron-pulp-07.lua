@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 2.5,
     ingredients = {
         {type = "item", name = "iron-dust-concentrate", amount = 3},
-        {type = "fluid", name = "sulfuric-acid", amount = 500},
+        {type = "fluid", name = "armac-12", amount = 100},
     },
     results = {
         {type = "fluid", name = "iron-pulp-07", amount = 100},

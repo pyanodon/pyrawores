@@ -44,7 +44,7 @@ ENTITY {
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"eaf"},
-    crafting_speed = 0.2,
+    crafting_speed = 0.4,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
@@ -93,7 +93,7 @@ ENTITY {
                 line_length = 10,
                 width = 128,
                 height = 128,
-                animation_speed = 5
+                animation_speed = 3
             }
         },
     },
