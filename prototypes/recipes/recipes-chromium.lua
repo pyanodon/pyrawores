@@ -357,7 +357,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "sintered-chromium", amount = 1},
-        {type = "item", name = "iron-oxide", amount = 2},
+        {type = "item", name = "sodium-hydroxide", amount = 2},
         {type = "fluid", name = "light-oil", amount = 100},
         --pyfe pressured air
     },

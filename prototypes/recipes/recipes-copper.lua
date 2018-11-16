@@ -169,7 +169,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "high-grade-copper", amount = 1},
-        {type = "item", name = "iron-oxide", amount = 2},
+        {type = "item", name = "sodium-sulfate", amount = 2},
         {type = "fluid", name = "diesel", amount = 50},
         --pyfe pressured air
     },

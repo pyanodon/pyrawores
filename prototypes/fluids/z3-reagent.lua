@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "z3-reagent",
-    category = "rectisol", --pyfe mixer
+    category = "methanol",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -14,7 +14,7 @@ RECIPE {
     },
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("lead-mk02"):change_category('mixer'):replace_ingredient("sulfuric-acid", "phosphorous-acid"):replace_ingredient("organic-solvent", "carbon-sulfide")
+}:add_unlock("lead-mk02"):replace_ingredient("sulfuric-acid", "phosphorous-acid"):replace_ingredient("organic-solvent", "carbon-sulfide")
 
 
 FLUID {

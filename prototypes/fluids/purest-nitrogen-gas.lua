@@ -3,10 +3,10 @@ RECIPE {
     name = "purest-nitrogen-gas",
     category = "distilator", 
     enabled = false,
-    energy_required = 4,
+    energy_required = 10,
     ingredients = {},
     results = {
-        {type = "fluid", name = "purest-nitrogen-gas", amount = 50},
+        {type = "fluid", name = "purest-nitrogen-gas", amount = 25},
         {type = "fluid", name = "oxygen", amount = 20},
     },
     main_product = "purest-nitrogen-gas",
