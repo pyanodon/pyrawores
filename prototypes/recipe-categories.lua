@@ -40,6 +40,10 @@ data:extend {
         name = "nexelit-rock"
     },
     {
+        type = "resource-category",
+        name = "nickel-rock"
+    },
+    {
         type = "recipe-category",
         name = "scrubber"
     },

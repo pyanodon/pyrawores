@@ -21,6 +21,7 @@ require("prototypes.ores.iron-rock")
 require("prototypes.ores.coal-rock")
 require("prototypes.ores.lead-rock")
 require("prototypes.ores.nexelit-rock")
+require("prototypes.ores.nickel-rock")
 --))
 
 --(( Technology ))--
@@ -60,6 +61,7 @@ require("prototypes/buildings/iron-mine")
 require("prototypes/buildings/coal-mine")
 require("prototypes/buildings/lead-mine")
 require("prototypes/buildings/nexelit-mine")
+require("prototypes/buildings/nickel-mine")
 
 --))
 
