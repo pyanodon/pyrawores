@@ -19,7 +19,7 @@ ENTITY {
     icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
-    map_color = {r = 0.164, g = 0.388, b = 192},
+    map_color = {r = 0.164, g = 0.388, b = 0.192},
     minable = {
         hardness = 1,
         -- mining_particle = "nickel-ore-particle",
