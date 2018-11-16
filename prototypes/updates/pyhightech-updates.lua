@@ -1,6 +1,5 @@
 RECIPE('al-pulp-01'):replace_ingredient('boric-acid', 'phosphoric-acid')
 RECIPE('powdered-ralesia-seeds'):change_category('pulp')
-RECIPE('starch'):add_ingredient({type = "item", name = "fiberboard", amount =1})
 RECIPE('glass-fiber'):add_ingredient({type = "item", name = "sodium-sulfate", amount =1})
 RECIPE('phosphate-glass'):add_ingredient({type = "item", name = "sodium-sulfate", amount =1})
 RECIPE("nexelit-matrix"):replace_ingredient("wood", "epoxy")
@@ -75,25 +74,6 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "xylenol-2",
-    category = "chemistry",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "fluid", name = "methanol", amount = 100},
-        {type = "item", name = "phenol", amount = 30},
-        {type = "item", name = "iron-oxide", amount = 10},
-    },
-    results = {
-        {type = "fluid", name = "xylenol", amount = 100},
-    },
-    main_product = "xylenol",
-    subgroup = "py-rawores-fluids",
-    order = "q-1"
-}:add_unlock("iron-mk04")
-
-RECIPE {
-    type = "recipe",
     name = "xylenol-3",
     category = "chemistry",
     enabled = false,
@@ -109,3 +89,23 @@ RECIPE {
     subgroup = "py-rawores-fluids",
     order = "q-1"
 }:add_unlock("iron-mk04"):change_category('mixer')
+
+RECIPE {
+    type = "recipe",
+    name = "ammonium-chloride-2",
+    category = "fbreactor", 
+    enabled = false,
+    energy_required = 2,
+    ingredients = {
+        {type = "fluid", name = "hydrogen-chloride", amount = 100},
+        {type = "fluid", name = "ammonia", amount = 100},
+    },
+    results = {
+        {type = "item", name = "ammonium-chloride", amount = 5},
+    },
+    main_product = "ammonium-chloride",
+    icon = "__pyrawores__/graphics/icons/ammonium-chloride.png",
+    icon_size = 32,
+    subgroup = "py-rawores-items",
+    order = "q-2"
+}:add_unlock("machines-mk02")

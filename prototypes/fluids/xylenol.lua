@@ -15,6 +15,25 @@ RECIPE {
     order = "q-1"
 }:add_unlock("iron-mk04")
 
+RECIPE {
+    type = "recipe",
+    name = "xylenol-2",
+    category = "methanol",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "methanol", amount = 100},
+        {type = "item", name = "iron-oxide", amount = 10},
+        --pyht phenol
+    },
+    results = {
+        {type = "fluid", name = "xylenol", amount = 100},
+    },
+    main_product = "xylenol",
+    subgroup = "py-rawores-fluids",
+    order = "q-1"
+}:add_unlock("iron-mk04"):add_ingredient({type = "item", name = "phenol", amount = 10})
+
 
 FLUID {
     type = "fluid",

@@ -272,3 +272,26 @@ RECIPE {
     },
     main_product = "p2s5",
 }:add_unlock("machines-mk03"):replace_ingredient("stone", "phosphate-rock")
+
+RECIPE {
+    type = "recipe",
+    name = "ammonium-chloride",
+    category = "rectisol", --pyht fbreactor
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "carbon-dioxide", amount = 200},
+        {type = "fluid", name = "water", amount = 100}, --pyht ammonia
+        {type = "fluid", name = "nitrogen", amount = 200},
+        {type = "item", name = "salt", amount = 20},
+    },
+    results = {
+        {type = "item", name = "ammonium-chloride", amount = 2},
+        {type = "item", name = "sodium-carbonate", amount = 1},
+    },
+    main_product = "ammonium-chloride",
+    icon = "__pyrawores__/graphics/icons/ammonium-chloride.png",
+    icon_size = 32,
+    subgroup = "py-rawores-items",
+    order = "q-2"
+}:add_unlock("machines-mk02"):change_category('fbreactor'):replace_ingredient("water", "ammonia")

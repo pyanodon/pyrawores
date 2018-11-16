@@ -478,111 +478,6 @@ ITEM {
     stack_size = 500
 }
 
-
---NICKEL
-
-ITEM {
-    type = "item",
-    name = "nickel-plate",
-    icon = "__pyrawores__/graphics/icons/nickel-plate.png",
-	icon_size = 32,
-    flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "a",
-    stack_size = 500
-}
-
---EXTRAS--
-
-ITEM {
-    type = "item",
-    name = "powdered-ralesia-seeds",
-    icon = "__pyrawores__/graphics/icons/powdered-ralesia-seeds.png",
-	icon_size = 32,
-    flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "starch",
-    icon = "__pyrawores__/graphics/icons/starch.png",
-	icon_size = 32,
-    flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "salt",
-    icon = "__pyrawores__/graphics/icons/salt.png",
-	icon_size = 32,
-    flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "sodium-hydroxide",
-    icon = "__pyrawores__/graphics/icons/sodium-hydroxide.png",
-	icon_size = 32,
-    flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "sodium-bisulfate",
-    icon = "__pyrawores__/graphics/icons/sodium-bisulfate.png",
-	icon_size = 32,
-    flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "sodium-sulfate",
-    icon = "__pyrawores__/graphics/icons/sodium-sulfate.png",
-	icon_size = 32,
-    flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "p2s5",
-    icon = "__pyrawores__/graphics/icons/p2s5.png",
-	icon_size = 32,
-    flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "pyrite",
-    icon = "__pyrawores__/graphics/icons/pyrite.png",
-	icon_size = 32,
-    flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "a",
-    stack_size = 500
-}
-
-
 --IRON
 
 ITEM {
@@ -1061,6 +956,230 @@ ITEM {
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+--NICKEL
+
+ITEM {
+    type = "item",
+    name = "ore-nickel",
+    icon = "__pyrawores__/graphics/icons/ore-nickel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-1-nickel",
+    icon = "__pyrawores__/graphics/icons/grade-1-nickel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-2-nickel",
+    icon = "__pyrawores__/graphics/icons/grade-2-nickel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-3-nickel",
+    icon = "__pyrawores__/graphics/icons/grade-3-nickel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-4-nickel",
+    icon = "__pyrawores__/graphics/icons/grade-4-nickel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "nickel-rejects",
+    icon = "__pyrawores__/graphics/icons/nickel-rejects.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "high-grade-nickel",
+    icon = "__pyrawores__/graphics/icons/high-grade-nickel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "reduced-nickel",
+    icon = "__pyrawores__/graphics/icons/reduced-nickel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sintered-nickel",
+    icon = "__pyrawores__/graphics/icons/sintered-nickel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "nickel-plate",
+    icon = "__pyrawores__/graphics/icons/nickel-plate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+--EXTRAS--
+
+ITEM {
+    type = "item",
+    name = "powdered-ralesia-seeds",
+    icon = "__pyrawores__/graphics/icons/powdered-ralesia-seeds.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "starch",
+    icon = "__pyrawores__/graphics/icons/starch.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "salt",
+    icon = "__pyrawores__/graphics/icons/salt.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sodium-hydroxide",
+    icon = "__pyrawores__/graphics/icons/sodium-hydroxide.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sodium-bisulfate",
+    icon = "__pyrawores__/graphics/icons/sodium-bisulfate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sodium-sulfate",
+    icon = "__pyrawores__/graphics/icons/sodium-sulfate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sodium-carbonate",
+    icon = "__pyrawores__/graphics/icons/sodium-carbonate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "p2s5",
+    icon = "__pyrawores__/graphics/icons/p2s5.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "pyrite",
+    icon = "__pyrawores__/graphics/icons/pyrite.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "ammonium-chloride",
+    icon = "__pyrawores__/graphics/icons/ammonium-chloride.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
     order = "a",
     stack_size = 500
 }
