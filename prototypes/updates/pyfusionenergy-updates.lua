@@ -73,6 +73,8 @@ RECIPE("silver-foam"):replace_ingredient("water", "hydrogen-chloride")
 
 RECIPE("automated-screener"):replace_ingredient("electric-engine-unit", "engine-unit"):replace_ingredient("ground-borer", "electric-mining-drill")
 
+RECIPE('distilator-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 15}):add_ingredient({type = "item", name = "sc-unit", amount = 4})
+RECIPE('distilator-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "agzn-alloy", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 
 RECIPE {

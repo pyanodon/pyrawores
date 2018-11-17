@@ -14,6 +14,9 @@ RECIPE('cresylic-acid'):remove_ingredient('aromatics'):add_ingredient({type = 'i
 RECIPE('outlet-gas-02'):change_category('fbreactor')
 
 
+RECIPE('distilator-mk03'):add_ingredient({type = "item", name = "phosphate-glass", amount = 15}):add_ingredient({type = "item", name = "biopolymer", amount = 10}):add_ingredient({type = "item", name = "aerogel", amount = 10})
+RECIPE('distilator-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 6}):add_ingredient({type = "item", name = "var-josephson-junction", amount = 4})
+
 RECIPE {
     type = "recipe",
     name = "hydrogen-chloride-2",
