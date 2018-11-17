@@ -14,9 +14,13 @@ RECIPE('niobium-complex'):replace_ingredient('water','hydrogen-chloride')
 RECIPE('making-chromium'):remove_unlock('coal-processing-2')
 RECIPE('crushing-iron'):remove_unlock('crusher')
 RECIPE('crushing-copper'):remove_unlock('crusher')
-RECIPE('distilator-mk02'):add_unlock('machines-mk02')
+
+RECIPE('distilator-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 20})
 RECIPE('distilator-mk03'):add_unlock('machines-mk03')
 RECIPE('distilator-mk04'):add_unlock('machines-mk04')
-
 RECIPE('distilator-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 10})
 RECIPE('distilator-mk04'):add_ingredient({type = "item", name = "lead-plate", amount = 20})
+
+RECIPE('advanced-foundry-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 30}):add_ingredient({type = "item", name = "engine-unit", amount = 10})
+RECIPE('advanced-foundry-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 10})
+RECIPE('advanced-foundry-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "lead-plate", amount = 40})
