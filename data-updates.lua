@@ -27,3 +27,7 @@ RECIPE('py-roboport-mk01'):replace_ingredient('iron-plate', 'aluminium-plate')
 RECIPE('py-recharge-station-mk01'):add_ingredient({type = "item", name = "aluminium-plate", amount =10})
 RECIPE('quartz-mine'):add_ingredient({type = "item", name = "py-construction-robot-01", amount =10})
 
+RECIPE('distilator-mk04'):add_ingredient({type = "item", name = "accumulator-mk01", amount = 2})
+
+
+RECIPE('processing-unit'):add_ingredient({type = "item", name = "gold-plate", amount = 1})
