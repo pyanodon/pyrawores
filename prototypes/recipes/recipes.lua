@@ -295,3 +295,23 @@ RECIPE {
     subgroup = "py-rawores-items",
     order = "q-2"
 }:add_unlock("machines-mk02"):change_category('fbreactor'):replace_ingredient("water", "ammonia")
+
+RECIPE {
+    type = "recipe",
+    name = "duralumin-1",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "aluminium-plate", amount = 4},
+        {type = "item", name = "copper-plate", amount = 2},
+    },
+    results = {
+        {type = "item", name = "duralumin", amount = 1}
+    },
+    main_product= "duralumin",
+    icon = "__pyrawores__/graphics/icons/duralumin.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("aluminium-mk02")
