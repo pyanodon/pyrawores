@@ -4,7 +4,7 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"automated-factory", 2},
+        {"automated-factory-mk01", 2},
         {"iron-plate", 60},
         {"jaw-crusher", 1},
         {"electronic-circuit", 40} --add pyht hyperelastic material/intelligent unit

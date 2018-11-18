@@ -45,6 +45,7 @@ RECIPE("genlab"):add_ingredient({type = "item", name = "glass", amount = 50})
 RECIPE("bio-reactor"):add_ingredient({type = "item", name = "glass", amount = 50})
 RECIPE("nmf"):add_ingredient({type = "item", name = "glass", amount = 50})
 RECIPE("fusion-reactor-mk01"):add_ingredient({type = "item", name = "glass", amount = 200})
+RECIPE("regolite-mine"):add_ingredient({type = "item", name = "automated-factory-mk02", amount = 1})
 RECIPE("molybdenum-concentrate"):replace_ingredient("water", "nitrogen")
 RECIPE("phytoplankton"):replace_ingredient("crushed-iron", "grade-2-tin")
 RECIPE("molybdenum-oxide"):add_ingredient({type = "fluid", name = "oxygen", amount = 100})
@@ -71,6 +72,9 @@ RECIPE("science-coating"):replace_ingredient("steel-plate", "titanium-plate")
 RECIPE("agzn-alloy"):replace_ingredient("iron-plate", "silver-plate"):replace_ingredient("stone", "zinc-plate")
 RECIPE("silver-foam"):replace_ingredient("water", "hydrogen-chloride")
 
+RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-alloy")
+RECIPE("low-density-structure"):remove_ingredient("steel-plate")
+
 RECIPE("automated-screener"):replace_ingredient("electric-engine-unit", "engine-unit"):replace_ingredient("ground-borer", "electric-mining-drill")
 
 RECIPE('distilator-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 15}):add_ingredient({type = "item", name = "sc-unit", amount = 4})
@@ -78,6 +82,10 @@ RECIPE('distilator-mk04'):add_ingredient({type = "item", name = "super-alloy", a
 
 RECIPE('advanced-foundry-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "py-heat-exchanger", amount = 1})
 RECIPE('advanced-foundry-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 30}):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+
+RECIPE('automated-factory-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "py-heat-exchanger", amount = 1})
+RECIPE('automated-factory-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 30}):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+
 
 
 RECIPE {
@@ -121,3 +129,4 @@ RECIPE {
     subgroup = "py-rawores-fluids",
     order = "q-2"
 }:add_unlock("machines-mk03")
+
