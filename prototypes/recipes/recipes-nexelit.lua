@@ -240,7 +240,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nexelit-01",
-    category = "eaf",
+    category = "advanced-foundry",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -258,7 +258,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nexelit-02",
-    category = "eaf",
+    category = "advanced-foundry",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -276,7 +276,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nexelit-03",
-    category = "eaf",
+    category = "advanced-foundry",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -294,7 +294,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nexelit-04",
-    category = "eaf",
+    category = "advanced-foundry",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -312,7 +312,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nexelit-05",
-    category = "eaf",
+    category = "advanced-foundry",
     enabled = false,
     energy_required = 3,
     ingredients = {

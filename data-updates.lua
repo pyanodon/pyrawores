@@ -28,6 +28,7 @@ RECIPE('py-recharge-station-mk01'):add_ingredient({type = "item", name = "alumin
 RECIPE('quartz-mine'):add_ingredient({type = "item", name = "py-construction-robot-01", amount =10})
 
 RECIPE('distilator-mk04'):add_ingredient({type = "item", name = "accumulator-mk01", amount = 2})
-
+RECIPE('automated-factory-mk04'):add_ingredient({type = "item", name = "accumulator-mk01", amount = 2})
 
 RECIPE('processing-unit'):add_ingredient({type = "item", name = "gold-plate", amount = 1})
+RECIPE('electronic-circuit'):add_ingredient({type = "item", name = "nexelit-plate", amount = 1})
