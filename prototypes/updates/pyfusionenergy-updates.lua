@@ -71,6 +71,7 @@ RECIPE("lead-container"):replace_ingredient("iron-plate", "lead-plate")
 RECIPE("science-coating"):replace_ingredient("steel-plate", "titanium-plate")
 RECIPE("agzn-alloy"):replace_ingredient("iron-plate", "silver-plate"):replace_ingredient("stone", "zinc-plate")
 RECIPE("silver-foam"):replace_ingredient("water", "hydrogen-chloride")
+RECIPE("super-alloy"):replace_ingredient("steel-plate", "super-steel")
 
 RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-alloy")
 RECIPE("low-density-structure"):remove_ingredient("steel-plate")

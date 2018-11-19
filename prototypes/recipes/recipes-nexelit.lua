@@ -376,7 +376,7 @@ RECIPE {
     name = "nexelit-plate-2",
     category = "smelting",
     enabled = false,
-    energy_required = 3,
+    energy_required = 10,
     ingredients = {
         {type = "item", name = "clean-nexelit", amount = 1}
     },

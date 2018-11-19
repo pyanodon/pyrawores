@@ -5,7 +5,8 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "fluid", name = "thickened-coal-fines", amount = 100},
+        {type = "fluid", name = "thickened-coal-fines", amount = 50},
+        {type = "fluid", name = "thickened-coal-fines", amount = 50},
     },
     results = {
         {type = "fluid", name = "coal-fines", amount = 100},
