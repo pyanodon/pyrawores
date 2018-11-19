@@ -1072,7 +1072,192 @@ ITEM {
     stack_size = 500
 }
 
+
+
+--TIN
+
+ITEM {
+    type = "item",
+    name = "ore-tin",
+    icon = "__pyrawores__/graphics/icons/ore-tin.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-1-tin",
+    icon = "__pyrawores__/graphics/icons/grade-1-tin.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-2-tin",
+    icon = "__pyrawores__/graphics/icons/grade-2-tin.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-3-tin",
+    icon = "__pyrawores__/graphics/icons/grade-3-tin.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-4-tin",
+    icon = "__pyrawores__/graphics/icons/grade-4-tin.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "tin-ore-rejects",
+    icon = "__pyrawores__/graphics/icons/tin-ore-rejects.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "tin-dust",
+    icon = "__pyrawores__/graphics/icons/tin-dust.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "tin-rejects",
+    icon = "__pyrawores__/graphics/icons/tin-rejects.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "powdered-tin",
+    icon = "__pyrawores__/graphics/icons/powdered-tin.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "tin-concentrate",
+    icon = "__pyrawores__/graphics/icons/tin-concentrate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "high-tin-concentrate",
+    icon = "__pyrawores__/graphics/icons/high-tin-concentrate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "high-tin-mix",
+    icon = "__pyrawores__/graphics/icons/high-tin-mix.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "high-grade-tin",
+    icon = "__pyrawores__/graphics/icons/high-grade-tin.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sintered-tin",
+    icon = "__pyrawores__/graphics/icons/sintered-tin.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "reduced-tin",
+    icon = "__pyrawores__/graphics/icons/reduced-tin.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "tin-plate",
+    icon = "__pyrawores__/graphics/icons/tin-plate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+
+
 --EXTRAS--
+
+
+
 
 ITEM {
     type = "item",

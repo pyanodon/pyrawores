@@ -388,7 +388,7 @@ RECIPE {
     name = "low-grade-smelting",
     category = "smelting",
     enabled = false,
-    energy_required = 4,
+    energy_required = 8,
     ingredients = {
         {type = "item", name = "processed-iron-ore", amount = 1},
     },

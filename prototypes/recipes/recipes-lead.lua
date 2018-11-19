@@ -354,7 +354,7 @@ RECIPE {
     name = "lead-plate-2",
     category = "smelting",
     enabled = false,
-    energy_required = 3,
+    energy_required = 10,
     ingredients = {
         {type = "item", name = "grade-1-lead", amount = 1}
     },

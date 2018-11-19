@@ -270,7 +270,7 @@ RECIPE {
     main_product = "molten-nickel",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("nickel-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("nickel-mk04")
 
 RECIPE {
     type = "recipe",
@@ -289,7 +289,7 @@ RECIPE {
     main_product = "molten-nickel",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("nickel-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("nickel-mk04")
 
 RECIPE {
     type = "recipe",
@@ -308,7 +308,7 @@ RECIPE {
     main_product = "molten-nickel",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("nickel-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("nickel-mk04")
 
 
 --CASTINGS
@@ -360,7 +360,7 @@ RECIPE {
     name = "nickel-plate-2",
     category = "smelting",
     enabled = false,
-    energy_required = 3,
+    energy_required = 10,
     ingredients = {
         {type = "item", name = "grade-3-nickel", amount = 1}
     },
