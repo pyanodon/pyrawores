@@ -8,6 +8,7 @@ RECIPE('fiberboard'):add_ingredient({type = "item", name = "sodium-hydroxide", a
 RECIPE('micro-fiber'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =3})
 RECIPE('phenolicboard'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =3})
 RECIPE('epoxy'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =5})
+RECIPE("boron-carbide"):replace_ingredient("coke", "carbon")
 --RECIPE('outlet-gas-3'):add_result({type = "fluid", name = "ammonia", amount = 50})
 
 RECIPE('cresylic-acid'):remove_ingredient('aromatics'):add_ingredient({type = 'item', name = 'phenol', amount = 15})
@@ -22,6 +23,9 @@ RECIPE('advanced-foundry-mk04'):replace_ingredient('control-unit', 'intelligent-
 
 RECIPE('automated-factory-mk03'):add_ingredient({type = "item", name = "paramagnetic-material", amount = 25}):add_ingredient({type = "item", name = "volumetric-capacitor", amount = 10}):add_ingredient({type = "item", name = "biopolymer", amount = 10})
 RECIPE('automated-factory-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-vortex-storage-system", amount = 4})
+
+RECIPE('ball-mill-mk03'):add_ingredient({type = "item", name = "heavy-fermion", amount = 40}):add_ingredient({type = "item", name = "re-magnet", amount = 30}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
+RECIPE('ball-mill-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "nv-center", amount = 2})
 
 RECIPE {
     type = "recipe",

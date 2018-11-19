@@ -1254,6 +1254,22 @@ ITEM {
 
 
 
+
+
+--ZINC
+
+ITEM {
+    type = "item",
+    name = "zinc-plate",
+    icon = "__pyrawores__/graphics/icons/zinc-plate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+
 --EXTRAS--
 
 

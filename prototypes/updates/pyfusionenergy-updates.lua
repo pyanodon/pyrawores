@@ -1,6 +1,8 @@
 TECHNOLOGY('crusher'):add_prereq('machines-mk01')
 TECHNOLOGY('helium-processing'):remove_pack('production-science-pack')
 
+RECIPE('compressor'):remove_unlock('regolite-mining'):add_unlock('machines-mk02')
+
 RECIPE('hydrocyclone'):replace_ingredient('centrifuge', 'classifier')
 RECIPE('hydrocyclone'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk02')
 
@@ -47,31 +49,32 @@ RECIPE("nmf"):add_ingredient({type = "item", name = "glass", amount = 50})
 RECIPE("fusion-reactor-mk01"):add_ingredient({type = "item", name = "glass", amount = 200})
 RECIPE("regolite-mine"):add_ingredient({type = "item", name = "automated-factory-mk02", amount = 1})
 RECIPE("molybdenum-concentrate"):replace_ingredient("water", "nitrogen")
-RECIPE("phytoplankton"):replace_ingredient("crushed-iron", "grade-2-tin")
+RECIPE("phytoplankton"):replace_ingredient("crushed-iron", "grade-4-tin")
 RECIPE("molybdenum-oxide"):add_ingredient({type = "fluid", name = "oxygen", amount = 100})
 RECIPE("vpulp3"):replace_ingredient("petroleum-gas", "ammonia")
 RECIPE("vpulp-precip"):replace_ingredient("water", "ammonia")
 RECIPE("super-alloy"):replace_ingredient("steel-plate", "nickel-plate")
---RECIPE("cool-air"):replace_ingredient("pressured-air", "liquid-nitrogen")
---RECIPE('calcinate-separation'):add_result({type = "item", name = "ore-quartz", amount = 1, probability = 0.6})
+RECIPE("cool-air"):replace_ingredient("pressured-air", "liquid-nitrogen")
+RECIPE('calcinate-separation'):add_result({type = "item", name = "ore-quartz", amount = 1, probability = 0.6})--result
 RECIPE("kmauts-ration"):replace_ingredient("iron-plate", "tin-plate")
 RECIPE("helium"):add_ingredient({type = "fluid", name = "hydrogen", amount = 10})
 RECIPE("nbti-alloy"):replace_ingredient("steel-plate", "titanium-plate"):add_ingredient({type = "fluid", name = "nitrogen", amount = 150})
-RECIPE("sc-wire"):replace_ingredient("iron-plate", "tin-plate")
+RECIPE("sc-wire"):replace_ingredient("iron-plate", "tin-plate"):add_ingredient({type = "item", name = "optical-fiber", amount = 5})
 RECIPE("ferrite"):add_ingredient({type = "item", name = "zinc-plate", amount = 10})
 RECIPE("sc-unit"):add_ingredient({type = "fluid", name = "liquid-nitrogen", amount = 100})
-RECIPE("sc-wire"):add_ingredient({type = "item", name = "glass", amount = 12})
 RECIPE("boron-mixture"):add_ingredient({type = "item", name = "aluminium-plate", amount = 5})
 RECIPE("boron"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 500})
-RECIPE("boron-carbide"):replace_ingredient("coke", "carbon")
 RECIPE("blanket"):add_ingredient({type = "item", name = "nexelit-plate", amount = 10})
 RECIPE("blanket"):add_ingredient({type = "item", name = "lead-plate", amount = 40})
-RECIPE("blanket"):add_ingredient({type = "item", name = "tungsten-plate", amount = 40})
+RECIPE("blanket"):add_ingredient({type = "item", name = "super-steel", amount = 40})
 RECIPE("lead-container"):replace_ingredient("iron-plate", "lead-plate")
 RECIPE("science-coating"):replace_ingredient("steel-plate", "titanium-plate")
 RECIPE("agzn-alloy"):replace_ingredient("iron-plate", "silver-plate"):replace_ingredient("stone", "zinc-plate")
 RECIPE("silver-foam"):replace_ingredient("water", "hydrogen-chloride")
-RECIPE("super-alloy"):replace_ingredient("steel-plate", "super-steel")
+RECIPE("tar-gasification"):replace_ingredient("water", "pressured-air")
+RECIPE("tpa"):replace_ingredient("steam", "liquid-nitrogen")
+RECIPE("glycerol-hydrogen"):replace_ingredient("water", "liquid-nitrogen")
+RECIPE("anthraquinone"):replace_ingredient("steam", "liquid-nitrogen")
 
 RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-alloy")
 RECIPE("low-density-structure"):remove_ingredient("steel-plate")
@@ -87,6 +90,8 @@ RECIPE('advanced-foundry-mk04'):add_ingredient({type = "item", name = "nbti-allo
 RECIPE('automated-factory-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "py-heat-exchanger", amount = 1})
 RECIPE('automated-factory-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 30}):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
+RECIPE('ball-mill-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "agitator", amount = 1})
+RECIPE('ball-mill-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 20}):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 
 RECIPE {
@@ -131,3 +136,43 @@ RECIPE {
     order = "q-2"
 }:add_unlock("machines-mk03")
 
+RECIPE {
+    type = "recipe",
+    name = "liquid-nitrogen",
+    category = "compressor",
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+        {type = "fluid", name = "nitrogen", amount = 50},
+        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "gasoline", amount = 5}
+    },
+    results = {
+        {type = "fluid", name = "liquid-nitrogen", amount = 5},
+        {type = "fluid", name = "steam", amount = 100}
+    },
+    main_product = "liquid-nitrogen",
+    icon = "__pyfusionenergy__/graphics/icons/compress-nitrogen.png",
+	icon_size = 32,
+    subgroup = "py-fusion-gases",
+    order = "a"
+}:add_unlock("machines-mk02")
+
+RECIPE {
+    type = "recipe",
+    name = "evaporate-nitrogen",
+    category = "evaporator",
+    enabled = false,
+    energy_required = 2,
+    ingredients = {
+        {type = "fluid", name = "liquid-nitrogen", amount = 5}
+    },
+    results = {
+        {type = "fluid", name = "nitrogen", amount = 50}
+    },
+    main_product = "nitrogen",
+    icon = "__pyrawores__/graphics/icons/nitrogen.png",
+	icon_size = 32,
+    subgroup = "py-fusion-gases",
+    order = "b"
+}:add_unlock("machines-mk02")

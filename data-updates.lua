@@ -30,5 +30,7 @@ RECIPE('quartz-mine'):add_ingredient({type = "item", name = "py-construction-rob
 RECIPE('distilator-mk04'):add_ingredient({type = "item", name = "accumulator-mk01", amount = 2})
 RECIPE('automated-factory-mk04'):add_ingredient({type = "item", name = "accumulator-mk01", amount = 2})
 
+RECIPE('ball-mill-mk04'):replace_ingredient('concrete', 'py-asphalt')
+
 RECIPE('processing-unit'):add_ingredient({type = "item", name = "gold-plate", amount = 1})
 RECIPE('electronic-circuit'):add_ingredient({type = "item", name = "nexelit-plate", amount = 1})
