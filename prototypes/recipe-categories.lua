@@ -44,6 +44,10 @@ data:extend {
         name = "nickel-rock"
     },
     {
+        type = "resource-category",
+        name = "tin-rock"
+    },
+    {
         type = "recipe-category",
         name = "scrubber"
     },

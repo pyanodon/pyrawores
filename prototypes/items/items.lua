@@ -169,6 +169,160 @@ ITEM {
     stack_size = 500
 }
 
+ITEM {
+    type = "item",
+    name = "grade-1-ti",
+    icon = "__pyrawores__/graphics/icons/grade-1-ti.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-2-ti",
+    icon = "__pyrawores__/graphics/icons/grade-2-ti.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-3-ti",
+    icon = "__pyrawores__/graphics/icons/grade-3-ti.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-4-ti",
+    icon = "__pyrawores__/graphics/icons/grade-4-ti.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "ti-rejects",
+    icon = "__pyrawores__/graphics/icons/ti-rejects.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "powdered-ti",
+    icon = "__pyrawores__/graphics/icons/powdered-ti.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "ti-enriched-dust",
+    icon = "__pyrawores__/graphics/icons/ti-enriched-dust.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "ti-residue",
+    icon = "__pyrawores__/graphics/icons/ti-residue.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "high-grade-ti-powder",
+    icon = "__pyrawores__/graphics/icons/high-grade-ti-powder.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "concentrated-ti",
+    icon = "__pyrawores__/graphics/icons/concentrated-ti.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "high-grade-ti",
+    icon = "__pyrawores__/graphics/icons/high-grade-ti.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "reduced-ti",
+    icon = "__pyrawores__/graphics/icons/reduced-ti.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sintered-ti",
+    icon = "__pyrawores__/graphics/icons/sintered-ti.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "titanium-plate",
+    icon = "__pyrawores__/graphics/icons/titanium-plate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
 
 --CHROMIUM
 
@@ -1076,6 +1230,8 @@ ITEM {
 
 --TIN
 
+
+
 ITEM {
     type = "item",
     name = "ore-tin",
@@ -1268,6 +1424,9 @@ ITEM {
     order = "a",
     stack_size = 500
 }
+
+
+
 
 
 --EXTRAS--
