@@ -13,6 +13,7 @@ require("prototypes.ores.chromium")
 require("prototypes.ores.lead")
 require("prototypes.ores.nickel")
 require("prototypes.ores.tin")
+require("prototypes.ores.titanium")
 require("prototypes.ores.quartz-rock")
 require("prototypes.ores.chromium-rock")
 require("prototypes.ores.aluminium-rock")
@@ -23,6 +24,7 @@ require("prototypes.ores.coal-rock")
 require("prototypes.ores.lead-rock")
 require("prototypes.ores.nexelit-rock")
 require("prototypes.ores.nickel-rock")
+require("prototypes.ores.tin-rock")
 --))
 
 --(( Technology ))--
@@ -39,6 +41,7 @@ require("prototypes/technologies/lead")
 require("prototypes/technologies/nexelit")
 require("prototypes/technologies/nickel")
 require("prototypes/technologies/tin")
+require("prototypes/technologies/titanium")
 
 --(( BUILDINGS ))--
 require("prototypes/buildings/quartz-drill-mk01")
@@ -64,6 +67,7 @@ require("prototypes/buildings/coal-mine")
 require("prototypes/buildings/lead-mine")
 require("prototypes/buildings/nexelit-mine")
 require("prototypes/buildings/nickel-mine")
+require("prototypes/buildings/tin-mine")
 
 --))
 
@@ -83,6 +87,7 @@ require("prototypes/recipes/recipes-nexelit")
 require("prototypes/recipes/recipes-nickel")
 require("prototypes/recipes/recipes-steel")
 require("prototypes/recipes/recipes-tin")
+require("prototypes/recipes/recipes-titanium")
 
 --(( FLUIDs ))--
 require("prototypes/fluids/quartz-pulp-01")
@@ -197,3 +202,5 @@ require("prototypes/fluids/tin-pulp-03")
 require("prototypes/fluids/tin-solution")
 require("prototypes/fluids/molten-tin")
 require("prototypes/fluids/mibc")
+
+require("prototypes/fluids/molten-titanium")

@@ -34,3 +34,5 @@ RECIPE('ball-mill-mk04'):replace_ingredient('concrete', 'py-asphalt')
 
 RECIPE('processing-unit'):add_ingredient({type = "item", name = "gold-plate", amount = 1})
 RECIPE('electronic-circuit'):add_ingredient({type = "item", name = "nexelit-plate", amount = 1})
+
+RECIPE("military-science-pack"):add_ingredient({type = "item", name = "lead-plate", amount = 1})
