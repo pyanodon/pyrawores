@@ -227,7 +227,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "powdered-ti",
-    icon = "__pyrawores__/graphics/icons/powdered-ti.png",
+    icon = "__pyrawores__/graphics/icons/powdered-tin.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "py-rawores-ores",

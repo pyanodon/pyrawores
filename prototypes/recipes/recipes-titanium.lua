@@ -36,7 +36,156 @@ RECIPE {
     order = "q-2"
 }:add_unlock("titanium-mk01")
 
+RECIPE {
+    type = "recipe",
+    name = "grade-3-ti",
+    category = "solid-separator",--pyFE screener
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "grade-1-ti", amount = 3}
+    },
+    results = {
+        {type = "item", name = "grade-3-ti", amount = 1},
+        {type = "item", name = "ti-rejects", amount = 1, probability = 0.5},
+    },
+    main_product = "grade-3-ti",
+    icon = "__pyrawores__/graphics/icons/grade-1-ti-screening.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "q-2"
+}:add_unlock("titanium-mk01"):change_category('screener')
 
+RECIPE {
+    type = "recipe",
+    name = "ti-rejects-recrush",
+    category = "crusher",--pyFE secondary-crusher
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "ti-rejects", amount = 1}
+    },
+    results = {
+        {type = "item", name = "gravel", amount = 1},
+        {type = "item", name = "grade-3-ti", amount = 1, probability = 0.3},
+    },
+    main_product = "grade-3-ti",
+    icon = "__pyrawores__/graphics/icons/recrush-ti-rejects.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "q-2"
+}:add_unlock("titanium-mk01"):change_category('secondary-crusher')
+
+RECIPE {
+    type = "recipe",
+    name = "grade-4-ti",
+    category = "ball-mill",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "grade-3-ti", amount = 2}
+    },
+    results = {
+        {type = "item", name = "grade-4-ti", amount = 1},
+    },
+    subgroup = "py-rawores-recipes",
+    order = "q-2"
+}:add_unlock("titanium-mk02")
+
+RECIPE {
+    type = "recipe",
+    name = "powdered-ti",
+    category = "chemistry", --pyFE jig
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "grade-4-ti", amount = 1},
+        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "mibc", amount = 100},
+    },
+    results = {
+        {type = "item", name = "powdered-ti", amount = 1},
+        {type = "fluid", name = "ti-pulp-03", amount = 20},
+    },
+    main_product = "powdered-ti",
+    subgroup = "py-rawores-recipes",
+    order = "q-2"
+}:add_unlock("titanium-mk02"):change_category('jig')
+
+RECIPE {
+    type = "recipe",
+    name = "ti-enriched-dust",
+    category = "solid-separator",--pyFE screener
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "powdered-ti", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ti-enriched-dust", amount = 1},
+        {type = "item", name = "ti-rejects", amount = 1, probability = 0.5},
+    },
+    main_product = "ti-enriched-dust",
+    icon = "__pyrawores__/graphics/icons/powdered-ti-screening.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "q-2"
+}:add_unlock("titanium-mk02"):change_category('screener')
+
+RECIPE {
+    type = "recipe",
+    name = "high-grade-ti-powder",
+    category = "evaporator",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "purified-ti-pulp", amount = 100}
+    },
+    results = {
+        {type = "item", name = "high-grade-ti-powder", amount = 1},
+    },
+    main_product = "high-grade-ti-powder",
+    subgroup = "py-rawores-recipes",
+    order = "q-2"
+}:add_unlock("titanium-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "concentrated-ti",
+    category = "solid-separator",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "high-grade-ti-powder", amount = 1}
+    },
+    results = {
+        {type = "item", name = "concentrated-ti", amount = 1},
+        {type = "item", name = "nexelit-ore", amount = 1, probability = 0.5},
+        {type = "item", name = "iron-oxide", amount = 1, probability = 0.5},
+    },
+    main_product = "concentrated-ti",
+    subgroup = "py-rawores-recipes",
+    order = "q-2"
+}:add_unlock("titanium-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "high-grade-ti",
+    category = "electrolyzer",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "concentrated-ti", amount = 1},
+        {type = "item", name = "aluminium-plate", amount = 2}
+        --pyht graphite
+    },
+    results = {
+        {type = "item", name = "high-grade-ti", amount = 1},
+    },
+    main_product = "high-grade-ti",
+    subgroup = "py-rawores-recipes",
+    order = "q-2"
+}:add_unlock("titanium-mk03"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -160,7 +309,7 @@ RECIPE {
     main_product = "molten-titanium",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("titanium-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("titanium-mk04")
 
 RECIPE {
     type = "recipe",
@@ -270,7 +419,7 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "powdered-ti", amount = 1}
+        {type = "item", name = "grade-4-ti", amount = 1}
     },
     results = {
         {type = "item", name = "titanium-plate", amount = 3}
