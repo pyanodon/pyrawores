@@ -15,7 +15,7 @@ RECIPE {
     main_product = "mibc",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("tin-mk03"):change_category('mixer'):replace_ingredient('aromatics','acetone')
+}:add_unlock("titanium-mk02"):change_category('mixer'):replace_ingredient('aromatics','acetone')
 
 
 FLUID {
