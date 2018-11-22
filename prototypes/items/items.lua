@@ -1410,6 +1410,200 @@ ITEM {
 
 
 
+--URANIUM
+
+ITEM {
+    type = "item",
+    name = "grade-1-u",
+    icon = "__pyrawores__/graphics/icons/grade-1-u.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-2-u",
+    icon = "__pyrawores__/graphics/icons/grade-2-u.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "powdered-u",
+    icon = "__pyrawores__/graphics/icons/powdered-u.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "20-u-powder",
+    icon = "__pyrawores__/graphics/icons/20-u-powder.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "40-u-powder",
+    icon = "__pyrawores__/graphics/icons/40-u-powder.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "70-u-powder",
+    icon = "__pyrawores__/graphics/icons/70-u-powder.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "yellow-cake",
+    icon = "__pyrawores__/graphics/icons/yellow-cake.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "fuelrod-mk02",
+    icon = "__pyrawores__/graphics/icons/fuel-rod-mk02.png",
+    icon_size = 32,
+    fuel_category = "chemical",
+    fuel_value = "250MJ",
+    fuel_acceleration_multiplier = 1.2,
+    fuel_top_speed_multiplier = 1.2,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 50
+}
+
+ITEM {
+    type = "item",
+    name = "fuelrod-mk03",
+    icon = "__pyrawores__/graphics/icons/fuel-rod-mk03.png",
+    icon_size = 32,
+    fuel_category = "chemical",
+    fuel_value = "450MJ",
+    fuel_acceleration_multiplier = 1.5,
+    fuel_top_speed_multiplier = 1.2,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 50
+}
+
+ITEM {
+    type = "item",
+    name = "fuelrod-mk04",
+    icon = "__pyrawores__/graphics/icons/fuel-rod-mk04.png",
+    icon_size = 32,
+    fuel_category = "chemical",
+    fuel_value = "900MJ",
+    fuel_acceleration_multiplier = 2,
+    fuel_top_speed_multiplier = 1.2,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 50
+}
+
+ITEM {
+    type = "item",
+    name = "fuelrod-mk05",
+    icon = "__pyrawores__/graphics/icons/fuel-rod-mk05.png",
+    icon_size = 32,
+    fuel_category = "chemical",
+    fuel_value = "1.1GJ",
+    fuel_acceleration_multiplier = 2.4,
+    fuel_top_speed_multiplier = 1.2,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 50
+}
+
+ITEM {
+    type = "item",
+    name = "uranium-fuel-cell-mk02",
+    icon = "__pyrawores__/graphics/icons/uranium-fuel-cell-mk02.png",
+    icon_size = 32,
+    fuel_category = "nuclear",
+    burnt_result = "used-up-uranium-fuel-cell",
+    fuel_value = "10GJ",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 50
+}
+
+ITEM {
+    type = "item",
+    name = "uranium-fuel-cell-mk03",
+    icon = "__pyrawores__/graphics/icons/uranium-fuel-cell-mk03.png",
+    icon_size = 32,
+    fuel_category = "nuclear",
+    burnt_result = "used-up-uranium-fuel-cell",
+    fuel_value = "15GJ",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 50
+}
+
+ITEM {
+    type = "item",
+    name = "uranium-fuel-cell-mk04",
+    icon = "__pyrawores__/graphics/icons/uranium-fuel-cell-mk04.png",
+    icon_size = 32,
+    fuel_category = "nuclear",
+    burnt_result = "used-up-uranium-fuel-cell",
+    fuel_value = "20GJ",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 50
+}
+
+ITEM {
+    type = "item",
+    name = "uranium-fuel-cell-mk05",
+    icon = "__pyrawores__/graphics/icons/uranium-fuel-cell-mk05.png",
+    icon_size = 32,
+    fuel_category = "nuclear",
+    burnt_result = "used-up-uranium-fuel-cell",
+    fuel_value = "25GJ",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 50
+}
 
 
 --ZINC
