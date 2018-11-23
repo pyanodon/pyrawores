@@ -15,6 +15,9 @@ RECIPE('automated-screener'):remove_unlock('advanced-mining-facilities'):add_unl
 
 RECIPE('jig'):remove_unlock('diamond-mining'):add_unlock('machines-mk03')
 
+RECIPE('u-79-2'):remove_unlock('uranium-mk04')
+RECIPE('u-79'):add_unlock('uranium-mk04')
+
 RECIPE('centrifugal-pan'):remove_unlock('diamond-mining'):add_unlock('machines-mk03')
 
 RECIPE('agitador'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk03')
@@ -176,3 +179,38 @@ RECIPE {
     subgroup = "py-fusion-gases",
     order = "b"
 }:add_unlock("machines-mk02")
+
+
+RECIPE {
+    type = "recipe",
+    name = "pregnant-solution-01",
+    category = "mixer",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "vanadium-mixture", amount = 100},
+        {type = "fluid", name = "sulfuric-acid", amount = 100},
+    },
+    results = {
+        {type = "fluid", name = "pregnant-solution", amount = 100},
+    },
+    main_product = "pregnant-solution",
+}:add_unlock("uranium-mk04")
+
+RECIPE {
+    type = "recipe",
+    name = "vanadium-mixture",
+    category = "mixer",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "u-waste", amount = 100},
+        {type = "item", name = "sodium-carbonate", amount = 10}, --pyfe sodium chlorate
+    },
+    results = {
+        {type = "fluid", name = "vanadium-mixture", amount = 100},
+    },
+    main_product = "vanadium-mixture",
+    subgroup = "py-rawores-fluids",
+    order = "q-2"
+}:add_unlock("uranium-mk04"):replace_ingredient("sodium-carbonate", "sodium-chlorate")
