@@ -315,3 +315,21 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("aluminium-mk02")
+
+RECIPE {
+    type = "recipe",
+    name = "battery-1",
+    category = "crafting-with-fluid",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "lead-plate", amount = 6},
+        {type = "item", name = "glass", amount = 2}, --pyht glass-fiber
+        {type = "fluid", name = "sulfuric-acid", amount = 50},
+    },
+    results = {
+        {type = "item", name = "battery", amount = 2}
+    },
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("battery")

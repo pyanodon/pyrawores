@@ -15,7 +15,7 @@ RECIPE {
     results = {
         {"nexelit-mine", 1}
     }
-}:add_unlock("nexelit-mk02")
+}:add_unlock("nexelit-mk03")
 
 ITEM {
     type = "item",

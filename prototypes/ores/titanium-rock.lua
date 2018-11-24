@@ -45,7 +45,7 @@ DATA {
         richness_multiplier = 800,
         richness_multiplier_distance_bonus = 1000,
         richness_base = 5000000,
-        coverage = 0.00003 / 20,
+        coverage = 0.00003 / 30,
         peaks = {
             {
                 noise_layer = "titanium-rock",

@@ -47,7 +47,7 @@ DATA {
         richness_multiplier = 800,
         richness_multiplier_distance_bonus = 1000,
         richness_base = 500000,
-        coverage = 0.00003,
+        coverage = 0.00002,
         peaks = {
             {
                 noise_layer = "salt-rock",

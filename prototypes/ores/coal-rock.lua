@@ -33,7 +33,7 @@ DATA {
             {"raw-coal", 1}
         },
         fluid_amount = 30,
-        required_fluid = "diesel"
+        required_fluid = "kerosene"
     },
     resource_patch_search_radius = 12,
     tree_removal_probability = 0.7,
@@ -49,7 +49,7 @@ DATA {
         richness_multiplier = 800,
         richness_multiplier_distance_bonus = 1000,
         richness_base = 5000000,
-        coverage = 0.00003 / 20,
+        coverage = 0.00003 / 30,
         peaks = {
             {
                 noise_layer = "coal-rock",
