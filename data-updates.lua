@@ -36,3 +36,5 @@ RECIPE('processing-unit'):add_ingredient({type = "item", name = "gold-plate", am
 RECIPE('electronic-circuit'):add_ingredient({type = "item", name = "nexelit-plate", amount = 1})
 
 RECIPE("military-science-pack"):add_ingredient({type = "item", name = "lead-plate", amount = 1})
+
+RECIPE('battery'):replace_ingredient('iron-plate', 'zinc-plate')

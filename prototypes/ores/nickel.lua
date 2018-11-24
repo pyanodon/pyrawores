@@ -28,7 +28,7 @@ ENTITY {
             {"ore-nickel", 1}
         },
         fluid_amount = 40,
-        required_fluid = "acetylene"
+        required_fluid = "syngas"
     },
     starting_area = true,
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},

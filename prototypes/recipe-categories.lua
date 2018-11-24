@@ -52,6 +52,10 @@ data:extend {
         name = "titanium-rock"
     },
     {
+        type = "resource-category",
+        name = "uranium-rock"
+    },
+    {
         type = "recipe-category",
         name = "scrubber"
     },

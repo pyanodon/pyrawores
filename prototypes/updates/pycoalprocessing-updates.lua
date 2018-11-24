@@ -31,6 +31,7 @@ RECIPE("hydrogen-peroxide"):replace_ingredient("iron-plate", "nickel-plate")
 RECIPE("cladding"):replace_ingredient("sand", "glass")
 --RECIPE("aromatics-to-rubber"):replace_ingredient("plastic-bar", "rubber")
 RECIPE("nas-battery"):replace_ingredient("copper-ore", "sodium-hydroxide")
+RECIPE("nas-battery"):add_ingredient({type = "item", name = "lead-plate", amount = 2})
 
 RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
 RECIPE("olefin"):replace_ingredient("water", "hydrogen")
