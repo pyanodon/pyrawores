@@ -314,7 +314,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("aluminium-mk02")
+}:add_unlock("aluminium-mk01")
 
 RECIPE {
     type = "recipe",
@@ -333,3 +333,24 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("battery")
+
+RECIPE {
+    type = "recipe",
+    name = "mega-drill-head",
+    category = "crafting-with-fluid",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "item", name = "super-steel", amount = 10},
+        {type = "item", name = "aluminium-plate", amount = 10},
+        {type = "fluid", name = "nitrogen", amount = 50}, --pyfe helium
+        --pyfe diamond
+        --pyfe super-alloy
+        --pyfe boron-carbide
+    },
+    results = {
+        {type = "item", name = "mega-drill-head", amount = 1}
+    },
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("machines-mk03"):add_ingredient({type = 'item', name = 'diamond', amount = 10}):add_ingredient({type = 'item', name = 'boron-carbide', amount = 5}):replace_ingredient("super-steel", "super-alloy"):replace_ingredient("nitrogen", "helium")
