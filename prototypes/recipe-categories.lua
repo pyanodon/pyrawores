@@ -56,6 +56,10 @@ data:extend {
         name = "uranium-rock"
     },
     {
+        type = "resource-category",
+        name = "zinc-rock"
+    },
+    {
         type = "recipe-category",
         name = "scrubber"
     },
@@ -102,5 +106,9 @@ data:extend {
     {
         type = "recipe-category",
         name = "drp"
+    },
+    {
+        type = "fuel-category",
+        name = "mega-drill-head"
     },
 }

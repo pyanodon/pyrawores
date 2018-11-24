@@ -1610,6 +1610,139 @@ ITEM {
 
 ITEM {
     type = "item",
+    name = "ore-zinc",
+    icon = "__pyrawores__/graphics/icons/ore-zinc.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-1-zinc",
+    icon = "__pyrawores__/graphics/icons/grade-1-zinc.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-2-zinc",
+    icon = "__pyrawores__/graphics/icons/grade-2-zinc.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-3-zinc",
+    icon = "__pyrawores__/graphics/icons/grade-3-zinc.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "grade-4-zinc",
+    icon = "__pyrawores__/graphics/icons/grade-4-zinc.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "powdered-zinc",
+    icon = "__pyrawores__/graphics/icons/powdered-zinc.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "concentrated-zinc",
+    icon = "__pyrawores__/graphics/icons/concentrated-zinc.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "purified-zinc",
+    icon = "__pyrawores__/graphics/icons/purified-zinc.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+
+ITEM {
+    type = "item",
+    name = "high-grade-zinc",
+    icon = "__pyrawores__/graphics/icons/high-grade-zinc.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sintered-zinc",
+    icon = "__pyrawores__/graphics/icons/sintered-zinc.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "sintered-zinc",
+    icon = "__pyrawores__/graphics/icons/sintered-zinc.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "reduced-zinc",
+    icon = "__pyrawores__/graphics/icons/reduced-zinc.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-ores",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
     name = "zinc-plate",
     icon = "__pyrawores__/graphics/icons/zinc-plate.png",
 	icon_size = 32,
@@ -1621,11 +1754,21 @@ ITEM {
 
 
 
-
-
 --EXTRAS--
 
 
+ITEM {
+    type = "item",
+    name = "mega-drill-head",
+    icon = "__pyrawores__/graphics/icons/mega-drill-head.png",
+    icon_size = 32,
+    fuel_value = "20MJ",
+    fuel_category = "mega-drill",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-items",
+    order = "g",
+    stack_size = 50
+}
 
 
 ITEM {

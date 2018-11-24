@@ -426,3 +426,21 @@ RECIPE {
     subgroup = "py-hightech-recipes",
     order = "f"
 }:add_unlock("vanadium-processing")
+
+
+RECIPE {
+    type = 'recipe',
+    name = 'fertilizer-2',
+    category = 'mixer',
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = 'item', name = 'bones', amount = 6},
+        {type = 'item', name = 'urea', amount = 5},
+        {type = 'item', name = 'ash', amount = 30},
+        {type = 'item', name = 'ammonium-chloride', amount = 20}
+    },
+    results = {
+        {type = 'item', name = 'py-fertilizer', amount = 15}
+    }
+}:add_unlock('basic-electronics')
