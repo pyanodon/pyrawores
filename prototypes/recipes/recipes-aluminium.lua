@@ -28,7 +28,6 @@ RECIPE {
         {type = "fluid", name = "al-pulp-04", amount = 300},
         {type = "fluid", name = "water", amount = 300},
         {type = "item", name = "sodium-hydroxide", amount =10},
-        {type = "item", name = "sodium-chlorate", amount = 10},
         {type = "item", name = "starch", amount = 5},
     },
     results = {
@@ -38,7 +37,7 @@ RECIPE {
     main_product = "sodium-aluminate",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("aluminium-mk02")
+}:add_unlock("aluminium-mk02"):add_ingredient({type = "item", name = "sodium-chlorate", amount =10})
 
 RECIPE {
     type = "recipe",

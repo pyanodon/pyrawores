@@ -5,7 +5,6 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "grease", amount = 50},
         {type = "fluid", name = "copper-solution", amount = 50},
         {type = "fluid", name = "acid-solvent", amount = 50},
     },
@@ -17,7 +16,7 @@ RECIPE {
     main_product = "copper-pulp-01",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("chromium-mk03")
+}:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "grease", amount =50})
 
 
 FLUID {
