@@ -18,6 +18,7 @@ local default = setmetatable({}, require("stdlib/utils/classes/string_array"))
 
 ITEM("copper-plate"):set("icon", "__pyrawores__/graphics/icons/copper-plate.png")
 ITEM("iron-plate"):set("icon", "__pyrawores__/graphics/icons/iron-plate.png")
+ITEM("copper-cable"):set("icon", "__pyrawores__/graphics/icons/copper-cable.png")
 
 --RECIPES UPDATES
 
@@ -68,3 +69,10 @@ RECIPE('substation'):replace_ingredient('copper-plate', 'super-steel')
 RECIPE('uranium-fuel-cell'):replace_ingredient('iron-plate', 'lead-plate')
 RECIPE('heat-pipe'):replace_ingredient('copper-plate', 'duralumin')
 RECIPE('steam-turbine'):add_ingredient({type = "item", name = "super-steel", amount = 20})
+
+RECIPE('advanced-circuit'):replace_ingredient('copper-cable', 'tinned-cable')
+RECIPE('high-tech-science-pack'):replace_ingredient('copper-cable', 'tinned-cable')
+RECIPE('red-wire'):replace_ingredient('copper-cable', 'tinned-cable')
+RECIPE('green-wire'):replace_ingredient('copper-cable', 'tinned-cable')
+RECIPE('beacon'):replace_ingredient('copper-cable', 'tinned-cable')
+RECIPE('red-wire'):replace_ingredient('copper-cable', 'tinned-cable')

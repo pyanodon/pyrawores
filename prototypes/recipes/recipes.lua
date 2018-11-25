@@ -354,3 +354,20 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("machines-mk03"):add_ingredient({type = 'item', name = 'diamond', amount = 10}):add_ingredient({type = 'item', name = 'boron-carbide', amount = 5}):replace_ingredient("super-steel", "super-alloy"):replace_ingredient("nitrogen", "helium")
+
+RECIPE {
+    type = "recipe",
+    name = "tinned-cable",
+    category = "crafting",
+    enabled = true,
+    energy_required = 1,
+    ingredients = {
+        {type = "item", name = "copper-cable", amount = 2},
+        {type = "item", name = "tin-plate", amount = 1},
+    },
+    results = {
+        {type = "item", name = "tinned-cable", amount = 1}
+    },
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}

@@ -14,7 +14,7 @@ DATA {
 ENTITY {
     type = "resource",
     name = "ore-quartz",
-    --category = "ore-quartz",
+    category = "borax",
     icon = "__pyrawores__/graphics/icons/ores/ore-quartz.png",
     icon_size = 32,
     flags = {"placeable-neutral"},

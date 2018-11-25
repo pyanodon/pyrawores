@@ -59,8 +59,8 @@ ENTITY {
     energy_source =
     {
       type = "burner",
-      fuel_category = "drill",
-      effectivity = 3,
+      fuel_category = "mega-drill-head",
+      effectivity = 1,
       fuel_inventory_size = 1,
       emissions = 0.1 / 3,
     },
@@ -142,8 +142,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/quartz-mine.ogg", volume = 2.0},
-        idle_sound = {filename = "__pyrawores__/sounds/quartz-mine.ogg", volume = 1.0},
+        sound = {filename = "__pyrawores__/sounds/quartz-mine.ogg", volume = 2.5},
+        idle_sound = {filename = "__pyrawores__/sounds/quartz-mine.ogg", volume = 1.3},
         apparent_volume = 2.5
     }
 }

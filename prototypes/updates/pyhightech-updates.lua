@@ -19,8 +19,8 @@ RECIPE("phosphate-glass"):replace_ingredient('glass-fiber', 'crushed-quartz')
 RECIPE("silicon-wafer"):add_ingredient({type = 'item', name = 'crushed-quartz', amount = 2})
 RECIPE("nano-wires"):add_ingredient({type = 'item', name = 'gold-plate', amount = 10})
 RECIPE("capacitor1"):replace_ingredient('copper-plate', 'tin-plate')
-RECIPE("resitor1"):replace_ingredient('iron-plate', 'tin-plate'):add_ingredient({type = 'item', name = 'glass', amount = 1})
-RECIPE("resitor3"):add_ingredient({type = 'item', name = 'nickel-plate', amount = 2})
+RECIPE("resistor1"):replace_ingredient('iron-plate', 'tin-plate'):add_ingredient({type = 'item', name = 'glass', amount = 1})
+RECIPE("resistor3"):add_ingredient({type = 'item', name = 'nickel-plate', amount = 2})
 RECIPE("capacitor2"):replace_ingredient('steel-plate', 'aluminium-plate'):replace_ingredient('cermet', 'sodium-aluminate')
 RECIPE("inductor3"):add_ingredient({type = 'item', name = 'gold-plate', amount = 1})
 RECIPE("re-tin"):replace_ingredient('iron-plate', 'tin-plate')
@@ -39,11 +39,11 @@ RECIPE("methane-methanal"):replace_ingredient('water', 'oxygen')
 RECIPE("paramagnetic-material"):replace_ingredient('iron-plate', 'aluminium-plate')
 RECIPE("valve"):add_ingredient({type = 'item', name = 'glass', amount = 1})
 RECIPE("pcb2"):add_ingredient({type = 'item', name = 'tin-plate', amount = 5})
-RECIPE("pcb3"):add_ingredient({type = 'item', name = 'tin-plate', amount = 2})
-RECIPE("pcb4"):add_ingredient({type = 'item', name = 'lead-plate', amount = 2})
+RECIPE("pcb3"):add_ingredient({type = 'item', name = 'tin-plate', amount = 5})
+RECIPE("pcb4"):add_ingredient({type = 'item', name = 'lead-plate', amount = 5})
 RECIPE("microchip"):add_ingredient({type = 'item', name = 'tin-plate', amount = 5})
 RECIPE("crude-cermet"):add_ingredient({type = 'item', name = 'ore-nickel', amount = 5})
-RECIPE("diode"):add_ingredient({type = 'item', name = 'tin-plate', amount = 1})
+RECIPE("diode"):add_ingredient({type = 'item', name = 'tin-plate', amount = 3})
 RECIPE("bisphenol-a"):add_ingredient({type = 'fluid', name = 'hydrogen-chloride', amount = 50})
 RECIPE("pdms"):add_ingredient({type = 'fluid', name = 'hydrogen-chloride', amount = 50})
 RECIPE("nic-core"):add_ingredient({type = 'item', name = 'nickel-plate', amount = 2}):add_ingredient({type = 'fluid', name = 'hydrogen', amount = 100})
@@ -84,6 +84,24 @@ RECIPE('automated-factory-mk04'):replace_ingredient('control-unit', 'intelligent
 
 RECIPE('ball-mill-mk03'):add_ingredient({type = "item", name = "heavy-fermion", amount = 40}):add_ingredient({type = "item", name = "re-magnet", amount = 30}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
 RECIPE('ball-mill-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "nv-center", amount = 2})
+
+RECIPE('borax-mine-mk03'):add_ingredient({type = "item", name = "phosphate-glass", amount = 40}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 20}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20})
+RECIPE('borax-mine-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "parametric-oscilator", amount = 1})
+
+RECIPE('botanical-nursery-mk03'):add_ingredient({type = "item", name = "phosphate-glass", amount = 50}):add_ingredient({type = "item", name = "biopolymer", amount = 35}):add_ingredient({type = "item", name = "aerogel", amount = 15})
+RECIPE('botanical-nursery-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "hyperelastic-material", amount = 4})
+
+RECIPE('carbon-filter-mk03'):add_ingredient({type = "item", name = "re-magnet", amount = 30}):add_ingredient({type = "item", name = "superconductor", amount = 20}):add_ingredient({type = "item", name = "paramagnetic-material", amount = 15})
+RECIPE('carbon-filter-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-vortex-storage-system", amount = 2})
+
+RECIPE('classifier-mk03'):add_ingredient({type = "item", name = "diamagnetic-material", amount = 20}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 15})
+RECIPE('classifier-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "var-josephson-junction", amount = 2})
+
+RECIPE('desulfurizator-unit-mk03'):add_ingredient({type = "item", name = "biopolymer", amount = 15}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20})
+RECIPE('desulfurizator-unit-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-dots", amount = 5})
+
+RECIPE('evaporator-mk03'):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "superconductor", amount = 10})
+RECIPE('evaporator-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
 
 RECIPE {
     type = "recipe",
