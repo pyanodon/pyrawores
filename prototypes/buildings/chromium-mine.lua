@@ -50,7 +50,7 @@ ENTITY {
     energy_source =
     {
       type = "burner",
-      fuel_category = "chemical",
+      fuel_category = "mega-drill-head",
       effectivity = 0.4,
       fuel_inventory_size = 1,
       emissions = 0.1 / 3,
@@ -124,8 +124,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/chromium-mine.ogg", volume = 0.8},
-        idle_sound = {filename = "__pyrawores__/sounds/chromium-mine.ogg", volume = 0.5},
+        sound = {filename = "__pyrawores__/sounds/chromium-mine.ogg", volume = 1.2},
+        idle_sound = {filename = "__pyrawores__/sounds/chromium-mine.ogg", volume = 0.8},
         apparent_volume = 2.5
     }
 }

@@ -45,19 +45,19 @@ DATA {
         richness_multiplier = 800,
         richness_multiplier_distance_bonus = 1000,
         richness_base = 5000000,
-        coverage = 0.00003 / 35,
+        coverage = 0.00003 / 30,
         peaks = {
             {
                 noise_layer = "zinc-rock",
                 noise_octaves_difference = -2.25,
                 noise_persistence = 0.4
             },
-            --no starzincg area
+            --no starting area
             {
                 influence = -1.0,
-                starzincg_area_weight_optimal = 1,
-                starzincg_area_weight_range = 0,
-                starzincg_area_weight_max_range = 2
+                starting_area_weight_optimal = 1,
+                starting_area_weight_range = 0,
+                starting_area_weight_max_range = 2
             },
         }
     },

@@ -51,7 +51,7 @@ ENTITY {
     energy_source =
     {
       type = "burner",
-      fuel_category = "drill",
+      fuel_category = "mega-drill-head",
       effectivity = 1,
       fuel_inventory_size = 1,
       emissions = 0.1,

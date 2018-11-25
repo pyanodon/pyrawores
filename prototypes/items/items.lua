@@ -1763,7 +1763,7 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/mega-drill-head.png",
     icon_size = 32,
     fuel_value = "20MJ",
-    fuel_category = "mega-drill",
+    fuel_category = "mega-drill-head",
     flags = {"goes-to-main-inventory"},
     subgroup = "py-items",
     order = "g",
@@ -1918,6 +1918,17 @@ ITEM {
     type = "item",
     name = "sponge-iron",
     icon = "__pyrawores__/graphics/icons/sponge-iron.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
+
+ITEM {
+    type = "item",
+    name = "tinned-cable",
+    icon = "__pyrawores__/graphics/icons/tinned-cable.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "py-rawores-items",
