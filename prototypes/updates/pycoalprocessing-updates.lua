@@ -202,6 +202,115 @@ RECIPE {
     order = "k"
 }:add_unlock("energy-1")
 
+RECIPE {
+    type = "recipe",
+    name = "kerosene-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "hydrogen", amount = 50},
+        {type = "fluid", name = "water", amount = 500},
+        {type = "fluid", name = "kerosene", amount = 100}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 800},
+        {type = "fluid", name = "steam", amount = 500, temperature = 60}
+    },
+    icon = "__pyrawores__/graphics/icons/combustion-kerosene.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "k"
+}:add_unlock("energy-3")
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrodmk02-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "hydrogen", amount = 50},
+        {type = "fluid", name = "water", amount = 500},
+        {type = "item", name = "fuelrod-mk02", amount = 1}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 200, temperature = 800},
+        {type = "fluid", name = "steam", amount = 500, temperature = 60}
+    },
+    icon = "__pyrawores__/graphics/icons/combustion-fuelrod-mk02.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "k"
+}:add_unlock("fuel-production")
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrodmk03-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "hydrogen", amount = 50},
+        {type = "fluid", name = "water", amount = 500},
+        {type = "item", name = "fuelrod-mk03", amount = 1}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 200, temperature = 850},
+        {type = "fluid", name = "steam", amount = 500, temperature = 60}
+    },
+    icon = "__pyrawores__/graphics/icons/combustion-fuelrod-mk03.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "k"
+}:add_unlock("fuel-production")
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrodmk04-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "hydrogen", amount = 50},
+        {type = "fluid", name = "water", amount = 500},
+        {type = "item", name = "fuelrod-mk04", amount = 1}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 200, temperature = 900},
+        {type = "fluid", name = "steam", amount = 500, temperature = 60}
+    },
+    icon = "__pyrawores__/graphics/icons/combustion-fuelrod-mk04.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "k"
+}:add_unlock("fuel-production")
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrodmk05-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "hydrogen", amount = 50},
+        {type = "fluid", name = "water", amount = 500},
+        {type = "item", name = "fuelrod-mk05", amount = 1}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 200, temperature = 950},
+        {type = "fluid", name = "steam", amount = 500, temperature = 60}
+    },
+    icon = "__pyrawores__/graphics/icons/combustion-fuelrod-mk05.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "k"
+}:add_unlock("fuel-production")
 
 RECIPE {
     type = "recipe",
