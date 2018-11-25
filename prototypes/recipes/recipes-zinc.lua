@@ -101,7 +101,6 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "zinc-pulp-03", amount = 100},
-        {type = "fluid", name = "grease", amount = 100},
         {type = "item", name = "sodium-hydroxide", amount = 5},
     },
     results = {
@@ -111,7 +110,7 @@ RECIPE {
     main_product = "purified-zinc",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("zinc-mk03"):change_category('grease')
+}:add_unlock("zinc-mk03"):change_category('grease'):add_ingredient({type = "fluid", name = "grease", amount =100})
 
 RECIPE {
     type = "recipe",

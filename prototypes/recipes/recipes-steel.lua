@@ -128,10 +128,8 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-stainless-steel", amount = 50},
-        {type = "item", name = "molybdenum-plate", amount = 3},
         {type = "item", name = "fuelrod-mk01", amount = 3},
         {type = "item", name = "niobium-plate", amount = 1},
-        {type = "item", name = "vanadium-oxide", amount = 2},
     },
     results = {
         {type = "fluid", name = "molten-super-steel", amount = 50},
@@ -139,7 +137,7 @@ RECIPE {
     main_product = "molten-super-steel",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "silicon", amount =1})
+}:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "silicon", amount =1}):add_ingredient({type = "item", name = "molybdenum-plate", amount =3}):add_ingredient({type = "item", name = "vanadium-oxide", amount =2})
 
 RECIPE {
     type = "recipe",
