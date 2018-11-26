@@ -74,7 +74,7 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/ore-aluminium.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-ores",
+    subgroup = "py-rawores-aluminium",
     order = "a",
     stack_size = 500
 }
@@ -85,7 +85,7 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/powdered-aluminium.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
+    subgroup = "py-rawores-aluminium",
     order = "b",
     stack_size = 500
 }
@@ -96,8 +96,8 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/sodium-aluminate.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "b",
+    subgroup = "py-rawores-aluminium",
+    order = "g",
     stack_size = 500
 }
 
@@ -107,8 +107,8 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/crystalized-sodium-aluminate.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "b",
+    subgroup = "py-rawores-aluminium",
+    order = "h",
     stack_size = 500
 }
 
@@ -118,8 +118,8 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/high-grade-alumina.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "b",
+    subgroup = "py-rawores-aluminium",
+    order = "i",
     stack_size = 500
 }
 
@@ -129,8 +129,8 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/aluminium-plate.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "b",
+    subgroup = "py-rawores-plates",
+    order = "a",
     stack_size = 500
 }
 
@@ -140,8 +140,8 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/sintered-aluminium.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "a",
+    subgroup = "py-rawores-aluminium",
+    order = "j",
     stack_size = 500
 }
 
@@ -151,8 +151,8 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/reduced-aluminium.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
-    subgroup = "py-rawores-items",
-    order = "a",
+    subgroup = "py-rawores-aluminium",
+    order = "i",
     stack_size = 500
 }
 

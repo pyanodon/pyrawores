@@ -20,7 +20,7 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/sinter-unit.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
-    subgroup = "py-rawores-buildings",
+    subgroup = "py-rawores-buildings-others",
     order = "b",
     place_result = "sinter-unit",
     stack_size = 10

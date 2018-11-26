@@ -228,8 +228,8 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 10},
     },
     main_product = "molten-zinc",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "z"
 }:add_unlock("zinc-mk02")
 
 RECIPE {
@@ -248,8 +248,8 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 20},
     },
     main_product = "molten-zinc",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "z"
 }:add_unlock("zinc-mk03")
 
 RECIPE {
@@ -268,8 +268,8 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 30},
     },
     main_product = "molten-zinc",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "z"
 }:add_unlock("zinc-mk04")
 
 RECIPE {
@@ -288,8 +288,8 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 50},
     },
     main_product = "molten-zinc",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "z"
 }:add_unlock("zinc-mk04")
 
 RECIPE {
@@ -308,8 +308,8 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 100},
     },
     main_product = "molten-zinc",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "z"
 }:add_unlock("zinc-mk04")
 
 

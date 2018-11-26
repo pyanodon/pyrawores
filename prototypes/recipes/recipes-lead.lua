@@ -228,8 +228,8 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 10},
     },
     main_product = "molten-lead",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "l"
 }:add_unlock("lead-mk02"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -246,8 +246,8 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 20},
     },
     main_product = "molten-lead",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "l"
 }:add_unlock("lead-mk03"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -264,8 +264,8 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 25},
     },
     main_product = "molten-lead",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "l"
 }:add_unlock("lead-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -282,8 +282,8 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 50},
     },
     main_product = "molten-lead",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "l"
 }:add_unlock("lead-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -300,8 +300,8 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 100},
     },
     main_product = "molten-lead",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "l"
 }:add_unlock("lead-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 

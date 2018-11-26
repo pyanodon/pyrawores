@@ -14,8 +14,8 @@ RECIPE {
         {type = "item", name = "gravel", amount = 1, probability = 0.5}
     },
     main_product = "powdered-aluminium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-aluminium",
+    order = "b"
 }:add_unlock("aluminium-mk01")
 
 RECIPE {
@@ -35,8 +35,8 @@ RECIPE {
         {type = "fluid", name = "al-tailings", amount = 50},
     },
     main_product = "sodium-aluminate",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-aluminium",
+    order = "c-a"
 }:add_unlock("aluminium-mk02"):add_ingredient({type = "item", name = "sodium-chlorate", amount =10})
 
 RECIPE {
@@ -53,8 +53,8 @@ RECIPE {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 1},
     },
     main_product = "crystalized-sodium-aluminate",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-aluminium",
+    order = "h"
 }:add_unlock("aluminium-mk03")
 
 RECIPE {
@@ -73,8 +73,8 @@ RECIPE {
         {type = "fluid", name = "water", amount = 50},
     },
     main_product = "high-grade-alumina",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-aluminium",
+    order = "i"
 }:add_unlock("aluminium-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 
@@ -99,8 +99,8 @@ RECIPE {
         {type = "item", name = "reduced-aluminium", amount = 1},
     },
     main_product = "reduced-aluminium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-aluminium",
+    order = "i"
 }:add_unlock("aluminium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -119,8 +119,8 @@ RECIPE {
         {type = "item", name = "sintered-aluminium", amount = 1},
     },
     main_product = "sintered-aluminium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-aluminium",
+    order = "j"
 }:add_unlock("aluminium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -139,8 +139,8 @@ RECIPE {
         {type = "item", name = "sintered-aluminium", amount = 2},
     },
     main_product = "sintered-aluminium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-aluminium",
+    order = "k"
 }:add_unlock("aluminium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 
@@ -163,8 +163,8 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 25},
     },
     main_product = "molten-aluminium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "a"
 }:add_unlock("aluminium-mk02"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -181,8 +181,8 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 50},
     },
     main_product = "molten-aluminium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "a"
 }:add_unlock("aluminium-mk03"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 
@@ -207,8 +207,8 @@ RECIPE {
         {type = "item", name = "aluminium-plate", amount = 2}
     },
     main_product= "aluminium-plate",
-    subgroup = "py-rawores-recipes",
-    order = "j"
+    subgroup = "py-rawores-plates",
+    order = "b"
 }:add_unlock("aluminium-mk01")
 
 RECIPE {
@@ -225,8 +225,8 @@ RECIPE {
         {type = "item", name = "aluminium-plate", amount = 20}
     },
     main_product= "aluminium-plate",
-    subgroup = "py-rawores-recipes",
-    order = "j"
+    subgroup = "py-rawores-plates",
+    order = "c"
 }:add_unlock("aluminium-mk02")
 
 
@@ -248,6 +248,6 @@ RECIPE {
         {type = "item", name = "aluminium-plate", amount = 1}
     },
     main_product= "aluminium-plate",
-    subgroup = "py-rawores-recipes",
-    order = "j"
+    subgroup = "py-rawores-plates",
+    order = "a"
 }

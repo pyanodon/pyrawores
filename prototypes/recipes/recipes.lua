@@ -318,6 +318,27 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
+    name = "duralumin-2",
+    category = "casting",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "molten-aluminium", amount = 100},
+        {type = "fluid", name = "molten-copper", amount = 100},
+        {type = "item", name = "sand-casting", amount = 4},
+    },
+    results = {
+        {type = "item", name = "duralumin", amount = 20}
+    },
+    main_product= "duralumin",
+    icon = "__pyrawores__/graphics/icons/duralumin.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("aluminium-mk02")
+
+RECIPE {
+    type = "recipe",
     name = "battery-1",
     category = "crafting-with-fluid",
     enabled = false,

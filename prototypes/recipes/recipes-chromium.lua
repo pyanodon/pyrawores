@@ -262,8 +262,8 @@ RECIPE {
         {type = "item", name = "chromium", amount = 25},
     },
     main_product = "chromium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-plates",
+    order = "b"
 }:add_unlock("chromium-mk02")
 
 
@@ -284,8 +284,8 @@ RECIPE {
         {type = "fluid", name = "molten-chromium", amount = 25},
     },
     main_product = "molten-chromium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "c"
 }:add_unlock("chromium-mk02")
 
 RECIPE {
@@ -303,8 +303,8 @@ RECIPE {
         {type = "fluid", name = "molten-chromium", amount = 50},
     },
     main_product = "molten-chromium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "c"
 }:add_unlock("chromium-mk03")
 
 RECIPE {
@@ -322,8 +322,8 @@ RECIPE {
         {type = "fluid", name = "molten-chromium", amount = 100},
     },
     main_product = "molten-chromium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "c"
 }:add_unlock("chromium-mk04")
 
 

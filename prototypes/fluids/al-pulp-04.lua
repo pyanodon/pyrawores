@@ -15,8 +15,8 @@ RECIPE {
     main_product = "al-pulp-04",
     icon = "__pyrawores__/graphics/icons/al-pulp-04.png",
     icon_size = 32,
-    subgroup = "py-rawores-fluids",
-    order = "q-2"
+    subgroup = "py-rawores-aluminium",
+    order = "f"
 }:add_unlock("aluminium-mk02")
 
 
@@ -32,6 +32,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
-    order = "c"
+    subgroup = "py-rawores-aluminium",
+    order = "f"
 }

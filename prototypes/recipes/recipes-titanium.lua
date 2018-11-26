@@ -267,8 +267,8 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 10},
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "tb"
 }:add_unlock("titanium-mk02")
 
 RECIPE {
@@ -287,8 +287,8 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 20},
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "tb"
 }:add_unlock("titanium-mk03")
 
 RECIPE {
@@ -307,8 +307,8 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 30},
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "tb"
 }:add_unlock("titanium-mk04")
 
 RECIPE {
@@ -327,8 +327,8 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 50},
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "tb"
 }:add_unlock("titanium-mk04")
 
 RECIPE {
@@ -347,8 +347,8 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 100},
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "tb"
 }:add_unlock("titanium-mk04")
 
 

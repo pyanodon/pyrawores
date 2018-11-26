@@ -21,8 +21,8 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/wet-scrubber-mk01.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
-    subgroup = "py-rawores-buildings",
-    order = "b",
+    subgroup = "py-rawores-buildings-mk01",
+    order = "g",
     place_result = "wet-scrubber-mk01",
     stack_size = 10
 }
