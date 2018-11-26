@@ -78,8 +78,8 @@ RECIPE {
         {type = "fluid", name = "molten-silver", amount = 10},
     },
     main_product = "molten-silver",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "s"
 }:add_unlock("lead-mk02")
 
 RECIPE {
@@ -97,8 +97,8 @@ RECIPE {
         {type = "fluid", name = "molten-silver", amount = 25},
     },
     main_product = "molten-silver",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "s"
 }:add_unlock("lead-mk03")
 
 RECIPE {
@@ -116,8 +116,8 @@ RECIPE {
         {type = "fluid", name = "molten-silver", amount = 50},
     },
     main_product = "molten-silver",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "s"
 }:add_unlock("lead-mk04")
 
 RECIPE {
@@ -135,8 +135,8 @@ RECIPE {
         {type = "fluid", name = "molten-silver", amount = 100},
     },
     main_product = "molten-silver",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "s"
 }:add_unlock("lead-mk04")
 
 

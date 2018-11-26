@@ -280,8 +280,8 @@ RECIPE {
         {type = "fluid", name = "molten-iron", amount = 50},
     },
     main_product = "molten-iron",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "d"
 }:add_unlock("iron-mk03")
 
 RECIPE {
@@ -299,8 +299,8 @@ RECIPE {
         {type = "fluid", name = "molten-iron", amount = 100},
     },
     main_product = "molten-iron",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "d"
 }:add_unlock("iron-mk03")
 
 

@@ -242,8 +242,8 @@ RECIPE {
         {type = "fluid", name = "molten-copper", amount = 50},
     },
     main_product = "molten-copper",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "c"
 }:add_unlock("copper-mk02")
 
 RECIPE {
@@ -261,8 +261,8 @@ RECIPE {
         {type = "fluid", name = "molten-copper", amount = 100},
     },
     main_product = "molten-copper",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "c"
 }:add_unlock("copper-mk03")
 
 

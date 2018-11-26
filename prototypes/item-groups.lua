@@ -9,27 +9,71 @@ data:extend {
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-drills",
+        name = "py-rawores-buildings-mk01",
         group = "py-rawores",
-        order = "a"
+        order = "a-a"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-mines",
+        name = "py-rawores-buildings-mk02",
         group = "py-rawores",
-        order = "f"
+        order = "a-b"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-buildings",
+        name = "py-rawores-buildings-mk03",
+        group = "py-rawores",
+        order = "a-c"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-rawores-buildings-mk04",
+        group = "py-rawores",
+        order = "a-d"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-rawores-buildings-others",
+        group = "py-rawores",
+        order = "a-e"
+    },
+-----------------------------PLATES----------------
+    {
+        type = "item-subgroup",
+        name = "py-rawores-plates",
+        group = "py-rawores",
+        order = "a-f"
+    },
+-----------------------------SPECIFIC METALS----------------
+    {
+        type = "item-subgroup",
+        name = "py-rawores-aluminium", 
         group = "py-rawores",
         order = "b"
     },
+
+-----------------------------MOLTEN VERSIONS----------------
+    {
+        type = "item-subgroup",
+        name = "py-rawores-molten",
+        group = "py-rawores",
+        order = "f"
+    },
+
+
+-----------------------------MEGA MINES----------------
+{
+    type = "item-subgroup",
+    name = "py-rawores-mines",
+    group = "py-rawores",
+    order = "z"
+},
+
     {
         type = "item-subgroup",
         name = "py-rawores-items",
         group = "py-rawores",
-        order = "e"
+        order = "g"
     },
     {
         type = "item-subgroup",
@@ -41,7 +85,7 @@ data:extend {
         type = "item-subgroup",
         name = "py-rawores-recipes",
         group = "py-rawores",
-        order = "c"
+        order = "x"
     },
     {
         type = "item-subgroup",

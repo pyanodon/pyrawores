@@ -20,8 +20,8 @@ ITEM {
     icon = "__pyrawores__/graphics/icons/flotation-cell-mk01.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
-    subgroup = "py-rawores-buildings",
-    order = "b",
+    subgroup = "py-rawores-buildings-mk01",
+    order = "e",
     place_result = "flotation-cell-mk01",
     stack_size = 10
 }

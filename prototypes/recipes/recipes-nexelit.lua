@@ -251,8 +251,8 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 10},
     },
     main_product = "molten-nexelit",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "n"
 }:add_unlock("nexelit-mk02"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -269,8 +269,8 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 20},
     },
     main_product = "molten-nexelit",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "n"
 }:add_unlock("nexelit-mk03"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -287,8 +287,8 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 25},
     },
     main_product = "molten-nexelit",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "n"
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -305,8 +305,8 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 50},
     },
     main_product = "molten-nexelit",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "n"
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -323,8 +323,8 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 100},
     },
     main_product = "molten-nexelit",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "n"
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 

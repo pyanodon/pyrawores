@@ -193,8 +193,8 @@ RECIPE {
         {type = "item", name = "pyrite", amount = 1},
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "n"
 }:add_unlock("nickel-mk03")
 
 RECIPE {
@@ -211,8 +211,8 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 10},
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "n"
 }:add_unlock("nickel-mk02")
 
 RECIPE {
@@ -230,8 +230,8 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 20},
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "n"
 }:add_unlock("nickel-mk03")
 
 RECIPE {
@@ -249,8 +249,8 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 25},
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "n"
 }:add_unlock("nickel-mk03")
 
 RECIPE {
@@ -268,8 +268,8 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 30},
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "n"
 }:add_unlock("nickel-mk04")
 
 RECIPE {
@@ -287,8 +287,8 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 50},
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "n"
 }:add_unlock("nickel-mk04")
 
 RECIPE {
@@ -306,8 +306,8 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 100},
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "n"
 }:add_unlock("nickel-mk04")
 
 

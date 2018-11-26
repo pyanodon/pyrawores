@@ -325,8 +325,8 @@ RECIPE {
         {type = "fluid", name = "molten-tin", amount = 10},
     },
     main_product = "molten-tin",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "ta"
 }:add_unlock("tin-mk02"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -343,8 +343,8 @@ RECIPE {
         {type = "fluid", name = "molten-tin", amount = 20},
     },
     main_product = "molten-tin",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "ta"
 }:add_unlock("tin-mk03"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -361,8 +361,8 @@ RECIPE {
         {type = "fluid", name = "molten-tin", amount = 25},
     },
     main_product = "molten-tin",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "ta"
 }:add_unlock("tin-mk03"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -379,8 +379,8 @@ RECIPE {
         {type = "fluid", name = "molten-tin", amount = 30},
     },
     main_product = "molten-tin",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "ta"
 }:add_unlock("tin-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -397,8 +397,8 @@ RECIPE {
         {type = "fluid", name = "molten-tin", amount = 50},
     },
     main_product = "molten-tin",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "ta"
 }:add_unlock("tin-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -415,8 +415,8 @@ RECIPE {
         {type = "fluid", name = "molten-tin", amount = 100},
     },
     main_product = "molten-tin",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "ta"
 }:add_unlock("tin-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 

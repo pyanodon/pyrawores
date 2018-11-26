@@ -33,8 +33,8 @@ RECIPE {
         {type = "fluid", name = "molten-steel", amount = 50},
     },
     main_product = "molten-steel",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "s"
 }:add_unlock("iron-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
@@ -53,8 +53,8 @@ RECIPE {
         {type = "fluid", name = "flue-gas", amount = 500},
     },
     main_product = "molten-steel",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "s"
 }:add_unlock("iron-mk01")
 
 RECIPE {
@@ -96,8 +96,8 @@ RECIPE {
         {type = "fluid", name = "molten-stainless-steel", amount = 50},
     },
     main_product = "molten-stainless-steel",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "s"
 }:add_unlock("iron-mk02"):add_ingredient({type = "item", name = "phosphate-rock", amount =4})
 
 RECIPE {
@@ -135,8 +135,8 @@ RECIPE {
         {type = "fluid", name = "molten-super-steel", amount = 50},
     },
     main_product = "molten-super-steel",
-    subgroup = "py-rawores-recipes",
-    order = "q-2"
+    subgroup = "py-rawores-molten",
+    order = "s"
 }:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "silicon", amount =1}):add_ingredient({type = "item", name = "molybdenum-plate", amount =3}):add_ingredient({type = "item", name = "vanadium-oxide", amount =2})
 
 RECIPE {
