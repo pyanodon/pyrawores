@@ -124,6 +124,19 @@ RECIPE('jaw-crusher-mk04'):replace_ingredient('control-unit', 'intelligent-unit'
 RECIPE('methanol-reactor-mk03'):add_ingredient({type = "item", name = "biopolymer", amount = 30}):add_ingredient({type = "item", name = "carbon-nanotube", amount = 30}):add_ingredient({type = "item", name = "aerogel", amount = 15})
 RECIPE('methanol-reactor-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "nems", amount = 5}):add_ingredient({type = "item", name = "graphene-roll", amount = 15})
 
+RECIPE('olefin-plant-mk03'):add_ingredient({type = "item", name = "biopolymer", amount = 15}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20})
+RECIPE('olefin-plant-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-dots", amount = 5})
+
+RECIPE('quenching-tower-mk03'):add_ingredient({type = "item", name = "paramagnetic-material", amount = 25}):add_ingredient({type = "item", name = "volumetric-capacitor", amount = 10}):add_ingredient({type = "item", name = "biopolymer", amount = 10})
+RECIPE('quenching-tower-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-vortex-storage-system", amount = 4})
+
+RECIPE('quenching-tower-mk03'):add_ingredient({type = "item", name = "phosphate-glass", amount = 40}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 20}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20})
+RECIPE('quenching-tower-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "parametric-oscilator", amount = 1})
+
+RECIPE('rectisol-mk03'):add_ingredient({type = "item", name = "re-magnet", amount = 30}):add_ingredient({type = "item", name = "superconductor", amount = 20}):add_ingredient({type = "item", name = "paramagnetic-material", amount = 15})
+RECIPE('rectisol-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-vortex-storage-system", amount = 2})
+
+
 RECIPE {
     type = "recipe",
     name = "hydrogen-chloride-2",
