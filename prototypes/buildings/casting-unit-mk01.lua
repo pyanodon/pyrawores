@@ -4,15 +4,16 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"steel-plate", 20},
-        {"iron-plate", 15},
-        {"classifier", 1},
-        {"electronic-circuit", 20},
+        {"steam-engine", 2},
+        {"steel-plate", 15},
+        {"copper-plate", 20},
+        {"radar", 1}, --pyindustry local radar
+        {"lab", 1},
     },
     results = {
         {"casting-unit-mk01", 1}
     }
-}:add_unlock("machines-mk01")
+}:add_unlock("machines-mk01"):replace_ingredient('radar', 'local-radar')
 
 ITEM {
     type = "item",

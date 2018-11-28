@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"steel-plate", 20},
-        {"iron-plate", 15},
-        {"evaporator", 1},
-        {"electronic-circuit", 20},
+        {"steam-engine", 4},
+        {"steel-plate", 10},
+        {"lab", 1},
+        {"electronic-circuit", 3},
     },
     results = {
         {"flotation-cell-mk01", 1}
     }
-}:add_unlock("machines-mk01")
+}:add_unlock("machines-mk01"):replace_ingredient('lab', 'local-radar')
 
 ITEM {
     type = "item",

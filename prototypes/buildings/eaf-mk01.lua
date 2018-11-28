@@ -4,10 +4,10 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"steel-plate", 20},
-        {"iron-plate", 15},
-        {"classifier", 1},
-        {"electronic-circuit", 20},
+        {"boiler", 5},
+        {"electric-mining-drill", 1},
+        {"steel-plate", 25},
+        {"electronic-circuit", 10},
     },
     results = {
         {"eaf-mk01", 1}

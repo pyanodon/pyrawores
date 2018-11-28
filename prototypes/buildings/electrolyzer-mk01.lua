@@ -4,11 +4,10 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"steel-plate", 20},
+        {"lab", 2},
         {"aluminium-plate", 30},
-        {"engine-unit", 5},
-        {"botanical-nursery", 1},
-        {"electronic-circuit", 15},
+        {"tar-processing-unit", 1},
+        {"electronic-circuit", 5},
     },
     results = {
         {"electrolyzer-mk01", 1}
