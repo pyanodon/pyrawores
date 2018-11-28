@@ -1,38 +1,40 @@
 RECIPE {
     type = "recipe",
-    name = "bof-mk01",
+    name = "bof-mk04",
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"boiler", 3},
-        {"washer", 1},
-        {"iron-plate", 15},
-        {"electronic-circuit", 10},
+        {"bof-mk03", 1},
+        {"concrete", 15},
+        {"super-steel", 30},
+        {"glass", 10},
+        {"low-density-structure", 10},
+        {"nbfe-alloy", 10},
     },
     results = {
-        {"bof-mk01", 1}
+        {"bof-mk04", 1}
     }
-}:add_unlock("machines-mk01")
+}:add_unlock("machines-mk04")
 
 ITEM {
     type = "item",
-    name = "bof-mk01",
-    icon = "__pyrawores__/graphics/icons/bof-mk01.png",
+    name = "bof-mk04",
+    icon = "__pyrawores__/graphics/icons/bof-mk04.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
-    subgroup = "py-rawores-buildings-mk01",
+    subgroup = "py-rawores-buildings-mk04",
     order = "a",
-    place_result = "bof-mk01",
+    place_result = "bof-mk04",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "bof-mk01",
-    icon = "__pyrawores__/graphics/icons/bof-mk01.png",
+    name = "bof-mk04",
+    icon = "__pyrawores__/graphics/icons/bof-mk04.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "bof-mk01"},
+    minable = {mining_time = 1, result = "bof-mk04"},
     fast_replaceable_group = "bof-mk01",
     max_health = 100,
     corpse = "medium-remnants",
@@ -40,11 +42,11 @@ ENTITY {
     collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
     selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
     module_specification = {
-        module_slots = 1
+        module_slots = 0
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"bof"},
-    crafting_speed = 0.5,
+    crafting_speed = 3.0,
     energy_source =
     {
       type = "burner",
@@ -67,12 +69,12 @@ ENTITY {
         },
       },
     },
-    energy_usage = "500kW",
+    energy_usage = "900kW",
     ingredient_count = 10,
     animation = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/bof-mk01/off.png",
+                filename = "__pyrawores__/graphics/entity/bof-mk01/off-mk04.png",
                 --priority = "high",
                 width = 256,
                 height = 288,
@@ -90,13 +92,13 @@ ENTITY {
             south_position = util.by_pixel(-15.5, -64),
             east_position = util.by_pixel(-15.5, -64),
             animation = {
-                filename = "__pyrawores__/graphics/entity/bof-mk01/on.png",
+                filename = "__pyrawores__/graphics/entity/bof-mk01/on-mk04.png",
                 priority = "high",
                 frame_count = 24,
                 line_length = 6,
                 width = 128,
                 height = 160,
-                animation_speed = 1.0
+                animation_speed = 0.15
             }
         },
     },

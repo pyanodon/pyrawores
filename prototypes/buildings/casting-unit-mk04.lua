@@ -1,102 +1,87 @@
 RECIPE {
     type = "recipe",
-    name = "bof-mk01",
+    name = "casting-unit-mk04",
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"boiler", 3},
-        {"washer", 1},
-        {"iron-plate", 15},
-        {"electronic-circuit", 10},
+        {"casting-unit-mk03", 1},
+        {"concrete", 15},
+        {"super-steel", 30},
+        {"storage-tank", 1},
+        {"low-density-structure", 10},
+        {"nbfe-alloy", 10},
     },
     results = {
-        {"bof-mk01", 1}
+        {"casting-unit-mk04", 1}
     }
-}:add_unlock("machines-mk01")
+}:add_unlock("machines-mk04"):replace_ingredient('storage-tank', 'py-tank-8000')
 
 ITEM {
     type = "item",
-    name = "bof-mk01",
-    icon = "__pyrawores__/graphics/icons/bof-mk01.png",
+    name = "casting-unit-mk04",
+    icon = "__pyrawores__/graphics/icons/casting-unit-mk04.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
-    subgroup = "py-rawores-buildings-mk01",
-    order = "a",
-    place_result = "bof-mk01",
+    subgroup = "py-rawores-buildings-mk04",
+    order = "b",
+    place_result = "casting-unit-mk04",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "bof-mk01",
-    icon = "__pyrawores__/graphics/icons/bof-mk01.png",
+    name = "casting-unit-mk04",
+    icon = "__pyrawores__/graphics/icons/casting-unit-mk04.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "bof-mk01"},
-    fast_replaceable_group = "bof-mk01",
+    minable = {mining_time = 1, result = "casting-unit-mk04"},
+    fast_replaceable_group = "casting-unit-mk01",
     max_health = 100,
     corpse = "medium-remnants",
     dying_explosion = "big-explosion",
     collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
     selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
     module_specification = {
-        module_slots = 1
+        module_slots = 0
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    crafting_categories = {"bof"},
-    crafting_speed = 0.5,
-    energy_source =
-    {
-      type = "burner",
-      fuel_category = "chemical",
-      effectivity = 1,
-      fuel_inventory_size = 1,
-      emissions = 0.1,
-      smoke =
-      {
-        {
-            name = "smoke",
-            north_position = {2.95, -5.0},
-            east_position = {2.95, -5.0},
-            west_position = {2.95, -5.0},
-            south_position = {2.95, -5.0},
-            frequency = 90,
-            starting_vertical_speed = 0.05,
-            slow_down_factor = 1,
-            starting_frame_deviation = 60
-        },
-      },
+    crafting_categories = {"casting"},
+    crafting_speed = 3,
+    energy_source = {
+        type = "electric",
+        usage_priority = "secondary-input",
+        emissions = 0.04
     },
-    energy_usage = "500kW",
+    energy_usage = "650kW",
     ingredient_count = 10,
     animation = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/bof-mk01/off.png",
+                filename = "__pyrawores__/graphics/entity/casting-unit-mk01/off-mk04.png",
                 --priority = "high",
-                width = 256,
-                height = 288,
+                width = 238,
+                height = 234,
                 --line_length = 1,
                 frame_count = 1,
                 --animation_speed = 2,
-                shift = util.by_pixel(17, -32)
+                shift = util.by_pixel(7, -5)
             },
         }
     },
     working_visualisations = {
         {
-            north_position = util.by_pixel(-15.5, -64),
-            west_position = util.by_pixel(-15.5, -64),
-            south_position = util.by_pixel(-15.5, -64),
-            east_position = util.by_pixel(-15.5, -64),
+            north_position = util.by_pixel(6.5, -5),
+            west_position = util.by_pixel(6.5, -5),
+            south_position = util.by_pixel(6.5, -5),
+            east_position = util.by_pixel(6.5, -5),
             animation = {
-                filename = "__pyrawores__/graphics/entity/bof-mk01/on.png",
+                filename = "__pyrawores__/graphics/entity/casting-unit-mk01/on-mk04.png",
                 priority = "high",
-                frame_count = 24,
+                frame_count = 30,
                 line_length = 6,
-                width = 128,
-                height = 160,
-                animation_speed = 1.0
+                width = 237,
+                height = 234,
+                animation_speed = 0.12
             }
         },
     },
@@ -108,7 +93,7 @@ ENTITY {
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_area = 10,
             base_level = -1,
-            pipe_connections = {{type = "input", position = {1.0, -4.0}}}
+            pipe_connections = {{type = "input", position = {0.0, -4.0}}}
         },
         {
             production_type = "input",
@@ -116,28 +101,28 @@ ENTITY {
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_area = 10,
             base_level = -1,
-            pipe_connections = {{type = "input", position = {-1.0, -4.0}}}
+            pipe_connections = {{type = "input", position = {-0.0, 4.0}}}
         },
         {
             production_type = "output",
             pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_level = 1,
-            pipe_connections = {{type = "output", position = {1.0, 4.0}}}
+            pipe_connections = {{type = "output", position = {4.0, 0.0}}}
         },
         {
             production_type = "output",
             pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_level = 1,
-            pipe_connections = {{type = "output", position = {-1.0, 4.0}}}
+            pipe_connections = {{type = "output", position = {-4.0, 0.0}}}
         },
         off_when_no_fluid_recipe = true
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/bof.ogg", volume = 0.9},
-        idle_sound = {filename = "__pyrawores__/sounds/bof.ogg", volume = 0.65},
+        sound = {filename = "__pyrawores__/sounds/casting-unit.ogg", volume = 1.0},
+        idle_sound = {filename = "__pyrawores__/sounds/casting-unit.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
 }

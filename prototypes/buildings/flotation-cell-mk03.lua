@@ -1,38 +1,40 @@
 RECIPE {
     type = "recipe",
-    name = "flotation-cell-mk01",
+    name = "flotation-cell-mk03",
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"steam-engine", 4},
-        {"steel-plate", 10},
-        {"lab", 1},
-        {"electronic-circuit", 3},
+        {"flotation-cell-mk02", 1},
+        {"titanium-plate", 20},
+        {"stainless-steel", 20},
+        {"storage-tank", 1},
+        {"tin-plate", 20},
+        {"processing-unit", 10}
     },
     results = {
-        {"flotation-cell-mk01", 1}
+        {"flotation-cell-mk03", 1}
     }
-}:add_unlock("machines-mk01"):replace_ingredient('lab', 'local-radar')
+}:add_unlock("machines-mk03"):replace_ingredient('storage-tank', 'py-tank-6500')
 
 ITEM {
     type = "item",
-    name = "flotation-cell-mk01",
-    icon = "__pyrawores__/graphics/icons/flotation-cell-mk01.png",
+    name = "flotation-cell-mk03",
+    icon = "__pyrawores__/graphics/icons/flotation-cell-mk03.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
-    subgroup = "py-rawores-buildings-mk01",
+    subgroup = "py-rawores-buildings-mk03",
     order = "e",
-    place_result = "flotation-cell-mk01",
+    place_result = "flotation-cell-mk03",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "flotation-cell-mk01",
-    icon = "__pyrawores__/graphics/icons/flotation-cell-mk01.png",
+    name = "flotation-cell-mk03",
+    icon = "__pyrawores__/graphics/icons/flotation-cell-mk03.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "flotation-cell-mk01"},
+    minable = {mining_time = 1, result = "flotation-cell-mk03"},
     fast_replaceable_group = "flotation-cell-mk01",
     max_health = 100,
     corpse = "medium-remnants",
@@ -40,22 +42,22 @@ ENTITY {
     collision_box = {{-2.7, -2.7}, {2.7, 2.7}},
     selection_box = {{-3.0, -3.0}, {3.0, 3.0}},
     module_specification = {
-        module_slots = 1
+        module_slots = 0
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"flotation"},
-    crafting_speed = 0.5,
+    crafting_speed = 3.5,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
         emissions = 0.02
     },
-    energy_usage = "400kW",
+    energy_usage = "600kW",
     ingredient_count = 10,
     animation = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/flotation-cell-mk01/off-mk01.png",
+                filename = "__pyrawores__/graphics/entity/flotation-cell-mk01/off-mk03.png",
                 --priority = "high",
                 width = 192,
                 height = 229,
@@ -84,13 +86,13 @@ ENTITY {
             south_position = util.by_pixel(-1, -17.5),
             east_position = util.by_pixel(-1, -17.5),
             animation = {
-                filename = "__pyrawores__/graphics/entity/flotation-cell-mk01/flotation-cell-mk01.png",
+                filename = "__pyrawores__/graphics/entity/flotation-cell-mk01/flotation-cell-mk03.png",
                 --priority = "low",
                 frame_count = 100,
                 line_length = 10,
                 width = 192,
                 height = 160,
-                animation_speed = 1
+                animation_speed = 0.3
             }
         }
     },

@@ -127,14 +127,54 @@ RECIPE('methanol-reactor-mk04'):replace_ingredient('control-unit', 'intelligent-
 RECIPE('olefin-plant-mk03'):add_ingredient({type = "item", name = "biopolymer", amount = 15}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20})
 RECIPE('olefin-plant-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-dots", amount = 5})
 
-RECIPE('quenching-tower-mk03'):add_ingredient({type = "item", name = "paramagnetic-material", amount = 25}):add_ingredient({type = "item", name = "volumetric-capacitor", amount = 10}):add_ingredient({type = "item", name = "biopolymer", amount = 10})
-RECIPE('quenching-tower-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-vortex-storage-system", amount = 4})
+RECIPE('power-house-mk03'):add_ingredient({type = "item", name = "paramagnetic-material", amount = 25}):add_ingredient({type = "item", name = "volumetric-capacitor", amount = 10}):add_ingredient({type = "item", name = "biopolymer", amount = 10})
+RECIPE('power-house-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-vortex-storage-system", amount = 4})
 
 RECIPE('quenching-tower-mk03'):add_ingredient({type = "item", name = "phosphate-glass", amount = 40}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 20}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20})
 RECIPE('quenching-tower-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "parametric-oscilator", amount = 1})
 
 RECIPE('rectisol-mk03'):add_ingredient({type = "item", name = "re-magnet", amount = 30}):add_ingredient({type = "item", name = "superconductor", amount = 20}):add_ingredient({type = "item", name = "paramagnetic-material", amount = 15})
 RECIPE('rectisol-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-vortex-storage-system", amount = 2})
+
+RECIPE('sand-extractor-mk03'):add_ingredient({type = "item", name = "diamagnetic-material", amount = 20}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 15})
+RECIPE('sand-extractor-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 6}):add_ingredient({type = "item", name = "pi-josephson-junction", amount = 4})
+
+RECIPE('soil-extractormk03'):add_ingredient({type = "item", name = "biopolymer", amount = 30}):add_ingredient({type = "item", name = "carbon-nanotube", amount = 30}):add_ingredient({type = "item", name = "aerogel", amount = 15})
+RECIPE('soil-extractormk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "nems", amount = 5}):add_ingredient({type = "item", name = "graphene-roll", amount = 15})
+
+RECIPE('solid-separator-mk03'):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "superconductor", amount = 10})
+RECIPE('solid-separator-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
+
+RECIPE('tar-processing-unit-mk03'):add_ingredient({type = "item", name = "heavy-fermion", amount = 40}):add_ingredient({type = "item", name = "re-magnet", amount = 30}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
+RECIPE('tar-processing-unit-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "nv-center", amount = 2})
+
+RECIPE('wpu-mk03'):add_ingredient({type = "item", name = "phosphate-glass", amount = 50}):add_ingredient({type = "item", name = "biopolymer", amount = 35}):add_ingredient({type = "item", name = "aerogel", amount = 15})
+RECIPE('wpu-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "hyperelastic-material", amount = 4})
+
+RECIPE('washer-mk03'):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "diamagnetic-material", amount = 10}):add_ingredient({type = "item", name = "graphene-roll", amount = 15})
+RECIPE('washer-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "var-josephson-junction", amount = 10})
+
+
+
+--PYRO ENTITIES UPDATES
+
+RECIPE('bof-mk03'):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20}):add_ingredient({type = "item", name = "graphene-roll", amount = 15})
+RECIPE('bof-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
+
+RECIPE('casting-unit-mk03'):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20}):add_ingredient({type = "item", name = "nems", amount = 5})
+RECIPE('casting-unit-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "parametric-oscilator", amount = 2})
+
+RECIPE('eaf-mk03'):add_ingredient({type = "item", name = "paramagnetic-material", amount = 10}):add_ingredient({type = "item", name = "superconductor", amount = 5}):add_ingredient({type = "item", name = "crco-alloy", amount = 20})
+RECIPE('eaf-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-dots", amount = 5})
+
+RECIPE('electrolyzer-mk03'):add_ingredient({type = "item", name = "biopolymer", amount = 40}):add_ingredient({type = "item", name = "carbon-nanotube", amount = 30}):add_ingredient({type = "item", name = "graphene-roll", amount = 10})
+RECIPE('electrolyzer-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "nv-center", amount = 2})
+
+RECIPE('flotation-cell-mk03'):add_ingredient({type = "item", name = "biopolymer", amount = 15}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20})
+RECIPE('flotation-cell-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-dots", amount = 5})
+
+RECIPE('hydroclassifier-mk03'):add_ingredient({type = "item", name = "biopolymer", amount = 30}):add_ingredient({type = "item", name = "carbon-nanotube", amount = 30}):add_ingredient({type = "item", name = "aerogel", amount = 15})
+RECIPE('hydroclassifier-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "nems", amount = 5}):add_ingredient({type = "item", name = "graphene-roll", amount = 15})
 
 
 RECIPE {

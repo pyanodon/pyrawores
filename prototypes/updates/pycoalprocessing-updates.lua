@@ -45,6 +45,8 @@ RECIPE("active-carbon"):replace_ingredient("water", "nitrogen"):add_ingredient({
 RECIPE("zinc-chloride"):replace_ingredient("iron-plate", "zinc-plate"):replace_ingredient("water", "hydrogen-chloride"):remove_ingredient("copper-plate"):add_result({type = "fluid", name = "hydrogen", amount =20})
 RECIPE("laser-turret"):add_ingredient({type = "item", name = "lens", amount = 1})
 RECIPE("cooling-tower-mk01"):replace_ingredient("iron-plate", "duralumin")
+RECIPE("soil-extractormk02"):replace_ingredient("copper-cable", "tinned-cable")
+RECIPE("soil-extractormk01"):replace_ingredient("copper-cable", "tinned-cable")
 
 
 RECIPE("gasturbinemk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "duralumin")
@@ -103,10 +105,6 @@ RECIPE('evaporator-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "it
 RECIPE('evaporator-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "stainless-steel", amount = 30})
 RECIPE('evaporator-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-steel", amount = 35})
 
---RECIPE('fawogae-plantation-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 20}):add_ingredient({type = "item", name = "tin-plate", amount = 20}):add_ingredient({type = "item", name = "glass", amount = 20})
---RECIPE('fawogae-plantation-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "aluminium-plate", amount = 30}):add_ingredient({type = "item", name = "stainless-steel", amount = 30})
---RECIPE('fawogae-plantation-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-steel", amount = 35})
-
 RECIPE('fluid-separator-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 30}):add_ingredient({type = "item", name = "lead-plate", amount = 20}):replace_ingredient('storage-tank', 'py-tank-3000')
 RECIPE('fluid-separator-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 20}):add_ingredient({type = "item", name = "stainless-steel", amount = 20}):replace_ingredient('storage-tank', 'py-tank-6500')
 RECIPE('fluid-separator-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-steel", amount = 10}):replace_ingredient('storage-tank', 'py-tank-8000')
@@ -147,6 +145,29 @@ RECIPE('rectisol-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item
 RECIPE('rectisol-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 30}):add_ingredient({type = "item", name = "stainless-steel", amount = 15}):replace_ingredient('storage-tank', 'py-tank-6500')
 RECIPE('rectisol-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "tin-plate", amount = 30}):add_ingredient({type = "item", name = "super-steel", amount = 20}):replace_ingredient('storage-tank', 'py-tank-8000')
 
+RECIPE('sand-extractor-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 20}):add_ingredient({type = "item", name = "stainless-steel", amount = 30}):add_ingredient({type = "item", name = "tin-plate", amount = 30})
+RECIPE('sand-extractor-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 60}):add_ingredient({type = "item", name = "super-steel", amount = 30})
+RECIPE('sand-extractor-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "lead-plate", amount = 30})
+
+RECIPE('soil-extractormk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 20}):add_ingredient({type = "item", name = "stainless-steel", amount = 30})
+RECIPE('soil-extractormk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "super-steel", amount = 30})
+RECIPE('soil-extractormk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "lead-plate", amount = 20})
+
+RECIPE('solid-separator-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 30}):add_ingredient({type = "item", name = "tin-plate", amount = 30})
+RECIPE('solid-separator-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 20}):add_ingredient({type = "item", name = "stainless-steel", amount = 15})
+RECIPE('solid-separator-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-steel", amount = 30})
+
+RECIPE('tar-processing-unit-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 20}):add_ingredient({type = "item", name = "lead-plate", amount = 20})
+RECIPE('tar-processing-unit-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 25}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+RECIPE('tar-processing-unit-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-steel", amount = 20}):add_ingredient({type = "item", name = "tin-plate", amount = 40})
+
+RECIPE('wpu-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 10})
+RECIPE('wpu-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 10})
+RECIPE('wpu-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "tin-plate", amount = 20}):add_ingredient({type = "item", name = "super-steel", amount = 30})
+
+RECIPE('washer-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 30}):add_ingredient({type = "item", name = "lead-plate", amount = 20})
+RECIPE('washer-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 20}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+RECIPE('washer-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-steel", amount = 10})
 
 RECIPE {
     type = "recipe",

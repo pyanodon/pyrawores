@@ -1,38 +1,39 @@
 RECIPE {
     type = "recipe",
-    name = "bof-mk01",
+    name = "bof-mk02",
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"boiler", 3},
-        {"washer", 1},
-        {"iron-plate", 15},
-        {"electronic-circuit", 10},
+        {"bof-mk01", 1},
+        {"duralumin", 15},
+        {"lead-plate", 10},
+        {"nexelit-plate", 15},
+        {"advanced-circuit", 10},
     },
     results = {
-        {"bof-mk01", 1}
+        {"bof-mk02", 1}
     }
-}:add_unlock("machines-mk01")
+}:add_unlock("machines-mk02")
 
 ITEM {
     type = "item",
-    name = "bof-mk01",
-    icon = "__pyrawores__/graphics/icons/bof-mk01.png",
+    name = "bof-mk02",
+    icon = "__pyrawores__/graphics/icons/bof-mk02.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
-    subgroup = "py-rawores-buildings-mk01",
+    subgroup = "py-rawores-buildings-mk02",
     order = "a",
-    place_result = "bof-mk01",
+    place_result = "bof-mk02",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "bof-mk01",
-    icon = "__pyrawores__/graphics/icons/bof-mk01.png",
+    name = "bof-mk02",
+    icon = "__pyrawores__/graphics/icons/bof-mk02.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "bof-mk01"},
+    minable = {mining_time = 1, result = "bof-mk02"},
     fast_replaceable_group = "bof-mk01",
     max_health = 100,
     corpse = "medium-remnants",
@@ -44,7 +45,7 @@ ENTITY {
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"bof"},
-    crafting_speed = 0.5,
+    crafting_speed = 1.0,
     energy_source =
     {
       type = "burner",
@@ -67,12 +68,12 @@ ENTITY {
         },
       },
     },
-    energy_usage = "500kW",
+    energy_usage = "600kW",
     ingredient_count = 10,
     animation = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/bof-mk01/off.png",
+                filename = "__pyrawores__/graphics/entity/bof-mk01/off-mk02.png",
                 --priority = "high",
                 width = 256,
                 height = 288,
@@ -90,13 +91,13 @@ ENTITY {
             south_position = util.by_pixel(-15.5, -64),
             east_position = util.by_pixel(-15.5, -64),
             animation = {
-                filename = "__pyrawores__/graphics/entity/bof-mk01/on.png",
+                filename = "__pyrawores__/graphics/entity/bof-mk01/on-mk02.png",
                 priority = "high",
                 frame_count = 24,
                 line_length = 6,
                 width = 128,
                 height = 160,
-                animation_speed = 1.0
+                animation_speed = 0.6
             }
         },
     },

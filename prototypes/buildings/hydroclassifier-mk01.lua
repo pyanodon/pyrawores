@@ -4,9 +4,10 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
+        {"electric-mining-drill", 1},
+        {"flotation-cell-mk01", 1},
         {"steel-plate", 20},
         {"iron-plate", 15},
-        {"classifier", 1},
         {"electronic-circuit", 20},
     },
     results = {
