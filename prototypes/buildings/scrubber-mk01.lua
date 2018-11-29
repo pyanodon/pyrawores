@@ -4,9 +4,9 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"steel-plate", 20},
-        {"engine-unit", 5},
-        {"washer", 2},
+        {"steam-engine", 3},
+        {"soil-extractormk01", 1},
+        {"stone-brick", 20},
         {"electronic-circuit", 15},
     },
     results = {
@@ -40,11 +40,11 @@ ENTITY {
     collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
     selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
     module_specification = {
-        module_slots = 1
+        module_slots = 2
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"scrubber"},
-    crafting_speed = 0.5,
+    crafting_speed = 1,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",

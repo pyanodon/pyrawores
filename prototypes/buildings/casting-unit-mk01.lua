@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"casting-unit-mk01", 1}
     }
-}:add_unlock("machines-mk01"):replace_ingredient('radar', 'local-radar')
+}:add_unlock("machines-mk01")
 
 ITEM {
     type = "item",

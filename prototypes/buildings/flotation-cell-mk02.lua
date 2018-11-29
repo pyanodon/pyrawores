@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"flotation-cell-mk02", 1}
     }
-}:add_unlock("machines-mk02"):replace_ingredient('storage-tank', 'py-tank-3000')
+}:add_unlock("machines-mk02")
 
 ITEM {
     type = "item",

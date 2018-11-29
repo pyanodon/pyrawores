@@ -4,11 +4,11 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"steel-plate", 20},
-        {"aluminium-plate", 30},
-        {"engine-unit", 5},
-        {"borax-mine", 2},
-        {"electronic-circuit", 15},
+        {"electric-mining-drill", 2},
+        {"iron-plate", 30},
+        {"radar", 2},
+        {"tinned-cable", 20},
+        {"electronic-circuit", 5},
     },
     results = {
         {"impact-crusher-mk01", 1}
@@ -45,7 +45,7 @@ ENTITY {
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"impact-crusher"},
-    crafting_speed = 0.5,
+    crafting_speed = 1,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
@@ -89,7 +89,7 @@ ENTITY {
                 line_length = 20,
                 width = 96,
                 height = 224,
-                animation_speed = 2.5
+                animation_speed = 2.0
             }
         },
         {
@@ -104,7 +104,7 @@ ENTITY {
                 line_length = 20,
                 width = 96,
                 height = 224,
-                animation_speed = 2.5
+                animation_speed = 2.0
             }
         },
     },
