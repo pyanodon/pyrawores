@@ -1,36 +1,37 @@
 RECIPE {
     type = "recipe",
-    name = "wet-scrubber-mk01",
+    name = "wet-scrubber-mk02",
     energy_required = 10,
     enabled = false,
     ingredients = {
+        {"wet-scrubber-mk01", 1},
         {"storage-tank", 1}, --pyindustry py-tank-5000
-        {"steel-plate", 15},
-        {"distilator", 1},
-        {"pipe", 10},
-        {"electronic-circuit", 5},
+        {"duralumin", 20},
+        {"engine-unit", 5},
+        {"nexelit-plate", 15},
+        {"advanced-circuit", 10},
     },
     results = {
-        {"wet-scrubber-mk01", 1}
+        {"wet-scrubber-mk02", 1}
     }
-}:add_unlock("machines-mk01")
+}:add_unlock("machines-mk02")
 
 ITEM {
     type = "item",
-    name = "wet-scrubber-mk01",
-    icon = "__pyrawores__/graphics/icons/wet-scrubber-mk01.png",
+    name = "wet-scrubber-mk02",
+    icon = "__pyrawores__/graphics/icons/wet-scrubber-mk02.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
-    subgroup = "py-rawores-buildings-mk01",
+    subgroup = "py-rawores-buildings-mk02",
     order = "g",
-    place_result = "wet-scrubber-mk01",
+    place_result = "wet-scrubber-mk02",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "wet-scrubber-mk01",
-    icon = "__pyrawores__/graphics/icons/wet-scrubber-mk01.png",
+    name = "wet-scrubber-mk02",
+    icon = "__pyrawores__/graphics/icons/wet-scrubber-mk02.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "wet-scrubber-mk01"},
@@ -41,22 +42,22 @@ ENTITY {
     collision_box = {{-2.7, -2.7}, {2.7, 2.7}},
     selection_box = {{-3.0, -3.0}, {3.0, 3.0}},
     module_specification = {
-        module_slots = 2
+        module_slots = 1
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"wet-scrubber"},
-    crafting_speed = 1,
+    crafting_speed = 2,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
         emissions = 0.02
     },
-    energy_usage = "200kW",
+    energy_usage = "300kW",
     ingredient_count = 10,
     animation = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/wet-scrubber-base.png",
+                filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/wet-scrubber-base-mk02.png",
                 --priority = "high",
                 width = 194,
                 height = 224,
@@ -66,7 +67,7 @@ ENTITY {
                 shift = util.by_pixel(0, -17)
             },
             {
-                filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/top-off.png",
+                filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/top-off-mk02.png",
                 --priority = "high",
                 width = 194,
                 height = 128,
@@ -95,7 +96,7 @@ ENTITY {
             south_position = util.by_pixel(-1, -190),
             east_position = util.by_pixel(-1, -190),
             animation = {
-                filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/anim.png",
+                filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/anim-mk02.png",
                 --priority = "extra-high",
                 frame_count = 2,
                 --line_length = 2,

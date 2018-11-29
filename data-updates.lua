@@ -76,3 +76,26 @@ RECIPE('red-wire'):replace_ingredient('copper-cable', 'tinned-cable')
 RECIPE('green-wire'):replace_ingredient('copper-cable', 'tinned-cable')
 RECIPE('beacon'):replace_ingredient('copper-cable', 'tinned-cable')
 RECIPE('red-wire'):replace_ingredient('copper-cable', 'tinned-cable')
+
+RECIPE('wet-scrubber-mk01'):replace_ingredient('storage-tank', 'py-tank-5000')
+RECIPE('wet-scrubber-mk02'):replace_ingredient('storage-tank', 'py-tank-6500')
+RECIPE('wet-scrubber-mk03'):replace_ingredient('storage-tank', 'py-tank-7000')
+RECIPE('wet-scrubber-mk04'):replace_ingredient('storage-tank', 'py-tank-8000')
+
+RECIPE('casting-unit-mk01'):replace_ingredient('storage-tank', 'py-tank-5000')
+RECIPE('casting-unit-mk02'):replace_ingredient('storage-tank', 'py-tank-6500')
+RECIPE('casting-unit-mk03'):replace_ingredient('storage-tank', 'py-tank-7000')
+RECIPE('casting-unit-mk04'):replace_ingredient('storage-tank', 'py-tank-8000')
+
+RECIPE('flotation-cell-mk01'):replace_ingredient('storage-tank', 'py-tank-5000')
+RECIPE('flotation-cell-mk02'):replace_ingredient('storage-tank', 'py-tank-6500')
+RECIPE('flotation-cell-mk03'):replace_ingredient('storage-tank', 'py-tank-7000')
+RECIPE('flotation-cell-mk04'):replace_ingredient('storage-tank', 'py-tank-8000')
+
+RECIPE('leaching-station-mk01'):replace_ingredient('storage-tank', 'py-tank-5000')
+RECIPE('leaching-station-mk02'):replace_ingredient('storage-tank', 'py-tank-6500')
+RECIPE('leaching-station-mk03'):replace_ingredient('storage-tank', 'py-tank-7000')
+RECIPE('leaching-station-mk04'):replace_ingredient('storage-tank', 'py-tank-8000')
+
+RECIPE('casting-unit-mk01'):replace_ingredient('radar', 'py-local-radar')
+RECIPE('impact-crusher-mk01'):replace_ingredient('radar', 'py-local-radar')

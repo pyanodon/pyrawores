@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {"flotation-cell-mk01", 1}
     }
-}:add_unlock("machines-mk01"):replace_ingredient('lab', 'local-radar')
+}:add_unlock("machines-mk01")
 
 ITEM {
     type = "item",

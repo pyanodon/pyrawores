@@ -4,7 +4,7 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"storage-tank", 1}, --pyindustry py-tank-5000
+        {"storage-tank", 3},
         {"steel-plate", 15},
         {"distilator", 1},
         {"pipe", 10},

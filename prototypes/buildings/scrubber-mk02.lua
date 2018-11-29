@@ -1,98 +1,78 @@
 RECIPE {
     type = "recipe",
-    name = "flotation-cell-mk02",
+    name = "scrubber-mk02",
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"flotation-cell-mk01", 1},
+        {"scrubber-mk01", 1},
         {"duralumin", 15},
         {"lead-plate", 10},
-        {"storage-tank", 1},
         {"nexelit-plate", 15},
         {"advanced-circuit", 10},
     },
     results = {
-        {"flotation-cell-mk02", 1}
+        {"scrubber-mk02", 1}
     }
 }:add_unlock("machines-mk02")
 
 ITEM {
     type = "item",
-    name = "flotation-cell-mk02",
-    icon = "__pyrawores__/graphics/icons/flotation-cell-mk02.png",
+    name = "scrubber-mk02",
+    icon = "__pyrawores__/graphics/icons/scrubber-mk02.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "py-rawores-buildings-mk02",
-    order = "e",
-    place_result = "flotation-cell-mk02",
+    order = "g",
+    place_result = "scrubber-mk02",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "flotation-cell-mk02",
-    icon = "__pyrawores__/graphics/icons/flotation-cell-mk02.png",
+    name = "scrubber-mk02",
+    icon = "__pyrawores__/graphics/icons/scrubber-mk02.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "flotation-cell-mk02"},
-    fast_replaceable_group = "flotation-cell-mk01",
+    minable = {mining_time = 1, result = "scrubber-mk02"},
+    fast_replaceable_group = "scrubber-mk01",
     max_health = 100,
     corpse = "medium-remnants",
     dying_explosion = "big-explosion",
-    collision_box = {{-2.7, -2.7}, {2.7, 2.7}},
-    selection_box = {{-3.0, -3.0}, {3.0, 3.0}},
+    collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
+    selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
     module_specification = {
         module_slots = 1
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    crafting_categories = {"flotation"},
-    crafting_speed = 1.5,
+    crafting_categories = {"scrubber"},
+    crafting_speed = 2,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
         emissions = 0.02
     },
-    energy_usage = "500kW",
+    energy_usage = "400kW",
     ingredient_count = 10,
     animation = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/flotation-cell-mk01/off-mk02.png",
-                --priority = "high",
-                width = 192,
-                height = 229,
-                --line_length = 10,
-                frame_count = 1,
-                --animation_speed = 0.4,
-                shift = util.by_pixel(-1, -19)
+                filename = "__pyrawores__/graphics/entity/scrubber-mk01/scrubber-mk02.png",
+                width = 224,
+                height = 317,
+                line_length = 9,
+                frame_count = 50,
+                animation_speed = 0.5,
+                shift = util.by_pixel(0, -47)
             },
             {
-                filename = "__pyrawores__/graphics/entity/flotation-cell-mk01/sh.png",
-                --priority = "high",
-                width = 143,
-                height = 172,
-                --line_length = 10,
-                frame_count = 1,
-                --animation_speed = 0.4,
-                draw_as_shadow = true,
-                shift = util.by_pixel(42, 10)
-            }
-        }
-    },
-    working_visualisations = {
-        {
-            north_position = util.by_pixel(-1, -17.5),
-            west_position = util.by_pixel(-1, -17.5),
-            south_position = util.by_pixel(-1, -17.5),
-            east_position = util.by_pixel(-1, -17.5),
-            animation = {
-                filename = "__pyrawores__/graphics/entity/flotation-cell-mk01/flotation-cell-mk02.png",
-                --priority = "low",
-                frame_count = 100,
+                filename = "__pyrawores__/graphics/entity/scrubber-mk01/sh.png",
+                width = 157,
+                height = 192,
                 line_length = 10,
-                width = 192,
-                height = 160,
-                animation_speed = 0.5
+                frame_count = 50,
+                animation_speed = 0.5,
+                draw_as_shadow = true,
+                shift = util.by_pixel(64, 16)
             }
         }
     },
@@ -104,7 +84,7 @@ ENTITY {
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_area = 10,
             base_level = -1,
-            pipe_connections = {{type = "input", position = {-2.5, -3.5}}}
+            pipe_connections = {{type = "input", position = {-2.0, -4.0}}}
         },
         {
             production_type = "input",
@@ -112,7 +92,7 @@ ENTITY {
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_area = 10,
             base_level = -1,
-            pipe_connections = {{type = "input", position = {-0.5, -3.5}}}
+            pipe_connections = {{type = "input", position = {-0.0, -4.0}}}
         },
         {
             production_type = "input",
@@ -120,35 +100,35 @@ ENTITY {
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_area = 10,
             base_level = -1,
-            pipe_connections = {{type = "input", position = {1.5, -3.5}}}
+            pipe_connections = {{type = "input", position = {2.0, -4.0}}}
         },
         {
             production_type = "output",
             pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_level = 1,
-            pipe_connections = {{type = "output", position = {-0.5, 3.5}}}
+            pipe_connections = {{type = "output", position = {-0.0, 4.0}}}
         },
         {
             production_type = "output",
             pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_level = 1,
-            pipe_connections = {{type = "output", position = {-2.5, 3.5}}}
+            pipe_connections = {{type = "output", position = {-2.0, 4.0}}}
         },
         {
             production_type = "output",
             pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_level = 1,
-            pipe_connections = {{type = "output", position = {1.5, 3.5}}}
+            pipe_connections = {{type = "output", position = {2.0, 4.0}}}
         },
-        off_when_no_fluid_recipe = false
+        off_when_no_fluid_recipe = true
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/flotation-cell.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyrawores__/sounds/flotation-cell.ogg", volume = 0.7},
+        sound = {filename = "__pyrawores__/sounds/scrubber.ogg", volume = 2.0},
+        idle_sound = {filename = "__pyrawores__/sounds/scrubber.ogg", volume = 1.3},
         apparent_volume = 2.5
     }
 }
