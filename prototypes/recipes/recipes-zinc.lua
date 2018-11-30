@@ -14,7 +14,7 @@ RECIPE {
         {type = "item", name = "stone", amount = 1, probability = 0.5},
     },
     main_product = "grade-1-zinc",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk01")
 
@@ -32,7 +32,7 @@ RECIPE {
         {type = "item", name = "sand", amount = 1, probability = 0.5},
     },
     main_product = "grade-2-zinc",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk01")
 
@@ -51,7 +51,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 50},
     },
     main_product = "grade-3-zinc",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk02")
 
@@ -69,7 +69,7 @@ RECIPE {
         {type = "item", name = "coal-dust", amount = 1, probability = 0.5},
     },
     main_product = "grade-4-zinc",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk03")
 
@@ -89,7 +89,7 @@ RECIPE {
     main_product = "powdered-zinc",
     icon = "__pyrawores__/graphics/icons/grade-4-zinc-screening.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk03"):change_category('screener')
 
@@ -108,7 +108,7 @@ RECIPE {
         {type = "fluid", name = "zinc-overflow", amount = 50},
     },
     main_product = "purified-zinc",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk03"):change_category('grease'):add_ingredient({type = "fluid", name = "grease", amount =100})
 
@@ -126,7 +126,7 @@ RECIPE {
         {type = "item", name = "lead-dust", amount = 1, probability = 0.5},
     },
     main_product = "concentrated-zinc",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk03")
 
@@ -144,7 +144,7 @@ RECIPE {
         {type = "item", name = "high-grade-zinc", amount = 1},
     },
     main_product = "high-grade-zinc",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk04")
 
@@ -166,7 +166,7 @@ RECIPE {
         {type = "item", name = "reduced-zinc", amount = 1},
     },
     main_product = "reduced-zinc",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -186,7 +186,7 @@ RECIPE {
         {type = "item", name = "sintered-zinc", amount = 1},
     },
     main_product = "sintered-zinc",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -206,7 +206,7 @@ RECIPE {
         {type = "item", name = "sintered-zinc", amount = 2},
     },
     main_product = "sintered-zinc",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -330,7 +330,7 @@ RECIPE {
         {type = "item", name = "zinc-plate", amount = 20}
     },
     main_product= "zinc-plate",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("zinc-mk02")
 
@@ -351,7 +351,7 @@ RECIPE {
         {type = "item", name = "zinc-plate", amount = 1}
     },
     --main_product= "glass",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }
 
@@ -369,7 +369,7 @@ RECIPE {
     results = {
         {type = "item", name = "zinc-plate", amount = 2}
     },
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("zinc-mk01")
 
@@ -385,6 +385,6 @@ RECIPE {
     results = {
         {type = "item", name = "zinc-plate", amount = 4}
     },
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("zinc-mk02")

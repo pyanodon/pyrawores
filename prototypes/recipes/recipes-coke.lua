@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "coke-oven-gas", amount = 50},
     },
     main_product = "redhot-coke",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-coke",
     order = "q-2"
 }:add_unlock("coke-mk01")
 
@@ -34,7 +34,7 @@ RECIPE {
         {type = "fluid", name = "steam", amount = 100, temperature = 165},
     },
     main_product = "coke",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-coke",
     order = "q-2"
 }:add_unlock("coke-mk01"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
@@ -54,6 +54,6 @@ RECIPE {
         --add benzene
     },
     main_product = "flue-gas",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-coke",
     order = "q-2"
 }:add_unlock("coke-mk03")

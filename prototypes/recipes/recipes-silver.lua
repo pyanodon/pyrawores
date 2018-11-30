@@ -16,7 +16,7 @@ RECIPE {
         {type = "item", name = "reduced-silver", amount = 1},
     },
     main_product = "reduced-silver",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-etc",
     order = "q-2"
 }:add_unlock("lead-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -36,7 +36,7 @@ RECIPE {
         {type = "item", name = "sintered-silver", amount = 1},
     },
     main_product = "sintered-silver",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-etc",
     order = "q-2"
 }:add_unlock("lead-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -56,7 +56,7 @@ RECIPE {
         {type = "item", name = "sintered-silver", amount = 2},
     },
     main_product = "sintered-silver",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-etc",
     order = "q-2"
 }:add_unlock("silver-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -157,7 +157,7 @@ RECIPE {
         {type = "item", name = "silver-plate", amount = 10}
     },
     main_product= "silver-plate",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("lead-mk02")
 
@@ -177,7 +177,7 @@ RECIPE {
     results = {
         {type = "item", name = "silver-plate", amount = 1}
     },
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("lead-mk02")
 
@@ -198,6 +198,6 @@ RECIPE {
     results = {
         {type = "item", name = "silver-plate", amount = 3}
     },
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("lead-mk03")

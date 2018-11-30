@@ -16,7 +16,7 @@ RECIPE {
     main_product = "grade-2-copper",
     icon = "__pyrawores__/graphics/icons/ore-copper-screening.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk01"):change_category('screener')
 
@@ -34,7 +34,7 @@ RECIPE {
         {type = "item", name = "grade-2-copper", amount = 1, probability = 0.5}
     },
     main_product = "grade-2-copper",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk01")
 
@@ -54,7 +54,7 @@ RECIPE {
     main_product = "grade-3-copper",
     icon = "__pyrawores__/graphics/icons/grade-2-copper-screening.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk02"):change_category('screener')
 
@@ -72,7 +72,7 @@ RECIPE {
         {type = "item", name = "gravel", amount = 1}
     },
     main_product = "grade-3-copper",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk02")
 
@@ -92,7 +92,7 @@ RECIPE {
     main_product = "grade-4-copper",
     icon = "__pyrawores__/graphics/icons/grade-3-copper-screening.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk02"):change_category('screener')
 
@@ -112,7 +112,7 @@ RECIPE {
     main_product = "grade-4-copper",
     icon = "__pyrawores__/graphics/icons/class-copper-low-dust.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk02")
 
@@ -133,7 +133,7 @@ RECIPE {
     main_product = "low-grade-copper",
     icon = "__pyrawores__/graphics/icons/wash-copper-low-dust.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk02")
 
@@ -151,7 +151,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 100},
     },
     main_product = "high-grade-copper",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk03"):change_category('agitator')
 
@@ -177,7 +177,7 @@ RECIPE {
         {type = "item", name = "reduced-copper", amount = 1},
     },
     main_product = "reduced-copper",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -197,7 +197,7 @@ RECIPE {
         {type = "item", name = "sintered-copper", amount = 1},
     },
     main_product = "sintered-copper",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -217,7 +217,7 @@ RECIPE {
         {type = "item", name = "sintered-copper", amount = 2},
     },
     main_product = "sintered-copper",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -284,7 +284,7 @@ RECIPE {
         {type = "item", name = "copper-plate", amount = 25}
     },
     main_product= "copper-plate",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("copper-mk03")
 
@@ -302,7 +302,7 @@ RECIPE {
         {type = "item", name = "copper-plate", amount = 5}
     },
     main_product= "copper-plate",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("copper-mk02")
 
@@ -321,7 +321,7 @@ RECIPE {
         {type = "item", name = "copper-plate", amount = 10}
     },
     main_product= "copper-plate",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("copper-mk03")
 
@@ -338,7 +338,7 @@ RECIPE {
         {type = "item", name = "copper-plate", amount = 2}
     },
     main_product= "copper-plate",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("copper-mk01")
 
@@ -358,6 +358,6 @@ RECIPE {
         {type = "item", name = "copper-plate", amount = 1}
     },
     main_product= "copper-plate",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("copper-mk02")

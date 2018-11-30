@@ -17,7 +17,7 @@ RECIPE {
     main_product = "crushed-coal",
     icon = "__pyrawores__/graphics/icons/recrush-coal.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk01"):change_category('secondary-crusher')
 
@@ -36,7 +36,7 @@ RECIPE {
         {type = "item", name = "coal-dust", amount = 1, probability = 0.3}
     },
     main_product = "coarse-coal",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk02"):change_category('screener')
 
@@ -56,7 +56,7 @@ RECIPE {
         {type = "item", name = "coal", amount = 20},
     },
     main_product = "coal",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk04")
 
@@ -78,7 +78,7 @@ RECIPE {
         {type = "item", name = "pyrite", amount = 1, probability = 0.4},
     },
     main_product = "conditioned-fines",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
@@ -99,7 +99,7 @@ RECIPE {
         {type = "fluid", name = "coal-under-pulp", amount = 50},
     },
     main_product = "coal-under-pulp",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk04")
 
@@ -118,7 +118,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 100},
     },
     main_product = "refsyngas",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk04"):change_category('thickener'):replace_ingredient('organic-solvent', 'industrial-solvent')
 
@@ -139,6 +139,6 @@ RECIPE {
         {type = "item", name = "coal", amount = 20},
     },
     main_product = "coal",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})

@@ -12,7 +12,7 @@ RECIPE {
         {type = "item", name = "tailings-dust", amount = 1, probability = 0.4},
     },
     main_product = "nexelit-ore",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk01")
 
@@ -33,7 +33,7 @@ RECIPE {
     main_product = "clean-nexelit",
     icon = "__pyrawores__/graphics/icons/wash-nexelit.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk01")
 
@@ -53,7 +53,7 @@ RECIPE {
     main_product = "grade-1-nexelit",
     icon = "__pyrawores__/graphics/icons/crusher-nexelit.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk02")
 
@@ -74,7 +74,7 @@ RECIPE {
     main_product = "grade-3-nexelit",
     icon = "__pyrawores__/graphics/icons/nexelit-screening.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk02"):change_category('screener')
 
@@ -91,7 +91,7 @@ RECIPE {
         {type = "item", name = "grade-1-nexelit", amount = 1, probability = 0.6},
     },
     main_product = "grade-1-nexelit",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk02")
 
@@ -111,7 +111,7 @@ RECIPE {
     main_product = "grade-3-nexelit",
     icon = "__pyrawores__/graphics/icons/recrush-grade-2-nexelit.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk02"):change_category('secondary-crusher')
 
@@ -130,7 +130,7 @@ RECIPE {
         {type = "item", name = "fine-nexelit-powder", amount = 1},
     },
     main_product = "fine-nexelit-powder",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk02")
 
@@ -147,7 +147,7 @@ RECIPE {
         {type = "item", name = "high-grade-nexelit", amount = 1},
     },
     main_product = "high-grade-nexelit",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk04")
 
@@ -166,7 +166,7 @@ RECIPE {
         {type = "item", name = "high-grade-nexelit", amount = 1},
     },
     main_product = "high-grade-nexelit",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk04")
 
@@ -190,7 +190,7 @@ RECIPE {
         {type = "item", name = "reduced-nexelit", amount = 1},
     },
     main_product = "reduced-nexelit",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -210,7 +210,7 @@ RECIPE {
         {type = "item", name = "sintered-nexelit", amount = 1},
     },
     main_product = "sintered-nexelit",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -230,7 +230,7 @@ RECIPE {
         {type = "item", name = "sintered-nexelit", amount = 2},
     },
     main_product = "sintered-nexelit",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -345,7 +345,7 @@ RECIPE {
         {type = "item", name = "nexelit-plate", amount = 20}
     },
     main_product= "nexelit-plate",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("nexelit-mk02")
 
@@ -365,7 +365,7 @@ RECIPE {
     results = {
         {type = "item", name = "nexelit-plate", amount = 1}
     },
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }
 
@@ -384,6 +384,6 @@ RECIPE {
         {type = "item", name = "nexelit-plate", amount = 2}
     },
     --main_product= "glass",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("nexelit-mk01")

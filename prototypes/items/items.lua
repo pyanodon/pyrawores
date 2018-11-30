@@ -1935,3 +1935,14 @@ ITEM {
     order = "a",
     stack_size = 500
 }
+
+ITEM {
+    type = "item",
+    name = "aramid",
+    icon = "__pyrawores__/graphics/icons/aramid.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}
