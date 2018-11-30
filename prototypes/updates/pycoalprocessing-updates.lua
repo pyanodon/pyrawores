@@ -382,3 +382,203 @@ RECIPE {
     subgroup = "py-fluid-handling",
     order = "o"
 }:add_unlock("coal-processing-3")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-aluminium",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-aluminium", amount = 15}
+    },
+    icon = "__pyrawores__/graphics/icons/drilling-aluminium.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-chromium",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-chromium", amount = 15}
+    },
+    icon = "__pyrawores__/graphics/icons/drilling-chromium.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-copper",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 150},
+        {type = "fluid", name = "coal-gas", amount = 150},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "copper-ore", amount = 15}
+    },
+    icon = "__pyrawores__/graphics/icons/drilling-copper.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-1")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-iron",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 150},
+        {type = "fluid", name = "coal-gas", amount = 150},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "iron-ore", amount = 15}
+    },
+    icon = "__pyrawores__/graphics/icons/drilling-iron.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-1")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-lead",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-lead", amount = 15}
+    },
+    icon = "__pyrawores__/graphics/icons/drilling-lead.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-nickel",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-nickel", amount = 15}
+    },
+    icon = "__pyrawores__/graphics/icons/drilling-nickel.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-quartz",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-quartz", amount = 15}
+    },
+    icon = "__pyrawores__/graphics/icons/drilling-quartz.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-1")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-tin",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-tin", amount = 15}
+    },
+    icon = "__pyrawores__/graphics/icons/drilling-tin.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-titanium",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-titanium", amount = 15}
+    },
+    icon = "__pyrawores__/graphics/icons/drilling-titanium.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-zinc",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-zinc", amount = 15}
+    },
+    icon = "__pyrawores__/graphics/icons/drilling-zinc.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")

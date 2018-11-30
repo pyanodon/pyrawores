@@ -15,7 +15,7 @@ RECIPE {
         {type = "fluid", name = "flue-gas", amount = 400},
     },
     main_product = "sponge-iron",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-iron",
     order = "q-2"
 }:add_unlock("iron-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -71,7 +71,7 @@ RECIPE {
         {type = "item", name = "steel-plate", amount = 20},
     },
     main_product = "steel-plate",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "q-2"
 }:add_unlock("iron-mk01")
 
@@ -114,7 +114,7 @@ RECIPE {
         {type = "item", name = "stainless-steel", amount = 10},
     },
     main_product = "stainless-steel",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "q-2"
 }:add_unlock("iron-mk02")
 
@@ -153,6 +153,6 @@ RECIPE {
         {type = "item", name = "super-steel", amount = 10},
     },
     main_product = "super-steel",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "q-2"
 }:add_unlock("iron-mk03")

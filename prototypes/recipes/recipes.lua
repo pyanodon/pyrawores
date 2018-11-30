@@ -392,3 +392,22 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "j"
 }
+
+RECIPE {
+    type = "recipe",
+    name = "aramid",
+    category = "crafting-with-fluid",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "ppd", amount = 5},
+        {type = "item", name = "concentrated-ti", amount = 1},
+        {type = "item", name = "aluminium-plate", amount = 3},
+        {type = "fluid", name = "sulfuric-acid", amount = 100},
+    },
+    results = {
+        {type = "item", name = "aramid", amount = 1}
+    },
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("machines-mk02"):add_ingredient({type = 'item', name = 'molybdenum-plate', amount = 5}):change_category('nmf')

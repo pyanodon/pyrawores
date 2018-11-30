@@ -14,7 +14,7 @@ RECIPE {
     main_product = "grade-1-lead",
     icon = "__pyrawores__/graphics/icons/ore-lead-screening.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "q-2"
 }:add_unlock("lead-mk01"):change_category('screener')
 
@@ -34,7 +34,7 @@ RECIPE {
     main_product = "grade-2-lead",
     icon = "__pyrawores__/graphics/icons/crusher-lead.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "q-2"
 }:add_unlock("lead-mk02")
 
@@ -54,7 +54,7 @@ RECIPE {
     main_product = "grade-3-lead",
     icon = "__pyrawores__/graphics/icons/grade-1-lead-screening.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "q-2"
 }:add_unlock("lead-mk02"):change_category('screener')
 
@@ -73,7 +73,7 @@ RECIPE {
     main_product = "lead-dust",
     icon = "__pyrawores__/graphics/icons/recrush-grade-3-lead.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "q-2"
 }:add_unlock("lead-mk02"):change_category('secondary-crusher')
 
@@ -90,7 +90,7 @@ RECIPE {
         {type = "item", name = "lead-refined-dust-02", amount = 1},
     },
     main_product = "lead-refined-dust-02",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "q-2"
 }:add_unlock("lead-mk03")
 
@@ -108,7 +108,7 @@ RECIPE {
         {type = "item", name = "sand", amount = 1},
     },
     main_product = "lead-refined-dust-03",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "q-2"
 }:add_unlock("lead-mk03"):change_category('screener')
 
@@ -126,7 +126,7 @@ RECIPE {
         {type = "item", name = "sl-concentrate", amount = 1},
     },
     main_product = "sl-concentrate",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "q-2"
 }:add_unlock("lead-mk04")
 
@@ -144,7 +144,7 @@ RECIPE {
         {type = "item", name = "high-grade-silver", amount = 1},
     },
     main_product = "high-grade-lead",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "q-2"
 }:add_unlock("lead-mk04")
 
@@ -167,7 +167,7 @@ RECIPE {
         {type = "item", name = "reduced-lead", amount = 1},
     },
     main_product = "reduced-lead",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "q-2"
 }:add_unlock("lead-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -187,7 +187,7 @@ RECIPE {
         {type = "item", name = "sintered-lead", amount = 1},
     },
     main_product = "sintered-lead",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "q-2"
 }:add_unlock("lead-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -207,7 +207,7 @@ RECIPE {
         {type = "item", name = "sintered-lead", amount = 2},
     },
     main_product = "sintered-lead",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "q-2"
 }:add_unlock("lead-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -322,7 +322,7 @@ RECIPE {
         {type = "item", name = "lead-plate", amount = 20}
     },
     main_product= "lead-plate",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("lead-mk02")
 
@@ -343,7 +343,7 @@ RECIPE {
         {type = "item", name = "lead-plate", amount = 1}
     },
     --main_product= "glass",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "j"
 }
 
@@ -362,6 +362,6 @@ RECIPE {
         {type = "item", name = "lead-plate", amount = 2}
     },
     --main_product= "glass",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-lead",
     order = "j"
 }:add_unlock("lead-mk01")

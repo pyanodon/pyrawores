@@ -14,7 +14,7 @@ RECIPE {
     main_product = "grade-1-chromite",
     icon = "__pyrawores__/graphics/icons/crusher-chromium.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk01")
 
@@ -34,7 +34,7 @@ RECIPE {
     main_product = "grade-3-chromite",
     icon = "__pyrawores__/graphics/icons/grade-3-chromite.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk01")
 
@@ -54,7 +54,7 @@ RECIPE {
     main_product = "grade-1-chromite",
     icon = "__pyrawores__/graphics/icons/chromite-2-grade-screener.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk01"):change_category('screener')
 
@@ -73,7 +73,7 @@ RECIPE {
         {type = "item", name = "chromite-rejects", amount = 1},
     },
     main_product = "grade-4-chromite",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk02")
 
@@ -90,7 +90,7 @@ RECIPE {
         {type = "item", name = "grade-3-chromite", amount = 1, probability = 0.6},
     },
     main_product = "grade-3-chromite",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk02")
 
@@ -110,7 +110,7 @@ RECIPE {
         {type = "fluid", name = "chromite-solution", amount = 50},
     },
     main_product = "high-chromite",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
@@ -130,7 +130,7 @@ RECIPE {
     main_product = "high-chromite",
     icon = "__pyrawores__/graphics/icons/recrush-high-chromite.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk03"):change_category('secondary-crusher')
 
@@ -150,7 +150,7 @@ RECIPE {
         {type = "item", name = "chromite-sand", amount = 15},
     },
     main_product = "chromite-sand",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk01")
 
@@ -169,7 +169,7 @@ RECIPE {
         {type = "item", name = "chromite-sand", amount = 25},
     },
     main_product = "chromite-sand",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk04")
 
@@ -186,7 +186,7 @@ RECIPE {
         {type = "item", name = "chromite-sand", amount = 13},
     },
     main_product = "chromite-sand",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk03")
 
@@ -203,7 +203,7 @@ RECIPE {
         {type = "item", name = "chromite-sand", amount = 7},
     },
     main_product = "chromite-sand",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk02")
 
@@ -220,7 +220,7 @@ RECIPE {
         {type = "item", name = "chromite-sand", amount = 5},
     },
     main_product = "chromite-sand",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk01")
 
@@ -244,7 +244,7 @@ RECIPE {
         {type = "item", name = "chromium", amount = 5},
     },
     main_product = "chromium",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "q-2"
 }:add_unlock("chromium-mk01")
 
@@ -345,7 +345,7 @@ RECIPE {
         {type = "item", name = "sintered-chromium", amount = 1},
     },
     main_product = "sintered-chromium",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -365,7 +365,7 @@ RECIPE {
         {type = "item", name = "reduced-chromium", amount = 1},
     },
     main_product = "reduced-chromium",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -387,6 +387,6 @@ RECIPE {
     --main_product= "glass",
     icon = "__pycoalprocessing__/graphics/icons/chromium.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-plates",
     order = "j"
 }

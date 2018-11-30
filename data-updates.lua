@@ -22,11 +22,16 @@ ITEM("copper-cable"):set("icon", "__pyrawores__/graphics/icons/copper-cable.png"
 
 --RECIPES UPDATES
 
+RECIPE('nexelit-plate'):remove_unlock('coal-processing-3')
+RECIPE('steel-plate2'):remove_unlock('coal-processing-3')
+
 RECIPE('py-logistic-robot-01'):replace_ingredient('iron-plate', 'aluminium-plate')
 RECIPE('py-construction-robot-01'):replace_ingredient('iron-plate', 'aluminium-plate')
 RECIPE('py-roboport-mk01'):replace_ingredient('iron-plate', 'aluminium-plate')
 RECIPE('py-recharge-station-mk01'):add_ingredient({type = "item", name = "aluminium-plate", amount =10})
 RECIPE('quartz-mine'):add_ingredient({type = "item", name = "py-construction-robot-01", amount =10})
+
+RECIPE('ppd'):add_ingredient({type = "fluid", name = "chlorine", amount =100})
 
 RECIPE('distilator-mk04'):add_ingredient({type = "item", name = "accumulator-mk01", amount = 2})
 RECIPE('automated-factory-mk04'):add_ingredient({type = "item", name = "accumulator-mk01", amount = 2})

@@ -15,7 +15,7 @@ RECIPE {
     main_product = "grade-1-u",
     icon = "__pyrawores__/graphics/icons/crush-uranium.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("uranium-mk01")
 
@@ -33,7 +33,7 @@ RECIPE {
         {type = "item", name = "gravel", amount = 1, probability = 0.5},
     },
     main_product = "grade-2-u",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("uranium-mk01")
 
@@ -53,7 +53,7 @@ RECIPE {
     main_product = "powdered-u",
     icon = "__pyrawores__/graphics/icons/grade-2-u-recrush.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("uranium-mk01"):change_category('secondary-crusher')
 
@@ -73,7 +73,7 @@ RECIPE {
     main_product = "20-u-powder",
     icon = "__pyrawores__/graphics/icons/powdered-u-screening.png",
     icon_size = 32,
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("uranium-mk01"):change_category('screener')
 
@@ -90,7 +90,7 @@ RECIPE {
         {type = "item", name = "40-u-powder", amount = 1},
     },
     main_product = "40-u-powder",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("uranium-mk02")
 
@@ -107,7 +107,7 @@ RECIPE {
         {type = "item", name = "70-u-powder", amount = 1},
     },
     main_product = "70-u-powder",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("uranium-mk03")
 
@@ -126,7 +126,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 50},
     },
     main_product = "yellow-cake",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("uranium-mk04")
 
@@ -145,7 +145,7 @@ RECIPE {
         {type = "item", name = "fuelrod-mk02", amount = 1},
     },
     main_product = "fuelrod-mk02",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("fuel-production")
 
@@ -164,7 +164,7 @@ RECIPE {
         {type = "item", name = "fuelrod-mk03", amount = 1},
     },
     main_product = "fuelrod-mk03",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("fuel-production")
 
@@ -183,7 +183,7 @@ RECIPE {
         {type = "item", name = "fuelrod-mk04", amount = 1},
     },
     main_product = "fuelrod-mk04",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("fuel-production")
 
@@ -202,7 +202,7 @@ RECIPE {
         {type = "item", name = "fuelrod-mk05", amount = 1},
     },
     main_product = "fuelrod-mk05",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("fuel-production")
 
@@ -221,7 +221,7 @@ RECIPE {
         {type = "item", name = "uranium-fuel-cell-mk02", amount = 1},
     },
     main_product = "uranium-fuel-cell-mk02",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("nuclear-power")
 
@@ -240,7 +240,7 @@ RECIPE {
         {type = "item", name = "uranium-fuel-cell-mk03", amount = 1},
     },
     main_product = "uranium-fuel-cell-mk03",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("nuclear-power")
 
@@ -259,7 +259,7 @@ RECIPE {
         {type = "item", name = "uranium-fuel-cell-mk04", amount = 1},
     },
     main_product = "uranium-fuel-cell-mk04",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("nuclear-power")
 
@@ -278,6 +278,6 @@ RECIPE {
         {type = "item", name = "uranium-fuel-cell-mk05", amount = 1},
     },
     main_product = "uranium-fuel-cell-mk05",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("nuclear-power")
