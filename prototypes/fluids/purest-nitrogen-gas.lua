@@ -12,7 +12,7 @@ RECIPE {
     main_product = "purest-nitrogen-gas",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("machines-mk01")
+}:add_unlock("machines-mk01"):add_ingredient({type = "fluid", name = "pressured-air", amount = 200})
 
 FLUID {
     type = "fluid",

@@ -5,17 +5,16 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"automated-factory-mk01", 2},
-        {"iron-plate", 60},
-        {"jaw-crusher", 1},
-        {"electronic-circuit", 40} --add pyht hyperelastic material/intelligent unit
-        
-        -- addpyfe super-alloy/control-unit
-        -- add special drill made of titanium-aramide-(pyfe)molybdenium alloy
+        {"electric-mining-drill", 10},
+        {"super-steel", 60},
+        {"nexelit-plate", 60},
+        {"aramid", 40},
+        {"processing-unit", 20} --add pyht hyperelastic material/intelligent unit
     },
     results = {
         {"nexelit-mine", 1}
     }
-}:add_unlock("nexelit-mk03")
+}:add_unlock("nexelit-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 ITEM {
     type = "item",

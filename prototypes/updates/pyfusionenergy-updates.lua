@@ -2,6 +2,7 @@ TECHNOLOGY('crusher'):add_prereq('machines-mk01')
 TECHNOLOGY('helium-processing'):remove_pack('production-science-pack')
 
 RECIPE('compressor'):remove_unlock('regolite-mining'):add_unlock('machines-mk02')
+RECIPE('vacuum-pump'):remove_ingredient('steel-plate')
 
 RECIPE('hydrocyclone'):replace_ingredient('centrifuge', 'classifier')
 RECIPE('hydrocyclone'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk02')

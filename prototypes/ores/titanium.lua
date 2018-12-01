@@ -28,7 +28,7 @@ ENTITY {
             {"ore-titanium", 1}
         },
         fluid_amount = 40,
-        required_fluid = "refsyngas"
+        required_fluid = "water"
     },
     starting_area = false,
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},

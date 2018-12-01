@@ -4,16 +4,18 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"electric-mining-drill", 5},
-        {"iron-plate", 60},
-        {"jaw-crusher", 1},
-        {"car", 4},
-        {"electronic-circuit", 40}
+        {"automated-factory-mk01", 2},
+        {"electric-mining-drill", 10},
+        {"super-steel", 60},
+        {"nexelit-plate", 30},
+        {"aramid", 40},
+        {"chromium", 50},
+        {"processing-unit", 20}
     },
     results = {
         {"chromium-mine", 1}
     }
-}:add_unlock("chromium-mk03")
+}:add_unlock("chromium-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 ITEM {
     type = "item",
