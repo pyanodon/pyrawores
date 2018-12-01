@@ -30,21 +30,22 @@ ENTITY {
         fluid_amount = 40,
         required_fluid = "water"
     },
-    starting_area = false,
+    starting_area = true,
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     autoplace = {
         control = "ore-titanium",
-        sharpness = 15/16,
+        sharpness = 1,
+        starting_area = true,
         richness_multiplier = 1500,
-        richness_multiplier_distance_bonus = 20,
-        richness_base = 10,
-        coverage = 0.0003,
+        richness_multiplier_distance_bonus = 30,
+        richness_base = 300,
+        coverage = 0.004,
         peaks = {
             {
                 noise_layer = "ore-titanium",
-                noise_octaves_difference = -0.85,
-                noise_persistence = 0.4
+                noise_octaves_difference = -1.5,
+                noise_persistence = 0.3
             }
         }
     },

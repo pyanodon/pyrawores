@@ -22,6 +22,11 @@ ITEM("copper-cable"):set("icon", "__pyrawores__/graphics/icons/copper-cable.png"
 
 --RECIPES UPDATES
 
+RECIPE('electronic-circuit'):add_ingredient({type = "item", name = "solder", amount = 1})
+RECIPE('advanced-circuit'):add_ingredient({type = "item", name = "solder", amount = 2})
+RECIPE('processing-unit'):add_ingredient({type = "item", name = "solder", amount = 3})
+
+
 RECIPE('nexelit-plate'):remove_unlock('coal-processing-3')
 RECIPE('steel-plate2'):remove_unlock('coal-processing-3')
 RECIPE('crushed-iron'):remove_unlock('crusher')
@@ -106,3 +111,6 @@ RECIPE('casting-unit-mk01'):replace_ingredient('radar', 'py-local-radar')
 RECIPE('impact-crusher-mk01'):replace_ingredient('radar', 'py-local-radar')
 
 RECIPE("ppd"):replace_ingredient("hydrogen", "ammonia")
+RECIPE("py-logistic-robot-01"):add_ingredient({type = "item", name = "solder", amount = 5})
+RECIPE("py-construction-robot-01"):add_ingredient({type = "item", name = "solder", amount = 5})
+RECIPE("rail"):add_ingredient({type = "item", name = "solder", amount = 4})
