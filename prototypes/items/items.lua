@@ -1946,3 +1946,15 @@ ITEM {
     order = "a",
     stack_size = 500
 }
+
+
+ITEM {
+    type = "item",
+    name = "solder",
+    icon = "__pyrawores__/graphics/icons/solder.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-rawores-items",
+    order = "a",
+    stack_size = 500
+}

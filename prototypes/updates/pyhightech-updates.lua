@@ -64,6 +64,7 @@ RECIPE("yag-laser-module"):add_ingredient({type = 'item', name = 'aluminium-plat
 RECIPE("diamagnetic-material"):add_ingredient({type = 'item', name = 'lead-plate', amount = 2})
 RECIPE("black-liquor"):add_ingredient({type = 'fluid', name = 'oxygen', amount = 100})
 RECIPE("plastic3"):add_ingredient({type = 'fluid', name = 'hydrogen', amount = 50})
+RECIPE('intelligent-unit'):add_ingredient({type = "item", name = "solder", amount = 4})
 
 
 RECIPE("aluminium-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})

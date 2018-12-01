@@ -411,3 +411,59 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("machines-mk02"):add_ingredient({type = 'item', name = 'molybdenum-plate', amount = 5}):change_category('nmf')
+
+RECIPE {
+    type = "recipe",
+    name = "solder",
+    category = "crafting-with-fluid",
+    enabled = true,
+    energy_required = 2,
+    ingredients = {
+        {type = "item", name = "tin-plate", amount = 1},
+        {type = "item", name = "lead-plate", amount = 2},
+        {type = "fluid", name = "tar", amount = 30},
+    },
+    results = {
+        {type = "item", name = "solder", amount = 1}
+    },
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}
+
+RECIPE {
+    type = "recipe",
+    name = "solder-2",
+    category = "crafting-with-fluid",
+    enabled = false,
+    energy_required = 2,
+    ingredients = {
+        {type = "item", name = "tin-plate", amount = 3},
+        {type = "item", name = "copper-plate", amount = 1},
+        {type = "item", name = "silver-plate", amount = 1},
+        {type = "fluid", name = "tar", amount = 30},
+    },
+    results = {
+        {type = "item", name = "solder", amount = 4}
+    },
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("lead-mk02")
+
+RECIPE {
+    type = "recipe",
+    name = "solder-3",
+    category = "crafting-with-fluid",
+    enabled = false,
+    energy_required = 2,
+    ingredients = {
+        {type = "item", name = "tin-plate", amount = 2},
+        {type = "item", name = "lead-plate", amount = 5},
+        {type = "item", name = "silver-plate", amount = 1},
+        {type = "fluid", name = "tar", amount = 50},
+    },
+    results = {
+        {type = "item", name = "solder", amount = 10}
+    },
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("lead-mk03")

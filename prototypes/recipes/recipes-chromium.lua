@@ -263,7 +263,7 @@ RECIPE {
     },
     main_product = "chromium",
     subgroup = "py-rawores-plates",
-    order = "b"
+    order = "q-2"
 }:add_unlock("chromium-mk02")
 
 
@@ -388,5 +388,5 @@ RECIPE {
     icon = "__pycoalprocessing__/graphics/icons/chromium.png",
     icon_size = 32,
     subgroup = "py-rawores-plates",
-    order = "j"
+    order = "q-2"
 }
