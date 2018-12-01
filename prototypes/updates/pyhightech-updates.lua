@@ -1,7 +1,7 @@
 RECIPE('al-pulp-01'):replace_ingredient('boric-acid', 'phosphoric-acid')
 RECIPE('powdered-ralesia-seeds'):change_category('pulp')
 RECIPE('glass-fiber'):add_ingredient({type = "item", name = "sodium-sulfate", amount =1})
-RECIPE('phosphate-glass'):add_ingredient({type = "item", name = "sodium-sulfate", amount =1})
+RECIPE('phosphate-glass'):add_ingredient({type = "item", name = "sodium-sulfate", amount =1}):replace_ingredient('glass-fiber', 'crushed-quartz')
 RECIPE("nexelit-matrix"):replace_ingredient("wood", "epoxy")
 RECIPE('rayon'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =5})
 RECIPE('fiberboard'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =3})
@@ -15,7 +15,6 @@ RECIPE('diode-core'):replace_ingredient('liquid-pure-air', 'liquid-nitrogen')
 RECIPE('capacitor-termination'):replace_ingredient('boric-acid', 'liquid-nitrogen')
 RECIPE('carbon-aerogel'):replace_ingredient('syngas', 'nitrogen')
 RECIPE('superconductor'):replace_ingredient('liquid-helium', 'liquid-nitrogen')
-RECIPE("phosphate-glass"):replace_ingredient('glass-fiber', 'crushed-quartz')
 RECIPE("silicon-wafer"):add_ingredient({type = 'item', name = 'crushed-quartz', amount = 2})
 RECIPE("nano-wires"):add_ingredient({type = 'item', name = 'gold-plate', amount = 10})
 RECIPE("capacitor1"):replace_ingredient('copper-plate', 'tin-plate')
@@ -68,10 +67,25 @@ RECIPE("plastic3"):add_ingredient({type = 'fluid', name = 'hydrogen', amount = 5
 
 
 RECIPE("aluminium-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
+RECIPE("chromium-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
+RECIPE("coal-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
+RECIPE("copper-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
+RECIPE("iron-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
+RECIPE("lead-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
+RECIPE("nexelit-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
+RECIPE("nickel-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
+RECIPE("quartz-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
+RECIPE("tin-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
+RECIPE("titanium-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
+RECIPE("uranium-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
+RECIPE("zinc-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
 
 RECIPE('cresylic-acid'):remove_ingredient('aromatics'):add_ingredient({type = 'item', name = 'phenol', amount = 15})
 RECIPE('outlet-gas-02'):change_category('fbreactor')
 
+RECIPE('ppd'):replace_ingredient('aromatics', 'nitrobenzene')
+
+--PYCP ENTITIES UPDATES
 
 RECIPE('distilator-mk03'):add_ingredient({type = "item", name = "phosphate-glass", amount = 15}):add_ingredient({type = "item", name = "biopolymer", amount = 10}):add_ingredient({type = "item", name = "aerogel", amount = 10})
 RECIPE('distilator-mk04'):replace_ingredient('control-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 6}):add_ingredient({type = "item", name = "var-josephson-junction", amount = 4})

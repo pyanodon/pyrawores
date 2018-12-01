@@ -14,7 +14,7 @@ RECIPE("lens"):replace_ingredient("stone", "glass")
 RECIPE("diborane"):replace_ingredient("water", "hydrogen"):change_category('electrolyzer')
 RECIPE("oleochemicals-distilation"):replace_ingredient("water", "oxygen")
 RECIPE("oleo-gasification"):replace_ingredient("water", "oxygen")
-RECIPE("ppd"):replace_ingredient("water", "hydrogen"):change_category('electrolyzer')
+RECIPE("ppd"):replace_ingredient("water", "hydrogen"):change_category('electrolyzer'):add_ingredient({type = 'fluid', name = 'chlorine', amount = 100})
 RECIPE("aromatics2"):replace_ingredient("water", "hydrogen")
 RECIPE("niobium-complex"):replace_ingredient("water", "hydrogen-chloride")
 RECIPE("tpa"):replace_ingredient("copper-ore", "nichrome")
@@ -47,6 +47,9 @@ RECIPE("laser-turret"):add_ingredient({type = "item", name = "lens", amount = 1}
 RECIPE("cooling-tower-mk01"):replace_ingredient("iron-plate", "duralumin")
 RECIPE("soil-extractormk02"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("soil-extractormk01"):replace_ingredient("copper-cable", "tinned-cable")
+RECIPE("wpu"):replace_ingredient("copper-cable", "tinned-cable")
+RECIPE("fawogae-plantation"):replace_ingredient("copper-cable", "tinned-cable")
+RECIPE("fawogae-plantation"):replace_ingredient("copper-cable", "tinned-cable")
 
 
 RECIPE("gasturbinemk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "duralumin")

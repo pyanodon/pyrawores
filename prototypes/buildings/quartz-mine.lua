@@ -4,15 +4,18 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"automated-factory-mk01", 1},
-        {"iron-plate", 60},
-        {"jaw-crusher", 1},
-        {"electronic-circuit", 40}
+        {"automated-factory-mk01", 2},
+        {"electric-mining-drill", 10},
+        {"super-steel", 60},
+        {"nexelit-plate", 30},
+        {"aramid", 40},
+        {"glass", 50},
+        {"processing-unit", 20} --add pyht hyperelastic material/intelligent unit
     },
     results = {
         {"quartz-mine", 1}
     }
-}:add_unlock("quartz-mk03")
+}:add_unlock("quartz-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 ITEM {
     type = "item",

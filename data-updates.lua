@@ -24,6 +24,8 @@ ITEM("copper-cable"):set("icon", "__pyrawores__/graphics/icons/copper-cable.png"
 
 RECIPE('nexelit-plate'):remove_unlock('coal-processing-3')
 RECIPE('steel-plate2'):remove_unlock('coal-processing-3')
+RECIPE('crushed-iron'):remove_unlock('crusher')
+RECIPE('crushed-copper'):remove_unlock('crusher')
 
 RECIPE('py-logistic-robot-01'):replace_ingredient('iron-plate', 'aluminium-plate')
 RECIPE('py-construction-robot-01'):replace_ingredient('iron-plate', 'aluminium-plate')
@@ -104,3 +106,5 @@ RECIPE('leaching-station-mk04'):replace_ingredient('storage-tank', 'py-tank-8000
 
 RECIPE('casting-unit-mk01'):replace_ingredient('radar', 'py-local-radar')
 RECIPE('impact-crusher-mk01'):replace_ingredient('radar', 'py-local-radar')
+
+RECIPE("ppd"):replace_ingredient("hydrogen", "ammonia")
