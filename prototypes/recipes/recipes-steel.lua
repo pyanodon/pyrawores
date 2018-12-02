@@ -108,6 +108,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "sand-casting", amount = 2},
+        {type = "item", name = "aramid", amount = 1},
         {type = "fluid", name = "molten-stainless-steel", amount = 100},
     },
     results = {
@@ -147,6 +148,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "sand-casting", amount = 2},
+        {type = "item", name = "aramid", amount = 1},
         {type = "fluid", name = "molten-super-steel", amount = 100},
     },
     results = {

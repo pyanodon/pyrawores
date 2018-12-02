@@ -15,7 +15,7 @@ RECIPE('diode-core'):replace_ingredient('liquid-pure-air', 'liquid-nitrogen')
 RECIPE('capacitor-termination'):replace_ingredient('boric-acid', 'liquid-nitrogen')
 RECIPE('carbon-aerogel'):replace_ingredient('syngas', 'nitrogen')
 RECIPE('superconductor'):replace_ingredient('liquid-helium', 'liquid-nitrogen')
-RECIPE("silicon-wafer"):add_ingredient({type = 'item', name = 'crushed-quartz', amount = 2})
+RECIPE("silicon-wafer"):add_ingredient({type = 'item', name = 'crushed-quartz', amount = 2}):add_ingredient({type = 'item', name = 'aramid', amount = 1})
 RECIPE("nano-wires"):add_ingredient({type = 'item', name = 'gold-plate', amount = 10})
 RECIPE("capacitor1"):replace_ingredient('copper-plate', 'tin-plate')
 RECIPE("resistor1"):replace_ingredient('iron-plate', 'tin-plate'):add_ingredient({type = 'item', name = 'glass', amount = 1})
@@ -65,6 +65,9 @@ RECIPE("diamagnetic-material"):add_ingredient({type = 'item', name = 'lead-plate
 RECIPE("black-liquor"):add_ingredient({type = 'fluid', name = 'oxygen', amount = 100})
 RECIPE("plastic3"):add_ingredient({type = 'fluid', name = 'hydrogen', amount = 50})
 RECIPE('intelligent-unit'):add_ingredient({type = "item", name = "solder", amount = 4})
+RECIPE("py-logistic-robot-01"):add_ingredient({type = "item", name = "solder", amount = 5})
+RECIPE("construction-robot-ht"):add_ingredient({type = "item", name = "super-alloy", amount = 2})
+RECIPE("logistic-robot-ht"):add_ingredient({type = "item", name = "super-alloy", amount = 2})
 
 
 RECIPE("aluminium-mine"):replace_ingredient('processing-unit', 'intelligent-unit'):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
@@ -563,3 +566,22 @@ RECIPE {
         {type = 'item', name = 'py-fertilizer', amount = 15}
     }
 }:add_unlock('basic-electronics')
+
+RECIPE {
+    type = "recipe",
+    name = "aramid-2",
+    category = "crafting-with-fluid",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "ppd", amount = 6},
+        {type = "item", name = "sub-denier-microfiber", amount = 1},
+        {type = "item", name = "aluminium-plate", amount = 5},
+        {type = "fluid", name = "sulfuric-acid", amount = 100},
+    },
+    results = {
+        {type = "item", name = "aramid", amount = 4}
+    },
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("machines-mk02"):add_ingredient({type = 'item', name = 'molybdenum-plate', amount = 5}):change_category('nmf')
