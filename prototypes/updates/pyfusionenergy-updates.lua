@@ -57,7 +57,7 @@ RECIPE("phytoplankton"):replace_ingredient("crushed-iron", "grade-4-tin")
 RECIPE("molybdenum-oxide"):add_ingredient({type = "fluid", name = "oxygen", amount = 100})
 RECIPE("vpulp3"):replace_ingredient("petroleum-gas", "ammonia")
 RECIPE("vpulp-precip"):replace_ingredient("water", "ammonia")
-RECIPE("super-alloy"):replace_ingredient("steel-plate", "nickel-plate")
+RECIPE("super-alloy"):replace_ingredient("steel-plate", "nickel-plate"):add_ingredient({type = "item", name = "aramid", amount = 1})
 RECIPE("cool-air"):replace_ingredient("pressured-air", "liquid-nitrogen")
 RECIPE('calcinate-separation'):add_result({type = "item", name = "ore-quartz", amount = 1, probability = 0.6})--result
 RECIPE("kmauts-ration"):replace_ingredient("iron-plate", "tin-plate")

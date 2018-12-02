@@ -284,3 +284,8 @@ require("prototypes/fluids/zinc-pulp-04")
 require("prototypes/fluids/zinc-overflow")
 require("prototypes/fluids/zinc-waste")
 require("prototypes/fluids/molten-zinc")
+
+--(( OTHERS ))--
+
+require("prototypes/robots/py-construction-robot-02")
+require("prototypes/robots/py-logistic-robot-02")
