@@ -44,7 +44,7 @@ DATA {
         --max_probability = 0.035,
         richness_multiplier = 800,
         richness_multiplier_distance_bonus = 1000,
-        richness_base = 5000000,
+        richness_base = 8000000,
         coverage = 0.00003 / 30,
         peaks = {
             {
