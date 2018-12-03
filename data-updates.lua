@@ -115,4 +115,7 @@ RECIPE("ppd"):replace_ingredient("hydrogen", "ammonia")
 RECIPE("py-logistic-robot-01"):add_ingredient({type = "item", name = "solder", amount = 5})
 RECIPE("py-construction-robot-01"):add_ingredient({type = "item", name = "solder", amount = 5})
 RECIPE("rail"):add_ingredient({type = "item", name = "solder", amount = 4})
-
+RECIPE('piercing-rounds-magazine'):add_ingredient({type = "item", name = "lead-plate", amount = 1}):remove_ingredient('copper-plate')
+RECIPE('shotgun-shell'):add_ingredient({type = "item", name = "lead-plate", amount = 1}):remove_ingredient('copper-plate')
+RECIPE('firearm-magazine'):replace_ingredient("iron-plate", "lead-plate")
+RECIPE('piercing-shotgun-shell'):add_ingredient({type = "item", name = "plastic-bar", amount = 1}):remove_ingredient('copper-plate')

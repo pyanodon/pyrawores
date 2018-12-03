@@ -3,7 +3,7 @@ RECIPE('powdered-ralesia-seeds'):change_category('pulp')
 RECIPE('glass-fiber'):add_ingredient({type = "item", name = "sodium-sulfate", amount =1})
 RECIPE('phosphate-glass'):add_ingredient({type = "item", name = "sodium-sulfate", amount =1}):replace_ingredient('glass-fiber', 'crushed-quartz')
 RECIPE("nexelit-matrix"):replace_ingredient("wood", "epoxy")
-RECIPE('rayon'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =5})
+RECIPE('rayon'):add_ingredient({type = "item", name = "sodium-carbonate", amount =5})
 RECIPE('fiberboard'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =3})
 RECIPE('micro-fiber'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =3})
 RECIPE('phenolicboard'):add_ingredient({type = "item", name = "sodium-hydroxide", amount =3})
@@ -585,3 +585,20 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("machines-mk02"):add_ingredient({type = 'item', name = 'molybdenum-plate', amount = 5}):change_category('nmf')
+
+RECIPE {
+    type = "recipe",
+    name = "ceramic-2",
+    category = "hpf",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = 'item', name = 'clay', amount = 10},
+        {type = 'item', name = 'coke', amount = 1},
+        {type = 'item', name = 'salt', amount = 5},
+    },
+    results = {
+        {type = 'item', name = 'ceramic', amount = 10},
+    },
+    main_product = 'ceramic',
+}:add_unlock("basic-electronics")

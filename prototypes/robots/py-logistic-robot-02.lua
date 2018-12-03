@@ -7,7 +7,7 @@ local cargo_bot =
     enabled = false,
     ingredients = {
         {'py-logistic-robot-01', 1},
-        {'battery', 3},
+        {'battery', 6},
         {'titanium-plate', 5},
         {'solder', 5},
         {'super-steel', 10},
