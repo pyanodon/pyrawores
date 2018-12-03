@@ -10,7 +10,7 @@ RECIPE('hydrocyclone'):remove_unlock('advanced-mining-facilities'):add_unlock('m
 RECIPE('mixer'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk01')
 RECIPE('mixer'):replace_ingredient('iron-plate', 'aluminium-plate')
 
-RECIPE('secondary-crusher'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk02')
+RECIPE('secondary-crusher'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk02'):replace_ingredient("electric-engine-unit", "engine-unit"):remove_ingredient('nbfe-alloy')
 
 RECIPE('automated-screener'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk02')
 
@@ -91,7 +91,7 @@ RECIPE("substation"):replace_ingredient("steel", "super-alloy")
 RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-alloy")
 RECIPE("low-density-structure"):remove_ingredient("steel-plate")
 
-RECIPE("automated-screener"):replace_ingredient("electric-engine-unit", "engine-unit"):replace_ingredient("ground-borer", "electric-mining-drill")
+RECIPE("automated-screener"):replace_ingredient("electric-engine-unit", "engine-unit"):replace_ingredient("ground-borer", "electric-mining-drill"):replace_ingredient("advanced-circuit", "electronic-circuit"):remove_ingredient('niobium-plate')
 
 RECIPE('distilator-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 15}):add_ingredient({type = "item", name = "sc-unit", amount = 4})
 RECIPE('distilator-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "agzn-alloy", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})

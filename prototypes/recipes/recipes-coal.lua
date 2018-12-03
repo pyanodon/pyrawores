@@ -7,7 +7,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "raw-coal", amount = 2}
+        {type = "item", name = "raw-coal", amount = 3}
     },
     results = {
         {type = "item", name = "crushed-coal", amount = 1},

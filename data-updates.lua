@@ -79,6 +79,7 @@ RECIPE('substation'):replace_ingredient('copper-plate', 'super-steel')
 RECIPE('uranium-fuel-cell'):replace_ingredient('iron-plate', 'lead-plate')
 RECIPE('heat-pipe'):replace_ingredient('copper-plate', 'duralumin')
 RECIPE('steam-turbine'):add_ingredient({type = "item", name = "super-steel", amount = 20})
+RECIPE('solar-panel'):add_ingredient({type = "item", name = "pyrite", amount = 5})
 
 RECIPE('advanced-circuit'):replace_ingredient('copper-cable', 'tinned-cable')
 RECIPE('high-tech-science-pack'):replace_ingredient('copper-cable', 'tinned-cable')
@@ -114,3 +115,4 @@ RECIPE("ppd"):replace_ingredient("hydrogen", "ammonia")
 RECIPE("py-logistic-robot-01"):add_ingredient({type = "item", name = "solder", amount = 5})
 RECIPE("py-construction-robot-01"):add_ingredient({type = "item", name = "solder", amount = 5})
 RECIPE("rail"):add_ingredient({type = "item", name = "solder", amount = 4})
+
