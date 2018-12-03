@@ -8,6 +8,7 @@ RECIPE {
         {'aramid', 5},
         {'stainless-steel', 5},
         {'electric-engine-unit', 1},
+        {'battery', 6},
         {'solder', 5},
         {'advanced-circuit', 3}
     },

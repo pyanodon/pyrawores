@@ -83,7 +83,7 @@ RECIPE {
     name = "py-sodium-hydroxide",
     category = "chemistry",
     enabled = false,
-    energy_required = 8,
+    energy_required = 6,
     ingredients = {
         {type = "fluid", name = "slacked-lime", amount = 50},
         {type = "item", name = "salt", amount = 10}
@@ -490,7 +490,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'pyrite-burn',
-    category = 'gasifier',
+    category = 'hpf',
     enabled = 'false',
     energy_required = 4,
     ingredients = {
@@ -516,4 +516,22 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'sulfuric-acid', amount = 50},
     },
+}:add_unlock("sulfur-processing")
+
+RECIPE {
+    type = 'recipe',
+    name = 'sodium-carbonate-1',
+    category = 'hpf',
+    enabled = 'false',
+    energy_required = 4,
+    ingredients = {
+        {type = 'item', name = 'sodium-sulfate', amount = 1},
+        {type = 'item', name = 'coke', amount = 5},
+        {type = 'item', name = 'limestone', amount = 3},
+    },
+    results = {
+        {type = 'item', name = 'sodium-carbonate', amount = 1},
+        {type = 'fluid', name = 'carbon-dioxide', amount = 50},
+    },
+    main_product = "sodium-carbonate",
 }:add_unlock("sulfur-processing")

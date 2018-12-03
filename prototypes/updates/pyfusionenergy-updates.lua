@@ -316,7 +316,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "u-waste", amount = 100},
-        {type = "item", name = "sodium-carbonate", amount = 10}, --pyfe sodium chlorate
+        {type = "item", name = "sodium-carbonate", amount = 10},
     },
     results = {
         {type = "fluid", name = "vanadium-mixture", amount = 100},
@@ -324,4 +324,4 @@ RECIPE {
     main_product = "vanadium-mixture",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("uranium-mk04"):replace_ingredient("sodium-carbonate", "sodium-chlorate")
+}:add_unlock("uranium-mk04")

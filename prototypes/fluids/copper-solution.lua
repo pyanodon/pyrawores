@@ -7,6 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "water", amount = 400},
         {type = "item", name = "grade-4-copper", amount = 3},
+        {type = "item", name = "salt", amount = 10},
         
     },
     results = {
