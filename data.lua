@@ -8,6 +8,7 @@ require('prototypes/items/items')
 
 --(( RESOURCES ))--
 require("prototypes.ores.quartz")
+require("prototypes.ores.raw-coal")
 require("prototypes.ores.aluminium")
 require("prototypes.ores.chromium")
 require("prototypes.ores.lead")

@@ -357,6 +357,25 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
+    name = "battery-2",
+    category = "crafting-with-fluid",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "lead-plate", amount = 4},
+        {type = "item", name = "coke", amount = 5},
+        {type = "item", name = "pyrite", amount = 5},
+        {type = "fluid", name = "sulfuric-acid", amount = 50},
+    },
+    results = {
+        {type = "item", name = "battery", amount = 2}
+    },
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("battery")
+
+RECIPE {
+    type = "recipe",
     name = "mega-drill-head",
     category = "crafting-with-fluid",
     enabled = false,
@@ -467,3 +486,34 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("lead-mk03")
+
+RECIPE {
+    type = 'recipe',
+    name = 'pyrite-burn',
+    category = 'gasifier',
+    enabled = 'false',
+    energy_required = 4,
+    ingredients = {
+        {type = 'item', name = 'pyrite', amount = 5},
+    },
+    results = {
+        {type = 'fluid', name = 'acidgas', amount = 50},
+        {type = 'item', name = 'iron-oxide', amount = 3},
+    },
+    main_product = "iron-oxide",
+}:add_unlock("coal-mk01")
+
+RECIPE {
+    type = 'recipe',
+    name = 'sulfuric-acid-01',
+    category = 'chemistry',
+    enabled = 'false',
+    energy_required = 4,
+    ingredients = {
+        {type = 'fluid', name = 'acidgas', amount = 100},
+        {type = 'fluid', name = 'water', amount = 100},
+    },
+    results = {
+        {type = 'fluid', name = 'sulfuric-acid', amount = 50},
+    },
+}:add_unlock("sulfur-processing")
