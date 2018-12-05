@@ -167,7 +167,7 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "lead-dust",
+    name = "silver-plate-1",
     category = "smelting",
     enabled = false,
     energy_required = 5,
@@ -185,7 +185,7 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "lead-plate-2",
+    name = "silver-plate-2",
     category = "advanced-foundry",
     enabled = false,
     energy_required = 1,

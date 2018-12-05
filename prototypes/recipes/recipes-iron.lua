@@ -271,12 +271,12 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "processed-iron-ore", amount = 1},
+        {type = "item", name = "processed-iron-ore", amount = 3},
         {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50},
     },
     results = {
-        {type = "fluid", name = "molten-iron", amount = 15},
+        {type = "fluid", name = "molten-iron", amount = 10},
     },
     main_product = "molten-iron",
     subgroup = "py-rawores-molten",
@@ -302,6 +302,7 @@ RECIPE {
     order = "d"
 }:add_unlock("iron-mk03")
 
+
 RECIPE {
     type = "recipe",
     name = "molten-iron-03",
@@ -319,7 +320,8 @@ RECIPE {
     main_product = "molten-iron",
     subgroup = "py-rawores-molten",
     order = "d"
-}:add_unlock("iron-mk03")
+}:add_unlock("iron-mk04")
+
 
 RECIPE {
     type = "recipe",
@@ -338,7 +340,7 @@ RECIPE {
     main_product = "molten-iron",
     subgroup = "py-rawores-molten",
     order = "d"
-}:add_unlock("iron-mk03")
+}:add_unlock("iron-mk04")
 
 RECIPE {
     type = "recipe",
@@ -357,7 +359,7 @@ RECIPE {
     main_product = "molten-iron",
     subgroup = "py-rawores-molten",
     order = "d"
-}:add_unlock("iron-mk03")
+}:add_unlock("iron-mk04")
 
 
 
@@ -441,7 +443,7 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "low-grade-smelting",
+    name = "low-grade-smelting-iron",
     category = "smelting",
     enabled = false,
     energy_required = 8,

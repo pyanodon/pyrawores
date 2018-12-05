@@ -30,7 +30,7 @@ ENTITY {
         fluid_amount = 100,
         required_fluid = "water"
     },
-    starting_area = false,
+    starting_area = true,
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     autoplace = {

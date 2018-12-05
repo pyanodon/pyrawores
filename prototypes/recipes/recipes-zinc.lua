@@ -219,7 +219,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-4-zinc", amount = 4},
+        {type = "item", name = "grade-3-zinc", amount = 5},
         {type = "item", name = "limestone", amount = 3},
         {type = "item", name = "sand-casting", amount = 3}, 
         {type = "fluid", name = "heavy-oil", amount = 100}, 
@@ -387,4 +387,4 @@ RECIPE {
     },
     subgroup = "py-rawores-plates",
     order = "j"
-}:add_unlock("zinc-mk02")
+}:add_unlock("zinc-mk03")

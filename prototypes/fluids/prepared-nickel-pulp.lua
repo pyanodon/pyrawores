@@ -15,7 +15,7 @@ RECIPE {
     main_product = "prepared-nickel-pulp",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("nickel-mk02"):change_category('hydrocyclone')
+}:add_unlock("nickel-mk03"):change_category('hydrocyclone')
 
 
 FLUID {

@@ -20,7 +20,7 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "grade-2-crush",
+    name = "grade-2-ti-crush",
     category = "crusher",
     enabled = false,
     energy_required = 3,

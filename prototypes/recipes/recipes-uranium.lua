@@ -1,6 +1,6 @@
 RECIPE {
     type = "recipe",
-    name = "grade-1-ti",
+    name = "grade-1-u",
     category = "crusher",
     enabled = false,
     energy_required = 4,
@@ -21,7 +21,7 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "grade-1-ti-recrush",
+    name = "grade-1-u-recrush",
     category = "impact-crusher",
     enabled = false,
     energy_required = 4,
@@ -39,7 +39,7 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "grade-2-crush",
+    name = "grade-2-u-crush",
     category = "crusher", --pyfe secondary crusher
     enabled = false,
     energy_required = 4,

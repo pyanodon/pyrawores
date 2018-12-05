@@ -251,7 +251,7 @@ RECIPE {
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
     order = "n"
-}:add_unlock("nickel-mk03")
+}:add_unlock("nickel-mk04")
 
 RECIPE {
     type = "recipe",

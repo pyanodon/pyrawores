@@ -55,7 +55,7 @@ RECIPE {
     main_product = "molten-steel",
     subgroup = "py-rawores-molten",
     order = "s"
-}:add_unlock("iron-mk03")
+}:add_unlock("iron-mk02")
 
 RECIPE {
     type = "recipe",

@@ -179,7 +179,7 @@ RECIPE {
     main_product = "reduced-copper",
     subgroup = "py-rawores-copper",
     order = "q-2"
-}:add_unlock("copper-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("copper-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",
@@ -234,7 +234,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-4-copper", amount = 10},
+        {type = "item", name = "reduced-copper", amount = 10},
         {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50},
     },
@@ -244,14 +244,14 @@ RECIPE {
     main_product = "molten-copper",
     subgroup = "py-rawores-molten",
     order = "c"
-}:add_unlock("copper-mk02")
+}:add_unlock("copper-mk03")
 
 RECIPE {
     type = "recipe",
     name = "molten-copper-02",
     category = "bof",
     enabled = false,
-    energy_required = 4,
+    energy_required = 5,
     ingredients = {
         {type = "item", name = "sintered-copper", amount = 1},
         {type = "item", name = "borax", amount = 3},
@@ -263,8 +263,45 @@ RECIPE {
     main_product = "molten-copper",
     subgroup = "py-rawores-molten",
     order = "c"
+}:add_unlock("copper-mk04")
+
+RECIPE {
+    type = "recipe",
+    name = "molten-copper-03",
+    category = "bof",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "high-grade-copper", amount = 1},
+        {type = "item", name = "borax", amount = 3},
+        {type = "fluid", name = "oxygen", amount = 50},
+    },
+    results = {
+        {type = "fluid", name = "molten-copper", amount = 30},
+    },
+    main_product = "molten-copper",
+    subgroup = "py-rawores-molten",
+    order = "c"
 }:add_unlock("copper-mk03")
 
+RECIPE {
+    type = "recipe",
+    name = "molten-copper-04",
+    category = "bof",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "grade-4-copper", amount = 3},
+        {type = "item", name = "borax", amount = 3},
+        {type = "fluid", name = "oxygen", amount = 50},
+    },
+    results = {
+        {type = "fluid", name = "molten-copper", amount = 15},
+    },
+    main_product = "molten-copper",
+    subgroup = "py-rawores-molten",
+    order = "c"
+}:add_unlock("copper-mk02")
 
 
 ----PLATES----
@@ -288,48 +325,12 @@ RECIPE {
     order = "j"
 }:add_unlock("copper-mk03")
 
-RECIPE {
-    type = "recipe",
-    name = "copper-plate-2",
-    category = "casting",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "item", name = "grade-4-copper", amount = 1},
-        {type = "item", name = "sand-casting", amount = 1},
-    },
-    results = {
-        {type = "item", name = "copper-plate", amount = 5}
-    },
-    main_product= "copper-plate",
-    subgroup = "py-rawores-plates",
-    order = "j"
-}:add_unlock("copper-mk02")
-
-RECIPE {
-    type = "recipe",
-    name = "copper-plate-3",
-    category = "casting",
-    enabled = false,
-    energy_required = 2,
-    ingredients = {
-        {type = "item", name = "high-grade-copper", amount = 1},
-        {type = "item", name = "borax", amount = 3},
-        {type = "item", name = "sand-casting", amount = 1},
-    },
-    results = {
-        {type = "item", name = "copper-plate", amount = 10}
-    },
-    main_product= "copper-plate",
-    subgroup = "py-rawores-plates",
-    order = "j"
-}:add_unlock("copper-mk03")
 
 RECIPE {
     type = "recipe",
     name = "copper-plate-4",
     category = "casting",
-    enabled = false,
+    enabled = false, 
     energy_required = 4,
     ingredients = {
         {type = "item", name = "grade-2-copper", amount = 1},
@@ -347,7 +348,7 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "low-grade-smelting",
+    name = "low-grade-smelting-copper",
     category = "smelting",
     enabled = false,
     energy_required = 1,
