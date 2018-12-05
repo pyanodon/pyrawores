@@ -264,15 +264,71 @@ RECIPE {
 --MOLTEN VERSION
 
 
+RECIPE {
+    type = "recipe",
+    name = "molten-iron-05",
+    category = "bof",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "processed-iron-ore", amount = 1},
+        {type = "item", name = "borax", amount = 3},
+        {type = "fluid", name = "oxygen", amount = 50},
+    },
+    results = {
+        {type = "fluid", name = "molten-iron", amount = 15},
+    },
+    main_product = "molten-iron",
+    subgroup = "py-rawores-molten",
+    order = "d"
+}:add_unlock("iron-mk01")
 
 RECIPE {
     type = "recipe",
-    name = "molten-iron-01",
+    name = "molten-iron-04",
     category = "bof",
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item", name = "unslimed-iron", amount = 1},
+        {type = "item", name = "borax", amount = 3},
+        {type = "fluid", name = "oxygen", amount = 50},
+    },
+    results = {
+        {type = "fluid", name = "molten-iron", amount = 15},
+    },
+    main_product = "molten-iron",
+    subgroup = "py-rawores-molten",
+    order = "d"
+}:add_unlock("iron-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "molten-iron-03",
+    category = "bof",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "high-grade-iron", amount = 1},
+        {type = "item", name = "borax", amount = 3},
+        {type = "fluid", name = "oxygen", amount = 50},
+    },
+    results = {
+        {type = "fluid", name = "molten-iron", amount = 30},
+    },
+    main_product = "molten-iron",
+    subgroup = "py-rawores-molten",
+    order = "d"
+}:add_unlock("iron-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "molten-iron-02",
+    category = "bof",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "reduced-iron", amount = 1},
         {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50},
     },
@@ -286,7 +342,7 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "molten-iron-02",
+    name = "molten-iron-01",
     category = "bof",
     enabled = false,
     energy_required = 4,
@@ -312,7 +368,7 @@ RECIPE {
     name = "iron-plate-1",
     category = "casting",
     enabled = false,
-    energy_required = 1,
+    energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-iron", amount = 100},
         {type = "item", name = "borax", amount = 3},
@@ -324,14 +380,14 @@ RECIPE {
     main_product= "iron-plate",
     subgroup = "py-rawores-plates",
     order = "j"
-}:add_unlock("iron-mk02")
+}:add_unlock("iron-mk01")
 
 RECIPE {
     type = "recipe",
     name = "iron-plate-2",
     category = "casting",
     enabled = false,
-    energy_required = 3,
+    energy_required = 4,
     ingredients = {
         {type = "item", name = "unslimed-iron", amount = 1},
         {type = "item", name = "sand-casting", amount = 1},
@@ -349,7 +405,7 @@ RECIPE {
     name = "iron-plate-3",
     category = "casting",
     enabled = false,
-    energy_required = 2,
+    energy_required = 4,
     ingredients = {
         {type = "item", name = "high-grade-iron", amount = 1},
         {type = "item", name = "borax", amount = 3},
@@ -368,7 +424,7 @@ RECIPE {
     name = "iron-plate-4",
     category = "casting",
     enabled = false,
-    energy_required = 3,
+    energy_required = 4,
     ingredients = {
         {type = "item", name = "grade-1-iron", amount = 1},
     },

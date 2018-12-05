@@ -55,7 +55,7 @@ RECIPE {
     main_product = "molten-steel",
     subgroup = "py-rawores-molten",
     order = "s"
-}:add_unlock("iron-mk01")
+}:add_unlock("iron-mk03")
 
 RECIPE {
     type = "recipe",
@@ -73,7 +73,7 @@ RECIPE {
     main_product = "steel-plate",
     subgroup = "py-rawores-plates",
     order = "q-2"
-}:add_unlock("iron-mk01")
+}:add_unlock("iron-mk03")
 
 --STAINLESS STEEL
 

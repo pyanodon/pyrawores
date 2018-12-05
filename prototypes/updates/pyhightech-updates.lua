@@ -227,7 +227,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "j"
-}:add_unlock("machines-mk01"):change_category('mixer')
+}:add_unlock("machines-mk02"):change_category('mixer')
 
 RECIPE {
     type = 'recipe',
