@@ -54,7 +54,6 @@ RECIPE("soil-extractormk02"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("soil-extractormk01"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("wpu"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("fawogae-plantation"):replace_ingredient("copper-cable", "tinned-cable")
-RECIPE("fawogae-plantation"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("advanced-foundry-mk01"):replace_ingredient("steel-furnace", "stone-furnace")
 
 
