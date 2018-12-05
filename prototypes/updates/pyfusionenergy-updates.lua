@@ -1,4 +1,3 @@
-TECHNOLOGY('crusher'):add_prereq('machines-mk01')
 TECHNOLOGY('helium-processing'):remove_pack('production-science-pack')
 
 RECIPE('compressor'):remove_unlock('regolite-mining'):add_unlock('machines-mk02')
@@ -10,9 +9,9 @@ RECIPE('hydrocyclone'):remove_unlock('advanced-mining-facilities'):add_unlock('m
 RECIPE('mixer'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk01')
 RECIPE('mixer'):replace_ingredient('iron-plate', 'aluminium-plate'):replace_ingredient('chemical-plant', 'washer')
 
-RECIPE('secondary-crusher'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk02'):replace_ingredient("electric-engine-unit", "engine-unit"):remove_ingredient('nbfe-alloy')
+RECIPE('secondary-crusher'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk01'):replace_ingredient("electric-engine-unit", "engine-unit"):remove_ingredient('nbfe-alloy'):add_ingredient({type = "item", name = "duralumin", amount = 20})
 
-RECIPE('automated-screener'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk02')
+RECIPE('automated-screener'):remove_unlock('advanced-mining-facilities'):add_unlock('machines-mk01')
 
 RECIPE('jig'):remove_unlock('diamond-mining'):add_unlock('machines-mk03')
 

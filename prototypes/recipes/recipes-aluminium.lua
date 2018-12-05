@@ -101,7 +101,7 @@ RECIPE {
     main_product = "reduced-aluminium",
     subgroup = "py-rawores-aluminium",
     order = "i"
-}:add_unlock("aluminium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("aluminium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",
@@ -121,7 +121,7 @@ RECIPE {
     main_product = "sintered-aluminium",
     subgroup = "py-rawores-aluminium",
     order = "j"
-}:add_unlock("aluminium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("aluminium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",
@@ -148,7 +148,6 @@ RECIPE {
 --MOLTEN VERSION
 
 
-
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-01",
@@ -156,16 +155,16 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "sodium-aluminate", amount = 1},
+        {type = "item", name = "powdered-aluminium", amount = 2},
         {type = "item", name = "borax", amount = 3},
     },
     results = {
-        {type = "fluid", name = "molten-aluminium", amount = 25},
+        {type = "fluid", name = "molten-aluminium", amount = 10},
     },
     main_product = "molten-aluminium",
     subgroup = "py-rawores-molten",
     order = "a"
-}:add_unlock("aluminium-mk02"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("aluminium-mk01"):add_ingredient({type = "item", name = "graphite", amount =3})
 
 RECIPE {
     type = "recipe",
@@ -174,42 +173,96 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "sintered-aluminium", amount = 1},
+        {type = "fluid", name = "al-pulp-02", amount = 100},
         {type = "item", name = "borax", amount = 3},
     },
     results = {
-        {type = "fluid", name = "molten-aluminium", amount = 50},
+        {type = "fluid", name = "molten-aluminium", amount = 20},
+    },
+    main_product = "molten-aluminium",
+    subgroup = "py-rawores-molten",
+    order = "a"
+}:add_unlock("aluminium-mk02"):add_ingredient({type = "item", name = "graphite", amount =3})
+
+RECIPE {
+    type = "recipe",
+    name = "molten-aluminium-03",
+    category = "eaf",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "crystalized-sodium-aluminate", amount = 1},
+        {type = "item", name = "borax", amount = 3},
+    },
+    results = {
+        {type = "fluid", name = "molten-aluminium", amount = 30},
     },
     main_product = "molten-aluminium",
     subgroup = "py-rawores-molten",
     order = "a"
 }:add_unlock("aluminium-mk03"):add_ingredient({type = "item", name = "graphite", amount =3})
 
+RECIPE {
+    type = "recipe",
+    name = "molten-aluminium-03-2",
+    category = "eaf",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "high-grade-alumina", amount = 1},
+        {type = "item", name = "borax", amount = 3},
+    },
+    results = {
+        {type = "fluid", name = "molten-aluminium", amount = 40},
+    },
+    main_product = "molten-aluminium",
+    subgroup = "py-rawores-molten",
+    order = "a"
+}:add_unlock("aluminium-mk03"):add_ingredient({type = "item", name = "graphite", amount =3})
+
+RECIPE {
+    type = "recipe",
+    name = "molten-aluminium-04",
+    category = "eaf",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "reduced-aluminium", amount = 1},
+        {type = "item", name = "borax", amount = 3},
+        {type = "fluid", name = "heavy-oil", amount = 100}, 
+    },
+    results = {
+        {type = "fluid", name = "molten-aluminium", amount = 50},
+    },
+    main_product = "molten-aluminium",
+    subgroup = "py-rawores-molten",
+    order = "z"
+}:add_unlock("aluminium-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
+
+RECIPE {
+    type = "recipe",
+    name = "molten-aluminium-05",
+    category = "eaf",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "sintered-aluminium", amount = 1},
+        {type = "item", name = "borax", amount = 3},
+        {type = "fluid", name = "heavy-oil", amount = 100}, 
+    },
+    results = {
+        {type = "fluid", name = "molten-aluminium", amount = 100},
+    },
+    main_product = "molten-aluminium",
+    subgroup = "py-rawores-molten",
+    order = "z"
+}:add_unlock("aluminium-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
+
+
 
 
 ----PLATES----
 
-
-
-RECIPE {
-    type = "recipe",
-    name = "aluminium-plate-2",
-    category = "casting",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "item", name = "powdered-aluminium", amount = 1},
-        {type = "item", name = "borax", amount = 2},
-        {type = "fluid", name = "tar", amount = 25},
-        {type = "item", name = "sand-casting", amount = 1},
-    },
-    results = {
-        {type = "item", name = "aluminium-plate", amount = 2}
-    },
-    main_product= "aluminium-plate",
-    subgroup = "py-rawores-plates",
-    order = "b"
-}:add_unlock("aluminium-mk01")
 
 RECIPE {
     type = "recipe",
@@ -227,7 +280,7 @@ RECIPE {
     main_product= "aluminium-plate",
     subgroup = "py-rawores-plates",
     order = "c"
-}:add_unlock("aluminium-mk02")
+}:add_unlock("aluminium-mk01")
 
 
 

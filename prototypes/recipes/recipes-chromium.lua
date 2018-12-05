@@ -152,7 +152,7 @@ RECIPE {
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("chromium-mk01")
+}:add_unlock("chromium-mk03")
 
 RECIPE {
     type = "recipe",
@@ -218,6 +218,23 @@ RECIPE {
     },
     results = {
         {type = "item", name = "chromite-sand", amount = 5},
+    },
+    main_product = "chromite-sand",
+    subgroup = "py-rawores-chromium",
+    order = "q-2"
+}:add_unlock("chromium-mk02")
+
+RECIPE {
+    type = "recipe",
+    name = "tier-0-chromite-sand",
+    category = "solid-separator",
+    enabled = false,
+    energy_required = 4.5,
+    ingredients = {
+        {type = "item", name = "grade-1-chromite", amount = 1},
+    },
+    results = {
+        {type = "item", name = "chromite-sand", amount = 2},
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
@@ -300,12 +317,12 @@ RECIPE {
         {type = "fluid", name = "carbon-dioxide", amount = 150},
     },
     results = {
-        {type = "fluid", name = "molten-chromium", amount = 50},
+        {type = "fluid", name = "molten-chromium", amount = 100},
     },
     main_product = "molten-chromium",
     subgroup = "py-rawores-molten",
     order = "c"
-}:add_unlock("chromium-mk03")
+}:add_unlock("chromium-mk04")
 
 RECIPE {
     type = "recipe",
@@ -319,12 +336,12 @@ RECIPE {
         {type = "fluid", name = "carbon-dioxide", amount = 150},
     },
     results = {
-        {type = "fluid", name = "molten-chromium", amount = 100},
+        {type = "fluid", name = "molten-chromium", amount = 50},
     },
     main_product = "molten-chromium",
     subgroup = "py-rawores-molten",
     order = "c"
-}:add_unlock("chromium-mk04")
+}:add_unlock("chromium-mk03")
 
 
 --SINTER and DRP IMPROVEMENTS
@@ -336,7 +353,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "chromite-sand", amount = 15},
+        {type = "item", name = "reduced-chromium", amount = 1},
         {type = "item", name = "lime", amount = 3},
         {type = "fluid", name = "syngas", amount = 100},
         --pyfe pressured air
@@ -347,7 +364,7 @@ RECIPE {
     main_product = "sintered-chromium",
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("chromium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",
@@ -356,7 +373,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "sintered-chromium", amount = 1},
+        {type = "item", name = "chromite-sand", amount = 25},
         {type = "item", name = "sodium-hydroxide", amount = 2},
         {type = "fluid", name = "light-oil", amount = 100},
         --pyfe pressured air
@@ -367,7 +384,7 @@ RECIPE {
     main_product = "reduced-chromium",
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("chromium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 
 --INITIAL PLATE

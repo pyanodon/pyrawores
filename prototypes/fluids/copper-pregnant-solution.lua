@@ -16,7 +16,7 @@ RECIPE {
     main_product = "copper-pregnant-solution",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("chromium-mk03")
+}:add_unlock("copper-mk03")
 
 
 FLUID {

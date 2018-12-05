@@ -60,7 +60,7 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "grade-2-crush",
+    name = "grade-2-crush-lead",
     category = "crusher", --pyfe secondary-crusher
     enabled = false,
     energy_required = 1,
@@ -343,7 +343,7 @@ RECIPE {
         {type = "item", name = "lead-plate", amount = 1}
     },
     --main_product= "glass",
-    subgroup = "py-rawores-lead",
+    subgroup = "py-rawores-plates",
     order = "j"
 }
 
@@ -362,6 +362,6 @@ RECIPE {
         {type = "item", name = "lead-plate", amount = 2}
     },
     --main_product= "glass",
-    subgroup = "py-rawores-lead",
+    subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("lead-mk01")

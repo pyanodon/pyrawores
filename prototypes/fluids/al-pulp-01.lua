@@ -18,7 +18,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-aluminium",
     order = "c"
-}:add_unlock("aluminium-mk01")
+}:add_unlock("aluminium-mk02")
 
 
 FLUID {
