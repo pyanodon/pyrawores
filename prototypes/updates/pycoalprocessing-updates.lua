@@ -1,6 +1,9 @@
 RECIPE('making-chromium'):remove_unlock('coal-processing-2')
 RECIPE('crushing-iron'):remove_unlock('crusher')
 RECIPE('crushing-copper'):remove_unlock('crusher')
+RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01')
+TECHNOLOGY('engine'):remove_pack('science-pack-2')
+TECHNOLOGY('crusher'):remove_pack('science-pack-2'):remove_prereq('coal-processing-2')
 
 RECIPE("boric-acid"):change_category('electrolyzer')
 RECIPE("copper-coating"):change_category('electrolyzer')
@@ -52,11 +55,13 @@ RECIPE("soil-extractormk01"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("wpu"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("fawogae-plantation"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("fawogae-plantation"):replace_ingredient("copper-cable", "tinned-cable")
+RECIPE("advanced-foundry-mk01"):replace_ingredient("steel-furnace", "stone-furnace")
 
 
 RECIPE("gasturbinemk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "duralumin")
 RECIPE("methanol-reactor"):replace_ingredient("chemical-plant", "electrolyzer-mk01")
 RECIPE("power-house"):replace_ingredient("iron-plate", "lead-plate")
+RECIPE("jaw-crusher"):remove_ingredient("car"):add_ingredient({type = "item", name = "duralumin", amount = 15})
 RECIPE("evaporator"):replace_ingredient("iron-plate", "tin-plate")
 RECIPE("cooling-tower-mk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "stainless-steel")
 RECIPE("desulfurizator-unit"):replace_ingredient("iron-plate", "titanium-plate")
@@ -67,7 +72,7 @@ RECIPE("fts-reactor"):replace_ingredient("stone-brick", "glass")
 RECIPE("advanced-foundry-mk02"):replace_ingredient("iron-plate", "titanium-plate"):add_ingredient({type = "item", name = "glass", amount = 15})
 RECIPE("ralesia-plantation"):replace_ingredient("stone", "glass")
 RECIPE("botanical-nursery"):add_ingredient({name = "glass", amount = 10})
-RECIPE("equipment-chassi"):replace_ingredient("iron-plate", "duralumin"):add_ingredient({name = "tin-plate", amount = 4})
+RECIPE("equipment-chassi"):replace_ingredient("iron-plate", "duralumin")
 
 
 RECIPE('distilator-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 20}):add_ingredient({type = "item", name = "stainless-steel", amount = 30})

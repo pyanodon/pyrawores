@@ -14,7 +14,7 @@ RECIPE {
     main_product = "nitrogen",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("machines-mk01")
+}:add_unlock("filtration")
 
 
 FLUID {
