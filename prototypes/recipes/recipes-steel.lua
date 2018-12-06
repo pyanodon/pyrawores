@@ -73,7 +73,7 @@ RECIPE {
     main_product = "steel-plate",
     subgroup = "py-rawores-plates",
     order = "q-2"
-}:add_unlock("iron-mk03")
+}:add_unlock("iron-mk02")
 
 --STAINLESS STEEL
 
