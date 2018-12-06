@@ -26,6 +26,8 @@ RECIPE("tailings-classification"):replace_ingredient("copper-ore", "lead-ore") -
 RECIPE("tailings-classification"):replace_ingredient("iron-ore", "tin-ore") --result
 RECIPE("niobium-plate"):replace_ingredient("coal", "salt"):change_category('electrolyzer')
 RECIPE("sulfur-crudeoil"):replace_ingredient("iron-ore", "salt")
+RECIPE("sulfur-heavyoil"):add_ingredient({type = 'item', name = 'salt', amount = 10})
+RECIPE("sulfur-lightoil"):add_ingredient({type = 'item', name = 'salt', amount = 10})
 RECIPE("glass-core"):replace_ingredient("sand", "glass")
 RECIPE("glass-core"):replace_ingredient("steel-plate", "silver-plate")
 RECIPE("nichrome"):replace_ingredient("water", "nitrogen")

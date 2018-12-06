@@ -45,7 +45,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "grade-2-copper", amount = 1}
+        {type = "item", name = "grade-2-copper", amount = 2}
     },
     results = {
         {type = "item", name = "grade-3-copper", amount = 1},
@@ -83,7 +83,7 @@ RECIPE {
     enabled = false,
     energy_required = 4.5,
     ingredients = {
-        {type = "item", name = "grade-3-copper", amount = 1}
+        {type = "item", name = "grade-3-copper", amount = 2}
     },
     results = {
         {type = "item", name = "grade-4-copper", amount = 1},
