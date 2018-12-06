@@ -353,7 +353,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("battery")
+}:add_unlock("battery"):add_ingredient({type = 'item', name = 'rayon', amount = 2})
 
 RECIPE {
     type = "recipe",
@@ -372,7 +372,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("battery")
+}:add_unlock("battery"):add_ingredient({type = 'item', name = 'rayon', amount = 2})
 
 RECIPE {
     type = "recipe",
@@ -420,7 +420,8 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "ppd", amount = 5},
-        {type = "item", name = "concentrated-ti", amount = 1},
+        {type = "item", name = "titanium-plate", amount = 5},
+        {type = "item", name = "sodium-hydroxide", amount = 10},
         {type = "item", name = "aluminium-plate", amount = 3},
         {type = "fluid", name = "sulfuric-acid", amount = 100},
     },

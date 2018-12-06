@@ -8,7 +8,7 @@ RECIPE {
         {type = "item", name = "ore-quartz", amount = 5}
     },
     results = {
-        {type = "item", name = "crushed-quartz", amount = 5},
+        {type = "item", name = "crushed-quartz", amount = 1},
         {type = "item", name = "stone", amount = 1, probability = 0.5}
     },
     main_product = "crushed-quartz",
@@ -129,7 +129,7 @@ RECIPE {
     name = "glass-2",
     category = "hpf",
     enabled = false,
-    energy_required = 1,
+    energy_required = 4,
     ingredients = {
         {type = "item", name = "crushed-quartz", amount = 1},
         {type = "fluid", name = "coal-gas", amount = 100},
@@ -149,9 +149,9 @@ RECIPE {
     name = "glass-3",
     category = "hpf",
     enabled = false,
-    energy_required = 1,
+    energy_required = 2,
     ingredients = {
-        {type = "item", name = "powdered-quartz", amount = 1},
+        {type = "item", name = "powdered-quartz", amount = 2},
         {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "sand", amount = 10},
     },
