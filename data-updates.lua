@@ -6,11 +6,14 @@ end
 
 if mods["pyhightech"] then
     require("prototypes/updates/pyhightech-updates")
+    require("prototypes.ores.phosphate-rock-02")
+    require("prototypes/buildings/phosphate-mine-02")
 end
 
 if mods["pycoalprocessing"] then
     require("prototypes/updates/pycoalprocessing-updates")
 end
+
 
 --ADAPTATIONS
 

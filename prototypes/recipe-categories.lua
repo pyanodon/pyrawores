@@ -9,6 +9,10 @@ data:extend {
     },
     {
         type = "resource-category",
+        name = "phosphate-rock-02"
+    },
+    {
+        type = "resource-category",
         name = "iron-rock"
     },
     {
