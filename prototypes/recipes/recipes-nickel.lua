@@ -31,14 +31,14 @@ RECIPE {
         {type = "item", name = "grade-3-nickel", amount = 1, probability = 0.5},
         {type = "item", name = "grade-2-nickel", amount = 1},
         {type = "item", name = "nickel-rejects", amount = 1},
-        {type = "item", name = "gravel", amount = 1},
+        {type = "item", name = "gravel", amount = 1}
     },
     main_product = "grade-3-nickel",
     icon = "__pyrawores__/graphics/icons/grade-1-nickel-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-nickel",
     order = "q-2"
-}:add_unlock("nickel-mk01"):change_category('screener')
+}:add_unlock("nickel-mk01"):change_category("screener")
 
 RECIPE {
     type = "recipe",
@@ -50,19 +50,19 @@ RECIPE {
         {type = "item", name = "nickel-rejects", amount = 3}
     },
     results = {
-        {type = "item", name = "grade-1-nickel", amount = 1, probability = 0.5},
+        {type = "item", name = "grade-1-nickel", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-nickel",
     icon = "__pyrawores__/graphics/icons/recrush-nickel-rejects.png",
     icon_size = 32,
     subgroup = "py-rawores-nickel",
     order = "q-2"
-}:add_unlock("nickel-mk01"):change_category('secondary-crusher')
+}:add_unlock("nickel-mk01"):change_category("secondary-crusher")
 
 RECIPE {
     type = "recipe",
     name = "grade-2-nickel-recrush",
-    category = "impact-crusher", 
+    category = "impact-crusher",
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -80,7 +80,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-4-nickel",
-    category = "ball-mill", 
+    category = "ball-mill",
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -102,16 +102,15 @@ RECIPE {
     energy_required = 3.0,
     ingredients = {
         {type = "fluid", name = "nickel-prepared-solution", amount = 100},
-        {type = "item", name = "biofilm", amount = 1},
+        {type = "item", name = "biofilm", amount = 1}
     },
     results = {
-        {type = "item", name = "high-grade-nickel", amount = 1},
+        {type = "item", name = "high-grade-nickel", amount = 1}
     },
     main_product = "high-grade-nickel",
     subgroup = "py-rawores-nickel",
     order = "q-2"
 }:add_unlock("nickel-mk04")
-
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -124,11 +123,11 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-nickel", amount = 1},
         {type = "item", name = "sodium-sulfate", amount = 2},
-        {type = "fluid", name = "diesel", amount = 50},
+        {type = "fluid", name = "diesel", amount = 50}
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "reduced-nickel", amount = 1},
+        {type = "item", name = "reduced-nickel", amount = 1}
     },
     main_product = "reduced-nickel",
     subgroup = "py-rawores-nickel",
@@ -144,11 +143,11 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-nickel", amount = 1},
         {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100},
+        {type = "fluid", name = "syngas", amount = 100}
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "sintered-nickel", amount = 1},
+        {type = "item", name = "sintered-nickel", amount = 1}
     },
     main_product = "sintered-nickel",
     subgroup = "py-rawores-nickel",
@@ -164,11 +163,11 @@ RECIPE {
     ingredients = {
         {type = "item", name = "reduced-nickel", amount = 1},
         {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100},
+        {type = "fluid", name = "syngas", amount = 100}
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "sintered-nickel", amount = 2},
+        {type = "item", name = "sintered-nickel", amount = 2}
     },
     main_product = "sintered-nickel",
     subgroup = "py-rawores-nickel",
@@ -186,11 +185,11 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "nickel-pulp-02", amount = 100},
         {type = "fluid", name = "boric-acid", amount = 300},
-        {type = "item", name = "aluminium-plate", amount = 2},
+        {type = "item", name = "aluminium-plate", amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-nickel", amount = 15},
-        {type = "item", name = "pyrite", amount = 1},
+        {type = "item", name = "pyrite", amount = 1}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -205,10 +204,10 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "grade-4-nickel", amount = 2},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 3}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 10},
+        {type = "fluid", name = "molten-nickel", amount = 10}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -224,10 +223,10 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "nickel-pulp-01", amount = 100},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 20},
+        {type = "fluid", name = "molten-nickel", amount = 20}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -243,10 +242,10 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "nickel-pulp-04", amount = 100},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 25},
+        {type = "fluid", name = "molten-nickel", amount = 25}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -262,10 +261,10 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-nickel", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 30},
+        {type = "fluid", name = "molten-nickel", amount = 30}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -281,10 +280,10 @@ RECIPE {
     ingredients = {
         {type = "item", name = "reduced-nickel", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 50},
+        {type = "fluid", name = "molten-nickel", amount = 50}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -300,19 +299,17 @@ RECIPE {
     ingredients = {
         {type = "item", name = "sintered-nickel", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 100},
+        {type = "fluid", name = "molten-nickel", amount = 100}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
     order = "n"
 }:add_unlock("nickel-mk04")
 
-
 --CASTINGS
-
 
 RECIPE {
     type = "recipe",
@@ -322,19 +319,17 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-nickel", amount = 100},
-        {type = "item", name = "sand-casting", amount = 1},
+        {type = "item", name = "sand-casting", amount = 1}
     },
     results = {
         {type = "item", name = "nickel-plate", amount = 20}
     },
-    main_product= "nickel-plate",
+    main_product = "nickel-plate",
     subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("nickel-mk02")
 
-
 --INITIAL PLATE
-
 
 RECIPE {
     type = "recipe",

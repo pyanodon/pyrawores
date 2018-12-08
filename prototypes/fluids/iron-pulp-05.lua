@@ -1,15 +1,15 @@
 RECIPE {
     type = "recipe",
     name = "iron-pulp-05",
-    category = "flotation", 
+    category = "flotation",
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "iron-pulp-04", amount = 100},
-        {type = "fluid", name = "water", amount = 300},
+        {type = "fluid", name = "water", amount = 300}
     },
     results = {
-        {type = "fluid", name = "iron-pulp-05", amount = 100},
+        {type = "fluid", name = "iron-pulp-05", amount = 100}
         --pyht phosphoric-acid
     },
     main_product = "iron-pulp-05",
@@ -17,12 +17,11 @@ RECIPE {
     order = "q-2"
 }:add_unlock("iron-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
-
 FLUID {
     type = "fluid",
     name = "iron-pulp-05",
     icon = "__pyrawores__/graphics/icons/iron-pulp-05.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.086, g = 0.180, b = 0.254},
     flow_color = {r = 0.086, g = 0.180, b = 0.254},

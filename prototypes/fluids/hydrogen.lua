@@ -1,15 +1,15 @@
 RECIPE {
     type = "recipe",
     name = "hydrogen",
-    category = "electrolyzer", 
+    category = "electrolyzer",
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "water", amount = 200},
+        {type = "fluid", name = "water", amount = 200}
     },
     results = {
         {type = "fluid", name = "hydrogen", amount = 80},
-        {type = "fluid", name = "oxygen", amount = 40},
+        {type = "fluid", name = "oxygen", amount = 40}
     },
     --main_product = "hydrogen",
     icon = "__pyrawores__/graphics/icons/water-electrolysis.png",
@@ -18,12 +18,11 @@ RECIPE {
     order = "q-2"
 }:add_unlock("machines-mk01")
 
-
 FLUID {
     type = "fluid",
     name = "hydrogen",
     icon = "__pyrawores__/graphics/icons/hydrogen.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 15, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 1, g = 1, b = 1},
     flow_color = {r = 1, g = 1, b = 1},

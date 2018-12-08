@@ -7,23 +7,21 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "sulfuric-acid", amount = 100},
         {type = "fluid", name = "hydrogen-peroxide", amount = 50},
-        {type = "item", name = "iron-oxide", amount = 3},
-        
+        {type = "item", name = "iron-oxide", amount = 3}
     },
     results = {
-        {type = "fluid", name = "acid-solvent", amount = 100},
+        {type = "fluid", name = "acid-solvent", amount = 100}
     },
     main_product = "acid-solvent",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("copper-mk02"):change_category('mixer')
-
+}:add_unlock("copper-mk02"):change_category("mixer")
 
 FLUID {
     type = "fluid",
     name = "acid-solvent",
     icon = "__pyrawores__/graphics/icons/acid-solvent.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.192, g = 0.929, b = 0.772},
     flow_color = {r = 0.192, g = 0.929, b = 0.772},

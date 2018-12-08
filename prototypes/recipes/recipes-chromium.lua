@@ -29,7 +29,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-3-chromite", amount = 1},
-        {type = "item", name = "grade-2-chromite", amount = 1, probability = 0.4},
+        {type = "item", name = "grade-2-chromite", amount = 1, probability = 0.4}
     },
     main_product = "grade-3-chromite",
     icon = "__pyrawores__/graphics/icons/grade-3-chromite.png",
@@ -49,28 +49,29 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-chromite", amount = 1, probability = 0.5},
-        {type = "item", name = "gravel", amount = 1, probability = 0.5},
+        {type = "item", name = "gravel", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-chromite",
     icon = "__pyrawores__/graphics/icons/chromite-2-grade-screener.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("chromium-mk01"):change_category('screener')
+}:add_unlock("chromium-mk01"):change_category("screener")
 
 RECIPE {
     type = "recipe",
     name = "grade-4-chromite",
-    category = "chemistry",--pyFE hydrocyclone
+    category = "chemistry",
+     --pyFE hydrocyclone
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item", name = "grade-3-chromite", amount = 1},
-        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "water", amount = 100}
     },
     results = {
         {type = "item", name = "grade-4-chromite", amount = 1},
-        {type = "item", name = "chromite-rejects", amount = 1},
+        {type = "item", name = "chromite-rejects", amount = 1}
     },
     main_product = "grade-4-chromite",
     subgroup = "py-rawores-chromium",
@@ -84,10 +85,10 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "chromite-rejects", amount = 3},
+        {type = "item", name = "chromite-rejects", amount = 3}
     },
     results = {
-        {type = "item", name = "grade-3-chromite", amount = 1, probability = 0.6},
+        {type = "item", name = "grade-3-chromite", amount = 1, probability = 0.6}
     },
     main_product = "grade-3-chromite",
     subgroup = "py-rawores-chromium",
@@ -102,12 +103,12 @@ RECIPE {
     energy_required = 2,
     ingredients = {
         {type = "fluid", name = "chromite-pulp-01", amount = 50},
-        {type = "fluid", name = "aerofloat-15", amount = 50}, 
+        {type = "fluid", name = "aerofloat-15", amount = 50}
         --pyfe pressured air
     },
     results = {
         {type = "item", name = "high-chromite", amount = 1},
-        {type = "fluid", name = "chromite-solution", amount = 50},
+        {type = "fluid", name = "chromite-solution", amount = 50}
     },
     main_product = "high-chromite",
     subgroup = "py-rawores-chromium",
@@ -121,21 +122,20 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "item", name = "processed-chromite", amount = 1},
+        {type = "item", name = "processed-chromite", amount = 1}
     },
     results = {
         {type = "item", name = "high-chromite", amount = 1, probability = 0.4},
-        {type = "item", name = "sand", amount = 1, probability = 0.4},
+        {type = "item", name = "sand", amount = 1, probability = 0.4}
     },
     main_product = "high-chromite",
     icon = "__pyrawores__/graphics/icons/recrush-high-chromite.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("chromium-mk03"):change_category('secondary-crusher')
+}:add_unlock("chromium-mk03"):change_category("secondary-crusher")
 
 --CHROMITE SAND YIELDS
-
 
 RECIPE {
     type = "recipe",
@@ -144,10 +144,10 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "chromite-solution", amount = 200},
+        {type = "fluid", name = "chromite-solution", amount = 200}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 15},
+        {type = "item", name = "chromite-sand", amount = 15}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
@@ -163,10 +163,10 @@ RECIPE {
     ingredients = {
         {type = "item", name = "sand", amount = 50},
         {type = "fluid", name = "chromite-pulp-07", amount = 100},
-        {type = "fluid", name = "water", amount = 200},
+        {type = "fluid", name = "water", amount = 200}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 25},
+        {type = "item", name = "chromite-sand", amount = 25}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
@@ -180,10 +180,10 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "high-chromite", amount = 1},
+        {type = "item", name = "high-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 13},
+        {type = "item", name = "chromite-sand", amount = 13}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
@@ -197,10 +197,10 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "grade-4-chromite", amount = 1},
+        {type = "item", name = "grade-4-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 7},
+        {type = "item", name = "chromite-sand", amount = 7}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
@@ -214,10 +214,10 @@ RECIPE {
     enabled = false,
     energy_required = 4.5,
     ingredients = {
-        {type = "item", name = "grade-3-chromite", amount = 1},
+        {type = "item", name = "grade-3-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 5},
+        {type = "item", name = "chromite-sand", amount = 5}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
@@ -231,19 +231,17 @@ RECIPE {
     enabled = false,
     energy_required = 4.5,
     ingredients = {
-        {type = "item", name = "grade-1-chromite", amount = 1},
+        {type = "item", name = "grade-1-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 2},
+        {type = "item", name = "chromite-sand", amount = 2}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk01")
 
-
 --CHROMIUM SMELTING YIELDS
-
 
 RECIPE {
     type = "recipe",
@@ -255,10 +253,10 @@ RECIPE {
         {type = "item", name = "chromite-sand", amount = 15},
         {type = "item", name = "limestone", amount = 3},
         {type = "fluid", name = "carbon-dioxide", amount = 150},
-        {type = "item", name = "sand-casting", amount = 1},
+        {type = "item", name = "sand-casting", amount = 1}
     },
     results = {
-        {type = "item", name = "chromium", amount = 5},
+        {type = "item", name = "chromium", amount = 5}
     },
     main_product = "chromium",
     subgroup = "py-rawores-plates",
@@ -273,16 +271,15 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-chromium", amount = 100},
-        {type = "item", name = "sand-casting", amount = 1},
+        {type = "item", name = "sand-casting", amount = 1}
     },
     results = {
-        {type = "item", name = "chromium", amount = 25},
+        {type = "item", name = "chromium", amount = 25}
     },
     main_product = "chromium",
     subgroup = "py-rawores-plates",
     order = "q-2"
 }:add_unlock("chromium-mk02")
-
 
 --MOLTEN VERSION
 
@@ -295,10 +292,10 @@ RECIPE {
     ingredients = {
         {type = "item", name = "chromite-sand", amount = 15},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "carbon-dioxide", amount = 150},
+        {type = "fluid", name = "carbon-dioxide", amount = 150}
     },
     results = {
-        {type = "fluid", name = "molten-chromium", amount = 25},
+        {type = "fluid", name = "molten-chromium", amount = 25}
     },
     main_product = "molten-chromium",
     subgroup = "py-rawores-molten",
@@ -314,10 +311,10 @@ RECIPE {
     ingredients = {
         {type = "item", name = "sintered-chromium", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "carbon-dioxide", amount = 150},
+        {type = "fluid", name = "carbon-dioxide", amount = 150}
     },
     results = {
-        {type = "fluid", name = "molten-chromium", amount = 100},
+        {type = "fluid", name = "molten-chromium", amount = 100}
     },
     main_product = "molten-chromium",
     subgroup = "py-rawores-molten",
@@ -333,16 +330,15 @@ RECIPE {
     ingredients = {
         {type = "item", name = "reduced-chromium", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "carbon-dioxide", amount = 150},
+        {type = "fluid", name = "carbon-dioxide", amount = 150}
     },
     results = {
-        {type = "fluid", name = "molten-chromium", amount = 50},
+        {type = "fluid", name = "molten-chromium", amount = 50}
     },
     main_product = "molten-chromium",
     subgroup = "py-rawores-molten",
     order = "c"
 }:add_unlock("chromium-mk03")
-
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -355,11 +351,11 @@ RECIPE {
     ingredients = {
         {type = "item", name = "reduced-chromium", amount = 1},
         {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100},
+        {type = "fluid", name = "syngas", amount = 100}
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "sintered-chromium", amount = 1},
+        {type = "item", name = "sintered-chromium", amount = 1}
     },
     main_product = "sintered-chromium",
     subgroup = "py-rawores-chromium",
@@ -375,17 +371,16 @@ RECIPE {
     ingredients = {
         {type = "item", name = "chromite-sand", amount = 25},
         {type = "item", name = "sodium-hydroxide", amount = 2},
-        {type = "fluid", name = "light-oil", amount = 100},
+        {type = "fluid", name = "light-oil", amount = 100}
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "reduced-chromium", amount = 1},
+        {type = "item", name = "reduced-chromium", amount = 1}
     },
     main_product = "reduced-chromium",
     subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
-
 
 --INITIAL PLATE
 

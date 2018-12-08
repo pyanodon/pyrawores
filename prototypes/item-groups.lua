@@ -37,124 +37,118 @@ data:extend {
         group = "py-rawores",
         order = "a-e"
     },
------------------------------PLATES----------------
+    -----------------------------PLATES----------------
     {
         type = "item-subgroup",
         name = "py-rawores-plates",
         group = "py-rawores",
         order = "a-f"
     },
------------------------------SPECIFIC METALS----------------
+    -----------------------------SPECIFIC METALS----------------
     {
         type = "item-subgroup",
-        name = "py-rawores-aluminium", 
+        name = "py-rawores-aluminium",
         group = "py-rawores",
         order = "ba"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-chromium", 
+        name = "py-rawores-chromium",
         group = "py-rawores",
         order = "bb"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-coal", 
+        name = "py-rawores-coal",
         group = "py-rawores",
         order = "bc"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-coke", 
+        name = "py-rawores-coke",
         group = "py-rawores",
         order = "bd"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-copper", 
+        name = "py-rawores-copper",
         group = "py-rawores",
         order = "be"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-iron", 
+        name = "py-rawores-iron",
         group = "py-rawores",
         order = "bf"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-lead", 
+        name = "py-rawores-lead",
         group = "py-rawores",
         order = "bg"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-nexelit", 
+        name = "py-rawores-nexelit",
         group = "py-rawores",
         order = "bh"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-nickel", 
+        name = "py-rawores-nickel",
         group = "py-rawores",
         order = "bi"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-quartz", 
+        name = "py-rawores-quartz",
         group = "py-rawores",
         order = "bj"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-tin", 
+        name = "py-rawores-tin",
         group = "py-rawores",
         order = "bk"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-titanium", 
+        name = "py-rawores-titanium",
         group = "py-rawores",
         order = "bl"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-uranium", 
+        name = "py-rawores-uranium",
         group = "py-rawores",
         order = "bm"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-zinc", 
+        name = "py-rawores-zinc",
         group = "py-rawores",
         order = "bn"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-etc", 
+        name = "py-rawores-etc",
         group = "py-rawores",
         order = "bo"
     },
-
-
-
------------------------------MOLTEN VERSIONS----------------
+    -----------------------------MOLTEN VERSIONS----------------
     {
         type = "item-subgroup",
         name = "py-rawores-molten",
         group = "py-rawores",
         order = "f"
     },
-
-
------------------------------MEGA MINES----------------
-{
-    type = "item-subgroup",
-    name = "py-rawores-mines",
-    group = "py-rawores",
-    order = "z"
-},
-
+    -----------------------------MEGA MINES----------------
+    {
+        type = "item-subgroup",
+        name = "py-rawores-mines",
+        group = "py-rawores",
+        order = "z"
+    },
     {
         type = "item-subgroup",
         name = "py-rawores-items",
