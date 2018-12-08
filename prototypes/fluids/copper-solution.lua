@@ -7,23 +7,21 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "water", amount = 400},
         {type = "item", name = "grade-4-copper", amount = 3},
-        {type = "item", name = "salt", amount = 10},
-        
+        {type = "item", name = "salt", amount = 10}
     },
     results = {
-        {type = "fluid", name = "copper-solution", amount = 100},
+        {type = "fluid", name = "copper-solution", amount = 100}
     },
     main_product = "copper-solution",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("copper-mk02"):change_category('mixer')
-
+}:add_unlock("copper-mk02"):change_category("mixer")
 
 FLUID {
     type = "fluid",
     name = "copper-solution",
     icon = "__pyrawores__/graphics/icons/copper-solution.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.952, g = 0.556, b = 0.0},
     flow_color = {r = 0.952, g = 0.556, b = 0.0},

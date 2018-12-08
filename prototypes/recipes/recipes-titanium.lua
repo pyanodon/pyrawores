@@ -1,7 +1,8 @@
 RECIPE {
     type = "recipe",
     name = "grade-1-ti",
-    category = "solid-separator",--pyFE screener
+    category = "solid-separator",
+     --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -9,14 +10,14 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-ti", amount = 1},
-        {type = "item", name = "grade-2-ti", amount = 1, probability = 0.5},
+        {type = "item", name = "grade-2-ti", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-ti",
     icon = "__pyrawores__/graphics/icons/ore-titanium-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk01"):change_category('screener')
+}:add_unlock("titanium-mk01"):change_category("screener")
 
 RECIPE {
     type = "recipe",
@@ -29,7 +30,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "stone", amount = 1},
-        {type = "item", name = "grade-1-ti", amount = 1, probability = 0.5},
+        {type = "item", name = "grade-1-ti", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-ti",
     subgroup = "py-rawores-titanium",
@@ -39,7 +40,8 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-ti",
-    category = "solid-separator",--pyFE screener
+    category = "solid-separator",
+     --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -47,19 +49,20 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-3-ti", amount = 1},
-        {type = "item", name = "ti-rejects", amount = 1, probability = 0.5},
+        {type = "item", name = "ti-rejects", amount = 1, probability = 0.5}
     },
     main_product = "grade-3-ti",
     icon = "__pyrawores__/graphics/icons/grade-1-ti-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk01"):change_category('screener')
+}:add_unlock("titanium-mk01"):change_category("screener")
 
 RECIPE {
     type = "recipe",
     name = "ti-rejects-recrush",
-    category = "crusher",--pyFE secondary-crusher
+    category = "crusher",
+     --pyFE secondary-crusher
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -67,14 +70,14 @@ RECIPE {
     },
     results = {
         {type = "item", name = "gravel", amount = 1},
-        {type = "item", name = "grade-3-ti", amount = 1, probability = 0.3},
+        {type = "item", name = "grade-3-ti", amount = 1, probability = 0.3}
     },
     main_product = "grade-3-ti",
     icon = "__pyrawores__/graphics/icons/recrush-ti-rejects.png",
     icon_size = 32,
     subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk01"):change_category('secondary-crusher')
+}:add_unlock("titanium-mk01"):change_category("secondary-crusher")
 
 RECIPE {
     type = "recipe",
@@ -86,7 +89,7 @@ RECIPE {
         {type = "item", name = "grade-3-ti", amount = 2}
     },
     results = {
-        {type = "item", name = "grade-4-ti", amount = 1},
+        {type = "item", name = "grade-4-ti", amount = 1}
     },
     subgroup = "py-rawores-titanium",
     order = "q-2"
@@ -101,21 +104,22 @@ RECIPE {
     ingredients = {
         {type = "item", name = "grade-4-ti", amount = 1},
         {type = "fluid", name = "water", amount = 100},
-        {type = "fluid", name = "mibc", amount = 100},
+        {type = "fluid", name = "mibc", amount = 100}
     },
     results = {
         {type = "item", name = "powdered-ti", amount = 1},
-        {type = "fluid", name = "ti-pulp-03", amount = 20},
+        {type = "fluid", name = "ti-pulp-03", amount = 20}
     },
     main_product = "powdered-ti",
     subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk02"):change_category('jig')
+}:add_unlock("titanium-mk02"):change_category("jig")
 
 RECIPE {
     type = "recipe",
     name = "ti-enriched-dust",
-    category = "solid-separator",--pyFE screener
+    category = "solid-separator",
+     --pyFE screener
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -123,14 +127,14 @@ RECIPE {
     },
     results = {
         {type = "item", name = "ti-enriched-dust", amount = 1},
-        {type = "item", name = "ti-rejects", amount = 1, probability = 0.5},
+        {type = "item", name = "ti-rejects", amount = 1, probability = 0.5}
     },
     main_product = "ti-enriched-dust",
     icon = "__pyrawores__/graphics/icons/powdered-ti-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk02"):change_category('screener')
+}:add_unlock("titanium-mk02"):change_category("screener")
 
 RECIPE {
     type = "recipe",
@@ -142,7 +146,7 @@ RECIPE {
         {type = "fluid", name = "purified-ti-pulp", amount = 100}
     },
     results = {
-        {type = "item", name = "high-grade-ti-powder", amount = 1},
+        {type = "item", name = "high-grade-ti-powder", amount = 1}
     },
     main_product = "high-grade-ti-powder",
     subgroup = "py-rawores-titanium",
@@ -161,7 +165,7 @@ RECIPE {
     results = {
         {type = "item", name = "concentrated-ti", amount = 1},
         {type = "item", name = "nexelit-ore", amount = 1, probability = 0.5},
-        {type = "item", name = "iron-oxide", amount = 1, probability = 0.5},
+        {type = "item", name = "iron-oxide", amount = 1, probability = 0.5}
     },
     main_product = "concentrated-ti",
     subgroup = "py-rawores-titanium",
@@ -180,12 +184,12 @@ RECIPE {
         --pyht graphite
     },
     results = {
-        {type = "item", name = "high-grade-ti", amount = 1},
+        {type = "item", name = "high-grade-ti", amount = 1}
     },
     main_product = "high-grade-ti",
     subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk03"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("titanium-mk03"):add_ingredient({type = "item", name = "graphite", amount = 3})
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -198,11 +202,11 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-ti", amount = 1},
         {type = "item", name = "sodium-sulfate", amount = 2},
-        {type = "fluid", name = "diesel", amount = 50},
+        {type = "fluid", name = "diesel", amount = 50}
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "reduced-ti", amount = 1},
+        {type = "item", name = "reduced-ti", amount = 1}
     },
     main_product = "reduced-ti",
     subgroup = "py-rawores-titanium",
@@ -218,11 +222,11 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-ti", amount = 1},
         {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100},
+        {type = "fluid", name = "syngas", amount = 100}
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "sintered-ti", amount = 1},
+        {type = "item", name = "sintered-ti", amount = 1}
     },
     main_product = "sintered-ti",
     subgroup = "py-rawores-titanium",
@@ -238,11 +242,11 @@ RECIPE {
     ingredients = {
         {type = "item", name = "reduced-ti", amount = 1},
         {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100},
+        {type = "fluid", name = "syngas", amount = 100}
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "sintered-ti", amount = 2},
+        {type = "item", name = "sintered-ti", amount = 2}
     },
     main_product = "sintered-ti",
     subgroup = "py-rawores-titanium",
@@ -260,11 +264,11 @@ RECIPE {
     ingredients = {
         {type = "item", name = "ti-enriched-dust", amount = 2},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3}, 
-        {type = "fluid", name = "heavy-oil", amount = 100}, 
+        {type = "item", name = "sand-casting", amount = 3},
+        {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 10},
+        {type = "fluid", name = "molten-titanium", amount = 10}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -280,11 +284,11 @@ RECIPE {
     ingredients = {
         {type = "item", name = "concentrated-ti", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3}, 
-        {type = "fluid", name = "heavy-oil", amount = 100}, 
+        {type = "item", name = "sand-casting", amount = 3},
+        {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 20},
+        {type = "fluid", name = "molten-titanium", amount = 20}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -300,11 +304,11 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-ti", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3}, 
-        {type = "fluid", name = "heavy-oil", amount = 100}, 
+        {type = "item", name = "sand-casting", amount = 3},
+        {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 30},
+        {type = "fluid", name = "molten-titanium", amount = 30}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -320,11 +324,11 @@ RECIPE {
     ingredients = {
         {type = "item", name = "reduced-ti", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3}, 
-        {type = "fluid", name = "heavy-oil", amount = 100}, 
+        {type = "item", name = "sand-casting", amount = 3},
+        {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 50},
+        {type = "fluid", name = "molten-titanium", amount = 50}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -340,20 +344,18 @@ RECIPE {
     ingredients = {
         {type = "item", name = "sintered-ti", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3}, 
-        {type = "fluid", name = "heavy-oil", amount = 100}, 
+        {type = "item", name = "sand-casting", amount = 3},
+        {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 100},
+        {type = "fluid", name = "molten-titanium", amount = 100}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
     order = "tb"
 }:add_unlock("titanium-mk04")
 
-
 --CASTINGS
-
 
 RECIPE {
     type = "recipe",
@@ -363,19 +365,17 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-titanium", amount = 100},
-        {type = "item", name = "sand-casting", amount = 1},
+        {type = "item", name = "sand-casting", amount = 1}
     },
     results = {
         {type = "item", name = "titanium-plate", amount = 20}
     },
-    main_product= "titanium-plate",
+    main_product = "titanium-plate",
     subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("titanium-mk02")
 
-
 --INITIAL PLATE
-
 
 RECIPE {
     type = "recipe",

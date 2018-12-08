@@ -7,22 +7,21 @@ RECIPE {
     ingredients = {
         {type = "item", name = "20-u-powder", amount = 1},
         {type = "fluid", name = "steam", amount = 300, temperature = 165},
-        {type = "fluid", name = "sulfuric-acid", amount = 100}, 
+        {type = "fluid", name = "sulfuric-acid", amount = 100}
     },
     results = {
-        {type = "fluid", name = "u-pulp-01", amount = 100},
+        {type = "fluid", name = "u-pulp-01", amount = 100}
     },
     main_product = "u-pulp-01",
     subgroup = "py-rawores-fluids",
     order = "q-2"
 }:add_unlock("uranium-mk02")
 
-
 FLUID {
     type = "fluid",
     name = "u-pulp-01",
     icon = "__pyrawores__/graphics/icons/u-pulp-01.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.180, g = 0.756, b = 0.196},
     flow_color = {r = 0.180, g = 0.756, b = 0.196},

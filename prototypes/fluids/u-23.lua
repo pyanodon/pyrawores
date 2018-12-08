@@ -6,24 +6,22 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "u-33", amount = 50},
-        {type = "fluid", name = "u-15", amount = 50},
+        {type = "fluid", name = "u-15", amount = 50}
     },
     results = {
         {type = "fluid", name = "u-25", amount = 50},
-        {type = "fluid", name = "u-23", amount = 50},
-        
+        {type = "fluid", name = "u-23", amount = 50}
     },
     main_product = "u-23",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("uranium-mk03"):change_category('thickener')
-
+}:add_unlock("uranium-mk03"):change_category("thickener")
 
 FLUID {
     type = "fluid",
     name = "u-23",
     icon = "__pyrawores__/graphics/icons/u-23.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.180, g = 0.756, b = 0.196},
     flow_color = {r = 0.180, g = 0.756, b = 0.196},

@@ -1,13 +1,13 @@
 RECIPE {
     type = "recipe",
     name = "purest-nitrogen-gas",
-    category = "distilator", 
+    category = "distilator",
     enabled = false,
     energy_required = 10,
     ingredients = {},
     results = {
         {type = "fluid", name = "purest-nitrogen-gas", amount = 50},
-        {type = "fluid", name = "oxygen", amount = 20},
+        {type = "fluid", name = "oxygen", amount = 20}
     },
     main_product = "purest-nitrogen-gas",
     subgroup = "py-rawores-fluids",
@@ -18,7 +18,7 @@ FLUID {
     type = "fluid",
     name = "purest-nitrogen-gas",
     icon = "__pyrawores__/graphics/icons/purest-nitrogen-gas.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 15, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.013, g = 0.264, b = 0.9},
     flow_color = {r = 0.013, g = 0.264, b = 0.9},
