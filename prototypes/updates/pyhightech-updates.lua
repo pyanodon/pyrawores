@@ -67,7 +67,6 @@ RECIPE("plastic3"):add_ingredient({type = "fluid", name = "hydrogen", amount = 5
 RECIPE("intelligent-unit"):add_ingredient({type = "item", name = "solder", amount = 4})
 RECIPE("construction-robot-ht"):add_ingredient({type = "item", name = "super-alloy", amount = 2})
 RECIPE("logistic-robot-ht"):add_ingredient({type = "item", name = "super-alloy", amount = 2})
-RECIPE("electronic-circuit"):add_ingredient({type = "item", name = "nexelit-plate", amount = 1})
 
 RECIPE("aluminium-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
 RECIPE("chromium-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})

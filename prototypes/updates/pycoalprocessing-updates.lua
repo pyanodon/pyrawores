@@ -1,6 +1,8 @@
 RECIPE('making-chromium'):remove_unlock('coal-processing-2')
 RECIPE('crushing-iron'):remove_unlock('crusher')
 RECIPE('crushing-copper'):remove_unlock('crusher')
+RECIPE('acetylene'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1')
+RECIPE('calcium-carbide'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1')
 RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01'):remove_ingredient('chemical-plant')
 TECHNOLOGY('engine'):remove_pack('science-pack-2')
 TECHNOLOGY('crusher'):remove_pack('science-pack-2'):remove_prereq('coal-processing-2'):add_prereq('machines-mk01')

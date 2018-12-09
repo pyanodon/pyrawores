@@ -552,3 +552,21 @@ RECIPE {
     },
     main_product = "sodium-carbonate",
 }:add_unlock("sulfur-processing")
+
+RECIPE {
+    type = "recipe",
+    name = "electronic-circuit-02",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "wood", amount = 1},
+        {type = "item", name = "copper-plate", amount = 2},
+        {type = "item", name = "tinned-cable", amount = 4},
+        {type = "item", name = "solder", amount = 2},
+    },
+    results = {
+        {type = "item", name = "solder", amount = 1}
+    },
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("coal-processing-1")
