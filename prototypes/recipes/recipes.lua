@@ -460,7 +460,7 @@ RECIPE {
         {type = "fluid", name = "tar", amount = 30},
     },
     results = {
-        {type = "item", name = "solder", amount = 1}
+        {type = "item", name = "solder", amount = 2}
     },
     subgroup = "py-rawores-recipes",
     order = "j"
