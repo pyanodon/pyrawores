@@ -574,7 +574,7 @@ RECIPE {
         {type = "fluid", name = "sulfuric-acid", amount = 100}
     },
     results = {
-        {type = "item", name = "aramid", amount = 4}
+        {type = "item", name = "aramid", amount = 20}
     },
     subgroup = "py-rawores-recipes",
     order = "j"
