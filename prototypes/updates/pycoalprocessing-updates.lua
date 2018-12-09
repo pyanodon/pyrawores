@@ -3,6 +3,7 @@ RECIPE('crushing-iron'):remove_unlock('crusher')
 RECIPE('crushing-copper'):remove_unlock('crusher')
 RECIPE('acetylene'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1'):change_category('gasifier')
 RECIPE('calcium-carbide'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1')
+RECIPE('lime'):remove_unlock('separation'):add_unlock('coal-processing-1')
 RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01'):remove_ingredient('chemical-plant')
 TECHNOLOGY('engine'):remove_pack('science-pack-2')
 TECHNOLOGY('crusher'):remove_pack('science-pack-2'):remove_prereq('coal-processing-2'):add_prereq('machines-mk01')
@@ -68,7 +69,6 @@ RECIPE("jaw-crusher"):remove_ingredient("car"):add_ingredient({type = "item", na
 RECIPE("evaporator"):replace_ingredient("iron-plate", "tin-plate")
 RECIPE("cooling-tower-mk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "stainless-steel")
 RECIPE("desulfurizator-unit"):replace_ingredient("iron-plate", "titanium-plate")
-RECIPE("soil-extractormk01"):add_ingredient({type = "item", name = "titanium-plate", amount = 5})
 RECIPE("olefin-plant"):replace_ingredient("chemical-plant", "electrolyzer-mk01")
 RECIPE("ground-borer"):replace_ingredient("iron-plate", "titanium-plate")
 RECIPE("fts-reactor"):replace_ingredient("stone-brick", "glass")
@@ -595,3 +595,19 @@ RECIPE {
     subgroup = "py-drilling",
     order = "a"
 }:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "extract-limestone-01",
+    category = "soil-extraction",
+    enabled = true,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "water", amount = 100},
+    },
+    results = {
+        {type = "item", name = "limestone", amount = 1}
+    },
+    subgroup = "py-extraction",
+    order = "d"
+}
