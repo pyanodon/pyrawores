@@ -254,7 +254,7 @@ RECIPE {
     name = "liquid-nitrogen",
     category = "compressor",
     enabled = false,
-    energy_required = 1,
+    energy_required = 0.3,
     ingredients = {
         {type = "fluid", name = "nitrogen", amount = 50},
         {type = "fluid", name = "water", amount = 100},
