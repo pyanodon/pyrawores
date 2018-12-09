@@ -383,7 +383,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "glycerol", amount = 20},
-        {type = "fluid", name = "water", amount = 200} --pyfe-liquid-nitrogen
+        {type = "fluid", name = "water", amount = 50} --pyfe-liquid-nitrogen
     },
     results = {
         {type = "fluid", name = "hydrogen", amount = 300}
@@ -392,7 +392,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-fluid-handling",
     order = "o"
-}:add_unlock("coal-processing-3")
+}:add_unlock("coal-processing-3"):replace_ingredient("water", "liquid-nitrogen")
 
 RECIPE {
     type = "recipe",
