@@ -434,9 +434,25 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "solder",
-    category = "crafting-with-fluid",
+    name = "solder-0",
     enabled = true,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "tin-plate", amount = 1},
+        {type = "item", name = "lead-plate", amount = 2},
+    },
+    results = {
+        {type = "item", name = "solder", amount = 1}
+    },
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}
+
+RECIPE {
+    type = "recipe",
+    name = "solder-1",
+    category = "crafting-with-fluid",
+    enabled = false,
     energy_required = 2,
     ingredients = {
         {type = "item", name = "tin-plate", amount = 1},
@@ -448,7 +464,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}
+}:add_unlock("coal-processing-1")
 
 RECIPE {
     type = "recipe",
