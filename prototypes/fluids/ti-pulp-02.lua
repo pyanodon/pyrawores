@@ -10,7 +10,6 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "ti-pulp-02", amount = 100},
-        {type = "fluid", name = "dirty-water", amount = 50},
         {type = "item", name = "ti-residue", amount = 1},
     },
     main_product = "ti-pulp-02",
