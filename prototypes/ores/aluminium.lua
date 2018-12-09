@@ -28,7 +28,7 @@ ENTITY {
             {"ore-aluminium", 1}
         },
         fluid_amount = 100,
-        required_fluid = "water"
+        required_fluid = "coal-gas"
     },
     starting_area = true,
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
