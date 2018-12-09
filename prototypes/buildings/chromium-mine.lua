@@ -126,8 +126,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/chromium-mine.ogg", volume = 1.2},
-        idle_sound = {filename = "__pyrawores__/sounds/chromium-mine.ogg", volume = 0.8},
+        sound = {filename = "__pyrawores__/sounds/chromium-mine.ogg", volume = 1.4},
+        idle_sound = {filename = "__pyrawores__/sounds/chromium-mine.ogg", volume = 1.0},
         apparent_volume = 2.5
     }
 }
