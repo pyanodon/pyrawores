@@ -553,6 +553,8 @@ RECIPE {
     main_product = "sodium-carbonate",
 }:add_unlock("sulfur-processing")
 
+if not mods["pyhightech"] then
+
 RECIPE {
     type = "recipe",
     name = "electronic-circuit-02",
@@ -572,3 +574,4 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("coal-processing-1")
+end
