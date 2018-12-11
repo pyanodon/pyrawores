@@ -52,7 +52,6 @@ require("prototypes/technologies/uranium")
 require("prototypes/technologies/zinc")
 
 --(( BUILDINGS ))--
---require("prototypes/buildings/quartz-drill-mk01")
 require("prototypes/buildings/quartz-mine")
 require("prototypes/buildings/aluminium-mine")
 require("prototypes/buildings/chromium-mine")
