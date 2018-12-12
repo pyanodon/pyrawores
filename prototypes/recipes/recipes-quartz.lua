@@ -149,7 +149,7 @@ RECIPE {
     name = "glass-3",
     category = "hpf",
     enabled = false,
-    energy_required = 2,
+    energy_required = 4,
     ingredients = {
         {type = "item", name = "powdered-quartz", amount = 2},
         {type = "fluid", name = "coal-gas", amount = 100},
@@ -170,7 +170,7 @@ RECIPE {
     name = "glass-4",
     category = "hpf",
     enabled = false,
-    energy_required = 1,
+    energy_required = 4,
     ingredients = {
         {type = "item", name = "purified-quartz", amount = 1},
         {type = "fluid", name = "coal-gas", amount = 100},
@@ -192,7 +192,7 @@ RECIPE {
     name = "glass-5",
     category = "advanced-foundry",
     enabled = false,
-    energy_required = 8,
+    energy_required = 6,
     ingredients = {
         {type = "fluid", name = "high-grade-quartz-pulp", amount = 100},
         {type = "item", name = "sand-casting", amount = 2},
@@ -214,7 +214,7 @@ RECIPE {
     name = "glass-6",
     category = "advanced-foundry",
     enabled = false,
-    energy_required = 5,
+    energy_required = 4,
     ingredients = {
         {type = "item", name = "high-grade-quartz", amount = 1},
         {type = "item", name = "sodium-carbonate", amount = 1},
