@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "kerosene", amount = 100},
-        {type = "fluid", name = "ti-pulp-06", amount = 500},
+        {type = "fluid", name = "ti-pulp-05", amount = 500},
     },
     results = {
         {type = "fluid", name = "dirty-water", amount = 100},
