@@ -23,7 +23,7 @@ ITEM {
     icon = '__pyrawores__/graphics/icons/py-construction-robot-02.png',
     icon_size = 32,
     flags = {'goes-to-quickbar'},
-    subgroup = 'py-robots',
+    subgroup = 'py-unsorted',
     order = 'b',
     place_result = 'py-construction-robot-02',
     stack_size = 10
