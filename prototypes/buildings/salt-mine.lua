@@ -7,7 +7,6 @@ RECIPE {
         {"electric-mining-drill", 5},
         {"iron-plate", 60},
         {"jaw-crusher", 1},
-        {"car", 4},
         {"electronic-circuit", 40}
     },
     results = {
