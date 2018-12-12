@@ -214,7 +214,7 @@ RECIPE {
     name = "glass-6",
     category = "advanced-foundry",
     enabled = false,
-    energy_required = 8,
+    energy_required = 5,
     ingredients = {
         {type = "item", name = "high-grade-quartz", amount = 1},
         {type = "item", name = "sodium-carbonate", amount = 1},
