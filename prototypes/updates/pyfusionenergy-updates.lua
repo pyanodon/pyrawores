@@ -8,6 +8,12 @@ RECIPE("olefin"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("gasoline"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("vacuum-pump"):remove_ingredient("steel-plate")
 
+if not mods["pyhightech"] then
+    RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('filtration')
+else
+    RECIPE('pressured-air'):remove_unlock('semiconductor-doping'):add_unlock('filtration')
+end
+
 RECIPE("hydrocyclone"):replace_ingredient("centrifuge", "classifier")
 RECIPE("hydrocyclone"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk02")
 

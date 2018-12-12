@@ -3,16 +3,17 @@ RECIPE {
     name = "purest-nitrogen-gas",
     category = "distilator",
     enabled = false,
-    energy_required = 10,
+    energy_required = 5,
     ingredients = {},
     results = {
-        {type = "fluid", name = "purest-nitrogen-gas", amount = 50},
+        {type = "fluid", name = "purest-nitrogen-gas", amount = 60},
+        {type = "fluid", name = "nitrogen", amount = 20},
         {type = "fluid", name = "oxygen", amount = 20}
     },
     main_product = "purest-nitrogen-gas",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("machines-mk02"):add_ingredient({type = "fluid", name = "pressured-air", amount = 200})
+}:add_unlock("machines-mk02"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 FLUID {
     type = "fluid",
