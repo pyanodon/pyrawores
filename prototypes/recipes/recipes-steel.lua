@@ -1,6 +1,6 @@
 RECIPE {
     type = "recipe",
-    name = "reduction-iron",
+    name = "sponge-iron",
     category = "drp",
     enabled = false,
     energy_required = 5,
