@@ -247,7 +247,7 @@ RECIPE {
         {type = "item", name = "active-carbon", amount = 2}
     },
     results = {
-        {type = "fluid", name = "nitrogen", amount = 150},
+        {type = "fluid", name = "nitrogen", amount = 3500},
         {type = "fluid", name = "carbon-dioxide", amount = 50}
     },
     main_product = "nitrogen",
