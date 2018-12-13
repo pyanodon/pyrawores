@@ -431,7 +431,7 @@ RECIPE {
         {type = "item", name = "grade-1-iron", amount = 1},
     },
     results = {
-        {type = "item", name = "iron-plate", amount = 4}
+        {type = "item", name = "iron-plate", amount = 3}
     },
     main_product= "iron-plate",
     subgroup = "py-rawores-plates",
@@ -446,7 +446,7 @@ RECIPE {
     name = "low-grade-smelting-iron",
     category = "smelting",
     enabled = false,
-    energy_required = 8,
+    energy_required = 12,
     ingredients = {
         {type = "item", name = "processed-iron-ore", amount = 1},
     },
