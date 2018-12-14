@@ -279,7 +279,7 @@ RECIPE {
     name = "aluminium-plate-1",
     category = "smelting",
     enabled = true,
-    energy_required = 10,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "ore-aluminium", amount = 6}
     },

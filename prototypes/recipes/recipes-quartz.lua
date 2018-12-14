@@ -110,7 +110,7 @@ RECIPE {
     name = "glass-1",
     category = "smelting",
     enabled = true,
-    energy_required = 10,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "ore-quartz", amount = 6}
     },
@@ -156,7 +156,7 @@ RECIPE {
         {type = "item", name = "sand", amount = 10},
     },
     results = {
-        {type = "item", name = "glass", amount = 3}
+        {type = "item", name = "glass", amount = 4}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
@@ -178,7 +178,7 @@ RECIPE {
         {type = "item", name = "sodium-carbonate", amount = 1},
     },
     results = {
-        {type = "item", name = "glass", amount = 4}
+        {type = "item", name = "glass", amount = 5}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",

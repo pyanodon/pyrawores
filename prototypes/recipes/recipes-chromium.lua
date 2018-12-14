@@ -389,7 +389,7 @@ RECIPE {
     name = "chromium-plate-1",
     category = "smelting",
     enabled = true,
-    energy_required = 12,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "ore-chromium", amount = 6}
     },
