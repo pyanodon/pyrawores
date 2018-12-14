@@ -178,7 +178,7 @@ RECIPE {
         {type = "item", name = "sodium-carbonate", amount = 1},
     },
     results = {
-        {type = "item", name = "glass", amount = 5}
+        {type = "item", name = "glass", amount = 7}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
@@ -200,7 +200,7 @@ RECIPE {
         {type = "item", name = "sodium-carbonate", amount = 1},
     },
     results = {
-        {type = "item", name = "glass", amount = 8}
+        {type = "item", name = "glass", amount = 10}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
