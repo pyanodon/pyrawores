@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "outlet-gas-03", amount = 100},
-        {type = "item", name = "sulfur", amount = 1}
+        {type = "item", name = "sulfur", amount = 10}
         --add ammonia
     },
     main_product = "outlet-gas-03",
