@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "outlet-gas-02", amount = 100},
-        {type = "item", name = "sulfur", amount = 1},
+        {type = "item", name = "sulfur", amount = 20},
     },
     main_product = "outlet-gas-02",
     subgroup = "py-rawores-fluids",
