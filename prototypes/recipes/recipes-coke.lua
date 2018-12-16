@@ -56,4 +56,4 @@ RECIPE {
     main_product = "flue-gas",
     subgroup = "py-rawores-coke",
     order = "q-2"
-}:add_unlock("coke-mk03") 
+}:add_unlock("coke-mk03")
