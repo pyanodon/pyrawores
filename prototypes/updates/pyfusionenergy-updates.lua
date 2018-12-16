@@ -95,7 +95,7 @@ RECIPE("express-transport-belt"):add_ingredient({type = "item", name = "super-al
 RECIPE("nuclear-reactor"):add_ingredient({type = "item", name = "super-alloy", amount = 100})
 RECIPE("centrifuge"):add_ingredient({type = "item", name = "super-alloy", amount = 25})
 RECIPE("substation"):replace_ingredient("steel", "super-alloy")
-RECIPE("vpulp2"):replace_ingredient("crushed-iron", "grade-4-iron")
+RECIPE("vpulp2"):replace_ingredient("crushed-iron", "iron-ore-dust")
 
 RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-alloy")
 RECIPE("low-density-structure"):remove_ingredient("steel-plate")

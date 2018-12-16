@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "u-pulp-03", amount = 100},
-        {type = "item", name = "grade-4-iron", amount = 10},
+        {type = "item", name = "iron-ore-dust", amount = 10},
         {type = "fluid", name = "steam", amount = 200, temperature = 165},
     },
     results = {
