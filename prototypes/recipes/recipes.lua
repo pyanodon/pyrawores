@@ -522,6 +522,22 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
+    name = 'pyrite-make',
+    category = 'hpf',
+    enabled = 'false',
+    energy_required = 6,
+    ingredients = {
+        {type = 'item', name = 'iron-oxide', amount = 3},
+        {type = 'item', name = 'sulfur', amount = 3},
+    },
+    results = {
+        {type = 'item', name = 'pyrite', amount = 1},
+    },
+    main_product = "pyrite",
+}:add_unlock("coal-mk01")
+
+RECIPE {
+    type = 'recipe',
     name = 'sulfuric-acid-01',
     category = 'chemistry',
     enabled = 'false',
