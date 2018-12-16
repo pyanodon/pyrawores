@@ -239,7 +239,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "high-grade-tin", amount = 1},
-        {type = "item", name = "grade-4-iron", amount = 1, probability = 0.5},
+        {type = "item", name = "iron-ore-dust", amount = 1, probability = 0.5},
     },
     main_product = "high-grade-tin",
     subgroup = "py-rawores-tin",
