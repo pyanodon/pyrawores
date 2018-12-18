@@ -8,6 +8,8 @@ RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk0
 TECHNOLOGY('engine'):remove_pack('science-pack-2')
 TECHNOLOGY('crusher'):remove_pack('science-pack-2'):remove_prereq('coal-processing-2'):add_prereq('machines-mk01')
 
+
+
 RECIPE("boric-acid"):change_category('electrolyzer')
 RECIPE("copper-coating"):change_category('electrolyzer')
 
