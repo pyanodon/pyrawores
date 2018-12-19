@@ -14,6 +14,8 @@ else
     RECIPE('pressured-air'):remove_unlock('semiconductor-doping'):add_unlock('filtration')
 end
 
+
+RECIPE("steam-heating"):remove_ingredient("fuelrod-mk01"):add_ingredient({type = "item", name = "coke", amount = 10})
 RECIPE("hydrocyclone"):replace_ingredient("centrifuge", "classifier")
 RECIPE("hydrocyclone"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk02")
 
