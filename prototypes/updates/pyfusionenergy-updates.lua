@@ -15,9 +15,10 @@ else
 end
 
 
-RECIPE("steam-heating"):remove_ingredient("fuelrod-mk01"):add_ingredient({type = "item", name = "coke", amount = 10})
+RECIPE("steam-heating"):remove_ingredient("fuelrod-mk01"):add_ingredient({type = "item", name = "fuelrod-mk01", amount = 1})
 RECIPE("hydrocyclone"):replace_ingredient("centrifuge", "classifier")
 RECIPE("hydrocyclone"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk02")
+RECIPE("py-heat-exchanger"):remove_unlock("fuel-production"):add_unlock("coal-processing-2")
 
 RECIPE("mixer"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 RECIPE("mixer"):replace_ingredient("iron-plate", "aluminium-plate"):replace_ingredient("chemical-plant", "washer")
@@ -99,10 +100,10 @@ RECIPE("centrifuge"):add_ingredient({type = "item", name = "super-alloy", amount
 RECIPE("substation"):replace_ingredient("steel", "super-alloy")
 RECIPE("vpulp2"):replace_ingredient("crushed-iron", "iron-ore-dust")
 
-RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-alloy")
-RECIPE("low-density-structure"):remove_ingredient("steel-plate")
+RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-alloy"):remove_ingredient("steel-plate")
 
 RECIPE("automated-screener"):replace_ingredient("electric-engine-unit", "engine-unit"):replace_ingredient("ground-borer", "electric-mining-drill"):replace_ingredient("advanced-circuit", "electronic-circuit"):remove_ingredient("niobium-plate")
+RECIPE("py-heat-exchanger"):replace_ingredient("processing-unit", "advanced-circuit")
 
 RECIPE("distilator-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 15}):add_ingredient({type = "item", name = "sc-unit", amount = 4})
 RECIPE("distilator-mk04"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "agzn-alloy", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
