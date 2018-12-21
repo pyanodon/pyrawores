@@ -150,7 +150,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "powdered-aluminium", amount = 2},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax", amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-aluminium", amount = 10}
@@ -168,7 +168,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "al-pulp-02", amount = 100},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax", amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-aluminium", amount = 20}
@@ -186,7 +186,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 1},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax", amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-aluminium", amount = 30}
@@ -204,7 +204,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "high-grade-alumina", amount = 1},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax", amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-aluminium", amount = 40}
@@ -222,7 +222,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "reduced-aluminium", amount = 1},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
@@ -241,7 +241,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "sintered-aluminium", amount = 1},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {

@@ -227,7 +227,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "reduced-copper", amount = 10},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
         {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
@@ -246,7 +246,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "sintered-copper", amount = 1},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
         {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
@@ -265,7 +265,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "high-grade-copper", amount = 1},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
         {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
@@ -284,7 +284,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "grade-4-copper", amount = 3},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
         {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
@@ -305,7 +305,7 @@ RECIPE {
     energy_required = 1,
     ingredients = {
         {type = "fluid", name = "molten-copper", amount = 100},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
         {type = "item", name = "sand-casting", amount = 1}
     },
     results = {

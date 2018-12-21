@@ -220,7 +220,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "lead-dust", amount = 2},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax", amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-lead", amount = 10}
@@ -238,7 +238,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "sl-01", amount = 100},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax", amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-lead", amount = 20}
@@ -256,7 +256,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "high-grade-lead", amount = 1},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax", amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-lead", amount = 25}
@@ -274,7 +274,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "reduced-lead", amount = 1},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax", amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-lead", amount = 50}
@@ -292,7 +292,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "sintered-lead", amount = 1},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax", amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-lead", amount = 100}

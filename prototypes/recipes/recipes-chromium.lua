@@ -291,7 +291,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "chromite-sand", amount = 15},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
         {type = "fluid", name = "carbon-dioxide", amount = 150}
     },
     results = {
@@ -310,7 +310,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "sintered-chromium", amount = 1},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
         {type = "fluid", name = "carbon-dioxide", amount = 150}
     },
     results = {
@@ -329,7 +329,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "reduced-chromium", amount = 1},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
         {type = "fluid", name = "carbon-dioxide", amount = 150}
     },
     results = {
