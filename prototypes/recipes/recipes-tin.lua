@@ -319,7 +319,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "tin-dust", amount = 2},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
     },
     results = {
         {type = "fluid", name = "molten-tin", amount = 10},
@@ -337,7 +337,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "tin-concentrate", amount = 1},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
     },
     results = {
         {type = "fluid", name = "molten-tin", amount = 20},
@@ -354,7 +354,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-         {type = "item", name = "borax", amount = 3},
+         {type = "item", name = "borax", amount = 2},
          {type = "item", name = "high-tin-concentrate", amount = 1},
     },
     results = {
@@ -373,7 +373,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "high-grade-tin", amount = 1},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
     },
     results = {
         {type = "fluid", name = "molten-tin", amount = 30},
@@ -391,7 +391,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "reduced-tin", amount = 1},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
     },
     results = {
         {type = "fluid", name = "molten-tin", amount = 50},
@@ -409,7 +409,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "sintered-tin", amount = 1},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
     },
     results = {
         {type = "fluid", name = "molten-tin", amount = 100},
