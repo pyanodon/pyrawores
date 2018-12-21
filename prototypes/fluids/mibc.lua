@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "petroleum-gas", amount = 100},
-        {type = "fluid", name = "aromatics", amount = 100}, --pyht acetone
+        {type = "fluid", name = "aromatics", amount = 50}, --pyht acetone
         {type = "item", name = "copper-plate", amount = 5},
     },
     results = {
