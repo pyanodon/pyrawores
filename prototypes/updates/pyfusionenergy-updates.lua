@@ -60,7 +60,7 @@ RECIPE("centrifugal-pan"):replace_ingredient("pipe", "niobium-pipe"):add_ingredi
 RECIPE("compressor"):add_ingredient({type = "item", name = "titanium-plate", amount = 20})
 RECIPE("genlab"):add_ingredient({type = "item", name = "glass", amount = 50})
 RECIPE("bio-reactor"):add_ingredient({type = "item", name = "glass", amount = 50})
-RECIPE("nmf"):add_ingredient({type = "item", name = "glass", amount = 50}):replace_ingredient("fast-transport-belt", "transport-belt")
+RECIPE("nmf"):add_ingredient({type = "item", name = "glass", amount = 50}):replace_ingredient("fast-transport-belt", "transport-belt"):replace_ingredient("advanced-circuit", "electronic-circuit")
 RECIPE("fusion-reactor-mk01"):add_ingredient({type = "item", name = "glass", amount = 200})
 RECIPE("regolite-mine"):add_ingredient({type = "item", name = "automated-factory-mk02", amount = 1})
 RECIPE("molybdenum-concentrate"):replace_ingredient("water", "nitrogen")
