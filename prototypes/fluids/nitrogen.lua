@@ -9,7 +9,7 @@ RECIPE {
         {type = "item", name = "filtration-media", amount = 1}
     },
     results = {
-        {type = "fluid", name = "nitrogen", amount = 100}
+        {type = "fluid", name = "nitrogen", amount = 200}
     },
     main_product = "nitrogen",
     subgroup = "py-rawores-fluids",
