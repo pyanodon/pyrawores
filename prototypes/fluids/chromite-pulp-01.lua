@@ -15,7 +15,7 @@ RECIPE {
     main_product = "chromite-pulp-01",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("chromium-mk03"):change_category('agitator'):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 10})
+}:add_unlock("chromium-mk03"):change_category('agitator')
 
 
 FLUID {
