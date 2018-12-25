@@ -121,3 +121,8 @@ RECIPE("piercing-rounds-magazine"):add_ingredient({type = "item", name = "lead-p
 RECIPE("shotgun-shell"):add_ingredient({type = "item", name = "lead-plate", amount = 1}):remove_ingredient("copper-plate")
 RECIPE("firearm-magazine"):replace_ingredient("iron-plate", "lead-plate")
 RECIPE("piercing-shotgun-shell"):add_ingredient({type = "item", name = "plastic-bar", amount = 1}):remove_ingredient("copper-plate")
+
+data.raw.item["coal"].stack_size = 500
+data.raw.item["iron-ore"].stack_size = 500
+data.raw.item["copper-ore"].stack_size = 500
+data.raw.item["stone"].stack_size = 500
