@@ -126,3 +126,4 @@ data.raw.item["coal"].stack_size = 500
 data.raw.item["iron-ore"].stack_size = 500
 data.raw.item["copper-ore"].stack_size = 500
 data.raw.item["stone"].stack_size = 500
+data.raw.item["sulfur"].stack_size = 500
