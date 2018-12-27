@@ -18,7 +18,7 @@ local cargo_bot =
         {'py-logistic-robot-02', 1}
     }
 }
-cargo_bot:add_unlock({'machines-mk03'})
+cargo_bot:add_unlock({'coal-processing-3'})
 
 ITEM {
     type = 'item',

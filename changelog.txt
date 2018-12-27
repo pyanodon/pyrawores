@@ -10,3 +10,14 @@ Date: ??????
     - Fixes
   Features:
     - Added the changelog
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 27/12/18
+  Bugfixes: 
+    - Deadlock in the Centrifugal pan research.
+    - Fixed graphic bug in the JIG recipes.
+  Features:
+    - Improved the Hydrogen/Oxygen Ratio in the Electrolyzers
+    - Mining machines mk03 now requieres only red, green and blue science packs.
+    - Pynobots MK02 now unlocked in Coal Processing 03

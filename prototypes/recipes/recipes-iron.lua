@@ -100,7 +100,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "iron-concentrate",
-    category = "washer", --pyfe jig
+    category = "chemistry", --pyfe jig
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -109,7 +109,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "iron-concentrate", amount = 1},
-        {type = "fluid", name = "dirty-water", amount = 100},
+        {type = "fluid", name = "dirty-water", amount = 50},
+        {type = "fluid", name = "dirty-water", amount = 50},
     },
     main_product = "iron-concentrate",
     icon = "__pyrawores__/graphics/icons/iron-concentrate.png",

@@ -32,7 +32,7 @@ RECIPE("jig"):remove_unlock("diamond-mining"):add_unlock("machines-mk03")
 RECIPE("u-79-2"):remove_unlock("uranium-mk04")
 RECIPE("u-79"):add_unlock("uranium-mk04")
 
-RECIPE("centrifugal-pan"):remove_unlock("diamond-mining"):add_unlock("machines-mk03")
+RECIPE("centrifugal-pan"):remove_unlock("diamond-mining"):add_unlock("machines-mk02")
 
 RECIPE("agitador"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk03")
 RECIPE("sodium-chlorate"):remove_unlock("vanadium-processing"):add_unlock("machines-mk02"):change_category("electrolyzer"):remove_ingredient("water-saline"):add_ingredient({type = "item", name = "salt", amount = 20})
