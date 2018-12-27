@@ -15,7 +15,7 @@ RECIPE {
     results = {
         {'py-construction-robot-02', 1}
     }
-}:add_unlock('machines-mk03')
+}:add_unlock('coal-processing-3')
 
 ITEM {
     type = 'item',

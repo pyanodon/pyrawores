@@ -5,11 +5,11 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "water", amount = 200}
+        {type = "fluid", name = "water", amount = 300}
     },
     results = {
-        {type = "fluid", name = "hydrogen", amount = 80},
-        {type = "fluid", name = "oxygen", amount = 40}
+        {type = "fluid", name = "hydrogen", amount = 200},
+        {type = "fluid", name = "oxygen", amount = 100}
     },
     --main_product = "hydrogen",
     icon = "__pyrawores__/graphics/icons/water-electrolysis.png",

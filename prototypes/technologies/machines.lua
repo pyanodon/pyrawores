@@ -47,7 +47,6 @@ TECHNOLOGY {
             {'science-pack-1', 1},
             {'science-pack-2', 1},
             {'science-pack-3', 1},
-            {'production-science-pack', 1}
         },
         time = 60
     }
@@ -67,7 +66,8 @@ TECHNOLOGY {
             {'science-pack-1', 1},
             {'science-pack-2', 1},
             {'science-pack-3', 1},
-            {'high-tech-science-pack', 1}
+            {'high-tech-science-pack', 1},
+            {'production-science-pack', 1}
         },
         time = 60
     }
