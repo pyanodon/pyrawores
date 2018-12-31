@@ -49,7 +49,7 @@ ENTITY {
             }
         }
     },
-    stage_counts = {2000, 1600, 1400, 1200, 800, 400, 200, 10},
+    stage_counts = {1000, 800, 700, 600, 400, 200, 100, 20},
     stages = {
         sheet = {
             filename = "__pyrawores__/graphics/entity/ores/titanium/titanium.png",

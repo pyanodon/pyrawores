@@ -85,7 +85,7 @@ RECIPE("titanium-mine"):replace_ingredient("processing-unit", "intelligent-unit"
 RECIPE("uranium-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
 RECIPE("zinc-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
 
-RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 15})
+RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 10})
 RECIPE("outlet-gas-02"):change_category("fbreactor")
 
 RECIPE("ppd"):replace_ingredient("aromatics", "nitrobenzene")

@@ -48,7 +48,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "biofilm", amount = 2},
+        {type = "item", name = "biofilm", amount = 1},
         {type = "fluid", name = "coal-pulp-01", amount = 100},
         {type = "fluid", name = "water", amount = 200},
     },
@@ -111,11 +111,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "coal-slime-overflow", amount = 100},
-        {type = "fluid", name = "organic-solvent", amount = 100}, --pyfe industrial solvent
+        {type = "fluid", name = "organic-solvent", amount = 50}, --pyfe industrial solvent
     },
     results = {
-        {type = "fluid", name = "refsyngas", amount = 100},
-        {type = "fluid", name = "dirty-water", amount = 100},
+        {type = "fluid", name = "refsyngas", amount = 300},
+        {type = "fluid", name = "dirty-water", amount = 300},
     },
     main_product = "refsyngas",
     subgroup = "py-rawores-coal",
