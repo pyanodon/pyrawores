@@ -113,7 +113,7 @@ RECIPE {
     main_product = "high-chromite",
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",
@@ -161,7 +161,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "sand", amount = 50},
+        {type = "item", name = "sand", amount = 25},
         {type = "fluid", name = "chromite-pulp-07", amount = 100},
         {type = "fluid", name = "water", amount = 200}
     },
@@ -300,7 +300,7 @@ RECIPE {
     main_product = "molten-chromium",
     subgroup = "py-rawores-molten",
     order = "c"
-}:add_unlock("chromium-mk02")
+}:add_unlock("chromium-mk02"):add_ingredient({type = "item", name = "graphite", amount = 3})
 
 RECIPE {
     type = "recipe",
@@ -319,7 +319,7 @@ RECIPE {
     main_product = "molten-chromium",
     subgroup = "py-rawores-molten",
     order = "c"
-}:add_unlock("chromium-mk04")
+}:add_unlock("chromium-mk04"):add_ingredient({type = "item", name = "graphite", amount = 3})
 
 RECIPE {
     type = "recipe",
@@ -338,7 +338,7 @@ RECIPE {
     main_product = "molten-chromium",
     subgroup = "py-rawores-molten",
     order = "c"
-}:add_unlock("chromium-mk03")
+}:add_unlock("chromium-mk03"):add_ingredient({type = "item", name = "graphite", amount = 3})
 
 --SINTER and DRP IMPROVEMENTS
 

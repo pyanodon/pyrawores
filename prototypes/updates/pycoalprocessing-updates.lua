@@ -14,6 +14,7 @@ RECIPE("boric-acid"):change_category('electrolyzer')
 RECIPE("copper-coating"):change_category('electrolyzer')
 
 RECIPE("empty-gas-canister"):replace_ingredient("steel-plate", "aluminium-plate")
+RECIPE("fuelrod-mk01"):remove_ingredient("nexelit-ore"):add_ingredient({type = "item", name = "nexelit-plate", amount = 5})
 RECIPE("methanol-from-syngas"):replace_ingredient("iron-plate", "zinc-plate")
 RECIPE("flying-robot-frame"):replace_ingredient("steel-plate", "niobium-plate")
 RECIPE("ralesia"):replace_ingredient("water", "hydrogen")
@@ -282,7 +283,7 @@ RECIPE {
         {type = "item", name = "fuelrod-mk02", amount = 1}
     },
     results = {
-        {type = "fluid", name = "combustion-mixture1", amount = 200, temperature = 800},
+        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 800},
         {type = "fluid", name = "steam", amount = 500, temperature = 60}
     },
     icon = "__pyrawores__/graphics/icons/combustion-fuelrod-mk02.png",
@@ -304,7 +305,7 @@ RECIPE {
         {type = "item", name = "fuelrod-mk03", amount = 1}
     },
     results = {
-        {type = "fluid", name = "combustion-mixture1", amount = 200, temperature = 850},
+        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 850},
         {type = "fluid", name = "steam", amount = 500, temperature = 60}
     },
     icon = "__pyrawores__/graphics/icons/combustion-fuelrod-mk03.png",
@@ -326,7 +327,7 @@ RECIPE {
         {type = "item", name = "fuelrod-mk04", amount = 1}
     },
     results = {
-        {type = "fluid", name = "combustion-mixture1", amount = 200, temperature = 900},
+        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 900},
         {type = "fluid", name = "steam", amount = 500, temperature = 60}
     },
     icon = "__pyrawores__/graphics/icons/combustion-fuelrod-mk04.png",
@@ -348,7 +349,7 @@ RECIPE {
         {type = "item", name = "fuelrod-mk05", amount = 1}
     },
     results = {
-        {type = "fluid", name = "combustion-mixture1", amount = 200, temperature = 950},
+        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 950},
         {type = "fluid", name = "steam", amount = 500, temperature = 60}
     },
     icon = "__pyrawores__/graphics/icons/combustion-fuelrod-mk05.png",

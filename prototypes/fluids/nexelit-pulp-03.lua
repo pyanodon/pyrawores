@@ -3,7 +3,7 @@ RECIPE {
     name = "nexelit-pulp-03",
     category = "leaching",
     enabled = false,
-    energy_required = 3,
+    energy_required = 4,
     ingredients = {
         {type = "fluid", name = "nexelit-pulp-02", amount = 100},
         {type = "fluid", name = "organic-solvent", amount = 100},

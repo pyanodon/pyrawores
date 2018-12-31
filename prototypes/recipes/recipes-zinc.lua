@@ -105,7 +105,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "purified-zinc", amount = 1},
-        {type = "fluid", name = "zinc-overflow", amount = 50}
+        {type = "fluid", name = "zinc-overflow", amount = 20}
     },
     main_product = "purified-zinc",
     subgroup = "py-rawores-zinc",
@@ -217,9 +217,9 @@ RECIPE {
     name = "molten-zinc-01",
     category = "advanced-foundry",
     enabled = false,
-    energy_required = 4,
+    energy_required = 6,
     ingredients = {
-        {type = "item", name = "grade-3-zinc", amount = 5},
+        {type = "item", name = "grade-3-zinc", amount = 4},
         {type = "item", name = "limestone", amount = 3},
         {type = "item", name = "sand-casting", amount = 3},
         {type = "fluid", name = "heavy-oil", amount = 100}
@@ -245,7 +245,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-zinc", amount = 20}
+        {type = "fluid", name = "molten-zinc", amount = 45}
     },
     main_product = "molten-zinc",
     subgroup = "py-rawores-molten",
@@ -265,7 +265,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-zinc", amount = 30}
+        {type = "fluid", name = "molten-zinc", amount = 55}
     },
     main_product = "molten-zinc",
     subgroup = "py-rawores-molten",
@@ -285,7 +285,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-zinc", amount = 50}
+        {type = "fluid", name = "molten-zinc", amount = 65}
     },
     main_product = "molten-zinc",
     subgroup = "py-rawores-molten",
@@ -305,7 +305,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-zinc", amount = 100}
+        {type = "fluid", name = "molten-zinc", amount = 80}
     },
     main_product = "molten-zinc",
     subgroup = "py-rawores-molten",
@@ -325,7 +325,7 @@ RECIPE {
         {type = "item", name = "sand-casting", amount = 1}
     },
     results = {
-        {type = "item", name = "zinc-plate", amount = 20}
+        {type = "item", name = "zinc-plate", amount = 25}
     },
     main_product = "zinc-plate",
     subgroup = "py-rawores-plates",
@@ -341,7 +341,7 @@ RECIPE {
     enabled = true,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "ore-zinc", amount = 6}
+        {type = "item", name = "ore-zinc", amount = 10}
     },
     results = {
         {type = "item", name = "zinc-plate", amount = 1}
@@ -358,9 +358,9 @@ RECIPE {
     name = "zinc-plate-2",
     category = "smelting",
     enabled = false,
-    energy_required = 10,
+    energy_required = 8,
     ingredients = {
-        {type = "item", name = "grade-2-zinc", amount = 1}
+        {type = "item", name = "grade-2-zinc", amount = 3}
     },
     results = {
         {type = "item", name = "zinc-plate", amount = 2}
@@ -374,12 +374,12 @@ RECIPE {
     name = "zinc-plate-4",
     category = "smelting",
     enabled = false,
-    energy_required = 10,
+    energy_required = 5,
     ingredients = {
         {type = "item", name = "powdered-zinc", amount = 1}
     },
     results = {
-        {type = "item", name = "zinc-plate", amount = 4}
+        {type = "item", name = "zinc-plate", amount = 1}
     },
     subgroup = "py-rawores-plates",
     order = "j"

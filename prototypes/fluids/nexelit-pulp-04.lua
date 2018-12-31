@@ -3,7 +3,7 @@ RECIPE {
     name = "nexelit-pulp-04",
     category = "flotation",
     enabled = false,
-    energy_required = 3,
+    energy_required = 4,
     ingredients = {
         {type = "fluid", name = "nexelit-pulp-03", amount = 100},
         {type = "fluid", name = "armac-12", amount = 150},
@@ -16,7 +16,7 @@ RECIPE {
     main_product = "nexelit-pulp-04",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("nexelit-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("nexelit-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 75})
 
 
 FLUID {

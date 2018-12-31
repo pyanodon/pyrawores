@@ -24,8 +24,9 @@ ITEM("copper-cable"):set("icon", "__pyrawores__/graphics/icons/copper-cable.png"
 
 --RECIPES UPDATES
 
-RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore", amount = 6})
-RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient({type = "item", name = "copper-ore", amount = 6})
+RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore", amount = 10}):set_fields {energy_required = 15}
+RECIPE("steel-plate"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "iron-plate", amount = 10}):set_fields {energy_required = 15}
+RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient({type = "item", name = "copper-ore", amount = 10}):set_fields {energy_required = 15}
 RECIPE("electronic-circuit"):set_fields {energy_required = 4}
 RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "solder", amount = 2})
 RECIPE("processing-unit"):add_ingredient({type = "item", name = "solder", amount = 3})
@@ -127,3 +128,7 @@ data.raw.item["iron-ore"].stack_size = 500
 data.raw.item["copper-ore"].stack_size = 500
 data.raw.item["stone"].stack_size = 500
 data.raw.item["sulfur"].stack_size = 500
+data.raw.item["iron-plate"].stack_size = 500
+data.raw.item["copper-plate"].stack_size = 500
+data.raw.item["steel-plate"].stack_size = 500
+data.raw.item["stone-brick"].stack_size = 500
