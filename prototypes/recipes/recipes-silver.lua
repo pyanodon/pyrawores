@@ -58,7 +58,7 @@ RECIPE {
     main_product = "sintered-silver",
     subgroup = "py-rawores-etc",
     order = "q-2"
-}:add_unlock("silver-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("lead-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
 

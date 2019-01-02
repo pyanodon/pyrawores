@@ -96,7 +96,6 @@ RECIPE("express-splitter"):add_ingredient({type = "item", name = "super-alloy", 
 RECIPE("express-underground-belt"):add_ingredient({type = "item", name = "super-alloy", amount = 1})
 RECIPE("express-transport-belt"):add_ingredient({type = "item", name = "super-alloy", amount = 1})
 RECIPE("nuclear-reactor"):add_ingredient({type = "item", name = "super-alloy", amount = 100})
-RECIPE("centrifuge"):add_ingredient({type = "item", name = "super-alloy", amount = 25})
 RECIPE("substation"):replace_ingredient("steel", "super-alloy")
 RECIPE("vpulp2"):replace_ingredient("crushed-iron", "iron-ore-dust")
 

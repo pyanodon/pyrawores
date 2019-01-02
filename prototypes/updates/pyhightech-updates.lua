@@ -617,3 +617,19 @@ RECIPE {
     },
     main_product = "cyanic-acid",
 }:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = 'recipe',
+    name = 'collagen-glycerol',
+    category = 'chemistry',
+    enabled = 'false',
+    energy_required = 4,
+    ingredients = {
+        {type = 'fluid', name = 'water', amount = 100},
+        {type = 'item', name = 'collagen', amount = 10},
+    },
+    results = {
+        {type = 'fluid', name = 'glycerol', amount = 100},
+    },
+    main_product = "glycerol",
+}:add_unlock("advanced-electronics")
