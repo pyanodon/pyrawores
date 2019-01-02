@@ -1,3 +1,13 @@
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 02/01/19
+  Bugfixes:
+    - Fixed Deadlock in the centrifuge.
+    - Fixed Sintered Silver unlockable.
+  Features:
+    - Added collagen to glycerol recipe for pyHT
+    - Reduced the amount of lead to make ammo.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.7
 Date: 31/12/18

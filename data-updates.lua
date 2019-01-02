@@ -49,7 +49,7 @@ RECIPE("ball-mill-mk04"):replace_ingredient("concrete", "py-asphalt")
 
 RECIPE("processing-unit"):add_ingredient({type = "item", name = "gold-plate", amount = 1})
 
-RECIPE("military-science-pack"):add_ingredient({type = "item", name = "lead-plate", amount = 1}):replace_ingredient("grenade", "aluminium-plate")
+RECIPE("military-science-pack"):add_ingredient({type = "item", name = "lead-plate", amount = 20}):replace_ingredient("grenade", "aluminium-plate")
 
 RECIPE("laser-turret"):replace_ingredient("steel-plate", "duralumin")
 RECIPE("engine-unit"):replace_ingredient("steel-plate", "aluminium-plate")
@@ -115,12 +115,14 @@ RECIPE("casting-unit-mk01"):replace_ingredient("radar", "py-local-radar")
 RECIPE("impact-crusher-mk01"):replace_ingredient("radar", "py-local-radar")
 
 RECIPE("ppd"):replace_ingredient("hydrogen", "ammonia")
+RECIPE("nuclear-reactor"):replace_ingredient("steel-plate", "titanium-plate"):replace_ingredient("copper-plate", "stainless-steel")
+RECIPE("heat-exchanger"):replace_ingredient("steel-plate", "titanium-plate"):replace_ingredient("copper-plate", "aluminium-plate"):replace_ingredient("pipe", "niobium-pipe")
 RECIPE("py-logistic-robot-01"):add_ingredient({type = "item", name = "solder", amount = 5})
 RECIPE("py-construction-robot-01"):add_ingredient({type = "item", name = "solder", amount = 5})
 RECIPE("rail"):add_ingredient({type = "item", name = "solder", amount = 4})
 RECIPE("piercing-rounds-magazine"):add_ingredient({type = "item", name = "lead-plate", amount = 1}):remove_ingredient("copper-plate")
 RECIPE("shotgun-shell"):add_ingredient({type = "item", name = "lead-plate", amount = 1}):remove_ingredient("copper-plate")
-RECIPE("firearm-magazine"):replace_ingredient("iron-plate", "lead-plate")
+RECIPE("firearm-magazine"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "lead-plate", amount = 2})
 RECIPE("piercing-shotgun-shell"):add_ingredient({type = "item", name = "plastic-bar", amount = 1}):remove_ingredient("copper-plate")
 
 data.raw.item["coal"].stack_size = 500
