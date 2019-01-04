@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "iron-oxide", amount = 20},
+        {type = "item", name = "iron-oxide", amount = 6},
         {type = "fluid", name = "dirty-water", amount = 300},
     },
     results = {
