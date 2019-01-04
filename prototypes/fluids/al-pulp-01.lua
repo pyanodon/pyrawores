@@ -8,7 +8,7 @@ RECIPE {
         {type = "item", name = "powdered-aluminium", amount = 5},
         {type = "item", name = "lime", amount = 10},
         {type = "fluid", name = "water", amount = 100},
-        {type = "fluid", name = "boric-acid", amount = 60}, --pyht phosphoric acid
+        {type = "fluid", name = "boric-acid", amount = 30}, --pyht phosphoric acid
     },
     results = {
         {type = "fluid", name = "al-pulp-01", amount = 100},

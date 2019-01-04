@@ -20,7 +20,7 @@ RECIPE("nano-wires"):add_ingredient({type = "item", name = "gold-plate", amount 
 RECIPE("capacitor1"):replace_ingredient("copper-plate", "tin-plate")
 RECIPE("resistor1"):replace_ingredient("iron-plate", "tin-plate"):add_ingredient({type = "item", name = "glass", amount = 1})
 RECIPE("resistor3"):add_ingredient({type = "item", name = "nickel-plate", amount = 2})
-RECIPE("capacitor2"):replace_ingredient("steel-plate", "aluminium-plate"):remove_ingredient("cermet"):add_ingredient({type = "item", name = "sodium-aluminate", amount = 1}):replace_ingredient("copper-cable", "tinned-cable")
+RECIPE("capacitor2"):replace_ingredient("steel-plate", "aluminium-plate"):remove_ingredient("cermet"):add_ingredient({type = "fluid", name = "al-pulp-01", amount = 10}):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("inductor3"):add_ingredient({type = "item", name = "gold-plate", amount = 1}):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("inductor2"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("re-tin"):replace_ingredient("iron-plate", "tin-plate")

@@ -27,7 +27,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "al-pulp-04", amount = 300},
         {type = "fluid", name = "water", amount = 300},
-        {type = "item", name = "sodium-hydroxide", amount = 10},
+        {type = "item", name = "sodium-hydroxide", amount = 5},
         {type = "item", name = "starch", amount = 5}
     },
     results = {
@@ -37,7 +37,7 @@ RECIPE {
     main_product = "sodium-aluminate",
     subgroup = "py-rawores-aluminium",
     order = "c-a"
-}:add_unlock("aluminium-mk02"):add_ingredient({type = "item", name = "sodium-chlorate", amount = 10})
+}:add_unlock("aluminium-mk02"):add_ingredient({type = "item", name = "sodium-chlorate", amount = 5})
 
 RECIPE {
     type = "recipe",
@@ -171,7 +171,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 2}
     },
     results = {
-        {type = "fluid", name = "molten-aluminium", amount = 20}
+        {type = "fluid", name = "molten-aluminium", amount = 50}
     },
     main_product = "molten-aluminium",
     subgroup = "py-rawores-molten",
@@ -189,7 +189,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 2}
     },
     results = {
-        {type = "fluid", name = "molten-aluminium", amount = 30}
+        {type = "fluid", name = "molten-aluminium", amount = 375}
     },
     main_product = "molten-aluminium",
     subgroup = "py-rawores-molten",
@@ -207,7 +207,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 2}
     },
     results = {
-        {type = "fluid", name = "molten-aluminium", amount = 40}
+        {type = "fluid", name = "molten-aluminium", amount = 470}
     },
     main_product = "molten-aluminium",
     subgroup = "py-rawores-molten",
@@ -226,7 +226,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-aluminium", amount = 50}
+        {type = "fluid", name = "molten-aluminium", amount = 500}
     },
     main_product = "molten-aluminium",
     subgroup = "py-rawores-molten",
@@ -245,7 +245,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-aluminium", amount = 100}
+        {type = "fluid", name = "molten-aluminium", amount = 440}
     },
     main_product = "molten-aluminium",
     subgroup = "py-rawores-molten",
@@ -281,7 +281,7 @@ RECIPE {
     enabled = true,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "ore-aluminium", amount = 6}
+        {type = "item", name = "ore-aluminium", amount = 10}
     },
     results = {
         {type = "item", name = "aluminium-plate", amount = 1}
