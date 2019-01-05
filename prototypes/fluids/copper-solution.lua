@@ -10,7 +10,7 @@ RECIPE {
         {type = "item", name = "salt", amount = 10}
     },
     results = {
-        {type = "fluid", name = "copper-solution", amount = 100}
+        {type = "fluid", name = "copper-solution", amount = 150}
     },
     main_product = "copper-solution",
     subgroup = "py-rawores-fluids",

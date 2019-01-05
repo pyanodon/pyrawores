@@ -70,7 +70,7 @@ RECIPE {
         {type = "fluid", name = "syngas", amount = 100},
     },
     results = {
-        {type = "item", name = "high-grade-quartz", amount = 1},
+        {type = "item", name = "high-grade-quartz", amount = 2},
         {type = "fluid", name = "dirty-water", amount = 80}
     },
     main_product = "high-grade-quartz",
@@ -131,11 +131,11 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "crushed-quartz", amount = 1},
+        {type = "item", name = "crushed-quartz", amount = 2},
         {type = "fluid", name = "coal-gas", amount = 100},
     },
     results = {
-        {type = "item", name = "glass", amount = 2}
+        {type = "item", name = "glass", amount = 3}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
@@ -178,7 +178,7 @@ RECIPE {
         {type = "item", name = "sodium-carbonate", amount = 1},
     },
     results = {
-        {type = "item", name = "glass", amount = 7}
+        {type = "item", name = "glass", amount = 35}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
@@ -200,7 +200,7 @@ RECIPE {
         {type = "item", name = "sodium-carbonate", amount = 1},
     },
     results = {
-        {type = "item", name = "glass", amount = 10}
+        {type = "item", name = "glass", amount = 90}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
