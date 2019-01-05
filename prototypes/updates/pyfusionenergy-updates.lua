@@ -6,7 +6,7 @@ RECIPE("compressor"):remove_unlock("regolite-mining"):add_unlock("machines-mk02"
 RECIPE("olefin-plant"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("olefin"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("gasoline"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
-RECIPE("vacuum-pump"):remove_ingredient("steel-plate")
+RECIPE("pressured-air"):set_fields {energy_required = 1}
 
 if not mods["pyhightech"] then
     RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('filtration')

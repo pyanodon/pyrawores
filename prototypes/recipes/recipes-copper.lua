@@ -226,12 +226,12 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "reduced-copper", amount = 10},
+        {type = "item", name = "reduced-copper", amount = 1},
         {type = "item", name = "borax", amount = 2},
         {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-copper", amount = 50}
+        {type = "fluid", name = "molten-copper", amount = 60}
     },
     main_product = "molten-copper",
     subgroup = "py-rawores-molten",
@@ -250,7 +250,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-copper", amount = 100}
+        {type = "fluid", name = "molten-copper", amount = 40}
     },
     main_product = "molten-copper",
     subgroup = "py-rawores-molten",
@@ -269,7 +269,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-copper", amount = 30}
+        {type = "fluid", name = "molten-copper", amount = 50}
     },
     main_product = "molten-copper",
     subgroup = "py-rawores-molten",
@@ -323,10 +323,10 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-2-copper", amount = 1}
+        {type = "item", name = "grade-2-copper", amount = 3}
     },
     results = {
-        {type = "item", name = "copper-plate", amount = 2}
+        {type = "item", name = "copper-plate", amount = 1}
     },
     main_product = "copper-plate",
     subgroup = "py-rawores-plates",
