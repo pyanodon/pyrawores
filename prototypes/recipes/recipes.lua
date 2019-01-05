@@ -420,7 +420,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "ppd", amount = 5},
-        {type = "item", name = "titanium-plate", amount = 5},
+        {type = "item", name = "titanium-plate", amount = 15},
         {type = "item", name = "sodium-hydroxide", amount = 10},
         {type = "item", name = "aluminium-plate", amount = 3},
         {type = "fluid", name = "sulfuric-acid", amount = 100},

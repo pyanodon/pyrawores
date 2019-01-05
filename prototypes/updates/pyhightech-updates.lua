@@ -67,6 +67,7 @@ RECIPE("diamagnetic-material"):add_ingredient({type = "item", name = "lead-plate
 RECIPE("black-liquor"):add_ingredient({type = "fluid", name = "oxygen", amount = 100})
 RECIPE("plastic3"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
 RECIPE("intelligent-unit"):add_ingredient({type = "item", name = "solder", amount = 4})
+RECIPE("molten-super-steel"):add_ingredient({type = "item", name = "silicon", amount = 2})
 RECIPE("construction-robot-ht"):add_ingredient({type = "item", name = "super-alloy", amount = 2})
 RECIPE("logistic-robot-ht"):add_ingredient({type = "item", name = "super-alloy", amount = 2})
 RECIPE("moondrop-greenhouse"):add_ingredient({type = "item", name = "glass", amount = 20})
