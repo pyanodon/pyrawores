@@ -291,7 +291,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "chromite-sand", amount = 15},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "carbon-dioxide", amount = 150}
     },
     results = {
@@ -300,7 +300,7 @@ RECIPE {
     main_product = "molten-chromium",
     subgroup = "py-rawores-molten",
     order = "c"
-}:add_unlock("chromium-mk03"):add_ingredient({type = "item", name = "graphite", amount = 3})
+}:add_unlock("chromium-mk03")
 
 RECIPE {
     type = "recipe",
@@ -310,7 +310,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "sintered-chromium", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "carbon-dioxide", amount = 150}
     },
     results = {
@@ -319,7 +319,7 @@ RECIPE {
     main_product = "molten-chromium",
     subgroup = "py-rawores-molten",
     order = "c"
-}:add_unlock("chromium-mk04"):add_ingredient({type = "item", name = "graphite", amount = 3})
+}:add_unlock("chromium-mk04")
 
 RECIPE {
     type = "recipe",
@@ -329,7 +329,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "reduced-chromium", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "carbon-dioxide", amount = 150}
     },
     results = {
@@ -338,7 +338,7 @@ RECIPE {
     main_product = "molten-chromium",
     subgroup = "py-rawores-molten",
     order = "c"
-}:add_unlock("chromium-mk03"):add_ingredient({type = "item", name = "graphite", amount = 3})
+}:add_unlock("chromium-mk03")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -391,7 +391,7 @@ RECIPE {
     enabled = true,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "ore-chromium", amount = 6}
+        {type = "item", name = "ore-chromium", amount = 10}
     },
     results = {
         {type = "item", name = "chromium", amount = 1}

@@ -273,7 +273,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "processed-iron-ore", amount = 5},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50},
     },
     results = {
@@ -292,7 +292,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "high-grade-iron", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50},
     },
     results = {
@@ -312,7 +312,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "reduced-iron", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50},
     },
     results = {
@@ -331,7 +331,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "sintered-iron", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50},
     },
     results = {
@@ -354,7 +354,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-iron", amount = 100},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "item", name = "sand-casting", amount = 1},
     },
     results = {

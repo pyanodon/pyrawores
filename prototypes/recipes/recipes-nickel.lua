@@ -188,7 +188,7 @@ RECIPE {
         {type = "item", name = "aluminium-plate", amount = 2}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 15},
+        {type = "fluid", name = "molten-nickel", amount = 50},
         {type = "item", name = "pyrite", amount = 1}
     },
     main_product = "molten-nickel",
@@ -204,10 +204,10 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "grade-4-nickel", amount = 2},
-        {type = "item", name = "borax", amount = 2}
+        {type = "item", name = "borax", amount = 3}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 10}
+        {type = "fluid", name = "molten-nickel", amount = 25}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -222,11 +222,11 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "nickel-pulp-01", amount = 100},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 20}
+        {type = "fluid", name = "molten-nickel", amount = 40}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -241,11 +241,11 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "nickel-pulp-04", amount = 100},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 25}
+        {type = "fluid", name = "molten-nickel", amount = 100}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -260,11 +260,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "high-grade-nickel", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 30}
+        {type = "fluid", name = "molten-nickel", amount = 125}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -279,11 +279,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "reduced-nickel", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 50}
+        {type = "fluid", name = "molten-nickel", amount = 170}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -298,11 +298,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "sintered-nickel", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 100}
+        {type = "fluid", name = "molten-nickel", amount = 150}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -338,7 +338,7 @@ RECIPE {
     enabled = true,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "ore-nickel", amount = 6}
+        {type = "item", name = "ore-nickel", amount = 10}
     },
     results = {
         {type = "item", name = "nickel-plate", amount = 1}
@@ -357,7 +357,7 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "grade-3-nickel", amount = 1}
+        {type = "item", name = "grade-3-nickel", amount = 2}
     },
     results = {
         {type = "item", name = "nickel-plate", amount = 3}

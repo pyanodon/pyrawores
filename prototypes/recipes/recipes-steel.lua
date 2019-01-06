@@ -35,7 +35,7 @@ RECIPE {
     main_product = "molten-steel",
     subgroup = "py-rawores-molten",
     order = "s"
-}:add_unlock("iron-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("iron-mk04")
 
 RECIPE {
     type = "recipe",

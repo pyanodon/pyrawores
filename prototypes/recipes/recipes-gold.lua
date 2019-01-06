@@ -70,7 +70,7 @@ RECIPE {
     main_product = "purified-gold",
     subgroup = "py-rawores-etc",
     order = "q-2"
-}:add_unlock("gold"):add_ingredient({type = "item", name = "graphite", amount = 3})
+}:add_unlock("gold")
 
 RECIPE {
     type = "recipe",
