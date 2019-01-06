@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 06/01/19
+  Bugfixes:
+
+  Features:
+    - Balanced Chromium, Iron, Copper, Quartz, Titanium, Nickel and Tin chain.
+    - Reduced Nitrogen Consuption in some recipes.
+    - Made titanium more relevant.
+
+---------------------------------------------------------------------------------------------------
 Version: 1.0.9
 Date: 04/01/19
   Bugfixes:

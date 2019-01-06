@@ -16,7 +16,7 @@ RECIPE {
     main_product = "nexelit-refined-pulp",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("nexelit-mk04"):add_ingredient({type = "item", name = "graphite", amount =5})
+}:add_unlock("nexelit-mk04")
 
 
 FLUID {

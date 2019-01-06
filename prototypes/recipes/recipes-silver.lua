@@ -71,7 +71,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "lead-refined-dust-03", amount = 2},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50},
     },
     results = {
@@ -90,7 +90,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "high-grade-silver", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50},
     },
     results = {
@@ -109,7 +109,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "reduced-silver", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50},
     },
     results = {
@@ -128,7 +128,7 @@ RECIPE {
     energy_required = 2,
     ingredients = {
         {type = "item", name = "sintered-silver", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
         {type = "fluid", name = "oxygen", amount = 50},
     },
     results = {
@@ -193,7 +193,7 @@ RECIPE {
         {type = "fluid", name = "sl-01", amount = 100},
         {type = "item", name = "sand-casting", amount = 1},
         {type = "item", name = "fuelrod-mk01", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
     },
     results = {
         {type = "item", name = "silver-plate", amount = 3}

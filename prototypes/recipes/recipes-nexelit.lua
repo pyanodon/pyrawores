@@ -242,7 +242,7 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = "item", name = "fine-nexelit-powder", amount = 2},
-        {type = "item", name = "borax", amount = 2}
+        {type = "item", name = "borax", amount = 3}
     },
     results = {
         {type = "fluid", name = "molten-nexelit", amount = 5}
@@ -260,7 +260,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "nexelit-pulp-04", amount = 20},
-        {type = "item", name = "borax", amount = 2}
+        {type = "item", name = "borax", amount = 3}
     },
     results = {
         {type = "fluid", name = "molten-nexelit", amount = 10}
@@ -278,7 +278,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "high-grade-nexelit", amount = 2},
-        {type = "item", name = "borax", amount = 2}
+        {type = "item", name = "borax", amount = 3}
     },
     results = {
         {type = "fluid", name = "molten-nexelit", amount = 20}
@@ -296,7 +296,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "reduced-nexelit", amount = 1},
-        {type = "item", name = "borax", amount = 2}
+        {type = "item", name = "borax", amount = 3}
     },
     results = {
         {type = "fluid", name = "molten-nexelit", amount = 11}
@@ -314,7 +314,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "sintered-nexelit", amount = 1},
-        {type = "item", name = "borax", amount = 2}
+        {type = "item", name = "borax", amount = 3}
     },
     results = {
         {type = "fluid", name = "molten-nexelit", amount = 8}

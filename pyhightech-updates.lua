@@ -209,31 +209,6 @@ RECIPE("wet-scrubber-mk04"):replace_ingredient("control-unit", "intelligent-unit
 --PYRO RECIPES UPDATES
 
 RECIPE("high-grade-ti"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("high-grade-alumina"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-aluminium-01"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-aluminium-02"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-aluminium-03"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-aluminium-03-2"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-aluminium-04"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-aluminium-05"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-chromium-01"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-chromium-02"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-chromium-03"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("purified-gold"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-lead-01"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-lead-02"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-lead-03"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-lead-04"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-lead-05"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-nickel-00"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-steel-02"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-tin-01"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-tin-02"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-tin-03"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-tin-02-2"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-tin-04"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-tin-05"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("nexelit-refined-pulp"):add_ingredient({type = "item", name = "graphite", amount = 3})
 
 RECIPE {
     type = "recipe",

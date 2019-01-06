@@ -190,7 +190,7 @@ RECIPE {
     main_product = "high-grade-ti",
     subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk03"):add_ingredient({type = "item", name = "graphite", amount = 3})
+}:add_unlock("titanium-mk03")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -269,7 +269,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 10}
+        {type = "fluid", name = "molten-titanium", amount = 70}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -289,7 +289,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 20}
+        {type = "fluid", name = "molten-titanium", amount = 85}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -309,7 +309,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 30}
+        {type = "fluid", name = "molten-titanium", amount = 95}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -329,7 +329,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 50}
+        {type = "fluid", name = "molten-titanium", amount = 120}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -349,7 +349,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 100}
+        {type = "fluid", name = "molten-titanium", amount = 95}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -385,7 +385,7 @@ RECIPE {
     enabled = true,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "ore-titanium", amount = 6}
+        {type = "item", name = "ore-titanium", amount = 10}
     },
     results = {
         {type = "item", name = "titanium-plate", amount = 1}
@@ -402,7 +402,7 @@ RECIPE {
     name = "titanium-plate-2",
     category = "smelting",
     enabled = false,
-    energy_required = 10,
+    energy_required = 5,
     ingredients = {
         {type = "item", name = "grade-3-ti", amount = 1}
     },
@@ -418,12 +418,12 @@ RECIPE {
     name = "titanium-plate-4",
     category = "smelting",
     enabled = false,
-    energy_required = 10,
+    energy_required = 5,
     ingredients = {
         {type = "item", name = "grade-4-ti", amount = 1}
     },
     results = {
-        {type = "item", name = "titanium-plate", amount = 3}
+        {type = "item", name = "titanium-plate", amount = 4}
     },
     subgroup = "py-rawores-plates",
     order = "j"

@@ -319,15 +319,15 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "tin-dust", amount = 2},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 10},
+        {type = "fluid", name = "molten-tin", amount = 35},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
     order = "ta"
-}:add_unlock("tin-mk02"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("tin-mk02")
 
 RECIPE {
     type = "recipe",
@@ -337,7 +337,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "tin-concentrate", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
     },
     results = {
         {type = "fluid", name = "molten-tin", amount = 20},
@@ -345,7 +345,7 @@ RECIPE {
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
     order = "ta"
-}:add_unlock("tin-mk03"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("tin-mk03")
 
 RECIPE {
     type = "recipe",
@@ -354,7 +354,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-         {type = "item", name = "borax", amount = 2},
+         {type = "item", name = "borax", amount = 3},
          {type = "item", name = "high-tin-concentrate", amount = 1},
     },
     results = {
@@ -363,7 +363,7 @@ RECIPE {
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
     order = "ta"
-}:add_unlock("tin-mk03"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("tin-mk03")
 
 RECIPE {
     type = "recipe",
@@ -373,15 +373,15 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "high-grade-tin", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 30},
+        {type = "fluid", name = "molten-tin", amount = 92},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
     order = "ta"
-}:add_unlock("tin-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("tin-mk04")
 
 RECIPE {
     type = "recipe",
@@ -391,15 +391,15 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "reduced-tin", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 50},
+        {type = "fluid", name = "molten-tin", amount = 100},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
     order = "ta"
-}:add_unlock("tin-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("tin-mk04")
 
 RECIPE {
     type = "recipe",
@@ -409,15 +409,15 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "sintered-tin", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax", amount = 3},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 100},
+        {type = "fluid", name = "molten-tin", amount = 60},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
     order = "ta"
-}:add_unlock("tin-mk04"):add_ingredient({type = "item", name = "graphite", amount =3})
+}:add_unlock("tin-mk04")
 
 
 --CASTINGS
@@ -452,7 +452,7 @@ RECIPE {
     enabled = true,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "ore-tin", amount = 6}
+        {type = "item", name = "ore-tin", amount = 10}
     },
     results = {
         {type = "item", name = "tin-plate", amount = 1}
@@ -471,7 +471,7 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "grade-1-tin", amount = 1}
+        {type = "item", name = "grade-1-tin", amount = 3}
     },
     results = {
         {type = "item", name = "tin-plate", amount = 2}
@@ -485,12 +485,12 @@ RECIPE {
     name = "tin-plate-4",
     category = "smelting",
     enabled = false,
-    energy_required = 10,
+    energy_required = 5,
     ingredients = {
         {type = "item", name = "grade-4-tin", amount = 1}
     },
     results = {
-        {type = "item", name = "tin-plate", amount = 3}
+        {type = "item", name = "tin-plate", amount = 2}
     },
     subgroup = "py-rawores-plates",
     order = "j"
