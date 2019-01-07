@@ -1,3 +1,4 @@
+RECIPE("high-grade-quartz"):remove_unlock("quartz-mk04"):add_unlock("quartz-mk03")
 RECIPE("al-pulp-01"):replace_ingredient("boric-acid", "phosphoric-acid")
 RECIPE("powdered-ralesia-seeds"):change_category("pulp")
 RECIPE("glass-fiber"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1})
