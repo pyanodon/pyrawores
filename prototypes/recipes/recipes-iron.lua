@@ -400,4 +400,4 @@ RECIPE {
     main_product= "iron-plate",
     subgroup = "py-rawores-plates",
     order = "j"
-}:add_unlock("iron-mk02")
+}:add_unlock("iron-mk01")
