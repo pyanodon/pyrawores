@@ -9,9 +9,9 @@ RECIPE("gasoline"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("pressured-air"):set_fields {energy_required = 1}
 
 if not mods["pyhightech"] then
-    RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('filtration')
+    RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('coal-processing-1')
 else
-    RECIPE('pressured-air'):remove_unlock('semiconductor-doping'):add_unlock('filtration')
+    RECIPE('pressured-air'):remove_unlock('semiconductor-doping'):add_unlock('coal-processing-1')
 end
 
 

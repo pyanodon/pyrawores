@@ -36,6 +36,8 @@ RECIPE("steel-plate2"):remove_unlock("coal-processing-3")
 RECIPE("crushed-iron"):remove_unlock("crusher")
 RECIPE("crushed-copper"):remove_unlock("crusher")
 
+RECIPE("py-local-radar"):set_fields {enabled = false}:add_unlock("engine")
+
 RECIPE("py-logistic-robot-01"):replace_ingredient("iron-plate", "aluminium-plate")
 RECIPE("py-construction-robot-01"):replace_ingredient("iron-plate", "aluminium-plate")
 RECIPE("py-roboport-mk01"):replace_ingredient("iron-plate", "aluminium-plate")
@@ -113,6 +115,7 @@ RECIPE("leaching-station-mk04"):replace_ingredient("storage-tank", "py-tank-8000
 
 RECIPE("casting-unit-mk01"):replace_ingredient("radar", "py-local-radar")
 RECIPE("impact-crusher-mk01"):replace_ingredient("radar", "py-local-radar")
+RECIPE("storage-tank"):replace_ingredient("iron-plate", "duralumin"):add_ingredient({type = "item", name = "lead-plate", amount = 10})
 
 RECIPE("ppd"):replace_ingredient("hydrogen", "ammonia")
 RECIPE("nuclear-reactor"):replace_ingredient("steel-plate", "titanium-plate"):replace_ingredient("copper-plate", "stainless-steel")
@@ -134,3 +137,6 @@ data.raw.item["iron-plate"].stack_size = 500
 data.raw.item["copper-plate"].stack_size = 500
 data.raw.item["steel-plate"].stack_size = 500
 data.raw.item["stone-brick"].stack_size = 500
+data.raw.item["iron-gear-wheel"].stack_size = 500
+data.raw.item["wood"].stack_size = 500
+data.raw.item["raw-wood"].stack_size = 500

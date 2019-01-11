@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 11/01/19
+  Bugfixes:
+    - Fixed Deadlock in Carbon Aerogel when playing with pyHT.
+    - Fixed engine technology and reorganized some.
+    - Fixed small research on iron.
+    - Crusher tech now relays on Al chain.
+    - Pressured air now unlocks on Coal Processing 1
+  Features:
+    - Changed fluid to extract tin to steam.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.2
 Date: 07/01/19
   Bugfixes:
