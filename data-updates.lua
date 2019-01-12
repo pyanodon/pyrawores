@@ -128,6 +128,9 @@ RECIPE("shotgun-shell"):add_ingredient({type = "item", name = "lead-plate", amou
 RECIPE("firearm-magazine"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "lead-plate", amount = 2})
 RECIPE("piercing-shotgun-shell"):add_ingredient({type = "item", name = "plastic-bar", amount = 1}):remove_ingredient("copper-plate")
 
+RECIPE("construction-robot-ht"):replace_ingredient("construction-robot", "py-construction-robot-02")
+RECIPE("logistic-robot-ht"):replace_ingredient("logistic-robot", "py-logistic-robot-02")
+
 data.raw.item["coal"].stack_size = 500
 data.raw.item["iron-ore"].stack_size = 500
 data.raw.item["copper-ore"].stack_size = 500
