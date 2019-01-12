@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.1.5
+Version: 1.1.3
 Date: 11/01/19
   Bugfixes:
     - Fixed Deadlock in Carbon Aerogel when playing with pyHT.
@@ -14,23 +14,16 @@ Version: 1.1.2
 Date: 07/01/19
   Bugfixes:
     - Fixed Deadlock in Carbon Aerogel when playing with pyHT.
-  Features:
-
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 06/01/19
-  Bugfixes:
-
   Features:
     - Balanced Chromium, Iron, Copper, Quartz, Titanium, Nickel and Tin chain.
     - Reduced Nitrogen Consuption in some recipes.
     - Made titanium more relevant.
-
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.9
 Date: 04/01/19
-  Bugfixes:
-
   Features:
     - Balanced Aluminium chain
 ---------------------------------------------------------------------------------------------------
@@ -45,8 +38,6 @@ Date: 02/01/19
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.7
 Date: 31/12/18
-  Bugfixes:
-    -
   Features:
     - Rebalanced the whole zinc chain
     - Rebalanced the whole nexelit chain
@@ -75,6 +66,3 @@ Date: ??????
     - Fixes
   Features:
     - Added the changelog
-
----------------------------------------------------------------------------------------------------
-
