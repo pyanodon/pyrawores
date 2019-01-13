@@ -130,6 +130,10 @@ RECIPE("piercing-shotgun-shell"):add_ingredient({type = "item", name = "plastic-
 
 RECIPE("construction-robot-ht"):replace_ingredient("construction-robot", "py-construction-robot-02")
 RECIPE("logistic-robot-ht"):replace_ingredient("logistic-robot", "py-logistic-robot-02")
+RECIPE("py-burner"):remove_ingredient("steel-furnace"):add_ingredient({type = "item", name = "titanium-plate", amount = 20})
+TECHNOLOGY("py-burner"):remove_prereq("coal-processing-2"):add_prereq("coal-processing-1")
+
+RECIPE('pressured-air'):remove_unlock('semiconductor-doping')
 
 data.raw.item["coal"].stack_size = 500
 data.raw.item["iron-ore"].stack_size = 500

@@ -72,6 +72,8 @@ RECIPE("construction-robot-ht"):add_ingredient({type = "item", name = "super-all
 RECIPE("logistic-robot-ht"):add_ingredient({type = "item", name = "super-alloy", amount = 2})
 RECIPE("moondrop-greenhouse"):add_ingredient({type = "item", name = "glass", amount = 20})
 
+
+
 RECIPE("aluminium-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
 RECIPE("chromium-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
 RECIPE("coal-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})

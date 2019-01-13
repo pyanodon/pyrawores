@@ -3,8 +3,9 @@ Version: 1.1.4
 Date: 13/01/19
   Bugfixes:
     - Fixed Tin Stem consuption.
+    - Fixed duplicate unlock of pressured air.
   Features:
-
+    - Burner to be unlocked earlier.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.3
 Date: 11/01/19
