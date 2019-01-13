@@ -30,7 +30,7 @@ ENTITY {
         results = {
             {"ore-tin", 1}
         },
-        fluid_amount = 200,
+        fluid_amount = 100,
         required_fluid = "steam"
     },
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
