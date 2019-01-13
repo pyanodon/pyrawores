@@ -1,8 +1,8 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.1.4
-Date: 13/01/19
+Version: 1.1.5
+Date: 01/13/19
   Bugfixes:
-    - Fixed Tin Stem consuption.
+    - Fixed Tin Steam consuption.
     - Fixed duplicate unlock of pressured air.
   Features:
     - Burner to be unlocked earlier.
