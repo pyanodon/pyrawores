@@ -44,7 +44,7 @@ RECIPE("cladding"):replace_ingredient("sand", "glass")
 RECIPE("nas-battery"):replace_ingredient("copper-ore", "sodium-hydroxide")
 RECIPE("nas-battery"):add_ingredient({type = "item", name = "lead-plate", amount = 2})
 
-RECIPE("cladded-core"):add_ingredient({type = "item", name = "aramid", amount = 2})
+RECIPE("cladded-core"):add_ingredient({type = "item", name = "aramid", amount = 1})
 RECIPE("optical-fiber"):remove_ingredient("plastic-bar"):add_ingredient({type = "item", name = "plastic-bar", amount = 5})
 
 RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})

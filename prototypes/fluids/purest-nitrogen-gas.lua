@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {},
     results = {
         {type = "fluid", name = "purest-nitrogen-gas", amount = 60},
-        {type = "fluid", name = "nitrogen", amount = 20},
+        {type = "fluid", name = "nitrogen", amount = 50},
         {type = "fluid", name = "oxygen", amount = 20}
     },
     main_product = "purest-nitrogen-gas",
