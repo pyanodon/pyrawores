@@ -22,7 +22,7 @@ RECIPE("secondary-crusher"):remove_unlock("advanced-mining-facilities"):add_unlo
 
 RECIPE("automated-screener"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 
-RECIPE("jig"):remove_unlock("diamond-mining"):add_unlock("machines-mk03")
+RECIPE("jig"):remove_unlock("diamond-mining"):add_unlock("machines-mk03"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 
 RECIPE("u-79-2"):remove_unlock("uranium-mk04")
 RECIPE("u-79"):add_unlock("uranium-mk04")
@@ -56,7 +56,8 @@ RECIPE("compressor"):add_ingredient({type = "item", name = "titanium-plate", amo
 RECIPE("genlab"):add_ingredient({type = "item", name = "glass", amount = 50})
 RECIPE("bio-reactor"):add_ingredient({type = "item", name = "glass", amount = 50})
 RECIPE("nmf"):add_ingredient({type = "item", name = "glass", amount = 50}):replace_ingredient("fast-transport-belt", "transport-belt"):replace_ingredient("advanced-circuit", "electronic-circuit")
-RECIPE("fusion-reactor-mk01"):add_ingredient({type = "item", name = "glass", amount = 200})
+RECIPE("fusion-reactor-mk01"):add_ingredient({type = "item", name = "glass", amount = 300}):add_ingredient({type = "item", name = "super-steel", amount = 100})
+RECIPE("fusion-reactor-mk02"):add_ingredient({type = "item", name = "super-steel", amount = 100})
 RECIPE("regolite-mine"):add_ingredient({type = "item", name = "automated-factory-mk02", amount = 1})
 RECIPE("molybdenum-concentrate"):replace_ingredient("water", "nitrogen")
 RECIPE("phytoplankton"):replace_ingredient("crushed-iron", "grade-4-tin")
@@ -66,6 +67,10 @@ RECIPE("vpulp-precip"):replace_ingredient("water", "ammonia")
 RECIPE("super-alloy"):replace_ingredient("steel-plate", "nickel-plate"):add_ingredient({type = "item", name = "aramid", amount = 1})
 RECIPE("cool-air"):replace_ingredient("pressured-air", "liquid-nitrogen")
 RECIPE("calcinate-separation"):add_result({type = "item", name = "ore-quartz", amount = 1, probability = 0.6})
+RECIPE("gas-separator"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+RECIPE("grease-table"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+RECIPE("py-turbine"):add_ingredient({type = "item", name = "super-steel", amount = 20}):add_ingredient({type = "item", name = "super-alloy", amount = 20})
+
  --result
 RECIPE("kmauts-ration"):replace_ingredient("iron-plate", "tin-plate")
 RECIPE("helium"):add_ingredient({type = "fluid", name = "hydrogen", amount = 10})

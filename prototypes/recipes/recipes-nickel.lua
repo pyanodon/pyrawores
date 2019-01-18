@@ -204,6 +204,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "grade-4-nickel", amount = 2},
+        {type = "fluid", name = "oxygen", amount = 50},
         {type = "item", name = "borax", amount = 3}
     },
     results = {
