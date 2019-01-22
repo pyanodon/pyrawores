@@ -385,12 +385,12 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 200},
-        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-aluminium", amount = 15}
+        {type = "item", name = "ore-aluminium", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-aluminium.png",
     icon_size = 32,
@@ -405,12 +405,12 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 200},
-        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-chromium", amount = 15}
+        {type = "item", name = "ore-chromium", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-chromium.png",
     icon_size = 32,
@@ -425,12 +425,12 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 150},
-        {type = "fluid", name = "coal-gas", amount = 150},
+        {type = "fluid", name = "lubricant", amount = 250},
+        {type = "fluid", name = "coal-gas", amount = 250},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "copper-ore", amount = 15}
+        {type = "item", name = "copper-ore", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-copper.png",
     icon_size = 32,
@@ -445,12 +445,12 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 150},
-        {type = "fluid", name = "coal-gas", amount = 150},
+        {type = "fluid", name = "lubricant", amount = 250},
+        {type = "fluid", name = "coal-gas", amount = 250},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "iron-ore", amount = 15}
+        {type = "item", name = "iron-ore", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-iron.png",
     icon_size = 32,
@@ -465,12 +465,12 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 200},
-        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-lead", amount = 15}
+        {type = "item", name = "ore-lead", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-lead.png",
     icon_size = 32,
@@ -485,12 +485,12 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 200},
-        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-nickel", amount = 15}
+        {type = "item", name = "ore-nickel", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-nickel.png",
     icon_size = 32,
@@ -505,12 +505,12 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 200},
-        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-quartz", amount = 15}
+        {type = "item", name = "ore-quartz", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-quartz.png",
     icon_size = 32,
@@ -525,12 +525,12 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 200},
-        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-tin", amount = 15}
+        {type = "item", name = "ore-tin", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-tin.png",
     icon_size = 32,
@@ -545,12 +545,12 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 200},
-        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-titanium", amount = 15}
+        {type = "item", name = "ore-titanium", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-titanium.png",
     icon_size = 32,
@@ -565,12 +565,12 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 200},
-        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-zinc", amount = 15}
+        {type = "item", name = "ore-zinc", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-zinc.png",
     icon_size = 32,
