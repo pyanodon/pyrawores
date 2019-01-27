@@ -569,6 +569,22 @@ RECIPE {
     main_product = "sodium-carbonate",
 }:add_unlock("sulfur-processing")
 
+RECIPE {
+    type = 'recipe',
+    name = 'ammo-initial',
+    category = 'handcrafting',
+    enabled = true,
+    energy_required = 8,
+    ingredients = {
+        {type = 'item', name = 'iron-plate', amount = 10},
+        {type = 'item', name = 'coal', amount = 2},
+        {type = 'item', name = 'stone', amount = 2},
+    },
+    results = {
+        {type = 'item', name = 'firearm-magazine', amount = 1}
+    }
+}
+
 if not mods["pyhightech"] then
 
 RECIPE {

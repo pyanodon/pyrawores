@@ -117,6 +117,15 @@ RECIPE("casting-unit-mk01"):replace_ingredient("radar", "py-local-radar")
 RECIPE("impact-crusher-mk01"):replace_ingredient("radar", "py-local-radar")
 RECIPE("storage-tank"):replace_ingredient("iron-plate", "duralumin"):add_ingredient({type = "item", name = "lead-plate", amount = 10})
 
+RECIPE("py-tank-1000"):replace_ingredient("iron-plate", "duralumin"):replace_ingredient("steel-plate", "lead-plate")
+RECIPE("py-tank-1500"):replace_ingredient("iron-plate", "duralumin"):replace_ingredient("steel-plate", "lead-plate")
+RECIPE("py-tank-3000"):replace_ingredient("iron-plate", "duralumin"):replace_ingredient("steel-plate", "lead-plate")
+RECIPE("py-tank-4000"):replace_ingredient("iron-plate", "duralumin"):replace_ingredient("steel-plate", "lead-plate")
+RECIPE("py-tank-5000"):replace_ingredient("iron-plate", "duralumin"):replace_ingredient("steel-plate", "lead-plate")
+RECIPE("py-tank-6500"):replace_ingredient("iron-plate", "duralumin"):replace_ingredient("steel-plate", "lead-plate")
+RECIPE("py-tank-7000"):replace_ingredient("iron-plate", "duralumin"):replace_ingredient("steel-plate", "lead-plate")
+RECIPE("py-tank-8000"):replace_ingredient("iron-plate", "duralumin"):replace_ingredient("steel-plate", "lead-plate")
+
 RECIPE("ppd"):replace_ingredient("hydrogen", "ammonia")
 RECIPE("nuclear-reactor"):replace_ingredient("steel-plate", "titanium-plate"):replace_ingredient("copper-plate", "stainless-steel")
 RECIPE("heat-exchanger"):replace_ingredient("steel-plate", "titanium-plate"):replace_ingredient("copper-plate", "aluminium-plate"):replace_ingredient("pipe", "niobium-pipe")
@@ -147,3 +156,11 @@ data.raw.item["stone-brick"].stack_size = 500
 data.raw.item["iron-gear-wheel"].stack_size = 500
 data.raw.item["wood"].stack_size = 500
 data.raw.item["raw-wood"].stack_size = 500
+
+local default = setmetatable({}, require("stdlib/utils/classes/string_array"))
+for _, player in DATA:pairs('player') do
+    player.crafting_categories = player:get_field('crafting_categories', default) + 'handcrafting'
+end
+for _, controller in DATA:pairs('god-controller') do
+    controller.crafting_categories = controller:get_field('crafting_categories', default) + 'handcrafting'
+end

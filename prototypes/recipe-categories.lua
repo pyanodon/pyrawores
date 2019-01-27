@@ -115,4 +115,8 @@ data:extend {
         type = "fuel-category",
         name = "mega-drill-head"
     },
+    {
+        type = "recipe-category",
+        name = "handcrafting"
+    },
 }
