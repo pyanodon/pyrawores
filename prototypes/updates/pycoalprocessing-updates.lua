@@ -390,7 +390,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-aluminium", amount = 20}
+        {type = "item", name = "ore-aluminium", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-aluminium.png",
     icon_size = 32,
@@ -410,7 +410,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-chromium", amount = 20}
+        {type = "item", name = "ore-chromium", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-chromium.png",
     icon_size = 32,
@@ -430,7 +430,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "copper-ore", amount = 20}
+        {type = "item", name = "copper-ore", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-copper.png",
     icon_size = 32,
@@ -450,7 +450,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "iron-ore", amount = 20}
+        {type = "item", name = "iron-ore", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-iron.png",
     icon_size = 32,
@@ -470,7 +470,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-lead", amount = 20}
+        {type = "item", name = "ore-lead", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-lead.png",
     icon_size = 32,
@@ -490,7 +490,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-nickel", amount = 20}
+        {type = "item", name = "ore-nickel", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-nickel.png",
     icon_size = 32,
@@ -510,7 +510,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-quartz", amount = 20}
+        {type = "item", name = "ore-quartz", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-quartz.png",
     icon_size = 32,
@@ -530,7 +530,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-tin", amount = 20}
+        {type = "item", name = "ore-tin", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-tin.png",
     icon_size = 32,
@@ -550,7 +550,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-titanium", amount = 20}
+        {type = "item", name = "ore-titanium", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-titanium.png",
     icon_size = 32,
@@ -570,7 +570,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-zinc", amount = 20}
+        {type = "item", name = "ore-zinc", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-zinc.png",
     icon_size = 32,
