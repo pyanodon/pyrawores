@@ -37,7 +37,7 @@ RECIPE {
     main_product = "sodium-aluminate",
     subgroup = "py-rawores-aluminium",
     order = "c-a"
-}:add_unlock("aluminium-mk02"):add_ingredient({type = "item", name = "sodium-chlorate", amount = 5})
+}:add_unlock("aluminium-mk03"):add_ingredient({type = "item", name = "sodium-chlorate", amount = 5})
 
 RECIPE {
     type = "recipe",
@@ -76,7 +76,7 @@ RECIPE {
     main_product = "high-grade-alumina",
     subgroup = "py-rawores-aluminium",
     order = "i"
-}:add_unlock("aluminium-mk04")
+}:add_unlock("aluminium-mk03")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -231,7 +231,7 @@ RECIPE {
     main_product = "molten-aluminium",
     subgroup = "py-rawores-molten",
     order = "z"
-}:add_unlock("aluminium-mk04")
+}:add_unlock("aluminium-mk03")
 
 RECIPE {
     type = "recipe",

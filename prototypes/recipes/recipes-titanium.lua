@@ -314,7 +314,7 @@ RECIPE {
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
     order = "tb"
-}:add_unlock("titanium-mk04")
+}:add_unlock("titanium-mk03")
 
 RECIPE {
     type = "recipe",

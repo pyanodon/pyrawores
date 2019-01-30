@@ -95,7 +95,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-iron",
     order = "q-2"
-}:add_unlock("iron-mk03")
+}:add_unlock("iron-mk02")
 
 RECIPE {
     type = "recipe",
@@ -156,7 +156,7 @@ RECIPE {
     main_product = "unslimed-iron",
     subgroup = "py-rawores-iron",
     order = "q-2"
-}:add_unlock("iron-mk03")
+}:add_unlock("iron-mk02")
 
 RECIPE {
     type = "recipe",
@@ -174,7 +174,7 @@ RECIPE {
     main_product = "iron-pulp-07",
     subgroup = "py-rawores-iron",
     order = "q-2"
-}:add_unlock("iron-mk04"):change_category('thickener')
+}:add_unlock("iron-mk03"):change_category('thickener')
 
 RECIPE {
     type = "recipe",
@@ -192,7 +192,7 @@ RECIPE {
     main_product = "high-grade-iron",
     subgroup = "py-rawores-iron",
     order = "q-2"
-}:add_unlock("iron-mk04")
+}:add_unlock("iron-mk03")
 
 
 
@@ -286,6 +286,25 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
+    name = "molten-iron-06",
+    category = "bof",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "unslimed-iron", amount = 1},
+        {type = "item", name = "borax", amount = 3},
+        {type = "fluid", name = "oxygen", amount = 50},
+    },
+    results = {
+        {type = "fluid", name = "molten-iron", amount = 90},
+    },
+    main_product = "molten-iron",
+    subgroup = "py-rawores-molten",
+    order = "d"
+}:add_unlock("iron-mk02")
+
+RECIPE {
+    type = "recipe",
     name = "molten-iron-03",
     category = "bof",
     enabled = false,
@@ -364,24 +383,6 @@ RECIPE {
     subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("iron-mk01")
-
-RECIPE {
-    type = "recipe",
-    name = "iron-plate-2",
-    category = "casting",
-    enabled = false,
-    energy_required = 4,
-    ingredients = {
-        {type = "item", name = "unslimed-iron", amount = 1},
-        {type = "item", name = "sand-casting", amount = 1},
-    },
-    results = {
-        {type = "item", name = "iron-plate", amount = 10}
-    },
-    main_product= "iron-plate",
-    subgroup = "py-rawores-plates",
-    order = "j"
-}:add_unlock("iron-mk02")
 
 ---EXTRA PLATE---
 

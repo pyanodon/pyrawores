@@ -269,7 +269,7 @@ RECIPE {
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
     order = "k"
-}:add_unlock("energy-3")
+}:add_unlock("energy-2")
 
 RECIPE {
     type = "recipe",

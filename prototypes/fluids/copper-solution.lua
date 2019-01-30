@@ -15,7 +15,7 @@ RECIPE {
     main_product = "copper-solution",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("copper-mk02"):change_category("mixer")
+}:add_unlock("copper-mk03"):change_category("mixer")
 
 FLUID {
     type = "fluid",

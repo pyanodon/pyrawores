@@ -146,7 +146,7 @@ RECIPE {
     main_product = "high-grade-zinc",
     subgroup = "py-rawores-zinc",
     order = "q-2"
-}:add_unlock("zinc-mk04")
+}:add_unlock("zinc-mk03")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -270,7 +270,7 @@ RECIPE {
     main_product = "molten-zinc",
     subgroup = "py-rawores-molten",
     order = "z"
-}:add_unlock("zinc-mk04")
+}:add_unlock("zinc-mk03")
 
 RECIPE {
     type = "recipe",

@@ -209,7 +209,7 @@ RECIPE {
     main_product = "high-tin-concentrate",
     subgroup = "py-rawores-tin",
     order = "q-2"
-}:add_unlock("tin-mk04")
+}:add_unlock("tin-mk03")
 
 RECIPE {
     type = "recipe",

@@ -15,7 +15,7 @@ RECIPE {
     main_product = "aerofloat-15",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("chromium-mk03")
+}:add_unlock("machines-mk03")
 
 
 FLUID {

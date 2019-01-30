@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.9
+Date: ??????
+  Balances:
+    - Balanced iron and copper initial recipes.
+    - Turrets now can be used normally.
+    - Added alternative recipe for Na2SO4.
+    - Several tech-tree changes.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.8
 Date: ??????
   Balances:

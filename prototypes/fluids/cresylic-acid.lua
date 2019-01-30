@@ -15,7 +15,7 @@ RECIPE {
     main_product = "cresylic-acid",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("chromium-mk03"):change_category('mixer')
+}:add_unlock("machines-mk03"):change_category('mixer')
 
 
 FLUID {

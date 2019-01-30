@@ -80,7 +80,7 @@ RECIPE {
     main_product = "molten-silver",
     subgroup = "py-rawores-molten",
     order = "s"
-}:add_unlock("lead-mk02")
+}:add_unlock("lead-mk03")
 
 RECIPE {
     type = "recipe",
@@ -159,7 +159,7 @@ RECIPE {
     main_product= "silver-plate",
     subgroup = "py-rawores-plates",
     order = "j"
-}:add_unlock("lead-mk02")
+}:add_unlock("lead-mk03")
 
 
 --INITIAL PLATE

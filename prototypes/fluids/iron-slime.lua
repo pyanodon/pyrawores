@@ -14,7 +14,7 @@ RECIPE {
     main_product = "iron-slime",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("iron-mk03"):change_category('mixer')
+}:add_unlock("iron-mk02"):change_category('mixer')
 
 
 FLUID {

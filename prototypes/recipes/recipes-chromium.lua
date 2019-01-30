@@ -36,7 +36,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("chromium-mk01")
+}:add_unlock("chromium-mk02")
 
 RECIPE {
     type = "recipe",
@@ -56,7 +56,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("chromium-mk01"):change_category("screener")
+}:add_unlock("chromium-mk02"):change_category("screener")
 
 RECIPE {
     type = "recipe",
@@ -171,7 +171,7 @@ RECIPE {
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("chromium-mk04")
+}:add_unlock("chromium-mk03")
 
 RECIPE {
     type = "recipe",
@@ -279,7 +279,7 @@ RECIPE {
     main_product = "chromium",
     subgroup = "py-rawores-plates",
     order = "q-2"
-}:add_unlock("chromium-mk02")
+}:add_unlock("chromium-mk03")
 
 --MOLTEN VERSION
 
@@ -355,7 +355,7 @@ RECIPE {
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "sintered-chromium", amount = 1}
+        {type = "item", name = "sintered-chromium", amount = 2}
     },
     main_product = "sintered-chromium",
     subgroup = "py-rawores-chromium",

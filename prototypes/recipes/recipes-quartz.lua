@@ -57,7 +57,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-quartz",
     order = "q-2"
-}:add_unlock("quartz-mk03")
+}:add_unlock("quartz-mk02")
 
 RECIPE {
     type = "recipe",
@@ -78,7 +78,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-quartz",
     order = "q-2"
-}:add_unlock("quartz-mk04")
+}:add_unlock("quartz-mk03")
 
 RECIPE {
     type = "recipe",
@@ -185,7 +185,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-plates",
     order = "j"
-}:add_unlock("quartz-mk03")
+}:add_unlock("quartz-mk02")
 
 RECIPE {
     type = "recipe",
@@ -207,7 +207,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-plates",
     order = "j"
-}:add_unlock("quartz-mk04")
+}:add_unlock("quartz-mk03")
 
 RECIPE {
     type = "recipe",
@@ -230,4 +230,4 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-plates",
     order = "j"
-}:add_unlock("quartz-mk04")
+}:add_unlock("quartz-mk03")

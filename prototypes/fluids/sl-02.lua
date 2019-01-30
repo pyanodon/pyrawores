@@ -15,7 +15,7 @@ RECIPE {
     main_product = "sl-02",
     subgroup = "py-rawores-fluids",
     order = "q-1"
-}:add_unlock("lead-mk04"):change_category('hydrocyclone')
+}:add_unlock("lead-mk03"):change_category('hydrocyclone')
 
 
 FLUID {
