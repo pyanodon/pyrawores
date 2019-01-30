@@ -175,7 +175,7 @@ RECIPE {
     main_product = "reduced-copper",
     subgroup = "py-rawores-copper",
     order = "q-2"
-}:add_unlock("copper-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("copper-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",
@@ -195,7 +195,7 @@ RECIPE {
     main_product = "sintered-copper",
     subgroup = "py-rawores-copper",
     order = "q-2"
-}:add_unlock("copper-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("copper-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",
@@ -236,7 +236,7 @@ RECIPE {
     main_product = "molten-copper",
     subgroup = "py-rawores-molten",
     order = "c"
-}:add_unlock("copper-mk03")
+}:add_unlock("copper-mk04")
 
 RECIPE {
     type = "recipe",
@@ -314,7 +314,7 @@ RECIPE {
     main_product = "copper-plate",
     subgroup = "py-rawores-plates",
     order = "j"
-}:add_unlock("copper-mk03")
+}:add_unlock("copper-mk02")
 
 RECIPE {
     type = "recipe",

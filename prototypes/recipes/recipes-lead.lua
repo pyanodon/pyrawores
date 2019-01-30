@@ -128,7 +128,7 @@ RECIPE {
     main_product = "sl-concentrate",
     subgroup = "py-rawores-lead",
     order = "q-2"
-}:add_unlock("lead-mk04")
+}:add_unlock("lead-mk03")
 
 RECIPE {
     type = "recipe",
@@ -146,7 +146,7 @@ RECIPE {
     main_product = "high-grade-lead",
     subgroup = "py-rawores-lead",
     order = "q-2"
-}:add_unlock("lead-mk04")
+}:add_unlock("lead-mk03")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -264,7 +264,7 @@ RECIPE {
     main_product = "molten-lead",
     subgroup = "py-rawores-molten",
     order = "l"
-}:add_unlock("lead-mk04")
+}:add_unlock("lead-mk03")
 
 RECIPE {
     type = "recipe",

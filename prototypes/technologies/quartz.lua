@@ -7,7 +7,7 @@ TECHNOLOGY {
     prerequisites = {"machines-mk01"},
     effects = {},
     unit = {
-        count = 100,
+        count = 150,
         ingredients = {
             {"science-pack-1", 1},
         },
@@ -27,7 +27,8 @@ TECHNOLOGY {
         count = 100,
         ingredients = {
             {'science-pack-1', 1},
-            {'science-pack-2', 1}
+            {'science-pack-2', 1},
+            {'science-pack-3', 1}
         },
         time = 45
     }
@@ -40,25 +41,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk03','quartz-mk02'},
-    effects = {},
-    unit = {
-        count = 100,
-        ingredients = {
-            {'science-pack-1', 1},
-            {'science-pack-2', 1},
-            {'science-pack-3', 1}
-        },
-        time = 60
-    }
-}
-
-TECHNOLOGY {
-    type = 'technology',
-    name = 'quartz-mk04',
-    icon = '__pyrawores__/graphics/technology/quartz-4.png',
-    icon_size = 128,
-    order = 'c-a',
-    prerequisites = {'machines-mk04','quartz-mk03'},
     effects = {},
     unit = {
         count = 100,

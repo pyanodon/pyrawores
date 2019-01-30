@@ -15,7 +15,7 @@ RECIPE {
     main_product = "iron-pulp-04",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("iron-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("iron-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
 FLUID {
     type = "fluid",

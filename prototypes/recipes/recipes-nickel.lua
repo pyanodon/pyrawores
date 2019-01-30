@@ -38,7 +38,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-nickel",
     order = "q-2"
-}:add_unlock("nickel-mk01"):change_category("screener")
+}:add_unlock("nickel-mk02"):change_category("screener")
 
 RECIPE {
     type = "recipe",
@@ -57,7 +57,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-nickel",
     order = "q-2"
-}:add_unlock("nickel-mk01"):change_category("secondary-crusher")
+}:add_unlock("nickel-mk02"):change_category("secondary-crusher")
 
 RECIPE {
     type = "recipe",
@@ -75,7 +75,7 @@ RECIPE {
     main_product = "grade-1-nickel",
     subgroup = "py-rawores-nickel",
     order = "q-2"
-}:add_unlock("nickel-mk01")
+}:add_unlock("nickel-mk02")
 
 RECIPE {
     type = "recipe",
@@ -110,7 +110,7 @@ RECIPE {
     main_product = "high-grade-nickel",
     subgroup = "py-rawores-nickel",
     order = "q-2"
-}:add_unlock("nickel-mk04")
+}:add_unlock("nickel-mk03")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -251,7 +251,7 @@ RECIPE {
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
     order = "n"
-}:add_unlock("nickel-mk04")
+}:add_unlock("nickel-mk03")
 
 RECIPE {
     type = "recipe",
@@ -270,7 +270,7 @@ RECIPE {
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
     order = "n"
-}:add_unlock("nickel-mk04")
+}:add_unlock("nickel-mk03")
 
 RECIPE {
     type = "recipe",
@@ -358,7 +358,7 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "grade-3-nickel", amount = 2}
+        {type = "item", name = "grade-1-nickel", amount = 2}
     },
     results = {
         {type = "item", name = "nickel-plate", amount = 3}

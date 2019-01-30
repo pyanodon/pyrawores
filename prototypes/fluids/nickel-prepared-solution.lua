@@ -16,7 +16,7 @@ RECIPE {
     main_product = "nickel-prepared-solution",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("nickel-mk04")
+}:add_unlock("nickel-mk03")
 
 
 FLUID {

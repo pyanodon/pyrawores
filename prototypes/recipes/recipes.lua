@@ -571,6 +571,23 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
+    name = 'sodium-sulfate-1',
+    category = 'chemistry',
+    enabled = 'false',
+    energy_required = 4,
+    ingredients = {
+        {type = 'item', name = 'sodium-hydroxide', amount = 10},
+        {type = 'fluid', name = 'sulfuric-acid', amount = 50},
+    },
+    results = {
+        {type = 'item', name = 'sodium-sulfate', amount = 1},
+        {type = 'fluid', name = 'water', amount = 50},
+    },
+    main_product = "sodium-sulfate",
+}:add_unlock("sulfur-processing")
+
+RECIPE {
+    type = 'recipe',
     name = 'ammo-initial',
     category = 'handcrafting',
     enabled = true,

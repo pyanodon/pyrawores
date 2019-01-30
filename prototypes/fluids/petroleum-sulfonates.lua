@@ -18,7 +18,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "q-1"
-}:add_unlock("iron-mk04")
+}:add_unlock("machines-mk03")
 
 
 FLUID {

@@ -24,9 +24,9 @@ ITEM("copper-cable"):set("icon", "__pyrawores__/graphics/icons/copper-cable.png"
 
 --RECIPES UPDATES
 
-RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore", amount = 10}):set_fields {energy_required = 15}
+RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore", amount = 8}):set_fields {energy_required = 10}
 RECIPE("steel-plate"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "iron-plate", amount = 10}):set_fields {energy_required = 15}
-RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient({type = "item", name = "copper-ore", amount = 10}):set_fields {energy_required = 15}
+RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient({type = "item", name = "copper-ore", amount = 8}):set_fields {energy_required = 10}
 RECIPE("electronic-circuit"):set_fields {energy_required = 4}
 RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "solder", amount = 2})
 RECIPE("processing-unit"):add_ingredient({type = "item", name = "solder", amount = 3})
@@ -57,8 +57,6 @@ RECIPE("laser-turret"):replace_ingredient("steel-plate", "duralumin")
 RECIPE("engine-unit"):replace_ingredient("steel-plate", "aluminium-plate")
 RECIPE("electric-engine-unit"):add_ingredient({type = "item", name = "duralumin", amount = 5})
 RECIPE("pumpjack"):add_ingredient({type = "item", name = "duralumin", amount = 10}):replace_ingredient("pipe", "niobium-pipe")
-
-RECIPE("gun-turret"):add_ingredient({type = "item", name = "duralumin", amount = 2})
 
 RECIPE("battery"):replace_ingredient("iron-plate", "zinc-plate")
 RECIPE("oil-refinery"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("steel-plate", "stainless-steel")
