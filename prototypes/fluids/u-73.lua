@@ -3,7 +3,7 @@ RECIPE {
     name = "u-73",
     category = "chemistry", --mixer
     enabled = false,
-    energy_required = 4,
+    energy_required = 3,
     ingredients = {
         {type = "fluid", name = "u-70", amount = 100},
         {type = "item", name = "steel-plate", amount = 5}

@@ -146,7 +146,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "coal-gas", amount = 40},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 60},
         {type = "fluid", name = "water", amount = 100}
     },
     results = {

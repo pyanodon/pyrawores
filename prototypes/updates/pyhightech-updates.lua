@@ -1,6 +1,6 @@
 RECIPE("al-pulp-01"):replace_ingredient("boric-acid", "phosphoric-acid")
 RECIPE("powdered-ralesia-seeds"):change_category("pulp")
-RECIPE("glass-fiber"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1})
+RECIPE("glass-fiber"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1}):add_ingredient({type = "item", name = "glass", amount = 10})
 RECIPE("phosphate-glass"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1}):replace_ingredient("glass-fiber", "crushed-quartz")
 RECIPE("nexelit-matrix"):replace_ingredient("wood", "epoxy")
 RECIPE("rayon"):add_ingredient({type = "item", name = "sodium-carbonate", amount = 5})
@@ -38,7 +38,7 @@ RECIPE("lithium-niobate"):replace_ingredient("chromium", "lithium-chloride")
 RECIPE("syngas-methane"):replace_ingredient("niobium-plate", "nickel-plate")
 RECIPE("methane-methanal"):replace_ingredient("water", "oxygen")
 RECIPE("paramagnetic-material"):replace_ingredient("iron-plate", "aluminium-plate")
-RECIPE("valve"):add_ingredient({type = "item", name = "glass", amount = 1})
+RECIPE("valve"):add_ingredient({type = "item", name = "glass", amount = 2})
 RECIPE("pcb2"):add_ingredient({type = "item", name = "tin-plate", amount = 5})
 RECIPE("pcb3"):add_ingredient({type = "item", name = "tin-plate", amount = 5})
 RECIPE("pcb4"):add_ingredient({type = "item", name = "lead-plate", amount = 5})
@@ -60,8 +60,8 @@ RECIPE("superconductor"):add_ingredient({type = "item", name = "gold-plate", amo
 RECIPE("nanocrystaline-core"):add_ingredient({type = "item", name = "gold-plate", amount = 2})
 RECIPE("supercapacitor-core"):add_ingredient({type = "item", name = "silver-plate", amount = 2})
 RECIPE("glycerol2"):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 5})
-RECIPE("nems"):add_ingredient({type = "item", name = "glass", amount = 4})
-RECIPE("volumetric-capacitor"):add_ingredient({type = "item", name = "glass", amount = 5})
+RECIPE("nems"):add_ingredient({type = "item", name = "glass", amount = 10})
+RECIPE("volumetric-capacitor"):add_ingredient({type = "item", name = "glass", amount = 10})
 RECIPE("yag-laser-module"):add_ingredient({type = "item", name = "aluminium-plate", amount = 3})
 RECIPE("diamagnetic-material"):add_ingredient({type = "item", name = "lead-plate", amount = 2})
 RECIPE("black-liquor"):add_ingredient({type = "fluid", name = "oxygen", amount = 100})
@@ -70,7 +70,9 @@ RECIPE("intelligent-unit"):add_ingredient({type = "item", name = "solder", amoun
 RECIPE("molten-super-steel"):add_ingredient({type = "item", name = "silicon", amount = 2})
 RECIPE("construction-robot-ht"):add_ingredient({type = "item", name = "super-alloy", amount = 2})
 RECIPE("logistic-robot-ht"):add_ingredient({type = "item", name = "super-alloy", amount = 2})
-RECIPE("moondrop-greenhouse"):add_ingredient({type = "item", name = "glass", amount = 20})
+RECIPE("moondrop-greenhouse"):add_ingredient({type = "item", name = "glass", amount = 40})
+RECIPE("ech"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 150})
+RECIPE("nylon2"):replace_ingredient("sulfuric-acid", "chlorine")
 
 
 
@@ -606,7 +608,7 @@ RECIPE {
         {type = "item", name = "ppd", amount = 6},
         {type = "item", name = "sub-denier-microfiber", amount = 1},
         {type = "item", name = "aluminium-plate", amount = 5},
-        {type = "fluid", name = "sulfuric-acid", amount = 100}
+        {type = "fluid", name = "chlorine", amount = 200}
     },
     results = {
         {type = "item", name = "aramid", amount = 20}

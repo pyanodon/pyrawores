@@ -228,7 +228,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "reduced-copper", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50}
+        {type = "fluid", name = "oxygen", amount = 60}
     },
     results = {
         {type = "fluid", name = "molten-copper", amount = 60}
@@ -247,7 +247,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "sintered-copper", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50}
+        {type = "fluid", name = "oxygen", amount = 60}
     },
     results = {
         {type = "fluid", name = "molten-copper", amount = 40}
@@ -266,7 +266,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-copper", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50}
+        {type = "fluid", name = "oxygen", amount = 60}
     },
     results = {
         {type = "fluid", name = "molten-copper", amount = 50}
@@ -285,10 +285,10 @@ RECIPE {
     ingredients = {
         {type = "item", name = "grade-4-copper", amount = 3},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50}
+        {type = "fluid", name = "oxygen", amount = 60}
     },
     results = {
-        {type = "fluid", name = "molten-copper", amount = 15}
+        {type = "fluid", name = "molten-copper", amount = 21}
     },
     main_product = "molten-copper",
     subgroup = "py-rawores-molten",
@@ -321,12 +321,12 @@ RECIPE {
     name = "copper-plate-4",
     category = "casting",
     enabled = false,
-    energy_required = 4,
+    energy_required = 6,
     ingredients = {
-        {type = "item", name = "grade-2-copper", amount = 3}
+        {type = "item", name = "grade-2-copper", amount = 5}
     },
     results = {
-        {type = "item", name = "copper-plate", amount = 1}
+        {type = "item", name = "copper-plate", amount = 2}
     },
     main_product = "copper-plate",
     subgroup = "py-rawores-plates",

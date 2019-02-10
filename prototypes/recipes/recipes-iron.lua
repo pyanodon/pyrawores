@@ -274,7 +274,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "processed-iron-ore", amount = 5},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 10},
@@ -293,7 +293,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "unslimed-iron", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 90},
@@ -312,7 +312,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-iron", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 150},
@@ -332,7 +332,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "reduced-iron", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 200},
@@ -351,7 +351,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "sintered-iron", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 150},

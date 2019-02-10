@@ -49,7 +49,7 @@ RECIPE("optical-fiber"):remove_ingredient("plastic-bar"):add_ingredient({type = 
 
 RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
 RECIPE("olefin"):replace_ingredient("water", "hydrogen")
-RECIPE("flask"):replace_ingredient("iron-plate", "glass")
+RECIPE("flask"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "glass", amount = 10})
 RECIPE("ref-to-light-oil"):add_ingredient({type = "fluid", name = "hydrogen", amount = 250})
 RECIPE("olefin-combustion"):replace_ingredient("water", "hydrogen")
 RECIPE("niobium-oxide"):replace_ingredient("water", "nitrogen")
@@ -215,7 +215,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "coal-gas", amount = 40},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 60},
         {type = "fluid", name = "water", amount = 100}
     },
     results = {

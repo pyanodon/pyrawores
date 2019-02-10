@@ -3,12 +3,12 @@ RECIPE {
     name = "u-40",
     category = "hydroclassifier",
     enabled = false,
-    energy_required = 4,
+    energy_required = 3,
     ingredients = {
         {type = "fluid", name = "u-45", amount = 100},
     },
     results = {
-        {type = "fluid", name = "u-40", amount = 50},
+        {type = "fluid", name = "u-40", amount = 100},
         {type = "fluid", name = "u-50", amount = 50},
     },
     main_product = "u-40",

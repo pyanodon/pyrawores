@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.10
+Date: ??????
+  Balances:
+    - Wagons now use titanium.
+    - Balanced zinc-iron consuption.
+    - Balanced copper chains.
+    - Fixed uranium chain.
+    - Recalculated oxygen consuption.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.9
 Date: ??????
   Balances:

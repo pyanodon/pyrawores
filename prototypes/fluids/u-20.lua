@@ -3,13 +3,13 @@ RECIPE {
     name = "u-20",
     category = "hydroclassifier",
     enabled = false,
-    energy_required = 4,
+    energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "u-30", amount = 100},
+        {type = "fluid", name = "u-30", amount = 50},
     },
     results = {
         {type = "fluid", name = "u-20", amount = 50},
-        {type = "fluid", name = "u-25", amount = 50},
+        {type = "fluid", name = "u-25", amount = 25},
     },
     main_product = "u-20",
     subgroup = "py-rawores-fluids",

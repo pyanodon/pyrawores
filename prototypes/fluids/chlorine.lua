@@ -10,7 +10,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "chlorine", amount = 20},
         {type = "fluid", name = "hydrogen", amount = 20},
-        {type = "item", name = "sodium-hydroxide", amount = 4}
+        {type = "item", name = "sodium-hydroxide", amount = 2}
     },
     --main_product = "chlorine",
     icon = "__pyrawores__/graphics/icons/water-saline-electrolyzer.png",
