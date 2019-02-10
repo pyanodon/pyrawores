@@ -72,7 +72,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "lead-refined-dust-03", amount = 2},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-silver", amount = 10},
@@ -91,7 +91,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-silver", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-silver", amount = 25},
@@ -110,7 +110,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "reduced-silver", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-silver", amount = 50},
@@ -129,7 +129,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "sintered-silver", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-silver", amount = 100},

@@ -3,7 +3,7 @@ RECIPE {
     name = "u-15",
     category = "hydroclassifier",
     enabled = false,
-    energy_required = 4,
+    energy_required = 3,
     ingredients = {
         {type = "fluid", name = "u-20", amount = 50},
         {type = "fluid", name = "water", amount = 200},
@@ -22,9 +22,9 @@ RECIPE {
     name = "u-15-2",
     category = "chemistry", --thickener
     enabled = false,
-    energy_required = 4,
+    energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "u-23", amount = 100},
+        {type = "fluid", name = "u-23", amount = 50},
         {type = "fluid", name = "water", amount = 200},
     },
     results = {

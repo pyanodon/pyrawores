@@ -9,7 +9,7 @@ RECIPE {
         {type = "fluid", name = "u-15", amount = 50}
     },
     results = {
-        {type = "fluid", name = "u-25", amount = 50},
+        {type = "fluid", name = "u-25", amount = 25},
         {type = "fluid", name = "u-23", amount = 50}
     },
     main_product = "u-23",

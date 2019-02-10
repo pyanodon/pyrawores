@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "ore-zinc", amount = 5},
-        {type = "item", name = "iron-stick", amount = 10}
+        {type = "item", name = "iron-stick", amount = 5}
     },
     results = {
         {type = "item", name = "grade-1-zinc", amount = 1},
@@ -221,7 +221,6 @@ RECIPE {
     ingredients = {
         {type = "item", name = "grade-3-zinc", amount = 4},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3},
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
@@ -241,7 +240,6 @@ RECIPE {
     ingredients = {
         {type = "item", name = "concentrated-zinc", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3},
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
@@ -261,7 +259,6 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-zinc", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3},
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
@@ -281,7 +278,6 @@ RECIPE {
     ingredients = {
         {type = "item", name = "reduced-zinc", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3},
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
@@ -301,7 +297,6 @@ RECIPE {
     ingredients = {
         {type = "item", name = "sintered-zinc", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3},
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
@@ -322,7 +317,8 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-zinc", amount = 100},
-        {type = "item", name = "sand-casting", amount = 1}
+        {type = "item", name = "sand-casting", amount = 1},
+        {type = "item", name = "borax", amount = 2}
     },
     results = {
         {type = "item", name = "zinc-plate", amount = 25}

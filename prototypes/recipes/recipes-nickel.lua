@@ -204,7 +204,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "grade-4-nickel", amount = 2},
-        {type = "fluid", name = "oxygen", amount = 50},
+        {type = "fluid", name = "oxygen", amount = 60},
         {type = "item", name = "borax", amount = 3}
     },
     results = {
@@ -224,7 +224,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "nickel-pulp-01", amount = 100},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50}
+        {type = "fluid", name = "oxygen", amount = 60}
     },
     results = {
         {type = "fluid", name = "molten-nickel", amount = 40}
@@ -243,7 +243,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "nickel-pulp-04", amount = 100},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50}
+        {type = "fluid", name = "oxygen", amount = 60}
     },
     results = {
         {type = "fluid", name = "molten-nickel", amount = 100}
@@ -262,7 +262,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-nickel", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50}
+        {type = "fluid", name = "oxygen", amount = 60}
     },
     results = {
         {type = "fluid", name = "molten-nickel", amount = 125}
@@ -281,7 +281,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "reduced-nickel", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50}
+        {type = "fluid", name = "oxygen", amount = 60}
     },
     results = {
         {type = "fluid", name = "molten-nickel", amount = 170}
@@ -300,7 +300,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "sintered-nickel", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 50}
+        {type = "fluid", name = "oxygen", amount = 60}
     },
     results = {
         {type = "fluid", name = "molten-nickel", amount = 150}

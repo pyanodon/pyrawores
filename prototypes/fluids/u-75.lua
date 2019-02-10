@@ -3,7 +3,7 @@ RECIPE {
     name = "u-75",
     category = "carbonfilter",
     enabled = false,
-    energy_required = 4,
+    energy_required = 3,
     ingredients = {
         {type = "fluid", name = "u-73", amount = 100},
         {type = "item", name = "filtration-media", amount = 1}

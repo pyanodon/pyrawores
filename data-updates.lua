@@ -74,8 +74,8 @@ RECIPE("stack-inserter"):add_ingredient({type = "item", name = "duralumin", amou
 RECIPE("assembling-machine-3"):add_ingredient({type = "item", name = "stainless-steel", amount = 10})
 RECIPE("assembling-machine-2"):replace_ingredient("iron-plate", "chromium"):add_ingredient({type = "item", name = "duralumin", amount = 5})
 RECIPE("locomotive"):add_ingredient({type = "item", name = "duralumin", amount = 25})
-RECIPE("cargo-wagon"):add_ingredient({type = "item", name = "duralumin", amount = 25})
-RECIPE("fluid-wagon"):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
+RECIPE("cargo-wagon"):add_ingredient({type = "item", name = "titanium-plate", amount = 50})
+RECIPE("fluid-wagon"):add_ingredient({type = "item", name = "titanium-plate", amount = 50})
 RECIPE("artillery-wagon"):replace_ingredient("steel-plate", "super-steel"):replace_ingredient("pipe", "niobium-pipe")
 RECIPE("flying-robot-frame"):add_ingredient({type = "item", name = "duralumin", amount = 5})
 RECIPE("substation"):replace_ingredient("copper-plate", "super-steel")
@@ -139,6 +139,10 @@ RECIPE("construction-robot-ht"):replace_ingredient("construction-robot", "py-con
 RECIPE("logistic-robot-ht"):replace_ingredient("logistic-robot", "py-logistic-robot-02")
 RECIPE("py-burner"):remove_ingredient("steel-furnace"):add_ingredient({type = "item", name = "titanium-plate", amount = 20})
 TECHNOLOGY("py-burner"):remove_prereq("coal-processing-2"):add_prereq("coal-processing-1")
+
+TECHNOLOGY("oil-processing"):remove_prereq("steel-processing"):add_prereq("iron-mk02")
+TECHNOLOGY("desulfurization"):remove_prereq("sulfur-processing")
+TECHNOLOGY("sulfur-processing"):remove_prereq("oil-processing"):add_prereq("coal-processing-1")
 
 RECIPE('pressured-air'):remove_unlock('semiconductor-doping')
 
