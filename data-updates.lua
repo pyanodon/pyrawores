@@ -144,7 +144,6 @@ TECHNOLOGY("oil-processing"):remove_prereq("steel-processing"):add_prereq("iron-
 TECHNOLOGY("desulfurization"):remove_prereq("sulfur-processing")
 TECHNOLOGY("sulfur-processing"):remove_prereq("oil-processing"):add_prereq("coal-processing-1")
 
-RECIPE('pressured-air'):remove_unlock('semiconductor-doping')
 
 data.raw.item["coal"].stack_size = 500
 data.raw.item["iron-ore"].stack_size = 500

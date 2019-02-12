@@ -65,7 +65,7 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "item", name = "salt", amount = 15},
+        {type = "item", name = "salt", amount = 10},
         {type = "fluid", name = "water", amount = 100},
     },
     results = {
@@ -108,7 +108,7 @@ RECIPE {
         {type = "fluid", name = "water-saline", amount = 100}
     },
     results = {
-        {type = "item", name = "salt", amount = 1, probability = 0.5}
+        {type = "item", name = "salt", amount = 10}
     },
     main_product = "salt",
     subgroup = "py-items",

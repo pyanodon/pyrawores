@@ -8,7 +8,7 @@ RECIPE("olefin"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("gasoline"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("pressured-air"):set_fields {energy_required = 1}
 
-RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('coal-processing-1')
+--RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('coal-processing-1')
 
 RECIPE("steam-heating"):remove_ingredient("fuelrod-mk01"):add_ingredient({type = "item", name = "fuelrod-mk01", amount = 1})
 RECIPE("hydrocyclone"):replace_ingredient("centrifuge", "classifier")
