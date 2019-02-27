@@ -203,12 +203,12 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-4-nickel", amount = 2},
+        {type = "item", name = "grade-4-nickel", amount = 3},
         {type = "fluid", name = "oxygen", amount = 60},
         {type = "item", name = "borax", amount = 3}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 25}
+        {type = "fluid", name = "molten-nickel", amount = 50}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -358,10 +358,10 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "grade-1-nickel", amount = 2}
+        {type = "item", name = "grade-1-nickel", amount = 1}
     },
     results = {
-        {type = "item", name = "nickel-plate", amount = 3}
+        {type = "item", name = "nickel-plate", amount = 1}
     },
     --main_product= "glass",
     subgroup = "py-rawores-plates",

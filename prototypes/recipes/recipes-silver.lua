@@ -94,7 +94,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
-        {type = "fluid", name = "molten-silver", amount = 25},
+        {type = "fluid", name = "molten-silver", amount = 200},
     },
     main_product = "molten-silver",
     subgroup = "py-rawores-molten",
@@ -113,7 +113,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
-        {type = "fluid", name = "molten-silver", amount = 50},
+        {type = "fluid", name = "molten-silver", amount = 260},
     },
     main_product = "molten-silver",
     subgroup = "py-rawores-molten",
@@ -132,7 +132,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
-        {type = "fluid", name = "molten-silver", amount = 100},
+        {type = "fluid", name = "molten-silver", amount = 300},
     },
     main_product = "molten-silver",
     subgroup = "py-rawores-molten",

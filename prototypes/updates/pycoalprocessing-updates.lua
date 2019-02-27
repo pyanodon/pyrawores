@@ -195,8 +195,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "carbon-dioxide", amount = 30},
         {type = "fluid", name = "hydrogen", amount = 50},
-        {type = "item", name = "zinc-plate", amount = 1},
-        {type = "item", name = "nichrome", amount = 2}
+        {type = "item", name = "nichrome", amount = 1}
     },
     results = {
         {type = "fluid", name = "methanol", amount = 40}
