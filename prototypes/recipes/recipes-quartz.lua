@@ -90,7 +90,7 @@ RECIPE {
         {type = "item", name = "sand", amount = 20}
     },
     results = {
-        {type = "item", name = "iron-oxide", amount = 2},
+        {type = "item", name = "iron-oxide", amount = 1, probability = 0.5},
         {type = "item", name = "gravel", amount = 4},
         {type = "item", name = "crushed-quartz", amount = 2}
     },

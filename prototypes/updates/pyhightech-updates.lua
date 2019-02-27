@@ -4,6 +4,7 @@ RECIPE("glass-fiber"):add_ingredient({type = "item", name = "sodium-sulfate", am
 RECIPE("phosphate-glass"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1}):replace_ingredient("glass-fiber", "crushed-quartz")
 RECIPE("nexelit-matrix"):replace_ingredient("wood", "epoxy")
 RECIPE("rayon"):add_ingredient({type = "item", name = "sodium-carbonate", amount = 5})
+RECIPE("propene"):replace_ingredient("iron-plate", "lead-plate")
 RECIPE("fiberboard"):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 3})
 RECIPE("micro-fiber"):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 3})
 RECIPE("phenolicboard"):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 3})

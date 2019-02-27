@@ -119,27 +119,6 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "methanol-from-hydrogen",
-    category = "methanol",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "fluid", name = "carbon-dioxide", amount = 30},
-        {type = "fluid", name = "hydrogen", amount = 50},
-        --{type = "item", name = "zinc-plate", amount = 1},
-        {type = "item", name = "nichrome", amount = 2}
-    },
-    results = {
-        {type = "fluid", name = "methanol", amount = 40}
-    },
-    subgroup = "py-methanol",
-    icon = "__pycoalprocessing__/graphics/icons/methanol.png",
-    icon_size = 32,
-    order = "b"
-}:add_unlock("methanol-processing-2")
-
-RECIPE {
-    type = "recipe",
     name = "syngas2",
     category = "gasifier",
     enabled = false,
