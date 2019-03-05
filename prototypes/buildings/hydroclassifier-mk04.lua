@@ -20,7 +20,7 @@ ITEM {
     name = "hydroclassifier-mk04",
     icon = "__pyrawores__/graphics/icons/hydroclassifier-mk04.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-buildings-mk04",
     order = "f",
     place_result = "hydroclassifier-mk04",

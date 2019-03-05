@@ -19,7 +19,7 @@ ITEM {
     name = "drp",
     icon = "__pyrawores__/graphics/icons/drp.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-buildings-others",
     order = "a",
     place_result = "drp",

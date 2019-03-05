@@ -22,7 +22,7 @@ ITEM {
     name = "aluminium-mine",
     icon = "__pyrawores__/graphics/icons/mega-aluminium.png",
 	icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-mines",
     order = "a",
     place_result = "aluminium-mine",

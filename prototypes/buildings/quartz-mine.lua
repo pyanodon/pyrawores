@@ -22,7 +22,7 @@ ITEM {
     name = "quartz-mine",
     icon = "__pyrawores__/graphics/icons/mega-quartz.png",
 	icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-mines",
     order = "a",
     place_result = "quartz-mine",

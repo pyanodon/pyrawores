@@ -5,9 +5,9 @@ RECIPE('acetylene'):remove_unlock('coal-processing-2'):add_unlock('coal-processi
 RECIPE('calcium-carbide'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1')
 RECIPE('lime'):remove_unlock('separation'):add_unlock('coal-processing-1')
 RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01'):remove_ingredient('chemical-plant')
-TECHNOLOGY('engine'):remove_pack('science-pack-2')
-TECHNOLOGY('crusher'):remove_pack('science-pack-2'):remove_prereq('coal-processing-2'):add_prereq('aluminium-mk01')
-TECHNOLOGY('excavation-1'):remove_pack('science-pack-3'):remove_prereq('coal-processing-3'):add_prereq('coal-processing-2')
+TECHNOLOGY('engine'):remove_pack('logistic-science-pack')
+TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-processing-2'):add_prereq('aluminium-mk01')
+TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):add_prereq('coal-processing-2')
 
 
 RECIPE("boric-acid"):change_category('electrolyzer')
@@ -27,7 +27,7 @@ RECIPE("ppd"):replace_ingredient("water", "hydrogen"):change_category('electroly
 RECIPE("aromatics2"):replace_ingredient("water", "hydrogen")
 RECIPE("niobium-complex"):replace_ingredient("water", "hydrogen-chloride")
 RECIPE("tpa"):replace_ingredient("copper-ore", "nichrome")
-RECIPE("science-pack-3"):replace_ingredient("copper-cable", "tinned-cable")
+RECIPE("chemical-science-pack"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("tailings-classification"):replace_ingredient("copper-ore", "lead-ore") --result
 RECIPE("tailings-classification"):replace_ingredient("iron-ore", "tin-ore") --result
 RECIPE("niobium-plate"):replace_ingredient("coal", "salt"):change_category('electrolyzer')
