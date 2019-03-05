@@ -21,7 +21,7 @@ ITEM {
     name = "flotation-cell-mk03",
     icon = "__pyrawores__/graphics/icons/flotation-cell-mk03.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-buildings-mk03",
     order = "e",
     place_result = "flotation-cell-mk03",

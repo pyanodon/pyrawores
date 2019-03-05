@@ -20,7 +20,7 @@ ITEM {
     name = "eaf-mk03",
     icon = "__pyrawores__/graphics/icons/eaf-mk03.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-buildings-mk03",
     order = "c",
     place_result = "eaf-mk03",
