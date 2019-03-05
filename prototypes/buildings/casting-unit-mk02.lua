@@ -20,7 +20,7 @@ ITEM {
     name = "casting-unit-mk02",
     icon = "__pyrawores__/graphics/icons/casting-unit-mk02.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-buildings-mk02",
     order = "b",
     place_result = "casting-unit-mk02",

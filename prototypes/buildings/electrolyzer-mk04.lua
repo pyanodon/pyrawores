@@ -20,7 +20,7 @@ ITEM {
     name = "electrolyzer-mk04",
     icon = "__pyrawores__/graphics/icons/electrolyzer-mk04.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-buildings-mk04",
     order = "d",
     place_result = "electrolyzer-mk04",

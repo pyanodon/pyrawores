@@ -21,7 +21,7 @@ ITEM {
     name = "nexelit-mine",
     icon = "__pyrawores__/graphics/icons/mega-nexelit.png",
 	icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-mines",
     order = "a",
     place_result = "nexelit-mine",

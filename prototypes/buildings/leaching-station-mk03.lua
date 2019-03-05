@@ -21,7 +21,7 @@ ITEM {
     name = "leaching-station-mk03",
     icon = "__pyrawores__/graphics/icons/leaching-station-mk03.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-buildings-mk03",
     order = "g",
     place_result = "leaching-station-mk03",

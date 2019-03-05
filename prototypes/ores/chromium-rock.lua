@@ -67,7 +67,7 @@ DATA {
             filename = "__pyrawores__/graphics/entity/ores/chromium/chromium-mine-place.png",
             priority = "extra-high",
             width = 292,
-            height = 292,
+            height = 210,
             frame_count = 1,
             variation_count = 1,
             shift = util.by_pixel(0, 0)

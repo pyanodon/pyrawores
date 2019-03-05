@@ -21,7 +21,7 @@ ITEM {
     name = "wet-scrubber-mk02",
     icon = "__pyrawores__/graphics/icons/wet-scrubber-mk02.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-buildings-mk02",
     order = "g",
     place_result = "wet-scrubber-mk02",
@@ -59,7 +59,7 @@ ENTITY {
             {
                 filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/wet-scrubber-base-mk02.png",
                 --priority = "high",
-                width = 194,
+                width = 192,
                 height = 224,
                 --line_length = 10,
                 frame_count = 1,
@@ -69,7 +69,7 @@ ENTITY {
             {
                 filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/top-off-mk02.png",
                 --priority = "high",
-                width = 194,
+                width = 192,
                 height = 128,
                 --line_length = 10,
                 frame_count = 1,

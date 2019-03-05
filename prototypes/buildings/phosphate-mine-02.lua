@@ -21,7 +21,7 @@ ITEM {
     name = "phosphate-mine-02",
     icon = "__pyrawores__/graphics/icons/mega-phosphate.png",
 	icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-mines",
     order = "a",
     place_result = "phosphate-mine-02",
