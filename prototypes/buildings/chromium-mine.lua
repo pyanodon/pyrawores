@@ -58,7 +58,7 @@ ENTITY {
       emissions = 0.1 / 3,
     },
     energy_usage = "2000kW",
-    mining_power = 3,
+    mining_speed = 10,
     resource_searching_radius = 0.49,
     vector_to_place_result = {0, -5.65},
     radius_visualisation_picture = {
