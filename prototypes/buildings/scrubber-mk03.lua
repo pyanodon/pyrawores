@@ -20,7 +20,7 @@ ITEM {
     name = "scrubber-mk03",
     icon = "__pyrawores__/graphics/icons/scrubber-mk03.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-buildings-mk03",
     order = "g",
     place_result = "scrubber-mk03",

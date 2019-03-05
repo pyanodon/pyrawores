@@ -19,7 +19,7 @@ ITEM {
     name = "bof-mk01",
     icon = "__pyrawores__/graphics/icons/bof-mk01.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-buildings-mk01",
     order = "a",
     place_result = "bof-mk01",

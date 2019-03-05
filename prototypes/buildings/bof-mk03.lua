@@ -21,7 +21,7 @@ ITEM {
     name = "bof-mk03",
     icon = "__pyrawores__/graphics/icons/bof-mk03.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-buildings-mk03",
     order = "a",
     place_result = "bof-mk03",

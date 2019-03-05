@@ -25,7 +25,7 @@ ITEM {
     name = 'py-logistic-robot-02',
     icon = '__pyrawores__/graphics/icons/py-logistic-robot-02.png',
     icon_size = 32,
-    flags = {'goes-to-quickbar'},
+    flags = {},
     subgroup = 'py-unsorted',
     order = 'c',
     place_result = 'py-logistic-robot-02',

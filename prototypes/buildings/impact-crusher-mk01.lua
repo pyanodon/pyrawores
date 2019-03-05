@@ -20,7 +20,7 @@ ITEM {
     name = "impact-crusher-mk01",
     icon = "__pyrawores__/graphics/icons/impact-crusher-mk01.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-buildings-mk01",
     order = "g",
     place_result = "impact-crusher-mk01",

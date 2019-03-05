@@ -85,7 +85,7 @@ RECIPE("steam-turbine"):add_ingredient({type = "item", name = "super-steel", amo
 RECIPE("solar-panel"):add_ingredient({type = "item", name = "pyrite", amount = 5})
 
 RECIPE("advanced-circuit"):replace_ingredient("copper-cable", "tinned-cable")
-RECIPE("high-tech-science-pack"):replace_ingredient("copper-cable", "tinned-cable")
+RECIPE("utility-science-pack"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("red-wire"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("green-wire"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("beacon"):replace_ingredient("copper-cable", "tinned-cable")
@@ -156,7 +156,7 @@ data.raw.item["steel-plate"].stack_size = 500
 data.raw.item["stone-brick"].stack_size = 500
 data.raw.item["iron-gear-wheel"].stack_size = 500
 data.raw.item["wood"].stack_size = 500
-data.raw.item["raw-wood"].stack_size = 500
+--data.raw.item["raw-wood"].stack_size = 500
 
 local default = setmetatable({}, require("stdlib/utils/classes/string_array"))
 for _, player in DATA:pairs('player') do

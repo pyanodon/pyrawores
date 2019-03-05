@@ -22,7 +22,7 @@ ITEM {
     name = "nickel-mine",
     icon = "__pyrawores__/graphics/icons/mega-nickel.png",
 	icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-mines",
     order = "a",
     place_result = "nickel-mine",

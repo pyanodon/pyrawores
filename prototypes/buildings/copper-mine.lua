@@ -22,7 +22,7 @@ ITEM {
     name = "copper-mine",
     icon = "__pyrawores__/graphics/icons/mega-copper.png",
 	icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-rawores-mines",
     order = "a",
     place_result = "copper-mine",
@@ -154,7 +154,7 @@ ENTITY {
             },
             {
                 filename = "__pyrawores__/graphics/entity/copper-mine/s5.png",
-                width = 32,
+                width = 31,
                 height = 363,
                 line_length = 20,
                 frame_count = 80,

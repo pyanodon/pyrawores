@@ -1,6 +1,6 @@
 TECHNOLOGY("helium-processing"):remove_pack("production-science-pack")
-TECHNOLOGY("advanced-mining-facilities"):remove_pack("science-pack-3"):remove_prereq("diamond-mining"):add_prereq("iron-mk02")
-TECHNOLOGY("molybdenum-processing"):remove_pack("science-pack-3"):remove_prereq("advanced-mining-facilities"):remove_prereq("fusion-mk01"):add_prereq("iron-mk02")
+TECHNOLOGY("advanced-mining-facilities"):remove_pack("chemical-science-pack"):remove_prereq("diamond-mining"):add_prereq("iron-mk02")
+TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_prereq("advanced-mining-facilities"):remove_prereq("fusion-mk01"):add_prereq("iron-mk02")
 
 RECIPE("compressor"):remove_unlock("regolite-mining"):add_unlock("machines-mk02")
 RECIPE("olefin-plant"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
