@@ -3,7 +3,7 @@ RECIPE {
     name = "nexelit-pulp-01",
     category = "chemistry", --pyfe pan
     enabled = false,
-    energy_required = 4,
+    energy_required = 2,
     ingredients = {
         {type = "item", name = "fine-nexelit-powder", amount = 1},
         {type = "fluid", name = "glycerol", amount = 50},
