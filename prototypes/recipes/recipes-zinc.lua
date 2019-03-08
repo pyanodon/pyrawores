@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "ore-zinc", amount = 5},
-        {type = "item", name = "iron-stick", amount = 5}
+        {type = "item", name = "iron-stick", amount = 3}
     },
     results = {
         {type = "item", name = "grade-1-zinc", amount = 1},
