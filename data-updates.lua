@@ -1,4 +1,4 @@
-require("stdlib/data/data").create_data_globals()
+require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 
 if mods["pyfusionenergy"] then
     require("prototypes/updates/pyfusionenergy-updates")
@@ -159,7 +159,7 @@ data.raw.item["iron-gear-wheel"].stack_size = 500
 data.raw.item["wood"].stack_size = 500
 --data.raw.item["raw-wood"].stack_size = 500
 
-local default = setmetatable({}, require("stdlib/utils/classes/string_array"))
+local default = setmetatable({}, require("__stdlib__/stdlib/utils/classes/string_array"))
 for _, player in DATA:pairs('player') do
     player.crafting_categories = player:get_field('crafting_categories', default) + 'handcrafting'
 end
