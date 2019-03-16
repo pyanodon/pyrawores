@@ -52,7 +52,7 @@ ENTITY {
       fuel_category = "chemical",
       effectivity = 0.4,
       fuel_inventory_size = 1,
-      emissions = 0.1 / 3,
+      emissions = 0.001,
       smoke =
       {
         {
