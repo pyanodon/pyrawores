@@ -53,7 +53,7 @@ ENTITY {
       fuel_category = "mega-drill-head",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.1,
+      emissions = 0.001,
     },
     energy_usage = "2000kW",
     mining_power = 6,
