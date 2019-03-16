@@ -130,7 +130,7 @@ RECIPE("nuclear-reactor"):replace_ingredient("steel-plate", "titanium-plate"):re
 RECIPE("heat-exchanger"):replace_ingredient("steel-plate", "titanium-plate"):replace_ingredient("copper-plate", "aluminium-plate"):replace_ingredient("pipe", "niobium-pipe")
 RECIPE("py-logistic-robot-01"):add_ingredient({type = "item", name = "solder", amount = 5})
 RECIPE("py-construction-robot-01"):add_ingredient({type = "item", name = "solder", amount = 5})
-RECIPE("rail"):add_ingredient({type = "item", name = "solder", amount = 4})
+RECIPE("rail"):add_ingredient({type = "item", name = "solder", amount = 5})
 RECIPE("piercing-rounds-magazine"):add_ingredient({type = "item", name = "lead-plate", amount = 1}):remove_ingredient("copper-plate")
 RECIPE("shotgun-shell"):add_ingredient({type = "item", name = "lead-plate", amount = 1}):remove_ingredient("copper-plate")
 RECIPE("firearm-magazine"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "lead-plate", amount = 2})
