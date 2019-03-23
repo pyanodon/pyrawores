@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "hydrogen", amount = 100},
         {type = "fluid", name = "chlorine", amount = 100},
-        {type = "item", name = "small-lamp", amount = 4}
+        {type = "item", name = "small-lamp", amount = 3}
     },
     results = {
         {type = "fluid", name = "hydrogen-chloride", amount = 50}
