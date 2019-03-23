@@ -423,7 +423,7 @@ RECIPE {
         {type = "item", name = "grade-4-ti", amount = 1}
     },
     results = {
-        {type = "item", name = "titanium-plate", amount = 4}
+        {type = "item", name = "titanium-plate", amount = 5}
     },
     subgroup = "py-rawores-plates",
     order = "j"

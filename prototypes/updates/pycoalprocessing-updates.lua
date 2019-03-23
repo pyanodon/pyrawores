@@ -53,7 +53,7 @@ RECIPE("flask"):remove_ingredient("iron-plate"):add_ingredient({type = "item", n
 RECIPE("ref-to-light-oil"):add_ingredient({type = "fluid", name = "hydrogen", amount = 250})
 RECIPE("olefin-combustion"):replace_ingredient("water", "hydrogen")
 RECIPE("niobium-oxide"):replace_ingredient("water", "nitrogen")
-RECIPE("filtration-media"):add_ingredient({type = "item", name = "glass", amount = 5})
+RECIPE("filtration-media"):add_ingredient({type = "item", name = "glass", amount = 6})
 RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "optical-fiber", amount = 2})
 RECIPE("active-carbon"):remove_ingredient("water"):add_ingredient({type = "fluid", name = "nitrogen", amount = 50}):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 4})
 RECIPE("zinc-chloride"):replace_ingredient("iron-plate", "zinc-plate"):replace_ingredient("water", "hydrogen-chloride"):remove_ingredient("copper-plate"):add_result({type = "fluid", name = "hydrogen", amount =20})
@@ -193,12 +193,12 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "carbon-dioxide", amount = 30},
-        {type = "fluid", name = "hydrogen", amount = 50},
+        {type = "fluid", name = "carbon-dioxide", amount = 90},
+        {type = "fluid", name = "hydrogen", amount = 150},
         {type = "item", name = "nichrome", amount = 1}
     },
     results = {
-        {type = "fluid", name = "methanol", amount = 40}
+        {type = "fluid", name = "methanol", amount = 120}
     },
     subgroup = "py-methanol",
     icon = "__pycoalprocessing__/graphics/icons/methanol.png",
