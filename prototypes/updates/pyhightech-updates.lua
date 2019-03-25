@@ -74,6 +74,7 @@ RECIPE("logistic-robot-ht"):add_ingredient({type = "item", name = "super-alloy",
 RECIPE("moondrop-greenhouse"):add_ingredient({type = "item", name = "glass", amount = 40})
 RECIPE("ech"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 150})
 RECIPE("nylon2"):replace_ingredient("sulfuric-acid", "chlorine")
+RECIPE("chloromethane"):replace_ingredient("sulfuric-acid" , "hydrogen-chloride")
 
 
 
