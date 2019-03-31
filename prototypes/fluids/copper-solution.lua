@@ -7,10 +7,10 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "water", amount = 400},
         {type = "item", name = "grade-4-copper", amount = 3},
-        {type = "item", name = "salt", amount = 10}
+        {type = "item", name = "salt", amount = 6}
     },
     results = {
-        {type = "fluid", name = "copper-solution", amount = 150}
+        {type = "fluid", name = "copper-solution", amount = 30}
     },
     main_product = "copper-solution",
     subgroup = "py-rawores-fluids",
