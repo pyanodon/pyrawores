@@ -229,7 +229,7 @@ local recipes_list =
   "powdered-ralesia-seeds",
   "starch",
   "starch-2",
-  "water-saline",
+ -- "water-saline",
   "py-sodium-hydroxide",
 --  "salt-ex",
   "syngas2",
