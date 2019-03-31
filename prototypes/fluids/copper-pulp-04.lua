@@ -6,8 +6,8 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "copper-pulp-03", amount = 100},
-        {type = "fluid", name = "copper-solution", amount = 50},
-        {type = "fluid", name = "acid-solvent", amount = 50},
+        {type = "fluid", name = "copper-solution", amount = 10},
+        {type = "fluid", name = "acid-solvent", amount = 10},
     },
     results = {
         {type = "fluid", name = "copper-pulp-04", amount = 100},
