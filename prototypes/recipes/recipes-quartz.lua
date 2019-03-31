@@ -153,7 +153,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "powdered-quartz", amount = 2},
         {type = "fluid", name = "coal-gas", amount = 100},
-        {type = "item", name = "sand", amount = 10},
+        {type = "item", name = "pure-sand", amount = 10},
     },
     results = {
         {type = "item", name = "glass", amount = 4}
