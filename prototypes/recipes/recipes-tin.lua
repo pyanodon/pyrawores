@@ -121,8 +121,8 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "tin-dust", amount = 1},
-        {type = "fluid", name = "mibc", amount = 75},
-        {type = "fluid", name = "mibc", amount = 75},
+        {type = "fluid", name = "mibc", amount = 50},
+        {type = "fluid", name = "mibc", amount = 50},
     },
     results = {
         {type = "item", name = "tin-rejects", amount = 1},
@@ -166,7 +166,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "dirty-water", amount = 50},
-        {type = "item", name = "tin-concentrate", amount = 1, probability = 0.5},
+        {type = "item", name = "tin-concentrate", amount = 1, probability = 0.75},
     },
     main_product = "tin-concentrate",
     subgroup = "py-rawores-tin",
@@ -180,8 +180,8 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "filtration-media", amount = 3},
-        {type = "fluid", name = "tin-pulp-01", amount = 100},
+        {type = "item", name = "filtration-media", amount = 1},
+        {type = "fluid", name = "tin-pulp-01", amount = 450},
         {type = "fluid", name = "heavy-oil", amount = 100}, --pyfe grease
     },
     results = {
@@ -191,7 +191,7 @@ RECIPE {
     main_product = "tin-concentrate",
     subgroup = "py-rawores-tin",
     order = "q-2"
-}:add_unlock("tin-mk03"):change_category('grease'):replace_ingredient("heavy-oil", "grease")
+}:add_unlock("tin-mk03"):change_category('grease')
 
 RECIPE {
     type = "recipe",
@@ -221,7 +221,7 @@ RECIPE {
         {type = "fluid", name = "tin-pulp-03", amount = 100},
     },
     results = {
-        {type = "item", name = "high-tin-mix", amount = 1},
+        {type = "item", name = "high-tin-mix", amount = 4},
     },
     main_product = "high-tin-mix",
     subgroup = "py-rawores-tin",
@@ -318,11 +318,11 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "tin-dust", amount = 2},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "tin-dust", amount = 6},
+        {type = "item", name = "borax", amount = 4},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 35},
+        {type = "fluid", name = "molten-tin", amount = 105},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
@@ -340,7 +340,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 3},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 20},
+        {type = "fluid", name = "molten-tin", amount = 30},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
@@ -358,7 +358,7 @@ RECIPE {
          {type = "item", name = "high-tin-concentrate", amount = 1},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 25},
+        {type = "fluid", name = "molten-tin", amount = 40},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
@@ -412,7 +412,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 3},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 60},
+        {type = "fluid", name = "molten-tin", amount = 70},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",

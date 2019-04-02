@@ -5,11 +5,11 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "fluid", name = "slacked-lime", amount = 100},
-        {type = "fluid", name = "ti-pulp-06", amount = 100},
+        {type = "fluid", name = "slacked-lime", amount = 150},
+        {type = "fluid", name = "ti-pulp-06", amount = 400},
     },
     results = {
-        {type = "fluid", name = "ti-solution", amount = 100},
+        {type = "fluid", name = "ti-solution", amount = 400},
     },
     main_product = "ti-solution",
     subgroup = "py-rawores-recipes",

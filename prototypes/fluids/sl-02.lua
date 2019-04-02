@@ -5,12 +5,12 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "fluid", name = "sl-01", amount = 100},
-        {type = "item", name = "lime", amount = 5},
+        {type = "fluid", name = "sl-01", amount = 200},
+        {type = "item", name = "lime", amount = 4},
     },
     results = {
-        {type = "fluid", name = "sl-02", amount = 50},
-        {type = "fluid", name = "sl-03", amount = 50},
+        {type = "fluid", name = "sl-02", amount = 100},
+        {type = "fluid", name = "sl-03", amount = 100},
     },
     main_product = "sl-02",
     subgroup = "py-rawores-fluids",

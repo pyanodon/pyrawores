@@ -5,12 +5,12 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "petroleum-gas", amount = 100},
+        {type = "fluid", name = "petroleum-gas", amount = 150},
         {type = "fluid", name = "aromatics", amount = 50}, --pyht acetone
         {type = "item", name = "copper-plate", amount = 5},
     },
     results = {
-        {type = "fluid", name = "mibc", amount = 100},
+        {type = "fluid", name = "mibc", amount = 200},
     },
     main_product = "mibc",
     subgroup = "py-rawores-fluids",

@@ -5,17 +5,17 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "ti-pulp-01", amount = 100},
+        {type = "fluid", name = "ti-pulp-01", amount = 400},
         {type = "fluid", name = "heavy-oil", amount = 100}, --pyfe grease
     },
     results = {
-        {type = "fluid", name = "ti-pulp-02", amount = 100},
+        {type = "fluid", name = "ti-pulp-02", amount = 400},
         {type = "item", name = "ti-residue", amount = 1},
     },
     main_product = "ti-pulp-02",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("titanium-mk03"):change_category('grease'):replace_ingredient("heavy-oil", "grease")
+}:add_unlock("titanium-mk03"):change_category('grease')
 
 
 FLUID {

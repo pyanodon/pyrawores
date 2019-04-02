@@ -71,11 +71,11 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "lead-refined-dust-03", amount = 2},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
         {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
-        {type = "fluid", name = "molten-silver", amount = 10},
+        {type = "fluid", name = "molten-silver", amount = 20},
     },
     main_product = "molten-silver",
     subgroup = "py-rawores-molten",
@@ -94,7 +94,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
-        {type = "fluid", name = "molten-silver", amount = 200},
+        {type = "fluid", name = "molten-silver", amount = 300},
     },
     main_product = "molten-silver",
     subgroup = "py-rawores-molten",
@@ -113,7 +113,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
-        {type = "fluid", name = "molten-silver", amount = 260},
+        {type = "fluid", name = "molten-silver", amount = 520},
     },
     main_product = "molten-silver",
     subgroup = "py-rawores-molten",
@@ -132,7 +132,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
-        {type = "fluid", name = "molten-silver", amount = 300},
+        {type = "fluid", name = "molten-silver", amount = 420},
     },
     main_product = "molten-silver",
     subgroup = "py-rawores-molten",

@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "tin-slime-overflow", amount = 100},
-        {type = "fluid", name = "nitrogen", amount = 100}, --pyfe soda-ash
+        {type = "fluid", name = "nitrogen", amount = 50}, --pyfe soda-ash
     },
     results = {
         {type = "fluid", name = "tin-pulp-01", amount = 100},
