@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "zinc-pulp-01", amount = 100},
-        {type = "fluid", name = "creosote", amount = 100},
+        {type = "fluid", name = "creosote", amount = 75},
     },
     results = {
         {type = "fluid", name = "zinc-pulp-02", amount = 100},
@@ -15,7 +15,7 @@ RECIPE {
     main_product = "zinc-pulp-02",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("zinc-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("zinc-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 FLUID {
     type = "fluid",

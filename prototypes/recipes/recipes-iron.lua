@@ -181,13 +181,13 @@ RECIPE {
     name = "high-grade-iron",
     category = "carbonfilter",
     enabled = false,
-    energy_required = 4,
+    energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "iron-pulp-07", amount = 100},
-        {type = "item", name = "filtration-media", amount = 2},
+        {type = "fluid", name = "iron-pulp-07", amount = 300},
+        {type = "item", name = "filtration-media", amount = 1},
     },
     results = {
-        {type = "item", name = "high-grade-iron", amount = 1},
+        {type = "item", name = "high-grade-iron", amount = 2},
     },
     main_product = "high-grade-iron",
     subgroup = "py-rawores-iron",

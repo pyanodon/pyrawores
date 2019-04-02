@@ -104,7 +104,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "grade-4-ti", amount = 1},
         {type = "fluid", name = "water", amount = 100},
-        {type = "fluid", name = "mibc", amount = 100}
+        {type = "fluid", name = "mibc", amount = 75}
     },
     results = {
         {type = "item", name = "powdered-ti", amount = 1},
@@ -269,7 +269,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 70}
+        {type = "fluid", name = "molten-titanium", amount = 40}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -289,7 +289,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 85}
+        {type = "fluid", name = "molten-titanium", amount = 510}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -309,7 +309,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 95}
+        {type = "fluid", name = "molten-titanium", amount = 600}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -329,7 +329,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 120}
+        {type = "fluid", name = "molten-titanium", amount = 650}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -349,7 +349,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-titanium", amount = 95}
+        {type = "fluid", name = "molten-titanium", amount = 400}
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-molten",
@@ -420,10 +420,10 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "grade-4-ti", amount = 1}
+        {type = "item", name = "grade-4-ti", amount = 4}
     },
     results = {
-        {type = "item", name = "titanium-plate", amount = 5}
+        {type = "item", name = "titanium-plate", amount = 21}
     },
     subgroup = "py-rawores-plates",
     order = "j"

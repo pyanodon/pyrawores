@@ -5,9 +5,9 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "oleochemicals", amount = 100},
+        {type = "fluid", name = "oleochemicals", amount = 25},
         {type = "fluid", name = "chlorine", amount = 150}, --pyht ammonia
-        {type = "item", name = "lead-plate", amount = 5},
+        {type = "item", name = "lead-plate", amount = 1},
 
     },
     results = {

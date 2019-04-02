@@ -5,6 +5,7 @@ Date: ??????
     - removed infinite salt.
     - reworked pollution.
     - fixed robots.
+    - lots of balances.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.19
 Date: ??????

@@ -26,8 +26,8 @@ RECIPE {
     enabled = false,
     energy_required = 1,
     ingredients = {
-        {type = "item", name = "lead-refined-dust-03", amount = 1},
-        {type = "fluid", name = "oleochemicals", amount = 100},
+        {type = "item", name = "lead-refined-dust-03", amount = 3},
+        {type = "fluid", name = "oleochemicals", amount = 50},
         {type = "fluid", name = "z3-reagent", amount = 50},
         --pyfe pressured air
     },
@@ -37,7 +37,7 @@ RECIPE {
     main_product = "sl-01",
     subgroup = "py-rawores-fluids",
     order = "q-1"
-}:add_unlock("lead-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("lead-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 350})
 
 
 FLUID {

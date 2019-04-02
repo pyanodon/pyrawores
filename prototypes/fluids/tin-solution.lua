@@ -5,8 +5,8 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "organic-solvent", amount = 100},
-        {type = "item", name = "powdered-tin", amount = 2},
+        {type = "fluid", name = "organic-solvent", amount = 80},
+        {type = "item", name = "powdered-tin", amount = 10},
     },
     results = {
         {type = "fluid", name = "tin-solution", amount = 50},

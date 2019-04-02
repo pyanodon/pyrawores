@@ -5,11 +5,11 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "tin-pulp-02", amount = 100},
-        {type = "item", name = "biofilm", amount = 4},
+        {type = "fluid", name = "tin-pulp-02", amount = 400},
+        {type = "item", name = "biofilm", amount = 1},
     },
     results = {
-        {type = "fluid", name = "tin-pulp-03", amount = 100},
+        {type = "fluid", name = "tin-pulp-03", amount = 400},
     },
     main_product = "tin-pulp-03",
     subgroup = "py-rawores-fluids",

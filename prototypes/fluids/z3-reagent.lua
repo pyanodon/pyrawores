@@ -10,7 +10,7 @@ RECIPE {
         {type = "fluid", name = "methanol", amount = 100},
     },
     results = {
-        {type = "fluid", name = "z3-reagent", amount = 100},
+        {type = "fluid", name = "z3-reagent", amount = 300},
     },
     subgroup = "py-rawores-fluids",
     order = "q-2"

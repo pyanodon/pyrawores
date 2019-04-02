@@ -6,11 +6,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "water", amount = 100},
-        {type = "item", name = "ti-enriched-dust", amount = 2},
-        {type = "item", name = "sodium-carbonate", amount = 3},        --pyfe sodium chlorate
+        {type = "item", name = "ti-enriched-dust", amount = 6},
+        {type = "item", name = "sodium-carbonate", amount = 2},        --pyfe sodium chlorate
     },
     results = {
-        {type = "fluid", name = "ti-pulp-01", amount = 100},
+        {type = "fluid", name = "ti-pulp-01", amount = 300},
     },
     main_product = "ti-pulp-01",
     subgroup = "py-rawores-fluids",

@@ -5,11 +5,11 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "tin-middle-pulp", amount = 100},
+        {type = "fluid", name = "tin-middle-pulp", amount = 300},
         {type = "item", name = "chromium", amount = 1},
     },
     results = {
-        {type = "fluid", name = "tin-slime", amount = 50},
+        {type = "fluid", name = "tin-slime", amount = 100},
     },
     main_product = "tin-slime",
     subgroup = "py-rawores-fluids",

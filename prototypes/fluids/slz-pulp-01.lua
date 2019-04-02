@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 1,
     ingredients = {
         {type = "item", name = "lead-dust", amount = 2},
-        {type = "fluid", name = "water", amount = 100}, --pyht cyanic acid
+        {type = "fluid", name = "water", amount = 25}, --pyht cyanic acid
     },
     results = {
         {type = "fluid", name = "slz-pulp-01", amount = 100},

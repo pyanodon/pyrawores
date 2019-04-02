@@ -24,11 +24,11 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "ti-pulp-04", amount = 100},
-        {type = "item", name = "biofilm", amount = 2},
+        {type = "fluid", name = "ti-pulp-04", amount = 300},
+        {type = "item", name = "biofilm", amount = 1},
     },
     results = {
-        {type = "fluid", name = "purified-ti-pulp", amount = 50},
+        {type = "fluid", name = "purified-ti-pulp", amount = 150},
     },
     main_product = "purified-ti-pulp",
     subgroup = "py-rawores-recipes",
