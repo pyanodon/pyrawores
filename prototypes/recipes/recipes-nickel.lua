@@ -101,11 +101,11 @@ RECIPE {
     enabled = false,
     energy_required = 3.0,
     ingredients = {
-        {type = "fluid", name = "nickel-prepared-solution", amount = 100},
+        {type = "fluid", name = "nickel-prepared-solution", amount = 300},
         {type = "item", name = "biofilm", amount = 1}
     },
     results = {
-        {type = "item", name = "high-grade-nickel", amount = 1}
+        {type = "item", name = "high-grade-nickel", amount = 3}
     },
     main_product = "high-grade-nickel",
     subgroup = "py-rawores-nickel",
