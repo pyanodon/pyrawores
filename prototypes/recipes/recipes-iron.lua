@@ -187,7 +187,7 @@ RECIPE {
         {type = "item", name = "filtration-media", amount = 1},
     },
     results = {
-        {type = "item", name = "high-grade-iron", amount = 2},
+        {type = "item", name = "high-grade-iron", amount = 3},
     },
     main_product = "high-grade-iron",
     subgroup = "py-rawores-iron",
