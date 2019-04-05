@@ -91,10 +91,10 @@ ENTITY {
     },
     working_visualisations = {
         {
-            north_position = util.by_pixel(-1, -190),
-            west_position = util.by_pixel(-1, -190),
-            south_position = util.by_pixel(-1, -190),
-            east_position = util.by_pixel(-1, -190),
+            north_position = util.by_pixel(0, -190),
+            west_position = util.by_pixel(0, -190),
+            south_position = util.by_pixel(0, -190),
+            east_position = util.by_pixel(0, -190),
             animation = {
                 filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/anim-mk02.png",
                 --priority = "extra-high",
