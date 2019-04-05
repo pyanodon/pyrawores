@@ -121,8 +121,8 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "tin-dust", amount = 1},
-        {type = "fluid", name = "mibc", amount = 50},
-        {type = "fluid", name = "mibc", amount = 50},
+        {type = "fluid", name = "mibc", amount = 100},
+        {type = "fluid", name = "water", amount = 100},
     },
     results = {
         {type = "item", name = "tin-rejects", amount = 1},

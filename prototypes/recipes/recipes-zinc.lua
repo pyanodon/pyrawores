@@ -321,7 +321,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 2}
     },
     results = {
-        {type = "item", name = "zinc-plate", amount = 25}
+        {type = "item", name = "zinc-plate", amount = 50}
     },
     main_product = "zinc-plate",
     subgroup = "py-rawores-plates",

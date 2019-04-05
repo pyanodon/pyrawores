@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "grade-4-chromite", amount = 5},
+        {type = "item", name = "grade-4-chromite", amount = 10},
         {type = "item", name = "sodium-hydroxide", amount = 5},
         {type = "fluid", name = "water", amount = 100},
     },

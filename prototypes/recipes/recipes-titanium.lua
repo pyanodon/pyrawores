@@ -108,8 +108,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "powdered-ti", amount = 1},
-        {type = "fluid", name = "ti-pulp-03", amount = 10},
-        {type = "fluid", name = "ti-pulp-03", amount = 10},
+        {type = "fluid", name = "ti-pulp-03", amount = 20},
+        {type = "fluid", name = "dirty-water", amount = 20},
     },
     main_product = "powdered-ti",
     subgroup = "py-rawores-titanium",

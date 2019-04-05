@@ -5,13 +5,13 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "coal-pulp-03", amount = 50},
-        {type = "fluid", name = "coal-pulp-03", amount = 50},
+        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "coal-pulp-03", amount = 100},
         {type = "item", name = "pyrite", amount = 4},
     },
     results = {
-        {type = "fluid", name = "coal-pulp-04", amount = 50},
-        {type = "fluid", name = "coal-pulp-04", amount = 50},
+        {type = "fluid", name = "dirty-water", amount = 50},
+        {type = "fluid", name = "coal-pulp-04", amount = 100},
         {type = "item", name = "ash", amount = 20},
     },
     main_product = "coal-pulp-04",
