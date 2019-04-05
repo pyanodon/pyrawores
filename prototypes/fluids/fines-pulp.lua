@@ -5,8 +5,8 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "fluid", name = "water", amount = 50},
-        {type = "fluid", name = "water", amount = 50},
+        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "organic-solvent", amount = 50},
         {type = "item", name = "coarse-coal", amount = 3},
     },
     results = {

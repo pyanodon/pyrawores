@@ -103,7 +103,7 @@ RECIPE {
     name = "salt-ex",
     category = "evaporator",
     enabled = false,
-    energy_required = 2,
+    energy_required = 1,
     ingredients = {
         {type = "fluid", name = "water-saline", amount = 100}
     },

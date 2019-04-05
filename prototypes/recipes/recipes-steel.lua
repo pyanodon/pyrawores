@@ -68,7 +68,7 @@ RECIPE {
         {type = "fluid", name = "molten-steel", amount = 100},
     },
     results = {
-        {type = "item", name = "steel-plate", amount = 20},
+        {type = "item", name = "steel-plate", amount = 25},
     },
     main_product = "steel-plate",
     subgroup = "py-rawores-plates",

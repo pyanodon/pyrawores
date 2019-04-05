@@ -265,7 +265,7 @@ RECIPE {
         {type = "item", name = "sand-casting", amount = 1}
     },
     results = {
-        {type = "item", name = "aluminium-plate", amount = 20}
+        {type = "item", name = "aluminium-plate", amount = 50}
     },
     main_product = "aluminium-plate",
     subgroup = "py-rawores-plates",

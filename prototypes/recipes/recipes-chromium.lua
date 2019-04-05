@@ -100,15 +100,15 @@ RECIPE {
     name = "high-chromite",
     category = "flotation",
     enabled = false,
-    energy_required = 2,
+    energy_required = 6,
     ingredients = {
-        {type = "fluid", name = "chromite-pulp-01", amount = 50},
+        {type = "fluid", name = "chromite-pulp-01", amount = 200},
         {type = "fluid", name = "aerofloat-15", amount = 50}
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "high-chromite", amount = 1},
-        {type = "fluid", name = "chromite-solution", amount = 50}
+        {type = "item", name = "high-chromite", amount = 4},
+        {type = "fluid", name = "chromite-solution", amount = 200}
     },
     main_product = "high-chromite",
     subgroup = "py-rawores-chromium",

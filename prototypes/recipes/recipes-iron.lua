@@ -109,8 +109,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "iron-concentrate", amount = 1},
-        {type = "fluid", name = "dirty-water", amount = 50},
-        {type = "fluid", name = "dirty-water", amount = 50},
+        {type = "fluid", name = "dirty-water", amount = 100},
+        {type = "fluid", name = "coal-slurry", amount = 50},
     },
     main_product = "iron-concentrate",
     icon = "__pyrawores__/graphics/icons/iron-concentrate.png",
@@ -377,7 +377,7 @@ RECIPE {
         {type = "item", name = "sand-casting", amount = 1},
     },
     results = {
-        {type = "item", name = "iron-plate", amount = 25}
+        {type = "item", name = "iron-plate", amount = 60}
     },
     main_product= "iron-plate",
     subgroup = "py-rawores-plates",
