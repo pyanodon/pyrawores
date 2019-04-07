@@ -178,7 +178,7 @@ RECIPE {
         {type = "item", name = "sodium-carbonate", amount = 1},
     },
     results = {
-        {type = "item", name = "glass", amount = 35}
+        {type = "item", name = "glass", amount = 60}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
@@ -200,7 +200,7 @@ RECIPE {
         {type = "item", name = "sodium-carbonate", amount = 1},
     },
     results = {
-        {type = "item", name = "glass", amount = 90}
+        {type = "item", name = "glass", amount = 180}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
@@ -218,12 +218,12 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-quartz", amount = 1},
         {type = "item", name = "sodium-carbonate", amount = 1},
-        {type = "fluid", name = "syngas", amount = 100},
+        {type = "fluid", name = "syngas", amount = 200},
         {type = "item", name = "sand-casting", amount = 2},
         {type = "item", name = "fuelrod-mk01", amount = 1},
     },
     results = {
-        {type = "item", name = "glass", amount = 25}
+        {type = "item", name = "glass", amount = 50}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",

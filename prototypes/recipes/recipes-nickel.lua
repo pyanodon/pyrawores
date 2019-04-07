@@ -188,7 +188,7 @@ RECIPE {
         {type = "item", name = "aluminium-plate", amount = 2}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 50},
+        {type = "fluid", name = "molten-nickel", amount = 100},
         {type = "item", name = "pyrite", amount = 1}
     },
     main_product = "molten-nickel",
@@ -323,7 +323,7 @@ RECIPE {
         {type = "item", name = "sand-casting", amount = 1}
     },
     results = {
-        {type = "item", name = "nickel-plate", amount = 20}
+        {type = "item", name = "nickel-plate", amount = 50}
     },
     main_product = "nickel-plate",
     subgroup = "py-rawores-plates",

@@ -186,7 +186,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "lubricant", amount = 50},
-        {type = "item", name = "tin-concentrate", amount = 1},
+        {type = "item", name = "tin-concentrate", amount = 5},
     },
     main_product = "tin-concentrate",
     subgroup = "py-rawores-tin",
@@ -203,7 +203,7 @@ RECIPE {
         {type = "item", name = "tin-concentrate", amount = 1},
     },
     results = {
-        {type = "item", name = "high-tin-concentrate", amount = 1},
+        {type = "item", name = "high-tin-concentrate", amount = 2},
         {type = "item", name = "sand", amount = 1},
     },
     main_product = "high-tin-concentrate",
@@ -322,7 +322,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 4},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 105},
+        {type = "fluid", name = "molten-tin", amount = 30},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
@@ -434,7 +434,7 @@ RECIPE {
         {type = "item", name = "sand-casting", amount = 1},
     },
     results = {
-        {type = "item", name = "tin-plate", amount = 20}
+        {type = "item", name = "tin-plate", amount = 50}
     },
     main_product= "tin-plate",
     subgroup = "py-rawores-plates",

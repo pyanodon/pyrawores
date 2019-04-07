@@ -5,11 +5,11 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "al-pulp-02", amount = 100},
+        {type = "fluid", name = "al-pulp-02", amount = 400},
         {type = "fluid", name = "alamac", amount = 50},
     },
     results = {
-        {type = "fluid", name = "al-pulp-03", amount = 100},
+        {type = "fluid", name = "al-pulp-03", amount = 400},
         {type = "item", name = "iron-oxide", amount = 1},
     },
     main_product = "al-pulp-03",
