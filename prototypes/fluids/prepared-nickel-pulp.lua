@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "sulfuric-acid", amount = 200},
+        {type = "fluid", name = "sulfuric-acid", amount = 100},
         {type = "item", name = "grade-4-nickel", amount = 1},
     },
     results = {
