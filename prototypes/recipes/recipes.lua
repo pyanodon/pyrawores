@@ -611,8 +611,8 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "molten-nickel", amount = 100},
-        {type = "item", name = "molten-chromium", amount = 80},
+        {type = "fluid", name = "molten-nickel", amount = 100},
+        {type = "fluid", name = "molten-chromium", amount = 80},
     },
     results = {
         {type = "item", name = "nichrome", amount = 10}
