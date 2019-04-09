@@ -1762,10 +1762,10 @@ ITEM {
     name = "mega-drill-head",
     icon = "__pyrawores__/graphics/icons/mega-drill-head.png",
     icon_size = 32,
-    fuel_value = "20MJ",
+    fuel_value = "100MJ",
     fuel_category = "mega-drill-head",
     flags = {},
-    subgroup = "py-items",
+    subgroup = "py-rawores-items",
     order = "g",
     stack_size = 50
 }
