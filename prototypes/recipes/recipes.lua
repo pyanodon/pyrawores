@@ -603,3 +603,23 @@ RECIPE {
     order = "j"
 }:add_unlock("coal-processing-1")
 end
+
+RECIPE {
+    type = "recipe",
+    name = "nichrome",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "molten-nickel", amount = 100},
+        {type = "item", name = "molten-chromium", amount = 80},
+    },
+    results = {
+        {type = "item", name = "nichrome", amount = 10}
+    },
+    main_product= "nichrome",
+    icon = "__pycoalprocessing__/graphics/icons/nichrome.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("nickel-mk03")
