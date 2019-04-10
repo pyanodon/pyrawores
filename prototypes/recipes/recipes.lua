@@ -606,7 +606,7 @@ end
 
 RECIPE {
     type = "recipe",
-    name = "nichrome",
+    name = "nichrome-casting",
     category = "advanced-foundry",
     enabled = false,
     energy_required = 4,
