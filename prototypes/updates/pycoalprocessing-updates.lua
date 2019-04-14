@@ -13,6 +13,8 @@ TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('c
 RECIPE("boric-acid"):change_category('electrolyzer')
 RECIPE("copper-coating"):change_category('electrolyzer')
 
+
+RECIPE("copper-coating"):replace_ingredient("organic-solvent", {"water-saline", 100})
 RECIPE("empty-gas-canister"):replace_ingredient("steel-plate", "aluminium-plate")
 RECIPE("fuelrod-mk01"):remove_ingredient("nexelit-ore"):add_ingredient({type = "item", name = "nexelit-plate", amount = 5})
 RECIPE("methanol-from-syngas"):replace_ingredient("iron-plate", "zinc-plate")
