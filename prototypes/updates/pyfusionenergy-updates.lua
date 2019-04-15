@@ -72,7 +72,7 @@ RECIPE("gas-separator"):add_ingredient({type = "item", name = "stainless-steel",
 RECIPE("grease-table"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE("py-turbine"):add_ingredient({type = "item", name = "super-steel", amount = 20}):add_ingredient({type = "item", name = "super-alloy", amount = 20})
 
- --result
+ --RECIPES
 RECIPE("kmauts-ration"):replace_ingredient("iron-plate", "tin-plate")
 RECIPE("helium"):add_ingredient({type = "fluid", name = "hydrogen", amount = 10})
 RECIPE("nbti-alloy"):replace_ingredient("steel-plate", "titanium-plate"):add_ingredient({type = "fluid", name = "nitrogen", amount = 150})
@@ -99,6 +99,7 @@ RECIPE("express-transport-belt"):add_ingredient({type = "item", name = "super-al
 RECIPE("nuclear-reactor"):add_ingredient({type = "item", name = "super-alloy", amount = 100})
 RECIPE("substation"):replace_ingredient("steel", "super-alloy")
 RECIPE("vpulp2"):replace_ingredient("crushed-iron", "iron-ore-dust")
+RECIPE("molybdenum-filtration"):remove_ingredient("vacuum")
 
 RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-alloy"):remove_ingredient("steel-plate")
 
