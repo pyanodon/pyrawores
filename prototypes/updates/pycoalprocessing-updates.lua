@@ -13,7 +13,6 @@ TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('c
 RECIPE("boric-acid"):change_category('electrolyzer')
 RECIPE("copper-coating"):change_category('electrolyzer')
 
-
 RECIPE("copper-coating"):replace_ingredient("organic-solvent", {"water-saline", 100})
 RECIPE("empty-gas-canister"):replace_ingredient("steel-plate", "aluminium-plate")
 RECIPE("fuelrod-mk01"):remove_ingredient("nexelit-ore"):add_ingredient({type = "item", name = "nexelit-plate", amount = 5})
@@ -594,3 +593,51 @@ RECIPE {
     subgroup = "py-extraction",
     order = "d"
 }
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrod-mk01-2",
+    category = "hpf",
+    enabled = false,
+    energy_required = 3.5,
+    ingredients = {
+        {type = "item", name = "niobium-plate", amount = 2},
+        {type = "item", name = "70-u-powder", amount = 1},
+        {type = "item", name = "coke", amount = 10}
+    },
+    results = {
+        {type = "item", name = "fuelrod-mk01", amount = 3}
+    }
+}:add_unlock("uranium-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrod-mk01-3",
+    category = "hpf",
+    enabled = false,
+    energy_required = 3.5,
+    ingredients = {
+        {type = "item", name = "niobium-plate", amount = 2},
+        {type = "item", name = "40-u-powder", amount = 2},
+        {type = "item", name = "coke", amount = 10}
+    },
+    results = {
+        {type = "item", name = "fuelrod-mk01", amount = 3}
+    }
+}:add_unlock("uranium-mk02")
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrod-mk01-4",
+    category = "hpf",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "titanium-plate", amount = 5},
+        {type = "item", name = "20-u-powder", amount = 3},
+        {type = "item", name = "coke", amount = 10}
+    },
+    results = {
+        {type = "item", name = "fuelrod-mk01", amount = 2}
+    }
+}:add_unlock("uranium-mk01")
