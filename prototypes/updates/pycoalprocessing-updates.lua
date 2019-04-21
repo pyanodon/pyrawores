@@ -8,6 +8,7 @@ RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk0
 TECHNOLOGY('engine'):remove_pack('logistic-science-pack')
 TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-processing-2'):add_prereq('aluminium-mk01')
 TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):add_prereq('coal-processing-2')
+RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-processing-mk01')
 
 
 RECIPE("boric-acid"):change_category('electrolyzer')

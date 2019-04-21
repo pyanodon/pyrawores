@@ -16,7 +16,7 @@ RECIPE {
     main_product = "outlet-gas-03",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("coke-mk03"):replace_ingredient("organic-solvent", "ethanolamine")
+}:add_unlock("coke-mk03")
 
 FLUID {
     type = "fluid",

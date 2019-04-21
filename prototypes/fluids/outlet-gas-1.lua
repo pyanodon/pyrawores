@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "coke-oven-gas", amount = 100},
         {type = "fluid", name = "tar", amount = 50},
-        {type = "item", name = "nickel-plate", amount = 2},
+        {type = "item", name = "nickel-plate", amount = 1},
         {type = "item", name = "copper-cable", amount = 3}
     },
     results = {
