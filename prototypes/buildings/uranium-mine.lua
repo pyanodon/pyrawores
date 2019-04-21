@@ -65,7 +65,7 @@ ENTITY {
       fuel_category = "mega-drill-head",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions_per_second_per_watt = 1e-06,
+      emissions_per_minute = 50,
 
     },
     energy_usage = "2000kW",
