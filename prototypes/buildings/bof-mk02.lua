@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "bof-mk02",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"bof-mk01", 1},

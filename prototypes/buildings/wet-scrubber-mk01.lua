@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "wet-scrubber-mk01",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"storage-tank", 1}, --pyindustry py-tank-5000

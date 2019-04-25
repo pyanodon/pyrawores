@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "casting-unit-mk04",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"casting-unit-mk03", 1},

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "phosphate-mine-02",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"phosphate-mine", 1},

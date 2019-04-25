@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "tin-mine",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"automated-factory-mk01", 2},

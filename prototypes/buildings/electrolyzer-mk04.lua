@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "electrolyzer-mk04",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"electrolyzer-mk03", 1},

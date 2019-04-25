@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "impact-crusher-mk04",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"impact-crusher-mk03", 1},

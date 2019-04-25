@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "hydroclassifier-mk02",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"hydroclassifier-mk01", 1},
