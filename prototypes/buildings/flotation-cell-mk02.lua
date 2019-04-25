@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "flotation-cell-mk02",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"flotation-cell-mk01", 1},

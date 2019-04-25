@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "wet-scrubber-mk04",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"wet-scrubber-mk03", 1},
