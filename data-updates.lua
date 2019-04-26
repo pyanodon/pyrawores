@@ -26,7 +26,9 @@ ITEM("copper-cable"):set("icon", "__pyrawores__/graphics/icons/copper-cable.png"
 --RECIPES UPDATES
 
 RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore", amount = 8}):set_fields {energy_required = 10}
-RECIPE("steel-plate"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "iron-plate", amount = 10}):set_fields {energy_required = 15}
+
+FUN.ing_adjust("steel-plate","iron-plate",10)
+RECIPE("steel-plate"):set_fields {energy_required = 15}
 RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient({type = "item", name = "copper-ore", amount = 8}):set_fields {energy_required = 10}
 RECIPE("electronic-circuit"):set_fields {energy_required = 4}
 RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "solder", amount = 2})

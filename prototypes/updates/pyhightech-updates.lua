@@ -9,7 +9,6 @@ RECIPE("fiberboard"):add_ingredient({type = "item", name = "sodium-hydroxide", a
 RECIPE("micro-fiber"):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 3})
 RECIPE("phenolicboard"):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 3})
 RECIPE("epoxy"):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 5})
-RECIPE("boron-carbide"):replace_ingredient("coke", "carbon")
 --RECIPE('outlet-gas-3'):add_result({type = "fluid", name = "ammonia", amount = 50})
 RECIPE("high-flux-core"):replace_ingredient("liquid-pure-air", "liquid-nitrogen")
 RECIPE("diode-core"):replace_ingredient("liquid-pure-air", "liquid-nitrogen")
