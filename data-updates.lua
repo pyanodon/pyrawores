@@ -167,7 +167,7 @@ data.raw.item["wood"].stack_size = 500
 --data.raw.item["raw-wood"].stack_size = 500
 
 local default = setmetatable({}, require("__stdlib__/stdlib/utils/classes/string_array"))
-for _, player in DATA:pairs('player') do
+for _, player in DATA:pairs('character') do
     player.crafting_categories = player:get_field('crafting_categories', default) + 'handcrafting'
 end
 for _, controller in DATA:pairs('god-controller') do
