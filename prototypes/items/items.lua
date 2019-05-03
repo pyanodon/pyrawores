@@ -778,7 +778,7 @@ ITEM {
     subgroup = "py-rawores-items",
     order = "a",
     stack_size = 500,
-    fuel_value = "4MJ",
+    fuel_value = "3MJ",
     fuel_category = "chemical",
 }
 
@@ -790,7 +790,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-items",
     order = "a",
-    fuel_value = "10MJ",
+    fuel_value = "6MJ",
     fuel_category = "chemical",
     stack_size = 500
 }
@@ -803,7 +803,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-items",
     order = "a",
-    fuel_value = "15MJ",
+    fuel_value = "10MJ",
     fuel_category = "chemical",
     stack_size = 500
 }
