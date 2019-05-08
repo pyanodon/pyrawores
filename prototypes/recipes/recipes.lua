@@ -103,12 +103,12 @@ RECIPE {
     name = "salt-ex",
     category = "evaporator",
     enabled = false,
-    energy_required = 1,
+    energy_required = 2,
     ingredients = {
-        {type = "fluid", name = "water-saline", amount = 100}
+        {type = "fluid", name = "water-saline", amount = 230}
     },
     results = {
-        {type = "item", name = "salt", amount = 10}
+        {type = "item", name = "salt", amount = 23}
     },
     main_product = "salt",
     subgroup = "py-items",
