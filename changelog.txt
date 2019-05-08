@@ -4,6 +4,9 @@ Date: ??????
   Balances:
     - Several small balances.
     - Balanced fuels.
+    - Added fecr molten recipe.
+    - Aramid now need TPA instead of PPD.
+    - Stainless Steel now needs fecr alloy instead of chromium.
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.0
 Date: ??????

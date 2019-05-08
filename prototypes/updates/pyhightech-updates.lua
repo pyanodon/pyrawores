@@ -74,6 +74,7 @@ RECIPE("moondrop-greenhouse"):add_ingredient({type = "item", name = "glass", amo
 RECIPE("ech"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 150})
 RECIPE("nylon2"):replace_ingredient("sulfuric-acid", "chlorine")
 RECIPE("chloromethane"):replace_ingredient("sulfuric-acid" , "hydrogen-chloride")
+RECIPE("molten-stainless-steel"):remove_ingredient("chromium"):add_ingredient({type = "item", name = "fecr-alloy", amount = 5})
 
 
 
@@ -93,6 +94,7 @@ RECIPE("zinc-mine"):replace_ingredient("processing-unit", "intelligent-unit"):ad
 
 RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 10})
 RECIPE("outlet-gas-02"):change_category("fbreactor")
+RECIPE("fecr-alloy"):change_category("eaf"):add_ingredient({type = "item", name = "graphite", amount = 3})
 
 RECIPE("ppd"):replace_ingredient("aromatics", "nitrobenzene")
 
@@ -606,7 +608,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "ppd", amount = 6},
+        {type = "fluid", name = "tpa", amount = 50},
         {type = "item", name = "sub-denier-microfiber", amount = 1},
         {type = "item", name = "aluminium-plate", amount = 5},
         {type = "fluid", name = "chlorine", amount = 200}
