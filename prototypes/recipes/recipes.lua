@@ -398,7 +398,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "ppd", amount = 5},
+        {type = "fluid", name = "tpa", amount = 50},
         {type = "item", name = "titanium-plate", amount = 15},
         {type = "item", name = "sodium-hydroxide", amount = 10},
         {type = "item", name = "aluminium-plate", amount = 3},
