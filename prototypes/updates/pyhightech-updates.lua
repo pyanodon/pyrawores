@@ -668,3 +668,19 @@ RECIPE {
     },
     main_product = "glycerol",
 }:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = 'recipe',
+    name = 'fecr-alloy-2',
+    category = 'casting',
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = 'fluid', name = 'molten-iron', amount = 50},
+        {type = 'fluid', name = 'molten-chromium', amount = 10},
+        {type = 'item', name = 'sand-casting', amount = 1}
+    },
+    results = {
+        {type = 'item', name = 'fecr-alloy', amount = 20}
+    }
+}:add_unlock('basic-electronics')

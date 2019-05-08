@@ -223,7 +223,7 @@ RECIPE {
         {type = "item", name = "fuelrod-mk01", amount = 1},
     },
     results = {
-        {type = "item", name = "glass", amount = 50}
+        {type = "item", name = "glass", amount = 65}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
