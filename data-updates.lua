@@ -140,7 +140,7 @@ RECIPE("firearm-magazine"):remove_ingredient("iron-plate"):add_ingredient({type 
 RECIPE("piercing-shotgun-shell"):add_ingredient({type = "item", name = "plastic-bar", amount = 1}):remove_ingredient("copper-plate")
 
 RECIPE("construction-robot-ht"):replace_ingredient("py-construction-robot-01", "py-construction-robot-02")
-RECIPE("logistic-robot-ht"):replace_ingredient("py-construction-robot-01", "py-logistic-robot-02")
+RECIPE("logistic-robot-ht"):replace_ingredient("py-logistic-robot-01", "py-logistic-robot-02")
 RECIPE("py-burner"):remove_ingredient("steel-furnace"):add_ingredient({type = "item", name = "titanium-plate", amount = 20})
 TECHNOLOGY("py-burner"):remove_prereq("coal-processing-2"):add_prereq("coal-processing-1")
 
