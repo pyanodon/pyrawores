@@ -389,12 +389,12 @@ RECIPE {
     name = "chromium-plate-1",
     category = "smelting",
     enabled = true,
-    energy_required = 15,
+    energy_required = 60,
     ingredients = {
-        {type = "item", name = "ore-chromium", amount = 10}
+        {type = "item", name = "ore-chromium", amount = 40}
     },
     results = {
-        {type = "item", name = "chromium", amount = 1}
+        {type = "item", name = "chromium", amount = 4}
     },
     --main_product= "glass",
     icon = "__pycoalprocessing__/graphics/icons/chromium.png",

@@ -383,12 +383,12 @@ RECIPE {
     name = "titanium-plate-1",
     category = "smelting",
     enabled = true,
-    energy_required = 15,
+    energy_required = 60,
     ingredients = {
-        {type = "item", name = "ore-titanium", amount = 10}
+        {type = "item", name = "ore-titanium", amount = 40}
     },
     results = {
-        {type = "item", name = "titanium-plate", amount = 1}
+        {type = "item", name = "titanium-plate", amount = 4}
     },
     --main_product= "glass",
     subgroup = "py-rawores-plates",
@@ -402,12 +402,12 @@ RECIPE {
     name = "titanium-plate-2",
     category = "smelting",
     enabled = false,
-    energy_required = 5,
+    energy_required = 25,
     ingredients = {
-        {type = "item", name = "grade-3-ti", amount = 1}
+        {type = "item", name = "grade-3-ti", amount = 5}
     },
     results = {
-        {type = "item", name = "titanium-plate", amount = 2}
+        {type = "item", name = "titanium-plate", amount = 10}
     },
     subgroup = "py-rawores-plates",
     order = "j"
@@ -418,12 +418,12 @@ RECIPE {
     name = "titanium-plate-4",
     category = "smelting",
     enabled = false,
-    energy_required = 5,
+    energy_required = 35,
     ingredients = {
-        {type = "item", name = "grade-4-ti", amount = 4}
+        {type = "item", name = "grade-4-ti", amount = 28}
     },
     results = {
-        {type = "item", name = "titanium-plate", amount = 21}
+        {type = "item", name = "titanium-plate", amount = 147}
     },
     subgroup = "py-rawores-plates",
     order = "j"

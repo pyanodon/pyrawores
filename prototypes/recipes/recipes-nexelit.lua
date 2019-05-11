@@ -369,12 +369,12 @@ RECIPE {
     name = "nexelit-plate-2",
     category = "smelting",
     enabled = false,
-    energy_required = 10,
+    energy_required = 60,
     ingredients = {
-        {type = "item", name = "clean-nexelit", amount = 1}
+        {type = "item", name = "clean-nexelit", amount = 6}
     },
     results = {
-        {type = "item", name = "nexelit-plate", amount = 1}
+        {type = "item", name = "nexelit-plate", amount = 6}
     },
     --main_product= "glass",
     subgroup = "py-rawores-plates",

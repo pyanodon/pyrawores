@@ -110,12 +110,12 @@ RECIPE {
     name = "glass-1",
     category = "smelting",
     enabled = true,
-    energy_required = 15,
+    energy_required = 60,
     ingredients = {
-        {type = "item", name = "ore-quartz", amount = 6}
+        {type = "item", name = "ore-quartz", amount = 24}
     },
     results = {
-        {type = "item", name = "glass", amount = 1}
+        {type = "item", name = "glass", amount = 4}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",

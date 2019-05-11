@@ -335,12 +335,12 @@ RECIPE {
     name = "zinc-plate-1",
     category = "smelting",
     enabled = true,
-    energy_required = 15,
+    energy_required = 60,
     ingredients = {
-        {type = "item", name = "ore-zinc", amount = 10}
+        {type = "item", name = "ore-zinc", amount = 40}
     },
     results = {
-        {type = "item", name = "zinc-plate", amount = 1}
+        {type = "item", name = "zinc-plate", amount = 4}
     },
     --main_product= "glass",
     subgroup = "py-rawores-plates",
@@ -354,12 +354,12 @@ RECIPE {
     name = "zinc-plate-2",
     category = "smelting",
     enabled = false,
-    energy_required = 8,
+    energy_required = 40,
     ingredients = {
-        {type = "item", name = "grade-2-zinc", amount = 4}
+        {type = "item", name = "grade-2-zinc", amount = 20}
     },
     results = {
-        {type = "item", name = "zinc-plate", amount = 3}
+        {type = "item", name = "zinc-plate", amount = 15}
     },
     subgroup = "py-rawores-plates",
     order = "j"
@@ -370,12 +370,12 @@ RECIPE {
     name = "zinc-plate-4",
     category = "smelting",
     enabled = false,
-    energy_required = 5,
+    energy_required = 50,
     ingredients = {
-        {type = "item", name = "powdered-zinc", amount = 2}
+        {type = "item", name = "powdered-zinc", amount = 20}
     },
     results = {
-        {type = "item", name = "zinc-plate", amount = 3}
+        {type = "item", name = "zinc-plate", amount = 30}
     },
     subgroup = "py-rawores-plates",
     order = "j"

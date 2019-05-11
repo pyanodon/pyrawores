@@ -279,12 +279,12 @@ RECIPE {
     name = "aluminium-plate-1",
     category = "smelting",
     enabled = true,
-    energy_required = 15,
+    energy_required = 60,
     ingredients = {
-        {type = "item", name = "ore-aluminium", amount = 10}
+        {type = "item", name = "ore-aluminium", amount = 40}
     },
     results = {
-        {type = "item", name = "aluminium-plate", amount = 1}
+        {type = "item", name = "aluminium-plate", amount = 4}
     },
     main_product = "aluminium-plate",
     subgroup = "py-rawores-plates",

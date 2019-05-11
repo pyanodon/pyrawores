@@ -170,12 +170,12 @@ RECIPE {
     name = "silver-plate-1",
     category = "smelting",
     enabled = false,
-    energy_required = 5,
+    energy_required = 45,
     ingredients = {
-        {type = "item", name = "lead-dust", amount = 3}
+        {type = "item", name = "lead-dust", amount = 27}
     },
     results = {
-        {type = "item", name = "silver-plate", amount = 1}
+        {type = "item", name = "silver-plate", amount = 9}
     },
     subgroup = "py-rawores-plates",
     order = "j"
