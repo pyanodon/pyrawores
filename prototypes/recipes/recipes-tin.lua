@@ -450,12 +450,12 @@ RECIPE {
     name = "tin-plate-1",
     category = "smelting",
     enabled = true,
-    energy_required = 15,
+    energy_required = 60,
     ingredients = {
-        {type = "item", name = "ore-tin", amount = 10}
+        {type = "item", name = "ore-tin", amount = 40}
     },
     results = {
-        {type = "item", name = "tin-plate", amount = 1}
+        {type = "item", name = "tin-plate", amount = 4}
     },
     --main_product= "glass",
     subgroup = "py-rawores-plates",
@@ -469,12 +469,12 @@ RECIPE {
     name = "tin-plate-2",
     category = "smelting",
     enabled = false,
-    energy_required = 10,
+    energy_required = 50,
     ingredients = {
-        {type = "item", name = "grade-1-tin", amount = 3}
+        {type = "item", name = "grade-1-tin", amount = 15}
     },
     results = {
-        {type = "item", name = "tin-plate", amount = 2}
+        {type = "item", name = "tin-plate", amount = 10}
     },
     subgroup = "py-rawores-plates",
     order = "j"
@@ -485,12 +485,12 @@ RECIPE {
     name = "tin-plate-4",
     category = "smelting",
     enabled = false,
-    energy_required = 5,
+    energy_required = 20,
     ingredients = {
-        {type = "item", name = "grade-4-tin", amount = 1}
+        {type = "item", name = "grade-4-tin", amount = 4}
     },
     results = {
-        {type = "item", name = "tin-plate", amount = 2}
+        {type = "item", name = "tin-plate", amount = 8}
     },
     subgroup = "py-rawores-plates",
     order = "j"

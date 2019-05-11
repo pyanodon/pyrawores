@@ -348,12 +348,12 @@ RECIPE {
     name = "lead-plate-2",
     category = "smelting",
     enabled = false,
-    energy_required = 10,
+    energy_required = 40,
     ingredients = {
-        {type = "item", name = "grade-1-lead", amount = 1}
+        {type = "item", name = "grade-1-lead", amount = 4}
     },
     results = {
-        {type = "item", name = "lead-plate", amount = 2}
+        {type = "item", name = "lead-plate", amount = 8}
     },
     --main_product= "glass",
     subgroup = "py-rawores-plates",
