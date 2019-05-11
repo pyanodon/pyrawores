@@ -142,6 +142,7 @@ RECIPE("piercing-shotgun-shell"):add_ingredient({type = "item", name = "plastic-
 RECIPE("construction-robot-ht"):replace_ingredient("py-construction-robot-01", "py-construction-robot-02")
 RECIPE("logistic-robot-ht"):replace_ingredient("py-logistic-robot-01", "py-logistic-robot-02")
 RECIPE("py-burner"):remove_ingredient("steel-furnace"):add_ingredient({type = "item", name = "titanium-plate", amount = 20})
+RECIPE("nuclear-fuel"):replace_ingredient("uranium-235", "fuelrod-mk05")
 TECHNOLOGY("py-burner"):remove_prereq("coal-processing-2"):add_prereq("coal-processing-1")
 
 TECHNOLOGY("oil-processing"):remove_prereq("steel-processing"):add_prereq("iron-mk02")
