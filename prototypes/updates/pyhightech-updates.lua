@@ -385,7 +385,7 @@ RECIPE {
         {type = "item", name = "proton-donor", amount = 20}
     },
     results = {
-        {type = "fluid", name = "helium", amount = 100},
+        {type = "fluid", name = "helium", amount = 80},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "helium",
