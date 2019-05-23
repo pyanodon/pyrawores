@@ -15,7 +15,7 @@ RECIPE {
     results = {
         {"nickel-mine", 1}
     }
-}:add_unlock("nickel-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+}:add_unlock("nickel-mk04"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 ITEM {
     type = "item",

@@ -15,7 +15,7 @@ RECIPE {
     results = {
         {"aluminium-mine", 1}
     }
-}:add_unlock("aluminium-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+}:add_unlock("aluminium-mk04"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 ITEM {
     type = "item",
