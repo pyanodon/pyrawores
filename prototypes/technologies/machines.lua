@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyrawores__/graphics/technology/machines-mk02.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'coal-processing-2', 'machines-mk01'},
+    prerequisites = {'coal-processing-2', 'machines-mk01', 'excavation-1'},
     effects = {},
     unit = {
         count = 100,
