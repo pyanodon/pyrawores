@@ -6,8 +6,8 @@ RECIPE {
     energy_required = 2,
     ingredients = {
         {type = "item", name = "fine-nexelit-powder", amount = 1},
-        {type = "fluid", name = "glycerol", amount = 50},
-        {type = "fluid", name = "syngas", amount = 100},
+        {type = "fluid", name = "glycerol", amount = 25},
+        {type = "fluid", name = "syngas", amount = 75},
         --pyfe sodium chlorate
     },
     results = {
@@ -16,7 +16,7 @@ RECIPE {
     main_product = "nexelit-pulp-01",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("nexelit-mk03"):change_category('pan'):add_ingredient({type = "item", name = "sodium-chlorate", amount = 5})
+}:add_unlock("nexelit-mk03"):change_category('pan'):add_ingredient({type = "item", name = "sodium-chlorate", amount = 4})
 
 
 FLUID {

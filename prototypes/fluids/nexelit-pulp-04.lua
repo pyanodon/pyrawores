@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "nexelit-pulp-03", amount = 100},
-        {type = "fluid", name = "armac-12", amount = 150},
+        {type = "fluid", name = "armac-12", amount = 75},
 --ptfe pressured air
     },
     results = {

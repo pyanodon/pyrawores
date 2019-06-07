@@ -123,7 +123,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "grade-3-nexelit", amount = 1},
-        {type = "item", name = "sand", amount = 15},
+        {type = "item", name = "sand", amount = 10},
         {type = "fluid", name = "water", amount = 100}
     },
     results = {
@@ -141,7 +141,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "nexelit-refined-pulp", amount = 10}
+        {type = "fluid", name = "nexelit-refined-pulp", amount = 25}
     },
     results = {
         {type = "item", name = "high-grade-nexelit", amount = 1}
@@ -158,7 +158,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "nexelit-slurry", amount = 10},
+        {type = "fluid", name = "nexelit-slurry", amount = 25},
         {type = "fluid", name = "boric-acid", amount = 50},
         {type = "fluid", name = "methanol", amount = 50}
     },
@@ -179,9 +179,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "high-grade-nexelit", amount = 1},
-        {type = "item", name = "sodium-sulfate", amount = 2},
-        {type = "fluid", name = "diesel", amount = 50}
+        {type = "item", name = "high-grade-nexelit", amount = 6},
+        {type = "item", name = "sodium-sulfate", amount = 1},
+        {type = "fluid", name = "diesel", amount = 150}
         --pyfe pressured air
     },
     results = {
@@ -190,7 +190,7 @@ RECIPE {
     main_product = "reduced-nexelit",
     subgroup = "py-rawores-nexelit",
     order = "q-2"
-}:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 450})
 
 RECIPE {
     type = "recipe",
@@ -241,11 +241,11 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "fine-nexelit-powder", amount = 2},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "fine-nexelit-powder", amount = 10},
+        {type = "item", name = "borax", amount = 2}
     },
     results = {
-        {type = "fluid", name = "molten-nexelit", amount = 5}
+        {type = "fluid", name = "molten-nexelit", amount = 35}
     },
     main_product = "molten-nexelit",
     subgroup = "py-rawores-molten",
@@ -259,11 +259,11 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "nexelit-pulp-04", amount = 20},
+        {type = "fluid", name = "nexelit-pulp-04", amount = 50},
         {type = "item", name = "borax", amount = 3}
     },
     results = {
-        {type = "fluid", name = "molten-nexelit", amount = 10}
+        {type = "fluid", name = "molten-nexelit", amount = 50}
     },
     main_product = "molten-nexelit",
     subgroup = "py-rawores-molten",
@@ -277,11 +277,11 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "high-grade-nexelit", amount = 2},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "high-grade-nexelit", amount = 1},
+        {type = "item", name = "borax", amount = 1}
     },
     results = {
-        {type = "fluid", name = "molten-nexelit", amount = 20}
+        {type = "fluid", name = "molten-nexelit", amount = 17}
     },
     main_product = "molten-nexelit",
     subgroup = "py-rawores-molten",
@@ -296,10 +296,10 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "reduced-nexelit", amount = 1},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax", amount = 1}
     },
     results = {
-        {type = "fluid", name = "molten-nexelit", amount = 11}
+        {type = "fluid", name = "molten-nexelit", amount = 40}
     },
     main_product = "molten-nexelit",
     subgroup = "py-rawores-molten",
@@ -313,11 +313,11 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "sintered-nexelit", amount = 1},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "sintered-nexelit", amount = 2},
+        {type = "item", name = "borax", amount = 4}
     },
     results = {
-        {type = "fluid", name = "molten-nexelit", amount = 8}
+        {type = "fluid", name = "molten-nexelit", amount = 135}
     },
     main_product = "molten-nexelit",
     subgroup = "py-rawores-molten",
