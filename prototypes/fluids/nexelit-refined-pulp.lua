@@ -5,13 +5,13 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "nexelit-pulp-04", amount = 100},
+        {type = "fluid", name = "nexelit-pulp-04", amount = 50},
         {type = "item", name = "iron-oxide", amount = 10},
         {type = "item", name = "aluminium-plate", amount = 2},
     },
     results = {
-        {type = "fluid", name = "nexelit-refined-pulp", amount = 50},
-        {type = "fluid", name = "nexelit-slurry", amount = 50},
+        {type = "fluid", name = "nexelit-refined-pulp", amount = 100},
+        {type = "fluid", name = "nexelit-slurry", amount = 100},
     },
     main_product = "nexelit-refined-pulp",
     subgroup = "py-rawores-recipes",

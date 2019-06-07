@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "nexelit-pulp-02", amount = 100},
-        {type = "fluid", name = "organic-solvent", amount = 100},
+        {type = "fluid", name = "organic-solvent", amount = 50},
     },
     results = {
         {type = "fluid", name = "nexelit-pulp-03", amount = 100},

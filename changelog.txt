@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.3.8
+
+  Balances:
+    - Balanced Nexelit chain.
+    - Improved mega-drill head value.
+    - Reduced requierements for mega mines, they now requieres production science, blue, green and red only.
+---------------------------------------------------------------------------------------------------
 Version: 1.3.7
 
   Balances:
