@@ -592,7 +592,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 100},
     },
     results = {
-        {type = "item", name = "limestone", amount = 1}
+        {type = "item", name = "limestone", amount = 2}
     },
     subgroup = "py-extraction",
     order = "d"
