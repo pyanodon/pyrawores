@@ -84,7 +84,7 @@ RECIPE("sc-wire"):replace_ingredient("iron-plate", "tin-plate"):add_ingredient({
 RECIPE("ferrite"):add_ingredient({type = "item", name = "zinc-plate", amount = 10})
 RECIPE("sc-unit"):add_ingredient({type = "fluid", name = "liquid-nitrogen", amount = 100})
 RECIPE("boron-mixture"):add_ingredient({type = "item", name = "aluminium-plate", amount = 5})
-RECIPE("boron"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 500})
+RECIPE("boron"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 300})
 RECIPE("blanket"):add_ingredient({type = "item", name = "nexelit-plate", amount = 10})
 RECIPE("blanket"):add_ingredient({type = "item", name = "lead-plate", amount = 40})
 RECIPE("blanket"):add_ingredient({type = "item", name = "super-steel", amount = 40})
