@@ -77,21 +77,6 @@ RECIPE("chloromethane"):replace_ingredient("sulfuric-acid" , "hydrogen-chloride"
 RECIPE("molten-stainless-steel"):remove_ingredient("chromium"):add_ingredient({type = "item", name = "fecr-alloy", amount = 5})
 
 
-
-RECIPE("aluminium-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-RECIPE("chromium-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-RECIPE("coal-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-RECIPE("copper-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-RECIPE("iron-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-RECIPE("lead-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-RECIPE("nexelit-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-RECIPE("nickel-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-RECIPE("quartz-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-RECIPE("tin-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-RECIPE("titanium-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-RECIPE("uranium-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-RECIPE("zinc-mine"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "hyperelastic-material", amount = 10})
-
 RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 10})
 RECIPE("outlet-gas-02"):change_category("fbreactor")
 RECIPE("fecr-alloy"):change_category("eaf"):add_ingredient({type = "item", name = "graphite", amount = 3})
