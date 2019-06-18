@@ -5,16 +5,16 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"phosphate-mine", 1},
-        {"electric-mining-drill", 10},
-        {"super-steel", 60},
-        {"nexelit-plate", 30},
+        {"electric-mining-drill", 20},
+        {"stainless-steel", 50},
+        {"nexelit-plate", 50},
         {"aramid", 40},
-        {"processing-unit", 20} --add pyht hyperelastic material/intelligent unit
+        {"advanced-circuit", 30} --add mo plates, vanadium
     },
     results = {
         {"phosphate-mine-02", 1}
     }
-}:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+}:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 ITEM {
     type = "item",
