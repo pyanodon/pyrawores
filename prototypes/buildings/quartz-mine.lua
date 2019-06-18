@@ -5,17 +5,16 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"automated-factory-mk01", 2},
-        {"electric-mining-drill", 10},
-        {"super-steel", 60},
-        {"nexelit-plate", 30},
-        {"aramid", 40},
-        {"glass", 50},
-        {"processing-unit", 20} --add pyht hyperelastic material/intelligent unit
+        {"electric-mining-drill", 20},
+        {"super-steel", 50},
+        {"nexelit-plate", 50},
+        {"aramid", 50},
+        {"advanced-circuit", 30} --add mo plates, vanadium
     },
     results = {
         {"quartz-mine", 1}
     }
-}:add_unlock("quartz-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+}:add_unlock("quartz-mk03"):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 ITEM {
     type = "item",
