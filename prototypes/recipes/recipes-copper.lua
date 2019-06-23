@@ -25,13 +25,13 @@ RECIPE {
     name = "grade-1-copper-crush",
     category = "crusher",
     enabled = false,
-    energy_required = 2,
+    energy_required = 3,
     ingredients = {
-        {type = "item", name = "grade-1-copper", amount = 1}
+        {type = "item", name = "grade-1-copper", amount = 2}
     },
     results = {
-        {type = "item", name = "stone", amount = 1},
-        {type = "item", name = "grade-2-copper", amount = 1, probability = 0.5}
+        {type = "item", name = "stone", amount = 2},
+        {type = "item", name = "grade-2-copper", amount = 1}
     },
     main_product = "grade-2-copper",
     subgroup = "py-rawores-copper",
@@ -43,7 +43,7 @@ RECIPE {
     name = "grade-3-copper",
     category = "solid-separator", --pyfe screener
     enabled = false,
-    energy_required = 3,
+    energy_required = 2.5,
     ingredients = {
         {type = "item", name = "grade-2-copper", amount = 2}
     },
@@ -81,7 +81,7 @@ RECIPE {
     name = "grade-4-copper",
     category = "solid-separator", --pyfe screener
     enabled = false,
-    energy_required = 4.5,
+    energy_required = 2.5,
     ingredients = {
         {type = "item", name = "grade-3-copper", amount = 2}
     },
@@ -101,7 +101,7 @@ RECIPE {
     name = "classify-low-grade",
     category = "classifier",
     enabled = false,
-    energy_required = 2.5,
+    energy_required = 2,
     ingredients = {
         {type = "item", name = "low-grade-rejects", amount = 4}
     },
