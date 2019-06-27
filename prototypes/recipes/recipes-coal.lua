@@ -23,6 +23,23 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
+    name = "coarse-coal-to-coal",
+    category = "crusher",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "coarse-coal", amount = 3}
+    },
+    results = {
+        {type = "item", name = "coal", amount = 5},
+    },
+    main_product = "coal",
+    subgroup = "py-rawores-coal",
+    order = "q-2"
+}:add_unlock("coal-mk02"):change_category('secondary-crusher')
+
+RECIPE {
+    type = "recipe",
     name = "coarse-coal",
     category = "solid-separator",
     enabled = false,
