@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.6
+
+  Balances:
+    - Balacing copper sintered-to-molten.
+    - Reduced crafting time in Cu solution.
+    - Added Coarse coal to coal recipe.
+---------------------------------------------------------------------------------------------------
 Version: 1.4.5
 
   Balances:
