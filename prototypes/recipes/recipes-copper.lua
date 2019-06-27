@@ -250,7 +250,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60}
     },
     results = {
-        {type = "fluid", name = "molten-copper", amount = 40}
+        {type = "fluid", name = "molten-copper", amount = 47}
     },
     main_product = "molten-copper",
     subgroup = "py-rawores-molten",

@@ -3,7 +3,7 @@ RECIPE {
     name = "copper-solution",
     category = "chemistry", --pyfe mixer
     enabled = false,
-    energy_required = 3,
+    energy_required = 4,
     ingredients = {
         {type = "fluid", name = "water", amount = 400},
         {type = "item", name = "grade-4-copper", amount = 3},
