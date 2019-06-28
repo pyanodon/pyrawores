@@ -17,7 +17,7 @@ RECIPE {
     main_product = "sl-01",
     subgroup = "py-rawores-fluids",
     order = "q-1"
-}:add_unlock("lead-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("lead-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 50})
 
 RECIPE {
     type = "recipe",
