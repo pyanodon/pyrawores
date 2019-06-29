@@ -70,7 +70,6 @@ RECIPE("molybdenum-oxide"):add_ingredient({type = "fluid", name = "oxygen", amou
 RECIPE("vpulp3"):replace_ingredient("petroleum-gas", "ammonia")
 RECIPE("vpulp-precip"):replace_ingredient("water", "ammonia")
 RECIPE("super-alloy"):replace_ingredient("steel-plate", "nickel-plate"):add_ingredient({type = "item", name = "aramid", amount = 1})
-RECIPE("cool-air"):replace_ingredient("pressured-air", "liquid-nitrogen")
 RECIPE("calcinate-separation"):add_result({type = "item", name = "ore-quartz", amount = 1, probability = 0.6})
 RECIPE("gas-separator"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE("grease-table"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
@@ -104,9 +103,7 @@ RECIPE("nuclear-reactor"):add_ingredient({type = "item", name = "super-alloy", a
 RECIPE("substation"):replace_ingredient("steel", "super-alloy")
 RECIPE("vpulp2"):replace_ingredient("crushed-iron", "iron-ore-dust")
 RECIPE("molybdenum-filtration"):remove_ingredient("vacuum")
-
 RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-alloy"):remove_ingredient("steel-plate")
-
 RECIPE("automated-screener"):replace_ingredient("electric-engine-unit", "engine-unit"):replace_ingredient("ground-borer", "electric-mining-drill"):replace_ingredient("advanced-circuit", "electronic-circuit"):remove_ingredient("niobium-plate")
 RECIPE("py-heat-exchanger"):replace_ingredient("processing-unit", "advanced-circuit")
 
@@ -252,12 +249,12 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "fluid", name = "cold-clean-air", amount = 200},
-        {type = "item", name = "active-carbon", amount = 2}
+        {type = "fluid", name = "cold-clean-air", amount = 400},
+        {type = "item", name = "active-carbon", amount = 3}
     },
     results = {
-        {type = "fluid", name = "nitrogen", amount = 3500},
-        {type = "fluid", name = "carbon-dioxide", amount = 50}
+        {type = "fluid", name = "nitrogen", amount = 8000},
+        {type = "fluid", name = "carbon-dioxide", amount = 150}
     },
     main_product = "nitrogen",
     subgroup = "py-rawores-fluids",
