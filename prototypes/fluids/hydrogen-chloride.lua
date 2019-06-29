@@ -3,7 +3,7 @@ RECIPE {
     name = "hydrogen-chloride",
     category = "chemistry",
     enabled = false,
-    energy_required = 6,
+    energy_required = 4,
     ingredients = {
         {type = "fluid", name = "hydrogen", amount = 100},
         {type = "fluid", name = "chlorine", amount = 100},
