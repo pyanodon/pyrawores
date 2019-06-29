@@ -7,10 +7,10 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "hydrogen", amount = 100},
         {type = "fluid", name = "chlorine", amount = 100},
-        {type = "item", name = "small-lamp", amount = 3}
+        {type = "item", name = "small-lamp", amount = 1}
     },
     results = {
-        {type = "fluid", name = "hydrogen-chloride", amount = 50}
+        {type = "fluid", name = "hydrogen-chloride", amount = 100}
     },
     --main_product = "hydrogen-chloride",
     icon = "__pyrawores__/graphics/icons/hydrogen-chloride.png",
