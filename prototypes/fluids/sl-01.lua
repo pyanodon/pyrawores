@@ -3,7 +3,7 @@ RECIPE {
     name = "sl-01",
     category = "flotation",
     enabled = false,
-    energy_required = 1,
+    energy_required = 15,
     ingredients = {
         {type = "fluid", name = "slz-pulp-02", amount = 100},
         {type = "fluid", name = "z3-reagent", amount = 50},
@@ -24,15 +24,15 @@ RECIPE {
     name = "sl-01-2",
     category = "flotation",
     enabled = false,
-    energy_required = 1,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "lead-refined-dust-03", amount = 3},
-        {type = "fluid", name = "oleochemicals", amount = 50},
-        {type = "fluid", name = "z3-reagent", amount = 50},
+        {type = "fluid", name = "oleochemicals", amount = 150},
+        {type = "fluid", name = "z3-reagent", amount = 150},
         --pyfe pressured air
     },
     results = {
-        {type = "fluid", name = "sl-01", amount = 50},
+        {type = "fluid", name = "sl-01", amount = 150},
     },
     main_product = "sl-01",
     subgroup = "py-rawores-fluids",
