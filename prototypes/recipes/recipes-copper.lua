@@ -302,7 +302,7 @@ RECIPE {
     name = "copper-plate-1",
     category = "casting",
     enabled = false,
-    energy_required = 1,
+    energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-copper", amount = 100},
         {type = "item", name = "borax", amount = 3},
