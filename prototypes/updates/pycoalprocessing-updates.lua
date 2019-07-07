@@ -645,3 +645,24 @@ RECIPE {
         {type = "item", name = "fuelrod-mk01", amount = 2}
     }
 }:add_unlock("uranium-mk01")
+
+RECIPE {
+    type = "recipe",
+    name = "nbfe-alloy-2",
+    category = "casting",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "molten-iron", amount = 100},
+        {type = "fluid", name = "niobium-complex", amount = 40},
+        {type = "item", name = "sand-casting", amount = 4},
+    },
+    results = {
+        {type = "item", name = "nbfe-alloy", amount = 15}
+    },
+    main_product= "nbfe-alloy",
+    icon = "__pycoalprocessing__/graphics/icons/nbfe-alloy.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("iron-mk02")

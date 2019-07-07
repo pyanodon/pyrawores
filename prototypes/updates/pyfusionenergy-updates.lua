@@ -335,3 +335,24 @@ RECIPE {
     subgroup = "py-rawores-fluids",
     order = "q-2"
 }:add_unlock("uranium-mk04")
+
+RECIPE {
+    type = "recipe",
+    name = "nbti-alloy-2",
+    category = "casting",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "molten-titanium", amount = 100},
+        {type = "fluid", name = "niobium-complex", amount = 40},
+        {type = "item", name = "sand-casting", amount = 4},
+    },
+    results = {
+        {type = "item", name = "nbti-alloy", amount = 15}
+    },
+    main_product= "nbti-alloy",
+    icon = "__pyfusionenergy__/graphics/icons/nbti-alloy.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("titanium-mk03")
