@@ -160,6 +160,25 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
+    name = "unslimed-iron-2",
+    category = "hydroclassifier",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "iron-pulp-01", amount = 200},
+        {type = "fluid", name = "water", amount = 200},
+    },
+    results = {
+        {type = "fluid", name = "dirty-water", amount = 100},
+        {type = "item", name = "unslimed-iron", amount = 1},
+    },
+    main_product = "unslimed-iron",
+    subgroup = "py-rawores-iron",
+    order = "q-2"
+}:add_unlock("iron-mk02")
+
+RECIPE {
+    type = "recipe",
     name = "iron-pulp-06-thickener",
     category = "chemistry", --pyfe thickener
     enabled = false,

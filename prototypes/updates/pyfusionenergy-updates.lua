@@ -43,6 +43,7 @@ RECIPE("crystalized-sodium-aluminate"):remove_ingredient("steam"):add_ingredient
 RECIPE("cold-clean-air"):replace_ingredient("filtration-media", "biofilm")
 RECIPE("tin-concentrate-3"):remove_ingredient("heavy-oil"):add_ingredient({type = "fluid", name = "grease", amount = 30})
 RECIPE("ti-pulp-02"):remove_ingredient("heavy-oil"):add_ingredient({type = "fluid", name = "grease", amount = 50})
+RECIPE("unslimed-iron-2"):change_category("hydrocyclone")
 
 RECIPE("grade-4-chromite"):change_category("hydrocyclone")
 
