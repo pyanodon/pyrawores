@@ -1788,17 +1788,6 @@ ITEM {
 
 ITEM {
     type = "item",
-    name = "sintered-zinc",
-    icon = "__pyrawores__/graphics/icons/sintered-zinc.png",
-	icon_size = 32,
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
     name = "reduced-zinc",
     icon = "__pyrawores__/graphics/icons/reduced-zinc.png",
 	icon_size = 32,
