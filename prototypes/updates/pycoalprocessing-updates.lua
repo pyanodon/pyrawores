@@ -213,28 +213,6 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "syngas2",
-    category = "gasifier",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "fluid", name = "coal-gas", amount = 40},
-        {type = "fluid", name = "oxygen", amount = 60},
-        {type = "fluid", name = "water", amount = 100}
-    },
-    results = {
-        {type = "fluid", name = "syngas", amount = 100},
-        {type = "fluid", name = "tar", amount = 30},
-        {type = "item", name = "ash", amount = 1}
-    },
-    icon = "__pycoalprocessing__/graphics/icons/syngas.png",
-    icon_size = 32,
-    subgroup = "py-syngas",
-    order = "a-b-[syn-gas]"
-}:add_unlock("coal-processing-2")
-
-RECIPE {
-    type = "recipe",
     name = "syngas-distilation",
     category = "distilator",
     enabled = false,
