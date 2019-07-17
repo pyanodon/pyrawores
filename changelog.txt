@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.3
+
+  Changes:
+    - End of iron fun time.
+    - Reduced MIBC consuption in tin concentrate.
+    - Rebalanced upper iron processing steps.
+    - Improved petroleum sulfonates output.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.2
 
   Changes:

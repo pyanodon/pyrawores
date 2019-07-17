@@ -11,7 +11,7 @@ RECIPE {
         {type = "item", name = "sodium-hydroxide", amount = 5},
     },
     results = {
-        {type = "fluid", name = "petroleum-sulfonates", amount = 50},
+        {type = "fluid", name = "petroleum-sulfonates", amount = 400},
     },
     main_product = "petroleum-sulfonates",
     icon = "__pyrawores__/graphics/icons/petroleum-sulfonates.png",
