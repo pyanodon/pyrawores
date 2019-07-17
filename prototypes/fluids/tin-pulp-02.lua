@@ -5,18 +5,18 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "oleochemicals", amount = 100},
+        {type = "fluid", name = "oleochemicals", amount = 50},
         {type = "fluid", name = "kerosene", amount = 100},
-        {type = "item", name = "high-tin-concentrate", amount = 4},
+        {type = "item", name = "high-tin-concentrate", amount = 8},
     },
     results = {
-        {type = "fluid", name = "sulfuric-acid", amount = 50},
-        {type = "fluid", name = "tin-pulp-02", amount = 100},
+        {type = "fluid", name = "sulfuric-acid", amount = 200},
+        {type = "fluid", name = "tin-pulp-02", amount = 250},
     },
     main_product = "tin-pulp-02",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("tin-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("tin-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 250})
 
 
 FLUID {

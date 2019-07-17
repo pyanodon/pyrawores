@@ -46,11 +46,11 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "sodium-aluminate", amount = 1},
-        {type = "fluid", name = "steam", amount = 500, temperature = 165} --pyfe pressured air
+        {type = "item", name = "sodium-aluminate", amount = 2},
+        {type = "fluid", name = "steam", amount = 300, temperature = 165} --pyfe pressured air
     },
     results = {
-        {type = "item", name = "crystalized-sodium-aluminate", amount = 1}
+        {type = "item", name = "crystalized-sodium-aluminate", amount = 2}
     },
     main_product = "crystalized-sodium-aluminate",
     subgroup = "py-rawores-aluminium",

@@ -121,7 +121,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "tin-dust", amount = 1},
-        {type = "fluid", name = "mibc", amount = 100},
+        {type = "fluid", name = "mibc", amount = 75},
         {type = "fluid", name = "water", amount = 100},
     },
     results = {
@@ -257,7 +257,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "high-grade-tin", amount = 1},
-        {type = "item", name = "sodium-sulfate", amount = 2},
+        {type = "item", name = "sodium-sulfate", amount = 1},
         {type = "fluid", name = "diesel", amount = 50},
         --pyfe pressured air
     },

@@ -494,7 +494,7 @@ RECIPE {
     },
     results = {
         {type = 'fluid', name = 'acidgas', amount = 50},
-        {type = 'item', name = 'iron-oxide', amount = 3},
+        {type = 'item', name = 'iron-oxide', amount = 12},
     },
     main_product = "iron-oxide",
 }:add_unlock("coal-mk01")

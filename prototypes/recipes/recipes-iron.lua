@@ -165,7 +165,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "iron-pulp-01", amount = 200},
+        {type = "fluid", name = "iron-pulp-01", amount = 300},
         {type = "fluid", name = "water", amount = 200},
     },
     results = {
@@ -206,7 +206,7 @@ RECIPE {
         {type = "item", name = "filtration-media", amount = 1},
     },
     results = {
-        {type = "item", name = "high-grade-iron", amount = 3},
+        {type = "item", name = "high-grade-iron", amount = 7},
     },
     main_product = "high-grade-iron",
     subgroup = "py-rawores-iron",
