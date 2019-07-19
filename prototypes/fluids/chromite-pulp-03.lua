@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "chromite-pulp-02", amount = 200},
-        {type = "fluid", name = "organic-solvent", amount = 100},
+        {type = "fluid", name = "organic-solvent", amount = 50},
     },
     results = {
         {type = "fluid", name = "chromite-pulp-03", amount = 100},
