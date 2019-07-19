@@ -670,4 +670,4 @@ RECIPE {
     results = {
         {type = 'item', name = 'fecr-alloy', amount = 20}
     }
-}:add_unlock('basic-electronics')
+}:add_unlock('chromium-mk03')
