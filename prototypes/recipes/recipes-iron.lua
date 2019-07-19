@@ -315,7 +315,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
-        {type = "fluid", name = "molten-iron", amount = 90},
+        {type = "fluid", name = "molten-iron", amount = 80},
     },
     main_product = "molten-iron",
     subgroup = "py-rawores-molten",
