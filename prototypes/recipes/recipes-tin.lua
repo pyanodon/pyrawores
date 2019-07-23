@@ -294,15 +294,15 @@ RECIPE {
     name = "sinter-tin-2",
     category = "sinter",
     enabled = false,
-    energy_required = 4,
+    energy_required = 8,
     ingredients = {
-        {type = "item", name = "reduced-tin", amount = 1},
+        {type = "item", name = "reduced-tin", amount = 3},
         {type = "item", name = "lime", amount = 3},
         {type = "fluid", name = "syngas", amount = 100},
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "sintered-tin", amount = 2},
+        {type = "item", name = "sintered-tin", amount = 6},
     },
     main_product = "sintered-tin",
     subgroup = "py-rawores-tin",
@@ -334,13 +334,13 @@ RECIPE {
     name = "molten-tin-02",
     category = "eaf",
     enabled = false,
-    energy_required = 4,
+    energy_required = 8,
     ingredients = {
-        {type = "item", name = "tin-concentrate", amount = 1},
+        {type = "item", name = "tin-concentrate", amount = 3},
         {type = "item", name = "borax", amount = 3},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 30},
+        {type = "fluid", name = "molten-tin", amount = 150},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
@@ -354,11 +354,11 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-         {type = "item", name = "borax", amount = 3},
-         {type = "item", name = "high-tin-concentrate", amount = 1},
+         {type = "item", name = "borax", amount = 10},
+         {type = "item", name = "high-tin-concentrate", amount = 5},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 40},
+        {type = "fluid", name = "molten-tin", amount = 200},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
@@ -388,13 +388,13 @@ RECIPE {
     name = "molten-tin-04",
     category = "eaf",
     enabled = false,
-    energy_required = 3,
+    energy_required = 6,
     ingredients = {
-        {type = "item", name = "reduced-tin", amount = 1},
+        {type = "item", name = "reduced-tin", amount = 2},
         {type = "item", name = "borax", amount = 3},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 100},
+        {type = "fluid", name = "molten-tin", amount = 250},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
@@ -409,10 +409,10 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "sintered-tin", amount = 1},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax", amount = 2},
     },
     results = {
-        {type = "fluid", name = "molten-tin", amount = 70},
+        {type = "fluid", name = "molten-tin", amount = 80},
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",

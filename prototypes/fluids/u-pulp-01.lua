@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "20-u-powder", amount = 1},
         {type = "fluid", name = "steam", amount = 300, temperature = 165},
-        {type = "fluid", name = "sulfuric-acid", amount = 100}
+        {type = "fluid", name = "sulfuric-acid", amount = 50}
     },
     results = {
         {type = "fluid", name = "u-pulp-01", amount = 100}

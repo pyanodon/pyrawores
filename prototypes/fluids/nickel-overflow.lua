@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "nickel-pulp-02", amount = 100},
-        {type = "fluid", name = "glycerol", amount = 50},
+        {type = "fluid", name = "glycerol", amount = 30},
     },
     results = {
         {type = "fluid", name = "nickel-overflow", amount = 100},

@@ -255,14 +255,14 @@ RECIPE {
     name = "molten-zinc-03",
     category = "advanced-foundry",
     enabled = false,
-    energy_required = 3,
+    energy_required = 6,
     ingredients = {
         {type = "item", name = "high-grade-zinc", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 100}
+        {type = "fluid", name = "heavy-oil", amount = 150}
     },
     results = {
-        {type = "fluid", name = "molten-zinc", amount = 65}
+        {type = "fluid", name = "molten-zinc", amount = 132}
     },
     main_product = "molten-zinc",
     subgroup = "py-rawores-molten",
@@ -274,14 +274,14 @@ RECIPE {
     name = "molten-zinc-04",
     category = "advanced-foundry",
     enabled = false,
-    energy_required = 3,
+    energy_required = 4,
     ingredients = {
         {type = "item", name = "reduced-zinc", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 100}
+        {type = "fluid", name = "heavy-oil", amount = 150}
     },
     results = {
-        {type = "fluid", name = "molten-zinc", amount = 70}
+        {type = "fluid", name = "molten-zinc", amount = 200}
     },
     main_product = "molten-zinc",
     subgroup = "py-rawores-molten",
@@ -293,14 +293,14 @@ RECIPE {
     name = "molten-zinc-05",
     category = "advanced-foundry",
     enabled = false,
-    energy_required = 3,
+    energy_required = 4,
     ingredients = {
         {type = "item", name = "sintered-zinc", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 100}
+        {type = "fluid", name = "heavy-oil", amount = 150}
     },
     results = {
-        {type = "fluid", name = "molten-zinc", amount = 80}
+        {type = "fluid", name = "molten-zinc", amount = 130}
     },
     main_product = "molten-zinc",
     subgroup = "py-rawores-molten",
@@ -359,7 +359,7 @@ RECIPE {
         {type = "item", name = "grade-2-zinc", amount = 20}
     },
     results = {
-        {type = "item", name = "zinc-plate", amount = 15}
+        {type = "item", name = "zinc-plate", amount = 30}
     },
     subgroup = "py-rawores-plates",
     order = "j"
@@ -372,7 +372,7 @@ RECIPE {
     enabled = false,
     energy_required = 50,
     ingredients = {
-        {type = "item", name = "powdered-zinc", amount = 20}
+        {type = "item", name = "powdered-zinc", amount = 10}
     },
     results = {
         {type = "item", name = "zinc-plate", amount = 30}
