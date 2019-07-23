@@ -222,9 +222,9 @@ RECIPE("molten-steel-02"):add_ingredient({type = "item", name = "graphite", amou
 RECIPE("molten-tin-01"):add_ingredient({type = "item", name = "graphite", amount = 6})
 RECIPE("molten-tin-02"):add_ingredient({type = "item", name = "graphite", amount = 3})
 RECIPE("molten-tin-03"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-tin-02-2"):add_ingredient({type = "item", name = "graphite", amount = 3})
+RECIPE("molten-tin-02-2"):add_ingredient({type = "item", name = "graphite", amount = 10})
 RECIPE("molten-tin-04"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-tin-05"):add_ingredient({type = "item", name = "graphite", amount = 3})
+RECIPE("molten-tin-05"):add_ingredient({type = "item", name = "graphite", amount = 2})
 RECIPE("nexelit-refined-pulp"):add_ingredient({type = "item", name = "graphite", amount = 3})
 
 RECIPE {

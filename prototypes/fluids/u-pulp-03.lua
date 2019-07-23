@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "u-pulp-02", amount = 100},
-        {type = "fluid", name = "sulfuric-acid", amount = 200},
+        {type = "fluid", name = "sulfuric-acid", amount = 100},
     },
     results = {
         {type = "fluid", name = "u-pulp-03", amount = 100},

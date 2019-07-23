@@ -188,7 +188,7 @@ RECIPE {
         {type = "item", name = "aluminium-plate", amount = 2}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 100},
+        {type = "fluid", name = "molten-nickel", amount = 50},
         {type = "item", name = "pyrite", amount = 1}
     },
     main_product = "molten-nickel",
@@ -246,7 +246,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 100}
+        {type = "fluid", name = "molten-nickel", amount = 150}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -262,10 +262,10 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-nickel", amount = 1},
         {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 60}
+        {type = "fluid", name = "oxygen", amount = 90}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 125}
+        {type = "fluid", name = "molten-nickel", amount = 180}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -277,14 +277,14 @@ RECIPE {
     name = "molten-nickel-04",
     category = "bof",
     enabled = false,
-    energy_required = 3,
+    energy_required = 6,
     ingredients = {
-        {type = "item", name = "reduced-nickel", amount = 1},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 60}
+        {type = "item", name = "reduced-nickel", amount = 2},
+        {type = "item", name = "borax", amount = 5},
+        {type = "fluid", name = "oxygen", amount = 200}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 170}
+        {type = "fluid", name = "molten-nickel", amount = 530}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
@@ -296,14 +296,14 @@ RECIPE {
     name = "molten-nickel-05",
     category = "bof",
     enabled = false,
-    energy_required = 3,
+    energy_required = 9,
     ingredients = {
-        {type = "item", name = "sintered-nickel", amount = 1},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 60}
+        {type = "item", name = "sintered-nickel", amount = 2},
+        {type = "item", name = "borax", amount = 5},
+        {type = "fluid", name = "oxygen", amount = 150}
     },
     results = {
-        {type = "fluid", name = "molten-nickel", amount = 150}
+        {type = "fluid", name = "molten-nickel", amount = 400}
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",

@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "nickel-overflow", amount = 100},
-        {type = "fluid", name = "methanol", amount = 200},
+        {type = "fluid", name = "methanol", amount = 50},
     },
     results = {
         {type = "fluid", name = "nickel-slime", amount = 50},
