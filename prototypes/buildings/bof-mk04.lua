@@ -42,11 +42,11 @@ ENTITY {
     collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
     selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
     module_specification = {
-        module_slots = 0
+        module_slots = 1
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"bof"},
-    crafting_speed = 3.0,
+    crafting_speed = 3.5,
     energy_source =
     {
       type = "burner",

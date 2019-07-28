@@ -235,10 +235,10 @@ RECIPE {
     energy_required = 2,
     ingredients = {
         {type = "fluid", name = "phosphine-gas", amount = 5},
-        {type = "fluid", name = "water", amount = 100}
+        {type = "fluid", name = "water-saline", amount = 100}
     },
     results = {
-        {type = "fluid", name = "hydrogen-chloride", amount = 50},
+        {type = "fluid", name = "hydrogen-chloride", amount = 40},
         {type = "fluid", name = "phosphoric-acid", amount = 15},
         {type = "fluid", name = "oxygen", amount = 20}
     },
