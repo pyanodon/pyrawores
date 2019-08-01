@@ -24,6 +24,7 @@ RECIPE("secondary-crusher"):remove_unlock("advanced-mining-facilities"):add_unlo
 RECIPE("automated-screener"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 
 RECIPE("jig"):remove_unlock("diamond-mining"):add_unlock("machines-mk02"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 
 RECIPE("u-79-2"):remove_unlock("uranium-mk04")
 RECIPE("u-79"):add_unlock("uranium-mk04")
