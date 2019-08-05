@@ -349,7 +349,7 @@ RECIPE {
         {type = "item", name = "proton-donor", amount = 2}
     },
     results = {
-        {type = "fluid", name = "oxygen", amount = 200},
+        {type = "fluid", name = "oxygen", amount = 5000},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "oxygen",
@@ -391,7 +391,7 @@ RECIPE {
         {type = "item", name = "proton-receiver", amount = 4}
     },
     results = {
-        {type = "fluid", name = "hydrogen", amount = 1000},
+        {type = "fluid", name = "hydrogen", amount = 2000},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "hydrogen",
@@ -433,7 +433,7 @@ RECIPE {
         {type = "item", name = "proton-receiver", amount = 2}
     },
     results = {
-        {type = "item", name = "coal", amount = 100},
+        {type = "item", name = "coal", amount = 200},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "coal",
@@ -538,7 +538,7 @@ RECIPE {
         {type = "item", name = "proton-donor", amount = 2}
     },
     results = {
-        {type = "item", name = "gold-plate", amount = 20},
+        {type = "item", name = "gold-plate", amount = 12},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "gold-plate",
@@ -553,7 +553,7 @@ RECIPE {
     name = "pa-vanadium2",
     category = "pa",
     enabled = false,
-    energy_required = 15,
+    energy_required = 45,
     ingredients = {
         {type = "item", name = "titanium-plate", amount = 10},
         {type = "item", name = "proton-donor", amount = 2}
