@@ -613,6 +613,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "molten-nickel", amount = 100},
         {type = "fluid", name = "molten-chromium", amount = 80},
+        {type = "item", name = "sand-casting", amount = 1}
     },
     results = {
         {type = "item", name = "nichrome", amount = 10}
