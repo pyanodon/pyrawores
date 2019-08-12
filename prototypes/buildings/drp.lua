@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"steel-plate", 20},
-        {"iron-plate", 15},
-        {"classifier", 1},
-        {"electronic-circuit", 20},
+        {"titanium-plate", 200},
+        {"supe-steel", 50},
+        {"classifier", 3},
+        {"processing-unit", 25},
     },
     results = {
         {"drp", 1}
     }
-}:add_unlock("machines-mk04")
+}:add_unlock("machines-mk03")
 
 ITEM {
     type = "item",
