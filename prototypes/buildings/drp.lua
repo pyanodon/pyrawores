@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"titanium-plate", 200},
-        {"supe-steel", 50},
+        {"super-steel", 50},
         {"classifier", 3},
         {"processing-unit", 25},
     },
