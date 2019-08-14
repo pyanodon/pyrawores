@@ -170,15 +170,15 @@ RECIPE {
     name = "glass-4",
     category = "hpf",
     enabled = false,
-    energy_required = 4,
+    energy_required = 11,
     ingredients = {
-        {type = "item", name = "purified-quartz", amount = 1},
-        {type = "fluid", name = "coal-gas", amount = 100},
-        {type = "item", name = "pure-sand", amount = 10},
-        {type = "item", name = "sodium-carbonate", amount = 1},
+        {type = "item", name = "purified-quartz", amount = 3},
+        {type = "fluid", name = "coal-gas", amount = 400},
+        {type = "item", name = "pure-sand", amount = 20},
+        {type = "item", name = "sodium-carbonate", amount = 2},
     },
     results = {
-        {type = "item", name = "glass", amount = 60}
+        {type = "item", name = "glass", amount = 150}
     },
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
