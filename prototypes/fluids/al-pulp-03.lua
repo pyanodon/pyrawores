@@ -3,13 +3,13 @@ RECIPE {
     name = "al-pulp-03",
     category = "leaching",
     enabled = false,
-    energy_required = 3,
+    energy_required = 2.25,
     ingredients = {
-        {type = "fluid", name = "al-pulp-02", amount = 400},
-        {type = "fluid", name = "alamac", amount = 50},
+        {type = "fluid", name = "al-pulp-02", amount = 300},
+        {type = "fluid", name = "alamac", amount = 38},
     },
     results = {
-        {type = "fluid", name = "al-pulp-03", amount = 400},
+        {type = "fluid", name = "al-pulp-03", amount = 300},
         {type = "item", name = "iron-oxide", amount = 1},
     },
     main_product = "al-pulp-03",
