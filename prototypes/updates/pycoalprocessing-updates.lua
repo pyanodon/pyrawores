@@ -448,12 +448,12 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 300},
-        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-lead", amount = 15}
+        {type = "item", name = "ore-lead", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-lead.png",
     icon_size = 32,
@@ -528,8 +528,8 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 300},
-        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
@@ -548,8 +548,8 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 300},
-        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "fluid", name = "lubricant", amount = 250},
+        {type = "fluid", name = "coal-gas", amount = 250},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
