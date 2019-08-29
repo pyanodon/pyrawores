@@ -72,7 +72,7 @@ RECIPE("fast-underground-belt"):add_ingredient({type = "item", name = "stainless
 RECIPE("fast-splitter"):add_ingredient({type = "item", name = "stainless-steel", amount = 5})
 RECIPE("express-transport-belt"):add_ingredient({type = "item", name = "super-steel", amount = 5})
 RECIPE("express-underground-belt"):add_ingredient({type = "item", name = "super-steel", amount = 5})
-RECIPE("express-splitter"):add_ingredient({type = "item", name = "stainless-steel", amount = 5})
+RECIPE("express-splitter"):add_ingredient({type = "item", name = "super-steel", amount = 5})
 RECIPE("fast-inserter"):add_ingredient({type = "item", name = "duralumin", amount = 5})
 RECIPE("filter-inserter"):add_ingredient({type = "item", name = "duralumin", amount = 5})
 RECIPE("stack-inserter"):add_ingredient({type = "item", name = "duralumin", amount = 5})
