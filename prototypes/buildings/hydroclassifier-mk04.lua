@@ -40,6 +40,7 @@ ENTITY {
     dying_explosion = "big-explosion",
     collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
     selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
+    match_animation_speed_to_activity = false,
     module_specification = {
         module_slots = 0
     },
@@ -62,7 +63,7 @@ ENTITY {
                 height = 227,
                 line_length = 21,
                 frame_count = 150,
-                animation_speed = 0.12,
+                animation_speed = 1.5,
                 shift = util.by_pixel(-63, -2)
             },
             {
@@ -72,7 +73,7 @@ ENTITY {
                 height = 227,
                 line_length = 21,
                 frame_count = 150,
-                animation_speed = 0.12,
+                animation_speed = 1.5,
                 shift = util.by_pixel(31, -2)
             },
             {
@@ -82,7 +83,7 @@ ENTITY {
                 height = 227,
                 line_length = 21,
                 frame_count = 150,
-                animation_speed = 0.12,
+                animation_speed = 1.5,
                 shift = util.by_pixel(95, -2)
             },
             {
@@ -92,7 +93,7 @@ ENTITY {
                 height = 222,
                 line_length = 21,
                 frame_count = 150,
-                animation_speed = 0.12,
+                animation_speed = 1.5,
                 draw_as_shadow = true,
                 shift = util.by_pixel(79, -2)
             }
