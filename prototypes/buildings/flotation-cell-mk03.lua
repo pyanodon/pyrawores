@@ -41,6 +41,7 @@ ENTITY {
     dying_explosion = "big-explosion",
     collision_box = {{-2.7, -2.7}, {2.7, 2.7}},
     selection_box = {{-3.0, -3.0}, {3.0, 3.0}},
+    match_animation_speed_to_activity = false,
     module_specification = {
         module_slots = 0
     },
@@ -92,7 +93,7 @@ ENTITY {
                 line_length = 10,
                 width = 192,
                 height = 160,
-                animation_speed = 0.3
+                animation_speed = 1
             }
         }
     },

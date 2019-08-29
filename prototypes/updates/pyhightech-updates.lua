@@ -226,6 +226,7 @@ RECIPE("molten-tin-02-2"):add_ingredient({type = "item", name = "graphite", amou
 RECIPE("molten-tin-04"):add_ingredient({type = "item", name = "graphite", amount = 3})
 RECIPE("molten-tin-05"):add_ingredient({type = "item", name = "graphite", amount = 2})
 RECIPE("nexelit-refined-pulp"):add_ingredient({type = "item", name = "graphite", amount = 3})
+RECIPE("sinter-unit"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20})
 
 RECIPE {
     type = "recipe",

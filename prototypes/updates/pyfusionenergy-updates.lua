@@ -223,6 +223,8 @@ RECIPE("scrubber-mk04"):add_ingredient({type = "item", name = "nbti-alloy", amou
 RECIPE("wet-scrubber-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 15})
 RECIPE("wet-scrubber-mk04"):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 3})
 
+RECIPE("sinter-unit"):add_ingredient({type = "item", name = "super-alloy", amount = 15})
+
 RECIPE {
     type = "recipe",
     name = "al-tailings-separation",
