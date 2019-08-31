@@ -56,7 +56,7 @@ RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 5
 RECIPE("olefin"):replace_ingredient("water", "hydrogen")
 RECIPE("flask"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "glass", amount = 10})
 RECIPE("ref-to-light-oil"):add_ingredient({type = "fluid", name = "hydrogen", amount = 250})
-RECIPE("olefin-combustion"):replace_ingredient("water", "hydrogen")
+RECIPE("olefin-combustion"):remove_ingredient("water"):add_ingredient({type = "fluid", name = "hydrogen", amount = 100})
 RECIPE("niobium-oxide"):replace_ingredient("water", "nitrogen")
 RECIPE("filtration-media"):add_ingredient({type = "item", name = "glass", amount = 6})
 RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "optical-fiber", amount = 2})
