@@ -16,7 +16,7 @@ RECIPE {
     main_product = "nexelit-pulp-01",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("nexelit-mk03"):change_category('pan'):add_ingredient({type = "item", name = "sodium-chlorate", amount = 4})
+}:add_unlock("nexelit-mk03"):change_category('pan'):add_ingredient({type = "item", name = "sodium-chlorate", amount = 2})
 
 
 FLUID {
