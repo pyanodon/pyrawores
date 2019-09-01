@@ -379,7 +379,7 @@ RECIPE {
     name = "tinned-cable",
     category = "crafting",
     enabled = true,
-    energy_required = 1,
+    energy_required = 0.5,
     ingredients = {
         {type = "item", name = "copper-cable", amount = 2},
         {type = "item", name = "tin-plate", amount = 1},
