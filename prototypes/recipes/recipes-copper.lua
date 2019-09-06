@@ -345,7 +345,7 @@ RECIPE {
         {type = "item", name = "low-grade-copper", amount = 1}
     },
     results = {
-        {type = "item", name = "copper-plate", amount = 1}
+        {type = "item", name = "copper-plate", amount = 1, probability = 0.6}
     },
     main_product = "copper-plate",
     subgroup = "py-rawores-plates",
