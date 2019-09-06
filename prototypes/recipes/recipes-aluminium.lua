@@ -67,7 +67,7 @@ RECIPE {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 1},
          --pyht graphite
         {type = "item", name = "sodium-hydroxide", amount = 8},
-        {type = "item", name = "nichrome", amount = 4}
+        {type = "item", name = "nichrome", amount = 2}
     },
     results = {
         {type = "item", name = "high-grade-alumina", amount = 1},
