@@ -92,7 +92,7 @@ RECIPE {
     results = {
         {type = "item", name = "iron-oxide", amount = 1, probability = 0.5},
         {type = "item", name = "gravel", amount = 4},
-        {type = "item", name = "crushed-quartz", amount = 2}
+        {type = "item", name = "crushed-quartz", amount = 1}
     },
     main_product = "gravel",
     icon = "__pyrawores__/graphics/icons/class-sand.png",
