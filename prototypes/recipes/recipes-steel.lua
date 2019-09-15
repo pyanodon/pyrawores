@@ -139,7 +139,7 @@ RECIPE {
     main_product = "molten-super-steel",
     subgroup = "py-rawores-molten",
     order = "s"
-}:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "molybdenum-plate", amount =3}):add_ingredient({type = "item", name = "vanadium-oxide", amount =2})
+}:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "molybdenum-plate", amount =1}):add_ingredient({type = "item", name = "vanadium-oxide", amount =2})
 
 RECIPE {
     type = "recipe",
