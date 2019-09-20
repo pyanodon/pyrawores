@@ -84,7 +84,7 @@ RECIPE {
         --pyht graphite
     },
     results = {
-        {type = "item", name = "gold-plate", amount = 1}
+        {type = "item", name = "gold-plate", amount = 4}
     },
     main_product = "gold-plate",
     subgroup = "py-rawores-plates",
