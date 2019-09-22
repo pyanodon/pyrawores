@@ -2,7 +2,7 @@ TECHNOLOGY("helium-processing"):remove_pack("production-science-pack")
 TECHNOLOGY("advanced-mining-facilities"):remove_pack("chemical-science-pack"):remove_prereq("diamond-mining"):add_prereq("iron-mk02")
 TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_prereq("advanced-mining-facilities"):remove_prereq("fusion-mk01"):add_prereq("iron-mk02")
 
-RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):add_unlock("machines-mk02")
+RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):add_unlock("machines-mk01")
 RECIPE("acidgas-2"):remove_unlock("regolite-mining"):add_unlock("machines-mk02")
 RECIPE("olefin-plant"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("olefin"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
@@ -13,7 +13,7 @@ RECIPE("pressured-air"):set_fields {energy_required = 1}
 
 RECIPE("steam-heating"):remove_ingredient("fuelrod-mk01"):add_ingredient({type = "item", name = "fuelrod-mk01", amount = 1})
 RECIPE("hydrocyclone-mk01"):replace_ingredient("centrifuge", "classifier")
-RECIPE("hydrocyclone-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk02")
+RECIPE("hydrocyclone-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 RECIPE("py-heat-exchanger"):remove_unlock("fuel-production"):add_unlock("coal-processing-2")
 
 RECIPE("mixer-mk01"):remove_unlock("advanced-mining-facilities"):remove_unlock("basic-electronic"):add_unlock("machines-mk01")
@@ -23,15 +23,15 @@ RECIPE("secondary-crusher-mk01"):remove_unlock("advanced-mining-facilities"):add
 
 RECIPE("automated-screener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 
-RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk02"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 
 RECIPE("u-79-2"):remove_unlock("uranium-mk04")
 RECIPE("u-79"):add_unlock("uranium-mk04")
 
-RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk02")
+RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk01")
 
-RECIPE("agitator-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk02")
+RECIPE("agitator-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 RECIPE("sodium-chlorate"):remove_unlock("vanadium-processing"):add_unlock("machines-mk02"):change_category("electrolyzer"):remove_ingredient("water-saline"):add_ingredient({type = "item", name = "salt", amount = 10})
 
 RECIPE("purified-quartz"):change_category("pan")
@@ -366,7 +366,7 @@ RECIPE {
 
 --pyfusion mk02 unlocks
 RECIPE('xyhiphoe-pool-mk02'):add_unlock('machines-mk02')
-RECIPE('vacuum-pump-mk01'):add_unlock('machines-mk02')
+RECIPE('vacuum-pump-mk02'):add_unlock('machines-mk02')
 RECIPE('agitator-mk02'):add_unlock('machines-mk02')
 RECIPE('thickener-mk02'):add_unlock('machines-mk02')
 RECIPE('hydrocyclone-mk02'):add_unlock('machines-mk02')
