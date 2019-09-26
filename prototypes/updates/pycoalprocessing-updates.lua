@@ -1,3 +1,5 @@
+local fun = require("prototypes/functions/functions")
+
 RECIPE('making-chromium'):remove_unlock('coal-processing-2')
 RECIPE('crushing-iron'):remove_unlock('crusher')
 RECIPE('crushing-copper'):remove_unlock('crusher')
@@ -12,6 +14,7 @@ TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-p
 TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):add_prereq('coal-processing-2')
 RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01')
 
+fun.results_replacer("richdust-separation", "chromite-sand", "coal-dust",5)
 
 RECIPE("boric-acid"):change_category('electrolyzer')
 RECIPE("copper-coating"):change_category('electrolyzer')
