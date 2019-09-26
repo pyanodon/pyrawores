@@ -2,7 +2,7 @@
 Version: 1.7.0
 
   Changes:
-    - moved ingredients from pyfusaion to pyrawores for the pyfusion mk02-mk04 buildings to fix pyfusion error
+    - Realocated nexelit requierements tech tree.
 ---------------------------------------------------------------------------------------------------
 Version: 1.6.9
 
