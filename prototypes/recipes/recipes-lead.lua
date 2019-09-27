@@ -9,7 +9,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-lead", amount = 1},
-        {type = "item", name = "grade-2-lead", amount = 1, probability = 0.5}
+        --{type = "item", name = "grade-2-lead", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-lead",
     icon = "__pyrawores__/graphics/icons/ore-lead-screening.png",
@@ -29,7 +29,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "stone", amount = 1},
-        {type = "item", name = "grade-2-lead", amount = 1, probability = 0.5}
+        {type = "item", name = "grade-2-lead", amount = 1}
     },
     main_product = "grade-2-lead",
     icon = "__pyrawores__/graphics/icons/crusher-lead.png",
@@ -141,6 +141,22 @@ RECIPE {
     },
     results = {
         {type = "item", name = "high-grade-lead", amount = 1},
+    },
+    main_product = "high-grade-lead",
+    subgroup = "py-rawores-lead",
+    order = "q-2"
+}:add_unlock("lead-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "high-grade-sl",
+    category = "solid-separator",
+    enabled = false,
+    energy_required = 3.0,
+    ingredients = {
+        {type = "item", name = "sl-concentrate", amount = 4}
+    },
+    results = {
         {type = "item", name = "high-grade-silver", amount = 1}
     },
     main_product = "high-grade-lead",
