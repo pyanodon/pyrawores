@@ -159,7 +159,7 @@ RECIPE {
     results = {
         {type = "item", name = "high-grade-silver", amount = 1}
     },
-    main_product = "high-grade-lead",
+    main_product = "high-grade-silver",
     subgroup = "py-rawores-lead",
     order = "q-2"
 }:add_unlock("lead-mk03")
