@@ -149,7 +149,7 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "high-grade-sl",
+    name = "high-grade-sl-silver",
     category = "solid-separator",
     enabled = false,
     energy_required = 3.0,
