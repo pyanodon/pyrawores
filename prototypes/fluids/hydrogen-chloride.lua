@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "hydrogen-chloride", amount = 100},
         {type = "item", name = "small-lamp", amount = 1, probability = 0.5}
     },
-    --main_product = "hydrogen-chloride",
+    main_product = "hydrogen-chloride",
     icon = "__pyrawores__/graphics/icons/hydrogen-chloride.png",
     icon_size = 32,
     subgroup = "py-rawores-fluids",
