@@ -660,7 +660,7 @@ local recipes_list =
   "evaporate-nitrogen",
   "pregnant-solution-01",
   "vanadium-mixture",
-  "hydrogen-chloride-2",
+  --"hydrogen-chloride-2",
   "fiberboard-2",
   "xylenol-3",
   "ammonium-chloride-2",
