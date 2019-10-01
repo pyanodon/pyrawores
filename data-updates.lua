@@ -240,7 +240,7 @@ local recipes_list =
  -- "water-saline",
   "py-sodium-hydroxide",
 --  "salt-ex",
-  "syngas2",
+  --"syngas2",
   "syngas-distilation",
  -- "hydrogen-combustion",
   "bonemeal-salt",
