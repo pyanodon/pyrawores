@@ -8,7 +8,7 @@ RECIPE {
         {type = "fluid", name = "coal-under-pulp", amount = 100},
         {type = "fluid", name = "water", amount = 100},
         {type = "fluid", name = "kerosene", amount = 50},
-        {type = "item", name = "sand", amount = 20},
+        {type = "item", name = "sand", amount = 10},
     },
     results = {
         {type = "fluid", name = "coal-pulp-03", amount = 100},

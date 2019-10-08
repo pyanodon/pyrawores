@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "nickel-tailings", amount = 100},
         {type = "item", name = "ammonium-chloride", amount = 2},
-        {type = "item", name = "sand", amount = 20},
+        {type = "item", name = "sand", amount = 10},
     },
     results = {
         {type = "fluid", name = "nickel-pulp-03", amount = 100},

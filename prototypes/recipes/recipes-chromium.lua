@@ -161,7 +161,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "sand", amount = 20},
+        {type = "item", name = "sand", amount = 10},
         {type = "fluid", name = "chromite-pulp-07", amount = 100},
         {type = "fluid", name = "water", amount = 200}
     },

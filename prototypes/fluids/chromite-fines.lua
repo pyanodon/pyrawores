@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "fluid", name = "chromite-mix", amount = 100},
-        {type = "item", name = "gravel", amount = 30},
+        {type = "item", name = "gravel", amount = 15},
     },
     results = {
         {type = "fluid", name = "chromite-fines", amount = 50},

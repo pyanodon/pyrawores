@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "u-79", amount = 100},
         {type = "fluid", name = "water", amount = 100}, --pyfe soda-ash
-        {type = "item", name = "sand", amount = 20},
+        {type = "item", name = "sand", amount = 10},
     },
     results = {
         {type = "fluid", name = "u-81", amount = 100},

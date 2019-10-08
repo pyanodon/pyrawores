@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "tin-solution", amount = 100},
         {type = "fluid", name = "water", amount = 100},
-        {type = "item", name = "sand", amount = 20},
+        {type = "item", name = "sand", amount = 10},
     },
     results = {
         {type = "fluid", name = "tin-bottom-pulp", amount = 100},
