@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "quartz-pulp-01", amount = 100},
         {type = "fluid", name = "water", amount = 100},
-        {type = "item", name = "sand", amount = 15},
+        {type = "item", name = "sand", amount = 10},
     },
     results = {
         {type = "fluid", name = "quartz-pulp-02", amount = 50},

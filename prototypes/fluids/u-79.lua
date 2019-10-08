@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "u-75", amount = 100},
         {type = "fluid", name = "organic-solvent", amount = 100}, --pyfe industrial solvent
-        {type = "item", name = "sand", amount = 20},
+        {type = "item", name = "sand", amount = 10},
     },
     results = {
         {type = "fluid", name = "u-79", amount = 100},
@@ -27,7 +27,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "u-75", amount = 100},
         {type = "fluid", name = "organic-solvent", amount = 100}, --pyfe industrial solvent
-        {type = "item", name = "sand", amount = 20},
+        {type = "item", name = "sand", amount = 10},
     },
     results = {
         {type = "fluid", name = "u-79", amount = 100},
