@@ -55,7 +55,7 @@ ENTITY {
     },
 
     module_specification = {
-        module_slots = 1
+        module_slots = 5
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     mining_speed = 15,
