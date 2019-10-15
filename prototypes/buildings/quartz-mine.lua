@@ -42,6 +42,7 @@ ENTITY {
     dying_explosion = "medium-explosion",
     collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
     selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
+    --match_animation_speed_to_activity = false,
     input_fluid_box = {
         production_type = "input-output",
         pipe_picture = _G.assembler2pipepictures(),
@@ -54,7 +55,7 @@ ENTITY {
         }
     },
     module_specification = {
-        module_slots = 1
+        module_slots = 5
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     mining_speed = 15,

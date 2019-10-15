@@ -44,7 +44,7 @@ ENTITY {
     collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
     selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
     module_specification = {
-        module_slots = 1
+        module_slots = 5
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     mining_speed = 15,
