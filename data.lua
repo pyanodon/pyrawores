@@ -4,9 +4,13 @@ require("prototypes/item-groups")
 require("prototypes/recipe-categories")
 
 --require('prototypes/recipes/recipes')
+if settings.startup['processing-mod'].value then
 require('prototypes/items/items')
+else
+require('prototypes/items-old version/items')
+end
 
-
+if settings.startup['processing-mod'].value then
 --(( RESOURCES ))--
 require("prototypes.ores.quartz")
 require("prototypes.ores.raw-coal")
@@ -32,6 +36,33 @@ require("prototypes.ores.titanium-rock")
 require("prototypes.ores.uranium-rock")
 require("prototypes.ores.zinc-rock")
 --))
+else
+--(( RESOURCES ))--
+require("prototypes.ores-old version.quartz")
+require("prototypes.ores-old version.raw-coal")
+require("prototypes.ores-old version.aluminium")
+require("prototypes.ores-old version.chromium")
+require("prototypes.ores-old version.lead")
+require("prototypes.ores-old version.nickel")
+require("prototypes.ores-old version.tin")
+require("prototypes.ores-old version.titanium")
+require("prototypes.ores-old version.zinc")
+require("prototypes.ores-old version.quartz-rock")
+require("prototypes.ores-old version.chromium-rock")
+require("prototypes.ores-old version.aluminium-rock")
+require("prototypes.ores-old version.copper-rock")
+require("prototypes.ores-old version.salt-rock")
+require("prototypes.ores-old version.iron-rock")
+require("prototypes.ores-old version.coal-rock")
+require("prototypes.ores-old version.lead-rock")
+require("prototypes.ores-old version.nexelit-rock")
+require("prototypes.ores-old version.nickel-rock")
+require("prototypes.ores-old version.tin-rock")
+require("prototypes.ores-old version.titanium-rock")
+require("prototypes.ores-old version.uranium-rock")
+require("prototypes.ores-old version.zinc-rock")
+--))
+end
 
 --(( Technology ))--
 require("prototypes/technologies/machines")
@@ -110,7 +141,7 @@ require("prototypes/buildings/uranium-mine")
 require("prototypes/buildings/zinc-mine")
 
 --))
-
+if settings.startup['processing-mod'].value then
 --(( RECIPES ))--
 require("prototypes/recipes/recipes")
 require("prototypes/recipes/recipes-quartz")
@@ -130,7 +161,27 @@ require("prototypes/recipes/recipes-tin")
 require("prototypes/recipes/recipes-titanium")
 require("prototypes/recipes/recipes-uranium")
 require("prototypes/recipes/recipes-zinc")
-
+else
+--(( RECIPES ))--
+require("prototypes/recipes-old version/recipes")
+require("prototypes/recipes-old version/recipes-quartz")
+require("prototypes/recipes-old version/recipes-aluminium")
+require("prototypes/recipes-old version/recipes-chromium")
+require("prototypes/recipes-old version/recipes-copper")
+require("prototypes/recipes-old version/recipes-iron")
+require("prototypes/recipes-old version/recipes-gold")
+require("prototypes/recipes-old version/recipes-coke")
+require("prototypes/recipes-old version/recipes-coal")
+require("prototypes/recipes-old version/recipes-lead")
+require("prototypes/recipes-old version/recipes-silver")
+require("prototypes/recipes-old version/recipes-nexelit")
+require("prototypes/recipes-old version/recipes-nickel")
+require("prototypes/recipes-old version/recipes-steel")
+require("prototypes/recipes-old version/recipes-tin")
+require("prototypes/recipes-old version/recipes-titanium")
+require("prototypes/recipes-old version/recipes-uranium")
+require("prototypes/recipes-old version/recipes-zinc")
+end
 --(( FLUIDs ))--
 require("prototypes/fluids/quartz-pulp-01")
 require("prototypes/fluids/quartz-pulp-02")

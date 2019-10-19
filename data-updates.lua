@@ -25,7 +25,11 @@ ITEM("copper-cable"):set("icon", "__pyrawores__/graphics/icons/copper-cable.png"
 
 --RECIPES UPDATES
 
+if settings.startup['processing-mod'].value then
+RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore-high", amount = 8}):set_fields {energy_required = 10}
+else
 RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore", amount = 8}):set_fields {energy_required = 10}
+end
 
 FUN.ing_adjust("steel-plate","iron-plate",10)
 RECIPE("steel-plate"):set_fields {energy_required = 15}
