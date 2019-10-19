@@ -25,7 +25,7 @@ ENTITY {
         -- mining_particle = "lead-ore-particle",
         mining_time = 2,
         results = {
-            {"ore-lead", 1}
+            {"ore-lead-high", 1}
         },
         fluid_amount = 100,
         required_fluid = "acetylene"

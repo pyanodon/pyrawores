@@ -30,7 +30,7 @@ DATA {
         -- mining_particle = "chromium-rock-particle",
         mining_time = 2,
         results = {
-            {"ore-chromium", 1}
+            {"ore-chromium-high", 1}
         },
     },
     resource_patch_search_radius = 12,

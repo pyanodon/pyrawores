@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 1,
     ingredients = {
-        {type = "item", name = "ore-quartz", amount = 5}
+        {type = "item", name = "ore-quartz-high", amount = 5}
     },
     results = {
         {type = "item", name = "crushed-quartz", amount = 1},
@@ -112,7 +112,7 @@ RECIPE {
     enabled = true,
     energy_required = 60,
     ingredients = {
-        {type = "item", name = "ore-quartz", amount = 24}
+        {type = "item", name = "ore-quartz-high", amount = 24}
     },
     results = {
         {type = "item", name = "glass", amount = 4}

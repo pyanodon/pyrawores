@@ -1,25 +1,28 @@
+
+data.raw.resource['iron-ore'].minable.results = {{type = "item", name = "iron-ore-high", amount_min = 1, amount_max = 1, probability = 0.8},{type = "item", name = "iron-ore-medium", amount_min = 1, amount_max = 1, probability = 0.1},{type = "item", name = "iron-ore-low", amount_min = 1, amount_max = 1, probability = 0.075},{type = "item", name = "iron-ore-trace", amount_min = 1, amount_max = 1, probability = 0.025}}
+--[[
 DATA {
     type = "autoplace-control",
     category = "resource",
-    name = "nickel-rock",
+    name = "iron-rock",
     richness = true,
     order = "b"
 }
 
 DATA {
     type = "noise-layer",
-    name = "nickel-rock"
+    name = "iron-rock"
 }
 
 DATA {
     type = "resource",
-    name = "nickel-rock",
-    category = "nickel-rock",
-    icon = "__pyrawores__/graphics/icons/ores/nickel-rock.png",
+    name = "iron-rock",
+    category = "iron-rock",
+    icon = "__pyrawores__/graphics/icons/ores/iron-rock.png",
 	icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
-    map_color = {r = 0.164, g = 0.388, b = 0.192},
+    map_color = {r = 0, g = 0.043, b = 0.549},
     highlight = true,
     minimum = 100,
     normal = 200,
@@ -27,10 +30,10 @@ DATA {
     map_grid = false,
     minable = {
         hardness = 1.0,
-        -- mining_particle = "nickel-rock-particle",
+        -- mining_particle = "iron-rock-particle",
         mining_time = 2,
         results = {
-            {"ore-nickel-high", 1}
+            {"iron-ore-high", 1}
         },
     },
     resource_patch_search_radius = 12,
@@ -39,7 +42,7 @@ DATA {
     collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
     selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
     autoplace = {
-        control = "nickel-rock",
+        control = "iron-rock",
         sharpness = 3,
         --max_probability = 0.035,
         richness_multiplier = 800,
@@ -48,7 +51,7 @@ DATA {
         coverage = 0.00003 / 30,
         peaks = {
             {
-                noise_layer = "nickel-rock",
+                noise_layer = "iron-rock",
                 noise_octaves_difference = -2.25,
                 noise_persistence = 0.4
             },
@@ -64,13 +67,14 @@ DATA {
     stage_counts = {0},
     stages = {
         sheet = {
-            filename = "__pyrawores__/graphics/entity/ores/nickel/nickel-mine-place.png",
+            filename = "__pyrawores__/graphics/entity/ores/iron/iron-mine-place.png",
             priority = "extra-high",
-            width = 512,
-            height = 512,
+            width = 416,
+            height = 416,
             frame_count = 1,
             variation_count = 1,
             shift = util.by_pixel(0, 0)
         }
     }
 }
+]]--

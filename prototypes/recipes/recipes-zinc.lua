@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "ore-zinc", amount = 5},
+        {type = "item", name = "ore-zinc-high", amount = 5},
         {type = "item", name = "iron-stick", amount = 3}
     },
     results = {
@@ -337,7 +337,7 @@ RECIPE {
     enabled = true,
     energy_required = 60,
     ingredients = {
-        {type = "item", name = "ore-zinc", amount = 40}
+        {type = "item", name = "ore-zinc-high", amount = 40}
     },
     results = {
         {type = "item", name = "zinc-plate", amount = 4}
