@@ -30,7 +30,7 @@ DATA {
         -- mining_particle = "aluminium-rock-particle",
         mining_time = 2,
         results = {
-            {"ore-aluminium", 1}
+            {"ore-aluminium-high", 1}
         },
     },
     resource_patch_search_radius = 12,

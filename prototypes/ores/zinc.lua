@@ -25,7 +25,7 @@ ENTITY {
         -- mining_particle = "zinc-ore-particle",
         mining_time = 2,
         results = {
-            {"ore-zinc", 1}
+            {"ore-zinc-high", 1}
         },
         fluid_amount = 40,
         required_fluid = "syngas"

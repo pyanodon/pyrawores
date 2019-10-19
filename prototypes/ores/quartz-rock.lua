@@ -30,7 +30,7 @@ DATA {
         -- mining_particle = "quartz-rock-particle",
         mining_time = 2,
         results = {
-            {"ore-quartz", 1}
+            {"ore-quartz-high", 1}
         },
         fluid_amount = 30,
         required_fluid = "acetylene"

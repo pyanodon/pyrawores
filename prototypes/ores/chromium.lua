@@ -25,7 +25,7 @@ ENTITY {
         -- mining_particle = "chromium-ore-particle",
         mining_time = 2,
         results = {
-            {"ore-chromium", 1}
+            {"ore-chromium-high", 1}
         },
         fluid_amount = 40,
         required_fluid = "syngas"

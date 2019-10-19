@@ -7,7 +7,7 @@ RECIPE {
     enabled = false,
     energy_required = 1,
     ingredients = {
-        {type = "item", name = "ore-aluminium", amount = 5}
+        {type = "item", name = "ore-aluminium-high", amount = 5}
     },
     results = {
         {type = "item", name = "powdered-aluminium", amount = 1},
@@ -281,7 +281,7 @@ RECIPE {
     enabled = true,
     energy_required = 60,
     ingredients = {
-        {type = "item", name = "ore-aluminium", amount = 40}
+        {type = "item", name = "ore-aluminium-high", amount = 40}
     },
     results = {
         {type = "item", name = "aluminium-plate", amount = 4}
