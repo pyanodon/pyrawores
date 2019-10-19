@@ -2,73 +2,7 @@
 
 ITEM {
     type = "item",
-    name = "ore-quartz-high",
-    icon = "__pyrawores__/graphics/icons/mip/ore-quartz.png",
-    icon_size = 64,
-    icon_mipmaps = 7,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-3.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-4.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-5.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-6.png", scale = 0.25, mipmap_count = 1 },
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-quartz-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-quartz.png",
-    icon_size = 64,
-    icon_mipmaps = 7,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-3.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-4.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-5.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-6.png", scale = 0.25, mipmap_count = 1 },
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-quartz-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-quartz.png",
-    icon_size = 64,
-    icon_mipmaps = 7,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-3.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-4.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-5.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-quartz-6.png", scale = 0.25, mipmap_count = 1 },
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-quartz-trace",
+    name = "ore-quartz",
     icon = "__pyrawores__/graphics/icons/mip/ore-quartz.png",
     icon_size = 64,
     icon_mipmaps = 7,
@@ -147,64 +81,7 @@ ITEM {
 
 ITEM {
     type = "item",
-    name = "ore-aluminium-high",
-    icon = "__pyrawores__/graphics/icons/mip/ore-aluminium.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-aluminium.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-aluminium-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-aluminium-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-aluminium-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-aluminium",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-aluminium-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-aluminium.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-aluminium.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-aluminium-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-aluminium-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-aluminium-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-aluminium",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-aluminium-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-aluminium.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-aluminium.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-aluminium-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-aluminium-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-aluminium-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-aluminium",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-aluminium-trace",
+    name = "ore-aluminium",
     icon = "__pyrawores__/graphics/icons/mip/ore-aluminium.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -302,64 +179,7 @@ ITEM {
 
 ITEM {
     type = "item",
-    name = "ore-titanium-high",
-    icon = "__pyrawores__/graphics/icons/mip/ore-titanium.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-titanium.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-titanium-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-titanium-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-titanium-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-titanium-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-titanium.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-titanium.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-titanium-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-titanium-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-titanium-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-titanium-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-titanium.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-titanium.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-titanium-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-titanium-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-titanium-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-titanium-trace",
+    name = "ore-titanium",
     icon = "__pyrawores__/graphics/icons/mip/ore-titanium.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -535,64 +355,7 @@ ITEM {
 
 ITEM {
     type = "item",
-    name = "ore-chromium-high",
-    icon = "__pyrawores__/graphics/icons/mip/ore-chromium.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-chromium.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-chromium-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-chromium-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-chromium-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-chromium-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-chromium.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-chromium.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-chromium-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-chromium-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-chromium-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-chromium-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-chromium.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-chromium.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-chromium-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-chromium-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-chromium-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-chromium-trace",
+    name = "ore-chromium",
     icon = "__pyrawores__/graphics/icons/mip/ore-chromium.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -781,77 +544,6 @@ ITEM {
 
 
 --COPPER
-ITEM{
-    type = "item",
-    name = "copper-ore-high",
-    icon = "__base__/graphics/icons/mip/copper-ore.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore.png",   scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-1.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-2.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-3.png", scale = 0.25, mipmap_count = 4 }
-    },
-    subgroup = "raw-resource",
-    order = "f[copper-ore]",
-    stack_size = 50
-	}
-	
-ITEM{
-    type = "item",
-    name = "copper-ore-medium",
-    icon = "__base__/graphics/icons/mip/copper-ore.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore.png",   scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-1.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-2.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-3.png", scale = 0.25, mipmap_count = 4 }
-    },
-    subgroup = "raw-resource",
-    order = "f[copper-ore]",
-    stack_size = 50
-	}
-	
-ITEM{
-    type = "item",
-    name = "copper-ore-low",
-    icon = "__base__/graphics/icons/mip/copper-ore.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore.png",   scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-1.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-2.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-3.png", scale = 0.25, mipmap_count = 4 }
-    },
-    subgroup = "raw-resource",
-    order = "f[copper-ore]",
-    stack_size = 50
-	}
-	
-ITEM{
-    type = "item",
-    name = "copper-ore-trace",
-    icon = "__base__/graphics/icons/mip/copper-ore.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore.png",   scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-1.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-2.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-3.png", scale = 0.25, mipmap_count = 4 }
-    },
-    subgroup = "raw-resource",
-    order = "f[copper-ore]",
-    stack_size = 50
-	}
 
 ITEM {
     type = "item",
@@ -941,6 +633,7 @@ ITEM {
     stack_size = 500
 }
 
+
 ITEM {
     type = "item",
     name = "high-grade-copper",
@@ -975,77 +668,6 @@ ITEM {
 }
 
 --IRON
-ITEM{
-    type = "item",
-    name = "iron-ore-high",
-    icon = "__base__/graphics/icons/mip/iron-ore.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore.png",   scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore-1.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore-2.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore-3.png", scale = 0.25, mipmap_count = 4 }
-    },
-    subgroup = "raw-resource",
-    order = "e[iron-ore]",
-    stack_size = 50
-  }
-  
-ITEM{
-    type = "item",
-    name = "iron-ore-medium",
-    icon = "__base__/graphics/icons/mip/iron-ore.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore.png",   scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore-1.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore-2.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore-3.png", scale = 0.25, mipmap_count = 4 }
-    },
-    subgroup = "raw-resource",
-    order = "e[iron-ore]",
-    stack_size = 50
-  }
-
-ITEM{
-    type = "item",
-    name = "iron-ore-low",
-    icon = "__base__/graphics/icons/mip/iron-ore.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore.png",   scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore-1.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore-2.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore-3.png", scale = 0.25, mipmap_count = 4 }
-    },
-    subgroup = "raw-resource",
-    order = "e[iron-ore]",
-    stack_size = 50
-  }
-
-ITEM{
-    type = "item",
-    name = "iron-ore-trace",
-    icon = "__base__/graphics/icons/mip/iron-ore.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore.png",   scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore-1.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore-2.png", scale = 0.25, mipmap_count = 4 },
-      { size = 64, filename = "__base__/graphics/icons/mip/iron-ore-3.png", scale = 0.25, mipmap_count = 4 }
-    },
-    subgroup = "raw-resource",
-    order = "e[iron-ore]",
-    stack_size = 50
-  }
 
 ITEM {
     type = "item",
@@ -1226,64 +848,7 @@ ITEM {
 
 ITEM {
     type = "item",
-    name = "ore-lead-high",
-    icon = "__pyrawores__/graphics/icons/mip/ore-lead.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-lead.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-lead-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-lead-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-lead-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-lead-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-lead.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-lead.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-lead-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-lead-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-lead-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-lead-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-lead.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-lead.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-lead-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-lead-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-lead-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-lead-trace",
+    name = "ore-lead",
     icon = "__pyrawores__/graphics/icons/mip/ore-lead.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -1596,64 +1161,7 @@ ITEM {
 
 ITEM {
     type = "item",
-    name = "ore-nickel-high",
-    icon = "__pyrawores__/graphics/icons/mip/ore-nickel.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-nickel.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-nickel-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-nickel-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-nickel-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-nickel-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-nickel.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-nickel.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-nickel-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-nickel-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-nickel-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-nickel-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-nickel.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-nickel.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-nickel-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-nickel-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-nickel-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-nickel-trace",
+    name = "ore-nickel",
     icon = "__pyrawores__/graphics/icons/mip/ore-nickel.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -1773,66 +1281,11 @@ ITEM {
 
 --TIN
 
-ITEM {
-    type = "item",
-    name = "ore-tin-high",
-    icon = "__pyrawores__/graphics/icons/mip/ore-tin.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-tin.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-tin-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-tin-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-tin-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
+
 
 ITEM {
     type = "item",
-    name = "ore-tin-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-tin.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-tin.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-tin-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-tin-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-tin-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-tin-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-tin.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-tin.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-tin-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-tin-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-tin-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-tin-trace",
+    name = "ore-tin",
     icon = "__pyrawores__/graphics/icons/mip/ore-tin.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -2216,64 +1669,7 @@ ITEM {
 
 ITEM {
     type = "item",
-    name = "ore-zinc-high",
-    icon = "__pyrawores__/graphics/icons/mip/ore-zinc.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-zinc.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-zinc-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-zinc-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-zinc-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-zinc-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-zinc.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-zinc.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-zinc-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-zinc-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-zinc-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-zinc-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-zinc.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
-    pictures =
-    {
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-zinc.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-zinc-1.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-zinc-2.png", scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyrawores__/graphics/icons/mip/ore-zinc-3.png", scale = 0.25, mipmap_count = 1 }
-    },
-    flags = {},
-    subgroup = "py-rawores-ores",
-    order = "a",
-    stack_size = 500
-}
-
-ITEM {
-    type = "item",
-    name = "ore-zinc-trace",
+    name = "ore-zinc",
     icon = "__pyrawores__/graphics/icons/mip/ore-zinc.png",
     icon_size = 64,
     icon_mipmaps = 4,

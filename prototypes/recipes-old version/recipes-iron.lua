@@ -7,12 +7,11 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "item", name = "iron-ore-high", amount = 5}
+        {type = "item", name = "iron-ore", amount = 5}
     },
     results = {
         {type = "item", name = "stone", amount = 1},
-        {type = "item", name = "processed-iron-ore", amount = 3},
-		{type = "item", name = "iron-ore-medium", amount_min = 0, amount_max = 2, probability = 0.25}
+        {type = "item", name = "processed-iron-ore", amount = 3}
     },
     main_product = "processed-iron-ore",
     icon = "__pycoalprocessing__/graphics/icons/crush-iron.png",
@@ -28,7 +27,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "ore-iron-medium", amount = 5}
+        {type = "item", name = "processed-iron-ore", amount = 5}
     },
     results = {
         {type = "item", name = "grade-1-iron", amount = 1},
