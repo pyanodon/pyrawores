@@ -153,6 +153,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "dirty-water", amount = 100},
         {type = "item", name = "unslimed-iron", amount = 1},
+		{type = "fluid", name = "iron-slime-sludge", amount = 50}
     },
     main_product = "unslimed-iron",
     subgroup = "py-rawores-iron",
@@ -166,12 +167,13 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "iron-pulp-01", amount = 300},
+        {type = "fluid", name = "iron-pulp-high-concentrate", amount = 300},
         {type = "fluid", name = "water", amount = 200},
     },
     results = {
         {type = "fluid", name = "dirty-water", amount = 100},
         {type = "item", name = "unslimed-iron", amount = 1},
+		{type = "fluid", name = "iron-slime-sludge", amount = 50}
     },
     main_product = "unslimed-iron",
     subgroup = "py-rawores-iron",
@@ -189,12 +191,12 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "dirty-water", amount = 50},
-        {type = "fluid", name = "iron-pulp-07", amount = 50},
+        {type = "fluid", name = "iron-pulp-06-thick", amount = 50},
     },
-    main_product = "iron-pulp-07",
+    main_product = "iron-pulp-06-thick",
     subgroup = "py-rawores-iron",
     order = "q-2"
-}:add_unlock("iron-mk03"):change_category('thickener')
+}:add_unlock("iron-mk04"):change_category('thickener')
 
 RECIPE {
     type = "recipe",
@@ -227,7 +229,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "high-grade-iron", amount = 1},
+        {type = "fluid", name = "iron-pulp-06-thick", amount = 100},
         {type = "item", name = "sodium-sulfate", amount = 2},
         {type = "fluid", name = "diesel", amount = 50},
         --pyfe pressured air

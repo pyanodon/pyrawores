@@ -1,27 +1,27 @@
 RECIPE {
     type = "recipe",
-    name = "classify-crushed-iron-ore",
+    name = "classify-iron-ore-dust",
     category = "hydroclassifier",
     enabled = false,
     energy_required = 2.5,
     ingredients = {
-        {type = "item", name = "crushed-iron", amount = 5},
+        {type = "item", name = "iron-ore-dust", amount = 3},
         {type = "fluid", name = "water", amount = 300},
     },
     results = {
-        {type = "fluid", name = "iron-pulp-01", amount = 50},
-        --{type = "fluid", name = "iron-slime", amount = 50}
+        {type = "fluid", name = "iron-pulp-high-concentrate", amount = 50},
+        {type = "fluid", name = "iron-slime", amount = 50}
     },
-    main_product = "iron-pulp-01",
+    main_product = "iron-pulp-high-concentrate",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("iron-mk03")
+}:add_unlock("iron-mk02")
 
 
 FLUID {
     type = "fluid",
-    name = "iron-pulp-01",
-    icon = "__pyrawores__/graphics/icons/iron-pulp-01.png",
+    name = "iron-pulp-high-concentrate",
+    icon = "__pyrawores__/graphics/icons/iron-pulp-high-concentrate.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.086, g = 0.180, b = 0.254},
