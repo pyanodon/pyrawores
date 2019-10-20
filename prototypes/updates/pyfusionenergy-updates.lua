@@ -422,7 +422,7 @@ RECIPE('gas-separator-mk04'):add_unlock('machines-mk04'):add_ingredient({type = 
 RECIPE('nmf-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 --pyro 2.0 centrifugal-pan adjustments
-data.raw['assembling-machine']['centrifugal-pan-mk01'].fluid_boxes = 
+data.raw['assembling-machine']['centrifugal-pan-mk01'].fluid_boxes =
 {
         {
             production_type = "input",
@@ -461,6 +461,6 @@ data.raw['assembling-machine']['centrifugal-pan-mk01'].fluid_boxes =
             base_area = 10,
             base_level = -1,
             pipe_connections = {{type = "input", position = {0.5, -5.5}}}
-        }
+        },
         off_when_no_fluid_recipe = true
 }
