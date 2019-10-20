@@ -240,7 +240,7 @@ RECIPE {
     main_product = "reduced-iron",
     subgroup = "py-rawores-iron",
     order = "q-2"
-}:add_unlock("iron-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("iron-mk04")--:add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",
