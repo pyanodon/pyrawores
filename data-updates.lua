@@ -1,18 +1,34 @@
 require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 
-if mods["pyfusionenergy"] then
-    require("prototypes/updates/pyfusionenergy-updates")
-end
+if settings.startup['processing-mod'].value then
+	if mods["pyfusionenergy"] then
+		require("prototypes/updates/pyfusionenergy-updates")
+	end
 
-if mods["pyhightech"] then
-    require("prototypes/updates/pyhightech-updates")
-    require("prototypes.ores.phosphate-rock-02")
-    require("prototypes/buildings/phosphate-mine-02")
-end
+	if mods["pyhightech"] then
+		require("prototypes/updates/pyhightech-updates")
+		require("prototypes.ores.phosphate-rock-02")
+		require("prototypes/buildings/phosphate-mine-02")
+	end
 
-if mods["pycoalprocessing"] then
-    require("prototypes/updates/pycoalprocessing-updates")
+	if mods["pycoalprocessing"] then
+		require("prototypes/updates/pycoalprocessing-updates")
+	end
+else
+	if mods["pyfusionenergy"] then
+		require("prototypes/updates-old version/pyfusionenergy-updates")
+	end
+
+	if mods["pyhightech"] then
+		require("prototypes/updates-old version/pyhightech-updates")
+		require("prototypes.ores.phosphate-rock-02")
+		require("prototypes/buildings/phosphate-mine-02")
+	end
+
+	if mods["pycoalprocessing"] then
+		require("prototypes/updates-old version/pycoalprocessing-updates")
+	end
 end
 
 

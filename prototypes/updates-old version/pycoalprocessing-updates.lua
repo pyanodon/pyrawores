@@ -1,7 +1,7 @@
 local fun = require("prototypes/functions/functions")
 
 RECIPE('making-chromium'):remove_unlock('coal-processing-2')
-RECIPE('crushing-iron'):replace_ingredient("iron-ore", {"iron-ore-low", 5}):remove_unlock('crusher'):add_unlock('iron-mk03')
+RECIPE('crushing-iron'):remove_unlock('crusher')
 RECIPE('crushing-copper'):remove_unlock('crusher')
 RECIPE('crushed-copper'):remove_unlock('crusher')
 RECIPE('crushed-iron'):remove_unlock('crusher')
@@ -376,7 +376,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-aluminium-high", amount = 15}
+        {type = "item", name = "ore-aluminium", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-aluminium.png",
     icon_size = 32,
@@ -396,7 +396,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-chromium-high", amount = 15}
+        {type = "item", name = "ore-chromium", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-chromium.png",
     icon_size = 32,
@@ -416,7 +416,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "copper-ore-high", amount = 15}
+        {type = "item", name = "copper-ore", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-copper.png",
     icon_size = 32,
@@ -436,7 +436,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "iron-ore-high", amount = 15}
+        {type = "item", name = "iron-ore", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-iron.png",
     icon_size = 32,
@@ -456,7 +456,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-lead-high", amount = 20}
+        {type = "item", name = "ore-lead", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-lead.png",
     icon_size = 32,
@@ -476,7 +476,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-nickel-high", amount = 15}
+        {type = "item", name = "ore-nickel", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-nickel.png",
     icon_size = 32,
@@ -496,7 +496,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-quartz-high", amount = 15}
+        {type = "item", name = "ore-quartz", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-quartz.png",
     icon_size = 32,
@@ -516,7 +516,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-tin-high", amount = 15}
+        {type = "item", name = "ore-tin", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-tin.png",
     icon_size = 32,
@@ -536,7 +536,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-titanium-high", amount = 15}
+        {type = "item", name = "ore-titanium", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-titanium.png",
     icon_size = 32,
@@ -556,7 +556,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-zinc-high", amount = 15}
+        {type = "item", name = "ore-zinc", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-zinc.png",
     icon_size = 32,
