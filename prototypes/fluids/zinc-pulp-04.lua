@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 12,
     ingredients = {
-        {type = "item", name = "concentrated-zinc", amount = 5},
+        {type = "item", name = "ore-zinc-trace", amount = 5},
         {type = "item", name = "lime", amount = 17},
         {type = "fluid", name = "water", amount = 100},
     },
@@ -15,7 +15,7 @@ RECIPE {
     main_product = "zinc-pulp-04",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("zinc-mk03"):change_category('agitator'):add_ingredient({type = "fluid", name = "soda-ash", amount = 300})
+}:add_unlock("zinc-mk04"):change_category('agitator'):add_ingredient({type = "fluid", name = "soda-ash", amount = 300})
 
 RECIPE {
     type = "recipe",

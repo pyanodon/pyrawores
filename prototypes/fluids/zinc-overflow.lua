@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "powdered-zinc", amount = 5},
+        {type = "item", name = "ore-zinc-low", amount = 5},
         {type = "fluid", name = "water", amount = 100},
         {type = "fluid", name = "kerosene", amount = 50},
     },

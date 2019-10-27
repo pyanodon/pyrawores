@@ -1,0 +1,7 @@
+--List of ores that have been rebalanced--
+
+iron
+copper
+chromium
+tin
+zinc

@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "high-chromite", amount = 1},
+        {type = "item", name = "ore-chromium-trace", amount = 2},
         {type = "fluid", name = "water", amount = 300},
     },
     results = {
@@ -15,7 +15,7 @@ RECIPE {
     main_product = "processed-chromite",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("chromium-mk03"):change_category('pan')
+}:add_unlock("chromium-mk04"):change_category('pan')
 
 
 FLUID {
