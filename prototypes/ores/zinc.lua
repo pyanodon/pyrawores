@@ -25,7 +25,11 @@ ENTITY {
         -- mining_particle = "zinc-ore-particle",
         mining_time = 2,
         results = {
-            {"ore-zinc-high", 1}
+            {type = "item", name = "ore-zinc-high", amount_min = 1, amount_max = 1, probability = 0.8},
+			{type = "item", name = "ore-zinc-medium", amount_min = 1, amount_max = 1, probability = 0.1},
+			{type = "item", name = "ore-zinc-low", amount_min = 1, amount_max = 1, probability = 0.075},
+			{type = "item", name = "ore-zinc-trace", amount_min = 1, amount_max = 1, probability = 0.025}
+			},
         },
         fluid_amount = 40,
         required_fluid = "syngas"

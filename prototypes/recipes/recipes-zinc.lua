@@ -43,7 +43,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-2-zinc", amount = 1},
+        {type = "item", name = "ore-zinc-medium", amount = 2},
         {type = "fluid", name = "water", amount = 200}
     },
     results = {
@@ -71,7 +71,7 @@ RECIPE {
     main_product = "grade-4-zinc",
     subgroup = "py-rawores-zinc",
     order = "q-2"
-}:add_unlock("zinc-mk03")
+}:add_unlock("zinc-mk02")
 
 RECIPE {
     type = "recipe",
@@ -91,7 +91,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-zinc",
     order = "q-2"
-}:add_unlock("zinc-mk03"):change_category("screener")
+}:add_unlock("zinc-mk02"):change_category("screener")
 
 RECIPE {
     type = "recipe",
@@ -146,7 +146,7 @@ RECIPE {
     main_product = "high-grade-zinc",
     subgroup = "py-rawores-zinc",
     order = "q-2"
-}:add_unlock("zinc-mk03")
+}:add_unlock("zinc-mk04")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -267,7 +267,7 @@ RECIPE {
     main_product = "molten-zinc",
     subgroup = "py-rawores-molten",
     order = "z"
-}:add_unlock("zinc-mk03")
+}:add_unlock("zinc-mk04")
 
 RECIPE {
     type = "recipe",
@@ -379,4 +379,4 @@ RECIPE {
     },
     subgroup = "py-rawores-plates",
     order = "j"
-}:add_unlock("zinc-mk03")
+}:add_unlock("zinc-mk02")

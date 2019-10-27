@@ -14,7 +14,7 @@ RECIPE {
     main_product = "chromite-pulp-03",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("chromium-mk03")
+}:add_unlock("chromium-mk04")
 
 
 FLUID {

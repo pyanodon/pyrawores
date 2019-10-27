@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "oleochemicals", amount = 50},
         {type = "fluid", name = "kerosene", amount = 100},
-        {type = "item", name = "high-tin-concentrate", amount = 8},
+        {type = "item", name = "ore-tin-trace", amount = 4},
     },
     results = {
         {type = "fluid", name = "sulfuric-acid", amount = 200},

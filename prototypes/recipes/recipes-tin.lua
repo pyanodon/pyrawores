@@ -43,7 +43,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "grade-1-tin", amount = 2},
+        {type = "item", name = "ore-tin-medium", amount = 2},
     },
     results = {
         {type = "item", name = "grade-3-tin", amount = 1},
@@ -120,7 +120,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "tin-dust", amount = 1},
+        {type = "item", name = "ore-tin-low", amount = 3},
         {type = "fluid", name = "mibc", amount = 75},
         {type = "fluid", name = "water", amount = 100},
     },

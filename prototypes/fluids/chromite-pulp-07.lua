@@ -15,7 +15,7 @@ RECIPE {
     main_product = "chromite-pulp-07",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("chromium-mk03"):change_category('thickener')
+}:add_unlock("chromium-mk04"):change_category('thickener')
 
 
 FLUID {

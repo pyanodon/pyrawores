@@ -15,7 +15,7 @@ RECIPE {
     main_product = "chromite-pulp-06",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("chromium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
 
 FLUID {

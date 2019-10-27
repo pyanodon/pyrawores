@@ -1,3 +1,25 @@
+---CRUSHING RECIPES---
+
+RECIPE {
+    type = "recipe",
+    name = "crushing-aluminium",
+    category = "crusher",
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+        {type = "item", name = "ore-aluminium-medium", amount = 5}
+    },
+    results = {
+        {type = "item", name = "crushed-aluminium", amount = 5},
+        {type = "item", name = "stone", amount = 1}
+    },
+    main_product = "crushed-aluminium",
+    icon = "__pycoalprocessing__/graphics/icons/crusher/crushed-bauxite.png",
+    icon_size = 32,
+    subgroup = "py-crusher",
+    order = "b"
+}
+
 ---PROCESSING RECIPES---
 
 RECIPE {

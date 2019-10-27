@@ -1,3 +1,4 @@
+
 ---PROCESSING RECIPES---
 
 RECIPE {
@@ -7,7 +8,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "copper-ore", amount = 5}
+        {type = "item", name = "copper-ore-high", amount = 5}
     },
     results = {
         {type = "item", name = "grade-1-copper", amount = 1},
@@ -45,7 +46,7 @@ RECIPE {
     enabled = false,
     energy_required = 2.5,
     ingredients = {
-        {type = "item", name = "grade-2-copper", amount = 2}
+        {type = "item", name = "copper-ore-medium", amount = 3}
     },
     results = {
         {type = "item", name = "grade-3-copper", amount = 1},
@@ -164,6 +165,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
+		{type = "item", name = "copper-ore-trace", amount = 5},
         {type = "item", name = "high-grade-copper", amount = 1},
         {type = "item", name = "sodium-sulfate", amount = 2},
         {type = "fluid", name = "diesel", amount = 50}

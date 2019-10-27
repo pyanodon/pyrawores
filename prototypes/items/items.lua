@@ -223,6 +223,17 @@ ITEM {
 
 ITEM {
     type = "item",
+    name = "crushed-aluminium",
+    icon = "__pycoalprocessing__/graphics/icons/crusher/crushed-bauxite.png",
+    icon_size = 32,
+    flags = {},
+    subgroup = "py-items",
+    order = "g",
+    stack_size = 1000
+}
+
+ITEM {
+    type = "item",
     name = "powdered-aluminium",
     icon = "__pyrawores__/graphics/icons/powdered-aluminium.png",
 	icon_size = 32,
@@ -555,7 +566,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "ore-chromium-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-chromium.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-chromium-1.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -574,7 +585,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "ore-chromium-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-chromium.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-chromium-2.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -593,7 +604,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "ore-chromium-trace",
-    icon = "__pyrawores__/graphics/icons/mip/ore-chromium.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-chromium-3.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -802,7 +813,7 @@ ITEM{
 ITEM{
     type = "item",
     name = "copper-ore-medium",
-    icon = "__base__/graphics/icons/mip/copper-ore.png",
+    icon = "__base__/graphics/icons/mip/copper-ore-1.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -820,7 +831,7 @@ ITEM{
 ITEM{
     type = "item",
     name = "copper-ore-low",
-    icon = "__base__/graphics/icons/mip/copper-ore.png",
+    icon = "__base__/graphics/icons/mip/copper-ore-2.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -838,7 +849,7 @@ ITEM{
 ITEM{
     type = "item",
     name = "copper-ore-trace",
-    icon = "__base__/graphics/icons/mip/copper-ore.png",
+    icon = "__base__/graphics/icons/mip/copper-ore-3.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -1795,7 +1806,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "ore-tin-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-tin.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-tin-1.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -1807,14 +1818,14 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-b",
     stack_size = 500
 }
 
 ITEM {
     type = "item",
     name = "ore-tin-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-tin.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-tin-2.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -1826,14 +1837,14 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-c",
     stack_size = 500
 }
 
 ITEM {
     type = "item",
     name = "ore-tin-trace",
-    icon = "__pyrawores__/graphics/icons/mip/ore-tin.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-tin-3.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -1845,7 +1856,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-d",
     stack_size = 500
 }
 
@@ -2236,7 +2247,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "ore-zinc-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-zinc.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-zinc-1.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -2255,7 +2266,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "ore-zinc-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-zinc.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-zinc-2.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -2274,7 +2285,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "ore-zinc-trace",
-    icon = "__pyrawores__/graphics/icons/mip/ore-zinc.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-zinc-3.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =

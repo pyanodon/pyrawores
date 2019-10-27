@@ -25,8 +25,11 @@ ENTITY {
         -- mining_particle = "chromium-ore-particle",
         mining_time = 2,
         results = {
-            {"ore-chromium-high", 1}
-        },
+			{type = "item", name = "ore-chromium-high", amount_min = 1, amount_max = 1, probability = 0.8},
+			{type = "item", name = "ore-chromium-medium", amount_min = 1, amount_max = 1, probability = 0.1},
+			{type = "item", name = "ore-chromium-low", amount_min = 1, amount_max = 1, probability = 0.075},
+			{type = "item", name = "ore-chromium-trace", amount_min = 1, amount_max = 1, probability = 0.025}
+			},
         fluid_amount = 40,
         required_fluid = "syngas"
     },

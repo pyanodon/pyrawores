@@ -25,7 +25,7 @@ RECIPE {
     enabled = false,
     energy_required = 1,
     ingredients = {
-        {type = "item", name = "grade-1-chromite", amount = 2}
+        {type = "item", name = "ore-chromium-medium", amount = 2}
     },
     results = {
         {type = "item", name = "grade-3-chromite", amount = 1},
@@ -171,7 +171,7 @@ RECIPE {
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("chromium-mk03")
+}:add_unlock("chromium-mk04")
 
 RECIPE {
     type = "recipe",
@@ -338,7 +338,7 @@ RECIPE {
     main_product = "molten-chromium",
     subgroup = "py-rawores-molten",
     order = "c"
-}:add_unlock("chromium-mk03")
+}:add_unlock("chromium-mk04")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -380,7 +380,7 @@ RECIPE {
     main_product = "reduced-chromium",
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("chromium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --INITIAL PLATE
 
@@ -389,12 +389,12 @@ RECIPE {
     name = "chromium-plate-1",
     category = "smelting",
     enabled = true,
-    energy_required = 60,
+    energy_required = 25,
     ingredients = {
-        {type = "item", name = "ore-chromium-high", amount = 40}
+        {type = "item", name = "ore-chromium-high", amount = 10}
     },
     results = {
-        {type = "item", name = "chromium", amount = 4}
+        {type = "item", name = "chromium", amount = 1}
     },
     --main_product= "glass",
     icon = "__pycoalprocessing__/graphics/icons/chromium.png",
