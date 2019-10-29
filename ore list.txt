@@ -1,7 +1,23 @@
 --List of ores that have been rebalanced--
 
-iron
-copper
-chromium
-tin
-zinc
+	iron
+	copper
+	chromium
+	tin
+	zinc
+	lead
+	nexilit
+	titanium
+
+--those that still need rebalanced--
+
+	aluminium
+	raw-coal
+	nickel
+	quartz
+
+--those that are not being changed at this time--
+
+	uranium -- for now adding yellow cake to atomic bomb. no other changes
+	phosphate??? -- not at this time
+	salt

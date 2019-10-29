@@ -15,7 +15,7 @@ RECIPE {
     main_product = "purified-ti-pulp",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("titanium-mk03")
+}:add_unlock("titanium-mk04")
 
 RECIPE {
     type = "recipe",

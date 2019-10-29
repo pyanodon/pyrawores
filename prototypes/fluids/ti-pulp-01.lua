@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "water", amount = 100},
-        {type = "item", name = "ti-enriched-dust", amount = 6},
+        {type = "item", name = "ore-titanium-low", amount = 4},
         {type = "item", name = "sodium-carbonate", amount = 2},        --pyfe sodium chlorate
     },
     results = {

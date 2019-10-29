@@ -86,7 +86,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-3-ti", amount = 2}
+        {type = "item", name = "ore-titanium-medium", amount = 2}
     },
     results = {
         {type = "item", name = "grade-4-ti", amount = 1}
@@ -214,6 +214,7 @@ RECIPE {
     order = "q-2"
 }:add_unlock("titanium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
+--[[
 RECIPE {
     type = "recipe",
     name = "sinter-titanium-1",
@@ -233,6 +234,7 @@ RECIPE {
     subgroup = "py-rawores-titanium",
     order = "q-2"
 }:add_unlock("titanium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+]]--
 
 RECIPE {
     type = "recipe",
@@ -315,7 +317,7 @@ RECIPE {
     subgroup = "py-rawores-molten",
     order = "tb"
 }:add_unlock("titanium-mk03")
-
+--[[
 RECIPE {
     type = "recipe",
     name = "molten-titanium-04",
@@ -335,7 +337,7 @@ RECIPE {
     subgroup = "py-rawores-molten",
     order = "tb"
 }:add_unlock("titanium-mk04")
-
+]]--
 RECIPE {
     type = "recipe",
     name = "molten-titanium-05",
@@ -412,7 +414,7 @@ RECIPE {
     subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("titanium-mk01")
-
+--[[
 RECIPE {
     type = "recipe",
     name = "titanium-plate-4",
@@ -428,3 +430,4 @@ RECIPE {
     subgroup = "py-rawores-plates",
     order = "j"
 }:add_unlock("titanium-mk02")
+]]--

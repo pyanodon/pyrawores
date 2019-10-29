@@ -15,6 +15,8 @@ if settings.startup['processing-mod'].value then
 	if mods["pycoalprocessing"] then
 		require("prototypes/updates/pycoalprocessing-updates")
 	end
+
+	require("prototypes/updates/base-updates")
 else
 	if mods["pyfusionenergy"] then
 		require("prototypes/updates-old version/pyfusionenergy-updates")

@@ -1,5 +1,15 @@
 local fun = require("prototypes/functions/functions")
 
+data.raw.recipe['mining-nexelit'].results =
+	{
+		{type = "item", name = "ore-nexelit-high", amount_min = 1, amount_max = 1, probability = 0.4},
+		{type = "item", name = "ore-nexelit-medium", amount_min = 1, amount_max = 1, probability = 0.4},
+		{type = "item", name = "ore-nexelit-low", amount_min = 1, amount_max = 1, probability = 0.15},
+		{type = "item", name = "ore-nexelit-trace", amount_min = 1, amount_max = 1, probability = 0.05}
+	}
+
+data.raw.recipe['mining-nexelit'].main_product = 'ore-nexelit-high'
+
 RECIPE('making-chromium'):remove_unlock('coal-processing-2')
 RECIPE('crushing-iron'):replace_ingredient("iron-ore", {"iron-ore-low", 5}):remove_unlock('crusher'):add_unlock('iron-mk03')
 RECIPE('crushing-copper'):remove_unlock('crusher')

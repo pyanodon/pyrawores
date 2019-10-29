@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "fluid", name = "sl-01", amount = 200},
+        {type = "item", name = "ore-lead-trace", amount = 5},
         {type = "item", name = "lime", amount = 4},
     },
     results = {
@@ -15,7 +15,7 @@ RECIPE {
     main_product = "sl-02",
     subgroup = "py-rawores-fluids",
     order = "q-1"
-}:add_unlock("lead-mk03"):change_category('hydrocyclone')
+}:add_unlock("lead-mk04"):change_category('hydrocyclone')
 
 
 FLUID {
