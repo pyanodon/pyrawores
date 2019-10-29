@@ -28,7 +28,7 @@ DATA {
     minable = {
         hardness = 1.0,
         -- mining_particle = "tin-rock-particle",
-        mining_time = 2,
+        mining_time = 1,
         results = {
             {"ore-tin", 1}
         },

@@ -28,7 +28,7 @@ DATA {
     minable = {
         hardness = 1.0,
         -- mining_particle = "chromium-rock-particle",
-        mining_time = 2,
+        mining_time = 1,
         results = {
             {"ore-chromium", 1}
         },
