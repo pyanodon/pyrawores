@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 1,
     ingredients = {
-        {type = "item", name = "lead-dust", amount = 2},
+        {type = "item", name = "ore-lead-low", amount = 4},
         {type = "fluid", name = "water", amount = 25}, --pyht cyanic acid
     },
     results = {

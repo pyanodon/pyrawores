@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "item", name = "fine-nexelit-powder", amount = 1},
+        {type = "item", name = "ore-nexelit-low", amount = 3},
         {type = "fluid", name = "glycerol", amount = 25},
         {type = "fluid", name = "syngas", amount = 75},
         --pyfe sodium chlorate

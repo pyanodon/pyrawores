@@ -8,10 +8,13 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 400}
     },
     results = {
-        {type = "item", name = "nexelit-ore", amount = 1},
+        {type = "item", name = "ore-nexelit-high", amount_min = 1, amount_max = 1, probability = 0.1},
+		{type = "item", name = "ore-nexelit-medium", amount_min = 1, amount_max = 1, probability = 0.15},
+		{type = "item", name = "ore-nexelit-low", amount_min = 1, amount_max = 1, probability = 0.3},
+		{type = "item", name = "ore-nexelit-trace", amount_min = 1, amount_max = 1, probability = 0.45},
         {type = "item", name = "tailings-dust", amount = 1, probability = 0.4}
     },
-    main_product = "nexelit-ore",
+    main_product = "ore-nexelit-trace",
     subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk01")
@@ -23,7 +26,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "nexelit-ore", amount = 3},
+        {type = "item", name = "ore-nexelit-high", amount = 3},
         {type = "fluid", name = "water", amount = 100}
     },
     results = {
@@ -44,7 +47,7 @@ RECIPE {
     enabled = false,
     energy_required = 1.5,
     ingredients = {
-        {type = "item", name = "clean-nexelit", amount = 1}
+        {type = "item", name = "ore-nexelit-medium", amount = 2}
     },
     results = {
         {type = "item", name = "grade-1-nexelit", amount = 1},
@@ -191,7 +194,7 @@ RECIPE {
     subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 450})
-
+--[[
 RECIPE {
     type = "recipe",
     name = "sinter-nexelit-1",
@@ -211,6 +214,7 @@ RECIPE {
     subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+]]--
 
 RECIPE {
     type = "recipe",
@@ -269,7 +273,7 @@ RECIPE {
     subgroup = "py-rawores-molten",
     order = "n"
 }:add_unlock("nexelit-mk03")
-
+--[[
 RECIPE {
     type = "recipe",
     name = "molten-nexelit-03",
@@ -287,7 +291,9 @@ RECIPE {
     subgroup = "py-rawores-molten",
     order = "n"
 }:add_unlock("nexelit-mk04")
+]]--
 
+--[[
 RECIPE {
     type = "recipe",
     name = "molten-nexelit-04",
@@ -305,6 +311,7 @@ RECIPE {
     subgroup = "py-rawores-molten",
     order = "n"
 }:add_unlock("nexelit-mk04")
+]]--
 
 RECIPE {
     type = "recipe",

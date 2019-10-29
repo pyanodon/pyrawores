@@ -99,7 +99,7 @@ RECIPE {
     main_product = "molten-silver",
     subgroup = "py-rawores-molten",
     order = "s"
-}:add_unlock("lead-mk03")
+}:add_unlock("lead-mk04")
 
 RECIPE {
     type = "recipe",

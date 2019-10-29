@@ -30,7 +30,6 @@ ENTITY {
 			{type = "item", name = "ore-zinc-low", amount_min = 1, amount_max = 1, probability = 0.075},
 			{type = "item", name = "ore-zinc-trace", amount_min = 1, amount_max = 1, probability = 0.025}
 			},
-        },
         fluid_amount = 40,
         required_fluid = "syngas"
     },

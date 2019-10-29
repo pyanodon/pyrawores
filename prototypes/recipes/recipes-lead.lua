@@ -25,7 +25,7 @@ RECIPE {
     enabled = false,
     energy_required = 1.2,
     ingredients = {
-        {type = "item", name = "grade-1-lead", amount = 2}
+        {type = "item", name = "ore-lead-medium", amount = 3}
     },
     results = {
         {type = "item", name = "stone", amount = 1},
@@ -128,7 +128,7 @@ RECIPE {
     main_product = "sl-concentrate",
     subgroup = "py-rawores-lead",
     order = "q-2"
-}:add_unlock("lead-mk03")
+}:add_unlock("lead-mk04")
 
 RECIPE {
     type = "recipe",
@@ -145,7 +145,7 @@ RECIPE {
     main_product = "high-grade-lead",
     subgroup = "py-rawores-lead",
     order = "q-2"
-}:add_unlock("lead-mk03")
+}:add_unlock("lead-mk04")
 
 RECIPE {
     type = "recipe",
@@ -162,7 +162,7 @@ RECIPE {
     main_product = "high-grade-silver",
     subgroup = "py-rawores-lead",
     order = "q-2"
-}:add_unlock("lead-mk03")
+}:add_unlock("lead-mk04")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -280,7 +280,7 @@ RECIPE {
     main_product = "molten-lead",
     subgroup = "py-rawores-molten",
     order = "l"
-}:add_unlock("lead-mk03")
+}:add_unlock("lead-mk04")
 
 RECIPE {
     type = "recipe",

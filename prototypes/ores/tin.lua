@@ -33,7 +33,6 @@ ENTITY {
 			{type = "item", name = "ore-tin-low", amount_min = 1, amount_max = 1, probability = 0.075},
 			{type = "item", name = "ore-tin-trace", amount_min = 1, amount_max = 1, probability = 0.025}
 			},
-        },
         fluid_amount = 100,
         required_fluid = "steam"
     },

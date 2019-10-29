@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "nexelit-pulp-04", amount = 100},
+        {type = "item", name = "ore-nexelit-trace", amount = 5},
         {type = "item", name = "iron-oxide", amount = 10},
         {type = "item", name = "aluminium-plate", amount = 2},
     },

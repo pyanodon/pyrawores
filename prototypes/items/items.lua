@@ -1257,7 +1257,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "ore-lead-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-lead.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-lead-1.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -1276,7 +1276,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "ore-lead-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-lead.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-lead-2.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -1295,7 +1295,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "ore-lead-trace",
-    icon = "__pyrawores__/graphics/icons/mip/ore-lead.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-lead-3.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -1503,6 +1503,82 @@ ITEM {
 }
 
 --NEXELIT
+
+ITEM {
+    type = "item",
+    name = "ore-nexelit-high",
+    icon = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore.png",
+    icon_size = 64,
+    icon_mipmaps = 4,
+    pictures =
+    {
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore.png",   scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-1.png", scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-2.png", scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-3.png", scale = 0.25, mipmap_count = 1 }
+    },
+    flags = {},
+    subgroup = "py-items",
+    order = "g-a",
+    stack_size = 300
+}
+
+ITEM {
+    type = "item",
+    name = "ore-nexelit-medium",
+    icon = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-1.png",
+    icon_size = 64,
+    icon_mipmaps = 4,
+    pictures =
+    {
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore.png",   scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-1.png", scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-2.png", scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-3.png", scale = 0.25, mipmap_count = 1 }
+    },
+    flags = {},
+    subgroup = "py-items",
+    order = "g-b",
+    stack_size = 300
+}
+
+ITEM {
+    type = "item",
+    name = "ore-nexelit-low",
+    icon = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-2.png",
+    icon_size = 64,
+    icon_mipmaps = 4,
+    pictures =
+    {
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore.png",   scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-1.png", scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-2.png", scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-3.png", scale = 0.25, mipmap_count = 1 }
+    },
+    flags = {},
+    subgroup = "py-items",
+    order = "g-c",
+    stack_size = 300
+}
+
+ITEM {
+    type = "item",
+    name = "ore-nexelit-trace",
+    icon = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-3.png",
+    icon_size = 64,
+    icon_mipmaps = 4,
+    pictures =
+    {
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore.png",   scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-1.png", scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-2.png", scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pycoalprocessing__/graphics/icons/mip/nexelit-ore-3.png", scale = 0.25, mipmap_count = 1 }
+    },
+    flags = {},
+    subgroup = "py-items",
+    order = "g-d",
+    stack_size = 300
+}
 
 ITEM {
     type = "item",

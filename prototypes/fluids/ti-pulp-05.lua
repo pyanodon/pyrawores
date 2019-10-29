@@ -5,7 +5,8 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "ti-residue", amount = 3},
+        {type = "item", name = "ti-residue", amount = 1},
+		{type = "item", name = "ore-titanium-trace", amount = 3},
         {type = "fluid", name = "water", amount = 1000},
     },
     results = {
@@ -15,7 +16,7 @@ RECIPE {
     main_product = "ti-pulp-05",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("titanium-mk03"):change_category('hydrocyclone')
+}:add_unlock("titanium-mk04"):change_category('hydrocyclone')
 
 
 FLUID {
