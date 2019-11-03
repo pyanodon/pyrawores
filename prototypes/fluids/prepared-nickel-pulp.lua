@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "sulfuric-acid", amount = 100},
-        {type = "item", name = "grade-4-nickel", amount = 1},
+        {type = "item", name = "ore-nickel-low", amount = 3},
     },
     results = {
         {type = "fluid", name = "prepared-nickel-pulp", amount = 50},

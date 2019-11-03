@@ -5,9 +5,10 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "nickel-pulp-04", amount = 100},
+        {type = "fluid", name = "nickel-pulp-04", amount = 50},
         {type = "fluid", name = "syngas", amount = 200},
         {type = "item", name = "chromium", amount = 4},
+		{type = "item", name = "ore-nickel-trace", amount = 4},
     },
     results = {
         {type = "fluid", name = "nickel-prepared-solution", amount = 100},
@@ -16,7 +17,7 @@ RECIPE {
     main_product = "nickel-prepared-solution",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("nickel-mk03")
+}:add_unlock("nickel-mk04")
 
 
 FLUID {

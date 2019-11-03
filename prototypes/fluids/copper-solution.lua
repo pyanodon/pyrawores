@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "water", amount = 400},
-        {type = "item", name = "copper-ore-low", amount = 5},
+        {type = "item", name = "ore-copper-low", amount = 5},
         {type = "item", name = "salt", amount = 6}
     },
     results = {

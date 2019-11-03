@@ -160,14 +160,14 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-aluminium",
-    order = "a",
+    order = "a-a",
     stack_size = 500
 }
 
 ITEM {
     type = "item",
     name = "ore-aluminium-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-aluminium.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-aluminium-1.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -179,14 +179,14 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-aluminium",
-    order = "a",
+    order = "a-b",
     stack_size = 500
 }
 
 ITEM {
     type = "item",
     name = "ore-aluminium-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-aluminium.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-aluminium-2.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -198,14 +198,14 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-aluminium",
-    order = "a",
+    order = "a-c",
     stack_size = 500
 }
 
 ITEM {
     type = "item",
     name = "ore-aluminium-trace",
-    icon = "__pyrawores__/graphics/icons/mip/ore-aluminium.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-aluminium-3.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -217,7 +217,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-aluminium",
-    order = "a",
+    order = "a-d",
     stack_size = 500
 }
 
@@ -326,7 +326,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-a",
     stack_size = 500
 }
 
@@ -345,7 +345,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-b",
     stack_size = 500
 }
 
@@ -364,7 +364,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-c",
     stack_size = 500
 }
 
@@ -383,7 +383,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-d",
     stack_size = 500
 }
 
@@ -559,7 +559,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-a",
     stack_size = 500
 }
 
@@ -578,7 +578,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-b",
     stack_size = 500
 }
 
@@ -597,7 +597,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-c",
     stack_size = 500
 }
 
@@ -616,7 +616,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-d",
     stack_size = 500
 }
 
@@ -794,7 +794,7 @@ ITEM {
 --COPPER
 ITEM{
     type = "item",
-    name = "copper-ore-high",
+    name = "ore-copper-high",
     icon = "__base__/graphics/icons/mip/copper-ore.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -806,13 +806,13 @@ ITEM{
       { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-3.png", scale = 0.25, mipmap_count = 4 }
     },
     subgroup = "raw-resource",
-    order = "f[copper-ore]",
+    order = "f[copper-ore]-a",
     stack_size = 500
 	}
 	
 ITEM{
     type = "item",
-    name = "copper-ore-medium",
+    name = "ore-copper-medium",
     icon = "__base__/graphics/icons/mip/copper-ore-1.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -824,13 +824,13 @@ ITEM{
       { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-3.png", scale = 0.25, mipmap_count = 4 }
     },
     subgroup = "raw-resource",
-    order = "f[copper-ore]",
+    order = "f[copper-ore]-b",
     stack_size = 500
 	}
 	
 ITEM{
     type = "item",
-    name = "copper-ore-low",
+    name = "ore-copper-low",
     icon = "__base__/graphics/icons/mip/copper-ore-2.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -842,13 +842,13 @@ ITEM{
       { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-3.png", scale = 0.25, mipmap_count = 4 }
     },
     subgroup = "raw-resource",
-    order = "f[copper-ore]",
+    order = "f[copper-ore]-c",
     stack_size = 500
 	}
 	
 ITEM{
     type = "item",
-    name = "copper-ore-trace",
+    name = "ore-copper-trace",
     icon = "__base__/graphics/icons/mip/copper-ore-3.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -860,7 +860,7 @@ ITEM{
       { size = 64, filename = "__base__/graphics/icons/mip/copper-ore-3.png", scale = 0.25, mipmap_count = 4 }
     },
     subgroup = "raw-resource",
-    order = "f[copper-ore]",
+    order = "f[copper-ore]-d",
     stack_size = 500
 	}
 
@@ -988,7 +988,7 @@ ITEM {
 --IRON
 ITEM{
     type = "item",
-    name = "iron-ore-high",
+    name = "ore-iron-high",
     icon = "__base__/graphics/icons/mip/iron-ore.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -1006,7 +1006,7 @@ ITEM{
   
 ITEM{
     type = "item",
-    name = "iron-ore-medium",
+    name = "ore-iron-medium",
     icon = "__base__/graphics/icons/mip/iron-ore-1.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -1024,7 +1024,7 @@ ITEM{
 
 ITEM{
     type = "item",
-    name = "iron-ore-low",
+    name = "ore-iron-low",
     icon = "__base__/graphics/icons/mip/iron-ore-2.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -1042,7 +1042,7 @@ ITEM{
 
 ITEM{
     type = "item",
-    name = "iron-ore-trace",
+    name = "ore-iron-trace",
     icon = "__base__/graphics/icons/mip/iron-ore-3.png",
     icon_size = 64,
     icon_mipmaps = 4,
@@ -1250,7 +1250,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-a",
     stack_size = 500
 }
 
@@ -1269,7 +1269,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-b",
     stack_size = 500
 }
 
@@ -1288,7 +1288,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-c",
     stack_size = 500
 }
 
@@ -1307,7 +1307,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-d",
     stack_size = 500
 }
 
@@ -1696,14 +1696,14 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-a",
     stack_size = 500
 }
 
 ITEM {
     type = "item",
     name = "ore-nickel-medium",
-    icon = "__pyrawores__/graphics/icons/mip/ore-nickel.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-nickel-1.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -1715,14 +1715,14 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-b",
     stack_size = 500
 }
 
 ITEM {
     type = "item",
     name = "ore-nickel-low",
-    icon = "__pyrawores__/graphics/icons/mip/ore-nickel.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-nickel-2.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -1734,14 +1734,14 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-c",
     stack_size = 500
 }
 
 ITEM {
     type = "item",
     name = "ore-nickel-trace",
-    icon = "__pyrawores__/graphics/icons/mip/ore-nickel.png",
+    icon = "__pyrawores__/graphics/icons/mip/ore-nickel-3.png",
     icon_size = 64,
     icon_mipmaps = 4,
     pictures =
@@ -1753,7 +1753,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-d",
     stack_size = 500
 }
 
@@ -2316,7 +2316,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-a",
     stack_size = 500
 }
 
@@ -2335,7 +2335,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-b",
     stack_size = 500
 }
 
@@ -2354,7 +2354,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-c",
     stack_size = 500
 }
 
@@ -2373,7 +2373,7 @@ ITEM {
     },
     flags = {},
     subgroup = "py-rawores-ores",
-    order = "a",
+    order = "a-d",
     stack_size = 500
 }
 
