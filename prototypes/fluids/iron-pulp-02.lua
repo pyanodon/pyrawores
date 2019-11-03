@@ -24,7 +24,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "iron-ore-trace", amount = 20},
+        {type = "item", name = "ore-iron-trace", amount = 20},
         {type = "fluid", name = "petroleum-sulfonates", amount = 50},
         {type = "fluid", name = "oleochemicals", amount = 50},
     },

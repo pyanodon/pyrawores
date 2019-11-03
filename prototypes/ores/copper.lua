@@ -1,80 +1,41 @@
 
-data.raw.resource['copper-ore'].minable.results = {{type = "item", name = "copper-ore-high", amount_min = 1, amount_max = 1, probability = 0.8},{type = "item", name = "copper-ore-medium", amount_min = 1, amount_max = 1, probability = 0.1},{type = "item", name = "copper-ore-low", amount_min = 1, amount_max = 1, probability = 0.075},{type = "item", name = "copper-ore-trace", amount_min = 1, amount_max = 1, probability = 0.05}}
---[[
-DATA {
-    type = "autoplace-control",
-    category = "resource",
-    name = "copper-rock",
-    richness = true,
-    order = "b"
-}
+data.raw.resource['copper-ore'].minable.results =
+	{
+		{type = "item", name = "ore-copper-high", amount_min = 1, amount_max = 1, probability = 0.8},
+		{type = "item", name = "ore-copper-medium", amount_min = 1, amount_max = 1, probability = 0.1},
+		{type = "item", name = "ore-copper-low", amount_min = 1, amount_max = 1, probability = 0.075},
+		{type = "item", name = "ore-copper-trace", amount_min = 1, amount_max = 1, probability = 0.05}
+	}
 
-DATA {
-    type = "noise-layer",
-    name = "copper-rock"
-}
+data.raw.resource['ore-copper-medium'] = table.deepcopy(data.raw.resource['copper-ore'])
+data.raw.resource['ore-copper-medium'].name = 'ore-copper-medium'
+data.raw.resource['ore-copper-medium'].minable.results =
+	{
+		{type = "item", name = "ore-copper-high", amount_min = 1, amount_max = 1, probability = 0.4},
+		{type = "item", name = "ore-copper-medium", amount_min = 1, amount_max = 1, probability = 0.4},
+		{type = "item", name = "ore-copper-low", amount_min = 1, amount_max = 1, probability = 0.175},
+		{type = "item", name = "ore-copper-trace", amount_min = 1, amount_max = 1, probability = 0.025}
+	}
+data.raw.resource['ore-copper-medium'].autoplace = {}
 
-DATA {
-    type = "resource",
-    name = "copper-rock",
-    category = "copper-rock",
-    icon = "__pyrawores__/graphics/icons/ores/copper-rock.png",
-	icon_size = 32,
-    flags = {"placeable-neutral"},
-    order = "a-b-a",
-    map_color = {r = 0.717, g = 0.662, b = 0.447},
-    highlight = true,
-    minimum = 100,
-    normal = 200,
-    maximum = 300,
-    map_grid = false,
-    minable = {
-        hardness = 1.0,
-        -- mining_particle = "copper-rock-particle",
-        mining_time = 2,
-        results = {
-            {"copper-ore-high", 1}
-        },
-    },
-    resource_patch_search_radius = 12,
-    tree_removal_probability = 0.7,
-    tree_removal_max_distance = 32 * 32,
-    collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
-    selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
-    autoplace = {
-        control = "copper-rock",
-        sharpness = 3,
-        --max_probability = 0.035,
-        richness_multiplier = 800,
-        richness_multiplier_distance_bonus = 1000,
-        richness_base = 8000000,
-        coverage = 0.00003 / 30,
-        peaks = {
-            {
-                noise_layer = "copper-rock",
-                noise_octaves_difference = -2.25,
-                noise_persistence = 0.4
-            },
-            --no starting area
-            {
-                influence = -1.0,
-                starting_area_weight_optimal = 1,
-                starting_area_weight_range = 0,
-                starting_area_weight_max_range = 2
-            },
-        }
-    },
-    stage_counts = {0},
-    stages = {
-        sheet = {
-            filename = "__pyrawores__/graphics/entity/ores/copper/copper-mine-place.png",
-            priority = "extra-high",
-            width = 416,
-            height = 448,
-            frame_count = 1,
-            variation_count = 1,
-            shift = util.by_pixel(0, 0)
-        }
-    }
-}
-]]
+data.raw.resource['ore-copper-low'] = table.deepcopy(data.raw.resource['copper-ore'])
+data.raw.resource['ore-copper-low'].name = 'ore-copper-low'
+data.raw.resource['ore-copper-low'].minable.results =
+	{
+		{type = "item", name = "ore-copper-high", amount_min = 1, amount_max = 1, probability = 0.15},
+		{type = "item", name = "ore-copper-medium", amount_min = 1, amount_max = 1, probability = 0.2},
+		{type = "item", name = "ore-copper-low", amount_min = 1, amount_max = 1, probability = 0.5},
+		{type = "item", name = "ore-copper-trace", amount_min = 1, amount_max = 1, probability = 0.15}
+	}
+data.raw.resource['ore-copper-low'].autoplace = {}
+	
+data.raw.resource['ore-copper-trace'] = table.deepcopy(data.raw.resource['copper-ore'])
+data.raw.resource['ore-copper-trace'].name = 'ore-copper-trace'
+data.raw.resource['ore-copper-trace'].minable.results =
+	{
+		{type = "item", name = "ore-copper-high", amount_min = 1, amount_max = 1, probability = 0.05},
+		{type = "item", name = "ore-copper-medium", amount_min = 1, amount_max = 1, probability = 0.2},
+		{type = "item", name = "ore-copper-low", amount_min = 1, amount_max = 1, probability = 0.3},
+		{type = "item", name = "ore-copper-trace", amount_min = 1, amount_max = 1, probability = 0.45}
+	}
+data.raw.resource['ore-copper-trace'].autoplace = {}

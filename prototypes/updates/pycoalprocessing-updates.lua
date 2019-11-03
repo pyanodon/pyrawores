@@ -11,7 +11,7 @@ data.raw.recipe['mining-nexelit'].results =
 data.raw.recipe['mining-nexelit'].main_product = 'ore-nexelit-high'
 
 RECIPE('making-chromium'):remove_unlock('coal-processing-2')
-RECIPE('crushing-iron'):replace_ingredient("iron-ore", {"iron-ore-low", 5}):remove_unlock('crusher'):add_unlock('iron-mk03')
+RECIPE('crushing-iron'):replace_ingredient("iron-ore", {"ore-iron-low", 5}):remove_unlock('crusher'):add_unlock('iron-mk03')
 RECIPE('crushing-copper'):remove_unlock('crusher')
 RECIPE('crushed-copper'):remove_unlock('crusher')
 RECIPE('crushed-iron'):remove_unlock('crusher')
@@ -426,7 +426,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "copper-ore-high", amount = 15}
+        {type = "item", name = "ore-copper-high", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-copper.png",
     icon_size = 32,
@@ -446,7 +446,7 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "iron-ore-high", amount = 15}
+        {type = "item", name = "ore-iron-high", amount = 15}
     },
     icon = "__pyrawores__/graphics/icons/drilling-iron.png",
     icon_size = 32,

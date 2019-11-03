@@ -25,7 +25,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "grade-1-nickel", amount = 2}
+        {type = "item", name = "ore-nickel-medium", amount = 3}
     },
     results = {
         {type = "item", name = "grade-3-nickel", amount = 1, probability = 0.5},
@@ -50,7 +50,8 @@ RECIPE {
         {type = "item", name = "nickel-rejects", amount = 3}
     },
     results = {
-        {type = "item", name = "grade-1-nickel", amount = 1, probability = 0.5}
+        {type = "item", name = "grade-1-nickel", amount = 1, probability = 0.35},
+		{type = "item", name = "ore-nickel-medium", amount = 1, probability = 0.35}
     },
     main_product = "grade-1-nickel",
     icon = "__pyrawores__/graphics/icons/recrush-nickel-rejects.png",
@@ -69,7 +70,8 @@ RECIPE {
         {type = "item", name = "grade-2-nickel", amount = 1}
     },
     results = {
-        {type = "item", name = "grade-1-nickel", amount = 1, probability = 0.5},
+        {type = "item", name = "grade-1-nickel", amount = 1, probability = 0.35},
+		{type = "item", name = "ore-nickel-low", amount = 1, probability = 0.45},
         {type = "item", name = "sand", amount = 1}
     },
     main_product = "grade-1-nickel",
@@ -110,7 +112,7 @@ RECIPE {
     main_product = "high-grade-nickel",
     subgroup = "py-rawores-nickel",
     order = "q-2"
-}:add_unlock("nickel-mk03")
+}:add_unlock("nickel-mk04")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -270,8 +272,8 @@ RECIPE {
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
     order = "n"
-}:add_unlock("nickel-mk03")
-
+}:add_unlock("nickel-mk04")
+--[[
 RECIPE {
     type = "recipe",
     name = "molten-nickel-04",
@@ -290,7 +292,7 @@ RECIPE {
     subgroup = "py-rawores-molten",
     order = "n"
 }:add_unlock("nickel-mk04")
-
+]]--
 RECIPE {
     type = "recipe",
     name = "molten-nickel-05",
