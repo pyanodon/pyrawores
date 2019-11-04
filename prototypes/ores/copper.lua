@@ -28,7 +28,7 @@ data.raw.resource['ore-copper-low'].minable.results =
 		{type = "item", name = "ore-copper-trace", amount_min = 1, amount_max = 1, probability = 0.15}
 	}
 data.raw.resource['ore-copper-low'].autoplace = {}
-	
+
 data.raw.resource['ore-copper-trace'] = table.deepcopy(data.raw.resource['copper-ore'])
 data.raw.resource['ore-copper-trace'].name = 'ore-copper-trace'
 data.raw.resource['ore-copper-trace'].minable.results =

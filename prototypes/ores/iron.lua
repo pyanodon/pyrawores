@@ -6,7 +6,7 @@ data.raw.resource['iron-ore'].minable.results =
 		{type = "item", name = "ore-iron-low", amount_min = 1, amount_max = 1, probability = 0.075},
 		{type = "item", name = "ore-iron-trace", amount_min = 1, amount_max = 1, probability = 0.025}
 	}
-	
+
 data.raw.resource['ore-iron-medium'] = table.deepcopy(data.raw.resource['iron-ore'])
 data.raw.resource['ore-iron-medium'].name = 'ore-iron-medium'
 data.raw.resource['ore-iron-medium'].minable.results =
@@ -28,7 +28,7 @@ data.raw.resource['ore-iron-low'].minable.results =
 		{type = "item", name = "ore-iron-trace", amount_min = 1, amount_max = 1, probability = 0.15}
 	}
 data.raw.resource['ore-iron-low'].autoplace = {}
-	
+
 data.raw.resource['ore-iron-trace'] = table.deepcopy(data.raw.resource['iron-ore'])
 data.raw.resource['ore-iron-trace'].name = 'ore-iron-trace'
 data.raw.resource['ore-iron-trace'].minable.results =
