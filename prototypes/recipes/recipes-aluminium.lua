@@ -18,7 +18,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-crusher",
     order = "b"
-}
+}:add_unlock("aluminium-mk02")
 
 ---PROCESSING RECIPES---
 
@@ -87,6 +87,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 1},
+        {type = "item", name = "ore-aluminium-trace", amount = 3},
          --pyht graphite
         {type = "item", name = "sodium-hydroxide", amount = 8},
         {type = "item", name = "nichrome", amount = 2}
@@ -98,7 +99,7 @@ RECIPE {
     main_product = "high-grade-alumina",
     subgroup = "py-rawores-aluminium",
     order = "i"
-}:add_unlock("aluminium-mk03")
+}:add_unlock("aluminium-mk04")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -120,7 +121,7 @@ RECIPE {
     main_product = "reduced-aluminium",
     subgroup = "py-rawores-aluminium",
     order = "i"
-}:add_unlock("aluminium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("aluminium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",
@@ -217,7 +218,7 @@ RECIPE {
     subgroup = "py-rawores-molten",
     order = "a"
 }:add_unlock("aluminium-mk03")
-
+--[[
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-03-2",
@@ -254,7 +255,7 @@ RECIPE {
     subgroup = "py-rawores-molten",
     order = "z"
 }:add_unlock("aluminium-mk03")
-
+]]--
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-05",
@@ -301,12 +302,12 @@ RECIPE {
     name = "aluminium-plate-1",
     category = "smelting",
     enabled = true,
-    energy_required = 60,
+    energy_required = 6,
     ingredients = {
-        {type = "item", name = "ore-aluminium-high", amount = 40}
+        {type = "item", name = "ore-aluminium-high", amount = 10}
     },
     results = {
-        {type = "item", name = "aluminium-plate", amount = 4}
+        {type = "item", name = "aluminium-plate", amount = 1}
     },
     main_product = "aluminium-plate",
     subgroup = "py-rawores-plates",

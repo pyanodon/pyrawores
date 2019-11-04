@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 2.25,
     ingredients = {
-        {type = "fluid", name = "al-pulp-02", amount = 300},
+        {type = "item", name = "ore-aluminium-low", amount = 4},
         {type = "fluid", name = "alamac", amount = 38},
     },
     results = {
