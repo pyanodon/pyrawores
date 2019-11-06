@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "ti-overflow-waste", amount = 50},
     },
     main_product = "purified-ti-pulp",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-titanium",
     order = "q-2"
 }:add_unlock("titanium-mk03")
 
@@ -31,7 +31,7 @@ RECIPE {
         {type = "fluid", name = "purified-ti-pulp", amount = 150},
     },
     main_product = "purified-ti-pulp",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-titanium",
     order = "q-2"
 }:add_unlock("titanium-mk03")
 
@@ -48,6 +48,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-titanium",
     order = "c"
 }

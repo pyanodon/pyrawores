@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "nickel-tailings", amount = 50},
     },
     main_product = "nickel-tailings",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nickel",
     order = "q-2"
 }:add_unlock("nickel-mk03")
 
@@ -30,6 +30,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-nickel",
     order = "c"
 }

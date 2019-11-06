@@ -12,7 +12,7 @@ RECIPE {
         {type = "fluid", name = "u-73", amount = 100}
     },
     main_product = "u-73",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("uranium-mk04"):change_category("mixer")
 
@@ -28,6 +28,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-uranium",
     order = "c"
 }

@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "zinc-pulp-04", amount = 250},
     },
     main_product = "zinc-pulp-04",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk03"):change_category('agitator'):add_ingredient({type = "fluid", name = "soda-ash", amount = 300})
 
@@ -32,7 +32,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 50},
     },
     main_product = "zinc-pulp-04",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk03"):change_category('thickener')
 
@@ -48,6 +48,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-zinc",
     order = "c"
 }

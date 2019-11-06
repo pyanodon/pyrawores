@@ -16,7 +16,7 @@ RECIPE {
     main_product = "zinc-overflow",
     icon = "__pyrawores__/graphics/icons/zinc-overflow.png",
     icon_size = 32,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-zinc",
     order = "q-2"
 }:add_unlock("zinc-mk03"):change_category('jig')
 
@@ -32,6 +32,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-zinc",
     order = "c"
 }

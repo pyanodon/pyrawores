@@ -16,7 +16,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/crush-uranium.png",
     icon_size = 32,
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("uranium-mk01")
 
 RECIPE {
@@ -34,7 +33,6 @@ RECIPE {
     },
     main_product = "grade-2-u",
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("uranium-mk01")
 
 RECIPE {
@@ -54,7 +52,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/grade-2-u-recrush.png",
     icon_size = 32,
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("uranium-mk01"):change_category('secondary-crusher')
 
 RECIPE {
@@ -74,7 +71,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/powdered-u-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("uranium-mk01"):change_category('screener')
 
 RECIPE {
@@ -91,7 +87,6 @@ RECIPE {
     },
     main_product = "40-u-powder",
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("uranium-mk02")
 
 RECIPE {
@@ -108,7 +103,6 @@ RECIPE {
     },
     main_product = "70-u-powder",
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("uranium-mk03")
 
 RECIPE {
@@ -127,7 +121,6 @@ RECIPE {
     },
     main_product = "yellow-cake",
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("uranium-mk04")
 
 RECIPE {
@@ -146,7 +139,6 @@ RECIPE {
     },
     main_product = "fuelrod-mk02",
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("fuel-production")
 
 RECIPE {
@@ -165,7 +157,6 @@ RECIPE {
     },
     main_product = "fuelrod-mk03",
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("fuel-production")
 
 RECIPE {
@@ -184,7 +175,6 @@ RECIPE {
     },
     main_product = "fuelrod-mk04",
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("fuel-production")
 
 RECIPE {
@@ -203,7 +193,6 @@ RECIPE {
     },
     main_product = "fuelrod-mk05",
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("fuel-production")
 
 RECIPE {
@@ -222,7 +211,6 @@ RECIPE {
     },
     main_product = "uranium-fuel-cell-mk02",
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("nuclear-power")
 
 RECIPE {
@@ -241,7 +229,6 @@ RECIPE {
     },
     main_product = "uranium-fuel-cell-mk03",
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("nuclear-power")
 
 RECIPE {
@@ -260,7 +247,6 @@ RECIPE {
     },
     main_product = "uranium-fuel-cell-mk04",
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("nuclear-power")
 
 RECIPE {
@@ -279,5 +265,4 @@ RECIPE {
     },
     main_product = "uranium-fuel-cell-mk05",
     subgroup = "py-rawores-uranium",
-    order = "q-2"
 }:add_unlock("nuclear-power")
