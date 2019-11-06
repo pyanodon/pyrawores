@@ -16,7 +16,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/ore-titanium-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk01"):change_category("screener")
 
 RECIPE {
@@ -34,7 +33,6 @@ RECIPE {
     },
     main_product = "grade-1-ti",
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk01")
 
 RECIPE {
@@ -55,7 +53,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/grade-1-ti-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk01"):change_category("screener")
 
 RECIPE {
@@ -76,7 +73,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/recrush-ti-rejects.png",
     icon_size = 32,
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk01"):change_category("secondary-crusher")
 
 RECIPE {
@@ -91,8 +87,8 @@ RECIPE {
     results = {
         {type = "item", name = "grade-4-ti", amount = 1}
     },
+    main_product = "grade-4-ti",
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk02")
 
 RECIPE {
@@ -113,7 +109,6 @@ RECIPE {
     },
     main_product = "powdered-ti",
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk02"):change_category("jig")
 
 RECIPE {
@@ -134,7 +129,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/powdered-ti-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk02"):change_category("screener")
 
 RECIPE {
@@ -151,7 +145,6 @@ RECIPE {
     },
     main_product = "high-grade-ti-powder",
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk03")
 
 RECIPE {
@@ -170,7 +163,6 @@ RECIPE {
     },
     main_product = "concentrated-ti",
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk03")
 
 RECIPE {
@@ -189,7 +181,6 @@ RECIPE {
     },
     main_product = "high-grade-ti",
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk03")
 
 --SINTER and DRP IMPROVEMENTS
@@ -211,7 +202,6 @@ RECIPE {
     },
     main_product = "reduced-ti",
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -231,7 +221,6 @@ RECIPE {
     },
     main_product = "sintered-ti",
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -251,7 +240,6 @@ RECIPE {
     },
     main_product = "sintered-ti",
     subgroup = "py-rawores-titanium",
-    order = "q-2"
 }:add_unlock("titanium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
@@ -272,8 +260,8 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 40}
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-molten",
-    order = "tb"
+    subgroup = "py-rawores-titanium",
+    order = "bae"
 }:add_unlock("titanium-mk02")
 
 RECIPE {
@@ -292,8 +280,8 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 510}
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-molten",
-    order = "tb"
+    subgroup = "py-rawores-titanium",
+    order = "bac"
 }:add_unlock("titanium-mk03")
 
 RECIPE {
@@ -312,8 +300,8 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 600}
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-molten",
-    order = "tb"
+    subgroup = "py-rawores-titanium",
+    order = "bab"
 }:add_unlock("titanium-mk03")
 
 RECIPE {
@@ -332,8 +320,8 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 650}
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-molten",
-    order = "tb"
+    subgroup = "py-rawores-titanium",
+    order = "baa"
 }:add_unlock("titanium-mk04")
 
 RECIPE {
@@ -352,8 +340,8 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 400}
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-molten",
-    order = "tb"
+    subgroup = "py-rawores-titanium",
+    order = "bad"
 }:add_unlock("titanium-mk04")
 
 --CASTINGS
@@ -372,8 +360,8 @@ RECIPE {
         {type = "item", name = "titanium-plate", amount = 20}
     },
     main_product = "titanium-plate",
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-titanium",
+    order = "aaa"
 }:add_unlock("titanium-mk02")
 
 --INITIAL PLATE
@@ -390,9 +378,9 @@ RECIPE {
     results = {
         {type = "item", name = "titanium-plate", amount = 4}
     },
-    --main_product= "glass",
-    subgroup = "py-rawores-plates",
-    order = "j"
+    main_product = "titanium-plate",
+    subgroup = "py-rawores-titanium",
+    order = "aad"
 }
 
 --PLATES
@@ -409,8 +397,9 @@ RECIPE {
     results = {
         {type = "item", name = "titanium-plate", amount = 10}
     },
-    subgroup = "py-rawores-plates",
-    order = "j"
+    main_product = "titanium-plate",
+    subgroup = "py-rawores-titanium",
+    order = "aac"
 }:add_unlock("titanium-mk01")
 
 RECIPE {
@@ -425,6 +414,7 @@ RECIPE {
     results = {
         {type = "item", name = "titanium-plate", amount = 147}
     },
-    subgroup = "py-rawores-plates",
-    order = "j"
+    main_product = "titanium-plate",
+    subgroup = "py-rawores-titanium",
+    order = "aab"
 }:add_unlock("titanium-mk02")

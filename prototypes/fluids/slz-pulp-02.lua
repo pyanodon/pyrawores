@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "slz-pulp-02", amount = 300},
     },
     main_product = "slz-pulp-02",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-lead",
     order = "q-1"
 }:add_unlock("lead-mk03"):replace_ingredient("organic-solvent", "soda-ash")
 
@@ -30,6 +30,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-lead",
     order = "c"
 }

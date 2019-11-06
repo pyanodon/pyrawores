@@ -14,7 +14,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 100},
     },
     main_product = "chromite-pulp-04",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
@@ -31,6 +31,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-chromium",
     order = "c"
 }

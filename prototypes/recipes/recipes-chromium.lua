@@ -15,7 +15,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/crusher-chromium.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk01")
 
 RECIPE {
@@ -35,7 +34,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/grade-3-chromite.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk02")
 
 RECIPE {
@@ -55,7 +53,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/chromite-2-grade-screener.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk02"):change_category("screener")
 
 RECIPE {
@@ -75,7 +72,6 @@ RECIPE {
     },
     main_product = "grade-4-chromite",
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk02")
 
 RECIPE {
@@ -92,7 +88,6 @@ RECIPE {
     },
     main_product = "grade-3-chromite",
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk02")
 
 RECIPE {
@@ -112,7 +107,6 @@ RECIPE {
     },
     main_product = "high-chromite",
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -132,7 +126,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/recrush-high-chromite.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk03"):change_category("secondary-crusher")
 
 --CHROMITE SAND YIELDS
@@ -151,7 +144,6 @@ RECIPE {
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk03")
 
 RECIPE {
@@ -170,7 +162,6 @@ RECIPE {
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk03")
 
 RECIPE {
@@ -187,7 +178,6 @@ RECIPE {
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk03")
 
 RECIPE {
@@ -204,7 +194,6 @@ RECIPE {
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk02")
 
 RECIPE {
@@ -221,7 +210,6 @@ RECIPE {
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk02")
 
 RECIPE {
@@ -238,7 +226,6 @@ RECIPE {
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk01")
 
 --CHROMIUM SMELTING YIELDS
@@ -259,8 +246,8 @@ RECIPE {
         {type = "item", name = "chromium", amount = 5}
     },
     main_product = "chromium",
-    subgroup = "py-rawores-plates",
-    order = "q-2"
+    subgroup = "py-rawores-chromium",
+    order = "aab"
 }:add_unlock("chromium-mk01")
 
 RECIPE {
@@ -277,8 +264,8 @@ RECIPE {
         {type = "item", name = "chromium", amount = 25}
     },
     main_product = "chromium",
-    subgroup = "py-rawores-plates",
-    order = "q-2"
+    subgroup = "py-rawores-chromium",
+    order = "aaa"
 }:add_unlock("chromium-mk03")
 
 --MOLTEN VERSION
@@ -298,8 +285,8 @@ RECIPE {
         {type = "fluid", name = "molten-chromium", amount = 70}
     },
     main_product = "molten-chromium",
-    subgroup = "py-rawores-molten",
-    order = "c"
+    subgroup = "py-rawores-chromium",
+    order = "bac"
 }:add_unlock("chromium-mk03")
 
 RECIPE {
@@ -317,8 +304,8 @@ RECIPE {
         {type = "fluid", name = "molten-chromium", amount = 150}
     },
     main_product = "molten-chromium",
-    subgroup = "py-rawores-molten",
-    order = "c"
+    subgroup = "py-rawores-chromium",
+    order = "baa"
 }:add_unlock("chromium-mk04")
 
 RECIPE {
@@ -336,8 +323,8 @@ RECIPE {
         {type = "fluid", name = "molten-chromium", amount = 100}
     },
     main_product = "molten-chromium",
-    subgroup = "py-rawores-molten",
-    order = "c"
+    subgroup = "py-rawores-chromium",
+    order = "bab"
 }:add_unlock("chromium-mk03")
 
 --SINTER and DRP IMPROVEMENTS
@@ -359,7 +346,6 @@ RECIPE {
     },
     main_product = "sintered-chromium",
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -379,7 +365,6 @@ RECIPE {
     },
     main_product = "reduced-chromium",
     subgroup = "py-rawores-chromium",
-    order = "q-2"
 }:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --INITIAL PLATE
@@ -399,6 +384,6 @@ RECIPE {
     --main_product= "glass",
     icon = "__pycoalprocessing__/graphics/icons/chromium.png",
     icon_size = 32,
-    subgroup = "py-rawores-plates",
-    order = "q-2"
+    subgroup = "py-rawores-chromium",
+    order = "aac"
 }

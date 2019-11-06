@@ -13,7 +13,7 @@ RECIPE {
         --pyht phosphoric-acid
     },
     main_product = "iron-pulp-05",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-iron",
     order = "q-2"
 }:add_unlock("iron-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
@@ -29,6 +29,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-iron",
     order = "c"
 }

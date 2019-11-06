@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "copper-solution", amount = 47}
     },
     main_product = "copper-solution",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk03"):change_category("mixer")
 
@@ -29,6 +29,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-copper",
     order = "c"
 }
