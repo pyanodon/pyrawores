@@ -15,7 +15,7 @@ RECIPE {
         {type = "item", name = "coal", amount = 7},
     },
     main_product = "thickened-coal-fines",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk03")
 
@@ -32,6 +32,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-coal",
     order = "c"
 }

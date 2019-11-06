@@ -14,7 +14,7 @@ RECIPE {
         {type = "fluid", name = "nexelit-slurry", amount = 100},
     },
     main_product = "nexelit-refined-pulp",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk04")
 
@@ -31,6 +31,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-nexelit",
     order = "c"
 }

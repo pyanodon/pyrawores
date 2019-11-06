@@ -12,8 +12,7 @@ RECIPE {
         {type = "item", name = "gold-precipitate", amount = 5}
     },
     main_product = "gold-precipitate",
-    subgroup = "py-rawores-etc",
-    order = "q-2"
+    subgroup = "py-rawores-gold",
 }:add_unlock("gold"):change_category("agitator")
 
 RECIPE {
@@ -30,8 +29,7 @@ RECIPE {
         {type = "item", name = "gold-concentrate", amount = 1}
     },
     main_product = "gold-concentrate",
-    subgroup = "py-rawores-etc",
-    order = "q-2"
+    subgroup = "py-rawores-gold",
 }:add_unlock("gold"):replace_ingredient("sulfuric-acid", "cyanic-acid")
 
 RECIPE {
@@ -48,8 +46,7 @@ RECIPE {
         {type = "item", name = "gold-precipitate-2", amount = 1}
     },
     main_product = "gold-precipitate-2",
-    subgroup = "py-rawores-etc",
-    order = "q-2"
+    subgroup = "py-rawores-gold",
 }:add_unlock("gold")
 
 RECIPE {
@@ -68,8 +65,7 @@ RECIPE {
         {type = "item", name = "purified-gold", amount = 5}
     },
     main_product = "purified-gold",
-    subgroup = "py-rawores-etc",
-    order = "q-2"
+    subgroup = "py-rawores-gold",
 }:add_unlock("gold")
 
 RECIPE {
@@ -87,6 +83,6 @@ RECIPE {
         {type = "item", name = "gold-plate", amount = 4}
     },
     main_product = "gold-plate",
-    subgroup = "py-rawores-plates",
-    order = "q-2"
+    subgroup = "py-rawores-gold",
+    order = "aaa"
 }:add_unlock("gold")

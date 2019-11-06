@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "iron-pulp-02", amount = 350},
     },
     main_product = "iron-pulp-02",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-iron",
     order = "q-2"
 }:add_unlock("iron-mk03"):change_category('pan')
 
@@ -30,6 +30,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-iron",
     order = "c"
 }

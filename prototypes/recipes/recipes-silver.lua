@@ -16,8 +16,7 @@ RECIPE {
         {type = "item", name = "reduced-silver", amount = 1},
     },
     main_product = "reduced-silver",
-    subgroup = "py-rawores-etc",
-    order = "q-2"
+    subgroup = "py-rawores-silver",
 }:add_unlock("lead-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -36,8 +35,7 @@ RECIPE {
         {type = "item", name = "sintered-silver", amount = 1},
     },
     main_product = "sintered-silver",
-    subgroup = "py-rawores-etc",
-    order = "q-2"
+    subgroup = "py-rawores-silver",
 }:add_unlock("lead-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -56,8 +54,7 @@ RECIPE {
         {type = "item", name = "sintered-silver", amount = 2},
     },
     main_product = "sintered-silver",
-    subgroup = "py-rawores-etc",
-    order = "q-2"
+    subgroup = "py-rawores-silver",
 }:add_unlock("lead-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
@@ -78,8 +75,8 @@ RECIPE {
         {type = "fluid", name = "molten-silver", amount = 20},
     },
     main_product = "molten-silver",
-    subgroup = "py-rawores-molten",
-    order = "s"
+    subgroup = "py-rawores-silver",
+    order = "bad"
 }:add_unlock("lead-mk03")
 
 RECIPE {
@@ -97,8 +94,8 @@ RECIPE {
         {type = "fluid", name = "molten-silver", amount = 300},
     },
     main_product = "molten-silver",
-    subgroup = "py-rawores-molten",
-    order = "s"
+    subgroup = "py-rawores-silver",
+    order = "bac"
 }:add_unlock("lead-mk03")
 
 RECIPE {
@@ -116,8 +113,8 @@ RECIPE {
         {type = "fluid", name = "molten-silver", amount = 520},
     },
     main_product = "molten-silver",
-    subgroup = "py-rawores-molten",
-    order = "s"
+    subgroup = "py-rawores-silver",
+    order = "baa"
 }:add_unlock("lead-mk04")
 
 RECIPE {
@@ -135,8 +132,8 @@ RECIPE {
         {type = "fluid", name = "molten-silver", amount = 420},
     },
     main_product = "molten-silver",
-    subgroup = "py-rawores-molten",
-    order = "s"
+    subgroup = "py-rawores-silver",
+    order = "bab"
 }:add_unlock("lead-mk04")
 
 
@@ -157,8 +154,8 @@ RECIPE {
         {type = "item", name = "silver-plate", amount = 10}
     },
     main_product= "silver-plate",
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-silver",
+    order = "aaa"
 }:add_unlock("lead-mk03")
 
 
@@ -177,8 +174,8 @@ RECIPE {
     results = {
         {type = "item", name = "silver-plate", amount = 9}
     },
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-silver",
+    order = "aab"
 }:add_unlock("lead-mk02")
 
 --PLATES
@@ -198,6 +195,6 @@ RECIPE {
     results = {
         {type = "item", name = "silver-plate", amount = 3}
     },
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-silver",
+    order = "aac"
 }:add_unlock("lead-mk03")

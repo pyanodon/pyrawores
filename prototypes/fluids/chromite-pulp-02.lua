@@ -13,7 +13,7 @@ RECIPE {
         {type = "item", name = "processed-chromite", amount = 1},
     },
     main_product = "processed-chromite",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk03"):change_category('pan')
 
@@ -30,6 +30,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-chromium",
     order = "c"
 }

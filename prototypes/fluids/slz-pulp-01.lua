@@ -15,7 +15,7 @@ RECIPE {
     main_product = "slz-pulp-01",
     icon = "__pyrawores__/graphics/icons/slz-pulp-01.png",
     icon_size = 32,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-lead",
     order = "q-1"
 }:add_unlock("lead-mk03"):replace_ingredient("water", "cyanic-acid")
 
@@ -32,6 +32,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-lead",
     order = "c"
 }

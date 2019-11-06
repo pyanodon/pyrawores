@@ -14,7 +14,6 @@ RECIPE {
     },
     main_product = "redhot-coke",
     subgroup = "py-rawores-coke",
-    order = "q-2"
 }:add_unlock("coke-mk01")
 
 RECIPE {
@@ -35,7 +34,6 @@ RECIPE {
     },
     main_product = "coke",
     subgroup = "py-rawores-coke",
-    order = "q-2"
 }:add_unlock("coke-mk01"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
 RECIPE {
@@ -55,5 +53,5 @@ RECIPE {
     },
     main_product = "flue-gas",
     subgroup = "py-rawores-coke",
-    order = "q-2"
+    order = "z"
 }:add_unlock("coke-mk03")

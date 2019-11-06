@@ -15,7 +15,6 @@ RECIPE {
     },
     main_product = "grade-1-zinc",
     subgroup = "py-rawores-zinc",
-    order = "q-2"
 }:add_unlock("zinc-mk01")
 
 RECIPE {
@@ -33,7 +32,6 @@ RECIPE {
     },
     main_product = "grade-2-zinc",
     subgroup = "py-rawores-zinc",
-    order = "q-2"
 }:add_unlock("zinc-mk01")
 
 RECIPE {
@@ -52,7 +50,6 @@ RECIPE {
     },
     main_product = "grade-3-zinc",
     subgroup = "py-rawores-zinc",
-    order = "q-2"
 }:add_unlock("zinc-mk02")
 
 RECIPE {
@@ -70,7 +67,6 @@ RECIPE {
     },
     main_product = "grade-4-zinc",
     subgroup = "py-rawores-zinc",
-    order = "q-2"
 }:add_unlock("zinc-mk03")
 
 RECIPE {
@@ -90,7 +86,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/grade-4-zinc-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-zinc",
-    order = "q-2"
 }:add_unlock("zinc-mk03"):change_category("screener")
 
 RECIPE {
@@ -109,7 +104,6 @@ RECIPE {
     },
     main_product = "purified-zinc",
     subgroup = "py-rawores-zinc",
-    order = "q-2"
 }:add_unlock("zinc-mk03"):change_category("grease"):add_ingredient({type = "fluid", name = "grease", amount = 25})
 
 RECIPE {
@@ -127,7 +121,6 @@ RECIPE {
     },
     main_product = "concentrated-zinc",
     subgroup = "py-rawores-zinc",
-    order = "q-2"
 }:add_unlock("zinc-mk03")
 
 RECIPE {
@@ -145,7 +138,6 @@ RECIPE {
     },
     main_product = "high-grade-zinc",
     subgroup = "py-rawores-zinc",
-    order = "q-2"
 }:add_unlock("zinc-mk03")
 
 --SINTER and DRP IMPROVEMENTS
@@ -167,7 +159,6 @@ RECIPE {
     },
     main_product = "reduced-zinc",
     subgroup = "py-rawores-zinc",
-    order = "q-2"
 }:add_unlock("zinc-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -187,7 +178,6 @@ RECIPE {
     },
     main_product = "sintered-zinc",
     subgroup = "py-rawores-zinc",
-    order = "q-2"
 }:add_unlock("zinc-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -207,7 +197,6 @@ RECIPE {
     },
     main_product = "sintered-zinc",
     subgroup = "py-rawores-zinc",
-    order = "q-2"
 }:add_unlock("zinc-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
@@ -227,8 +216,8 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 20}
     },
     main_product = "molten-zinc",
-    subgroup = "py-rawores-molten",
-    order = "z"
+    subgroup = "py-rawores-zinc",
+    order = "bae"
 }:add_unlock("zinc-mk02")
 
 RECIPE {
@@ -246,8 +235,8 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 45}
     },
     main_product = "molten-zinc",
-    subgroup = "py-rawores-molten",
-    order = "z"
+    subgroup = "py-rawores-zinc",
+    order = "bad"
 }:add_unlock("zinc-mk03")
 
 RECIPE {
@@ -265,8 +254,8 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 132}
     },
     main_product = "molten-zinc",
-    subgroup = "py-rawores-molten",
-    order = "z"
+    subgroup = "py-rawores-zinc",
+    order = "bab"
 }:add_unlock("zinc-mk03")
 
 RECIPE {
@@ -284,8 +273,8 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 200}
     },
     main_product = "molten-zinc",
-    subgroup = "py-rawores-molten",
-    order = "z"
+    subgroup = "py-rawores-zinc",
+    order = "baa"
 }:add_unlock("zinc-mk04")
 
 RECIPE {
@@ -303,8 +292,8 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 130}
     },
     main_product = "molten-zinc",
-    subgroup = "py-rawores-molten",
-    order = "z"
+    subgroup = "py-rawores-zinc",
+    order = "bac"
 }:add_unlock("zinc-mk04")
 
 --CASTINGS
@@ -324,8 +313,8 @@ RECIPE {
         {type = "item", name = "zinc-plate", amount = 50}
     },
     main_product = "zinc-plate",
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-zinc",
+    order = "aaa"
 }:add_unlock("zinc-mk02")
 
 --INITIAL PLATE
@@ -343,8 +332,8 @@ RECIPE {
         {type = "item", name = "zinc-plate", amount = 4}
     },
     --main_product= "glass",
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-zinc",
+    order = "aad"
 }
 
 --PLATES
@@ -361,8 +350,8 @@ RECIPE {
     results = {
         {type = "item", name = "zinc-plate", amount = 30}
     },
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-zinc",
+    order = "aac"
 }:add_unlock("zinc-mk01")
 
 RECIPE {
@@ -377,6 +366,6 @@ RECIPE {
     results = {
         {type = "item", name = "zinc-plate", amount = 30}
     },
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-zinc",
+    order = "aab"
 }:add_unlock("zinc-mk03")

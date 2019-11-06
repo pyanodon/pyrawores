@@ -15,7 +15,6 @@ RECIPE {
     },
     main_product = "powdered-aluminium",
     subgroup = "py-rawores-aluminium",
-    order = "b"
 }:add_unlock("aluminium-mk01")
 
 RECIPE {
@@ -36,7 +35,6 @@ RECIPE {
     },
     main_product = "sodium-aluminate",
     subgroup = "py-rawores-aluminium",
-    order = "c-a"
 }:add_unlock("aluminium-mk03"):add_ingredient({type = "item", name = "sodium-chlorate", amount = 5})
 
 RECIPE {
@@ -54,7 +52,6 @@ RECIPE {
     },
     main_product = "crystalized-sodium-aluminate",
     subgroup = "py-rawores-aluminium",
-    order = "h"
 }:add_unlock("aluminium-mk03")
 
 RECIPE {
@@ -75,7 +72,6 @@ RECIPE {
     },
     main_product = "high-grade-alumina",
     subgroup = "py-rawores-aluminium",
-    order = "i"
 }:add_unlock("aluminium-mk03")
 
 --SINTER and DRP IMPROVEMENTS
@@ -97,7 +93,6 @@ RECIPE {
     },
     main_product = "reduced-aluminium",
     subgroup = "py-rawores-aluminium",
-    order = "i"
 }:add_unlock("aluminium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -117,7 +112,6 @@ RECIPE {
     },
     main_product = "sintered-aluminium",
     subgroup = "py-rawores-aluminium",
-    order = "j"
 }:add_unlock("aluminium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -137,7 +131,6 @@ RECIPE {
     },
     main_product = "sintered-aluminium",
     subgroup = "py-rawores-aluminium",
-    order = "k"
 }:add_unlock("aluminium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
@@ -156,8 +149,8 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 10}
     },
     main_product = "molten-aluminium",
-    subgroup = "py-rawores-molten",
-    order = "a"
+    subgroup = "py-rawores-aluminium",
+    order = "baf"
 }:add_unlock("aluminium-mk01")
 
 RECIPE {
@@ -174,8 +167,8 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 50}
     },
     main_product = "molten-aluminium",
-    subgroup = "py-rawores-molten",
-    order = "a"
+    subgroup = "py-rawores-aluminium",
+    order = "bae"
 }:add_unlock("aluminium-mk02")
 
 RECIPE {
@@ -192,8 +185,8 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 375}
     },
     main_product = "molten-aluminium",
-    subgroup = "py-rawores-molten",
-    order = "a"
+    subgroup = "py-rawores-aluminium",
+    order = "bad"
 }:add_unlock("aluminium-mk03")
 
 RECIPE {
@@ -210,8 +203,8 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 470}
     },
     main_product = "molten-aluminium",
-    subgroup = "py-rawores-molten",
-    order = "a"
+    subgroup = "py-rawores-aluminium",
+    order = "bab"
 }:add_unlock("aluminium-mk03")
 
 RECIPE {
@@ -229,8 +222,8 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 500}
     },
     main_product = "molten-aluminium",
-    subgroup = "py-rawores-molten",
-    order = "z"
+    subgroup = "py-rawores-aluminium",
+    order = "baa"
 }:add_unlock("aluminium-mk03")
 
 RECIPE {
@@ -248,8 +241,8 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 440}
     },
     main_product = "molten-aluminium",
-    subgroup = "py-rawores-molten",
-    order = "z"
+    subgroup = "py-rawores-aluminium",
+    order = "bac"
 }:add_unlock("aluminium-mk04")
 
 ----PLATES----
@@ -268,8 +261,8 @@ RECIPE {
         {type = "item", name = "aluminium-plate", amount = 50}
     },
     main_product = "aluminium-plate",
-    subgroup = "py-rawores-plates",
-    order = "c"
+    subgroup = "py-rawores-aluminium",
+    order = "aaa"
 }:add_unlock("aluminium-mk01")
 
 ---INITIAL PLATE---
@@ -287,6 +280,6 @@ RECIPE {
         {type = "item", name = "aluminium-plate", amount = 4}
     },
     main_product = "aluminium-plate",
-    subgroup = "py-rawores-plates",
-    order = "a"
+    subgroup = "py-rawores-aluminium",
+    order = "aab"
 }

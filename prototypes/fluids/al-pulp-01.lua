@@ -17,7 +17,7 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/al-pulp-01.png",
     icon_size = 32,
     subgroup = "py-rawores-aluminium",
-    order = "c"
+    order = "cag"
 }:add_unlock("aluminium-mk02")
 
 

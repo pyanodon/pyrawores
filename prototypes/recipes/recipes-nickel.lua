@@ -15,7 +15,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/crusher-nickel.png",
     icon_size = 32,
     subgroup = "py-rawores-nickel",
-    order = "q-2"
 }:add_unlock("nickel-mk01")
 
 RECIPE {
@@ -37,7 +36,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/grade-1-nickel-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-nickel",
-    order = "q-2"
 }:add_unlock("nickel-mk02"):change_category("screener")
 
 RECIPE {
@@ -56,7 +54,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/recrush-nickel-rejects.png",
     icon_size = 32,
     subgroup = "py-rawores-nickel",
-    order = "q-2"
 }:add_unlock("nickel-mk02"):change_category("secondary-crusher")
 
 RECIPE {
@@ -74,7 +71,6 @@ RECIPE {
     },
     main_product = "grade-1-nickel",
     subgroup = "py-rawores-nickel",
-    order = "q-2"
 }:add_unlock("nickel-mk02")
 
 RECIPE {
@@ -91,7 +87,6 @@ RECIPE {
     },
     main_product = "grade-4-nickel",
     subgroup = "py-rawores-nickel",
-    order = "q-2"
 }:add_unlock("nickel-mk02")
 
 RECIPE {
@@ -109,7 +104,6 @@ RECIPE {
     },
     main_product = "high-grade-nickel",
     subgroup = "py-rawores-nickel",
-    order = "q-2"
 }:add_unlock("nickel-mk03")
 
 --SINTER and DRP IMPROVEMENTS
@@ -131,7 +125,6 @@ RECIPE {
     },
     main_product = "reduced-nickel",
     subgroup = "py-rawores-nickel",
-    order = "q-2"
 }:add_unlock("nickel-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -151,7 +144,6 @@ RECIPE {
     },
     main_product = "sintered-nickel",
     subgroup = "py-rawores-nickel",
-    order = "q-2"
 }:add_unlock("nickel-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -171,7 +163,6 @@ RECIPE {
     },
     main_product = "sintered-nickel",
     subgroup = "py-rawores-nickel",
-    order = "q-2"
 }:add_unlock("nickel-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
@@ -192,8 +183,8 @@ RECIPE {
         {type = "item", name = "pyrite", amount = 1}
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-molten",
-    order = "n"
+    subgroup = "py-rawores-nickel",
+    order = "baf"
 }:add_unlock("nickel-mk03")
 
 RECIPE {
@@ -211,8 +202,8 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 50}
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-molten",
-    order = "n"
+    subgroup = "py-rawores-nickel",
+    order = "bae"
 }:add_unlock("nickel-mk02")
 
 RECIPE {
@@ -230,8 +221,8 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 40}
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-molten",
-    order = "n"
+    subgroup = "py-rawores-nickel",
+    order = "bag"
 }:add_unlock("nickel-mk03")
 
 RECIPE {
@@ -249,8 +240,8 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 150}
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-molten",
-    order = "n"
+    subgroup = "py-rawores-nickel",
+    order = "bad"
 }:add_unlock("nickel-mk03")
 
 RECIPE {
@@ -268,8 +259,8 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 180}
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-molten",
-    order = "n"
+    subgroup = "py-rawores-nickel",
+    order = "bac"
 }:add_unlock("nickel-mk03")
 
 RECIPE {
@@ -287,8 +278,8 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 530}
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-molten",
-    order = "n"
+    subgroup = "py-rawores-nickel",
+    order = "baa"
 }:add_unlock("nickel-mk04")
 
 RECIPE {
@@ -306,8 +297,8 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 400}
     },
     main_product = "molten-nickel",
-    subgroup = "py-rawores-molten",
-    order = "n"
+    subgroup = "py-rawores-nickel",
+    order = "bab"
 }:add_unlock("nickel-mk04")
 
 --CASTINGS
@@ -326,8 +317,8 @@ RECIPE {
         {type = "item", name = "nickel-plate", amount = 50}
     },
     main_product = "nickel-plate",
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-nickel",
+    order = "aaa"
 }:add_unlock("nickel-mk02")
 
 --INITIAL PLATE
@@ -345,8 +336,8 @@ RECIPE {
         {type = "item", name = "nickel-plate", amount = 1}
     },
     --main_product= "glass",
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-nickel",
+    order = "aac"
 }
 
 --PLATES
@@ -364,6 +355,6 @@ RECIPE {
         {type = "item", name = "nickel-plate", amount = 1}
     },
     --main_product= "glass",
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-nickel",
+    order = "aab"
 }:add_unlock("nickel-mk01")

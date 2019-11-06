@@ -12,7 +12,7 @@ RECIPE {
         {type = "fluid", name = "chromite-pulp-03", amount = 100},
     },
     main_product = "chromite-pulp-03",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk03")
 
@@ -29,6 +29,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-chromium",
     order = "c"
 }
