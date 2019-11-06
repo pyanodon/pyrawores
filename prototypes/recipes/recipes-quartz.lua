@@ -15,7 +15,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/crush-quartz.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
-    order = "q-1"
 }:add_unlock("quartz-mk01")
 
 RECIPE {
@@ -35,7 +34,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/powdered-quartz.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
-    order = "q-2"
 }:add_unlock("quartz-mk01")
 
 RECIPE {
@@ -56,7 +54,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/purified-quartz.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
-    order = "q-2"
 }:add_unlock("quartz-mk02")
 
 RECIPE {
@@ -77,7 +74,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/high-grade-quartz.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
-    order = "q-2"
 }:add_unlock("quartz-mk03")
 
 RECIPE {
@@ -98,7 +94,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/class-sand.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
-    order = "a"
 }:add_unlock("quartz-mk02")
 
 
@@ -120,8 +115,8 @@ RECIPE {
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
     icon_size = 32,
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-quartz",
+    order = "aag"
 }
 
 RECIPE {
@@ -140,8 +135,8 @@ RECIPE {
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
     icon_size = 32,
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-quartz",
+    order = "aaf"
 }:add_unlock("quartz-mk01")
 
 RECIPE {
@@ -161,8 +156,8 @@ RECIPE {
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
     icon_size = 32,
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-quartz",
+    order = "aae"
 }:add_unlock("quartz-mk01")
 
 RECIPE {
@@ -183,8 +178,8 @@ RECIPE {
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
     icon_size = 32,
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-quartz",
+    order = "aab"
 }:add_unlock("quartz-mk02")
 
 RECIPE {
@@ -205,8 +200,8 @@ RECIPE {
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
     icon_size = 32,
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-quartz",
+    order = "aaa"
 }:add_unlock("quartz-mk03")
 
 RECIPE {
@@ -228,6 +223,6 @@ RECIPE {
     --main_product= "glass",
     icon = "__pyrawores__/graphics/icons/glass.png",
     icon_size = 32,
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-quartz",
+    order = "aac"
 }:add_unlock("quartz-mk03")

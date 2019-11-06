@@ -17,7 +17,7 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/hydrogen-chloride.png",
     icon_size = 32,
     subgroup = "py-rawores-fluids",
-    order = "q-2"
+    order = "caa"
 }:add_unlock("machines-mk02")
 
 RECIPE {

@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "gold-solution", amount = 100}
     },
     main_product = "gold-solution",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-gold",
     order = "q-2"
 }:add_unlock("gold"):replace_ingredient("water", "ammonia")
 
@@ -29,6 +29,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-gold",
     order = "c"
 }

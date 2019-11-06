@@ -13,7 +13,6 @@ RECIPE {
     },
     main_product = "nexelit-ore",
     subgroup = "py-rawores-nexelit",
-    order = "q-2"
 }:add_unlock("nexelit-mk01")
 
 RECIPE {
@@ -34,7 +33,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/wash-nexelit.png",
     icon_size = 32,
     subgroup = "py-rawores-nexelit",
-    order = "q-2"
 }:add_unlock("nexelit-mk01")
 
 RECIPE {
@@ -54,7 +52,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/crusher-nexelit.png",
     icon_size = 32,
     subgroup = "py-rawores-nexelit",
-    order = "q-2"
 }:add_unlock("nexelit-mk02")
 
 RECIPE {
@@ -75,7 +72,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/nexelit-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-nexelit",
-    order = "q-2"
 }:add_unlock("nexelit-mk02"):change_category("screener")
 
 RECIPE {
@@ -92,7 +88,6 @@ RECIPE {
     },
     main_product = "grade-1-nexelit",
     subgroup = "py-rawores-nexelit",
-    order = "q-2"
 }:add_unlock("nexelit-mk02")
 
 RECIPE {
@@ -112,7 +107,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/recrush-grade-2-nexelit.png",
     icon_size = 32,
     subgroup = "py-rawores-nexelit",
-    order = "q-2"
 }:add_unlock("nexelit-mk02"):change_category("secondary-crusher")
 
 RECIPE {
@@ -131,7 +125,6 @@ RECIPE {
     },
     main_product = "fine-nexelit-powder",
     subgroup = "py-rawores-nexelit",
-    order = "q-2"
 }:add_unlock("nexelit-mk02")
 
 RECIPE {
@@ -148,7 +141,6 @@ RECIPE {
     },
     main_product = "high-grade-nexelit",
     subgroup = "py-rawores-nexelit",
-    order = "q-2"
 }:add_unlock("nexelit-mk04")
 
 RECIPE {
@@ -167,7 +159,6 @@ RECIPE {
     },
     main_product = "high-grade-nexelit",
     subgroup = "py-rawores-nexelit",
-    order = "q-2"
 }:add_unlock("nexelit-mk04")
 
 --SINTER and DRP IMPROVEMENTS
@@ -189,7 +180,6 @@ RECIPE {
     },
     main_product = "reduced-nexelit",
     subgroup = "py-rawores-nexelit",
-    order = "q-2"
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 450})
 
 RECIPE {
@@ -209,7 +199,6 @@ RECIPE {
     },
     main_product = "sintered-nexelit",
     subgroup = "py-rawores-nexelit",
-    order = "q-2"
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -229,7 +218,6 @@ RECIPE {
     },
     main_product = "sintered-nexelit",
     subgroup = "py-rawores-nexelit",
-    order = "q-2"
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
@@ -248,8 +236,8 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 35}
     },
     main_product = "molten-nexelit",
-    subgroup = "py-rawores-molten",
-    order = "n"
+    subgroup = "py-rawores-nexelit",
+    order = "bad"
 }:add_unlock("nexelit-mk02")
 
 RECIPE {
@@ -266,8 +254,8 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 50}
     },
     main_product = "molten-nexelit",
-    subgroup = "py-rawores-molten",
-    order = "n"
+    subgroup = "py-rawores-nexelit",
+    order = "bab"
 }:add_unlock("nexelit-mk03")
 
 RECIPE {
@@ -284,8 +272,8 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 17}
     },
     main_product = "molten-nexelit",
-    subgroup = "py-rawores-molten",
-    order = "n"
+    subgroup = "py-rawores-nexelit",
+    order = "bae"
 }:add_unlock("nexelit-mk04")
 
 RECIPE {
@@ -302,8 +290,8 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 40}
     },
     main_product = "molten-nexelit",
-    subgroup = "py-rawores-molten",
-    order = "n"
+    subgroup = "py-rawores-nexelit",
+    order = "bac"
 }:add_unlock("nexelit-mk04")
 
 RECIPE {
@@ -320,8 +308,8 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 135}
     },
     main_product = "molten-nexelit",
-    subgroup = "py-rawores-molten",
-    order = "n"
+    subgroup = "py-rawores-nexelit",
+    order = "baa"
 }:add_unlock("nexelit-mk04")
 
 --CASTINGS
@@ -340,7 +328,7 @@ RECIPE {
         {type = "item", name = "nexelit-plate", amount = 20}
     },
     main_product = "nexelit-plate",
-    subgroup = "py-rawores-plates",
+    subgroup = "py-rawores-nexelit",
     order = "j"
 }:add_unlock("nexelit-mk02")
 
@@ -358,8 +346,8 @@ RECIPE {
     results = {
         {type = "item", name = "nexelit-plate", amount = 6}
     },
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-nexelit",
+    order = "aab"
 }
 
 --PLATES
@@ -377,6 +365,6 @@ RECIPE {
         {type = "item", name = "nexelit-plate", amount = 18}
     },
     --main_product= "glass",
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-nexelit",
+    order = "aaa"
 }:add_unlock("nexelit-mk01")

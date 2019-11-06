@@ -14,7 +14,7 @@ RECIPE {
         {type = "item", name = "pyrite", amount = 1},
     },
     main_product = "coal-fines",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk04"):change_category('jig')
 
@@ -31,6 +31,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-coal",
     order = "c"
 }

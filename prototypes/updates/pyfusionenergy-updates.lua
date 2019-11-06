@@ -265,7 +265,7 @@ RECIPE {
     },
     main_product = "nitrogen",
     subgroup = "py-rawores-fluids",
-    order = "q-2"
+    order = "dac"
 }:add_unlock("machines-mk03")
 
 RECIPE {

@@ -83,6 +83,12 @@ data:extend {
     },
     {
         type = "item-subgroup",
+        name = "py-rawores-iron-alloys",
+        group = "py-rawores",
+        order = "b"
+    },
+    {
+        type = "item-subgroup",
         name = "py-rawores-lead",
         group = "py-rawores",
         order = "bg"
@@ -131,9 +137,21 @@ data:extend {
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-etc",
+        name = "py-rawores-silver",
         group = "py-rawores",
         order = "bo"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-rawores-gold",
+        group = "py-rawores",
+        order = "bp"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-rawores-etc",
+        group = "py-rawores",
+        order = "bq"
     },
     -----------------------------MOLTEN VERSIONS----------------
     {

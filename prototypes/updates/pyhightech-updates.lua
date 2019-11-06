@@ -295,7 +295,7 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/hydrogen-chloride.png",
     icon_size = 32,
     subgroup = "py-rawores-fluids",
-    order = "j"
+    order = "cab"
 }:add_unlock("machines-mk02"):change_category("mixer")
 
 RECIPE {

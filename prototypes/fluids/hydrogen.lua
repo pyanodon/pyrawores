@@ -15,7 +15,7 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/water-electrolysis.png",
     icon_size = 32,
     subgroup = "py-rawores-fluids",
-    order = "q-2"
+    order = "aaa"
 }:add_unlock("machines-mk01")
 
 FLUID {

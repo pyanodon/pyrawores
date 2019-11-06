@@ -16,7 +16,7 @@ RECIPE {
     main_product = "quartz-pulp-02",
     icon = "__pyrawores__/graphics/icons/quartz-pulp-02.png",
     icon_size = 32,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-quartz",
     order = "q-1"
 }:add_unlock("quartz-mk02")
 
@@ -33,6 +33,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-quartz",
     order = "c"
 }
