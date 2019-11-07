@@ -18,7 +18,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/recrush-coal.png",
     icon_size = 32,
     subgroup = "py-rawores-coal",
-    order = "q-2"
 }:add_unlock("coal-mk01"):change_category('secondary-crusher')
 
 RECIPE {
@@ -35,7 +34,6 @@ RECIPE {
     },
     main_product = "coal",
     subgroup = "py-rawores-coal",
-    order = "q-2"
 }:add_unlock("coal-mk02"):change_category('secondary-crusher')
 
 RECIPE {
@@ -54,7 +52,6 @@ RECIPE {
     },
     main_product = "coarse-coal",
     subgroup = "py-rawores-coal",
-    order = "q-2"
 }:add_unlock("coal-mk02"):change_category('screener')
 
 
@@ -74,7 +71,6 @@ RECIPE {
     },
     main_product = "coal",
     subgroup = "py-rawores-coal",
-    order = "q-2"
 }:add_unlock("coal-mk04")
 
 RECIPE {
@@ -96,7 +92,6 @@ RECIPE {
     },
     main_product = "conditioned-fines",
     subgroup = "py-rawores-coal",
-    order = "q-2"
 }:add_unlock("coal-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
 
@@ -117,7 +112,6 @@ RECIPE {
     },
     main_product = "coal-under-pulp",
     subgroup = "py-rawores-coal",
-    order = "q-2"
 }:add_unlock("coal-mk04")
 
 RECIPE {
@@ -136,7 +130,7 @@ RECIPE {
     },
     main_product = "refsyngas",
     subgroup = "py-rawores-coal",
-    order = "q-2"
+    order = "zaa"
 }:add_unlock("coal-mk04"):change_category('thickener'):replace_ingredient('organic-solvent', 'industrial-solvent')
 
 RECIPE {
@@ -157,5 +151,4 @@ RECIPE {
     },
     main_product = "coal",
     subgroup = "py-rawores-coal",
-    order = "q-2"
 }:add_unlock("coal-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})

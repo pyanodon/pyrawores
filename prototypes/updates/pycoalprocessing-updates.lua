@@ -385,9 +385,13 @@ RECIPE {
         {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
-    results = {
-        {type = "item", name = "ore-aluminium-high", amount = 15}
-    },
+    results =
+		{
+			{type = "item", name = "ore-aluminium-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-aluminium-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-aluminium-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-aluminium-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
     icon = "__pyrawores__/graphics/icons/drilling-aluminium.png",
     icon_size = 32,
     subgroup = "py-drilling",
@@ -405,9 +409,13 @@ RECIPE {
         {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
-    results = {
-        {type = "item", name = "ore-chromium-high", amount = 15}
-    },
+    results =
+		{
+			{type = "item", name = "ore-chromium-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-chromium-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-chromium-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-chromium-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
     icon = "__pyrawores__/graphics/icons/drilling-chromium.png",
     icon_size = 32,
     subgroup = "py-drilling",
@@ -425,9 +433,13 @@ RECIPE {
         {type = "fluid", name = "coal-gas", amount = 250},
         {type = "item", name = "drill-head", amount = 1}
     },
-    results = {
-        {type = "item", name = "ore-copper-high", amount = 15}
-    },
+    results =
+		{
+			{type = "item", name = "ore-copper-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-copper-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-copper-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-copper-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
     icon = "__pyrawores__/graphics/icons/drilling-copper.png",
     icon_size = 32,
     subgroup = "py-drilling",
@@ -445,9 +457,13 @@ RECIPE {
         {type = "fluid", name = "coal-gas", amount = 250},
         {type = "item", name = "drill-head", amount = 1}
     },
-    results = {
-        {type = "item", name = "ore-iron-high", amount = 15}
-    },
+    results =
+		{
+			{type = "item", name = "ore-iron-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-iron-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-iron-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-iron-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
     icon = "__pyrawores__/graphics/icons/drilling-iron.png",
     icon_size = 32,
     subgroup = "py-drilling",
@@ -465,9 +481,13 @@ RECIPE {
         {type = "fluid", name = "coal-gas", amount = 200},
         {type = "item", name = "drill-head", amount = 1}
     },
-    results = {
-        {type = "item", name = "ore-lead-high", amount = 20}
-    },
+    results =
+		{
+			{type = "item", name = "ore-lead-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-lead-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-lead-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-lead-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
     icon = "__pyrawores__/graphics/icons/drilling-lead.png",
     icon_size = 32,
     subgroup = "py-drilling",
@@ -485,9 +505,13 @@ RECIPE {
         {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
-    results = {
-        {type = "item", name = "ore-nickel-high", amount = 15}
-    },
+    results =
+		{
+			{type = "item", name = "ore-nickel-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-nickel-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-nickel-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-nickel-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
     icon = "__pyrawores__/graphics/icons/drilling-nickel.png",
     icon_size = 32,
     subgroup = "py-drilling",
@@ -505,9 +529,13 @@ RECIPE {
         {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
-    results = {
-        {type = "item", name = "ore-quartz-high", amount = 15}
-    },
+    results =
+		{
+			{type = "item", name = "ore-quartz-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-quartz-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-quartz-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-quartz-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
     icon = "__pyrawores__/graphics/icons/drilling-quartz.png",
     icon_size = 32,
     subgroup = "py-drilling",
@@ -525,9 +553,13 @@ RECIPE {
         {type = "fluid", name = "coal-gas", amount = 300},
         {type = "item", name = "drill-head", amount = 1}
     },
-    results = {
-        {type = "item", name = "ore-tin-high", amount = 15}
-    },
+    results =
+		{
+			{type = "item", name = "ore-tin-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-tin-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-tin-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-tin-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
     icon = "__pyrawores__/graphics/icons/drilling-tin.png",
     icon_size = 32,
     subgroup = "py-drilling",
@@ -545,9 +577,13 @@ RECIPE {
         {type = "fluid", name = "coal-gas", amount = 200},
         {type = "item", name = "drill-head", amount = 1}
     },
-    results = {
-        {type = "item", name = "ore-titanium-high", amount = 15}
-    },
+    results =
+		{
+			{type = "item", name = "ore-titanium-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-titanium-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-titanium-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-titanium-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
     icon = "__pyrawores__/graphics/icons/drilling-titanium.png",
     icon_size = 32,
     subgroup = "py-drilling",
@@ -565,9 +601,13 @@ RECIPE {
         {type = "fluid", name = "coal-gas", amount = 250},
         {type = "item", name = "drill-head", amount = 1}
     },
-    results = {
-        {type = "item", name = "ore-zinc-high", amount = 15}
-    },
+    results =
+		{
+			{type = "item", name = "ore-zinc-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-zinc-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-zinc-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-zinc-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
     icon = "__pyrawores__/graphics/icons/drilling-zinc.png",
     icon_size = 32,
     subgroup = "py-drilling",
