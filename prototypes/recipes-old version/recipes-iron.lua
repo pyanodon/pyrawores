@@ -17,7 +17,6 @@ RECIPE {
     icon = "__pycoalprocessing__/graphics/icons/crush-iron.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk01")
 
 RECIPE {
@@ -38,7 +37,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/processed-iron-ore-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk02"):change_category('screener')
 
 RECIPE {
@@ -57,7 +55,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/recrush-grade-3-iron.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk02"):change_category('secondary-crusher')
 
 RECIPE {
@@ -75,7 +72,6 @@ RECIPE {
     },
     main_product = "grade-1-iron",
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk02")
 
 RECIPE {
@@ -94,7 +90,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/iron-ore-dust.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk02")
 
 RECIPE {
@@ -116,7 +111,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/iron-concentrate.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk03"):change_category('jig')
 
 RECIPE {
@@ -136,7 +130,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/iron-dust-concentrate.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk03")
 
 RECIPE {
@@ -155,7 +148,6 @@ RECIPE {
     },
     main_product = "unslimed-iron",
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk02")
 
 RECIPE {
@@ -174,7 +166,6 @@ RECIPE {
     },
     main_product = "unslimed-iron",
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk02")
 
 RECIPE {
@@ -210,7 +201,6 @@ RECIPE {
     },
     main_product = "high-grade-iron",
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk03")
 
 
@@ -236,7 +226,6 @@ RECIPE {
     },
     main_product = "reduced-iron",
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -256,7 +245,6 @@ RECIPE {
     },
     main_product = "sintered-iron",
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -276,7 +264,6 @@ RECIPE {
     },
     main_product = "sintered-iron",
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 
@@ -299,8 +286,8 @@ RECIPE {
         {type = "fluid", name = "molten-iron", amount = 10},
     },
     main_product = "molten-iron",
-    subgroup = "py-rawores-molten",
-    order = "d"
+    subgroup = "py-rawores-iron",
+    order = "bae"
 }:add_unlock("iron-mk01")
 
 RECIPE {
@@ -318,8 +305,8 @@ RECIPE {
         {type = "fluid", name = "molten-iron", amount = 80},
     },
     main_product = "molten-iron",
-    subgroup = "py-rawores-molten",
-    order = "d"
+    subgroup = "py-rawores-iron",
+    order = "bad"
 }:add_unlock("iron-mk02")
 
 RECIPE {
@@ -337,8 +324,8 @@ RECIPE {
         {type = "fluid", name = "molten-iron", amount = 150},
     },
     main_product = "molten-iron",
-    subgroup = "py-rawores-molten",
-    order = "d"
+    subgroup = "py-rawores-iron",
+    order = "bab"
 }:add_unlock("iron-mk03")
 
 
@@ -357,8 +344,8 @@ RECIPE {
         {type = "fluid", name = "molten-iron", amount = 200},
     },
     main_product = "molten-iron",
-    subgroup = "py-rawores-molten",
-    order = "d"
+    subgroup = "py-rawores-iron",
+    order = "baa"
 }:add_unlock("iron-mk04")
 
 RECIPE {
@@ -376,8 +363,8 @@ RECIPE {
         {type = "fluid", name = "molten-iron", amount = 150},
     },
     main_product = "molten-iron",
-    subgroup = "py-rawores-molten",
-    order = "d"
+    subgroup = "py-rawores-iron",
+    order = "bac"
 }:add_unlock("iron-mk04")
 
 
@@ -399,8 +386,8 @@ RECIPE {
         {type = "item", name = "iron-plate", amount = 60}
     },
     main_product= "iron-plate",
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-iron",
+    order = "aaa"
 }:add_unlock("iron-mk01")
 
 ---EXTRA PLATE---
@@ -418,6 +405,6 @@ RECIPE {
         {type = "item", name = "iron-plate", amount = 1}
     },
     main_product= "iron-plate",
-    subgroup = "py-rawores-plates",
-    order = "j"
+    subgroup = "py-rawores-iron",
+    order = "aab"
 }:add_unlock("iron-mk01")

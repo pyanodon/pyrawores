@@ -16,7 +16,6 @@ RECIPE {
     },
     main_product = "sponge-iron",
     subgroup = "py-rawores-iron",
-    order = "q-2"
 }:add_unlock("iron-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -33,8 +32,8 @@ RECIPE {
         {type = "fluid", name = "molten-steel", amount = 50},
     },
     main_product = "molten-steel",
-    subgroup = "py-rawores-molten",
-    order = "s"
+    subgroup = "py-rawores-iron-alloys",
+    order = "baa"
 }:add_unlock("iron-mk04")
 
 RECIPE {
@@ -53,8 +52,8 @@ RECIPE {
         {type = "fluid", name = "flue-gas", amount = 500},
     },
     main_product = "molten-steel",
-    subgroup = "py-rawores-molten",
-    order = "s"
+    subgroup = "py-rawores-iron-alloys",
+    order = "bab"
 }:add_unlock("iron-mk02")
 
 RECIPE {
@@ -71,8 +70,8 @@ RECIPE {
         {type = "item", name = "steel-plate", amount = 25},
     },
     main_product = "steel-plate",
-    subgroup = "py-rawores-plates",
-    order = "q-2"
+    subgroup = "py-rawores-iron-alloys",
+    order = "aaa"
 }:add_unlock("iron-mk02")
 
 --STAINLESS STEEL
@@ -96,8 +95,8 @@ RECIPE {
         {type = "fluid", name = "molten-stainless-steel", amount = 50},
     },
     main_product = "molten-stainless-steel",
-    subgroup = "py-rawores-molten",
-    order = "s"
+    subgroup = "py-rawores-iron-alloys",
+    order = "daa"
 }:add_unlock("iron-mk02"):add_ingredient({type = "item", name = "phosphate-rock", amount =4})
 
 RECIPE {
@@ -115,8 +114,8 @@ RECIPE {
         {type = "item", name = "stainless-steel", amount = 10},
     },
     main_product = "stainless-steel",
-    subgroup = "py-rawores-plates",
-    order = "q-2"
+    subgroup = "py-rawores-iron-alloys",
+    order = "caa"
 }:add_unlock("iron-mk02")
 
 --SUPER STEEL
@@ -137,8 +136,8 @@ RECIPE {
         {type = "fluid", name = "molten-super-steel", amount = 50},
     },
     main_product = "molten-super-steel",
-    subgroup = "py-rawores-molten",
-    order = "s"
+    subgroup = "py-rawores-iron-alloys",
+    order = "faa"
 }:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "molybdenum-plate", amount =1}):add_ingredient({type = "item", name = "vanadium-oxide", amount =2})
 
 RECIPE {
@@ -156,6 +155,6 @@ RECIPE {
         {type = "item", name = "super-steel", amount = 10},
     },
     main_product = "super-steel",
-    subgroup = "py-rawores-plates",
-    order = "q-2"
+    subgroup = "py-rawores-iron-alloys",
+    order = "eaa"
 }:add_unlock("iron-mk03")

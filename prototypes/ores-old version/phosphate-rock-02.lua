@@ -28,7 +28,7 @@ DATA {
     minable = {
         hardness = 1.0,
         -- mining_particle = "phosphate-rock-02-particle",
-        mining_time = 2,
+        mining_time = 1,
         results = {
             {"phosphate-rock", 1}
         },
