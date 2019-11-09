@@ -24,9 +24,9 @@ ENTITY {
     normal = 1000,
     maximum = 3000,
     minable = {
-        hardness = 1,
+        hardness = 0.5,
         -- mining_particle = "raw-coal-ore-particle",
-        mining_time = 1,
+        mining_time = 0.5,
         results = {
             {"raw-coal", 1}
         }
