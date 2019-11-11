@@ -11,7 +11,7 @@ RECIPE {
         {type = "fluid", name = "u-65", amount = 100},
     },
     main_product = "u-65",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("uranium-mk03"):change_category('hydrocyclone')
 
@@ -28,6 +28,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-uranium",
     order = "c"
 }

@@ -14,7 +14,7 @@ RECIPE {
         {type = "fluid", name = "copper-pregnant-solution", amount = 20},
     },
     main_product = "copper-pulp-01",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-copper",
     order = "q-2"
 }:add_unlock("copper-mk03"):add_ingredient({type = "fluid", name = "grease", amount =10})
 
@@ -31,6 +31,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-copper",
     order = "c"
 }

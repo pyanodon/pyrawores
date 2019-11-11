@@ -30,7 +30,7 @@ DATA {
         -- mining_particle = "copper-rock-particle",
         mining_time = 2,
         results = {
-			{type = "item", name = "ore-copper-high", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-copper", amount_min = 1, amount_max = 1, probability = 0.2},
 			{type = "item", name = "ore-copper-medium", amount_min = 1, amount_max = 1, probability = 0.2},
 			{type = "item", name = "ore-copper-low", amount_min = 1, amount_max = 1, probability = 0.3},
 			{type = "item", name = "ore-copper-trace", amount_min = 1, amount_max = 1, probability = 0.3}

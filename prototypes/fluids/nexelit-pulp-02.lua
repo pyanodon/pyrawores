@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "nexelit-pulp-02", amount = 100}
     },
     main_product = "nexelit-pulp-02",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk03"):replace_ingredient("syngas", "acetone")
 
@@ -29,6 +29,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-nexelit",
     order = "c"
 }

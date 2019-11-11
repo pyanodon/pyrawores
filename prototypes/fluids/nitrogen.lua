@@ -13,7 +13,7 @@ RECIPE {
     },
     main_product = "nitrogen",
     subgroup = "py-rawores-fluids",
-    order = "q-2"
+    order = "daa"
 }:add_unlock("filtration")
 
 FLUID {

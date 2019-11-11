@@ -13,9 +13,9 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 50},
     },
     main_product = "ti-overflow-waste",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 350})
+}:add_unlock("titanium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 350})
 
 
 FLUID {
@@ -30,6 +30,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-titanium",
     order = "c"
 }

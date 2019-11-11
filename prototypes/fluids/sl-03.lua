@@ -13,9 +13,9 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 100},
     },
     main_product = "sl-03",
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-lead",
     order = "q-1"
-}:add_unlock("lead-mk04"):change_category('thickener')
+}:add_unlock("lead-mk03"):change_category('thickener')
 
 FLUID {
     type = "fluid",
@@ -29,6 +29,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-lead",
     order = "c"
 }

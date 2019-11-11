@@ -12,7 +12,7 @@ RECIPE {
         {type = "fluid", name = "iron-slime", amount = 50},
     },
     main_product = "iron-slime",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-iron",
     order = "q-2"
 }:add_unlock("iron-mk02"):change_category('mixer')
 
@@ -29,6 +29,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-iron",
     order = "c"
 }
