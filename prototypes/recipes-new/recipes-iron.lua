@@ -7,7 +7,7 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "item", name = "ore-iron-high", amount = 5}
+        {type = "item", name = "ore-iron", amount = 5}
     },
     results = {
         {type = "item", name = "stone", amount = 1},

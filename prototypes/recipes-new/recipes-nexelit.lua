@@ -8,7 +8,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 400}
     },
     results = {
-        {type = "item", name = "ore-nexelit-high", amount_min = 1, amount_max = 1, probability = 0.1},
+        {type = "item", name = "ore-nexelit", amount_min = 1, amount_max = 1, probability = 0.1},
 		{type = "item", name = "ore-nexelit-medium", amount_min = 1, amount_max = 1, probability = 0.15},
 		{type = "item", name = "ore-nexelit-low", amount_min = 1, amount_max = 1, probability = 0.3},
 		{type = "item", name = "ore-nexelit-trace", amount_min = 1, amount_max = 1, probability = 0.45},
@@ -26,7 +26,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "ore-nexelit-high", amount = 3},
+        {type = "item", name = "ore-nexelit", amount = 3},
         {type = "fluid", name = "water", amount = 100}
     },
     results = {

@@ -1,14 +1,18 @@
 local fun = require("prototypes/functions/functions")
 
+if settings.startup['processing-mod'].value then
+
 data.raw.recipe['mining-nexelit'].results =
 	{
-		{type = "item", name = "ore-nexelit-high", amount_min = 1, amount_max = 1, probability = 0.4},
+		{type = "item", name = "ore-nexelit", amount_min = 1, amount_max = 1, probability = 0.4},
 		{type = "item", name = "ore-nexelit-medium", amount_min = 1, amount_max = 1, probability = 0.4},
 		{type = "item", name = "ore-nexelit-low", amount_min = 1, amount_max = 1, probability = 0.15},
 		{type = "item", name = "ore-nexelit-trace", amount_min = 1, amount_max = 1, probability = 0.05}
 	}
 
-data.raw.recipe['mining-nexelit'].main_product = 'ore-nexelit-high'
+data.raw.recipe['mining-nexelit'].main_product = 'ore-nexelit'
+
+end
 
 RECIPE('making-chromium'):remove_unlock('coal-processing-2')
 RECIPE('crushing-iron'):replace_ingredient("iron-ore", {"ore-iron-low", 5}):remove_unlock('crusher'):add_unlock('iron-mk03')
@@ -387,7 +391,7 @@ RECIPE {
     },
     results =
 		{
-			{type = "item", name = "ore-aluminium-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-aluminium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-aluminium-medium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-aluminium-low", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-aluminium-trace", amount_min = 1, amount_max = 1, probability = 0.25}
@@ -411,7 +415,7 @@ RECIPE {
     },
     results =
 		{
-			{type = "item", name = "ore-chromium-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-chromium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-chromium-medium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-chromium-low", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-chromium-trace", amount_min = 1, amount_max = 1, probability = 0.25}
@@ -435,7 +439,7 @@ RECIPE {
     },
     results =
 		{
-			{type = "item", name = "ore-copper-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-copper", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-copper-medium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-copper-low", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-copper-trace", amount_min = 1, amount_max = 1, probability = 0.25}
@@ -459,7 +463,7 @@ RECIPE {
     },
     results =
 		{
-			{type = "item", name = "ore-iron-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-iron", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-iron-medium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-iron-low", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-iron-trace", amount_min = 1, amount_max = 1, probability = 0.25}
@@ -483,7 +487,7 @@ RECIPE {
     },
     results =
 		{
-			{type = "item", name = "ore-lead-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-lead", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-lead-medium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-lead-low", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-lead-trace", amount_min = 1, amount_max = 1, probability = 0.25}
@@ -507,7 +511,7 @@ RECIPE {
     },
     results =
 		{
-			{type = "item", name = "ore-nickel-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-nickel", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-nickel-medium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-nickel-low", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-nickel-trace", amount_min = 1, amount_max = 1, probability = 0.25}
@@ -531,7 +535,7 @@ RECIPE {
     },
     results =
 		{
-			{type = "item", name = "ore-quartz-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-quartz", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-quartz-medium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-quartz-low", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-quartz-trace", amount_min = 1, amount_max = 1, probability = 0.25}
@@ -555,7 +559,7 @@ RECIPE {
     },
     results =
 		{
-			{type = "item", name = "ore-tin-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-tin", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-tin-medium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-tin-low", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-tin-trace", amount_min = 1, amount_max = 1, probability = 0.25}
@@ -579,7 +583,7 @@ RECIPE {
     },
     results =
 		{
-			{type = "item", name = "ore-titanium-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-titanium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-titanium-medium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-titanium-low", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-titanium-trace", amount_min = 1, amount_max = 1, probability = 0.25}
@@ -603,7 +607,7 @@ RECIPE {
     },
     results =
 		{
-			{type = "item", name = "ore-zinc-high", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-zinc", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-zinc-medium", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-zinc-low", amount_min = 1, amount_max = 1, probability = 0.25},
 			{type = "item", name = "ore-zinc-trace", amount_min = 1, amount_max = 1, probability = 0.25}

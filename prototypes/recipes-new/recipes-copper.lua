@@ -8,7 +8,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "ore-copper-high", amount = 5}
+        {type = "item", name = "ore-copper", amount = 5}
     },
     results = {
         {type = "item", name = "grade-1-copper", amount = 1},

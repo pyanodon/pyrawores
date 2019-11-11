@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "ore-lead-high", amount = 5}
+        {type = "item", name = "ore-lead", amount = 5}
     },
     results = {
         {type = "item", name = "grade-1-lead", amount = 1},
@@ -347,7 +347,7 @@ RECIPE {
     enabled = true,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "ore-lead-high", amount = 6}
+        {type = "item", name = "ore-lead", amount = 6}
     },
     results = {
         {type = "item", name = "lead-plate", amount = 1}

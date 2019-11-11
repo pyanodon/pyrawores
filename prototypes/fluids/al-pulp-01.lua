@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "crushed-aluminium", amount = 5},
+        {type = "item", name = "powdered-aluminium", amount = 5},
         {type = "item", name = "lime", amount = 10},
         {type = "fluid", name = "water", amount = 100},
         {type = "fluid", name = "boric-acid", amount = 30}, --pyht phosphoric acid
@@ -17,7 +17,7 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/al-pulp-01.png",
     icon_size = 32,
     subgroup = "py-rawores-aluminium",
-    order = "c"
+    order = "cag"
 }:add_unlock("aluminium-mk02")
 
 

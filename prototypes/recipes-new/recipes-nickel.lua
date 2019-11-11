@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "ore-nickel-high", amount = 5}
+        {type = "item", name = "ore-nickel", amount = 5}
     },
     results = {
         {type = "item", name = "grade-1-nickel", amount = 1},
@@ -341,7 +341,7 @@ RECIPE {
     enabled = true,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "ore-nickel-high", amount = 10}
+        {type = "item", name = "ore-nickel", amount = 10}
     },
     results = {
         {type = "item", name = "nickel-plate", amount = 1}

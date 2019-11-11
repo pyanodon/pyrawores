@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 1,
     ingredients = {
-        {type = "item", name = "ore-chromium-high", amount = 5}
+        {type = "item", name = "ore-chromium", amount = 5}
     },
     results = {
         {type = "item", name = "grade-1-chromite", amount = 1},
@@ -391,7 +391,7 @@ RECIPE {
     enabled = true,
     energy_required = 25,
     ingredients = {
-        {type = "item", name = "ore-chromium-high", amount = 10}
+        {type = "item", name = "ore-chromium", amount = 10}
     },
     results = {
         {type = "item", name = "chromium", amount = 1}

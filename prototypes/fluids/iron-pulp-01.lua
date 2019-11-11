@@ -1,21 +1,21 @@
 RECIPE {
     type = "recipe",
-    name = "classify-crushed-iron-ore",
+    name = "classify-iron-ore-dust",
     category = "hydroclassifier",
     enabled = false,
     energy_required = 2.5,
     ingredients = {
-        {type = "item", name = "crushed-iron", amount = 5},
+        {type = "item", name = "iron-ore-dust", amount = 3},
         {type = "fluid", name = "water", amount = 300},
     },
     results = {
         {type = "fluid", name = "iron-pulp-01", amount = 50},
-        --{type = "fluid", name = "iron-slime", amount = 50}
+        {type = "fluid", name = "iron-slime", amount = 50}
     },
     main_product = "iron-pulp-01",
-    subgroup = "py-rawores-recipes",
+    subgroup = "py-rawores-iron",
     order = "q-2"
-}:add_unlock("iron-mk03")
+}:add_unlock("iron-mk02")
 
 
 FLUID {
@@ -30,6 +30,6 @@ FLUID {
     gas_temperature = 15,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    subgroup = "py-rawores-fluids",
+    subgroup = "py-rawores-iron",
     order = "c"
 }

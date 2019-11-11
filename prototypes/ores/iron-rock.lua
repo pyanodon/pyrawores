@@ -30,7 +30,7 @@ DATA {
         -- mining_particle = "iron-rock-particle",
         mining_time = 2,
         results = {
-			{type = "item", name = "ore-iron-high", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-iron", amount_min = 1, amount_max = 1, probability = 0.2},
 			{type = "item", name = "ore-iron-medium", amount_min = 1, amount_max = 1, probability = 0.2},
 			{type = "item", name = "ore-iron-low", amount_min = 1, amount_max = 1, probability = 0.3},
 			{type = "item", name = "ore-iron-trace", amount_min = 1, amount_max = 1, probability = 0.3}
