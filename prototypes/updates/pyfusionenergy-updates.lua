@@ -421,6 +421,60 @@ RECIPE('compressor-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "it
 RECIPE('gas-separator-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
 RECIPE('nmf-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
+local pipe_left = {
+    north = {
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/top-left.png",
+        priority = "low",
+        width = 320,
+        height = 336
+    },
+    south = {
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/bottom-right.png",
+        priority = "high",
+        width = 320,
+        height = 336
+    },
+    east = {
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/right-top.png",
+        priority = "high",
+        width = 320,
+        height = 336
+    },
+    west = {
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/left-bottom.png",
+        priority = "high",
+        width = 320,
+        height = 336
+    }
+}
+
+local pipe_right = {
+    north = {
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/top-right.png",
+        priority = "low",
+        width = 320,
+        height = 336
+    },
+    south = {
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/bottom-left.png",
+        priority = "high",
+        width = 320,
+        height = 336
+    },
+    east = {
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/right-bottom.png",
+        priority = "high",
+        width = 320,
+        height = 336
+    },
+    west = {
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/left-top.png",
+        priority = "high",
+        width = 320,
+        height = 336
+    }
+}
+
 --pyro 2.0 centrifugal-pan adjustments
 data.raw['assembling-machine']['centrifugal-pan-mk01'].fluid_boxes =
 {

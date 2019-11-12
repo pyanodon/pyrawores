@@ -326,7 +326,6 @@ RECIPE {
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-titanium",
-    subgroup = "py-rawores-molten",
     order = "bab"
 }:add_unlock("titanium-mk03")
 
