@@ -18,6 +18,8 @@ RECIPE {
     order = "q-2"
 }:add_unlock("nickel-mk01")
 
+if settings.startup['processing-mod'].value then
+
 RECIPE {
     type = "recipe",
     name = "grade-3-nickel",
@@ -40,6 +42,33 @@ RECIPE {
     order = "q-2"
 }:add_unlock("nickel-mk02"):change_category("screener")
 
+else
+
+RECIPE {
+    type = "recipe",
+    name = "grade-3-nickel",
+    category = "solid-separator", --pyFE screener
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "grade-1-nickel", amount = 2}
+    },
+    results = {
+        {type = "item", name = "grade-3-nickel", amount = 1, probability = 0.5},
+        {type = "item", name = "grade-2-nickel", amount = 1},
+        {type = "item", name = "nickel-rejects", amount = 1},
+        {type = "item", name = "gravel", amount = 1}
+    },
+    main_product = "grade-3-nickel",
+    icon = "__pyrawores__/graphics/icons/grade-1-nickel-screening.png",
+    icon_size = 32,
+    subgroup = "py-rawores-nickel",
+}:add_unlock("nickel-mk02"):change_category("screener")
+
+end
+
+if settings.startup['processing-mod'].value then
+
 RECIPE {
     type = "recipe",
     name = "nickel-rejects-recrush",
@@ -60,6 +89,30 @@ RECIPE {
     order = "q-2"
 }:add_unlock("nickel-mk02"):change_category("secondary-crusher")
 
+else
+
+RECIPE {
+    type = "recipe",
+    name = "nickel-rejects-recrush",
+    category = "crusher", --pyfe secondary-crusher
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+        {type = "item", name = "nickel-rejects", amount = 3}
+    },
+    results = {
+        {type = "item", name = "grade-1-nickel", amount = 1, probability = 0.5}
+    },
+    main_product = "grade-1-nickel",
+    icon = "__pyrawores__/graphics/icons/recrush-nickel-rejects.png",
+    icon_size = 32,
+    subgroup = "py-rawores-nickel",
+}:add_unlock("nickel-mk02"):change_category("secondary-crusher")
+
+end
+
+if settings.startup['processing-mod'].value then
+
 RECIPE {
     type = "recipe",
     name = "grade-2-nickel-recrush",
@@ -79,6 +132,27 @@ RECIPE {
     order = "q-2"
 }:add_unlock("nickel-mk02")
 
+else
+
+RECIPE {
+    type = "recipe",
+    name = "grade-2-nickel-recrush",
+    category = "impact-crusher",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "item", name = "grade-2-nickel", amount = 1}
+    },
+    results = {
+        {type = "item", name = "grade-1-nickel", amount = 1, probability = 0.5},
+        {type = "item", name = "sand", amount = 1}
+    },
+    main_product = "grade-1-nickel",
+    subgroup = "py-rawores-nickel",
+}:add_unlock("nickel-mk02")
+
+end
+
 RECIPE {
     type = "recipe",
     name = "grade-4-nickel",
@@ -95,6 +169,8 @@ RECIPE {
     subgroup = "py-rawores-nickel",
     order = "q-2"
 }:add_unlock("nickel-mk02")
+
+if settings.startup['processing-mod'].value then
 
 RECIPE {
     type = "recipe",
@@ -113,6 +189,27 @@ RECIPE {
     subgroup = "py-rawores-nickel",
     order = "q-2"
 }:add_unlock("nickel-mk04")
+
+else
+
+RECIPE {
+    type = "recipe",
+    name = "high-grade-nickel",
+    category = "carbonfilter",
+    enabled = false,
+    energy_required = 3.0,
+    ingredients = {
+        {type = "fluid", name = "nickel-prepared-solution", amount = 300},
+        {type = "item", name = "biofilm", amount = 1}
+    },
+    results = {
+        {type = "item", name = "high-grade-nickel", amount = 3}
+    },
+    main_product = "high-grade-nickel",
+    subgroup = "py-rawores-nickel",
+}:add_unlock("nickel-mk03")
+
+end
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -195,7 +292,7 @@ RECIPE {
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
-    order = "n"
+    order = "baf"
 }:add_unlock("nickel-mk03")
 
 RECIPE {
@@ -214,7 +311,7 @@ RECIPE {
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
-    order = "n"
+    order = "bae"
 }:add_unlock("nickel-mk02")
 
 RECIPE {
@@ -233,7 +330,7 @@ RECIPE {
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
-    order = "n"
+    order = "bag"
 }:add_unlock("nickel-mk03")
 
 RECIPE {
@@ -252,7 +349,7 @@ RECIPE {
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
-    order = "n"
+    order = "bad"
 }:add_unlock("nickel-mk03")
 
 RECIPE {
@@ -271,9 +368,11 @@ RECIPE {
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
-    order = "n"
+    order = "bac"
 }:add_unlock("nickel-mk04")
---[[
+
+if not settings.startup['processing-mod'].value then
+
 RECIPE {
     type = "recipe",
     name = "molten-nickel-04",
@@ -290,9 +389,11 @@ RECIPE {
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
-    order = "n"
+    order = "baa"
 }:add_unlock("nickel-mk04")
-]]--
+
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-nickel-05",
@@ -309,7 +410,7 @@ RECIPE {
     },
     main_product = "molten-nickel",
     subgroup = "py-rawores-molten",
-    order = "n"
+    order = "bab"
 }:add_unlock("nickel-mk04")
 
 --CASTINGS
@@ -329,7 +430,7 @@ RECIPE {
     },
     main_product = "nickel-plate",
     subgroup = "py-rawores-plates",
-    order = "j"
+    order = "aaa"
 }:add_unlock("nickel-mk02")
 
 --INITIAL PLATE
@@ -348,7 +449,7 @@ RECIPE {
     },
     --main_product= "glass",
     subgroup = "py-rawores-plates",
-    order = "j"
+    order = "aac"
 }
 
 --PLATES
@@ -367,5 +468,5 @@ RECIPE {
     },
     --main_product= "glass",
     subgroup = "py-rawores-plates",
-    order = "j"
+    order = "aab"
 }:add_unlock("nickel-mk01")

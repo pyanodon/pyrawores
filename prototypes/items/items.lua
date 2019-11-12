@@ -1477,6 +1477,8 @@ ITEM {
 
 --NEXELIT
 
+if settings.startup['processing-mod'].value then
+
 ITEM {
     type = 'item',
     name = 'ore-nexelit',
@@ -1494,7 +1496,7 @@ ITEM {
     order = 'aaa',
     stack_size = 300
 }
-if settings.startup['processing-mod'].value then
+
     ITEM {
         type = 'item',
         name = 'ore-nexelit-medium',

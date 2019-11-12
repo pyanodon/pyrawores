@@ -1,3 +1,5 @@
+
+if settings.startup['processing-mod'].value then
 ---CRUSHING RECIPES---
 
 RECIPE {
@@ -19,6 +21,8 @@ RECIPE {
     subgroup = "py-crusher",
     order = "b"
 }:add_unlock("aluminium-mk02")
+
+end
 
 ---PROCESSING RECIPES---
 
@@ -79,6 +83,8 @@ RECIPE {
     order = "h"
 }:add_unlock("aluminium-mk03")
 
+if settings.startup['processing-mod'].value then
+
 RECIPE {
     type = "recipe",
     name = "high-grade-alumina",
@@ -101,7 +107,32 @@ RECIPE {
     order = "i"
 }:add_unlock("aluminium-mk04")
 
+else
+
+RECIPE {
+    type = "recipe",
+    name = "high-grade-alumina",
+    category = "electrolyzer",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "crystalized-sodium-aluminate", amount = 1},
+         --pyht graphite
+        {type = "item", name = "sodium-hydroxide", amount = 8},
+        {type = "item", name = "nichrome", amount = 2}
+    },
+    results = {
+        {type = "item", name = "high-grade-alumina", amount = 1},
+        {type = "fluid", name = "water", amount = 50}
+    },
+    main_product = "high-grade-alumina",
+    subgroup = "py-rawores-aluminium",
+}:add_unlock("aluminium-mk03")
+
+end
 --SINTER and DRP IMPROVEMENTS
+
+if settings.startup['processing-mod'].value then
 
 RECIPE {
     type = "recipe",
@@ -122,6 +153,29 @@ RECIPE {
     subgroup = "py-rawores-aluminium",
     order = "i"
 }:add_unlock("aluminium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+
+else
+
+RECIPE {
+    type = "recipe",
+    name = "reduction-aluminium",
+    category = "drp",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "high-grade-alumina", amount = 1},
+        {type = "item", name = "iron-oxide", amount = 2},
+        {type = "fluid", name = "diesel", amount = 50}
+        --pyfe pressured air
+    },
+    results = {
+        {type = "item", name = "reduced-aluminium", amount = 1}
+    },
+    main_product = "reduced-aluminium",
+    subgroup = "py-rawores-aluminium",
+}:add_unlock("aluminium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+
+end
 
 RECIPE {
     type = "recipe",
@@ -218,7 +272,9 @@ RECIPE {
     subgroup = "py-rawores-molten",
     order = "a"
 }:add_unlock("aluminium-mk03")
---[[
+
+if not settings.startup['processing-mod'].value then
+
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-03-2",
@@ -255,7 +311,8 @@ RECIPE {
     subgroup = "py-rawores-molten",
     order = "z"
 }:add_unlock("aluminium-mk03")
-]]--
+
+end
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-05",

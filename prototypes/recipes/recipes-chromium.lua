@@ -18,6 +18,8 @@ RECIPE {
     order = "q-2"
 }:add_unlock("chromium-mk01")
 
+if settings.startup['processing-mod'].value then
+
 RECIPE {
     type = "recipe",
     name = "grade-3-chromite",
@@ -37,6 +39,29 @@ RECIPE {
     subgroup = "py-rawores-chromium",
     order = "q-2"
 }:add_unlock("chromium-mk02")
+
+else
+
+RECIPE {
+    type = "recipe",
+    name = "grade-3-chromite",
+    category = "impact-crusher",
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+        {type = "item", name = "grade-1-chromite", amount = 2}
+    },
+    results = {
+        {type = "item", name = "grade-3-chromite", amount = 1},
+        {type = "item", name = "grade-2-chromite", amount = 1, probability = 0.4}
+    },
+    main_product = "grade-3-chromite",
+    icon = "__pyrawores__/graphics/icons/grade-3-chromite.png",
+    icon_size = 32,
+    subgroup = "py-rawores-chromium",
+}:add_unlock("chromium-mk02")
+
+end
 
 RECIPE {
     type = "recipe",

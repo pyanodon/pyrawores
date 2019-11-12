@@ -70,7 +70,7 @@ RECIPE("intelligent-unit"):add_ingredient({type = "item", name = "solder", amoun
 RECIPE("molten-super-steel"):add_ingredient({type = "item", name = "silicon", amount = 2})
 RECIPE("construction-robot-ht"):add_ingredient({type = "item", name = "super-alloy", amount = 2})
 RECIPE("logistic-robot-ht"):add_ingredient({type = "item", name = "super-alloy", amount = 2})
-RECIPE("moondrop-greenhouse"):add_ingredient({type = "item", name = "glass", amount = 40})
+RECIPE("moondrop-greenhouse-mk01"):add_ingredient({type = "item", name = "glass", amount = 40})
 RECIPE("ech"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 150})
 RECIPE("nylon2"):replace_ingredient("sulfuric-acid", "chlorine")
 RECIPE("chloromethane"):replace_ingredient("sulfuric-acid" , "hydrogen-chloride")
