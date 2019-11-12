@@ -25,11 +25,8 @@ ENTITY {
         -- mining_particle = "titanium-ore-particle",
         mining_time = 2,
         results = {
-			{type = "item", name = "ore-titanium", amount_min = 1, amount_max = 1, probability = 0.8},
-			{type = "item", name = "ore-titanium-medium", amount_min = 1, amount_max = 1, probability = 0.1},
-			{type = "item", name = "ore-titanium-low", amount_min = 1, amount_max = 1, probability = 0.075},
-			{type = "item", name = "ore-titanium-trace", amount_min = 1, amount_max = 1, probability = 0.025}
-			},
+            {"ore-titanium", 1}
+        },
         fluid_amount = 40,
         required_fluid = "acetylene"
     },
@@ -73,6 +70,15 @@ ENTITY {
         }
     }
 }
+
+if settings.startup['processing-mod'].value then
+
+data.raw.resource['ore-titanium'].minable.results = {
+			{type = "item", name = "ore-titanium", amount_min = 1, amount_max = 1, probability = 0.8},
+			{type = "item", name = "ore-titanium-medium", amount_min = 1, amount_max = 1, probability = 0.1},
+			{type = "item", name = "ore-titanium-low", amount_min = 1, amount_max = 1, probability = 0.075},
+			{type = "item", name = "ore-titanium-trace", amount_min = 1, amount_max = 1, probability = 0.025}
+			}
 
 ENTITY {
     type = "resource",
@@ -211,3 +217,5 @@ ENTITY {
         }
     }
 }
+
+end

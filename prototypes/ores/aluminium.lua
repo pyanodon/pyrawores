@@ -25,11 +25,8 @@ ENTITY {
         -- mining_particle = "aluminium-ore-particle",
         mining_time = 2,
         results = {
-			{type = "item", name = "ore-aluminium", amount_min = 1, amount_max = 1, probability = 0.8},
-			{type = "item", name = "ore-aluminium-medium", amount_min = 1, amount_max = 1, probability = 0.1},
-			{type = "item", name = "ore-aluminium-low", amount_min = 1, amount_max = 1, probability = 0.075},
-			{type = "item", name = "ore-aluminium-trace", amount_min = 1, amount_max = 1, probability = 0.025}
-			},
+            {"ore-aluminium", 1}
+        },
         fluid_amount = 100,
         required_fluid = "coal-gas"
     },
@@ -72,6 +69,15 @@ ENTITY {
         }
     }
 }
+
+if settings.startup['processing-mod'].value then
+
+data.raw.resource['ore-aluminium'].minable.results = {
+			{type = "item", name = "ore-aluminium", amount_min = 1, amount_max = 1, probability = 0.8},
+			{type = "item", name = "ore-aluminium-medium", amount_min = 1, amount_max = 1, probability = 0.1},
+			{type = "item", name = "ore-aluminium-low", amount_min = 1, amount_max = 1, probability = 0.075},
+			{type = "item", name = "ore-aluminium-trace", amount_min = 1, amount_max = 1, probability = 0.025}
+			}
 
 ENTITY {
     type = "resource",
@@ -210,3 +216,5 @@ ENTITY {
         }
     }
 }
+			
+end
