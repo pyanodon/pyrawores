@@ -28,11 +28,8 @@ ENTITY {
         -- mining_particle = "tin-ore-particle",
         mining_time = 1,
         results = {
-            {type = "item", name = "ore-tin", amount_min = 1, amount_max = 1, probability = 0.8},
-			{type = "item", name = "ore-tin-medium", amount_min = 1, amount_max = 1, probability = 0.1},
-			{type = "item", name = "ore-tin-low", amount_min = 1, amount_max = 1, probability = 0.075},
-			{type = "item", name = "ore-tin-trace", amount_min = 1, amount_max = 1, probability = 0.025}
-			},
+            {"ore-tin", 1}
+        },
         fluid_amount = 100,
         required_fluid = "steam"
     },
@@ -75,6 +72,15 @@ ENTITY {
         }
     }
 }
+
+if settings.startup['processing-mod'].value then
+
+data.raw.resource['ore-tin'].minable.results = {
+            {type = "item", name = "ore-tin", amount_min = 1, amount_max = 1, probability = 0.8},
+			{type = "item", name = "ore-tin-medium", amount_min = 1, amount_max = 1, probability = 0.1},
+			{type = "item", name = "ore-tin-low", amount_min = 1, amount_max = 1, probability = 0.075},
+			{type = "item", name = "ore-tin-trace", amount_min = 1, amount_max = 1, probability = 0.025}
+			}
 
 ENTITY {
     type = "resource",
@@ -222,3 +228,5 @@ ENTITY {
         }
     }
 }
+
+end

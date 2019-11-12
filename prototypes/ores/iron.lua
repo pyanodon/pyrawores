@@ -1,4 +1,6 @@
 
+if settings.startup['processing-mod'].value then
+
 data.raw.resource['iron-ore'].minable.results =
 	{
 		{type = "item", name = "ore-iron", amount_min = 1, amount_max = 1, probability = 0.8},
@@ -39,3 +41,5 @@ data.raw.resource['ore-iron-trace'].minable.results =
 		{type = "item", name = "ore-iron-trace", amount_min = 1, amount_max = 1, probability = 0.45}
 	}
 data.raw.resource['ore-iron-trace'].autoplace = {}
+
+end

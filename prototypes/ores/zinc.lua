@@ -25,11 +25,8 @@ ENTITY {
         -- mining_particle = "zinc-ore-particle",
         mining_time = 2,
         results = {
-            {type = "item", name = "ore-zinc", amount_min = 1, amount_max = 1, probability = 0.8},
-			{type = "item", name = "ore-zinc-medium", amount_min = 1, amount_max = 1, probability = 0.1},
-			{type = "item", name = "ore-zinc-low", amount_min = 1, amount_max = 1, probability = 0.075},
-			{type = "item", name = "ore-zinc-trace", amount_min = 1, amount_max = 1, probability = 0.025}
-			},
+            {"ore-zinc", 1}
+        },
         fluid_amount = 40,
         required_fluid = "syngas"
     },
@@ -72,6 +69,15 @@ ENTITY {
         }
     }
 }
+
+if settings.startup['processing-mod'].value then
+
+data.raw.resource['ore-zinc'].minable.results = {
+            {type = "item", name = "ore-zinc", amount_min = 1, amount_max = 1, probability = 0.8},
+			{type = "item", name = "ore-zinc-medium", amount_min = 1, amount_max = 1, probability = 0.1},
+			{type = "item", name = "ore-zinc-low", amount_min = 1, amount_max = 1, probability = 0.075},
+			{type = "item", name = "ore-zinc-trace", amount_min = 1, amount_max = 1, probability = 0.025}
+			}
 
 ENTITY {
     type = "resource",
@@ -210,3 +216,5 @@ ENTITY {
         }
     }
 }
+
+end

@@ -25,11 +25,8 @@ ENTITY {
         -- mining_particle = "lead-ore-particle",
         mining_time = 2,
         results = {
-            {type = "item", name = "ore-lead", amount_min = 1, amount_max = 1, probability = 0.8},
-			{type = "item", name = "ore-lead-medium", amount_min = 1, amount_max = 1, probability = 0.1},
-			{type = "item", name = "ore-lead-low", amount_min = 1, amount_max = 1, probability = 0.075},
-			{type = "item", name = "ore-lead-trace", amount_min = 1, amount_max = 1, probability = 0.025}
-			},
+            {"ore-lead", 1}
+        },
         fluid_amount = 100,
         required_fluid = "acetylene"
     },
@@ -74,6 +71,15 @@ ENTITY {
     }
 }
 
+if settings.startup['processing-mod'].value then
+
+data.raw.resource['ore-lead'].minable.results = {
+            {type = "item", name = "ore-lead", amount_min = 1, amount_max = 1, probability = 0.8},
+			{type = "item", name = "ore-lead-medium", amount_min = 1, amount_max = 1, probability = 0.1},
+			{type = "item", name = "ore-lead-low", amount_min = 1, amount_max = 1, probability = 0.075},
+			{type = "item", name = "ore-lead-trace", amount_min = 1, amount_max = 1, probability = 0.025}
+			}
+
 ENTITY {
     type = "resource",
     name = "ore-lead-medium",
@@ -88,10 +94,10 @@ ENTITY {
         -- mining_particle = "lead-ore-particle",
         mining_time = 2,
         results = {
-			{type = "item", name = "ore-chromium", amount_min = 1, amount_max = 1, probability = 0.4},
-			{type = "item", name = "ore-chromium-medium", amount_min = 1, amount_max = 1, probability = 0.4},
-			{type = "item", name = "ore-chromium-low", amount_min = 1, amount_max = 1, probability = 0.175},
-			{type = "item", name = "ore-chromium-trace", amount_min = 1, amount_max = 1, probability = 0.025}
+			{type = "item", name = "ore-lead", amount_min = 1, amount_max = 1, probability = 0.4},
+			{type = "item", name = "ore-lead-medium", amount_min = 1, amount_max = 1, probability = 0.4},
+			{type = "item", name = "ore-lead-low", amount_min = 1, amount_max = 1, probability = 0.175},
+			{type = "item", name = "ore-lead-trace", amount_min = 1, amount_max = 1, probability = 0.025}
 			},
         fluid_amount = 100,
         required_fluid = "acetylene"
@@ -134,10 +140,10 @@ ENTITY {
         -- mining_particle = "lead-ore-particle",
         mining_time = 2,
         results = {
-			{type = "item", name = "ore-chromium", amount_min = 1, amount_max = 1, probability = 0.15},
-			{type = "item", name = "ore-chromium-medium", amount_min = 1, amount_max = 1, probability = 0.2},
-			{type = "item", name = "ore-chromium-low", amount_min = 1, amount_max = 1, probability = 0.5},
-			{type = "item", name = "ore-chromium-trace", amount_min = 1, amount_max = 1, probability = 0.15}
+			{type = "item", name = "ore-lead", amount_min = 1, amount_max = 1, probability = 0.15},
+			{type = "item", name = "ore-lead-medium", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-lead-low", amount_min = 1, amount_max = 1, probability = 0.5},
+			{type = "item", name = "ore-lead-trace", amount_min = 1, amount_max = 1, probability = 0.15}
 			},
         fluid_amount = 100,
         required_fluid = "acetylene"
@@ -180,10 +186,10 @@ ENTITY {
         -- mining_particle = "lead-ore-particle",
         mining_time = 2,
         results = {
-			{type = "item", name = "ore-chromium", amount_min = 1, amount_max = 1, probability = 0.05},
-			{type = "item", name = "ore-chromium-medium", amount_min = 1, amount_max = 1, probability = 0.2},
-			{type = "item", name = "ore-chromium-low", amount_min = 1, amount_max = 1, probability = 0.3},
-			{type = "item", name = "ore-chromium-trace", amount_min = 1, amount_max = 1, probability = 0.45}
+			{type = "item", name = "ore-lead", amount_min = 1, amount_max = 1, probability = 0.05},
+			{type = "item", name = "ore-lead-medium", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-lead-low", amount_min = 1, amount_max = 1, probability = 0.3},
+			{type = "item", name = "ore-lead-trace", amount_min = 1, amount_max = 1, probability = 0.45}
 			},
         fluid_amount = 100,
         required_fluid = "acetylene"
@@ -211,3 +217,5 @@ ENTITY {
         }
     }
 }
+
+end

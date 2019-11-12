@@ -30,11 +30,8 @@ DATA {
         -- mining_particle = "zinc-rock-particle",
         mining_time = 1,
         results = {
-			{type = "item", name = "ore-zinc", amount_min = 1, amount_max = 1, probability = 0.2},
-			{type = "item", name = "ore-zinc-medium", amount_min = 1, amount_max = 1, probability = 0.2},
-			{type = "item", name = "ore-zinc-low", amount_min = 1, amount_max = 1, probability = 0.3},
-			{type = "item", name = "ore-zinc-trace", amount_min = 1, amount_max = 1, probability = 0.3}
-			},
+            {"ore-zinc", 1}
+        },
     },
     resource_patch_search_radius = 12,
     tree_removal_probability = 0.7,
@@ -77,3 +74,14 @@ DATA {
         }
     }
 }
+
+if settings.startup['processing-mod'].value then
+
+data.raw.resource['zinc-rock'].minable.results = {
+			{type = "item", name = "ore-zinc", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-zinc-medium", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-zinc-low", amount_min = 1, amount_max = 1, probability = 0.3},
+			{type = "item", name = "ore-zinc-trace", amount_min = 1, amount_max = 1, probability = 0.3}
+			}
+
+end
