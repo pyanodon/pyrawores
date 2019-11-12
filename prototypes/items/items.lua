@@ -29,8 +29,6 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-quartz",
     order = "caa",
-    subgroup = 'py-rawores-ores',
-    order = 'aaa',
     stack_size = 500
 }
 if settings.startup['processing-mod'].value then
@@ -181,8 +179,6 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-aluminium",
     order = "caa",
-    subgroup = 'py-rawores-aluminium',
-    order = 'aaa',
     stack_size = 500
 }
 if settings.startup['processing-mod'].value then
@@ -357,8 +353,6 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-titanium",
     order = "cab",
-    subgroup = 'py-rawores-ores',
-    order = 'aaa',
     stack_size = 500
 }
 if settings.startup['processing-mod'].value then
@@ -1278,8 +1272,6 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-lead",
     order = "caa",
-    subgroup = 'py-rawores-ores',
-    order = 'aaa',
     stack_size = 500
 }
 if settings.startup['processing-mod'].value then
@@ -1731,8 +1723,6 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-nickel",
     order = "caa",
-    subgroup = 'py-rawores-ores',
-    order = 'aaa',
     stack_size = 500
 }
 if settings.startup['processing-mod'].value then
@@ -1918,8 +1908,6 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-tin",
     order = "caa",
-    subgroup = 'py-rawores-ores',
-    order = 'a',
     stack_size = 500
 }
 if settings.startup['processing-mod'].value then
@@ -2366,8 +2354,6 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-zinc",
     order = "caa",
-    subgroup = 'py-rawores-ores',
-    order = 'aaa',
     stack_size = 500
 }
 if settings.startup['processing-mod'].value then
