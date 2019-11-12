@@ -1,3 +1,26 @@
+if settings.startup['processing-mod'].value then
+
+    RECIPE {
+        type = "recipe",
+        name = "chromite-pulp-01",
+        category = "chemistry",--pyFE agitator
+        enabled = false,
+        energy_required = 3,
+        ingredients = {
+            {type = "item", name = "ore-chromium-low", amount = 10},
+            {type = "item", name = "sodium-hydroxide", amount = 5},
+            {type = "fluid", name = "water", amount = 100},
+        },
+        results = {
+            {type = "fluid", name = "chromite-pulp-01", amount = 100},
+        },
+        main_product = "chromite-pulp-01",
+        subgroup = "py-rawores-fluids",
+        order = "q-2"
+    }:add_unlock("chromium-mk03"):change_category('agitator')
+
+else
+
 RECIPE {
     type = "recipe",
     name = "chromite-pulp-01",
@@ -17,6 +40,7 @@ RECIPE {
     order = "q-2"
 }:add_unlock("chromium-mk03"):change_category('agitator')
 
+end
 
 FLUID {
     type = "fluid",

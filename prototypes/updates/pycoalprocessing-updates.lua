@@ -1,7 +1,23 @@
 local fun = require("prototypes/functions/functions")
 
+if settings.startup['processing-mod'].value then
+
+data.raw.recipe['mining-nexelit'].results =
+	{
+		{type = "item", name = "ore-nexelit", amount_min = 1, amount_max = 1, probability = 0.4},
+		{type = "item", name = "ore-nexelit-medium", amount_min = 1, amount_max = 1, probability = 0.4},
+		{type = "item", name = "ore-nexelit-low", amount_min = 1, amount_max = 1, probability = 0.15},
+		{type = "item", name = "ore-nexelit-trace", amount_min = 1, amount_max = 1, probability = 0.05}
+	}
+
+data.raw.recipe['mining-nexelit'].main_product = 'ore-nexelit'
+
+end
+
 RECIPE('making-chromium'):remove_unlock('coal-processing-2')
-RECIPE('crushing-iron'):remove_unlock('crusher')
+if settings.startup['processing-mod'].value then
+RECIPE('crushing-iron'):replace_ingredient("iron-ore", {"ore-iron-low", 5}):remove_unlock('crusher'):add_unlock('iron-mk03')
+end
 RECIPE('crushing-copper'):remove_unlock('crusher')
 RECIPE('crushed-copper'):remove_unlock('crusher')
 RECIPE('crushed-iron'):remove_unlock('crusher')
@@ -364,6 +380,250 @@ RECIPE {
     order = "o"
 }:add_unlock("coal-processing-3"):replace_ingredient("water", "liquid-nitrogen")
 
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "mining-aluminium",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results =
+		{
+			{type = "item", name = "ore-aluminium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-aluminium-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-aluminium-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-aluminium-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
+    icon = "__pyrawores__/graphics/icons/drilling-aluminium.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-chromium",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results =
+		{
+			{type = "item", name = "ore-chromium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-chromium-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-chromium-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-chromium-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
+    icon = "__pyrawores__/graphics/icons/drilling-chromium.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-copper",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 250},
+        {type = "fluid", name = "coal-gas", amount = 250},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results =
+		{
+			{type = "item", name = "ore-copper", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-copper-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-copper-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-copper-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
+    icon = "__pyrawores__/graphics/icons/drilling-copper.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-1")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-iron",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 250},
+        {type = "fluid", name = "coal-gas", amount = 250},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results =
+		{
+			{type = "item", name = "ore-iron", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-iron-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-iron-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-iron-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
+    icon = "__pyrawores__/graphics/icons/drilling-iron.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-1")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-lead",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results =
+		{
+			{type = "item", name = "ore-lead", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-lead-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-lead-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-lead-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
+    icon = "__pyrawores__/graphics/icons/drilling-lead.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-nickel",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results =
+		{
+			{type = "item", name = "ore-nickel", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-nickel-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-nickel-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-nickel-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
+    icon = "__pyrawores__/graphics/icons/drilling-nickel.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-quartz",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results =
+		{
+			{type = "item", name = "ore-quartz", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-quartz-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-quartz-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-quartz-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
+    icon = "__pyrawores__/graphics/icons/drilling-quartz.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-1")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-tin",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results =
+		{
+			{type = "item", name = "ore-tin", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-tin-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-tin-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-tin-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
+    icon = "__pyrawores__/graphics/icons/drilling-tin.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-titanium",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results =
+		{
+			{type = "item", name = "ore-titanium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-titanium-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-titanium-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-titanium-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
+    icon = "__pyrawores__/graphics/icons/drilling-titanium.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-zinc",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 250},
+        {type = "fluid", name = "coal-gas", amount = 250},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results =
+		{
+			{type = "item", name = "ore-zinc", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-zinc-medium", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-zinc-low", amount_min = 1, amount_max = 1, probability = 0.25},
+			{type = "item", name = "ore-zinc-trace", amount_min = 1, amount_max = 1, probability = 0.25}
+		},
+    icon = "__pyrawores__/graphics/icons/drilling-zinc.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+else
+
 RECIPE {
     type = "recipe",
     name = "mining-aluminium",
@@ -563,6 +823,8 @@ RECIPE {
     subgroup = "py-drilling",
     order = "a"
 }:add_unlock("excavation-2")
+
+end
 
 RECIPE {
     type = "recipe",

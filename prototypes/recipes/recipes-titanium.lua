@@ -75,6 +75,25 @@ RECIPE {
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk01"):change_category("secondary-crusher")
 
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "grade-4-ti",
+    category = "ball-mill",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "ore-titanium-medium", amount = 2}
+    },
+    results = {
+        {type = "item", name = "grade-4-ti", amount = 1}
+    },
+    subgroup = "py-rawores-titanium",
+}:add_unlock("titanium-mk02")
+
+else
+
 RECIPE {
     type = "recipe",
     name = "grade-4-ti",
@@ -90,6 +109,8 @@ RECIPE {
     main_product = "grade-4-ti",
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk02")
+
+end
 
 RECIPE {
     type = "recipe",
@@ -204,6 +225,8 @@ RECIPE {
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
+if not settings.startup['processing-mod'].value then
+
 RECIPE {
     type = "recipe",
     name = "sinter-titanium-1",
@@ -222,6 +245,8 @@ RECIPE {
     main_product = "sintered-ti",
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+
+end
 
 RECIPE {
     type = "recipe",
@@ -301,8 +326,11 @@ RECIPE {
     },
     main_product = "molten-titanium",
     subgroup = "py-rawores-titanium",
+    subgroup = "py-rawores-molten",
     order = "bab"
 }:add_unlock("titanium-mk03")
+
+if not settings.startup['processing-mod'].value then
 
 RECIPE {
     type = "recipe",
@@ -323,6 +351,8 @@ RECIPE {
     subgroup = "py-rawores-titanium",
     order = "baa"
 }:add_unlock("titanium-mk04")
+
+end
 
 RECIPE {
     type = "recipe",
@@ -402,6 +432,8 @@ RECIPE {
     order = "aac"
 }:add_unlock("titanium-mk01")
 
+if not settings.startup['processing-mod'].value then
+
 RECIPE {
     type = "recipe",
     name = "titanium-plate-4",
@@ -418,3 +450,5 @@ RECIPE {
     subgroup = "py-rawores-titanium",
     order = "aab"
 }:add_unlock("titanium-mk02")
+
+end

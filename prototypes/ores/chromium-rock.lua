@@ -30,8 +30,11 @@ DATA {
         -- mining_particle = "chromium-rock-particle",
         mining_time = 1,
         results = {
-            {"ore-chromium", 1}
-        },
+			{type = "item", name = "ore-chromium", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-chromium-medium", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-chromium-low", amount_min = 1, amount_max = 1, probability = 0.3},
+			{type = "item", name = "ore-chromium-trace", amount_min = 1, amount_max = 1, probability = 0.3}
+			},
     },
     resource_patch_search_radius = 12,
     tree_removal_probability = 0.7,
