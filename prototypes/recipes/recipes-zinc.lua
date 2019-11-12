@@ -334,6 +334,8 @@ RECIPE {
     order = "bad"
 }:add_unlock("zinc-mk03")
 
+if settings.startup['processing-mod'].value then
+
 RECIPE {
     type = "recipe",
     name = "molten-zinc-03",
