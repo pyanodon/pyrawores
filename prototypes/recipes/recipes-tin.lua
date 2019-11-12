@@ -15,7 +15,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/ore-tin-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk01"):change_category('screener')
 
 RECIPE {
@@ -33,8 +32,9 @@ RECIPE {
     },
     main_product = "grade-1-tin",
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk01")
+
+if settings.startup['processing-mod'].value then
 
 RECIPE {
     type = "recipe",
@@ -53,8 +53,30 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/grade-1-tin-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk02"):change_category('screener')
+
+else
+
+RECIPE {
+    type = "recipe",
+    name = "grade-3-tin",
+    category = "solid-separator",--pyFE screener
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "grade-1-tin", amount = 2},
+    },
+    results = {
+        {type = "item", name = "grade-3-tin", amount = 1},
+        {type = "item", name = "tin-ore-rejects", amount = 1, probability = 0.5},
+    },
+    main_product = "grade-3-tin",
+    icon = "__pyrawores__/graphics/icons/grade-1-tin-screening.png",
+    icon_size = 32,
+    subgroup = "py-rawores-tin",
+}:add_unlock("tin-mk02"):change_category('screener')
+
+end
 
 RECIPE {
     type = "recipe",
@@ -72,7 +94,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/recrush-tin-ore-rejects.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk02"):change_category('secondary-crusher')
 
 RECIPE {
@@ -93,7 +114,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/wash-grade-3-tin.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk02")
 
 RECIPE {
@@ -110,8 +130,9 @@ RECIPE {
     },
     main_product = "tin-dust",
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk02")
+
+if settings.startup['processing-mod'].value then
 
 RECIPE {
     type = "recipe",
@@ -130,8 +151,30 @@ RECIPE {
     },
     main_product = "tin-concentrate",
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk03"):change_category('jig')
+
+else
+
+RECIPE {
+    type = "recipe",
+    name = "tin-concentrate",
+    category = "chemistry", --pyfe jig
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "tin-dust", amount = 1},
+        {type = "fluid", name = "mibc", amount = 75},
+        {type = "fluid", name = "water", amount = 100},
+    },
+    results = {
+        {type = "item", name = "tin-rejects", amount = 1},
+        {type = "item", name = "tin-concentrate", amount = 1, probability = 0.2},
+    },
+    main_product = "tin-concentrate",
+    subgroup = "py-rawores-tin",
+}:add_unlock("tin-mk03"):change_category('jig')
+
+end
 
 RECIPE {
     type = "recipe",
@@ -150,7 +193,6 @@ RECIPE {
     icon = "__pyrawores__/graphics/icons/tin-rejects-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk03"):change_category('screener')
 
 RECIPE {
@@ -170,7 +212,6 @@ RECIPE {
     },
     main_product = "tin-concentrate",
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk03")
 
 RECIPE {
@@ -190,7 +231,6 @@ RECIPE {
     },
     main_product = "tin-concentrate",
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk03"):change_category('grease')
 
 RECIPE {
@@ -208,7 +248,6 @@ RECIPE {
     },
     main_product = "high-tin-concentrate",
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk03")
 
 RECIPE {
@@ -225,7 +264,6 @@ RECIPE {
     },
     main_product = "high-tin-mix",
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk04")
 
 RECIPE {
@@ -243,7 +281,6 @@ RECIPE {
     },
     main_product = "high-grade-tin",
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk04")
 
 
@@ -266,7 +303,6 @@ RECIPE {
     },
     main_product = "reduced-tin",
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -286,7 +322,6 @@ RECIPE {
     },
     main_product = "sintered-tin",
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
@@ -306,7 +341,6 @@ RECIPE {
     },
     main_product = "sintered-tin",
     subgroup = "py-rawores-tin",
-    order = "q-2"
 }:add_unlock("tin-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
@@ -326,7 +360,7 @@ RECIPE {
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
-    order = "ta"
+    order = "baf"
 }:add_unlock("tin-mk02")
 
 RECIPE {
@@ -344,7 +378,7 @@ RECIPE {
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
-    order = "ta"
+    order = "bac"
 }:add_unlock("tin-mk03")
 
 RECIPE {
@@ -362,7 +396,7 @@ RECIPE {
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
-    order = "ta"
+    order = "bab"
 }:add_unlock("tin-mk03")
 
 RECIPE {
@@ -380,7 +414,7 @@ RECIPE {
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
-    order = "ta"
+    order = "bad"
 }:add_unlock("tin-mk04")
 
 RECIPE {
@@ -398,7 +432,7 @@ RECIPE {
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
-    order = "ta"
+    order = "baa"
 }:add_unlock("tin-mk04")
 
 RECIPE {
@@ -416,7 +450,7 @@ RECIPE {
     },
     main_product = "molten-tin",
     subgroup = "py-rawores-molten",
-    order = "ta"
+    order = "bae"
 }:add_unlock("tin-mk04")
 
 
@@ -438,7 +472,7 @@ RECIPE {
     },
     main_product= "tin-plate",
     subgroup = "py-rawores-plates",
-    order = "j"
+    order = "aaa"
 }:add_unlock("tin-mk02")
 
 
@@ -459,7 +493,7 @@ RECIPE {
     },
     --main_product= "glass",
     subgroup = "py-rawores-plates",
-    order = "j"
+    order = "aad"
 }
 
 --PLATES
@@ -477,7 +511,7 @@ RECIPE {
         {type = "item", name = "tin-plate", amount = 10}
     },
     subgroup = "py-rawores-plates",
-    order = "j"
+    order = "aab"
 }:add_unlock("tin-mk01")
 
 RECIPE {
@@ -493,5 +527,5 @@ RECIPE {
         {type = "item", name = "tin-plate", amount = 8}
     },
     subgroup = "py-rawores-plates",
-    order = "j"
+    order = "aac"
 }:add_unlock("tin-mk02")

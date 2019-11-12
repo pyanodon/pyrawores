@@ -30,8 +30,11 @@ DATA {
         -- mining_particle = "zinc-rock-particle",
         mining_time = 2,
         results = {
-            {"ore-zinc", 1}
-        },
+			{type = "item", name = "ore-zinc", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-zinc-medium", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-zinc-low", amount_min = 1, amount_max = 1, probability = 0.3},
+			{type = "item", name = "ore-zinc-trace", amount_min = 1, amount_max = 1, probability = 0.3}
+			},
     },
     resource_patch_search_radius = 12,
     tree_removal_probability = 0.7,

@@ -16,7 +16,7 @@ RECIPE("hydrocyclone-mk01"):replace_ingredient("centrifuge", "classifier")
 RECIPE("hydrocyclone-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 RECIPE("py-heat-exchanger"):remove_unlock("fuel-production"):add_unlock("coal-processing-2")
 
-RECIPE("mixer-mk01"):remove_unlock("advanced-mining-facilities"):remove_unlock("basic-electronic"):add_unlock("machines-mk01")
+RECIPE("mixer-mk01"):remove_unlock("advanced-mining-facilities"):remove_unlock("basic-electronics"):add_unlock("machines-mk01")
 RECIPE("mixer-mk01"):replace_ingredient("iron-plate", "aluminium-plate"):replace_ingredient("chemical-plant", "washer")
 
 RECIPE("secondary-crusher-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01"):replace_ingredient("electric-engine-unit", "engine-unit"):remove_ingredient("nbfe-alloy"):add_ingredient({type = "item", name = "duralumin", amount = 20})

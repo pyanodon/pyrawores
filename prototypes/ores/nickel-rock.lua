@@ -30,8 +30,11 @@ DATA {
         -- mining_particle = "nickel-rock-particle",
         mining_time = 2,
         results = {
-            {"ore-nickel", 1}
-        },
+			{type = "item", name = "ore-nickel", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-nickel-medium", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-nickel-low", amount_min = 1, amount_max = 1, probability = 0.3},
+			{type = "item", name = "ore-nickel-trace", amount_min = 1, amount_max = 1, probability = 0.3}
+			},
     },
     resource_patch_search_radius = 12,
     tree_removal_probability = 0.7,

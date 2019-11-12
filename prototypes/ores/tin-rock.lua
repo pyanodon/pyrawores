@@ -30,8 +30,11 @@ DATA {
         -- mining_particle = "tin-rock-particle",
         mining_time = 2,
         results = {
-            {"ore-tin", 1}
-        },
+			{type = "item", name = "ore-tin", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-tin-medium", amount_min = 1, amount_max = 1, probability = 0.2},
+			{type = "item", name = "ore-tin-low", amount_min = 1, amount_max = 1, probability = 0.3},
+			{type = "item", name = "ore-tin-trace", amount_min = 1, amount_max = 1, probability = 0.3}
+			},
     },
     resource_patch_search_radius = 12,
     tree_removal_probability = 0.7,

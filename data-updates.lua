@@ -1,7 +1,6 @@
 require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 
-if settings.startup['processing-mod'].value then
 	if mods["pyfusionenergy"] then
 		require("prototypes/updates/pyfusionenergy-updates")
 	end
@@ -17,23 +16,6 @@ if settings.startup['processing-mod'].value then
 	end
 
 	require("prototypes/updates/base-updates")
-else
-	if mods["pyfusionenergy"] then
-		require("prototypes/updates-old version/pyfusionenergy-updates")
-	end
-
-	if mods["pyhightech"] then
-		require("prototypes/updates-old version/pyhightech-updates")
-		require("prototypes.ores.phosphate-rock-02")
-		require("prototypes/buildings/phosphate-mine-02")
-	end
-
-	if mods["pycoalprocessing"] then
-		require("prototypes/updates-old version/pycoalprocessing-updates")
-	end
-end
-
-
 
 --ADAPTATIONS
 
@@ -44,7 +26,7 @@ ITEM("copper-cable"):set("icon", "__pyrawores__/graphics/icons/copper-cable.png"
 --RECIPES UPDATES
 
 if settings.startup['processing-mod'].value then
-RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore-high", amount = 8}):set_fields {energy_required = 10}
+RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "ore-iron", amount = 8}):set_fields {energy_required = 10}
 else
 RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore", amount = 8}):set_fields {energy_required = 10}
 end

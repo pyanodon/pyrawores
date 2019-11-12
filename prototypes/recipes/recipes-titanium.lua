@@ -75,6 +75,25 @@ RECIPE {
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk01"):change_category("secondary-crusher")
 
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "grade-4-ti",
+    category = "ball-mill",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "ore-titanium-medium", amount = 2}
+    },
+    results = {
+        {type = "item", name = "grade-4-ti", amount = 1}
+    },
+    subgroup = "py-rawores-titanium",
+}:add_unlock("titanium-mk02")
+
+else
+
 RECIPE {
     type = "recipe",
     name = "grade-4-ti",
@@ -90,6 +109,8 @@ RECIPE {
     main_product = "grade-4-ti",
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk02")
+
+end
 
 RECIPE {
     type = "recipe",
@@ -204,6 +225,8 @@ RECIPE {
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
+if not settings.startup['processing-mod'].value then
+
 RECIPE {
     type = "recipe",
     name = "sinter-titanium-1",
@@ -222,6 +245,8 @@ RECIPE {
     main_product = "sintered-ti",
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+
+end
 
 RECIPE {
     type = "recipe",
@@ -260,7 +285,7 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 40}
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-titanium",
+    subgroup = "py-rawores-molten",
     order = "bae"
 }:add_unlock("titanium-mk02")
 
@@ -280,7 +305,7 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 510}
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-titanium",
+    subgroup = "py-rawores-molten",
     order = "bac"
 }:add_unlock("titanium-mk03")
 
@@ -300,9 +325,11 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 600}
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-titanium",
+    subgroup = "py-rawores-molten",
     order = "bab"
 }:add_unlock("titanium-mk03")
+
+if not settings.startup['processing-mod'].value then
 
 RECIPE {
     type = "recipe",
@@ -320,9 +347,11 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 650}
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-titanium",
+    subgroup = "py-rawores-molten",
     order = "baa"
 }:add_unlock("titanium-mk04")
+
+end
 
 RECIPE {
     type = "recipe",
@@ -340,7 +369,7 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 400}
     },
     main_product = "molten-titanium",
-    subgroup = "py-rawores-titanium",
+    subgroup = "py-rawores-molten",
     order = "bad"
 }:add_unlock("titanium-mk04")
 
@@ -360,7 +389,7 @@ RECIPE {
         {type = "item", name = "titanium-plate", amount = 20}
     },
     main_product = "titanium-plate",
-    subgroup = "py-rawores-titanium",
+    subgroup = "py-rawores-plates",
     order = "aaa"
 }:add_unlock("titanium-mk02")
 
@@ -378,8 +407,8 @@ RECIPE {
     results = {
         {type = "item", name = "titanium-plate", amount = 4}
     },
-    main_product = "titanium-plate",
-    subgroup = "py-rawores-titanium",
+    --main_product= "glass",
+    subgroup = "py-rawores-plates",
     order = "aad"
 }
 
@@ -397,10 +426,11 @@ RECIPE {
     results = {
         {type = "item", name = "titanium-plate", amount = 10}
     },
-    main_product = "titanium-plate",
-    subgroup = "py-rawores-titanium",
+    subgroup = "py-rawores-plates",
     order = "aac"
 }:add_unlock("titanium-mk01")
+
+if not settings.startup['processing-mod'].value then
 
 RECIPE {
     type = "recipe",
@@ -414,7 +444,8 @@ RECIPE {
     results = {
         {type = "item", name = "titanium-plate", amount = 147}
     },
-    main_product = "titanium-plate",
-    subgroup = "py-rawores-titanium",
+    subgroup = "py-rawores-plates",
     order = "aab"
 }:add_unlock("titanium-mk02")
+
+end
