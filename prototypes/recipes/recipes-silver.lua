@@ -79,6 +79,29 @@ RECIPE {
     order = "bad"
 }:add_unlock("lead-mk03")
 
+if settings.startup['processing-mod'].value then
+RECIPE {
+    type = "recipe",
+    name = "molten-silver-02",
+    category = "bof",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "high-grade-silver", amount = 1},
+        {type = "item", name = "borax", amount = 3},
+        {type = "fluid", name = "oxygen", amount = 60},
+    },
+    results = {
+        {type = "fluid", name = "molten-silver", amount = 300},
+    },
+    main_product = "molten-silver",
+    subgroup = "py-rawores-silver",
+    order = "bac"
+
+}:add_unlock("lead-mk04")
+
+else
+
 RECIPE {
     type = "recipe",
     name = "molten-silver-02",
@@ -97,6 +120,8 @@ RECIPE {
     subgroup = "py-rawores-silver",
     order = "bac"
 }:add_unlock("lead-mk03")
+
+end
 
 RECIPE {
     type = "recipe",

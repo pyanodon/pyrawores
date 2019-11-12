@@ -34,6 +34,28 @@ RECIPE {
     subgroup = "py-rawores-zinc",
 }:add_unlock("zinc-mk01")
 
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "grade-3-zinc",
+    category = "hydroclassifier",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "ore-zinc-medium", amount = 2},
+        {type = "fluid", name = "water", amount = 200}
+    },
+    results = {
+        {type = "item", name = "grade-3-zinc", amount = 1},
+        {type = "fluid", name = "dirty-water", amount = 50}
+    },
+    main_product = "grade-3-zinc",
+    subgroup = "py-rawores-zinc",
+}:add_unlock("zinc-mk02")
+
+else
+
 RECIPE {
     type = "recipe",
     name = "grade-3-zinc",
@@ -52,6 +74,29 @@ RECIPE {
     subgroup = "py-rawores-zinc",
 }:add_unlock("zinc-mk02")
 
+end
+
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "grade-4-zinc",
+    category = "ball-mill",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "grade-3-zinc", amount = 1}
+    },
+    results = {
+        {type = "item", name = "grade-4-zinc", amount = 1},
+        {type = "item", name = "coal-dust", amount = 1, probability = 0.5}
+    },
+    main_product = "grade-4-zinc",
+    subgroup = "py-rawores-zinc",
+}:add_unlock("zinc-mk02")
+
+else
+
 RECIPE {
     type = "recipe",
     name = "grade-4-zinc",
@@ -68,6 +113,31 @@ RECIPE {
     main_product = "grade-4-zinc",
     subgroup = "py-rawores-zinc",
 }:add_unlock("zinc-mk03")
+
+end
+
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "powdered-zinc",
+    category = "solid-separator", --pyfe screener
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "grade-4-zinc", amount = 1}
+    },
+    results = {
+        {type = "item", name = "powdered-zinc", amount = 1},
+        {type = "item", name = "grade-2-zinc", amount = 1, probability = 0.3}
+    },
+    main_product = "powdered-zinc",
+    icon = "__pyrawores__/graphics/icons/grade-4-zinc-screening.png",
+    icon_size = 32,
+    subgroup = "py-rawores-zinc",
+}:add_unlock("zinc-mk02"):change_category("screener")
+
+else
 
 RECIPE {
     type = "recipe",
@@ -87,6 +157,8 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-zinc",
 }:add_unlock("zinc-mk03"):change_category("screener")
+
+end
 
 RECIPE {
     type = "recipe",
@@ -123,6 +195,27 @@ RECIPE {
     subgroup = "py-rawores-zinc",
 }:add_unlock("zinc-mk03")
 
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "high-grade-zinc",
+    category = "carbonfilter",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "zinc-pulp-04", amount = 400},
+        {type = "item", name = "filtration-media", amount = 1}
+    },
+    results = {
+        {type = "item", name = "high-grade-zinc", amount = 4}
+    },
+    main_product = "high-grade-zinc",
+    subgroup = "py-rawores-zinc",
+}:add_unlock("zinc-mk04")
+
+else
+
 RECIPE {
     type = "recipe",
     name = "high-grade-zinc",
@@ -139,6 +232,8 @@ RECIPE {
     main_product = "high-grade-zinc",
     subgroup = "py-rawores-zinc",
 }:add_unlock("zinc-mk03")
+	
+end
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -256,7 +351,30 @@ RECIPE {
     main_product = "molten-zinc",
     subgroup = "py-rawores-zinc",
     order = "bab"
+}:add_unlock("zinc-mk04")
+
+else
+
+RECIPE {
+    type = "recipe",
+    name = "molten-zinc-03",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "item", name = "high-grade-zinc", amount = 1},
+        {type = "item", name = "limestone", amount = 3},
+        {type = "fluid", name = "heavy-oil", amount = 150}
+    },
+    results = {
+        {type = "fluid", name = "molten-zinc", amount = 132}
+    },
+    main_product = "molten-zinc",
+    subgroup = "py-rawores-zinc",
+    order = "bab"
 }:add_unlock("zinc-mk03")
+
+end
 
 RECIPE {
     type = "recipe",
@@ -354,6 +472,26 @@ RECIPE {
     order = "aac"
 }:add_unlock("zinc-mk01")
 
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "zinc-plate-4",
+    category = "smelting",
+    enabled = false,
+    energy_required = 50,
+    ingredients = {
+        {type = "item", name = "powdered-zinc", amount = 10}
+    },
+    results = {
+        {type = "item", name = "zinc-plate", amount = 30}
+    },
+    subgroup = "py-rawores-plates",
+    order = "aab"
+}:add_unlock("zinc-mk02")
+
+else
+
 RECIPE {
     type = "recipe",
     name = "zinc-plate-4",
@@ -369,3 +507,5 @@ RECIPE {
     subgroup = "py-rawores-zinc",
     order = "aab"
 }:add_unlock("zinc-mk03")
+
+end

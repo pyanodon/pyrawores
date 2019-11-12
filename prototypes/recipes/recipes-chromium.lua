@@ -17,6 +17,29 @@ RECIPE {
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk01")
 
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "grade-3-chromite",
+    category = "impact-crusher",
+    enabled = false,
+    energy_required = 1,
+    ingredients = {
+        {type = "item", name = "ore-chromium-medium", amount = 2}
+    },
+    results = {
+        {type = "item", name = "grade-3-chromite", amount = 1},
+        {type = "item", name = "grade-2-chromite", amount = 1, probability = 0.4}
+    },
+    main_product = "grade-3-chromite",
+    icon = "__pyrawores__/graphics/icons/grade-3-chromite.png",
+    icon_size = 32,
+    subgroup = "py-rawores-chromium",
+}:add_unlock("chromium-mk02")
+
+else
+
 RECIPE {
     type = "recipe",
     name = "grade-3-chromite",
@@ -35,6 +58,8 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk02")
+
+end
 
 RECIPE {
     type = "recipe",
@@ -146,6 +171,28 @@ RECIPE {
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk03")
 
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "tier-4-chromite-sand",
+    category = "scrubber",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "sand", amount = 10},
+        {type = "fluid", name = "chromite-pulp-07", amount = 100},
+        {type = "fluid", name = "water", amount = 200}
+    },
+    results = {
+        {type = "item", name = "chromite-sand", amount = 55}
+    },
+    main_product = "chromite-sand",
+    subgroup = "py-rawores-chromium",
+}:add_unlock("chromium-mk04")
+
+else
+
 RECIPE {
     type = "recipe",
     name = "tier-4-chromite-sand",
@@ -163,6 +210,8 @@ RECIPE {
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk03")
+
+end
 
 RECIPE {
     type = "recipe",
@@ -308,6 +357,29 @@ RECIPE {
     order = "baa"
 }:add_unlock("chromium-mk04")
 
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "molten-chromium-03",
+    category = "eaf",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "reduced-chromium", amount = 1},
+        {type = "item", name = "borax", amount = 3},
+        {type = "fluid", name = "carbon-dioxide", amount = 150}
+    },
+    results = {
+        {type = "fluid", name = "molten-chromium", amount = 100}
+    },
+    main_product = "molten-chromium",
+    subgroup = "py-rawores-chromium",
+    order = "bab"
+}:add_unlock("chromium-mk04")
+
+else
+
 RECIPE {
     type = "recipe",
     name = "molten-chromium-03",
@@ -326,6 +398,8 @@ RECIPE {
     subgroup = "py-rawores-chromium",
     order = "bab"
 }:add_unlock("chromium-mk03")
+
+end
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -348,6 +422,29 @@ RECIPE {
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "reduction-chromium",
+    category = "drp",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "chromite-sand", amount = 25},
+        {type = "item", name = "sodium-hydroxide", amount = 2},
+        {type = "fluid", name = "light-oil", amount = 100}
+        --pyfe pressured air
+    },
+    results = {
+        {type = "item", name = "reduced-chromium", amount = 1}
+    },
+    main_product = "reduced-chromium",
+    subgroup = "py-rawores-chromium",
+}:add_unlock("chromium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+
+else
+
 RECIPE {
     type = "recipe",
     name = "reduction-chromium",
@@ -367,6 +464,8 @@ RECIPE {
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
+end
+
 --INITIAL PLATE
 
 RECIPE {
@@ -374,12 +473,12 @@ RECIPE {
     name = "chromium-plate-1",
     category = "smelting",
     enabled = true,
-    energy_required = 60,
+    energy_required = 25,
     ingredients = {
-        {type = "item", name = "ore-chromium", amount = 40}
+        {type = "item", name = "ore-chromium", amount = 10}
     },
     results = {
-        {type = "item", name = "chromium", amount = 4}
+        {type = "item", name = "chromium", amount = 1}
     },
     --main_product= "glass",
     icon = "__pycoalprocessing__/graphics/icons/chromium.png",

@@ -34,6 +34,29 @@ RECIPE {
     subgroup = "py-rawores-tin",
 }:add_unlock("tin-mk01")
 
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "grade-3-tin",
+    category = "solid-separator",--pyFE screener
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "ore-tin-medium", amount = 2},
+    },
+    results = {
+        {type = "item", name = "grade-3-tin", amount = 1},
+        {type = "item", name = "tin-ore-rejects", amount = 1, probability = 0.5},
+    },
+    main_product = "grade-3-tin",
+    icon = "__pyrawores__/graphics/icons/grade-1-tin-screening.png",
+    icon_size = 32,
+    subgroup = "py-rawores-tin",
+}:add_unlock("tin-mk02"):change_category('screener')
+
+else
+
 RECIPE {
     type = "recipe",
     name = "grade-3-tin",
@@ -52,6 +75,8 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-tin",
 }:add_unlock("tin-mk02"):change_category('screener')
+
+end
 
 RECIPE {
     type = "recipe",
@@ -107,6 +132,29 @@ RECIPE {
     subgroup = "py-rawores-tin",
 }:add_unlock("tin-mk02")
 
+if settings.startup['processing-mod'].value then
+
+RECIPE {
+    type = "recipe",
+    name = "tin-concentrate",
+    category = "chemistry", --pyfe jig
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "ore-tin-low", amount = 3},
+        {type = "fluid", name = "mibc", amount = 75},
+        {type = "fluid", name = "water", amount = 100},
+    },
+    results = {
+        {type = "item", name = "tin-rejects", amount = 1},
+        {type = "item", name = "tin-concentrate", amount = 1, probability = 0.2},
+    },
+    main_product = "tin-concentrate",
+    subgroup = "py-rawores-tin",
+}:add_unlock("tin-mk03"):change_category('jig')
+
+else
+
 RECIPE {
     type = "recipe",
     name = "tin-concentrate",
@@ -125,6 +173,8 @@ RECIPE {
     main_product = "tin-concentrate",
     subgroup = "py-rawores-tin",
 }:add_unlock("tin-mk03"):change_category('jig')
+
+end
 
 RECIPE {
     type = "recipe",
