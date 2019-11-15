@@ -259,8 +259,8 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "hydrogen", amount = 50},
-        {type = "fluid", name = "water", amount = 500},
-        {type = "fluid", name = "kerosene", amount = 100}
+        {type = "fluid", name = "kerosene", amount = 100},
+        {type = "fluid", name = "water", amount = 500}
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 800},
