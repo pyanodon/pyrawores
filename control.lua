@@ -13,7 +13,7 @@ local E = event.entity
 		log(serpent.block(E.name))
 		game.surfaces["nauvis"].create_entity{name=string.gsub(E.name,'medium','low'),position={E.position.x,E.position.y},force=E.force, amount = 20}
 
-	elseif string.match(E.name , 'low') ~= nil then
+	elseif string.match(E.name , 'low') ~= nil and not string.match(E.name , 'flower') then
 
 		log(serpent.block(E.name))
 		game.surfaces["nauvis"].create_entity{name=string.gsub(E.name,'low','trace'),position={E.position.x,E.position.y},force=E.force, amount = 20}
