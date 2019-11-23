@@ -12,6 +12,9 @@ data.raw.recipe['mining-nexelit'].results =
 
 data.raw.recipe['mining-nexelit'].main_product = 'ore-nexelit'
 
+fun.results_replacer('tailings-copper-iron','iron-ore','ore-iron')
+fun.results_replacer('tailings-copper-iron','copper-ore','ore-copper')
+
 end
 
 RECIPE('making-chromium'):remove_unlock('coal-processing-2')

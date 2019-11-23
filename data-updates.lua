@@ -27,13 +27,14 @@ ITEM("copper-cable"):set("icon", "__pyrawores__/graphics/icons/copper-cable.png"
 
 if settings.startup['processing-mod'].value then
 RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "ore-iron", amount = 8}):set_fields {energy_required = 10}
+RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient({type = "item", name = "ore-copper", amount = 8}):set_fields {energy_required = 10}
 else
 RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore", amount = 8}):set_fields {energy_required = 10}
+RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient({type = "item", name = "copper-ore", amount = 8}):set_fields {energy_required = 10}
 end
 
 FUN.ing_adjust("steel-plate","iron-plate",10)
 RECIPE("steel-plate"):set_fields {energy_required = 15}
-RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient({type = "item", name = "copper-ore", amount = 8}):set_fields {energy_required = 10}
 RECIPE("electronic-circuit"):set_fields {energy_required = 4}
 RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "solder", amount = 2})
 RECIPE("processing-unit"):add_ingredient({type = "item", name = "solder", amount = 3})
