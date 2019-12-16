@@ -74,14 +74,3 @@ DATA {
         }
     }
 }
-
-if settings.startup['processing-mod'].value then
-
-data.raw.resource['tin-rock'].minable.results = {
-			{type = "item", name = "ore-tin", amount_min = 1, amount_max = 1, probability = 0.2},
-			{type = "item", name = "ore-tin-medium", amount_min = 1, amount_max = 1, probability = 0.2},
-			{type = "item", name = "ore-tin-low", amount_min = 1, amount_max = 1, probability = 0.3},
-			{type = "item", name = "ore-tin-trace", amount_min = 1, amount_max = 1, probability = 0.3}
-			}
-
-end

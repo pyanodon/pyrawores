@@ -1,29 +1,4 @@
 
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "nexelit-ore-1",
-    category = "evaporator",
-    enabled = false,
-    energy_required = 1,
-    ingredients = {
-        {type = "fluid", name = "dirty-water", amount = 400}
-    },
-    results = {
-        {type = "item", name = "ore-nexelit", amount_min = 1, amount_max = 1, probability = 0.1},
-		{type = "item", name = "ore-nexelit-medium", amount_min = 1, amount_max = 1, probability = 0.15},
-		{type = "item", name = "ore-nexelit-low", amount_min = 1, amount_max = 1, probability = 0.3},
-		{type = "item", name = "ore-nexelit-trace", amount_min = 1, amount_max = 1, probability = 0.45},
-        {type = "item", name = "tailings-dust", amount = 1, probability = 0.4}
-    },
-    main_product = "ore-nexelit-trace",
-    subgroup = "py-rawores-nexelit",
-    order = "q-2"
-}:add_unlock("nexelit-mk01")
-
-else
-
 RECIPE {
     type = "recipe",
     name = "nexelit-ore-1",
@@ -40,32 +15,6 @@ RECIPE {
     main_product = "nexelit-ore",
     subgroup = "py-rawores-nexelit",
 }:add_unlock("nexelit-mk01")
-
-end
-
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "clean-nexelit",
-    category = "washer",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "item", name = "ore-nexelit", amount = 3},
-        {type = "fluid", name = "water", amount = 100}
-    },
-    results = {
-        {type = "item", name = "clean-nexelit", amount = 1},
-        {type = "fluid", name = "dirty-water", amount = 100}
-    },
-    main_product = "clean-nexelit",
-    icon = "__pyrawores__/graphics/icons/wash-nexelit.png",
-    icon_size = 32,
-    subgroup = "py-rawores-nexelit",
-}:add_unlock("nexelit-mk01")
-
-else
 
 RECIPE {
     type = "recipe",
@@ -87,31 +36,6 @@ RECIPE {
     subgroup = "py-rawores-nexelit",
 }:add_unlock("nexelit-mk01")
 
-end
-
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "grade-1-nexelit",
-    category = "crusher",
-    enabled = false,
-    energy_required = 1.5,
-    ingredients = {
-        {type = "item", name = "ore-nexelit-medium", amount = 2}
-    },
-    results = {
-        {type = "item", name = "grade-1-nexelit", amount = 1},
-        {type = "item", name = "stone", amount = 1}
-    },
-    main_product = "grade-1-nexelit",
-    icon = "__pyrawores__/graphics/icons/crusher-nexelit.png",
-    icon_size = 32,
-    subgroup = "py-rawores-nexelit",
-}:add_unlock("nexelit-mk02")
-
-else
-
 RECIPE {
     type = "recipe",
     name = "grade-1-nexelit",
@@ -130,8 +54,6 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-nexelit",
 }:add_unlock("nexelit-mk02")
-
-end
 
 RECIPE {
     type = "recipe",

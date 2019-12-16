@@ -74,14 +74,3 @@ DATA {
         }
     }
 }
-
-if settings.startup['processing-mod'].value then
-
-data.raw.resource['nickel-rock'].minable.results = {
-			{type = "item", name = "ore-nickel", amount_min = 1, amount_max = 1, probability = 0.2},
-			{type = "item", name = "ore-nickel-medium", amount_min = 1, amount_max = 1, probability = 0.2},
-			{type = "item", name = "ore-nickel-low", amount_min = 1, amount_max = 1, probability = 0.3},
-			{type = "item", name = "ore-nickel-trace", amount_min = 1, amount_max = 1, probability = 0.3}
-			}
-
-end

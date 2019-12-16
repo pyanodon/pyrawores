@@ -1,30 +1,5 @@
 ---PROCESSING RECIPES---
 
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "grade-1-iron-crush",
-    category = "crusher",
-    enabled = false,
-    energy_required = 2,
-    ingredients = {
-        {type = "item", name = "ore-iron", amount = 5}
-    },
-    results = {
-        {type = "item", name = "stone", amount = 1},
-        {type = "item", name = "processed-iron-ore", amount = 3},
-		{type = "item", name = "ore-iron-medium", amount_min = 0, amount_max = 2, probability = 0.25}
-    },
-    main_product = "processed-iron-ore",
-    icon = "__pycoalprocessing__/graphics/icons/crush-iron.png",
-    icon_size = 32,
-    subgroup = "py-rawores-iron",
-    order = "q-2"
-}:add_unlock("iron-mk01")
-
-else
-
 RECIPE {
     type = "recipe",
     name = "grade-1-iron-crush",
@@ -43,32 +18,6 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk01")
-
-end
-
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "grade-2-iron",
-    category = "solid-separator", --pyfe screener
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "item", name = "ore-iron-medium", amount = 5}
-    },
-    results = {
-        {type = "item", name = "grade-1-iron", amount = 1},
-        {type = "item", name = "grade-2-iron", amount = 1, probability = 0.5},
-        {type = "item", name = "grade-3-iron", amount = 1, probability = 0.5},
-    },
-    main_product = "grade-1-iron",
-    icon = "__pyrawores__/graphics/icons/processed-iron-ore-screening.png",
-    icon_size = 32,
-    subgroup = "py-rawores-iron",
-}:add_unlock("iron-mk02"):change_category('screener')
-
-else
 
 RECIPE {
     type = "recipe",
@@ -90,7 +39,6 @@ RECIPE {
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk02"):change_category('screener')
 
-end
 RECIPE {
     type = "recipe",
     name = "grade-3-iron-processing",
@@ -184,30 +132,6 @@ RECIPE {
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk03")
 
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "unslimed-iron",
-    category = "hydroclassifier",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "fluid", name = "iron-slime", amount = 100},
-        {type = "fluid", name = "water", amount = 200},
-    },
-    results = {
-        {type = "fluid", name = "dirty-water", amount = 100},
-        {type = "item", name = "unslimed-iron", amount = 1},
-		{type = "fluid", name = "iron-slime-sludge", amount = 50}
-    },
-    main_product = "unslimed-iron",
-    subgroup = "py-rawores-iron",
-    order = "q-2"
-}:add_unlock("iron-mk02")
-
-else
-
 RECIPE {
     type = "recipe",
     name = "unslimed-iron",
@@ -225,31 +149,6 @@ RECIPE {
     main_product = "unslimed-iron",
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk02")
-
-end
-
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "unslimed-iron-2",
-    category = "hydroclassifier",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "fluid", name = "iron-pulp-high-concentrate", amount = 300},
-        {type = "fluid", name = "water", amount = 200},
-    },
-    results = {
-        {type = "fluid", name = "dirty-water", amount = 100},
-        {type = "item", name = "unslimed-iron", amount = 1},
-		{type = "fluid", name = "iron-slime-sludge", amount = 50}
-    },
-    main_product = "unslimed-iron",
-    subgroup = "py-rawores-iron",
-}:add_unlock("iron-mk02")
-
-else
 
 RECIPE {
     type = "recipe",
@@ -269,30 +168,6 @@ RECIPE {
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk02")
 
-end
-
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "iron-pulp-06-thickener",
-    category = "chemistry", --pyfe thickener
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "fluid", name = "iron-pulp-06", amount = 100},
-    },
-    results = {
-        {type = "fluid", name = "dirty-water", amount = 50},
-        {type = "fluid", name = "iron-pulp-06-thick", amount = 50},
-    },
-    main_product = "iron-pulp-06-thick",
-    subgroup = "py-rawores-iron",
-    order = "q-2"
-}:add_unlock("iron-mk04"):change_category('thickener')
-
-else
-
 RECIPE {
     type = "recipe",
     name = "iron-pulp-06-thickener",
@@ -310,8 +185,6 @@ RECIPE {
     subgroup = "py-rawores-iron",
     order = "q-2"
 }:add_unlock("iron-mk03"):change_category('thickener')
-
-end
 
 RECIPE {
     type = "recipe",
@@ -334,30 +207,6 @@ RECIPE {
 
 --SINTER and DRP IMPROVEMENTS
 
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "reduction-iron",
-    category = "drp",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "fluid", name = "iron-pulp-06-thick", amount = 100},
-        {type = "item", name = "sodium-sulfate", amount = 2},
-        {type = "fluid", name = "diesel", amount = 50},
-        --pyfe pressured air
-    },
-    results = {
-        {type = "item", name = "reduced-iron", amount = 1},
-    },
-    main_product = "reduced-iron",
-    subgroup = "py-rawores-iron",
-    order = "q-2"
-}:add_unlock("iron-mk04")--:add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
-
-else
-
 RECIPE {
     type = "recipe",
     name = "reduction-iron",
@@ -377,7 +226,6 @@ RECIPE {
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
-end
 RECIPE {
     type = "recipe",
     name = "sinter-iron-1",

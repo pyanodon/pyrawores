@@ -1,24 +1,5 @@
 
-if settings.startup['processing-mod'].value then
-    RECIPE {
-        type = 'recipe',
-        name = 'prepared-nickel-pulp',
-        category = 'chemistry', --pyfe hydrocyclone
-        enabled = false,
-        energy_required = 3,
-        ingredients = {
-            {type = 'fluid', name = 'sulfuric-acid', amount = 100},
-            {type = 'item', name = 'ore-nickel-low', amount = 3}
-        },
-        results = {
-            {type = 'fluid', name = 'prepared-nickel-pulp', amount = 50},
-            {type = 'fluid', name = 'dirty-water', amount = 100}
-        },
-        main_product = 'prepared-nickel-pulp',
-        subgroup = 'py-rawores-fluids',
-        order = 'q-2'
-    }:add_unlock('nickel-mk03'):change_category('hydrocyclone')
-else
+
     RECIPE {
         type = 'recipe',
         name = 'prepared-nickel-pulp',
@@ -37,7 +18,6 @@ else
         subgroup = 'py-rawores-nickel',
         order = 'q-2'
     }:add_unlock('nickel-mk03'):change_category('hydrocyclone')
-end
 
 FLUID {
     type = 'fluid',

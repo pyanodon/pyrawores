@@ -17,29 +17,6 @@ RECIPE {
     subgroup = "py-rawores-lead",
 }:add_unlock("lead-mk01"):change_category("screener")
 
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "grade-2-lead-crusher",
-    category = "impact-crusher",
-    enabled = false,
-    energy_required = 1.2,
-    ingredients = {
-        {type = "item", name = "ore-lead-medium", amount = 3}
-    },
-    results = {
-        {type = "item", name = "stone", amount = 1},
-        {type = "item", name = "grade-2-lead", amount = 1}
-    },
-    main_product = "grade-2-lead",
-    icon = "__pyrawores__/graphics/icons/crusher-lead.png",
-    icon_size = 32,
-    subgroup = "py-rawores-lead",
-}:add_unlock("lead-mk02")
-
-else
-
 RECIPE {
     type = "recipe",
     name = "grade-2-lead-crusher",
@@ -59,7 +36,6 @@ RECIPE {
     subgroup = "py-rawores-lead",
 }:add_unlock("lead-mk02")
 
-end
 RECIPE {
     type = "recipe",
     name = "grade-2-lead",
@@ -130,27 +106,6 @@ RECIPE {
     subgroup = "py-rawores-lead",
 }:add_unlock("lead-mk03"):change_category("screener")
 
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "sl-concentrate",
-    category = "carbonfilter",
-    enabled = false,
-    energy_required = 2.0,
-    ingredients = {
-        {type = "fluid", name = "sl-03", amount = 400},
-        {type = "item", name = "filtration-media", amount = 1}
-    },
-    results = {
-        {type = "item", name = "sl-concentrate", amount = 4}
-    },
-    main_product = "sl-concentrate",
-    subgroup = "py-rawores-lead",
-}:add_unlock("lead-mk04")
-
-else
-
 RECIPE {
     type = "recipe",
     name = "sl-concentrate",
@@ -168,27 +123,6 @@ RECIPE {
     subgroup = "py-rawores-lead",
 }:add_unlock("lead-mk03")
 
-end
-
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "high-grade-sl",
-    category = "solid-separator",
-    enabled = false,
-    energy_required = 3.0,
-    ingredients = {
-        {type = "item", name = "sl-concentrate", amount = 4}
-    },
-    results = {
-        {type = "item", name = "high-grade-lead", amount = 1},
-    },
-    main_product = "high-grade-lead",
-    subgroup = "py-rawores-lead",
-}:add_unlock("lead-mk04")
-else
-
 RECIPE {
     type = "recipe",
     name = "high-grade-sl",
@@ -204,28 +138,6 @@ RECIPE {
     main_product = "high-grade-lead",
     subgroup = "py-rawores-lead",
 }:add_unlock("lead-mk03")
-
-end
-
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "high-grade-silv",
-    category = "solid-separator",
-    enabled = false,
-    energy_required = 3.0,
-    ingredients = {
-        {type = "item", name = "sl-concentrate", amount = 4}
-    },
-    results = {
-        {type = "item", name = "high-grade-silver", amount = 1}
-    },
-    main_product = "high-grade-silver",
-    subgroup = "py-rawores-lead",
-}:add_unlock("lead-mk04")
-
-else
 
 RECIPE {
     type = "recipe",
@@ -243,7 +155,6 @@ RECIPE {
     subgroup = "py-rawores-lead",
 }:add_unlock("lead-mk03")
 
-end
 --SINTER and DRP IMPROVEMENTS
 
 RECIPE {
@@ -341,28 +252,6 @@ RECIPE {
     order = "bae"
 }:add_unlock("lead-mk03")
 
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "molten-lead-03",
-    category = "eaf",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "item", name = "high-grade-lead", amount = 1},
-        {type = "item", name = "borax", amount = 2}
-    },
-    results = {
-        {type = "fluid", name = "molten-lead", amount = 360}
-    },
-    main_product = "molten-lead",
-    subgroup = "py-rawores-molten",
-    order = "l"
-}:add_unlock("lead-mk04")
-
-else
-
 RECIPE {
     type = "recipe",
     name = "molten-lead-03",
@@ -380,8 +269,6 @@ RECIPE {
     subgroup = "py-rawores-lead",
     order = "bac"
 }:add_unlock("lead-mk03")
-
-end
 
 RECIPE {
     type = "recipe",

@@ -1,24 +1,4 @@
 
-if settings.startup['processing-mod'].value then
-    RECIPE {
-        type = 'recipe',
-        name = 'copper-solution',
-        category = 'chemistry', --pyfe mixer
-        enabled = false,
-        energy_required = 4,
-        ingredients = {
-            {type = 'fluid', name = 'water', amount = 400},
-            {type = 'item', name = 'ore-copper-low', amount = 5},
-            {type = 'item', name = 'salt', amount = 6}
-        },
-        results = {
-            {type = 'fluid', name = 'copper-solution', amount = 47}
-        },
-        main_product = 'copper-solution',
-        subgroup = 'py-rawores-fluids',
-        order = 'q-2'
-    }:add_unlock('copper-mk03'):change_category('mixer')
-else
     RECIPE {
         type = 'recipe',
         name = 'copper-solution',
@@ -37,7 +17,6 @@ else
         subgroup = 'py-rawores-copper',
         order = 'q-2'
     }:add_unlock('copper-mk03'):change_category('mixer')
-end
 
 FLUID {
     type = 'fluid',

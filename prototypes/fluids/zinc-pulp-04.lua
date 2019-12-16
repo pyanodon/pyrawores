@@ -1,24 +1,4 @@
 
-if settings.startup['processing-mod'].value then
-    RECIPE {
-        type = 'recipe',
-        name = 'zinc-pulp-04',
-        category = 'chemistry', --pyfe agitator
-        enabled = false,
-        energy_required = 12,
-        ingredients = {
-            {type = 'item', name = 'ore-zinc-trace', amount = 5},
-            {type = 'item', name = 'lime', amount = 17},
-            {type = 'fluid', name = 'water', amount = 100}
-        },
-        results = {
-            {type = 'fluid', name = 'zinc-pulp-04', amount = 250}
-        },
-        main_product = 'zinc-pulp-04',
-        subgroup = 'py-rawores-fluids',
-        order = 'q-2'
-    }:add_unlock('zinc-mk04'):change_category('agitator'):add_ingredient({type = 'fluid', name = 'soda-ash', amount = 300})
-else
     RECIPE {
         type = 'recipe',
         name = 'zinc-pulp-04',
@@ -56,7 +36,7 @@ else
         subgroup = 'py-rawores-zinc',
         order = 'q-2'
     }:add_unlock('zinc-mk03'):change_category('thickener')
-end
+
 
 FLUID {
     type = 'fluid',

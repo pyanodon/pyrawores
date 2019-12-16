@@ -1,25 +1,4 @@
 
-if settings.startup['processing-mod'].value then
-    RECIPE {
-        type = 'recipe',
-        name = 'chromite-pulp-02',
-        category = 'chemistry',
-         --pyFE pan
-        enabled = false,
-        energy_required = 5,
-        ingredients = {
-            {type = 'item', name = 'ore-chromium-trace', amount = 2},
-            {type = 'fluid', name = 'water', amount = 300}
-        },
-        results = {
-            {type = 'fluid', name = 'chromite-pulp-02', amount = 100},
-            {type = 'item', name = 'processed-chromite', amount = 1}
-        },
-        main_product = 'processed-chromite',
-        subgroup = 'py-rawores-fluids',
-        order = 'q-2'
-    }:add_unlock('chromium-mk04'):change_category('pan')
-else
     RECIPE {
         type = 'recipe',
         name = 'chromite-pulp-02',
@@ -39,7 +18,6 @@ else
         subgroup = 'py-rawores-chromium',
         order = 'q-2'
     }:add_unlock('chromium-mk03'):change_category('pan')
-end
 
 FLUID {
     type = 'fluid',
