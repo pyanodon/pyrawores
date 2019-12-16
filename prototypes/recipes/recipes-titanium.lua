@@ -75,25 +75,6 @@ RECIPE {
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk01"):change_category("secondary-crusher")
 
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "grade-4-ti",
-    category = "ball-mill",
-    enabled = false,
-    energy_required = 4,
-    ingredients = {
-        {type = "item", name = "ore-titanium-medium", amount = 2}
-    },
-    results = {
-        {type = "item", name = "grade-4-ti", amount = 1}
-    },
-    subgroup = "py-rawores-titanium",
-}:add_unlock("titanium-mk02")
-
-else
-
 RECIPE {
     type = "recipe",
     name = "grade-4-ti",
@@ -109,8 +90,6 @@ RECIPE {
     main_product = "grade-4-ti",
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk02")
-
-end
 
 RECIPE {
     type = "recipe",

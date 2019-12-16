@@ -1,24 +1,5 @@
 
-if settings.startup['processing-mod'].value then
-    RECIPE {
-        type = 'recipe',
-        name = 'sl-02',
-        category = 'chemistry', --pyFE hydrocyclone
-        enabled = false,
-        energy_required = 2,
-        ingredients = {
-            {type = 'item', name = 'ore-lead-trace', amount = 5},
-            {type = 'item', name = 'lime', amount = 4}
-        },
-        results = {
-            {type = 'fluid', name = 'sl-02', amount = 100},
-            {type = 'fluid', name = 'sl-03', amount = 100}
-        },
-        main_product = 'sl-02',
-        subgroup = 'py-rawores-fluids',
-        order = 'q-1'
-    }:add_unlock('lead-mk04'):change_category('hydrocyclone')
-else
+
     RECIPE {
         type = 'recipe',
         name = 'sl-02',
@@ -37,7 +18,6 @@ else
         subgroup = 'py-rawores-lead',
         order = 'q-1'
     }:add_unlock('lead-mk03'):change_category('hydrocyclone')
-end
 
 FLUID {
     type = 'fluid',

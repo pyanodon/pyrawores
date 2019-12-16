@@ -74,14 +74,3 @@ DATA {
         }
     }
 }
-
-if settings.startup['processing-mod'].value then
-
-data.raw.resource['titanium-rock'].minable.results = {
-			{type = "item", name = "ore-titanium", amount_min = 1, amount_max = 1, probability = 0.2},
-			{type = "item", name = "ore-titanium-medium", amount_min = 1, amount_max = 1, probability = 0.2},
-			{type = "item", name = "ore-titanium-low", amount_min = 1, amount_max = 1, probability = 0.3},
-			{type = "item", name = "ore-titanium-trace", amount_min = 1, amount_max = 1, probability = 0.3}
-			}
-
-end

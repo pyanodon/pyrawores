@@ -1,43 +1,4 @@
 
-if settings.startup['processing-mod'].value then
-    RECIPE {
-        type = 'recipe',
-        name = 'iron-pulp-02-from-sludge',
-        category = 'chemistry', --pyfe pan
-        enabled = false,
-        energy_required = 3,
-        ingredients = {
-            {type = 'fluid', name = 'iron-slime-sludge', amount = 75},
-            {type = 'fluid', name = 'petroleum-sulfonates', amount = 50},
-            {type = 'fluid', name = 'oleochemicals', amount = 50}
-        },
-        results = {
-            {type = 'fluid', name = 'iron-pulp-02', amount = 75}
-        },
-        main_product = 'iron-pulp-02',
-        subgroup = 'py-rawores-recipes',
-        order = 'q-2'
-    }:add_unlock('iron-mk04'):change_category('pan')
-
-    RECIPE {
-        type = 'recipe',
-        name = 'iron-pulp-02',
-        category = 'chemistry', --pyfe pan
-        enabled = false,
-        energy_required = 3,
-        ingredients = {
-            {type = 'item', name = 'ore-iron-trace', amount = 20},
-            {type = 'fluid', name = 'petroleum-sulfonates', amount = 50},
-            {type = 'fluid', name = 'oleochemicals', amount = 50}
-        },
-        results = {
-            {type = 'fluid', name = 'iron-pulp-02', amount = 200}
-        },
-        main_product = 'iron-pulp-02',
-        subgroup = 'py-rawores-recipes',
-        order = 'q-2'
-    }:add_unlock('iron-mk04'):change_category('pan')
-else
     RECIPE {
         type = 'recipe',
         name = 'iron-pulp-02',
@@ -56,7 +17,6 @@ else
         subgroup = 'py-rawores-iron',
         order = 'q-2'
     }:add_unlock('iron-mk03'):change_category('pan')
-end
 
 FLUID {
     type = 'fluid',

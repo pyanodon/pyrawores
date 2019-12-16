@@ -1,29 +1,6 @@
 
 ---PROCESSING RECIPES---
 
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "grade-2-copper",
-    category = "solid-separator", --pyfe screener
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "item", name = "ore-copper", amount = 5}
-    },
-    results = {
-        {type = "item", name = "grade-1-copper", amount = 1},
-        {type = "item", name = "grade-2-copper", amount = 2}
-    },
-    main_product = "grade-2-copper",
-    icon = "__pyrawores__/graphics/icons/ore-copper-screening.png",
-    icon_size = 32,
-    subgroup = "py-rawores-copper",
-}:add_unlock("copper-mk01"):change_category("screener")
-
-else
-
 RECIPE {
     type = "recipe",
     name = "grade-2-copper",
@@ -43,8 +20,6 @@ RECIPE {
     subgroup = "py-rawores-copper",
 }:add_unlock("copper-mk01"):change_category("screener")
 
-end
-
 RECIPE {
     type = "recipe",
     name = "grade-1-copper-crush",
@@ -61,28 +36,6 @@ RECIPE {
     main_product = "grade-2-copper",
     subgroup = "py-rawores-copper",
 }:add_unlock("copper-mk01")
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "grade-3-copper",
-    category = "solid-separator", --pyfe screener
-    enabled = false,
-    energy_required = 2.5,
-    ingredients = {
-        {type = "item", name = "ore-copper-medium", amount = 3}
-    },
-    results = {
-        {type = "item", name = "grade-3-copper", amount = 1},
-        {type = "item", name = "copper-rejects", amount = 1}
-    },
-    main_product = "grade-3-copper",
-    icon = "__pyrawores__/graphics/icons/grade-2-copper-screening.png",
-    icon_size = 32,
-    subgroup = "py-rawores-copper",
-}:add_unlock("copper-mk02"):change_category("screener")
-
-else
 
 RECIPE {
     type = "recipe",
@@ -102,8 +55,6 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-copper",
 }:add_unlock("copper-mk02"):change_category("screener")
-
-end
 
 RECIPE {
     type = "recipe",
@@ -199,30 +150,6 @@ RECIPE {
 
 --SINTER and DRP IMPROVEMENTS
 
-if settings.startup['processing-mod'].value then
-
-RECIPE {
-    type = "recipe",
-    name = "reduction-copper",
-    category = "drp",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-		{type = "item", name = "ore-copper-trace", amount = 5},
-        {type = "item", name = "high-grade-copper", amount = 1},
-        {type = "item", name = "sodium-sulfate", amount = 2},
-        {type = "fluid", name = "diesel", amount = 50}
-        --pyfe pressured air
-    },
-    results = {
-        {type = "item", name = "reduced-copper", amount = 1}
-    },
-    main_product = "reduced-copper",
-    subgroup = "py-rawores-copper",
-}:add_unlock("copper-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
-
-else
-
 RECIPE {
     type = "recipe",
     name = "reduction-copper",
@@ -242,7 +169,6 @@ RECIPE {
     subgroup = "py-rawores-copper",
 }:add_unlock("copper-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
-end
 RECIPE {
     type = "recipe",
     name = "sinter-copper-1",

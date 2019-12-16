@@ -74,13 +74,3 @@ DATA {
         }
     }
 }
-
-if settings.startup['processing-mod'].value then
-
-data.raw.resource['iron-rock'].minable.results = {
-			{type = "item", name = "ore-iron", amount_min = 1, amount_max = 1, probability = 0.2},
-			{type = "item", name = "ore-iron-medium", amount_min = 1, amount_max = 1, probability = 0.2},
-			{type = "item", name = "ore-iron-low", amount_min = 1, amount_max = 1, probability = 0.3},
-			{type = "item", name = "ore-iron-trace", amount_min = 1, amount_max = 1, probability = 0.3}
-			}
-end
