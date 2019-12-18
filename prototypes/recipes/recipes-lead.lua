@@ -227,7 +227,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 2}
     },
     results = {
-        {type = "fluid", name = "molten-lead", amount = 62}
+        {type = "fluid", name = "molten-lead", amount = 75}
     },
     main_product = "molten-lead",
     subgroup = "py-rawores-lead",
@@ -354,7 +354,7 @@ RECIPE {
     enabled = false,
     energy_required = 40,
     ingredients = {
-        {type = "item", name = "grade-1-lead", amount = 4}
+        {type = "item", name = "grade-1-lead", amount = 10}
     },
     results = {
         {type = "item", name = "lead-plate", amount = 8}
