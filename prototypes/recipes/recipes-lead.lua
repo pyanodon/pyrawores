@@ -354,10 +354,10 @@ RECIPE {
     enabled = false,
     energy_required = 40,
     ingredients = {
-        {type = "item", name = "grade-1-lead", amount = 10}
+        {type = "item", name = "grade-1-lead", amount = 4}
     },
     results = {
-        {type = "item", name = "lead-plate", amount = 8}
+        {type = "item", name = "lead-plate", amount = 10}
     },
     --main_product= "glass",
     subgroup = "py-rawores-lead",
