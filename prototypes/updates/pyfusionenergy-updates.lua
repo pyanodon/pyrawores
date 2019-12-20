@@ -421,6 +421,24 @@ RECIPE('compressor-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "it
 RECIPE('gas-separator-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
 RECIPE('nmf-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
+RECIPE {
+    type = "recipe",
+    name = "agzn-alloy-2",
+    category = "casting",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "fluid", name = "molten-silver", amount = 100},
+        {type = "fluid", name = "molten-zinc", amount = 100},
+        {type = "item", name = "sand-casting", amount = 4},
+    },
+    results = {
+        {type = "item", name = "agzn-alloy", amount = 10}
+    },
+
+}:add_unlock("fusion-mk03")
+
+
 local pipe_left = {
     north = {
         filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/top-left.png",
