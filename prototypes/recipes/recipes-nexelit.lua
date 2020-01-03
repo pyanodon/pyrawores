@@ -183,8 +183,6 @@ RECIPE {
     subgroup = "py-rawores-nexelit",
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 450})
 
-if not settings.startup['processing-mod'].value then
-
 RECIPE {
     type = "recipe",
     name = "sinter-nexelit-1",
@@ -203,8 +201,6 @@ RECIPE {
     main_product = "sintered-nexelit",
     subgroup = "py-rawores-nexelit",
 }:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
-
-end
 
 RECIPE {
     type = "recipe",
@@ -263,8 +259,6 @@ RECIPE {
     order = "bab"
 }:add_unlock("nexelit-mk03")
 
-if not settings.startup['processing-mod'].value then
-
 RECIPE {
     type = "recipe",
     name = "molten-nexelit-03",
@@ -300,8 +294,6 @@ RECIPE {
     subgroup = "py-rawores-nexelit",
     order = "bac"
 }:add_unlock("nexelit-mk04")
-
-end
 
 RECIPE {
     type = "recipe",

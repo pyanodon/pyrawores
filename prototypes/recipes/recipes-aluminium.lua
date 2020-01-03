@@ -190,8 +190,6 @@ RECIPE {
     order = "bad"
 }:add_unlock("aluminium-mk03")
 
-if not settings.startup['processing-mod'].value then
-
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-03-2",
@@ -229,7 +227,6 @@ RECIPE {
     order = "baa"
 }:add_unlock("aluminium-mk03")
 
-end
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-05",
