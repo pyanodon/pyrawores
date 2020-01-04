@@ -640,6 +640,7 @@ RECIPE {
         {type = "fluid", name = "syngas", amount = 250},
         {type = "fluid", name = "oxygen", amount = 100},
     },
+    main_product= "syngas",
 }:add_unlock("fuel-production")
 
 RECIPE {
