@@ -624,3 +624,36 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("nickel-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "syngas-from-hydrogen-1",
+    category = "olefin",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "nickel-plate", amount = 1},
+        {type = "fluid", name = "hydrogen", amount = 200},
+        {type = "fluid", name = "carbon-dioxide", amount = 400}
+    },
+    results = {
+        {type = "fluid", name = "syngas", amount = 250},
+        {type = "fluid", name = "oxygen", amount = 100},
+    },
+}:add_unlock("fuel-production")
+
+RECIPE {
+    type = "recipe",
+    name = "dedicated-syngas-from-hydrogen-1",
+    category = "olefin",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "nexelit-plate", amount = 1},
+        {type = "fluid", name = "hydrogen", amount = 300},
+        {type = "fluid", name = "carbon-dioxide", amount = 400}
+    },
+    results = {
+        {type = "fluid", name = "syngas", amount = 250},
+    },
+}:add_unlock("fuel-production")
