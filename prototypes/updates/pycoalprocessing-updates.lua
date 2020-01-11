@@ -21,7 +21,7 @@ RECIPE("copper-coating"):change_category('electrolyzer')
 
 RECIPE("copper-coating"):replace_ingredient("organic-solvent", {"water-saline", 100})
 RECIPE("empty-gas-canister"):replace_ingredient("steel-plate", "aluminium-plate")
-RECIPE("fuelrod-mk01"):remove_ingredient("nexelit-ore"):add_ingredient({type = "item", name = "nexelit-plate", amount = 5})
+RECIPE("fuelrod-mk01"):remove_ingredient("nexelit-ore"):add_ingredient({type = "item", name = "nexelit-plate", amount = 2})
 RECIPE("methanol-from-syngas"):replace_ingredient("iron-plate", "zinc-plate")
 RECIPE("flying-robot-frame"):replace_ingredient("steel-plate", "niobium-plate")
 RECIPE("ralesia"):replace_ingredient("water", "hydrogen")
@@ -592,7 +592,7 @@ RECIPE {
         {type = "item", name = "coke", amount = 10}
     },
     results = {
-        {type = "item", name = "fuelrod-mk01", amount = 3}
+        {type = "item", name = "fuelrod-mk01", amount = 12}
     }
 }:add_unlock("uranium-mk03")
 
@@ -608,7 +608,7 @@ RECIPE {
         {type = "item", name = "coke", amount = 10}
     },
     results = {
-        {type = "item", name = "fuelrod-mk01", amount = 3}
+        {type = "item", name = "fuelrod-mk01", amount = 8}
     }
 }:add_unlock("uranium-mk02")
 
@@ -624,7 +624,7 @@ RECIPE {
         {type = "item", name = "coke", amount = 10}
     },
     results = {
-        {type = "item", name = "fuelrod-mk01", amount = 2}
+        {type = "item", name = "fuelrod-mk01", amount = 4}
     }
 }:add_unlock("uranium-mk01")
 
