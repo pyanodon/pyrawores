@@ -22,7 +22,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "armac-12",
-    icon = "__pyrawores__/graphics/icons/armac-12.png",
+    icon = "__pyraworesgraphics__/graphics/icons/armac-12.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.635, g = 0.482, b = 0.341},

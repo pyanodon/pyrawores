@@ -20,7 +20,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "iron-slime",
-    icon = "__pyrawores__/graphics/icons/iron-slime.png",
+    icon = "__pyraworesgraphics__/graphics/icons/iron-slime.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.086, g = 0.180, b = 0.254},

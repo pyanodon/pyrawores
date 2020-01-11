@@ -22,7 +22,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "copper-pregnant-solution",
-    icon = "__pyrawores__/graphics/icons/copper-pregnant-solution.png",
+    icon = "__pyraworesgraphics__/graphics/icons/copper-pregnant-solution.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 1, g = 0.656, b = 0.1},

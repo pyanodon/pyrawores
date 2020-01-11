@@ -14,7 +14,7 @@ RECIPE {
         {type = "fluid", name = "petroleum-sulfonates", amount = 400},
     },
     main_product = "petroleum-sulfonates",
-    icon = "__pyrawores__/graphics/icons/petroleum-sulfonates.png",
+    icon = "__pyraworesgraphics__/graphics/icons/petroleum-sulfonates.png",
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "q-1"
@@ -24,7 +24,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "petroleum-sulfonates",
-    icon = "__pyrawores__/graphics/icons/petroleum-sulfonates.png",
+    icon = "__pyraworesgraphics__/graphics/icons/petroleum-sulfonates.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.286, g = 0.015, b = 0.0},

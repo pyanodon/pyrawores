@@ -13,7 +13,7 @@ RECIPE {
         {type = "item", name = "grade-2-ti", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-ti",
-    icon = "__pyrawores__/graphics/icons/ore-titanium-screening.png",
+    icon = "__pyraworesgraphics__/graphics/icons/ore-titanium-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk01"):change_category("screener")
@@ -50,7 +50,7 @@ RECIPE {
         {type = "item", name = "ti-rejects", amount = 1, probability = 0.5}
     },
     main_product = "grade-3-ti",
-    icon = "__pyrawores__/graphics/icons/grade-1-ti-screening.png",
+    icon = "__pyraworesgraphics__/graphics/icons/grade-1-ti-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk01"):change_category("screener")
@@ -70,7 +70,7 @@ RECIPE {
         {type = "item", name = "grade-3-ti", amount = 1, probability = 0.3}
     },
     main_product = "grade-3-ti",
-    icon = "__pyrawores__/graphics/icons/recrush-ti-rejects.png",
+    icon = "__pyraworesgraphics__/graphics/icons/recrush-ti-rejects.png",
     icon_size = 32,
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk01"):change_category("secondary-crusher")
@@ -126,7 +126,7 @@ RECIPE {
         {type = "item", name = "ti-rejects", amount = 1, probability = 0.5}
     },
     main_product = "ti-enriched-dust",
-    icon = "__pyrawores__/graphics/icons/powdered-ti-screening.png",
+    icon = "__pyraworesgraphics__/graphics/icons/powdered-ti-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk02"):change_category("screener")

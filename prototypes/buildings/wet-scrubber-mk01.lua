@@ -18,7 +18,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "wet-scrubber-mk01",
-    icon = "__pyrawores__/graphics/icons/wet-scrubber-mk01.png",
+    icon = "__pyraworesgraphics__/graphics/icons/wet-scrubber-mk01.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-rawores-buildings-mk01",
@@ -30,7 +30,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "wet-scrubber-mk01",
-    icon = "__pyrawores__/graphics/icons/wet-scrubber-mk01.png",
+    icon = "__pyraworesgraphics__/graphics/icons/wet-scrubber-mk01.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "wet-scrubber-mk01"},
@@ -57,7 +57,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/wet-scrubber-base.png",
+                filename = "__pyraworesgraphics__/graphics/entity/wet-scrubber-mk01/wet-scrubber-base.png",
                 --priority = "high",
                 width = 192,
                 height = 224,
@@ -67,7 +67,7 @@ ENTITY {
                 shift = util.by_pixel(0, -17)
             },
             {
-                filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/top-off.png",
+                filename = "__pyraworesgraphics__/graphics/entity/wet-scrubber-mk01/top-off.png",
                 --priority = "high",
                 width = 192,
                 height = 128,
@@ -77,7 +77,7 @@ ENTITY {
                 shift = util.by_pixel(0, -190)
             },
             {
-                filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/shadow.png",
+                filename = "__pyraworesgraphics__/graphics/entity/wet-scrubber-mk01/shadow.png",
                 --priority = "high",
                 width = 224,
                 height = 192,
@@ -96,7 +96,7 @@ ENTITY {
             south_position = util.by_pixel(0, -190),
             east_position = util.by_pixel(0, -190),
             animation = {
-                filename = "__pyrawores__/graphics/entity/wet-scrubber-mk01/anim.png",
+                filename = "__pyraworesgraphics__/graphics/entity/wet-scrubber-mk01/anim.png",
                 --priority = "extra-high",
                 frame_count = 2,
                 --line_length = 2,
@@ -157,8 +157,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/wet-scrubber.ogg", volume = 1.4},
-        idle_sound = {filename = "__pyrawores__/sounds/wet-scrubber.ogg", volume = 1.0},
+        sound = {filename = "__pyraworesgraphics__/sounds/wet-scrubber.ogg", volume = 1.4},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/wet-scrubber.ogg", volume = 1.0},
         apparent_volume = 2.5
     }
 }

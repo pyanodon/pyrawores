@@ -4,7 +4,7 @@ data:extend {
         name = 'py-rawores',
         order = 'v',
         inventory_order = 'v',
-        icon = '__pyrawores__/graphics/technology/item-group.png',
+        icon = '__pyraworesgraphics__/graphics/technology/item-group.png',
         icon_size = 64
     },
     {

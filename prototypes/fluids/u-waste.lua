@@ -1,7 +1,7 @@
 FLUID {
     type = "fluid",
     name = "u-waste",
-    icon = "__pyrawores__/graphics/icons/u-waste.png",
+    icon = "__pyraworesgraphics__/graphics/icons/u-waste.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.180, g = 0.756, b = 0.196},

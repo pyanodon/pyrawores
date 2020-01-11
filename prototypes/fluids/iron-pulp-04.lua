@@ -20,7 +20,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "iron-pulp-04",
-    icon = "__pyrawores__/graphics/icons/iron-pulp-04.png",
+    icon = "__pyraworesgraphics__/graphics/icons/iron-pulp-04.png",
     icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.086, g = 0.180, b = 0.254},

@@ -19,7 +19,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "zinc-mine",
-    icon = "__pyrawores__/graphics/icons/mega-zinc.png",
+    icon = "__pyraworesgraphics__/graphics/icons/mega-zinc.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-mines",
@@ -31,7 +31,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "zinc-mine",
-    icon = "__pyrawores__/graphics/icons/mega-zinc.png",
+    icon = "__pyraworesgraphics__/graphics/icons/mega-zinc.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "zinc-mine"},
@@ -67,7 +67,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/zinc-mine/i1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/zinc-mine/i1.png",
                 width = 96,
                 height = 352,
                 line_length = 21,
@@ -76,7 +76,7 @@ ENTITY {
                 shift = util.by_pixel(-128, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/zinc-mine/i2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/zinc-mine/i2.png",
                 width = 96,
                 height = 352,
                 line_length = 21,
@@ -85,7 +85,7 @@ ENTITY {
                 shift = util.by_pixel(-32, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/zinc-mine/i3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/zinc-mine/i3.png",
                 width = 96,
                 height = 352,
                 line_length = 21,
@@ -94,7 +94,7 @@ ENTITY {
                 shift = util.by_pixel(64, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/zinc-mine/i4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/zinc-mine/i4.png",
                 width = 69,
                 height = 352,
                 line_length = 21,
@@ -106,8 +106,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/zinc-mine.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyrawores__/sounds/zinc-mine.ogg", volume = 0.75},
+        sound = {filename = "__pyraworesgraphics__/sounds/zinc-mine.ogg", volume = 1.0},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/zinc-mine.ogg", volume = 0.75},
         apparent_volume = 2.5
     }
 }

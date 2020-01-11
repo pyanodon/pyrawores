@@ -21,7 +21,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "nickel-tailings",
-    icon = "__pyrawores__/graphics/icons/nickel-tailings.png",
+    icon = "__pyraworesgraphics__/graphics/icons/nickel-tailings.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.164, g = 0.388, b = 0.192},

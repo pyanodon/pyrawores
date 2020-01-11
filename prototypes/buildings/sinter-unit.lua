@@ -18,7 +18,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "sinter-unit",
-    icon = "__pyrawores__/graphics/icons/sinter-unit.png",
+    icon = "__pyraworesgraphics__/graphics/icons/sinter-unit.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-rawores-buildings-others",
@@ -30,7 +30,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "sinter-unit",
-    icon = "__pyrawores__/graphics/icons/sinter-unit.png",
+    icon = "__pyraworesgraphics__/graphics/icons/sinter-unit.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "sinter-unit"},
@@ -73,7 +73,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/sinter-unit/off.png",
+                filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/off.png",
                 --priority = "high",
                 width = 160,
                 height = 256,
@@ -83,7 +83,7 @@ ENTITY {
                 shift = util.by_pixel(0, -48)
             },
             {
-                filename = "__pyrawores__/graphics/entity/sinter-unit/shadow.png",
+                filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/shadow.png",
                 --priority = "high",
                 width = 64,
                 height = 128,
@@ -102,7 +102,7 @@ ENTITY {
             south_position = util.by_pixel(0, 16),
             east_position = util.by_pixel(0, 16),
             animation = {
-                filename = "__pyrawores__/graphics/entity/sinter-unit/bot.png",
+                filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/bot.png",
                 priority = "high",
                 frame_count = 120,
                 line_length = 12,
@@ -117,7 +117,7 @@ ENTITY {
             south_position = util.by_pixel(0, -112),
             east_position = util.by_pixel(0, -112),
             animation = {
-                filename = "__pyrawores__/graphics/entity/sinter-unit/top.png",
+                filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/top.png",
                 priority = "high",
                 frame_count = 120,
                 line_length = 12,
@@ -163,8 +163,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/sinter-unit.ogg", volume = 0.75},
-        idle_sound = {filename = "__pyrawores__/sounds/sinter-unit.ogg", volume = 0.5},
+        sound = {filename = "__pyraworesgraphics__/sounds/sinter-unit.ogg", volume = 0.75},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/sinter-unit.ogg", volume = 0.5},
         apparent_volume = 2.5
     }
 }
