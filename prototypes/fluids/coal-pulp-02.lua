@@ -1,7 +1,7 @@
 FLUID {
     type = "fluid",
     name = "coal-pulp-02",
-    icon = "__pyrawores__/graphics/icons/coal-pulp-02.png",
+    icon = "__pyraworesgraphics__/graphics/icons/coal-pulp-02.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.0, g = 0.0, b = 0.0},

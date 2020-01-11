@@ -19,7 +19,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "coal-mine",
-    icon = "__pyrawores__/graphics/icons/mega-coal.png",
+    icon = "__pyraworesgraphics__/graphics/icons/mega-coal.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-mines",
@@ -31,7 +31,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "coal-mine",
-    icon = "__pyrawores__/graphics/icons/mega-coal.png",
+    icon = "__pyraworesgraphics__/graphics/icons/mega-coal.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "coal-mine"},
@@ -93,7 +93,7 @@ ENTITY {
     animations = {
         layers = {
             {
-            filename = "__pyrawores__/graphics/entity/coal-mine/h1.png",
+            filename = "__pyraworesgraphics__/graphics/entity/coal-mine/h1.png",
             priority = "high",
             frame_count = 79,
             line_length = 21,
@@ -103,7 +103,7 @@ ENTITY {
             shift = util.by_pixel(-128, -20)
             },
             {
-            filename = "__pyrawores__/graphics/entity/coal-mine/h2.png",
+            filename = "__pyraworesgraphics__/graphics/entity/coal-mine/h2.png",
             priority = "high",
             frame_count = 79,
             line_length = 21,
@@ -113,7 +113,7 @@ ENTITY {
             shift = util.by_pixel(-32, -20)
             },
             {
-                filename = "__pyrawores__/graphics/entity/coal-mine/h3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/coal-mine/h3.png",
                 priority = "high",
                 frame_count = 79,
                 line_length = 21,
@@ -123,7 +123,7 @@ ENTITY {
                 shift = util.by_pixel(64, -20)
             },
             {
-                filename = "__pyrawores__/graphics/entity/coal-mine/h4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/coal-mine/h4.png",
                 priority = "high",
                 frame_count = 79,
                 line_length = 21,
@@ -136,8 +136,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/coal-mine.ogg", volume = 0.8},
-        idle_sound = {filename = "__pyrawores__/sounds/coal-mine.ogg", volume = 0.5},
+        sound = {filename = "__pyraworesgraphics__/sounds/coal-mine.ogg", volume = 0.8},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/coal-mine.ogg", volume = 0.5},
         apparent_volume = 2.5
     }
 }

@@ -15,7 +15,7 @@ RECIPE {
         {type = "item", name = "coal-dust", amount = 1, probability = 0.3}
     },
     main_product = "crushed-coal",
-    icon = "__pyrawores__/graphics/icons/recrush-coal.png",
+    icon = "__pyraworesgraphics__/graphics/icons/recrush-coal.png",
     icon_size = 32,
     subgroup = "py-rawores-coal",
 }:add_unlock("coal-mk01"):change_category('secondary-crusher')

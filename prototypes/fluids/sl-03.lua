@@ -20,7 +20,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "sl-03",
-    icon = "__pyrawores__/graphics/icons/sl-03.png",
+    icon = "__pyraworesgraphics__/graphics/icons/sl-03.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.4, g = 0.4, b = 0.4},

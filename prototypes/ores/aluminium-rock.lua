@@ -15,7 +15,7 @@ DATA {
     type = "resource",
     name = "aluminium-rock",
     category = "aluminium-rock",
-    icon = "__pyrawores__/graphics/icons/ores/aluminium-rock.png",
+    icon = "__pyraworesgraphics__/graphics/icons/ores/aluminium-rock.png",
 	icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
@@ -64,7 +64,7 @@ DATA {
     stage_counts = {0},
     stages = {
         sheet = {
-            filename = "__pyrawores__/graphics/entity/ores/aluminium/aluminium-mine-place.png",
+            filename = "__pyraworesgraphics__/graphics/entity/ores/aluminium/aluminium-mine-place.png",
             priority = "extra-high",
             width = 352,
             height = 352,

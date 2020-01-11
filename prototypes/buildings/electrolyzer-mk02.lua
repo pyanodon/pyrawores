@@ -18,7 +18,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "electrolyzer-mk02",
-    icon = "__pyrawores__/graphics/icons/electrolyzer-mk02.png",
+    icon = "__pyraworesgraphics__/graphics/icons/electrolyzer-mk02.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-rawores-buildings-mk02",
@@ -30,7 +30,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "electrolyzer-mk02",
-    icon = "__pyrawores__/graphics/icons/electrolyzer-mk02.png",
+    icon = "__pyraworesgraphics__/graphics/icons/electrolyzer-mk02.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "electrolyzer-mk02"},
@@ -57,7 +57,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/electrolyzer-mk01/off-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/electrolyzer-mk01/off-mk02.png",
                 width = 189,
                 height = 192,
                 --line_length = 9,
@@ -66,7 +66,7 @@ ENTITY {
                 shift = util.by_pixel(0, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/electrolyzer-mk01/shadow.png",
+                filename = "__pyraworesgraphics__/graphics/entity/electrolyzer-mk01/shadow.png",
                 --priority = "high",
                 width = 29,
                 height = 192,
@@ -134,7 +134,7 @@ ENTITY {
             south_position = util.by_pixel(-14.5, -16),
             east_position = util.by_pixel(-14.5, -16),
             animation = {
-                filename = "__pyrawores__/graphics/entity/electrolyzer-mk01/on-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/electrolyzer-mk01/on-mk02.png",
                 priority = "high",
                 frame_count = 60,
                 line_length = 10,
@@ -146,8 +146,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/electrolyzer.ogg", volume = 0.8},
-        idle_sound = {filename = "__pyrawores__/sounds/electrolyzer.ogg", volume = 0.5},
+        sound = {filename = "__pyraworesgraphics__/sounds/electrolyzer.ogg", volume = 0.8},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/electrolyzer.ogg", volume = 0.5},
         apparent_volume = 2.5
     }
 }

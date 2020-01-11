@@ -18,7 +18,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "impact-crusher-mk02",
-    icon = "__pyrawores__/graphics/icons/impact-crusher-mk02.png",
+    icon = "__pyraworesgraphics__/graphics/icons/impact-crusher-mk02.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-rawores-buildings-mk02",
@@ -30,7 +30,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "impact-crusher-mk02",
-    icon = "__pyrawores__/graphics/icons/impact-crusher-mk02.png",
+    icon = "__pyraworesgraphics__/graphics/icons/impact-crusher-mk02.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "impact-crusher-mk02"},
@@ -57,7 +57,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/impact-crusher-mk01/off-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/impact-crusher-mk01/off-mk02.png",
                 width = 192,
                 height = 224,
                 --line_length = 9,
@@ -66,7 +66,7 @@ ENTITY {
                 shift = util.by_pixel(0, -16)
             },
             {
-                filename = "__pyrawores__/graphics/entity/impact-crusher-mk01/shadow.png",
+                filename = "__pyraworesgraphics__/graphics/entity/impact-crusher-mk01/shadow.png",
                 width = 202,
                 height = 170,
                 --line_length = 10,
@@ -84,7 +84,7 @@ ENTITY {
             south_position = util.by_pixel(-48, -16),
             east_position = util.by_pixel(-48, -16),
             animation = {
-                filename = "__pyrawores__/graphics/entity/impact-crusher-mk01/left-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/impact-crusher-mk01/left-mk02.png",
                 priority = "high",
                 frame_count = 99,
                 line_length = 20,
@@ -99,7 +99,7 @@ ENTITY {
             south_position = util.by_pixel(48, -16),
             east_position = util.by_pixel(48, -16),
             animation = {
-                filename = "__pyrawores__/graphics/entity/impact-crusher-mk01/right-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/impact-crusher-mk01/right-mk02.png",
                 priority = "high",
                 frame_count = 99,
                 line_length = 20,
@@ -111,8 +111,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/impact-crusher.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyrawores__/sounds/impact-crusher.ogg", volume = 0.7},
+        sound = {filename = "__pyraworesgraphics__/sounds/impact-crusher.ogg", volume = 1.0},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/impact-crusher.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
 }

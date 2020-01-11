@@ -13,7 +13,7 @@ RECIPE {
         {type = "item", name = "grade-2-u", amount = 1, probability = 0.2},
     },
     main_product = "grade-1-u",
-    icon = "__pyrawores__/graphics/icons/crush-uranium.png",
+    icon = "__pyraworesgraphics__/graphics/icons/crush-uranium.png",
     icon_size = 32,
     subgroup = "py-rawores-uranium",
 }:add_unlock("uranium-mk01")
@@ -49,7 +49,7 @@ RECIPE {
         {type = "item", name = "sand", amount = 1, probability = 0.5},
     },
     main_product = "powdered-u",
-    icon = "__pyrawores__/graphics/icons/grade-2-u-recrush.png",
+    icon = "__pyraworesgraphics__/graphics/icons/grade-2-u-recrush.png",
     icon_size = 32,
     subgroup = "py-rawores-uranium",
 }:add_unlock("uranium-mk01"):change_category('secondary-crusher')
@@ -68,7 +68,7 @@ RECIPE {
         {type = "item", name = "sand", amount = 1, probability = 0.3},
     },
     main_product = "20-u-powder",
-    icon = "__pyrawores__/graphics/icons/powdered-u-screening.png",
+    icon = "__pyraworesgraphics__/graphics/icons/powdered-u-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-uranium",
 }:add_unlock("uranium-mk01"):change_category('screener')

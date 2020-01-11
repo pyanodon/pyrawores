@@ -18,7 +18,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "eaf-mk02",
-    icon = "__pyrawores__/graphics/icons/eaf-mk02.png",
+    icon = "__pyraworesgraphics__/graphics/icons/eaf-mk02.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-rawores-buildings-mk02",
@@ -30,7 +30,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "eaf-mk02",
-    icon = "__pyrawores__/graphics/icons/eaf-mk02.png",
+    icon = "__pyraworesgraphics__/graphics/icons/eaf-mk02.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "eaf-mk02"},
@@ -71,7 +71,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/eaf-mk01/off-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/eaf-mk01/off-mk02.png",
                 --priority = "high",
                 width = 160,
                 height = 192,
@@ -89,7 +89,7 @@ ENTITY {
             south_position = util.by_pixel(16, -16),
             east_position = util.by_pixel(16, -16),
             animation = {
-                filename = "__pyrawores__/graphics/entity/eaf-mk01/on-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/eaf-mk01/on-mk02.png",
                 priority = "high",
                 frame_count = 50,
                 line_length = 10,
@@ -135,8 +135,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/eaf.ogg", volume = 0.75},
-        idle_sound = {filename = "__pyrawores__/sounds/eaf.ogg", volume = 0.5},
+        sound = {filename = "__pyraworesgraphics__/sounds/eaf.ogg", volume = 0.75},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/eaf.ogg", volume = 0.5},
         apparent_volume = 2.5
     }
 }

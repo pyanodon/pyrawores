@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "tin-mk01",
-    icon = "__pyrawores__/graphics/technology/tin-1.png",
+    icon = "__pyraworesgraphics__/graphics/technology/tin-1.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {'machines-mk01'},
@@ -18,7 +18,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'tin-mk02',
-    icon = '__pyrawores__/graphics/technology/tin-2.png',
+    icon = '__pyraworesgraphics__/graphics/technology/tin-2.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk02','tin-mk01'},
@@ -36,7 +36,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'tin-mk03',
-    icon = '__pyrawores__/graphics/technology/tin-3.png',
+    icon = '__pyraworesgraphics__/graphics/technology/tin-3.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk03','tin-mk02'},
@@ -55,7 +55,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'tin-mk04',
-    icon = '__pyrawores__/graphics/technology/tin-4.png',
+    icon = '__pyraworesgraphics__/graphics/technology/tin-4.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk04','tin-mk03'},

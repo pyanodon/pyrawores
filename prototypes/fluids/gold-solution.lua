@@ -20,7 +20,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "gold-solution",
-    icon = "__pyrawores__/graphics/icons/gold-solution.png",
+    icon = "__pyraworesgraphics__/graphics/icons/gold-solution.png",
     icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.952, g = 0.796, b = 0.0},

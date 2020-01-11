@@ -19,7 +19,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "tin-mine",
-    icon = "__pyrawores__/graphics/icons/mega-tin.png",
+    icon = "__pyraworesgraphics__/graphics/icons/mega-tin.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-mines",
@@ -31,7 +31,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "tin-mine",
-    icon = "__pyrawores__/graphics/icons/mega-tin.png",
+    icon = "__pyraworesgraphics__/graphics/icons/mega-tin.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "tin-mine"},
@@ -67,7 +67,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/1.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -76,7 +76,7 @@ ENTITY {
                 shift = util.by_pixel(-176, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/2.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -85,7 +85,7 @@ ENTITY {
                 shift = util.by_pixel(-112, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/3.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -94,7 +94,7 @@ ENTITY {
                 shift = util.by_pixel(-48, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/4.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -103,7 +103,7 @@ ENTITY {
                 shift = util.by_pixel(16, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/5.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/5.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -112,7 +112,7 @@ ENTITY {
                 shift = util.by_pixel(80, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/6.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/6.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -121,7 +121,7 @@ ENTITY {
                 shift = util.by_pixel(144, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/7.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/7.png",
                 width = 32,
                 height = 416,
                 line_length = 32,
@@ -130,7 +130,7 @@ ENTITY {
                 shift = util.by_pixel(176, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/h1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h1.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -140,7 +140,7 @@ ENTITY {
                 shift = util.by_pixel(-166, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/h2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h2.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -150,7 +150,7 @@ ENTITY {
                 shift = util.by_pixel(-102, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/h3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h3.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -160,7 +160,7 @@ ENTITY {
                 shift = util.by_pixel(-38, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/h4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h4.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -170,7 +170,7 @@ ENTITY {
                 shift = util.by_pixel(26, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/h5.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h5.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -180,7 +180,7 @@ ENTITY {
                 shift = util.by_pixel(90, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/h6.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h6.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -190,7 +190,7 @@ ENTITY {
                 shift = util.by_pixel(154, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/tin-mine/h7.png",
+                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h7.png",
                 width = 32,
                 height = 416,
                 line_length = 32,
@@ -203,8 +203,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/tin-mine.ogg", volume = 1.1},
-        idle_sound = {filename = "__pyrawores__/sounds/tin-mine.ogg", volume = 0.7},
+        sound = {filename = "__pyraworesgraphics__/sounds/tin-mine.ogg", volume = 1.1},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/tin-mine.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
 }
