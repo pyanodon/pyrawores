@@ -20,7 +20,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "chromite-pulp-03",
-    icon = "__pyraworesgraphics__/graphics/icons/chromite-pulp-03.png",
+    icon = "__pyrawores__/graphics/icons/chromite-pulp-03.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.862, g = 0.294, b = 0.031},

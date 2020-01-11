@@ -31,7 +31,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 100}
     },
     main_product = "clean-nexelit",
-    icon = "__pyraworesgraphics__/graphics/icons/wash-nexelit.png",
+    icon = "__pyrawores__/graphics/icons/wash-nexelit.png",
     icon_size = 32,
     subgroup = "py-rawores-nexelit",
 }:add_unlock("nexelit-mk01")
@@ -50,7 +50,7 @@ RECIPE {
         {type = "item", name = "stone", amount = 1}
     },
     main_product = "grade-1-nexelit",
-    icon = "__pyraworesgraphics__/graphics/icons/crusher-nexelit.png",
+    icon = "__pyrawores__/graphics/icons/crusher-nexelit.png",
     icon_size = 32,
     subgroup = "py-rawores-nexelit",
 }:add_unlock("nexelit-mk02")
@@ -70,7 +70,7 @@ RECIPE {
         {type = "item", name = "nexelit-rejects", amount = 1}
     },
     main_product = "grade-3-nexelit",
-    icon = "__pyraworesgraphics__/graphics/icons/nexelit-screening.png",
+    icon = "__pyrawores__/graphics/icons/nexelit-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-nexelit",
 }:add_unlock("nexelit-mk02"):change_category("screener")
@@ -105,7 +105,7 @@ RECIPE {
         {type = "item", name = "sand", amount = 1}
     },
     main_product = "grade-3-nexelit",
-    icon = "__pyraworesgraphics__/graphics/icons/recrush-grade-2-nexelit.png",
+    icon = "__pyrawores__/graphics/icons/recrush-grade-2-nexelit.png",
     icon_size = 32,
     subgroup = "py-rawores-nexelit",
 }:add_unlock("nexelit-mk02"):change_category("secondary-crusher")

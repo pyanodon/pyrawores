@@ -20,7 +20,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "prepared-chromium",
-    icon = "__pyraworesgraphics__/graphics/icons/prepared-chromium.png",
+    icon = "__pyrawores__/graphics/icons/prepared-chromium.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.213, g = 0.656, b = 0.668},

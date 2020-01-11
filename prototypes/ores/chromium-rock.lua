@@ -15,7 +15,7 @@ DATA {
     type = "resource",
     name = "chromium-rock",
     category = "chromium-rock",
-    icon = "__pyraworesgraphics__/graphics/icons/ores/chromium-rock.png",
+    icon = "__pyrawores__/graphics/icons/ores/chromium-rock.png",
 	icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
@@ -64,7 +64,7 @@ DATA {
     stage_counts = {0},
     stages = {
         sheet = {
-            filename = "__pyraworesgraphics__/graphics/entity/ores/chromium/chromium-mine-place.png",
+            filename = "__pyrawores__/graphics/entity/ores/chromium/chromium-mine-place.png",
             priority = "extra-high",
             width = 292,
             height = 210,

@@ -14,7 +14,7 @@ RECIPE {
         {type = "item", name = "small-lamp", amount = 1, probability = 0.5}
     },
     main_product = "hydrogen-chloride",
-    icon = "__pyraworesgraphics__/graphics/icons/hydrogen-chloride.png",
+    icon = "__pyrawores__/graphics/icons/hydrogen-chloride.png",
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "caa"
@@ -35,7 +35,7 @@ RECIPE {
         {type = "fluid", name = "hydrogen-chloride", amount = 30}
     },
     main_product = "sodium-bisulfate",
-    icon = "__pyraworesgraphics__/graphics/icons/sodium-bisulfate.png",
+    icon = "__pyrawores__/graphics/icons/sodium-bisulfate.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
@@ -56,7 +56,7 @@ RECIPE {
         {type = "fluid", name = "hydrogen-chloride", amount = 30}
     },
     main_product = "sodium-sulfate",
-    icon = "__pyraworesgraphics__/graphics/icons/sodium-sulfate.png",
+    icon = "__pyrawores__/graphics/icons/sodium-sulfate.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
@@ -65,7 +65,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "hydrogen-chloride",
-    icon = "__pyraworesgraphics__/graphics/icons/hydrogen-chloride.png",
+    icon = "__pyrawores__/graphics/icons/hydrogen-chloride.png",
     icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.737, g = 0.878, b = 0.580},

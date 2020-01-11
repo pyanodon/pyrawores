@@ -12,7 +12,7 @@ RECIPE {
         {type = "fluid", name = "alamac", amount = 100},
     },
     --main_product = "powdered-aluminium",
-    icon = "__pyraworesgraphics__/graphics/icons/alamac.png",
+    icon = "__pyrawores__/graphics/icons/alamac.png",
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "q-2"
@@ -22,7 +22,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "alamac",
-    icon = "__pyraworesgraphics__/graphics/icons/alamac.png",
+    icon = "__pyrawores__/graphics/icons/alamac.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.341, g = 0.635, b = 0.498},

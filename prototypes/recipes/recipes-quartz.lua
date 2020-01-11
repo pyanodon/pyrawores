@@ -12,7 +12,7 @@ RECIPE {
         {type = "item", name = "stone", amount = 1, probability = 0.5}
     },
     main_product = "crushed-quartz",
-    icon = "__pyraworesgraphics__/graphics/icons/crush-quartz.png",
+    icon = "__pyrawores__/graphics/icons/crush-quartz.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
 }:add_unlock("quartz-mk01")
@@ -31,7 +31,7 @@ RECIPE {
         {type = "item", name = "gravel", amount = 1, probability = 0.5}
     },
     main_product = "powdered-quartz",
-    icon = "__pyraworesgraphics__/graphics/icons/powdered-quartz.png",
+    icon = "__pyrawores__/graphics/icons/powdered-quartz.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
 }:add_unlock("quartz-mk01")
@@ -51,7 +51,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 50}
     },
     main_product = "purified-quartz",
-    icon = "__pyraworesgraphics__/graphics/icons/purified-quartz.png",
+    icon = "__pyrawores__/graphics/icons/purified-quartz.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
 }:add_unlock("quartz-mk02")
@@ -71,7 +71,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 80}
     },
     main_product = "high-grade-quartz",
-    icon = "__pyraworesgraphics__/graphics/icons/high-grade-quartz.png",
+    icon = "__pyrawores__/graphics/icons/high-grade-quartz.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
 }:add_unlock("quartz-mk03")
@@ -91,7 +91,7 @@ RECIPE {
         {type = "item", name = "crushed-quartz", amount = 1, probability = 0.5}
     },
     main_product = "gravel",
-    icon = "__pyraworesgraphics__/graphics/icons/class-sand.png",
+    icon = "__pyrawores__/graphics/icons/class-sand.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
 }:add_unlock("quartz-mk02")
@@ -113,7 +113,7 @@ RECIPE {
         {type = "item", name = "glass", amount = 4}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
+    icon = "__pyrawores__/graphics/icons/glass.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
     order = "aag"
@@ -133,7 +133,7 @@ RECIPE {
         {type = "item", name = "glass", amount = 3}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
+    icon = "__pyrawores__/graphics/icons/glass.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
     order = "aaf"
@@ -154,7 +154,7 @@ RECIPE {
         {type = "item", name = "glass", amount = 4}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
+    icon = "__pyrawores__/graphics/icons/glass.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
     order = "aae"
@@ -176,7 +176,7 @@ RECIPE {
         {type = "item", name = "glass", amount = 150}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
+    icon = "__pyrawores__/graphics/icons/glass.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
     order = "aab"
@@ -198,7 +198,7 @@ RECIPE {
         {type = "item", name = "glass", amount = 180}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
+    icon = "__pyrawores__/graphics/icons/glass.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
     order = "aaa"
@@ -221,7 +221,7 @@ RECIPE {
         {type = "item", name = "glass", amount = 65}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
+    icon = "__pyrawores__/graphics/icons/glass.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
     order = "aac"

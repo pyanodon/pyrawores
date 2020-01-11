@@ -1,7 +1,7 @@
 FLUID {
     type = "fluid",
     name = "coke-oven-gas",
-    icon = "__pyraworesgraphics__/graphics/icons/coke-oven-gas.png",
+    icon = "__pyrawores__/graphics/icons/coke-oven-gas.png",
 	icon_size = 32,
     default_temperature = 15, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.960, g = 0.701, b = 0.207},

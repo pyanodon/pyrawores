@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "coke-mk01",
-    icon = "__pyraworesgraphics__/graphics/technology/coke-1.png",
+    icon = "__pyrawores__/graphics/technology/coke-1.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {'machines-mk01'},
@@ -18,7 +18,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'coke-mk02',
-    icon = '__pyraworesgraphics__/graphics/technology/coke-2.png',
+    icon = '__pyrawores__/graphics/technology/coke-2.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk02','coke-mk01','coal-processing-2'},
@@ -36,7 +36,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'coke-mk03',
-    icon = '__pyraworesgraphics__/graphics/technology/coke-3.png',
+    icon = '__pyrawores__/graphics/technology/coke-3.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk03','coke-mk02'},

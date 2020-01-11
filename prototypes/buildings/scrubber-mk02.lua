@@ -18,7 +18,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "scrubber-mk02",
-    icon = "__pyraworesgraphics__/graphics/icons/scrubber-mk02.png",
+    icon = "__pyrawores__/graphics/icons/scrubber-mk02.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-rawores-buildings-mk02",
@@ -30,7 +30,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "scrubber-mk02",
-    icon = "__pyraworesgraphics__/graphics/icons/scrubber-mk02.png",
+    icon = "__pyrawores__/graphics/icons/scrubber-mk02.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "scrubber-mk02"},
@@ -57,7 +57,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/scrubber-mk01/scrubber-mk02.png",
+                filename = "__pyrawores__/graphics/entity/scrubber-mk01/scrubber-mk02.png",
                 width = 224,
                 height = 317,
                 line_length = 9,
@@ -66,7 +66,7 @@ ENTITY {
                 shift = util.by_pixel(0, -47)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/scrubber-mk01/sh.png",
+                filename = "__pyrawores__/graphics/entity/scrubber-mk01/sh.png",
                 width = 157,
                 height = 192,
                 line_length = 10,
@@ -128,8 +128,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyraworesgraphics__/sounds/scrubber.ogg", volume = 2.0},
-        idle_sound = {filename = "__pyraworesgraphics__/sounds/scrubber.ogg", volume = 1.3},
+        sound = {filename = "__pyrawores__/sounds/scrubber.ogg", volume = 2.0},
+        idle_sound = {filename = "__pyrawores__/sounds/scrubber.ogg", volume = 1.3},
         apparent_volume = 2.5
     }
 }

@@ -22,7 +22,7 @@
 FLUID {
     type = 'fluid',
     name = 'nexelit-pulp-01',
-    icon = '__pyraworesgraphics__/graphics/icons/nexelit-pulp-01.png',
+    icon = '__pyrawores__/graphics/icons/nexelit-pulp-01.png',
     icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0, g = 0.545, b = 0.733},

@@ -20,7 +20,7 @@ RECIPE {
 ITEM {
     type = 'item',
     name = 'py-construction-robot-02',
-    icon = '__pyraworesgraphics__/graphics/icons/py-construction-robot-02.png',
+    icon = '__pyrawores__/graphics/icons/py-construction-robot-02.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-unsorted',
@@ -32,7 +32,7 @@ ITEM {
 ENTITY {
     type = 'construction-robot',
     name = 'py-construction-robot-02',
-    icon = '__pyraworesgraphics__/graphics/icons/py-construction-robot-02.png',
+    icon = '__pyrawores__/graphics/icons/py-construction-robot-02.png',
     icon_size = 32,
     flags = {'placeable-player', 'player-creation', 'placeable-off-grid', 'not-on-map'},
     minable = {hardness = 0.1, mining_time = 0.1, result = 'py-construction-robot-02'},
@@ -51,7 +51,7 @@ ENTITY {
     max_to_charge = 0.95,
     working_light = {intensity = 1, size = 4, color = {r = 0.8, g = 0.8, b = 0.8}},
     idle = {
-        filename = '__pyraworesgraphics__/graphics/entity/construction-robot/01.png',
+        filename = '__pyrawores__/graphics/entity/construction-robot/01.png',
         priority = 'high',
         line_length = 16,
         width = 64,
@@ -60,7 +60,7 @@ ENTITY {
         shift = {0, -0.15625},
         direction_count = 16,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/construction-robot/hr-01.png',
+            filename = '__pyrawores__/graphics/entity/construction-robot/hr-01.png',
             priority = 'high',
             line_length = 16,
             width = 128,
@@ -72,7 +72,7 @@ ENTITY {
         }
     },
     in_motion = {
-        filename = '__pyraworesgraphics__/graphics/entity/construction-robot/01.png',
+        filename = '__pyrawores__/graphics/entity/construction-robot/01.png',
         priority = 'high',
         line_length = 16,
         width = 64,
@@ -82,7 +82,7 @@ ENTITY {
         direction_count = 16,
         y = 64,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/construction-robot/hr-01.png',
+            filename = '__pyrawores__/graphics/entity/construction-robot/hr-01.png',
             priority = 'high',
             line_length = 16,
             width = 128,
@@ -95,7 +95,7 @@ ENTITY {
         }
     },
     shadow_idle = {
-        filename = '__pyraworesgraphics__/graphics/entity/construction-robot/shadow.png',
+        filename = '__pyrawores__/graphics/entity/construction-robot/shadow.png',
         priority = 'high',
         line_length = 16,
         width = 64,
@@ -105,7 +105,7 @@ ENTITY {
         shift = util.by_pixel(33.5, 18.75),
         direction_count = 16,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/construction-robot/hr-shadow.png',
+            filename = '__pyrawores__/graphics/entity/construction-robot/hr-shadow.png',
             priority = 'high',
             line_length = 16,
             width = 128,
@@ -118,7 +118,7 @@ ENTITY {
         }
     },
     shadow_in_motion = {
-        filename = '__pyraworesgraphics__/graphics/entity/construction-robot/shadow.png',
+        filename = '__pyrawores__/graphics/entity/construction-robot/shadow.png',
         priority = 'high',
         line_length = 16,
         width = 64,
@@ -128,7 +128,7 @@ ENTITY {
         draw_as_shadow = true,
         direction_count = 16,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/construction-robot/hr-shadow.png',
+            filename = '__pyrawores__/graphics/entity/construction-robot/hr-shadow.png',
             priority = 'high',
             line_length = 16,
             width = 128,
@@ -141,7 +141,7 @@ ENTITY {
         }
     },
     working = {
-        filename = '__pyraworesgraphics__/graphics/entity/construction-robot/02.png',
+        filename = '__pyrawores__/graphics/entity/construction-robot/02.png',
         priority = 'high',
         line_length = 2,
         width = 64,
@@ -151,7 +151,7 @@ ENTITY {
         direction_count = 16,
         animation_speed = 0.3,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/construction-robot/hr-02.png',
+            filename = '__pyrawores__/graphics/entity/construction-robot/hr-02.png',
             priority = 'high',
             line_length = 2,
             width = 128,
@@ -168,7 +168,7 @@ ENTITY {
             2,
             {
                 {
-                    filename = '__pyraworesgraphics__/graphics/entity/construction-robot/shadow.png',
+                    filename = '__pyrawores__/graphics/entity/construction-robot/shadow.png',
                     width_in_frames = 16,
                     height_in_frames = 1
                 }

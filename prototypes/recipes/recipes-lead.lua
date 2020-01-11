@@ -12,7 +12,7 @@ RECIPE {
         --{type = "item", name = "grade-2-lead", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-lead",
-    icon = "__pyraworesgraphics__/graphics/icons/ore-lead-screening.png",
+    icon = "__pyrawores__/graphics/icons/ore-lead-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-lead",
 }:add_unlock("lead-mk01"):change_category("screener")
@@ -31,7 +31,7 @@ RECIPE {
         {type = "item", name = "grade-2-lead", amount = 1}
     },
     main_product = "grade-2-lead",
-    icon = "__pyraworesgraphics__/graphics/icons/crusher-lead.png",
+    icon = "__pyrawores__/graphics/icons/crusher-lead.png",
     icon_size = 32,
     subgroup = "py-rawores-lead",
 }:add_unlock("lead-mk02")
@@ -50,7 +50,7 @@ RECIPE {
         {type = "item", name = "grade-3-lead", amount = 1}
     },
     main_product = "grade-3-lead",
-    icon = "__pyraworesgraphics__/graphics/icons/grade-1-lead-screening.png",
+    icon = "__pyrawores__/graphics/icons/grade-1-lead-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-lead",
 }:add_unlock("lead-mk02"):change_category("screener")
@@ -68,7 +68,7 @@ RECIPE {
         {type = "item", name = "lead-dust", amount = 1}
     },
     main_product = "lead-dust",
-    icon = "__pyraworesgraphics__/graphics/icons/recrush-grade-3-lead.png",
+    icon = "__pyrawores__/graphics/icons/recrush-grade-3-lead.png",
     icon_size = 32,
     subgroup = "py-rawores-lead",
 }:add_unlock("lead-mk02"):change_category("secondary-crusher")

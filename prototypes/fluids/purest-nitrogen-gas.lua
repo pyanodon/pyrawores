@@ -18,7 +18,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "purest-nitrogen-gas",
-    icon = "__pyraworesgraphics__/graphics/icons/purest-nitrogen-gas.png",
+    icon = "__pyrawores__/graphics/icons/purest-nitrogen-gas.png",
     icon_size = 32,
     default_temperature = 15, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.013, g = 0.264, b = 0.9},

@@ -241,7 +241,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 75}
     },
     main_product = "vanadates",
-    icon = "__pyfusionenergygraphics__/graphics/icons/vanadates.png",
+    icon = "__pyfusionenergy__/graphics/icons/vanadates.png",
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "q-2"
@@ -284,7 +284,7 @@ RECIPE {
         {type = "fluid", name = "steam", amount = 100}
     },
     main_product = "liquid-nitrogen",
-    icon = "__pyfusionenergygraphics__/graphics/icons/compress-nitrogen.png",
+    icon = "__pyfusionenergy__/graphics/icons/compress-nitrogen.png",
     icon_size = 32,
     subgroup = "py-fusion-gases",
     order = "a"
@@ -303,7 +303,7 @@ RECIPE {
         {type = "fluid", name = "nitrogen", amount = 50}
     },
     main_product = "nitrogen",
-    icon = "__pyraworesgraphics__/graphics/icons/nitrogen.png",
+    icon = "__pyrawores__/graphics/icons/nitrogen.png",
     icon_size = 32,
     subgroup = "py-fusion-gases",
     order = "b"
@@ -358,7 +358,7 @@ RECIPE {
         {type = "item", name = "nbti-alloy", amount = 15}
     },
     main_product= "nbti-alloy",
-    icon = "__pyfusionenergygraphics__/graphics/icons/nbti-alloy.png",
+    icon = "__pyfusionenergy__/graphics/icons/nbti-alloy.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
@@ -441,25 +441,25 @@ RECIPE {
 
 local pipe_left = {
     north = {
-        filename = "__pyfusionenergygraphics__/graphics/entity/centrifugal-pan/top-left.png",
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/top-left.png",
         priority = "low",
         width = 320,
         height = 336
     },
     south = {
-        filename = "__pyfusionenergygraphics__/graphics/entity/centrifugal-pan/bottom-right.png",
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/bottom-right.png",
         priority = "high",
         width = 320,
         height = 336
     },
     east = {
-        filename = "__pyfusionenergygraphics__/graphics/entity/centrifugal-pan/right-top.png",
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/right-top.png",
         priority = "high",
         width = 320,
         height = 336
     },
     west = {
-        filename = "__pyfusionenergygraphics__/graphics/entity/centrifugal-pan/left-bottom.png",
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/left-bottom.png",
         priority = "high",
         width = 320,
         height = 336
@@ -468,25 +468,25 @@ local pipe_left = {
 
 local pipe_right = {
     north = {
-        filename = "__pyfusionenergygraphics__/graphics/entity/centrifugal-pan/top-right.png",
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/top-right.png",
         priority = "low",
         width = 320,
         height = 336
     },
     south = {
-        filename = "__pyfusionenergygraphics__/graphics/entity/centrifugal-pan/bottom-left.png",
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/bottom-left.png",
         priority = "high",
         width = 320,
         height = 336
     },
     east = {
-        filename = "__pyfusionenergygraphics__/graphics/entity/centrifugal-pan/right-bottom.png",
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/right-bottom.png",
         priority = "high",
         width = 320,
         height = 336
     },
     west = {
-        filename = "__pyfusionenergygraphics__/graphics/entity/centrifugal-pan/left-top.png",
+        filename = "__pyfusionenergy__/graphics/entity/centrifugal-pan/left-top.png",
         priority = "high",
         width = 320,
         height = 336

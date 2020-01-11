@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "quartz-mk01",
-    icon = "__pyraworesgraphics__/graphics/technology/quartz-1.png",
+    icon = "__pyrawores__/graphics/technology/quartz-1.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"machines-mk01"},
@@ -18,7 +18,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'quartz-mk02',
-    icon = '__pyraworesgraphics__/graphics/technology/quartz-2.png',
+    icon = '__pyrawores__/graphics/technology/quartz-2.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk02','quartz-mk01'},
@@ -37,7 +37,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'quartz-mk03',
-    icon = '__pyraworesgraphics__/graphics/technology/quartz-3.png',
+    icon = '__pyrawores__/graphics/technology/quartz-3.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk03','quartz-mk02'},

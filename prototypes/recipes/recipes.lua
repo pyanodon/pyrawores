@@ -11,7 +11,7 @@ RECIPE {
         {type = "item", name = "powdered-ralesia-seeds", amount = 1}
     },
     main_product= "powdered-ralesia-seeds",
-    icon = "__pyraworesgraphics__/graphics/icons/powdered-ralesia-seeds.png",
+    icon = "__pyrawores__/graphics/icons/powdered-ralesia-seeds.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
@@ -31,7 +31,7 @@ RECIPE {
         {type = "item", name = "organics", amount = 5},
     },
     main_product= "starch",
-    icon = "__pyraworesgraphics__/graphics/icons/starch.png",
+    icon = "__pyrawores__/graphics/icons/starch.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
@@ -52,7 +52,7 @@ RECIPE {
         {type = "item", name = "organics", amount = 5},
     },
     main_product= "starch",
-    icon = "__pyraworesgraphics__/graphics/icons/starch.png",
+    icon = "__pyrawores__/graphics/icons/starch.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
@@ -72,7 +72,7 @@ RECIPE {
         {type = "fluid", name = "water-saline", amount = 100},
     },
     --main_product= "starch",
-    icon = "__pycoalprocessinggraphics__/graphics/icons/water-saline.png",
+    icon = "__pycoalprocessing__/graphics/icons/water-saline.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
@@ -92,7 +92,7 @@ RECIPE {
         {type = "item", name = "sodium-hydroxide", amount = 10},
         {type = "item", name = "limestone", amount = 5}
     },
-    icon = "__pyraworesgraphics__/graphics/icons/sodium-hydroxide.png",
+    icon = "__pyrawores__/graphics/icons/sodium-hydroxide.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "a8"
@@ -113,7 +113,7 @@ RECIPE {
     main_product = "salt",
     subgroup = "py-items",
     order = "salt",
-    icon = "__pyraworesgraphics__/graphics/icons/salt.png",
+    icon = "__pyrawores__/graphics/icons/salt.png",
     icon_size = 32
 }:add_unlock("coal-processing-2")
 
@@ -133,7 +133,7 @@ RECIPE {
         {type = "fluid", name = "tar", amount = 30},
         {type = "item", name = "ash", amount = 1}
     },
-    icon = "__pycoalprocessinggraphics__/graphics/icons/syngas.png",
+    icon = "__pycoalprocessing__/graphics/icons/syngas.png",
     icon_size = 32,
     subgroup = "py-syngas",
     order = "a-b-[syn-gas]"
@@ -153,7 +153,7 @@ RECIPE {
         {type = "fluid", name = "carbon-dioxide", amount = 50}
     },
     main_product = "hydrogen",
-    icon = "__pycoalprocessinggraphics__/graphics/icons/syngas-distilation.png",
+    icon = "__pycoalprocessing__/graphics/icons/syngas-distilation.png",
     icon_size = 32,
     subgroup = "py-items",
     order = "a [coal-gas]"
@@ -174,7 +174,7 @@ RECIPE {
         {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 520},
         {type = "fluid", name = "steam", amount = 500, temperature = 60}
     },
-    icon = "__pycoalprocessinggraphics__/graphics/icons/combustion-hydrogen.png",
+    icon = "__pycoalprocessing__/graphics/icons/combustion-hydrogen.png",
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
@@ -195,7 +195,7 @@ RECIPE {
         {type = "item", name = "bonemeal", amount = 10}
     },
     main_product = "bonemeal",
-    icon = "__pycoalprocessinggraphics__/graphics/icons/bonemeal.png",
+    icon = "__pycoalprocessing__/graphics/icons/bonemeal.png",
     icon_size = 32,
     subgroup = "py-items",
     order = "g"
@@ -269,7 +269,7 @@ RECIPE {
         {type = "item", name = "sodium-carbonate", amount = 1},
     },
     main_product = "ammonium-chloride",
-    icon = "__pyraworesgraphics__/graphics/icons/ammonium-chloride.png",
+    icon = "__pyrawores__/graphics/icons/ammonium-chloride.png",
     icon_size = 32,
     subgroup = "py-rawores-items",
     order = "q-2"
@@ -289,7 +289,7 @@ RECIPE {
         {type = "item", name = "duralumin", amount = 1}
     },
     main_product= "duralumin",
-    icon = "__pyraworesgraphics__/graphics/icons/duralumin.png",
+    icon = "__pyrawores__/graphics/icons/duralumin.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
@@ -310,7 +310,7 @@ RECIPE {
         {type = "item", name = "duralumin", amount = 20}
     },
     main_product= "duralumin",
-    icon = "__pyraworesgraphics__/graphics/icons/duralumin.png",
+    icon = "__pyrawores__/graphics/icons/duralumin.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
@@ -619,7 +619,7 @@ RECIPE {
         {type = "item", name = "nichrome", amount = 10}
     },
     main_product= "nichrome",
-    icon = "__pycoalprocessinggraphics__/graphics/icons/nichrome.png",
+    icon = "__pycoalprocessing__/graphics/icons/nichrome.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"

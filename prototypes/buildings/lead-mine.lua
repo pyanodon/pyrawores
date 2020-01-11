@@ -19,7 +19,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "lead-mine",
-    icon = "__pyraworesgraphics__/graphics/icons/mega-lead.png",
+    icon = "__pyrawores__/graphics/icons/mega-lead.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-mines",
@@ -31,7 +31,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "lead-mine",
-    icon = "__pyraworesgraphics__/graphics/icons/mega-lead.png",
+    icon = "__pyrawores__/graphics/icons/mega-lead.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "lead-mine"},
@@ -67,7 +67,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/lead-mine/h1.png",
+                filename = "__pyrawores__/graphics/entity/lead-mine/h1.png",
                 width = 128,
                 height = 384,
                 line_length = 16,
@@ -76,7 +76,7 @@ ENTITY {
                 shift = util.by_pixel(-112, -10)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/lead-mine/h2.png",
+                filename = "__pyrawores__/graphics/entity/lead-mine/h2.png",
                 width = 128,
                 height = 384,
                 line_length = 16,
@@ -85,7 +85,7 @@ ENTITY {
                 shift = util.by_pixel(16, -10)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/lead-mine/h3.png",
+                filename = "__pyrawores__/graphics/entity/lead-mine/h3.png",
                 width = 101,
                 height = 384,
                 line_length = 16,
@@ -97,8 +97,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyraworesgraphics__/sounds/lead-mine.ogg", volume = 1.4},
-        idle_sound = {filename = "__pyraworesgraphics__/sounds/lead-mine.ogg", volume = 0.8},
+        sound = {filename = "__pyrawores__/sounds/lead-mine.ogg", volume = 1.4},
+        idle_sound = {filename = "__pyrawores__/sounds/lead-mine.ogg", volume = 0.8},
         apparent_volume = 2.5
     }
 }

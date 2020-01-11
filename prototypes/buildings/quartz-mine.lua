@@ -19,7 +19,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "quartz-mine",
-    icon = "__pyraworesgraphics__/graphics/icons/mega-quartz.png",
+    icon = "__pyrawores__/graphics/icons/mega-quartz.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-mines",
@@ -31,7 +31,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "quartz-mine",
-    icon = "__pyraworesgraphics__/graphics/icons/mega-quartz.png",
+    icon = "__pyrawores__/graphics/icons/mega-quartz.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "quartz-mine"},
@@ -79,7 +79,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h1.png",
+                filename = "__pyrawores__/graphics/entity/quartz-mine/h1.png",
                 width = 64,
                 height = 446,
                 line_length = 25,
@@ -88,7 +88,7 @@ ENTITY {
                 shift = util.by_pixel(-177, -12)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h2.png",
+                filename = "__pyrawores__/graphics/entity/quartz-mine/h2.png",
                 width = 64,
                 height = 446,
                 line_length = 25,
@@ -97,7 +97,7 @@ ENTITY {
                 shift = util.by_pixel(-113, -12)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h3.png",
+                filename = "__pyrawores__/graphics/entity/quartz-mine/h3.png",
                 width = 64,
                 height = 446,
                 line_length = 25,
@@ -106,7 +106,7 @@ ENTITY {
                 shift = util.by_pixel(-49, -12)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h4.png",
+                filename = "__pyrawores__/graphics/entity/quartz-mine/h4.png",
                 width = 64,
                 height = 446,
                 line_length = 25,
@@ -115,7 +115,7 @@ ENTITY {
                 shift = util.by_pixel(15, -12)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h5.png",
+                filename = "__pyrawores__/graphics/entity/quartz-mine/h5.png",
                 width = 64,
                 height = 446,
                 line_length = 25,
@@ -124,7 +124,7 @@ ENTITY {
                 shift = util.by_pixel(79, -12)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h6.png",
+                filename = "__pyrawores__/graphics/entity/quartz-mine/h6.png",
                 width = 64,
                 height = 446,
                 line_length = 25,
@@ -133,7 +133,7 @@ ENTITY {
                 shift = util.by_pixel(143, -12)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h7.png",
+                filename = "__pyrawores__/graphics/entity/quartz-mine/h7.png",
                 width = 40,
                 height = 446,
                 line_length = 25,
@@ -145,8 +145,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyraworesgraphics__/sounds/quartz-mine.ogg", volume = 2.5},
-        idle_sound = {filename = "__pyraworesgraphics__/sounds/quartz-mine.ogg", volume = 1.3},
+        sound = {filename = "__pyrawores__/sounds/quartz-mine.ogg", volume = 2.5},
+        idle_sound = {filename = "__pyrawores__/sounds/quartz-mine.ogg", volume = 1.3},
         apparent_volume = 2.5
     }
 }

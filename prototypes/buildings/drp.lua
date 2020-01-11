@@ -17,7 +17,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "drp",
-    icon = "__pyraworesgraphics__/graphics/icons/drp.png",
+    icon = "__pyrawores__/graphics/icons/drp.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-rawores-buildings-others",
@@ -29,7 +29,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "drp",
-    icon = "__pyraworesgraphics__/graphics/icons/drp.png",
+    icon = "__pyrawores__/graphics/icons/drp.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "drp"},
@@ -56,7 +56,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/drp/down.png",
+                filename = "__pyrawores__/graphics/entity/drp/down.png",
                 --priority = "high",
                 width = 160,
                 height = 160,
@@ -66,7 +66,7 @@ ENTITY {
                 shift = util.by_pixel(0, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/drp/up.png",
+                filename = "__pyrawores__/graphics/entity/drp/up.png",
                 --priority = "high",
                 width = 160,
                 height = 160,
@@ -76,7 +76,7 @@ ENTITY {
                 shift = util.by_pixel(0, -160)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/drp/sh.png",
+                filename = "__pyrawores__/graphics/entity/drp/sh.png",
                 --priority = "high",
                 width = 192,
                 height = 128,
@@ -124,8 +124,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyraworesgraphics__/sounds/drp.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyraworesgraphics__/sounds/drp.ogg", volume = 0.6},
+        sound = {filename = "__pyrawores__/sounds/drp.ogg", volume = 1.0},
+        idle_sound = {filename = "__pyrawores__/sounds/drp.ogg", volume = 0.6},
         apparent_volume = 2.5
     }
 }

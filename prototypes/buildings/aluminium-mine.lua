@@ -20,7 +20,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "aluminium-mine",
-    icon = "__pyraworesgraphics__/graphics/icons/mega-aluminium.png",
+    icon = "__pyrawores__/graphics/icons/mega-aluminium.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-mines",
@@ -32,7 +32,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "aluminium-mine",
-    icon = "__pyraworesgraphics__/graphics/icons/mega-aluminium.png",
+    icon = "__pyrawores__/graphics/icons/mega-aluminium.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "aluminium-mine"},
@@ -115,7 +115,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/h1.png",
+                filename = "__pyrawores__/graphics/entity/aluminium-mine/h1.png",
                 width = 96,
                 height = 580,
                 line_length = 21,
@@ -124,7 +124,7 @@ ENTITY {
                 shift = util.by_pixel(-161, -96)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/h2.png",
+                filename = "__pyrawores__/graphics/entity/aluminium-mine/h2.png",
                 width = 96,
                 height = 580,
                 line_length = 21,
@@ -133,7 +133,7 @@ ENTITY {
                 shift = util.by_pixel(-65, -96)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/h3.png",
+                filename = "__pyrawores__/graphics/entity/aluminium-mine/h3.png",
                 width = 96,
                 height = 580,
                 line_length = 21,
@@ -142,7 +142,7 @@ ENTITY {
                 shift = util.by_pixel(31, -96)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/h4.png",
+                filename = "__pyrawores__/graphics/entity/aluminium-mine/h4.png",
                 width = 96,
                 height = 580,
                 line_length = 21,
@@ -151,7 +151,7 @@ ENTITY {
                 shift = util.by_pixel(127, -96)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/h5.png",
+                filename = "__pyrawores__/graphics/entity/aluminium-mine/h5.png",
                 width = 92,
                 height = 580,
                 line_length = 21,
@@ -163,8 +163,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyraworesgraphics__/sounds/aluminium-mine.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyraworesgraphics__/sounds/aluminium-mine.ogg", volume = 0.6},
+        sound = {filename = "__pyrawores__/sounds/aluminium-mine.ogg", volume = 1.0},
+        idle_sound = {filename = "__pyrawores__/sounds/aluminium-mine.ogg", volume = 0.6},
         apparent_volume = 2.5
     }
 }

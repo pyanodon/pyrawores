@@ -15,7 +15,7 @@
             {type = 'item', name = 'lead-refined-dust', amount = 1}
         },
         main_product = 'slz-pulp-01',
-        icon = '__pyraworesgraphics__/graphics/icons/slz-pulp-01.png',
+        icon = '__pyrawores__/graphics/icons/slz-pulp-01.png',
         icon_size = 32,
         subgroup = 'py-rawores-lead',
         order = 'q-1'
@@ -24,7 +24,7 @@
 FLUID {
     type = 'fluid',
     name = 'slz-pulp-01',
-    icon = '__pyraworesgraphics__/graphics/icons/slz-pulp-01.png',
+    icon = '__pyrawores__/graphics/icons/slz-pulp-01.png',
     icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.4, g = 0.4, b = 0.4},

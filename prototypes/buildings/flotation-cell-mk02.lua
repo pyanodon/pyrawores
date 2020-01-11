@@ -19,7 +19,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "flotation-cell-mk02",
-    icon = "__pyraworesgraphics__/graphics/icons/flotation-cell-mk02.png",
+    icon = "__pyrawores__/graphics/icons/flotation-cell-mk02.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-rawores-buildings-mk02",
@@ -31,7 +31,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "flotation-cell-mk02",
-    icon = "__pyraworesgraphics__/graphics/icons/flotation-cell-mk02.png",
+    icon = "__pyrawores__/graphics/icons/flotation-cell-mk02.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "flotation-cell-mk02"},
@@ -58,7 +58,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/flotation-cell-mk01/off-mk02.png",
+                filename = "__pyrawores__/graphics/entity/flotation-cell-mk01/off-mk02.png",
                 --priority = "high",
                 width = 192,
                 height = 229,
@@ -68,7 +68,7 @@ ENTITY {
                 shift = util.by_pixel(-1, -19)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/flotation-cell-mk01/sh.png",
+                filename = "__pyrawores__/graphics/entity/flotation-cell-mk01/sh.png",
                 --priority = "high",
                 width = 143,
                 height = 172,
@@ -87,7 +87,7 @@ ENTITY {
             south_position = util.by_pixel(-1, -17.5),
             east_position = util.by_pixel(-1, -17.5),
             animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/flotation-cell-mk01/flotation-cell-mk02.png",
+                filename = "__pyrawores__/graphics/entity/flotation-cell-mk01/flotation-cell-mk02.png",
                 --priority = "low",
                 frame_count = 100,
                 line_length = 10,
@@ -148,8 +148,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyraworesgraphics__/sounds/flotation-cell.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyraworesgraphics__/sounds/flotation-cell.ogg", volume = 0.7},
+        sound = {filename = "__pyrawores__/sounds/flotation-cell.ogg", volume = 1.0},
+        idle_sound = {filename = "__pyrawores__/sounds/flotation-cell.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
 }
