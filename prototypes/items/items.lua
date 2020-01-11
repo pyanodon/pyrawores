@@ -3,17 +3,17 @@
 ITEM {
     type = 'item',
     name = 'ore-quartz',
-    icon = '__pyrawores__/graphics/icons/mip/ore-quartz.png',
+    icon = '__pyraworesgraphics__/graphics/icons/mip/ore-quartz.png',
     icon_size = 64,
     icon_mipmaps = 7,
     pictures = {
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-quartz.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-quartz-1.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-quartz-2.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-quartz-3.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-quartz-4.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-quartz-5.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-quartz-6.png', scale = 0.25, mipmap_count = 1}
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-quartz.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-quartz-1.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-quartz-2.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-quartz-3.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-quartz-4.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-quartz-5.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-quartz-6.png', scale = 0.25, mipmap_count = 1}
     },
     flags = {},
     subgroup = "py-rawores-ores",
@@ -24,7 +24,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "crushed-quartz",
-    icon = "__pyrawores__/graphics/icons/crushed-quartz.png",
+    icon = "__pyraworesgraphics__/graphics/icons/crushed-quartz.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-quartz",
@@ -35,7 +35,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'powdered-quartz',
-    icon = '__pyrawores__/graphics/icons/powdered-quartz.png',
+    icon = '__pyraworesgraphics__/graphics/icons/powdered-quartz.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-quartz',
@@ -46,7 +46,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'purified-quartz',
-    icon = '__pyrawores__/graphics/icons/purified-quartz.png',
+    icon = '__pyraworesgraphics__/graphics/icons/purified-quartz.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-quartz',
@@ -57,7 +57,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-grade-quartz',
-    icon = '__pyrawores__/graphics/icons/high-grade-quartz.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-grade-quartz.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-quartz',
@@ -68,7 +68,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'glass',
-    icon = '__pyrawores__/graphics/icons/glass.png',
+    icon = '__pyraworesgraphics__/graphics/icons/glass.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-plates',
@@ -81,14 +81,14 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ore-aluminium',
-    icon = '__pyrawores__/graphics/icons/mip/ore-aluminium.png',
+    icon = '__pyraworesgraphics__/graphics/icons/mip/ore-aluminium.png',
     icon_size = 64,
     icon_mipmaps = 4,
     pictures = {
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-aluminium.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-aluminium-1.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-aluminium-2.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-aluminium-3.png', scale = 0.25, mipmap_count = 1}
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-aluminium.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-aluminium-1.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-aluminium-2.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-aluminium-3.png', scale = 0.25, mipmap_count = 1}
     },
     flags = {},
     subgroup = "py-rawores-ores",
@@ -99,7 +99,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "powdered-aluminium",
-    icon = "__pyrawores__/graphics/icons/powdered-aluminium.png",
+    icon = "__pyraworesgraphics__/graphics/icons/powdered-aluminium.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-aluminium",
@@ -110,7 +110,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sodium-aluminate',
-    icon = '__pyrawores__/graphics/icons/sodium-aluminate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sodium-aluminate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-aluminium',
@@ -121,7 +121,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'crystalized-sodium-aluminate',
-    icon = '__pyrawores__/graphics/icons/crystalized-sodium-aluminate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/crystalized-sodium-aluminate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-aluminium',
@@ -132,7 +132,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-grade-alumina',
-    icon = '__pyrawores__/graphics/icons/high-grade-alumina.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-grade-alumina.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-aluminium',
@@ -143,7 +143,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'aluminium-plate',
-    icon = '__pyrawores__/graphics/icons/aluminium-plate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/aluminium-plate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-plates',
@@ -154,7 +154,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sintered-aluminium',
-    icon = '__pyrawores__/graphics/icons/sintered-aluminium.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sintered-aluminium.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-aluminium',
@@ -165,7 +165,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'reduced-aluminium',
-    icon = '__pyrawores__/graphics/icons/reduced-aluminium.png',
+    icon = '__pyraworesgraphics__/graphics/icons/reduced-aluminium.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-aluminium',
@@ -178,14 +178,14 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ore-titanium',
-    icon = '__pyrawores__/graphics/icons/mip/ore-titanium.png',
+    icon = '__pyraworesgraphics__/graphics/icons/mip/ore-titanium.png',
     icon_size = 64,
     icon_mipmaps = 4,
     pictures = {
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-titanium.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-titanium-1.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-titanium-2.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-titanium-3.png', scale = 0.25, mipmap_count = 1}
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-titanium.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-titanium-1.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-titanium-2.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-titanium-3.png', scale = 0.25, mipmap_count = 1}
     },
     flags = {},
     subgroup = "py-rawores-ores",
@@ -196,7 +196,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "grade-1-ti",
-    icon = "__pyrawores__/graphics/icons/grade-1-ti.png",
+    icon = "__pyraworesgraphics__/graphics/icons/grade-1-ti.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-titanium",
@@ -207,7 +207,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-2-ti',
-    icon = '__pyrawores__/graphics/icons/grade-2-ti.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-2-ti.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-titanium',
@@ -218,7 +218,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-3-ti',
-    icon = '__pyrawores__/graphics/icons/grade-3-ti.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-3-ti.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-titanium',
@@ -229,7 +229,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-4-ti',
-    icon = '__pyrawores__/graphics/icons/grade-4-ti.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-4-ti.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-titanium',
@@ -240,7 +240,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ti-rejects',
-    icon = '__pyrawores__/graphics/icons/ti-rejects.png',
+    icon = '__pyraworesgraphics__/graphics/icons/ti-rejects.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-titanium',
@@ -251,7 +251,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'powdered-ti',
-    icon = '__pyrawores__/graphics/icons/powdered-tin.png',
+    icon = '__pyraworesgraphics__/graphics/icons/powdered-tin.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-titanium',
@@ -262,7 +262,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ti-enriched-dust',
-    icon = '__pyrawores__/graphics/icons/ti-enriched-dust.png',
+    icon = '__pyraworesgraphics__/graphics/icons/ti-enriched-dust.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-titanium',
@@ -273,7 +273,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ti-residue',
-    icon = '__pyrawores__/graphics/icons/ti-residue.png',
+    icon = '__pyraworesgraphics__/graphics/icons/ti-residue.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-titanium',
@@ -284,7 +284,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-grade-ti-powder',
-    icon = '__pyrawores__/graphics/icons/high-grade-ti-powder.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-grade-ti-powder.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-titanium',
@@ -295,7 +295,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'concentrated-ti',
-    icon = '__pyrawores__/graphics/icons/concentrated-ti.png',
+    icon = '__pyraworesgraphics__/graphics/icons/concentrated-ti.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-titanium',
@@ -306,7 +306,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-grade-ti',
-    icon = '__pyrawores__/graphics/icons/high-grade-ti.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-grade-ti.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-titanium',
@@ -317,7 +317,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'reduced-ti',
-    icon = '__pyrawores__/graphics/icons/reduced-ti.png',
+    icon = '__pyraworesgraphics__/graphics/icons/reduced-ti.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-titanium',
@@ -328,7 +328,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sintered-ti',
-    icon = '__pyrawores__/graphics/icons/sintered-ti.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sintered-ti.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-titanium',
@@ -339,7 +339,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'titanium-plate',
-    icon = '__pyrawores__/graphics/icons/titanium-plate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/titanium-plate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-plates',
@@ -352,14 +352,14 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ore-chromium',
-    icon = '__pyrawores__/graphics/icons/mip/ore-chromium.png',
+    icon = '__pyraworesgraphics__/graphics/icons/mip/ore-chromium.png',
     icon_size = 64,
     icon_mipmaps = 4,
     pictures = {
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-chromium.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-chromium-1.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-chromium-2.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-chromium-3.png', scale = 0.25, mipmap_count = 1}
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-chromium.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-chromium-1.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-chromium-2.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-chromium-3.png', scale = 0.25, mipmap_count = 1}
     },
     flags = {},
     subgroup = 'py-rawores-ores',
@@ -370,7 +370,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-1-chromite',
-    icon = '__pyrawores__/graphics/icons/grade-1-chromite.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-1-chromite.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-chromium',
@@ -381,7 +381,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-2-chromite',
-    icon = '__pyrawores__/graphics/icons/grade-2-chromite.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-2-chromite.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-chromium',
@@ -392,7 +392,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-3-chromite',
-    icon = '__pyrawores__/graphics/icons/grade-3-chromite.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-3-chromite.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-chromium',
@@ -403,7 +403,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-4-chromite',
-    icon = '__pyrawores__/graphics/icons/grade-4-chromite.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-4-chromite.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-chromium',
@@ -414,7 +414,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'chromite-rejects',
-    icon = '__pyrawores__/graphics/icons/chromite-rejects.png',
+    icon = '__pyraworesgraphics__/graphics/icons/chromite-rejects.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-chromium',
@@ -425,7 +425,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-chromite',
-    icon = '__pyrawores__/graphics/icons/high-chromite.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-chromite.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-chromium',
@@ -436,7 +436,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'processed-chromite',
-    icon = '__pyrawores__/graphics/icons/processed-chromite.png',
+    icon = '__pyraworesgraphics__/graphics/icons/processed-chromite.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-chromium',
@@ -447,7 +447,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sintered-chromium',
-    icon = '__pyrawores__/graphics/icons/sintered-chromium.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sintered-chromium.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-chromium',
@@ -458,7 +458,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'reduced-chromium',
-    icon = '__pyrawores__/graphics/icons/reduced-chromium.png',
+    icon = '__pyraworesgraphics__/graphics/icons/reduced-chromium.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-chromium',
@@ -471,7 +471,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'gold-precipitate',
-    icon = '__pyrawores__/graphics/icons/gold-precipitate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/gold-precipitate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-gold',
@@ -482,7 +482,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'purified-gold',
-    icon = '__pyrawores__/graphics/icons/purified-gold.png',
+    icon = '__pyraworesgraphics__/graphics/icons/purified-gold.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-gold',
@@ -493,7 +493,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'gold-concentrate',
-    icon = '__pyrawores__/graphics/icons/gold-concentrate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/gold-concentrate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-gold',
@@ -504,7 +504,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'gold-precipitate-2',
-    icon = '__pyrawores__/graphics/icons/gold-precipitate-2.png',
+    icon = '__pyraworesgraphics__/graphics/icons/gold-precipitate-2.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-gold',
@@ -515,7 +515,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'gold-plate',
-    icon = '__pyrawores__/graphics/icons/gold-plate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/gold-plate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-plates',
@@ -528,7 +528,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'redhot-coke',
-    icon = '__pyrawores__/graphics/icons/redhot-coke.png',
+    icon = '__pyraworesgraphics__/graphics/icons/redhot-coke.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-coke',
@@ -557,7 +557,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-1-copper',
-    icon = '__pyrawores__/graphics/icons/grade-1-copper.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-1-copper.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-copper',
@@ -568,7 +568,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-2-copper',
-    icon = '__pyrawores__/graphics/icons/grade-2-copper.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-2-copper.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-copper',
@@ -579,7 +579,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-3-copper',
-    icon = '__pyrawores__/graphics/icons/grade-3-copper.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-3-copper.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-copper',
@@ -590,7 +590,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-4-copper',
-    icon = '__pyrawores__/graphics/icons/grade-4-copper.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-4-copper.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-copper',
@@ -601,7 +601,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'copper-low-dust',
-    icon = '__pyrawores__/graphics/icons/copper-low-dust.png',
+    icon = '__pyraworesgraphics__/graphics/icons/copper-low-dust.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-copper',
@@ -612,7 +612,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'copper-rejects',
-    icon = '__pyrawores__/graphics/icons/copper-rejects.png',
+    icon = '__pyraworesgraphics__/graphics/icons/copper-rejects.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-copper',
@@ -623,7 +623,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'low-grade-copper',
-    icon = '__pyrawores__/graphics/icons/low-grade-copper.png',
+    icon = '__pyraworesgraphics__/graphics/icons/low-grade-copper.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-copper',
@@ -634,7 +634,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'low-grade-rejects',
-    icon = '__pyrawores__/graphics/icons/low-grade-copper-rejects.png',
+    icon = '__pyraworesgraphics__/graphics/icons/low-grade-copper-rejects.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-copper',
@@ -645,7 +645,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-grade-copper',
-    icon = '__pyrawores__/graphics/icons/high-grade-copper.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-grade-copper.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-copper',
@@ -656,7 +656,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sintered-copper',
-    icon = '__pyrawores__/graphics/icons/sintered-copper.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sintered-copper.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-copper',
@@ -667,7 +667,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'reduced-copper',
-    icon = '__pyrawores__/graphics/icons/reduced-copper.png',
+    icon = '__pyraworesgraphics__/graphics/icons/reduced-copper.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-copper',
@@ -696,7 +696,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'processed-iron-ore',
-    icon = '__pyrawores__/graphics/icons/processed-iron-ore.png',
+    icon = '__pyraworesgraphics__/graphics/icons/processed-iron-ore.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -707,7 +707,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-1-iron',
-    icon = '__pyrawores__/graphics/icons/grade-1-iron.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-1-iron.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -718,7 +718,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-2-iron',
-    icon = '__pyrawores__/graphics/icons/grade-2-iron.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-2-iron.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -729,7 +729,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-3-iron',
-    icon = '__pyrawores__/graphics/icons/grade-3-iron.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-3-iron.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -740,7 +740,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-4-iron',
-    icon = '__pyrawores__/graphics/icons/grade-4-iron.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-4-iron.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -751,7 +751,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'unslimed-iron',
-    icon = '__pyrawores__/graphics/icons/unslimed-iron.png',
+    icon = '__pyraworesgraphics__/graphics/icons/unslimed-iron.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -762,7 +762,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-grade-iron',
-    icon = '__pyrawores__/graphics/icons/high-grade-iron.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-grade-iron.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -773,7 +773,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'iron-dust-concentrate',
-    icon = '__pyrawores__/graphics/icons/iron-dust-concentrate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/iron-dust-concentrate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -784,7 +784,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'iron-concentrate',
-    icon = '__pyrawores__/graphics/icons/iron-concentrate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/iron-concentrate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -795,7 +795,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'iron-ore-dust',
-    icon = '__pyrawores__/graphics/icons/iron-ore-dust.png',
+    icon = '__pyraworesgraphics__/graphics/icons/iron-ore-dust.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -806,7 +806,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sintered-iron',
-    icon = '__pyrawores__/graphics/icons/sintered-iron.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sintered-iron.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -817,7 +817,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'reduced-iron',
-    icon = '__pyrawores__/graphics/icons/reduced-iron.png',
+    icon = '__pyraworesgraphics__/graphics/icons/reduced-iron.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -830,7 +830,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'raw-coal',
-    icon = '__pyrawores__/graphics/icons/raw-coal.png',
+    icon = '__pyraworesgraphics__/graphics/icons/raw-coal.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-coal',
@@ -843,7 +843,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'crushed-coal',
-    icon = '__pyrawores__/graphics/icons/crushed-coal.png',
+    icon = '__pyraworesgraphics__/graphics/icons/crushed-coal.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-coal',
@@ -856,7 +856,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'coarse-coal',
-    icon = '__pyrawores__/graphics/icons/coarse-coal.png',
+    icon = '__pyraworesgraphics__/graphics/icons/coarse-coal.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-coal',
@@ -871,14 +871,14 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ore-lead',
-    icon = '__pyrawores__/graphics/icons/mip/ore-lead.png',
+    icon = '__pyraworesgraphics__/graphics/icons/mip/ore-lead.png',
     icon_size = 64,
     icon_mipmaps = 4,
     pictures = {
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-lead.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-lead-1.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-lead-2.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-lead-3.png', scale = 0.25, mipmap_count = 1}
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-lead.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-lead-1.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-lead-2.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-lead-3.png', scale = 0.25, mipmap_count = 1}
     },
     flags = {},
     subgroup = "py-rawores-ores",
@@ -889,7 +889,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "grade-1-lead",
-    icon = "__pyrawores__/graphics/icons/grade-1-lead.png",
+    icon = "__pyraworesgraphics__/graphics/icons/grade-1-lead.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-lead",
@@ -900,7 +900,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-1-lead',
-    icon = '__pyrawores__/graphics/icons/grade-1-lead.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-1-lead.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-lead',
@@ -911,7 +911,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-2-lead',
-    icon = '__pyrawores__/graphics/icons/grade-2-lead.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-2-lead.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-lead',
@@ -922,7 +922,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-3-lead',
-    icon = '__pyrawores__/graphics/icons/grade-3-lead.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-3-lead.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-lead',
@@ -933,7 +933,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-4-lead',
-    icon = '__pyrawores__/graphics/icons/grade-4-lead.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-4-lead.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-lead',
@@ -944,7 +944,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'lead-dust',
-    icon = '__pyrawores__/graphics/icons/lead-dust.png',
+    icon = '__pyraworesgraphics__/graphics/icons/lead-dust.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-lead',
@@ -955,7 +955,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'lead-refined-dust',
-    icon = '__pyrawores__/graphics/icons/lead-refined-dust.png',
+    icon = '__pyraworesgraphics__/graphics/icons/lead-refined-dust.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-lead',
@@ -966,7 +966,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'lead-refined-dust-02',
-    icon = '__pyrawores__/graphics/icons/lead-refined-dust-02.png',
+    icon = '__pyraworesgraphics__/graphics/icons/lead-refined-dust-02.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-lead',
@@ -977,7 +977,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'lead-refined-dust-03',
-    icon = '__pyrawores__/graphics/icons/lead-refined-dust-03.png',
+    icon = '__pyraworesgraphics__/graphics/icons/lead-refined-dust-03.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-lead',
@@ -988,7 +988,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sl-concentrate',
-    icon = '__pyrawores__/graphics/icons/sl-concentrate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sl-concentrate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-lead',
@@ -999,7 +999,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-grade-lead',
-    icon = '__pyrawores__/graphics/icons/high-grade-lead.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-grade-lead.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-lead',
@@ -1010,7 +1010,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sintered-lead',
-    icon = '__pyrawores__/graphics/icons/sintered-lead.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sintered-lead.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-lead',
@@ -1021,7 +1021,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'reduced-lead',
-    icon = '__pyrawores__/graphics/icons/reduced-lead.png',
+    icon = '__pyraworesgraphics__/graphics/icons/reduced-lead.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-lead',
@@ -1032,7 +1032,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'lead-plate',
-    icon = '__pyrawores__/graphics/icons/lead-plate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/lead-plate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-plates',
@@ -1045,7 +1045,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sintered-silver',
-    icon = '__pyrawores__/graphics/icons/sintered-silver.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sintered-silver.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-silver',
@@ -1056,7 +1056,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'reduced-silver',
-    icon = '__pyrawores__/graphics/icons/reduced-silver.png',
+    icon = '__pyraworesgraphics__/graphics/icons/reduced-silver.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-silver',
@@ -1067,7 +1067,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-grade-silver',
-    icon = '__pyrawores__/graphics/icons/high-grade-silver.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-grade-silver.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-silver',
@@ -1078,7 +1078,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'silver-plate',
-    icon = '__pyrawores__/graphics/icons/silver-plate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/silver-plate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-plates',
@@ -1091,7 +1091,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'clean-nexelit',
-    icon = '__pyrawores__/graphics/icons/clean-nexelit.png',
+    icon = '__pyraworesgraphics__/graphics/icons/clean-nexelit.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nexelit',
@@ -1102,7 +1102,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-1-nexelit',
-    icon = '__pyrawores__/graphics/icons/grade-1-nexelit.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-1-nexelit.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nexelit',
@@ -1113,7 +1113,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-2-nexelit',
-    icon = '__pyrawores__/graphics/icons/grade-2-nexelit.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-2-nexelit.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nexelit',
@@ -1124,7 +1124,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-3-nexelit',
-    icon = '__pyrawores__/graphics/icons/grade-3-nexelit.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-3-nexelit.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nexelit',
@@ -1135,7 +1135,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'fine-nexelit-powder',
-    icon = '__pyrawores__/graphics/icons/fine-nexelit-powder.png',
+    icon = '__pyraworesgraphics__/graphics/icons/fine-nexelit-powder.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nexelit',
@@ -1146,7 +1146,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'nexelit-rejects',
-    icon = '__pyrawores__/graphics/icons/nexelit-rejects.png',
+    icon = '__pyraworesgraphics__/graphics/icons/nexelit-rejects.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nexelit',
@@ -1157,7 +1157,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-grade-nexelit',
-    icon = '__pyrawores__/graphics/icons/high-grade-nexelit.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-grade-nexelit.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nexelit',
@@ -1168,7 +1168,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'reduced-nexelit',
-    icon = '__pyrawores__/graphics/icons/reduced-nexelit.png',
+    icon = '__pyraworesgraphics__/graphics/icons/reduced-nexelit.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nexelit',
@@ -1179,7 +1179,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sintered-nexelit',
-    icon = '__pyrawores__/graphics/icons/sintered-nexelit.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sintered-nexelit.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nexelit',
@@ -1192,14 +1192,14 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ore-nickel',
-    icon = '__pyrawores__/graphics/icons/mip/ore-nickel.png',
+    icon = '__pyraworesgraphics__/graphics/icons/mip/ore-nickel.png',
     icon_size = 64,
     icon_mipmaps = 4,
     pictures = {
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-nickel.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-nickel-1.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-nickel-2.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-nickel-3.png', scale = 0.25, mipmap_count = 1}
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-nickel.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-nickel-1.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-nickel-2.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-nickel-3.png', scale = 0.25, mipmap_count = 1}
     },
     flags = {},
     subgroup = "py-rawores-ores",
@@ -1210,7 +1210,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "grade-1-nickel",
-    icon = "__pyrawores__/graphics/icons/grade-1-nickel.png",
+    icon = "__pyraworesgraphics__/graphics/icons/grade-1-nickel.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-nickel",
@@ -1221,7 +1221,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-2-nickel',
-    icon = '__pyrawores__/graphics/icons/grade-2-nickel.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-2-nickel.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nickel',
@@ -1232,7 +1232,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-3-nickel',
-    icon = '__pyrawores__/graphics/icons/grade-3-nickel.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-3-nickel.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nickel',
@@ -1243,7 +1243,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-4-nickel',
-    icon = '__pyrawores__/graphics/icons/grade-4-nickel.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-4-nickel.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nickel',
@@ -1254,7 +1254,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'nickel-rejects',
-    icon = '__pyrawores__/graphics/icons/nickel-rejects.png',
+    icon = '__pyraworesgraphics__/graphics/icons/nickel-rejects.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nickel',
@@ -1265,7 +1265,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-grade-nickel',
-    icon = '__pyrawores__/graphics/icons/high-grade-nickel.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-grade-nickel.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nickel',
@@ -1276,7 +1276,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'reduced-nickel',
-    icon = '__pyrawores__/graphics/icons/reduced-nickel.png',
+    icon = '__pyraworesgraphics__/graphics/icons/reduced-nickel.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nickel',
@@ -1287,7 +1287,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sintered-nickel',
-    icon = '__pyrawores__/graphics/icons/sintered-nickel.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sintered-nickel.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-nickel',
@@ -1298,7 +1298,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'nickel-plate',
-    icon = '__pyrawores__/graphics/icons/nickel-plate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/nickel-plate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-plates',
@@ -1311,14 +1311,14 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ore-tin',
-    icon = '__pyrawores__/graphics/icons/mip/ore-tin.png',
+    icon = '__pyraworesgraphics__/graphics/icons/mip/ore-tin.png',
     icon_size = 64,
     icon_mipmaps = 4,
     pictures = {
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-tin.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-tin-1.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-tin-2.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-tin-3.png', scale = 0.25, mipmap_count = 1}
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-tin.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-tin-1.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-tin-2.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-tin-3.png', scale = 0.25, mipmap_count = 1}
     },
     flags = {},
     subgroup = "py-rawores-ores",
@@ -1329,7 +1329,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "grade-1-tin",
-    icon = "__pyrawores__/graphics/icons/grade-1-tin.png",
+    icon = "__pyraworesgraphics__/graphics/icons/grade-1-tin.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-tin",
@@ -1340,7 +1340,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-2-tin',
-    icon = '__pyrawores__/graphics/icons/grade-2-tin.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-2-tin.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1351,7 +1351,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-3-tin',
-    icon = '__pyrawores__/graphics/icons/grade-3-tin.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-3-tin.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1362,7 +1362,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-4-tin',
-    icon = '__pyrawores__/graphics/icons/grade-4-tin.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-4-tin.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1373,7 +1373,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'tin-ore-rejects',
-    icon = '__pyrawores__/graphics/icons/tin-ore-rejects.png',
+    icon = '__pyraworesgraphics__/graphics/icons/tin-ore-rejects.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1384,7 +1384,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'tin-dust',
-    icon = '__pyrawores__/graphics/icons/tin-dust.png',
+    icon = '__pyraworesgraphics__/graphics/icons/tin-dust.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1395,7 +1395,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'tin-rejects',
-    icon = '__pyrawores__/graphics/icons/tin-rejects.png',
+    icon = '__pyraworesgraphics__/graphics/icons/tin-rejects.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1406,7 +1406,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'powdered-tin',
-    icon = '__pyrawores__/graphics/icons/powdered-tin.png',
+    icon = '__pyraworesgraphics__/graphics/icons/powdered-tin.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1417,7 +1417,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'tin-concentrate',
-    icon = '__pyrawores__/graphics/icons/tin-concentrate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/tin-concentrate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1428,7 +1428,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-tin-concentrate',
-    icon = '__pyrawores__/graphics/icons/high-tin-concentrate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-tin-concentrate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1439,7 +1439,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-tin-mix',
-    icon = '__pyrawores__/graphics/icons/high-tin-mix.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-tin-mix.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1450,7 +1450,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-grade-tin',
-    icon = '__pyrawores__/graphics/icons/high-grade-tin.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-grade-tin.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1461,7 +1461,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sintered-tin',
-    icon = '__pyrawores__/graphics/icons/sintered-tin.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sintered-tin.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1472,7 +1472,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'reduced-tin',
-    icon = '__pyrawores__/graphics/icons/reduced-tin.png',
+    icon = '__pyraworesgraphics__/graphics/icons/reduced-tin.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-tin',
@@ -1483,7 +1483,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'tin-plate',
-    icon = '__pyrawores__/graphics/icons/tin-plate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/tin-plate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-plates',
@@ -1496,7 +1496,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-1-u',
-    icon = '__pyrawores__/graphics/icons/grade-1-u.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-1-u.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-uranium',
@@ -1507,7 +1507,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-2-u',
-    icon = '__pyrawores__/graphics/icons/grade-2-u.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-2-u.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-uranium',
@@ -1518,7 +1518,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'powdered-u',
-    icon = '__pyrawores__/graphics/icons/powdered-u.png',
+    icon = '__pyraworesgraphics__/graphics/icons/powdered-u.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-uranium',
@@ -1529,7 +1529,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = '20-u-powder',
-    icon = '__pyrawores__/graphics/icons/20-u-powder.png',
+    icon = '__pyraworesgraphics__/graphics/icons/20-u-powder.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-uranium',
@@ -1540,7 +1540,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = '40-u-powder',
-    icon = '__pyrawores__/graphics/icons/40-u-powder.png',
+    icon = '__pyraworesgraphics__/graphics/icons/40-u-powder.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-uranium',
@@ -1551,7 +1551,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = '70-u-powder',
-    icon = '__pyrawores__/graphics/icons/70-u-powder.png',
+    icon = '__pyraworesgraphics__/graphics/icons/70-u-powder.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-uranium',
@@ -1562,7 +1562,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'yellow-cake',
-    icon = '__pyrawores__/graphics/icons/yellow-cake.png',
+    icon = '__pyraworesgraphics__/graphics/icons/yellow-cake.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-uranium',
@@ -1573,7 +1573,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'fuelrod-mk02',
-    icon = '__pyrawores__/graphics/icons/fuel-rod-mk02.png',
+    icon = '__pyraworesgraphics__/graphics/icons/fuel-rod-mk02.png',
     icon_size = 32,
     fuel_category = 'chemical',
     fuel_value = '125MJ',
@@ -1588,7 +1588,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'fuelrod-mk03',
-    icon = '__pyrawores__/graphics/icons/fuel-rod-mk03.png',
+    icon = '__pyraworesgraphics__/graphics/icons/fuel-rod-mk03.png',
     icon_size = 32,
     fuel_category = 'chemical',
     fuel_value = '225MJ',
@@ -1603,7 +1603,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'fuelrod-mk04',
-    icon = '__pyrawores__/graphics/icons/fuel-rod-mk04.png',
+    icon = '__pyraworesgraphics__/graphics/icons/fuel-rod-mk04.png',
     icon_size = 32,
     fuel_category = 'chemical',
     fuel_value = '450MJ',
@@ -1618,7 +1618,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'fuelrod-mk05',
-    icon = '__pyrawores__/graphics/icons/fuel-rod-mk05.png',
+    icon = '__pyraworesgraphics__/graphics/icons/fuel-rod-mk05.png',
     icon_size = 32,
     fuel_category = 'chemical',
     fuel_value = '550MJ',
@@ -1633,7 +1633,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'uranium-fuel-cell-mk02',
-    icon = '__pyrawores__/graphics/icons/uranium-fuel-cell-mk02.png',
+    icon = '__pyraworesgraphics__/graphics/icons/uranium-fuel-cell-mk02.png',
     icon_size = 32,
     fuel_category = 'nuclear',
     burnt_result = 'used-up-uranium-fuel-cell',
@@ -1647,7 +1647,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'uranium-fuel-cell-mk03',
-    icon = '__pyrawores__/graphics/icons/uranium-fuel-cell-mk03.png',
+    icon = '__pyraworesgraphics__/graphics/icons/uranium-fuel-cell-mk03.png',
     icon_size = 32,
     fuel_category = 'nuclear',
     burnt_result = 'used-up-uranium-fuel-cell',
@@ -1661,7 +1661,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'uranium-fuel-cell-mk04',
-    icon = '__pyrawores__/graphics/icons/uranium-fuel-cell-mk04.png',
+    icon = '__pyraworesgraphics__/graphics/icons/uranium-fuel-cell-mk04.png',
     icon_size = 32,
     fuel_category = 'nuclear',
     burnt_result = 'used-up-uranium-fuel-cell',
@@ -1675,7 +1675,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'uranium-fuel-cell-mk05',
-    icon = '__pyrawores__/graphics/icons/uranium-fuel-cell-mk05.png',
+    icon = '__pyraworesgraphics__/graphics/icons/uranium-fuel-cell-mk05.png',
     icon_size = 32,
     fuel_category = 'nuclear',
     burnt_result = 'used-up-uranium-fuel-cell',
@@ -1691,14 +1691,14 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ore-zinc',
-    icon = '__pyrawores__/graphics/icons/mip/ore-zinc.png',
+    icon = '__pyraworesgraphics__/graphics/icons/mip/ore-zinc.png',
     icon_size = 64,
     icon_mipmaps = 4,
     pictures = {
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-zinc.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-zinc-1.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-zinc-2.png', scale = 0.25, mipmap_count = 1},
-        {size = 64, filename = '__pyrawores__/graphics/icons/mip/ore-zinc-3.png', scale = 0.25, mipmap_count = 1}
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-zinc.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-zinc-1.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-zinc-2.png', scale = 0.25, mipmap_count = 1},
+        {size = 64, filename = '__pyraworesgraphics__/graphics/icons/mip/ore-zinc-3.png', scale = 0.25, mipmap_count = 1}
     },
     flags = {},
     subgroup = "py-rawores-ores",
@@ -1709,7 +1709,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "grade-1-zinc",
-    icon = "__pyrawores__/graphics/icons/grade-1-zinc.png",
+    icon = "__pyraworesgraphics__/graphics/icons/grade-1-zinc.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-zinc",
@@ -1720,7 +1720,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-2-zinc',
-    icon = '__pyrawores__/graphics/icons/grade-2-zinc.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-2-zinc.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-zinc',
@@ -1731,7 +1731,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-3-zinc',
-    icon = '__pyrawores__/graphics/icons/grade-3-zinc.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-3-zinc.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-zinc',
@@ -1742,7 +1742,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'grade-4-zinc',
-    icon = '__pyrawores__/graphics/icons/grade-4-zinc.png',
+    icon = '__pyraworesgraphics__/graphics/icons/grade-4-zinc.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-zinc',
@@ -1753,7 +1753,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'powdered-zinc',
-    icon = '__pyrawores__/graphics/icons/powdered-zinc.png',
+    icon = '__pyraworesgraphics__/graphics/icons/powdered-zinc.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-zinc',
@@ -1764,7 +1764,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'concentrated-zinc',
-    icon = '__pyrawores__/graphics/icons/concentrated-zinc.png',
+    icon = '__pyraworesgraphics__/graphics/icons/concentrated-zinc.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-zinc',
@@ -1775,7 +1775,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'purified-zinc',
-    icon = '__pyrawores__/graphics/icons/purified-zinc.png',
+    icon = '__pyraworesgraphics__/graphics/icons/purified-zinc.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-zinc',
@@ -1786,7 +1786,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'high-grade-zinc',
-    icon = '__pyrawores__/graphics/icons/high-grade-zinc.png',
+    icon = '__pyraworesgraphics__/graphics/icons/high-grade-zinc.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-zinc',
@@ -1797,7 +1797,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sintered-zinc',
-    icon = '__pyrawores__/graphics/icons/sintered-zinc.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sintered-zinc.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-zinc',
@@ -1808,7 +1808,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'reduced-zinc',
-    icon = '__pyrawores__/graphics/icons/reduced-zinc.png',
+    icon = '__pyraworesgraphics__/graphics/icons/reduced-zinc.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-zinc',
@@ -1819,7 +1819,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'zinc-plate',
-    icon = '__pyrawores__/graphics/icons/zinc-plate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/zinc-plate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-plates',
@@ -1832,7 +1832,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'mega-drill-head',
-    icon = '__pyrawores__/graphics/icons/mega-drill-head.png',
+    icon = '__pyraworesgraphics__/graphics/icons/mega-drill-head.png',
     icon_size = 32,
     fuel_value = '10GJ',
     fuel_category = 'mega-drill-head',
@@ -1845,7 +1845,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'powdered-ralesia-seeds',
-    icon = '__pyrawores__/graphics/icons/powdered-ralesia-seeds.png',
+    icon = '__pyraworesgraphics__/graphics/icons/powdered-ralesia-seeds.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-items',
@@ -1856,7 +1856,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'starch',
-    icon = '__pyrawores__/graphics/icons/starch.png',
+    icon = '__pyraworesgraphics__/graphics/icons/starch.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-items',
@@ -1867,7 +1867,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'salt',
-    icon = '__pyrawores__/graphics/icons/salt.png',
+    icon = '__pyraworesgraphics__/graphics/icons/salt.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-ores',
@@ -1878,7 +1878,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sodium-hydroxide',
-    icon = '__pyrawores__/graphics/icons/sodium-hydroxide.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sodium-hydroxide.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-items',
@@ -1889,7 +1889,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sodium-bisulfate',
-    icon = '__pyrawores__/graphics/icons/sodium-bisulfate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sodium-bisulfate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-items',
@@ -1900,7 +1900,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sodium-sulfate',
-    icon = '__pyrawores__/graphics/icons/sodium-sulfate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sodium-sulfate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-items',
@@ -1911,7 +1911,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sodium-carbonate',
-    icon = '__pyrawores__/graphics/icons/sodium-carbonate.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sodium-carbonate.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-items',
@@ -1922,7 +1922,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'p2s5',
-    icon = '__pyrawores__/graphics/icons/p2s5.png',
+    icon = '__pyraworesgraphics__/graphics/icons/p2s5.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-items',
@@ -1933,7 +1933,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'pyrite',
-    icon = '__pyrawores__/graphics/icons/pyrite.png',
+    icon = '__pyraworesgraphics__/graphics/icons/pyrite.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-items',
@@ -1944,7 +1944,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ammonium-chloride',
-    icon = '__pyrawores__/graphics/icons/ammonium-chloride.png',
+    icon = '__pyraworesgraphics__/graphics/icons/ammonium-chloride.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-items',
@@ -1955,7 +1955,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'duralumin',
-    icon = '__pyrawores__/graphics/icons/duralumin.png',
+    icon = '__pyraworesgraphics__/graphics/icons/duralumin.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-plates',
@@ -1966,7 +1966,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'stainless-steel',
-    icon = '__pyrawores__/graphics/icons/stainless-steel.png',
+    icon = '__pyraworesgraphics__/graphics/icons/stainless-steel.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-plates',
@@ -1977,7 +1977,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'super-steel',
-    icon = '__pyrawores__/graphics/icons/super-steel.png',
+    icon = '__pyraworesgraphics__/graphics/icons/super-steel.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-plates',
@@ -1988,7 +1988,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'sponge-iron',
-    icon = '__pyrawores__/graphics/icons/sponge-iron.png',
+    icon = '__pyraworesgraphics__/graphics/icons/sponge-iron.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-iron',
@@ -1999,7 +1999,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'tinned-cable',
-    icon = '__pyrawores__/graphics/icons/tinned-cable.png',
+    icon = '__pyraworesgraphics__/graphics/icons/tinned-cable.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-items',
@@ -2010,7 +2010,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'aramid',
-    icon = '__pyrawores__/graphics/icons/aramid.png',
+    icon = '__pyraworesgraphics__/graphics/icons/aramid.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-items',
@@ -2021,7 +2021,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'solder',
-    icon = '__pyrawores__/graphics/icons/solder.png',
+    icon = '__pyraworesgraphics__/graphics/icons/solder.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-rawores-items',

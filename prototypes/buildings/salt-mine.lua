@@ -17,7 +17,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "salt-mine",
-    icon = "__pyrawores__/graphics/icons/mega-salt.png",
+    icon = "__pyraworesgraphics__/graphics/icons/mega-salt.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-mines",
@@ -29,7 +29,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "salt-mine",
-    icon = "__pyrawores__/graphics/icons/mega-salt.png",
+    icon = "__pyraworesgraphics__/graphics/icons/mega-salt.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "salt-mine"},
@@ -80,7 +80,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/salt-mine/i1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/salt-mine/i1.png",
                 width = 96,
                 height = 352,
                 line_length = 20,
@@ -89,7 +89,7 @@ ENTITY {
                 shift = util.by_pixel(-129, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/salt-mine/i2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/salt-mine/i2.png",
                 width = 96,
                 height = 352,
                 line_length = 20,
@@ -98,7 +98,7 @@ ENTITY {
                 shift = util.by_pixel(-33, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/salt-mine/i3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/salt-mine/i3.png",
                 width = 96,
                 height = 352,
                 line_length = 20,
@@ -107,7 +107,7 @@ ENTITY {
                 shift = util.by_pixel(63, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/salt-mine/i4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/salt-mine/i4.png",
                 width = 64,
                 height = 352,
                 line_length = 20,
@@ -116,7 +116,7 @@ ENTITY {
                 shift = util.by_pixel(143, 0)
             },
             {
-                filename = "__pyrawores__/graphics/entity/salt-mine/is3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/salt-mine/is3.png",
                 width = 96,
                 height = 352,
                 line_length = 20,
@@ -126,7 +126,7 @@ ENTITY {
                 shift = util.by_pixel(72, 13)
             },
             {
-                filename = "__pyrawores__/graphics/entity/salt-mine/is4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/salt-mine/is4.png",
                 width = 64,
                 height = 352,
                 line_length = 20,
@@ -140,8 +140,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/salt-mine.ogg", volume = 0.8},
-        idle_sound = {filename = "__pyrawores__/sounds/salt-mine.ogg", volume = 0.5},
+        sound = {filename = "__pyraworesgraphics__/sounds/salt-mine.ogg", volume = 0.8},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/salt-mine.ogg", volume = 0.5},
         apparent_volume = 2.5
     }
 }

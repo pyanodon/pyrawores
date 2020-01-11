@@ -210,7 +210,7 @@ RECIPE {
         {type = "fluid", name = "methanol", amount = 120}
     },
     subgroup = "py-methanol",
-    icon = "__pycoalprocessing__/graphics/icons/methanol.png",
+    icon = "__pycoalprocessinggraphics__/graphics/icons/methanol.png",
     icon_size = 32,
     order = "b"
 }:add_unlock("methanol-processing-2")
@@ -229,7 +229,7 @@ RECIPE {
         {type = "fluid", name = "carbon-dioxide", amount = 50}
     },
     main_product = "hydrogen",
-    icon = "__pycoalprocessing__/graphics/icons/syngas-distilation.png",
+    icon = "__pycoalprocessinggraphics__/graphics/icons/syngas-distilation.png",
     icon_size = 32,
     subgroup = "py-items",
     order = "a [coal-gas]"
@@ -250,7 +250,7 @@ RECIPE {
         {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 800},
         {type = "fluid", name = "steam", amount = 500, temperature = 60}
     },
-    icon = "__pyrawores__/graphics/icons/combustion-kerosene.png",
+    icon = "__pyraworesgraphics__/graphics/icons/combustion-kerosene.png",
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
@@ -272,7 +272,7 @@ RECIPE {
         {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 800},
         {type = "fluid", name = "steam", amount = 500, temperature = 60}
     },
-    icon = "__pyrawores__/graphics/icons/combustion-fuelrod-mk02.png",
+    icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk02.png",
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
@@ -294,7 +294,7 @@ RECIPE {
         {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 850},
         {type = "fluid", name = "steam", amount = 500, temperature = 60}
     },
-    icon = "__pyrawores__/graphics/icons/combustion-fuelrod-mk03.png",
+    icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk03.png",
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
@@ -316,7 +316,7 @@ RECIPE {
         {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 900},
         {type = "fluid", name = "steam", amount = 500, temperature = 60}
     },
-    icon = "__pyrawores__/graphics/icons/combustion-fuelrod-mk04.png",
+    icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk04.png",
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
@@ -338,7 +338,7 @@ RECIPE {
         {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 950},
         {type = "fluid", name = "steam", amount = 500, temperature = 60}
     },
-    icon = "__pyrawores__/graphics/icons/combustion-fuelrod-mk05.png",
+    icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk05.png",
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
@@ -358,7 +358,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "hydrogen", amount = 300}
     },
-    icon = "__pycoalprocessing__/graphics/icons/glycerol-hydrogen.png",
+    icon = "__pycoalprocessinggraphics__/graphics/icons/glycerol-hydrogen.png",
     icon_size = 32,
     subgroup = "py-fluid-handling",
     order = "o"
@@ -378,7 +378,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-aluminium", amount = 15}
     },
-    icon = "__pyrawores__/graphics/icons/drilling-aluminium.png",
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-aluminium.png",
     icon_size = 32,
     subgroup = "py-drilling",
     order = "a"
@@ -398,7 +398,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-chromium", amount = 15}
     },
-    icon = "__pyrawores__/graphics/icons/drilling-chromium.png",
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-chromium.png",
     icon_size = 32,
     subgroup = "py-drilling",
     order = "a"
@@ -418,7 +418,7 @@ RECIPE {
     results = {
         {type = "item", name = "copper-ore", amount = 15}
     },
-    icon = "__pyrawores__/graphics/icons/drilling-copper.png",
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-copper.png",
     icon_size = 32,
     subgroup = "py-drilling",
     order = "a"
@@ -438,7 +438,7 @@ RECIPE {
     results = {
         {type = "item", name = "iron-ore", amount = 15}
     },
-    icon = "__pyrawores__/graphics/icons/drilling-iron.png",
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-iron.png",
     icon_size = 32,
     subgroup = "py-drilling",
     order = "a"
@@ -458,7 +458,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-lead", amount = 20}
     },
-    icon = "__pyrawores__/graphics/icons/drilling-lead.png",
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-lead.png",
     icon_size = 32,
     subgroup = "py-drilling",
     order = "a"
@@ -478,7 +478,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-nickel", amount = 15}
     },
-    icon = "__pyrawores__/graphics/icons/drilling-nickel.png",
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-nickel.png",
     icon_size = 32,
     subgroup = "py-drilling",
     order = "a"
@@ -498,7 +498,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-quartz", amount = 15}
     },
-    icon = "__pyrawores__/graphics/icons/drilling-quartz.png",
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-quartz.png",
     icon_size = 32,
     subgroup = "py-drilling",
     order = "a"
@@ -518,7 +518,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-tin", amount = 15}
     },
-    icon = "__pyrawores__/graphics/icons/drilling-tin.png",
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-tin.png",
     icon_size = 32,
     subgroup = "py-drilling",
     order = "a"
@@ -538,7 +538,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-titanium", amount = 15}
     },
-    icon = "__pyrawores__/graphics/icons/drilling-titanium.png",
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-titanium.png",
     icon_size = 32,
     subgroup = "py-drilling",
     order = "a"
@@ -558,7 +558,7 @@ RECIPE {
     results = {
         {type = "item", name = "ore-zinc", amount = 15}
     },
-    icon = "__pyrawores__/graphics/icons/drilling-zinc.png",
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-zinc.png",
     icon_size = 32,
     subgroup = "py-drilling",
     order = "a"
@@ -643,7 +643,7 @@ RECIPE {
         {type = "item", name = "nbfe-alloy", amount = 15}
     },
     main_product= "nbfe-alloy",
-    icon = "__pycoalprocessing__/graphics/icons/nbfe-alloy.png",
+    icon = "__pycoalprocessinggraphics__/graphics/icons/nbfe-alloy.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"

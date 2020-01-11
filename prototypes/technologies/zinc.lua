@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "zinc-mk01",
-    icon = "__pyrawores__/graphics/technology/zinc-1.png",
+    icon = "__pyraworesgraphics__/graphics/technology/zinc-1.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {'machines-mk01'},
@@ -18,7 +18,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'zinc-mk02',
-    icon = '__pyrawores__/graphics/technology/zinc-2.png',
+    icon = '__pyraworesgraphics__/graphics/technology/zinc-2.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk02','zinc-mk01'},
@@ -36,7 +36,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'zinc-mk03',
-    icon = '__pyrawores__/graphics/technology/zinc-3.png',
+    icon = '__pyraworesgraphics__/graphics/technology/zinc-3.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk03','zinc-mk02'},
@@ -55,7 +55,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'zinc-mk04',
-    icon = '__pyrawores__/graphics/technology/zinc-4.png',
+    icon = '__pyraworesgraphics__/graphics/technology/zinc-4.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk04','zinc-mk03'},

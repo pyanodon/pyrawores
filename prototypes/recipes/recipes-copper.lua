@@ -15,7 +15,7 @@ RECIPE {
         {type = "item", name = "grade-2-copper", amount = 2}
     },
     main_product = "grade-2-copper",
-    icon = "__pyrawores__/graphics/icons/ore-copper-screening.png",
+    icon = "__pyraworesgraphics__/graphics/icons/ore-copper-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-copper",
 }:add_unlock("copper-mk01"):change_category("screener")
@@ -51,7 +51,7 @@ RECIPE {
         {type = "item", name = "copper-rejects", amount = 1}
     },
     main_product = "grade-3-copper",
-    icon = "__pyrawores__/graphics/icons/grade-2-copper-screening.png",
+    icon = "__pyraworesgraphics__/graphics/icons/grade-2-copper-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-copper",
 }:add_unlock("copper-mk02"):change_category("screener")
@@ -87,7 +87,7 @@ RECIPE {
         {type = "item", name = "low-grade-rejects", amount = 2}
     },
     main_product = "grade-4-copper",
-    icon = "__pyrawores__/graphics/icons/grade-3-copper-screening.png",
+    icon = "__pyraworesgraphics__/graphics/icons/grade-3-copper-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-copper",
 }:add_unlock("copper-mk02"):change_category("screener")
@@ -106,7 +106,7 @@ RECIPE {
         {type = "item", name = "copper-low-dust", amount = 1}
     },
     main_product = "grade-4-copper",
-    icon = "__pyrawores__/graphics/icons/class-copper-low-dust.png",
+    icon = "__pyraworesgraphics__/graphics/icons/class-copper-low-dust.png",
     icon_size = 32,
     subgroup = "py-rawores-copper",
 }:add_unlock("copper-mk02")
@@ -126,7 +126,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 200}
     },
     main_product = "low-grade-copper",
-    icon = "__pyrawores__/graphics/icons/wash-copper-low-dust.png",
+    icon = "__pyraworesgraphics__/graphics/icons/wash-copper-low-dust.png",
     icon_size = 32,
     subgroup = "py-rawores-copper",
 }:add_unlock("copper-mk02")

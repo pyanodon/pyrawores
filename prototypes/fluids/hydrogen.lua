@@ -12,7 +12,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 100}
     },
     --main_product = "hydrogen",
-    icon = "__pyrawores__/graphics/icons/water-electrolysis.png",
+    icon = "__pyraworesgraphics__/graphics/icons/water-electrolysis.png",
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "aaa"
@@ -21,7 +21,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "hydrogen",
-    icon = "__pyrawores__/graphics/icons/hydrogen.png",
+    icon = "__pyraworesgraphics__/graphics/icons/hydrogen.png",
     icon_size = 32,
     default_temperature = 15, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 1, g = 1, b = 1},

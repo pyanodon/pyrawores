@@ -14,7 +14,7 @@ RECIPE {
         {type = "fluid", name = "diesel", amount = 50},
     },
     main_product = "kerosene",
-    icon = "__pyrawores__/graphics/icons/kerosene.png",
+    icon = "__pyraworesgraphics__/graphics/icons/kerosene.png",
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "q-2"
@@ -24,7 +24,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "kerosene",
-    icon = "__pyrawores__/graphics/icons/kerosene.png",
+    icon = "__pyraworesgraphics__/graphics/icons/kerosene.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.839, g = 0.784, b = 0.137},

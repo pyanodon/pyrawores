@@ -19,7 +19,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "uranium-mine",
-    icon = "__pyrawores__/graphics/icons/mega-uranium.png",
+    icon = "__pyraworesgraphics__/graphics/icons/mega-uranium.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-mines",
@@ -31,7 +31,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "uranium-mine",
-    icon = "__pyrawores__/graphics/icons/mega-uranium.png",
+    icon = "__pyraworesgraphics__/graphics/icons/mega-uranium.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "uranium-mine"},
@@ -79,7 +79,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/uranium-mine/left.png",
+                filename = "__pyraworesgraphics__/graphics/entity/uranium-mine/left.png",
                 width = 192,
                 height = 399,
                 line_length = 10,
@@ -88,7 +88,7 @@ ENTITY {
                 shift = util.by_pixel(-80, -22)
             },
             {
-                filename = "__pyrawores__/graphics/entity/uranium-mine/right.png",
+                filename = "__pyraworesgraphics__/graphics/entity/uranium-mine/right.png",
                 width = 160,
                 height = 399,
                 line_length = 10,
@@ -98,7 +98,7 @@ ENTITY {
             },
             --SHADOWS
             {
-                filename = "__pyrawores__/graphics/entity/uranium-mine/shadow-left.png",
+                filename = "__pyraworesgraphics__/graphics/entity/uranium-mine/shadow-left.png",
                 width = 192,
                 height = 373,
                 line_length = 10,
@@ -108,7 +108,7 @@ ENTITY {
                 shift = util.by_pixel(-80, -4)
             },
             {
-                filename = "__pyrawores__/graphics/entity/uranium-mine/shadow-right.png",
+                filename = "__pyraworesgraphics__/graphics/entity/uranium-mine/shadow-right.png",
                 width = 191,
                 height = 373,
                 line_length = 10,
@@ -121,8 +121,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/uranium-mine.ogg", volume = 1},
-        idle_sound = {filename = "__pyrawores__/sounds/uranium-mine.ogg", volume = 0.8},
+        sound = {filename = "__pyraworesgraphics__/sounds/uranium-mine.ogg", volume = 1},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/uranium-mine.ogg", volume = 0.8},
         apparent_volume = 2.5
     }
 }

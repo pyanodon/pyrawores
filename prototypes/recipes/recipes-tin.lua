@@ -12,7 +12,7 @@ RECIPE {
         {type = "item", name = "grade-2-tin", amount = 1, probability = 0.5},
     },
     main_product = "grade-1-tin",
-    icon = "__pyrawores__/graphics/icons/ore-tin-screening.png",
+    icon = "__pyraworesgraphics__/graphics/icons/ore-tin-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
 }:add_unlock("tin-mk01"):change_category('screener')
@@ -48,7 +48,7 @@ RECIPE {
         {type = "item", name = "tin-ore-rejects", amount = 1, probability = 0.5},
     },
     main_product = "grade-3-tin",
-    icon = "__pyrawores__/graphics/icons/grade-1-tin-screening.png",
+    icon = "__pyraworesgraphics__/graphics/icons/grade-1-tin-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
 }:add_unlock("tin-mk02"):change_category('screener')
@@ -66,7 +66,7 @@ RECIPE {
         {type = "item", name = "grade-1-tin", amount = 1, probability = 0.5},
     },
     main_product = "grade-1-tin",
-    icon = "__pyrawores__/graphics/icons/recrush-tin-ore-rejects.png",
+    icon = "__pyraworesgraphics__/graphics/icons/recrush-tin-ore-rejects.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
 }:add_unlock("tin-mk02"):change_category('secondary-crusher')
@@ -86,7 +86,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 100},
     },
     main_product = "grade-4-tin",
-    icon = "__pyrawores__/graphics/icons/wash-grade-3-tin.png",
+    icon = "__pyraworesgraphics__/graphics/icons/wash-grade-3-tin.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
 }:add_unlock("tin-mk02")
@@ -140,7 +140,7 @@ RECIPE {
         {type = "item", name = "tailings-dust", amount = 1},
     },
     main_product = "powdered-tin",
-    icon = "__pyrawores__/graphics/icons/tin-rejects-screening.png",
+    icon = "__pyraworesgraphics__/graphics/icons/tin-rejects-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
 }:add_unlock("tin-mk03"):change_category('screener')

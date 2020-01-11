@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water", amount = 100},
     },
     main_product = "al-pulp-04",
-    icon = "__pyrawores__/graphics/icons/al-pulp-04.png",
+    icon = "__pyraworesgraphics__/graphics/icons/al-pulp-04.png",
     icon_size = 32,
     subgroup = "py-rawores-aluminium",
     order = "f"
@@ -23,7 +23,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "al-pulp-04",
-    icon = "__pyrawores__/graphics/icons/al-pulp-04.png",
+    icon = "__pyraworesgraphics__/graphics/icons/al-pulp-04.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.827, g = 0.568, b = 0.0},

@@ -21,7 +21,7 @@
 FLUID {
     type = 'fluid',
     name = 'copper-solution',
-    icon = '__pyrawores__/graphics/icons/copper-solution.png',
+    icon = '__pyraworesgraphics__/graphics/icons/copper-solution.png',
     icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.952, g = 0.556, b = 0.0},

@@ -15,7 +15,7 @@ ENTITY {
     type = "resource",
     name = "ore-nickel",
     --category = "ore-nickel",
-    icon = "__pyrawores__/graphics/icons/ore-nickel.png",
+    icon = "__pyraworesgraphics__/graphics/icons/ore-nickel.png",
     icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
@@ -51,14 +51,14 @@ ENTITY {
     stage_counts = {2000, 1600, 1400, 1200, 800, 400, 200, 10},
     stages = {
         sheet = {
-            filename = "__pyrawores__/graphics/entity/ores/nickel/nickel.png",
+            filename = "__pyraworesgraphics__/graphics/entity/ores/nickel/nickel.png",
             priority = "extra-high",
             width = 64,
             height = 64,
             frame_count = 8,
             variation_count = 8,
             hr_version = {
-                filename = "__pyrawores__/graphics/entity/ores/nickel/hr-nickel.png",
+                filename = "__pyraworesgraphics__/graphics/entity/ores/nickel/hr-nickel.png",
                 priority = "extra-high",
                 width = 128,
                 height = 128,

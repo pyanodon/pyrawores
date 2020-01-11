@@ -21,7 +21,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "outlet-gas-01",
-    icon = "__pyrawores__/graphics/icons/outlet-gas-01.png",
+    icon = "__pyraworesgraphics__/graphics/icons/outlet-gas-01.png",
     icon_size = 32,
     default_temperature = 15, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.960, g = 0.701, b = 0.207},
