@@ -14,7 +14,7 @@ RECIPE {
         {type = "item", name = "processed-iron-ore", amount = 3}
     },
     main_product = "processed-iron-ore",
-    icon = "__pycoalprocessinggraphics__/graphics/icons/crush-iron.png",
+    icon = "__pycoalprocessing__/graphics/icons/crush-iron.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk01")
@@ -34,7 +34,7 @@ RECIPE {
         {type = "item", name = "grade-3-iron", amount = 1, probability = 0.5},
     },
     main_product = "grade-1-iron",
-    icon = "__pyraworesgraphics__/graphics/icons/processed-iron-ore-screening.png",
+    icon = "__pyrawores__/graphics/icons/processed-iron-ore-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk02"):change_category('screener')
@@ -52,7 +52,7 @@ RECIPE {
         {type = "item", name = "grade-2-iron", amount = 1},
     },
     main_product = "grade-2-iron",
-    icon = "__pyraworesgraphics__/graphics/icons/recrush-grade-3-iron.png",
+    icon = "__pyrawores__/graphics/icons/recrush-grade-3-iron.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk02"):change_category('secondary-crusher')
@@ -87,7 +87,7 @@ RECIPE {
         {type = "item", name = "iron-ore-dust", amount = 1}
     },
     main_product = "iron-ore-dust",
-    icon = "__pyraworesgraphics__/graphics/icons/iron-ore-dust.png",
+    icon = "__pyrawores__/graphics/icons/iron-ore-dust.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk02")
@@ -108,7 +108,7 @@ RECIPE {
         {type = "fluid", name = "coal-slurry", amount = 50},
     },
     main_product = "iron-concentrate",
-    icon = "__pyraworesgraphics__/graphics/icons/iron-concentrate.png",
+    icon = "__pyrawores__/graphics/icons/iron-concentrate.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk03"):change_category('jig')
@@ -127,7 +127,7 @@ RECIPE {
         {type = "item", name = "iron-dust-concentrate", amount = 1},
     },
     main_product = "iron-dust-concentrate",
-    icon = "__pyraworesgraphics__/graphics/icons/iron-dust-concentrate.png",
+    icon = "__pyrawores__/graphics/icons/iron-dust-concentrate.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk03")

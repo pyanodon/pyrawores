@@ -12,7 +12,7 @@ RECIPE {
         {type = "item", name = "stone", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-chromite",
-    icon = "__pyraworesgraphics__/graphics/icons/crusher-chromium.png",
+    icon = "__pyrawores__/graphics/icons/crusher-chromium.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk01")
@@ -31,7 +31,7 @@ RECIPE {
         {type = "item", name = "grade-2-chromite", amount = 1, probability = 0.4}
     },
     main_product = "grade-3-chromite",
-    icon = "__pyraworesgraphics__/graphics/icons/grade-3-chromite.png",
+    icon = "__pyrawores__/graphics/icons/grade-3-chromite.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk02")
@@ -50,7 +50,7 @@ RECIPE {
         {type = "item", name = "gravel", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-chromite",
-    icon = "__pyraworesgraphics__/graphics/icons/chromite-2-grade-screener.png",
+    icon = "__pyrawores__/graphics/icons/chromite-2-grade-screener.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk02"):change_category("screener")
@@ -123,7 +123,7 @@ RECIPE {
         {type = "item", name = "sand", amount = 1, probability = 0.4}
     },
     main_product = "high-chromite",
-    icon = "__pyraworesgraphics__/graphics/icons/recrush-high-chromite.png",
+    icon = "__pyrawores__/graphics/icons/recrush-high-chromite.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk03"):change_category("secondary-crusher")
@@ -382,7 +382,7 @@ RECIPE {
         {type = "item", name = "chromium", amount = 1}
     },
     --main_product= "glass",
-    icon = "__pycoalprocessinggraphics__/graphics/icons/chromium.png",
+    icon = "__pycoalprocessing__/graphics/icons/chromium.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
     order = "aac"

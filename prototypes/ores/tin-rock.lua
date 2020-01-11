@@ -15,7 +15,7 @@ DATA {
     type = "resource",
     name = "tin-rock",
     category = "tin-rock",
-    icon = "__pyraworesgraphics__/graphics/icons/ores/tin-rock.png",
+    icon = "__pyrawores__/graphics/icons/ores/tin-rock.png",
 	icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
@@ -64,7 +64,7 @@ DATA {
     stage_counts = {0},
     stages = {
         sheet = {
-            filename = "__pyraworesgraphics__/graphics/entity/ores/tin/tin-mine-place.png",
+            filename = "__pyrawores__/graphics/entity/ores/tin/tin-mine-place.png",
             priority = "extra-high",
             width = 416,
             height = 416,

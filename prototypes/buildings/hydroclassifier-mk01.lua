@@ -18,7 +18,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "hydroclassifier-mk01",
-    icon = "__pyraworesgraphics__/graphics/icons/hydroclassifier-mk01.png",
+    icon = "__pyrawores__/graphics/icons/hydroclassifier-mk01.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-rawores-buildings-mk01",
@@ -30,7 +30,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "hydroclassifier-mk01",
-    icon = "__pyraworesgraphics__/graphics/icons/hydroclassifier-mk01.png",
+    icon = "__pyrawores__/graphics/icons/hydroclassifier-mk01.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "hydroclassifier-mk01"},
@@ -57,7 +57,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/hydroclassifier-mk01/h1.png",
+                filename = "__pyrawores__/graphics/entity/hydroclassifier-mk01/h1.png",
                 --priority = "high",
                 width = 96,
                 height = 227,
@@ -67,7 +67,7 @@ ENTITY {
                 shift = util.by_pixel(-63, -2)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/hydroclassifier-mk01/h2.png",
+                filename = "__pyrawores__/graphics/entity/hydroclassifier-mk01/h2.png",
                 --priority = "high",
                 width = 96,
                 height = 227,
@@ -77,7 +77,7 @@ ENTITY {
                 shift = util.by_pixel(31, -2)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/hydroclassifier-mk01/h3.png",
+                filename = "__pyrawores__/graphics/entity/hydroclassifier-mk01/h3.png",
                 --priority = "high",
                 width = 32,
                 height = 227,
@@ -87,7 +87,7 @@ ENTITY {
                 shift = util.by_pixel(95, -2)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/hydroclassifier-mk01/shadow.png",
+                filename = "__pyrawores__/graphics/entity/hydroclassifier-mk01/shadow.png",
                 --priority = "high",
                 width = 96,
                 height = 222,
@@ -150,8 +150,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyraworesgraphics__/sounds/flotation-cell.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyraworesgraphics__/sounds/flotation-cell.ogg", volume = 0.7},
+        sound = {filename = "__pyrawores__/sounds/flotation-cell.ogg", volume = 1.0},
+        idle_sound = {filename = "__pyrawores__/sounds/flotation-cell.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
 }

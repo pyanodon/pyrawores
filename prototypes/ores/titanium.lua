@@ -15,7 +15,7 @@ ENTITY {
     type = "resource",
     name = "ore-titanium",
     --category = "ore-titanium",
-    icon = "__pyraworesgraphics__/graphics/icons/ore-titanium.png",
+    icon = "__pyrawores__/graphics/icons/ore-titanium.png",
     icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
@@ -52,14 +52,14 @@ ENTITY {
     stage_counts = {1000, 800, 700, 600, 400, 200, 100, 20},
     stages = {
         sheet = {
-            filename = "__pyraworesgraphics__/graphics/entity/ores/titanium/titanium.png",
+            filename = "__pyrawores__/graphics/entity/ores/titanium/titanium.png",
             priority = "extra-high",
             width = 64,
             height = 64,
             frame_count = 8,
             variation_count = 8,
             hr_version = {
-                filename = "__pyraworesgraphics__/graphics/entity/ores/titanium/hr-titanium.png",
+                filename = "__pyrawores__/graphics/entity/ores/titanium/hr-titanium.png",
                 priority = "extra-high",
                 width = 128,
                 height = 128,

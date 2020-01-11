@@ -15,7 +15,7 @@ DATA {
     type = "resource",
     name = "quartz-rock",
     category = "quartz-rock",
-    icon = "__pyraworesgraphics__/graphics/icons/ores/quartz-rock.png",
+    icon = "__pyrawores__/graphics/icons/ores/quartz-rock.png",
 	icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
@@ -68,7 +68,7 @@ DATA {
     stage_counts = {0},
     stages = {
         sheet = {
-            filename = "__pyraworesgraphics__/graphics/entity/ores/quartz/quartz-mine-place.png",
+            filename = "__pyrawores__/graphics/entity/ores/quartz/quartz-mine-place.png",
             priority = "extra-high",
             width = 424,
             height = 446,

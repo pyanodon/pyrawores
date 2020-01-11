@@ -1,7 +1,7 @@
 FLUID {
     type = "fluid",
     name = "zinc-waste",
-    icon = "__pyraworesgraphics__/graphics/icons/zinc-waste.png",
+    icon = "__pyrawores__/graphics/icons/zinc-waste.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.6, g = 0.904, b = 0.847},

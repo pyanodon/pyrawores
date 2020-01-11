@@ -20,7 +20,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "ti-solution",
-    icon = "__pyraworesgraphics__/graphics/icons/ti-solution.png",
+    icon = "__pyrawores__/graphics/icons/ti-solution.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.713, g = 0.643, b = 0.733},

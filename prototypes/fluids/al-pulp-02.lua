@@ -12,7 +12,7 @@ RECIPE {
         {type = "fluid", name = "al-pulp-02", amount = 100},
     },
     --main_product = "powdered-aluminium",
-    icon = "__pyraworesgraphics__/graphics/icons/al-pulp-02.png",
+    icon = "__pyrawores__/graphics/icons/al-pulp-02.png",
     icon_size = 32,
     subgroup = "py-rawores-aluminium",
     order = "d"
@@ -22,7 +22,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "al-pulp-02",
-    icon = "__pyraworesgraphics__/graphics/icons/al-pulp-02.png",
+    icon = "__pyrawores__/graphics/icons/al-pulp-02.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.827, g = 0.568, b = 0.0},

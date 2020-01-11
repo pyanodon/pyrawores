@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "nickel-mk01",
-    icon = "__pyraworesgraphics__/graphics/technology/nickel-1.png",
+    icon = "__pyrawores__/graphics/technology/nickel-1.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {'machines-mk01'},
@@ -18,7 +18,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'nickel-mk02',
-    icon = '__pyraworesgraphics__/graphics/technology/nickel-2.png',
+    icon = '__pyrawores__/graphics/technology/nickel-2.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk02','nickel-mk01'},
@@ -36,7 +36,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'nickel-mk03',
-    icon = '__pyraworesgraphics__/graphics/technology/nickel-3.png',
+    icon = '__pyrawores__/graphics/technology/nickel-3.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk03','nickel-mk02'},
@@ -55,7 +55,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'nickel-mk04',
-    icon = '__pyraworesgraphics__/graphics/technology/nickel-4.png',
+    icon = '__pyrawores__/graphics/technology/nickel-4.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk04','nickel-mk03'},

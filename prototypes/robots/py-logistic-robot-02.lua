@@ -23,7 +23,7 @@ cargo_bot:add_unlock({'coal-processing-3'})
 ITEM {
     type = 'item',
     name = 'py-logistic-robot-02',
-    icon = '__pyraworesgraphics__/graphics/icons/py-logistic-robot-02.png',
+    icon = '__pyrawores__/graphics/icons/py-logistic-robot-02.png',
     icon_size = 32,
     flags = {},
     subgroup = 'py-unsorted',
@@ -35,7 +35,7 @@ ITEM {
 ENTITY {
     type = 'logistic-robot',
     name = 'py-logistic-robot-02',
-    icon = '__pyraworesgraphics__/graphics/icons/py-logistic-robot-02.png',
+    icon = '__pyrawores__/graphics/icons/py-logistic-robot-02.png',
     icon_size = 32,
     flags = {'placeable-player', 'player-creation', 'placeable-off-grid', 'not-on-map'},
     minable = {hardness = 0.1, mining_time = 0.1, result = 'py-logistic-robot-02'},
@@ -53,7 +53,7 @@ ENTITY {
     min_to_charge = 0.2,
     max_to_charge = 0.95,
     idle = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/idle.png',
+        filename = '__pyrawores__/graphics/entity/cargo-robot/idle.png',
         priority = 'high',
         line_length = 16,
         width = 64,
@@ -63,7 +63,7 @@ ENTITY {
         direction_count = 16,
         --y = 42,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-idle.png',
+            filename = '__pyrawores__/graphics/entity/cargo-robot/hr-idle.png',
             priority = 'high',
             line_length = 16,
             width = 128,
@@ -76,7 +76,7 @@ ENTITY {
         }
     },
     idle_with_cargo = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/idle-payload.png',
+        filename = '__pyrawores__/graphics/entity/cargo-robot/idle-payload.png',
         priority = 'high',
         line_length = 16,
         width = 64,
@@ -85,7 +85,7 @@ ENTITY {
         shift = util.by_pixel(0, 0),
         direction_count = 16,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-idle-payload.png',
+            filename = '__pyrawores__/graphics/entity/cargo-robot/hr-idle-payload.png',
             priority = 'high',
             line_length = 16,
             width = 128,
@@ -97,7 +97,7 @@ ENTITY {
         }
     },
     in_motion = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/run.png',
+        filename = '__pyrawores__/graphics/entity/cargo-robot/run.png',
         priority = 'high',
         line_length = 16,
         width = 64,
@@ -106,7 +106,7 @@ ENTITY {
         shift = util.by_pixel(0, 0),
         direction_count = 16,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-run.png',
+            filename = '__pyrawores__/graphics/entity/cargo-robot/hr-run.png',
             priority = 'high',
             line_length = 16,
             width = 128,
@@ -118,7 +118,7 @@ ENTITY {
         }
     },
     in_motion_with_cargo = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/run-payload.png',
+        filename = '__pyrawores__/graphics/entity/cargo-robot/run-payload.png',
         priority = 'high',
         line_length = 16,
         width = 64,
@@ -127,7 +127,7 @@ ENTITY {
         shift = util.by_pixel(0, 0),
         direction_count = 16,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-run-payload.png',
+            filename = '__pyrawores__/graphics/entity/cargo-robot/hr-run-payload.png',
             priority = 'high',
             line_length = 16,
             width = 128,
@@ -139,7 +139,7 @@ ENTITY {
         }
     },
     shadow_idle = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/shadow.png',
+        filename = '__pyrawores__/graphics/entity/cargo-robot/shadow.png',
         priority = 'high',
         line_length = 16,
         width = 64,
@@ -149,7 +149,7 @@ ENTITY {
         draw_as_shadow = true,
         direction_count = 16,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-shadow.png',
+            filename = '__pyrawores__/graphics/entity/cargo-robot/hr-shadow.png',
             priority = 'high',
             line_length = 16,
             width = 128,
@@ -162,7 +162,7 @@ ENTITY {
         }
     },
     shadow_idle_with_cargo = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/shadow-payload.png',
+        filename = '__pyrawores__/graphics/entity/cargo-robot/shadow-payload.png',
         priority = 'high',
         line_length = 16,
         width = 64,
@@ -172,7 +172,7 @@ ENTITY {
         draw_as_shadow = true,
         direction_count = 16,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-shadow-payload.png',
+            filename = '__pyrawores__/graphics/entity/cargo-robot/hr-shadow-payload.png',
             priority = 'high',
             line_length = 16,
             width = 128,
@@ -185,7 +185,7 @@ ENTITY {
         }
     },
     shadow_in_motion = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/shadow.png',
+        filename = '__pyrawores__/graphics/entity/cargo-robot/shadow.png',
         priority = 'high',
         line_length = 16,
         width = 64,
@@ -195,7 +195,7 @@ ENTITY {
         draw_as_shadow = true,
         direction_count = 16,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-shadow.png',
+            filename = '__pyrawores__/graphics/entity/cargo-robot/hr-shadow.png',
             priority = 'high',
             line_length = 16,
             width = 128,
@@ -208,7 +208,7 @@ ENTITY {
         }
     },
     shadow_in_motion_with_cargo = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/shadow-payload.png',
+        filename = '__pyrawores__/graphics/entity/cargo-robot/shadow-payload.png',
         priority = 'high',
         line_length = 16,
         width = 64,
@@ -218,7 +218,7 @@ ENTITY {
         draw_as_shadow = true,
         direction_count = 16,
         hr_version = {
-            filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-shadow-payload.png',
+            filename = '__pyrawores__/graphics/entity/cargo-robot/hr-shadow-payload.png',
             priority = 'high',
             line_length = 16,
             width = 128,

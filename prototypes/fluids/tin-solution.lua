@@ -21,7 +21,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "tin-solution",
-    icon = "__pyraworesgraphics__/graphics/icons/tin-solution.png",
+    icon = "__pyrawores__/graphics/icons/tin-solution.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.258, g = 0.180, b = 0.807},

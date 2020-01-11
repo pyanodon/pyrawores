@@ -83,7 +83,7 @@ RECIPE {
         {type = "item", name = "grade-2-zinc", amount = 1, probability = 0.3}
     },
     main_product = "powdered-zinc",
-    icon = "__pyraworesgraphics__/graphics/icons/grade-4-zinc-screening.png",
+    icon = "__pyrawores__/graphics/icons/grade-4-zinc-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-zinc",
 }:add_unlock("zinc-mk03"):change_category("screener")

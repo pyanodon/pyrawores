@@ -15,7 +15,7 @@ DATA {
     type = "resource",
     name = "phosphate-rock-02",
     category = "phosphate-rock-02",
-    icon = "__pyraworesgraphics__/graphics/icons/ores/phosphate-rock-02.png",
+    icon = "__pyrawores__/graphics/icons/ores/phosphate-rock-02.png",
 	icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
@@ -64,7 +64,7 @@ DATA {
     stage_counts = {0},
     stages = {
         sheet = {
-            filename = "__pyraworesgraphics__/graphics/entity/ores/phosphate/phosphate-mine-place.png",
+            filename = "__pyrawores__/graphics/entity/ores/phosphate/phosphate-mine-place.png",
             priority = "extra-high",
             width = 416,
             height = 416,

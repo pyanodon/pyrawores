@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "coal-mk01",
-    icon = "__pyraworesgraphics__/graphics/technology/coal-1.png",
+    icon = "__pyrawores__/graphics/technology/coal-1.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {'machines-mk01'},
@@ -18,7 +18,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'coal-mk02',
-    icon = '__pyraworesgraphics__/graphics/technology/coal-2.png',
+    icon = '__pyrawores__/graphics/technology/coal-2.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk02','coal-mk01','coal-processing-2'},
@@ -36,7 +36,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'coal-mk03',
-    icon = '__pyraworesgraphics__/graphics/technology/coal-3.png',
+    icon = '__pyrawores__/graphics/technology/coal-3.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk03','coal-mk02'},
@@ -55,7 +55,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'coal-mk04',
-    icon = '__pyraworesgraphics__/graphics/technology/coal-4.png',
+    icon = '__pyrawores__/graphics/technology/coal-4.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk04','coal-mk03'},

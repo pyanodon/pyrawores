@@ -15,7 +15,7 @@ DATA {
     type = "resource",
     name = "coal-rock",
     category = "coal-rock",
-    icon = "__pyraworesgraphics__/graphics/icons/ores/coal-rock.png",
+    icon = "__pyrawores__/graphics/icons/ores/coal-rock.png",
 	icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
@@ -68,7 +68,7 @@ DATA {
     stage_counts = {0},
     stages = {
         sheet = {
-            filename = "__pyraworesgraphics__/graphics/entity/ores/coal/coal-rock.png",
+            filename = "__pyrawores__/graphics/entity/ores/coal/coal-rock.png",
             priority = "extra-high",
             width = 352,
             height = 352,

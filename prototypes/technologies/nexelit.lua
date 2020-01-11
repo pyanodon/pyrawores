@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = 'technology',
     name = 'nexelit-mk01',
-    icon = '__pyraworesgraphics__/graphics/technology/nexelit-1.png',
+    icon = '__pyrawores__/graphics/technology/nexelit-1.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk01'},
@@ -18,7 +18,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'nexelit-mk02',
-    icon = '__pyraworesgraphics__/graphics/technology/nexelit-2.png',
+    icon = '__pyrawores__/graphics/technology/nexelit-2.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk02','nexelit-mk01'},
@@ -36,7 +36,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'nexelit-mk03',
-    icon = '__pyraworesgraphics__/graphics/technology/nexelit-3.png',
+    icon = '__pyrawores__/graphics/technology/nexelit-3.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk03','nexelit-mk02'},
@@ -55,7 +55,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'nexelit-mk04',
-    icon = '__pyraworesgraphics__/graphics/technology/nexelit-4.png',
+    icon = '__pyrawores__/graphics/technology/nexelit-4.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'nexelit-mk03','machines-mk04'},

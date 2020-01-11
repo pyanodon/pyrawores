@@ -17,7 +17,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "bof-mk01",
-    icon = "__pyraworesgraphics__/graphics/icons/bof-mk01.png",
+    icon = "__pyrawores__/graphics/icons/bof-mk01.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-rawores-buildings-mk01",
@@ -29,7 +29,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "bof-mk01",
-    icon = "__pyraworesgraphics__/graphics/icons/bof-mk01.png",
+    icon = "__pyrawores__/graphics/icons/bof-mk01.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "bof-mk01"},
@@ -73,7 +73,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/bof-mk01/off.png",
+                filename = "__pyrawores__/graphics/entity/bof-mk01/off.png",
                 --priority = "high",
                 width = 256,
                 height = 288,
@@ -91,7 +91,7 @@ ENTITY {
             south_position = util.by_pixel(-15.5, -64),
             east_position = util.by_pixel(-15.5, -64),
             animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/bof-mk01/on.png",
+                filename = "__pyrawores__/graphics/entity/bof-mk01/on.png",
                 priority = "high",
                 frame_count = 24,
                 line_length = 6,
@@ -137,8 +137,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyraworesgraphics__/sounds/bof.ogg", volume = 0.9},
-        idle_sound = {filename = "__pyraworesgraphics__/sounds/bof.ogg", volume = 0.65},
+        sound = {filename = "__pyrawores__/sounds/bof.ogg", volume = 0.9},
+        idle_sound = {filename = "__pyrawores__/sounds/bof.ogg", volume = 0.65},
         apparent_volume = 2.5
     }
 }
