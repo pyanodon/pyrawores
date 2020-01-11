@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "high-grade-quartz-pulp", amount = 50},
     },
     main_product = "high-grade-quartz-pulp",
-    icon = "__pyrawores__/graphics/icons/high-grade-quartz-pulp.png",
+    icon = "__pyraworesgraphics__/graphics/icons/high-grade-quartz-pulp.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
     order = "q-1"
@@ -23,7 +23,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "high-grade-quartz-pulp",
-    icon = "__pyrawores__/graphics/icons/high-grade-quartz-pulp.png",
+    icon = "__pyraworesgraphics__/graphics/icons/high-grade-quartz-pulp.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.647, g = 0.647, b = 0.647},

@@ -20,7 +20,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "z3-reagent",
-    icon = "__pyrawores__/graphics/icons/z3-reagent.png",
+    icon = "__pyraworesgraphics__/graphics/icons/z3-reagent.png",
 	icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.784, g = 0.329, b = 0.670},

@@ -13,7 +13,7 @@ RECIPE {
         {type = "item", name = "sodium-hydroxide", amount = 2}
     },
     --main_product = "chlorine",
-    icon = "__pyrawores__/graphics/icons/water-saline-electrolyzer.png",
+    icon = "__pyraworesgraphics__/graphics/icons/water-saline-electrolyzer.png",
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "baa"
@@ -22,7 +22,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "chlorine",
-    icon = "__pyrawores__/graphics/icons/chlorine.png",
+    icon = "__pyraworesgraphics__/graphics/icons/chlorine.png",
     icon_size = 32,
     default_temperature = 15, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.462, g = 0.741, b = 0.137},

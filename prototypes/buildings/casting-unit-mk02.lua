@@ -18,7 +18,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "casting-unit-mk02",
-    icon = "__pyrawores__/graphics/icons/casting-unit-mk02.png",
+    icon = "__pyraworesgraphics__/graphics/icons/casting-unit-mk02.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-rawores-buildings-mk02",
@@ -30,7 +30,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "casting-unit-mk02",
-    icon = "__pyrawores__/graphics/icons/casting-unit-mk02.png",
+    icon = "__pyraworesgraphics__/graphics/icons/casting-unit-mk02.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "casting-unit-mk02"},
@@ -57,7 +57,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/casting-unit-mk01/off-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/casting-unit-mk01/off-mk02.png",
                 --priority = "high",
                 width = 238,
                 height = 234,
@@ -75,7 +75,7 @@ ENTITY {
             south_position = util.by_pixel(6.5, -5),
             east_position = util.by_pixel(6.5, -5),
             animation = {
-                filename = "__pyrawores__/graphics/entity/casting-unit-mk01/on-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/casting-unit-mk01/on-mk02.png",
                 priority = "high",
                 frame_count = 30,
                 line_length = 6,
@@ -121,8 +121,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/casting-unit.ogg", volume = 0.8},
-        idle_sound = {filename = "__pyrawores__/sounds/casting-unit.ogg", volume = 0.6},
+        sound = {filename = "__pyraworesgraphics__/sounds/casting-unit.ogg", volume = 0.8},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/casting-unit.ogg", volume = 0.6},
         apparent_volume = 2.5
     }
 }

@@ -16,7 +16,7 @@
             {type = 'fluid', name = 'dirty-water', amount = 50}
         },
         main_product = 'zinc-overflow',
-        icon = '__pyrawores__/graphics/icons/zinc-overflow.png',
+        icon = '__pyraworesgraphics__/graphics/icons/zinc-overflow.png',
         icon_size = 32,
         subgroup = 'py-rawores-zinc',
         order = 'q-2'
@@ -25,7 +25,7 @@
 FLUID {
     type = 'fluid',
     name = 'zinc-overflow',
-    icon = '__pyrawores__/graphics/icons/zinc-overflow.png',
+    icon = '__pyraworesgraphics__/graphics/icons/zinc-overflow.png',
     icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_color = {r = 0.6, g = 0.901, b = 0.847},

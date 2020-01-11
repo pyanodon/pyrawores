@@ -12,7 +12,7 @@ RECIPE {
         {type = "item", name = "stone", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-nickel",
-    icon = "__pyrawores__/graphics/icons/crusher-nickel.png",
+    icon = "__pyraworesgraphics__/graphics/icons/crusher-nickel.png",
     icon_size = 32,
     subgroup = "py-rawores-nickel",
 }:add_unlock("nickel-mk01")
@@ -33,7 +33,7 @@ RECIPE {
         {type = "item", name = "gravel", amount = 1}
     },
     main_product = "grade-3-nickel",
-    icon = "__pyrawores__/graphics/icons/grade-1-nickel-screening.png",
+    icon = "__pyraworesgraphics__/graphics/icons/grade-1-nickel-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-nickel",
 }:add_unlock("nickel-mk02"):change_category("screener")
@@ -51,7 +51,7 @@ RECIPE {
         {type = "item", name = "grade-1-nickel", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-nickel",
-    icon = "__pyrawores__/graphics/icons/recrush-nickel-rejects.png",
+    icon = "__pyraworesgraphics__/graphics/icons/recrush-nickel-rejects.png",
     icon_size = 32,
     subgroup = "py-rawores-nickel",
 }:add_unlock("nickel-mk02"):change_category("secondary-crusher")

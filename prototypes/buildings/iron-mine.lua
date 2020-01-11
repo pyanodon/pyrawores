@@ -20,7 +20,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "iron-mine",
-    icon = "__pyrawores__/graphics/icons/mega-iron.png",
+    icon = "__pyraworesgraphics__/graphics/icons/mega-iron.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-rawores-mines",
@@ -32,7 +32,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "iron-mine",
-    icon = "__pyrawores__/graphics/icons/mega-iron.png",
+    icon = "__pyraworesgraphics__/graphics/icons/mega-iron.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "iron-mine"},
@@ -68,7 +68,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyrawores__/graphics/entity/iron-mine/botleft.png",
+                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/botleft.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -77,7 +77,7 @@ ENTITY {
                 shift = util.by_pixel(-144, 112)
             },
             {
-                filename = "__pyrawores__/graphics/entity/iron-mine/botmid.png",
+                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/botmid.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -86,7 +86,7 @@ ENTITY {
                 shift = util.by_pixel(-16, 112)
             },
             {
-                filename = "__pyrawores__/graphics/entity/iron-mine/botright.png",
+                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/botright.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -95,7 +95,7 @@ ENTITY {
                 shift = util.by_pixel(112, 112)
             },
             {
-                filename = "__pyrawores__/graphics/entity/iron-mine/midleft.png",
+                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/midleft.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -104,7 +104,7 @@ ENTITY {
                 shift = util.by_pixel(-144, -16)
             },
             {
-                filename = "__pyrawores__/graphics/entity/iron-mine/midmid.png",
+                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/midmid.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -113,7 +113,7 @@ ENTITY {
                 shift = util.by_pixel(-16, -16)
             },
             {
-                filename = "__pyrawores__/graphics/entity/iron-mine/midright.png",
+                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/midright.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -122,7 +122,7 @@ ENTITY {
                 shift = util.by_pixel(112, -16)
             },
             {
-                filename = "__pyrawores__/graphics/entity/iron-mine/topleft.png",
+                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/topleft.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -131,7 +131,7 @@ ENTITY {
                 shift = util.by_pixel(-144, -144)
             },
             {
-                filename = "__pyrawores__/graphics/entity/iron-mine/topmid.png",
+                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/topmid.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -140,7 +140,7 @@ ENTITY {
                 shift = util.by_pixel(-16, -144)
             },
             {
-                filename = "__pyrawores__/graphics/entity/iron-mine/topright.png",
+                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/topright.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -149,7 +149,7 @@ ENTITY {
                 shift = util.by_pixel(112, -144)
             },
             {
-                filename = "__pyrawores__/graphics/entity/iron-mine/botline.png",
+                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/botline.png",
                 width = 416,
                 height = 32,
                 line_length = 4,
@@ -158,7 +158,7 @@ ENTITY {
                 shift = util.by_pixel(0, 192)
             },
             {
-                filename = "__pyrawores__/graphics/entity/iron-mine/rightline.png",
+                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/rightline.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -170,8 +170,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyrawores__/sounds/iron-mine.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyrawores__/sounds/iron-mine.ogg", volume = 0.7},
+        sound = {filename = "__pyraworesgraphics__/sounds/iron-mine.ogg", volume = 1.0},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/iron-mine.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
 }
