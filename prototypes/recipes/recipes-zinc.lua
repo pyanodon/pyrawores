@@ -22,7 +22,7 @@ RECIPE {
     name = "grade-2-zinc",
     category = "impact-crusher",
     enabled = false,
-    energy_required = 4,
+    energy_required = 2,
     ingredients = {
         {type = "item", name = "grade-1-zinc", amount = 1}
     },
@@ -39,7 +39,7 @@ RECIPE {
     name = "grade-3-zinc",
     category = "hydroclassifier",
     enabled = false,
-    energy_required = 4,
+    energy_required = 2,
     ingredients = {
         {type = "item", name = "grade-2-zinc", amount = 1},
         {type = "fluid", name = "water", amount = 200}
