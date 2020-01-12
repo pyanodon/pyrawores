@@ -24,10 +24,10 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "item", name = "grade-1-zinc", amount = 1}
+        {type = "item", name = "grade-1-zinc", amount = 2}
     },
     results = {
-        {type = "item", name = "grade-2-zinc", amount = 1},
+        {type = "item", name = "grade-2-zinc", amount = 2},
         {type = "item", name = "sand", amount = 1, probability = 0.5}
     },
     main_product = "grade-2-zinc",
@@ -39,13 +39,13 @@ RECIPE {
     name = "grade-3-zinc",
     category = "hydroclassifier",
     enabled = false,
-    energy_required = 2,
+    energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-2-zinc", amount = 1},
+        {type = "item", name = "grade-2-zinc", amount = 5},
         {type = "fluid", name = "water", amount = 200}
     },
     results = {
-        {type = "item", name = "grade-3-zinc", amount = 1},
+        {type = "item", name = "grade-3-zinc", amount = 5},
         {type = "fluid", name = "dirty-water", amount = 50}
     },
     main_product = "grade-3-zinc",
