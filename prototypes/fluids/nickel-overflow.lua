@@ -10,7 +10,6 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "nickel-overflow", amount = 100},
-        {type = "fluid", name = "al-pulp-02", amount = 30},
     },
     main_product = "nickel-overflow",
     subgroup = "py-rawores-nickel",
