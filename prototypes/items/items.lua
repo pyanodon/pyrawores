@@ -540,14 +540,14 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ore-copper',
-    icon = '__base__/graphics/icons/mip/copper-ore.png',
+    icon = '__base__/graphics/icons/copper-ore.png',
     icon_size = 64,
     icon_mipmaps = 4,
     pictures = {
-        {size = 64, filename = '__base__/graphics/icons/mip/copper-ore.png', scale = 0.25, mipmap_count = 4},
-        {size = 64, filename = '__base__/graphics/icons/mip/copper-ore-1.png', scale = 0.25, mipmap_count = 4},
-        {size = 64, filename = '__base__/graphics/icons/mip/copper-ore-2.png', scale = 0.25, mipmap_count = 4},
-        {size = 64, filename = '__base__/graphics/icons/mip/copper-ore-3.png', scale = 0.25, mipmap_count = 4}
+        {size = 64, filename = '__base__/graphics/icons/copper-ore.png', scale = 0.25, mipmap_count = 4},
+        {size = 64, filename = '__base__/graphics/icons/copper-ore-1.png', scale = 0.25, mipmap_count = 4},
+        {size = 64, filename = '__base__/graphics/icons/copper-ore-2.png', scale = 0.25, mipmap_count = 4},
+        {size = 64, filename = '__base__/graphics/icons/copper-ore-3.png', scale = 0.25, mipmap_count = 4}
     },
     subgroup = 'raw-resource',
     order = 'f[copper-ore]-a',
@@ -679,14 +679,14 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'ore-iron',
-    icon = '__base__/graphics/icons/mip/iron-ore.png',
+    icon = '__base__/graphics/icons/iron-ore.png',
     icon_size = 64,
     icon_mipmaps = 4,
     pictures = {
-        {size = 64, filename = '__base__/graphics/icons/mip/iron-ore.png', scale = 0.25, mipmap_count = 4},
-        {size = 64, filename = '__base__/graphics/icons/mip/iron-ore-1.png', scale = 0.25, mipmap_count = 4},
-        {size = 64, filename = '__base__/graphics/icons/mip/iron-ore-2.png', scale = 0.25, mipmap_count = 4},
-        {size = 64, filename = '__base__/graphics/icons/mip/iron-ore-3.png', scale = 0.25, mipmap_count = 4}
+        {size = 64, filename = '__base__/graphics/icons/iron-ore.png', scale = 0.25, mipmap_count = 4},
+        {size = 64, filename = '__base__/graphics/icons/iron-ore-1.png', scale = 0.25, mipmap_count = 4},
+        {size = 64, filename = '__base__/graphics/icons/iron-ore-2.png', scale = 0.25, mipmap_count = 4},
+        {size = 64, filename = '__base__/graphics/icons/iron-ore-3.png', scale = 0.25, mipmap_count = 4}
     },
     subgroup = 'raw-resource',
     order = 'e[iron-ore]-a',

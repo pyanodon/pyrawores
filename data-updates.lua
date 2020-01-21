@@ -20,8 +20,11 @@ local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 --ADAPTATIONS
 
 ITEM("copper-plate"):set("icon", "__pyraworesgraphics__/graphics/icons/copper-plate.png")
+ITEM("copper-plate"):set("icon_size", 32)
 ITEM("iron-plate"):set("icon", "__pyraworesgraphics__/graphics/icons/iron-plate.png")
+ITEM("iron-plate"):set("icon_size", 32)
 ITEM("copper-cable"):set("icon", "__pyraworesgraphics__/graphics/icons/copper-cable.png")
+ITEM("copper-cable"):set("icon_size", 32)
 
 --RECIPES UPDATES
 
