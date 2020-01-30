@@ -190,7 +190,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "high-grade-nexelit", amount = 1},
+        {type = "item", name = "high-grade-nexelit", amount = 4},
         {type = "item", name = "lime", amount = 3},
         {type = "fluid", name = "syngas", amount = 100}
         --pyfe pressured air
@@ -288,7 +288,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 1}
     },
     results = {
-        {type = "fluid", name = "molten-nexelit", amount = 40}
+        {type = "fluid", name = "molten-nexelit", amount = 164}
     },
     main_product = "molten-nexelit",
     subgroup = "py-rawores-nexelit",
