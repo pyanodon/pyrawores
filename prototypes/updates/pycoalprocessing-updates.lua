@@ -648,3 +648,67 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("iron-mk02")
+
+RECIPE {
+    type = "recipe",
+    name = "drill-head-2",
+    category = "crafting",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "steel-plate", amount = 8},
+        {type = "item", name = "chromium", amount = 3},
+        {type = "item", name = "aluminium-plate", amount = 6}
+    },
+    results = {
+        {type = "item", name = "drill-head", amount = 4}
+    }
+}:add_unlock("coal-processing-2")
+
+RECIPE {
+    type = "recipe",
+    name = "drill-head-3",
+    category = "crafting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "steel-plate", amount = 8},
+        {type = "item", name = "titanium-plate", amount = 4},
+        {type = "item", name = "aluminium-plate", amount = 6}
+    },
+    results = {
+        {type = "item", name = "drill-head", amount = 6}
+    }
+}:add_unlock("coal-processing-2")
+
+RECIPE {
+    type = "recipe",
+    name = "drill-head-4",
+    category = "crafting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "stainless-steel", amount = 4},
+        {type = "item", name = "titanium-plate", amount = 4},
+        {type = "item", name = "duralumin", amount = 5},
+    },
+    results = {
+        {type = "item", name = "drill-head", amount = 8}
+    }
+}:add_unlock("iron-mk02")
+
+RECIPE {
+    type = "recipe",
+    name = "drill-head-5",
+    category = "crafting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "stainless-steel", amount = 4},
+        {type = "item", name = "titanium-plate", amount = 4},
+        {type = "item", name = "niobium-plate", amount = 3},
+    },
+    results = {
+        {type = "item", name = "drill-head", amount = 10}
+    }
+}:add_unlock("iron-mk02")

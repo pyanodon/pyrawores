@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"phosphate-mine-02", 1}
     }
-}:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "control-unit", amount = 5})
+}:add_unlock("advanced-electronics")
 
 ITEM {
     type = "item",
@@ -43,19 +43,19 @@ ENTITY {
     collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
     selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
     module_specification = {
-        module_slots = 5
+        module_slots = 1
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     mining_speed = 10,
     energy_source =
     {
       type = "burner",
-      fuel_category = "mega-drill-head",
+      fuel_category = "drill",
       effectivity = 1,
       fuel_inventory_size = 1,
       emissions_per_minute = 0.06,
     },
-    energy_usage = "2000kW",
+    energy_usage = "2500kW",
     mining_power = 6,
     resource_searching_radius = 0.49,
     vector_to_place_result = {0, -6.65},

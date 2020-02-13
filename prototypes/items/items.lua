@@ -1835,7 +1835,7 @@ ITEM {
     icon = '__pyraworesgraphics__/graphics/icons/mega-drill-head.png',
     icon_size = 32,
     fuel_value = '10GJ',
-    fuel_category = 'mega-drill-head',
+    fuel_category = 'drill',
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'g',
