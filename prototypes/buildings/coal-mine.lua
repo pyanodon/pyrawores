@@ -6,7 +6,7 @@ RECIPE {
     ingredients = {
         {"automated-factory-mk01", 2},
         {"electric-mining-drill", 20},
-        {"super-steel", 50},
+        {"stainless-steel", 50},
         {"nexelit-plate", 50},
         {"aramid", 40},
         {"advanced-circuit", 30} --add mo plates, vanadium
@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"coal-mine", 1}
     }
-}:add_unlock("coal-mk03"):add_ingredient({type = "item", name = "control-unit", amount = 5})
+}:add_unlock("coal-mk02")
 
 ITEM {
     type = "item",
@@ -55,14 +55,14 @@ ENTITY {
     },
 
     module_specification = {
-        module_slots = 5
+        module_slots = 1
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     mining_speed = 15,
     energy_source =
     {
       type = "burner",
-      fuel_category = "mega-drill-head",
+      fuel_category = "drill",
       effectivity = 1,
       fuel_inventory_size = 1,
       emissions_per_minute = 0.06,

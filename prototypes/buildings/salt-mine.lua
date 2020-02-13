@@ -42,7 +42,7 @@ ENTITY {
     selection_box = {{-5.5, -5.5}, {5.5, 5.5}},
 
     module_specification = {
-        module_slots = 5
+        module_slots = 1
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     mining_speed = 10,
