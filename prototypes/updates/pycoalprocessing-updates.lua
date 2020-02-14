@@ -4,6 +4,7 @@ RECIPE('making-chromium'):remove_unlock('coal-processing-2')
 
 RECIPE('crushing-copper'):remove_unlock('crusher')
 RECIPE('crushed-copper'):remove_unlock('crusher')
+RECIPE('crushing-iron'):remove_unlock('crusher')
 RECIPE('crushed-iron'):remove_unlock('crusher')
 RECIPE('acetylene'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1'):change_category('gasifier')
 RECIPE('calcium-carbide'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1')
