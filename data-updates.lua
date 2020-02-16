@@ -154,24 +154,24 @@ TECHNOLOGY("desulfurization"):remove_prereq("sulfur-processing")
 TECHNOLOGY("sulfur-processing"):remove_prereq("oil-processing"):add_prereq("coal-processing-1")
 
 
-data.raw.item["coal"].stack_size = 500
-data.raw.item["iron-ore"].stack_size = 500
-data.raw.item["uranium-ore"].stack_size = 500
-data.raw.item["copper-ore"].stack_size = 500
-data.raw.item["chromium"].stack_size = 500
-data.raw.item["limestone"].stack_size = 500
-data.raw.item["lime"].stack_size = 500
-data.raw.item["stone"].stack_size = 500
-data.raw.item["sulfur"].stack_size = 500
-data.raw.item["iron-plate"].stack_size = 500
-data.raw.item["copper-plate"].stack_size = 500
-data.raw.item["steel-plate"].stack_size = 500
-data.raw.item["stone-brick"].stack_size = 500
-data.raw.item["iron-gear-wheel"].stack_size = 500
-data.raw.item["wood"].stack_size = 500
-data.raw.item["niobium-plate"].stack_size = 500
-data.raw.item["niobium-plate"].stack_size = 500
-data.raw.item["molybdenum-plate"].stack_size = 500
+ITEM("coal").stack_size = 500
+ITEM("iron-ore").stack_size = 500
+ITEM("uranium-ore").stack_size = 500
+ITEM("copper-ore").stack_size = 500
+ITEM("chromium").stack_size = 500
+ITEM("limestone").stack_size = 500
+ITEM("lime").stack_size = 500
+ITEM("stone").stack_size = 500
+ITEM("sulfur").stack_size = 500
+ITEM("iron-plate").stack_size = 500
+ITEM("copper-plate").stack_size = 500
+ITEM("steel-plate").stack_size = 500
+ITEM("stone-brick").stack_size = 500
+ITEM("iron-gear-wheel").stack_size = 500
+ITEM("wood").stack_size = 500
+ITEM("niobium-plate").stack_size = 500
+ITEM("niobium-plate").stack_size = 500
+ITEM("molybdenum-plate").stack_size = 500
 
 for _, player in DATA:pairs('character') do
     player.crafting_categories = player.String_Array(player.crafting_categories or {}) + 'handcrafting'
