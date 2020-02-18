@@ -1,3 +1,26 @@
+
+RECIPE {
+    type = "recipe",
+    name = "distilled-raw-coal",
+    category = "distilator",
+    enabled = true,
+    energy_required = 2,
+    ingredients = {
+        {type = "item", name = "raw-coal", amount = 10}
+    },
+    results = {
+        {type = "fluid", name = "coal-gas", amount = 10},
+        {type = "fluid", name = "tar", amount = 10},
+        {type = "item", name = "iron-oxide", amount = 1, probability = 0.2},
+        {type = "item", name = "coal", amount = 2}
+    },
+    main_product = "coal",
+    icon = "__pycoalprocessinggraphics__/graphics/icons/coalgas-from-wood.png",
+    icon_size = 32,
+    subgroup = "py-rawores-coal",
+    order = "f"
+}
+
 --PROCESSING RECIPES
 
 RECIPE {
