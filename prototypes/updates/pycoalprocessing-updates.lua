@@ -239,7 +239,6 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "kerosene-combustion",
-    localised_name = {"recipe-name.combustion-mixture", {"fluid-name.kerosene"}, 800},
     category = "combustion",
     enabled = false,
     energy_required = 3,
@@ -262,7 +261,6 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrodmk02-combustion",
-    localised_name = {"recipe-name.combustion-mixture", {"item-name.fuelrod-mk02"}, 800},
     category = "combustion",
     enabled = false,
     energy_required = 3,
@@ -285,7 +283,6 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrodmk03-combustion",
-    localised_name = {"recipe-name.combustion-mixture", {"item-name.fuelrod-mk03"}, 850},
     category = "combustion",
     enabled = false,
     energy_required = 3,
@@ -308,7 +305,6 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrodmk04-combustion",
-    localised_name = {"recipe-name.combustion-mixture", {"item-name.fuelrod-mk04"}, 900},
     category = "combustion",
     enabled = false,
     energy_required = 3,
@@ -331,7 +327,6 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrodmk05-combustion",
-    localised_name = {"recipe-name.combustion-mixture", {"item-name.fuelrod-mk05"}, 950},
     category = "combustion",
     enabled = false,
     energy_required = 3,

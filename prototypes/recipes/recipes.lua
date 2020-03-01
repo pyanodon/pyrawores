@@ -162,7 +162,6 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "hydrogen-combustion",
-    localised_name = {"recipe-name.combustion-mixture", {"fluid-name.hydrogen"}, 520},
     category = "combustion",
     enabled = false,
     energy_required = 3,
