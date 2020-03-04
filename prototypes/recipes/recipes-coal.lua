@@ -15,7 +15,7 @@ RECIPE {
         {type = "item", name = "coal", amount = 2}
     },
     main_product = "coal",
-    icon = "__pycoalprocessinggraphics__/graphics/icons/coalgas-from-wood.png",
+    icon = "__pyraworesgraphics__/graphics/icons/coalgas-from-rawcoal.png",
     icon_size = 32,
     subgroup = "py-rawores-coal",
     order = "f"
