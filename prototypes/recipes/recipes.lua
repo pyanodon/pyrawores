@@ -61,7 +61,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "water-saline",
-    category = "chemistry",
+    category = "washer",
     enabled = false,
     energy_required = 2,
     ingredients = {
