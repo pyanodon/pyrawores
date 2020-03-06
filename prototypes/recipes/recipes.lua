@@ -76,7 +76,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk02")
+}:add_unlock("machines-mk01")
 
 RECIPE {
     type = "recipe",
