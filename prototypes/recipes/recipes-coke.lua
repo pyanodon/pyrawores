@@ -14,7 +14,7 @@ RECIPE {
     },
     main_product = "redhot-coke",
     subgroup = "py-rawores-coke",
-}:add_unlock("coke-mk01")
+}:add_unlock("coke-mk02")
 
 RECIPE {
     type = "recipe",
@@ -28,13 +28,13 @@ RECIPE {
         --pyfe pressured-air
     },
     results = {
-        {type = "item", name = "coke", amount = 40},
+        {type = "item", name = "coke", amount = 30},
         {type = "item", name = "coal-dust", amount = 10},
         {type = "fluid", name = "steam", amount = 100, temperature = 165}
     },
     main_product = "coke",
     subgroup = "py-rawores-coke",
-}:add_unlock("coke-mk01"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("coke-mk02"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
 RECIPE {
     type = "recipe",
