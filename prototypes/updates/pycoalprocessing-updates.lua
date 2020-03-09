@@ -16,6 +16,7 @@ TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('c
 RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01')
 
 fun.results_replacer("richdust-separation", "chromite-sand", "chromite-sand",3)
+fun.results_replacer("coal-fawogae", "coal", "raw-coal",2)
 
 RECIPE("boric-acid"):change_category('electrolyzer')
 RECIPE("copper-coating"):change_category('electrolyzer')
