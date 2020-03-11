@@ -9,7 +9,7 @@ RECIPE {
         {"duralumin", 15},
         {"lead-plate", 10},
         {"nexelit-plate", 15},
-        {"advanced-circuit", 10},
+        {"processing-unit", 10},
     },
     results = {
         {"leaching-station-mk03", 1}
