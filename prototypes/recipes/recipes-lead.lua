@@ -227,7 +227,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 2}
     },
     results = {
-        {type = "fluid", name = "molten-lead", amount = 75}
+        {type = "fluid", name = "molten-lead", amount = 90}
     },
     main_product = "molten-lead",
     subgroup = "py-rawores-lead",
@@ -245,7 +245,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 3}
     },
     results = {
-        {type = "fluid", name = "molten-lead", amount = 43}
+        {type = "fluid", name = "molten-lead", amount = 70}
     },
     main_product = "molten-lead",
     subgroup = "py-rawores-lead",
@@ -263,7 +263,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 2}
     },
     results = {
-        {type = "fluid", name = "molten-lead", amount = 360}
+        {type = "fluid", name = "molten-lead", amount = 500}
     },
     main_product = "molten-lead",
     subgroup = "py-rawores-lead",
@@ -281,7 +281,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 3}
     },
     results = {
-        {type = "fluid", name = "molten-lead", amount = 490}
+        {type = "fluid", name = "molten-lead", amount = 1000}
     },
     main_product = "molten-lead",
     subgroup = "py-rawores-lead",
@@ -299,7 +299,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 3}
     },
     results = {
-        {type = "fluid", name = "molten-lead", amount = 460}
+        {type = "fluid", name = "molten-lead", amount = 650}
     },
     main_product = "molten-lead",
     subgroup = "py-rawores-lead",

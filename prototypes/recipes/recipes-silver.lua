@@ -91,7 +91,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
-        {type = "fluid", name = "molten-silver", amount = 300},
+        {type = "fluid", name = "molten-silver", amount = 450},
     },
     main_product = "molten-silver",
     subgroup = "py-rawores-silver",
@@ -110,7 +110,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
-        {type = "fluid", name = "molten-silver", amount = 520},
+        {type = "fluid", name = "molten-silver", amount = 975},
     },
     main_product = "molten-silver",
     subgroup = "py-rawores-silver",
@@ -129,7 +129,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
-        {type = "fluid", name = "molten-silver", amount = 420},
+        {type = "fluid", name = "molten-silver", amount = 650},
     },
     main_product = "molten-silver",
     subgroup = "py-rawores-silver",
@@ -193,7 +193,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 3},
     },
     results = {
-        {type = "item", name = "silver-plate", amount = 3}
+        {type = "item", name = "silver-plate", amount = 4}
     },
     subgroup = "py-rawores-silver",
     order = "aac"
