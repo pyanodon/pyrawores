@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2020-03-14
+  Changes:
+    - Fixed Coke oulet gas tech.
+    - Secondary crushers now unlocks correctly.
+    - Nerf coke from red coke.
+    - When pyRO detected, the fawogae HPF recipe now outputs raw coal.
+    - Fixed leaching stations recipes.
+    - Balanced Lead
+    - Balanced Silver
+---------------------------------------------------------------------------------------------------
 Version: 1.9.9
 Date: 2020-02-28
   Changes:
