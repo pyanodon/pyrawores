@@ -384,7 +384,8 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = "fluid", name = "nitrogen", amount = 100},
-        {type = "fluid", name = "hydrogen", amount = 300}
+        {type = "fluid", name = "hydrogen", amount = 300},
+        {type = "item", name = "chromium", amount = 1},
     },
     results = {
         {type = "fluid", name = "ammonia", amount = 100}
