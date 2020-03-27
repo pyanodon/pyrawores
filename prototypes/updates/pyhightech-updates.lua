@@ -732,7 +732,7 @@ RECIPE {
         {type = 'item', name = 'coal', amount = 20},
     },
     results = {
-        {type = 'fluid', name = 'cyanic-acid', amount = 50},
+        {type = 'fluid', name = 'cyanic-acid', amount = 100},
         {type = 'fluid', name = 'hydrogen', amount = 50},
     },
     main_product = "cyanic-acid",
