@@ -311,7 +311,7 @@ RECIPE {
     name = "copper-plate-4",
     category = "casting",
     enabled = false,
-    energy_required = 6,
+    energy_required = 2,
     ingredients = {
         {type = "item", name = "grade-2-copper", amount = 5}
     },
