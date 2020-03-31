@@ -335,7 +335,6 @@ RECIPE {
     results = {
         {type = "item", name = "nickel-plate", amount = 1}
     },
-    --main_product= "glass",
     subgroup = "py-rawores-nickel",
     order = "aac"
 }
@@ -354,7 +353,6 @@ RECIPE {
     results = {
         {type = "item", name = "nickel-plate", amount = 1}
     },
-    --main_product= "glass",
     subgroup = "py-rawores-nickel",
     order = "aab"
 }:add_unlock("nickel-mk01")

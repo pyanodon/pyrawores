@@ -381,7 +381,6 @@ RECIPE {
     results = {
         {type = "item", name = "chromium", amount = 1}
     },
-    --main_product= "glass",
     icon = "__pycoalprocessinggraphics__/graphics/icons/chromium.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",

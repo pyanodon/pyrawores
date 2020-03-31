@@ -365,7 +365,6 @@ RECIPE {
     results = {
         {type = "item", name = "nexelit-plate", amount = 18}
     },
-    --main_product= "glass",
     subgroup = "py-rawores-nexelit",
     order = "aaa"
 }:add_unlock("nexelit-mk01")

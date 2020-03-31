@@ -331,7 +331,6 @@ RECIPE {
     results = {
         {type = "item", name = "zinc-plate", amount = 4}
     },
-    --main_product= "glass",
     subgroup = "py-rawores-zinc",
     order = "aad"
 }

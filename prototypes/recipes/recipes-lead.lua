@@ -340,7 +340,6 @@ RECIPE {
     results = {
         {type = "item", name = "lead-plate", amount = 1}
     },
-    --main_product= "glass",
     subgroup = "py-rawores-lead",
     order = "aac"
 }
@@ -359,7 +358,6 @@ RECIPE {
     results = {
         {type = "item", name = "lead-plate", amount = 10}
     },
-    --main_product= "glass",
     subgroup = "py-rawores-lead",
     order = "aab"
 }:add_unlock("lead-mk01")

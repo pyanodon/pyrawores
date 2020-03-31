@@ -441,7 +441,6 @@ RECIPE {
     results = {
         {type = "item", name = "tin-plate", amount = 4}
     },
-    --main_product= "glass",
     subgroup = "py-rawores-tin",
     order = "aad"
 }
