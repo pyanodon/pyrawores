@@ -122,12 +122,11 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-2",
-    category = "hpf",
+    category = 'glassworks',
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item", name = "crushed-quartz", amount = 2},
-        {type = "fluid", name = "coal-gas", amount = 100},
     },
     results = {
         {type = "item", name = "glass", amount = 3}
@@ -142,12 +141,11 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-3",
-    category = "hpf",
+    category = 'glassworks',
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item", name = "powdered-quartz", amount = 2},
-        {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "pure-sand", amount = 10},
     },
     results = {
@@ -163,12 +161,11 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-4",
-    category = "hpf",
+    category = 'glassworks',
     enabled = false,
     energy_required = 11,
     ingredients = {
         {type = "item", name = "purified-quartz", amount = 3},
-        {type = "fluid", name = "coal-gas", amount = 400},
         {type = "item", name = "pure-sand", amount = 20},
         {type = "item", name = "sodium-carbonate", amount = 2},
     },
@@ -185,7 +182,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-5",
-    category = "advanced-foundry",
+    category = 'glassworks',
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -207,13 +204,12 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-6",
-    category = "advanced-foundry",
+    category = 'glassworks',
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item", name = "high-grade-quartz", amount = 1},
         {type = "item", name = "sodium-carbonate", amount = 1},
-        {type = "fluid", name = "syngas", amount = 200},
         {type = "item", name = "sand-casting", amount = 2},
         {type = "item", name = "fuelrod-mk01", amount = 1},
     },
