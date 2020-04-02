@@ -255,6 +255,9 @@ RECIPE("thickener-mk04"):replace_ingredient("control-unit", "intelligent-unit"):
 RECIPE("xyhiphoe-pool-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "superconductor", amount = 10})
 RECIPE("xyhiphoe-pool-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
 
+RECIPE("plankton-farm-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "superconductor", amount = 10})
+RECIPE("plankton-farm-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
+
 
 --PYRO RECIPES UPDATES
 
