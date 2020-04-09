@@ -260,10 +260,10 @@ RECIPE {
     name = "nitrogen-pyfe",
     category = "wet-scrubber",
     enabled = false,
-    energy_required = 2,
+    energy_required = 150,
     ingredients = {
-        {type = "fluid", name = "cold-clean-air", amount = 400},
-        {type = "item", name = "active-carbon", amount = 3}
+        {type = "fluid", name = "cold-clean-air", amount = 40},
+        {type = "item", name = "active-carbon", amount = 1}
     },
     results = {
         {type = "fluid", name = "nitrogen", amount = 8000},
