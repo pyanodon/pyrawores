@@ -171,7 +171,6 @@ ITEM("iron-gear-wheel").stack_size = 500
 ITEM("wood").stack_size = 500
 ITEM("niobium-plate").stack_size = 500
 ITEM("niobium-plate").stack_size = 500
-ITEM("molybdenum-plate").stack_size = 500
 
 for _, player in DATA:pairs('character') do
     player.crafting_categories = player.String_Array(player.crafting_categories or {}) + 'handcrafting'
