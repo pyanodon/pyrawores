@@ -1,6 +1,9 @@
 
 RECIPE('atomic-bomb'):remove_ingredient('uranium-235'):add_ingredient({type = "item", name = "yellow-cake", amount = 5})
 
+data.raw['underground-belt']['fast-underground-belt'].max_distance = 15
+data.raw['underground-belt']['express-underground-belt'].max_distance = 30
+
 data.raw.resource['coal'].autoplace = nil
 data.raw['autoplace-control']['coal'] = nil
 
@@ -107,7 +110,7 @@ RECIPE {
 
 RECIPE {
   type = "recipe",
-  name = "casting-copper-cable",
+  name = "casting-tin-cable",
   category = "casting",
   enabled = false,
   energy_required = 4,
