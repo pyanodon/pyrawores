@@ -3,7 +3,7 @@ RECIPE {
     name = "sl-01",
     category = "flotation",
     enabled = false,
-    energy_required = 15,
+    energy_required = 5,
     ingredients = {
         {type = "fluid", name = "slz-pulp-02", amount = 100},
         {type = "fluid", name = "z3-reagent", amount = 50},
@@ -24,7 +24,7 @@ RECIPE {
     name = "sl-01-2",
     category = "flotation",
     enabled = false,
-    energy_required = 15,
+    energy_required = 5,
     ingredients = {
         {type = "item", name = "lead-refined-dust-03", amount = 3},
         {type = "fluid", name = "oleochemicals", amount = 150},
