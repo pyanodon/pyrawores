@@ -2024,7 +2024,7 @@ ITEM {
     icon = '__pyraworesgraphics__/graphics/icons/solder.png',
     icon_size = 32,
     flags = {},
-    subgroup = 'py-rawores-items',
-    order = 'a',
+    subgroup = 'py-rawores-solder',
+    order = 'b',
     stack_size = 500
 }

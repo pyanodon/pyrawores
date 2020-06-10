@@ -153,6 +153,12 @@ data:extend {
         group = "py-rawores",
         order = "bq"
     },
+    {
+        type = "item-subgroup",
+        name = "py-rawores-solder",
+        group = "py-rawores",
+        order = "br"
+    },
     -----------------------------MOLTEN VERSIONS----------------
     {
         type = 'item-subgroup',
