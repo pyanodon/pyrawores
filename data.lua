@@ -125,6 +125,8 @@ require("prototypes/recipes/recipes-tin")
 require("prototypes/recipes/recipes-titanium")
 require("prototypes/recipes/recipes-uranium")
 require("prototypes/recipes/recipes-zinc")
+require("prototypes/recipes/recipes-casting")
+require("prototypes/recipes/recipes-solder")
 
 --(( FLUIDs ))--
 require("prototypes/fluids/quartz-pulp-01")
@@ -283,6 +285,7 @@ require("prototypes/fluids/zinc-pulp-04")
 require("prototypes/fluids/zinc-overflow")
 require("prototypes/fluids/zinc-waste")
 require("prototypes/fluids/molten-zinc")
+require("prototypes/fluids/molten-solder")
 
 --(( OTHERS ))--
 
