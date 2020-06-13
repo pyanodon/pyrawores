@@ -586,3 +586,20 @@ RECIPE {
         {type = "fluid", name = "syngas", amount = 250},
     },
 }:add_unlock("fuel-production")
+
+RECIPE {
+    type = "recipe",
+    name = "rail-2",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "treated-wood", amount = 2},
+        {type = "item", name = "solder", amount = 2},
+        {type = "item", name = "steel-plate", amount = 2},
+        {type = "item", name = "stone-brick", amount = 4},
+    },
+    results = {
+        {type = "item", name = "rail", amount = 8},
+    },
+}:add_unlock("railway")
