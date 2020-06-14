@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.8
+Date: 2020-06-14
+  Changes:
+    - Improved crafting time on some lead recipes.
+    - Added extra fluid boxes to casting units and BOFs.
+    - Added new solder recipes.
+    - Added extra rail recipe.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.7
 Date: 2020-04-23
   Changes:
