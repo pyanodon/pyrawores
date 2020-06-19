@@ -9,10 +9,10 @@ RECIPE {
         {type = "item", name = "raw-coal", amount = 10}
     },
     results = {
-        {type = "fluid", name = "coal-gas", amount = 10},
-        {type = "fluid", name = "tar", amount = 10},
+        {type = "fluid", name = "coal-gas", amount = 60},
+        {type = "fluid", name = "tar", amount = 30},
         {type = "item", name = "iron-oxide", amount = 1, probability = 0.2},
-        {type = "item", name = "coal", amount = 2}
+        {type = "item", name = "coal", amount = 3}
     },
     main_product = "coal",
     icon = "__pyraworesgraphics__/graphics/icons/coalgas-from-rawcoal.png",
