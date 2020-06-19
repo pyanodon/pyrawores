@@ -118,7 +118,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "grade-3-nexelit", amount = 1},
-        {type = "item", name = "sand", amount = 8},
+        {type = "item", name = "sand", amount = 5},
         {type = "fluid", name = "water", amount = 100}
     },
     results = {
