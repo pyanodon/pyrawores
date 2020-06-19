@@ -103,20 +103,20 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-1",
-    category = "smelting",
+    category = "glassworks",
     enabled = true,
-    energy_required = 60,
+    energy_required = 5,
     ingredients = {
-        {type = "item", name = "ore-quartz", amount = 24}
+        {type = "item", name = "ore-quartz", amount = 6}
     },
     results = {
-        {type = "item", name = "glass", amount = 4}
+        {type = "fluid", name = "molten-glass", amount = 10}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
+    icon_size = 64,
     subgroup = "py-rawores-quartz",
-    order = "aag"
+    order = "aaa"
 }
 
 RECIPE {
@@ -129,13 +129,13 @@ RECIPE {
         {type = "item", name = "crushed-quartz", amount = 2},
     },
     results = {
-        {type = "item", name = "glass", amount = 3}
+        {type = "fluid", name = "molten-glass", amount = 30}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
+    icon_size = 64,
     subgroup = "py-rawores-quartz",
-    order = "aaf"
+    order = "aab"
 }:add_unlock("quartz-mk01")
 
 RECIPE {
@@ -149,13 +149,13 @@ RECIPE {
         {type = "item", name = "pure-sand", amount = 10},
     },
     results = {
-        {type = "item", name = "glass", amount = 4}
+        {type = "fluid", name = "molten-glass", amount = 50}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
+    icon_size = 64,
     subgroup = "py-rawores-quartz",
-    order = "aae"
+    order = "aac"
 }:add_unlock("quartz-mk01")
 
 RECIPE {
@@ -170,13 +170,13 @@ RECIPE {
         {type = "item", name = "sodium-carbonate", amount = 2},
     },
     results = {
-        {type = "item", name = "glass", amount = 150}
+        {type = "fluid", name = "molten-glass", amount = 1500}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
+    icon_size = 64,
     subgroup = "py-rawores-quartz",
-    order = "aab"
+    order = "aad"
 }:add_unlock("quartz-mk02")
 
 RECIPE {
@@ -192,13 +192,13 @@ RECIPE {
         {type = "item", name = "sodium-carbonate", amount = 1},
     },
     results = {
-        {type = "item", name = "glass", amount = 180}
+        {type = "fluid", name = "molten-glass", amount = 1800}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
+    icon_size = 64,
     subgroup = "py-rawores-quartz",
-    order = "aaa"
+    order = "aae"
 }:add_unlock("quartz-mk03")
 
 RECIPE {
@@ -210,15 +210,34 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-quartz", amount = 1},
         {type = "item", name = "sodium-carbonate", amount = 1},
-        {type = "item", name = "sand-casting", amount = 2},
+        --{type = "item", name = "sand-casting", amount = 2},
         {type = "item", name = "fuelrod-mk01", amount = 1},
     },
     results = {
-        {type = "item", name = "glass", amount = 65}
+        {type = "fluid", name = "molten-glass", amount = 650}
+    },
+    --main_product= "glass",
+    icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
+    icon_size = 64,
+    subgroup = "py-rawores-quartz",
+    order = "aaf"
+}:add_unlock("quartz-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "molten-glass",
+    category = 'glassworks',
+    enabled = true,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "molten-glass", amount = 50}
+    },
+    results = {
+        {type = "item", name = "glass", amount = 5}
     },
     --main_product= "glass",
     icon = "__pyraworesgraphics__/graphics/icons/glass.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
-    order = "aac"
-}:add_unlock("quartz-mk03")
+    order = "aag"
+}
