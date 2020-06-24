@@ -128,7 +128,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-stainless-steel", amount = 50},
-        {type = "item", name = "fuelrod-mk01", amount = 3},
+        {type = "item", name = "fuelrod-mk02", amount = 3},
         {type = "item", name = "niobium-plate", amount = 1},
         {type = "item", name = "titanium-plate", amount = 4},
     },
@@ -158,3 +158,137 @@ RECIPE {
     subgroup = "py-rawores-iron-alloys",
     order = "eaa"
 }:add_unlock("iron-mk03")
+
+--full molten steels
+
+RECIPE {
+    type = "recipe",
+    name = "full-molten-stainless-steel-1",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "molten-steel", amount = 100},
+        {type = "item", name = "sulfur", amount = 1},
+        {type = "fluid", name = "molten-chromium", amount = 30},
+    },
+    results = {
+        {type = "fluid", name = "molten-stainless-steel-p1", amount = 55},
+    },
+    main_product = "molten-stainless-steel-p1",
+    subgroup = "py-rawores-iron-alloys",
+    order = "dab"
+}:add_unlock("iron-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "full-molten-stainless-steel-2",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "molten-stainless-steel-p1", amount = 50},
+        {type = "fluid", name = "molten-copper", amount = 5},
+    },
+    results = {
+        {type = "fluid", name = "molten-stainless-steel-p2", amount = 60},
+    },
+    main_product = "molten-stainless-steel-p2",
+    subgroup = "py-rawores-iron-alloys",
+    order = "dac"
+}:add_unlock("iron-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "full-molten-stainless-steel-3",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "molten-stainless-steel-p2", amount = 50},
+        {type = "fluid", name = "molten-nickel", amount = 10},
+    },
+    results = {
+        {type = "fluid", name = "molten-stainless-steel-p3", amount = 70},
+    },
+    main_product = "molten-stainless-steel-p3",
+    subgroup = "py-rawores-iron-alloys",
+    order = "dad"
+}:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "phosphate-rock", amount =4})
+
+RECIPE {
+    type = "recipe",
+    name = "full-molten-stainless-steel-4",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "molten-stainless-steel-p3", amount = 50},
+        {type = "fluid", name = "niobium-oxide", amount = 4},
+        {type = 'item', name = 'fuelrod-mk03', amount = 1}
+    },
+    results = {
+        {type = "fluid", name = "molten-stainless-steel", amount = 100},
+    },
+    main_product = "molten-stainless-steel",
+    subgroup = "py-rawores-iron-alloys",
+    order = "dae"
+}:add_unlock("iron-mk03")
+
+--SUPER STEEL
+
+RECIPE {
+    type = "recipe",
+    name = "full-molten-super-steel-1",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "molten-stainless-steel", amount = 50},
+        {type = "item", name = "fuelrod-mk05", amount = 3},
+        {type = "fluid", name = "niobium-oxide", amount = 4},
+    },
+    results = {
+        {type = "fluid", name = "molten-super-steel-p1", amount = 60},
+    },
+    main_product = "molten-super-steel-p1",
+    subgroup = "py-rawores-iron-alloys",
+    order = "fab"
+}:add_unlock("iron-mk03")
+
+
+RECIPE {
+    type = "recipe",
+    name = "full-molten-super-steel-2",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "molten-super-steel-p1", amount = 50},
+        {type = "fluid", name = "molten-titanium", amount = 20},
+    },
+    results = {
+        {type = "fluid", name = "molten-super-steel-p2", amount = 60},
+    },
+    main_product = "molten-super-steel",
+    subgroup = "py-rawores-iron-alloys",
+    order = "fac"
+}:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "vanadium-oxide", amount =3})
+
+
+RECIPE {
+    type = "recipe",
+    name = "full-molten-super-steel-3",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "molten-super-steel-p2", amount = 60},
+    },
+    results = {
+        {type = "fluid", name = "molten-super-steel", amount = 100},
+    },
+    main_product = "molten-super-steel",
+    subgroup = "py-rawores-iron-alloys",
+    order = "fad"
+}:add_unlock("iron-mk03"):add_ingredient({type = "fluid", name = "molybdenum-oxide", amount = 4})
