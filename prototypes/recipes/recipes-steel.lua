@@ -224,7 +224,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-stainless-steel-p3", amount = 50},
-        {type = "fluid", name = "niobium-oxide", amount = 4},
+        {type = "fluid", name = "niobium-complex", amount = 25},
         {type = 'item', name = 'fuelrod-mk03', amount = 1}
     },
     results = {
@@ -246,7 +246,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "molten-stainless-steel", amount = 50},
         {type = "item", name = "fuelrod-mk05", amount = 3},
-        {type = "fluid", name = "niobium-oxide", amount = 4},
+        {type = "fluid", name = "niobium-complex", amount = 20},
     },
     results = {
         {type = "fluid", name = "molten-super-steel-p1", amount = 60},
@@ -270,7 +270,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "molten-super-steel-p2", amount = 60},
     },
-    main_product = "molten-super-steel",
+    main_product = "molten-super-steel-p2",
     subgroup = "py-rawores-iron-alloys",
     order = "fac"
 }:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "vanadium-oxide", amount =3})
@@ -291,4 +291,4 @@ RECIPE {
     main_product = "molten-super-steel",
     subgroup = "py-rawores-iron-alloys",
     order = "fad"
-}:add_unlock("iron-mk03"):add_ingredient({type = "fluid", name = "molybdenum-oxide", amount = 4})
+}:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "molybdenum-oxide", amount = 4})
