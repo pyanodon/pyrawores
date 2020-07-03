@@ -62,14 +62,14 @@ RECIPE {
     name = "casting-sticks",
     category = "casting",
     enabled = false,
-    energy_required = 4,
+    energy_required = 6,
     ingredients = {
-        {type = "fluid", name = "molten-iron", amount = 30},
+        {type = "fluid", name = "molten-iron", amount = 70},
         {type = "item", name = "borax", amount = 3},
         {type = "item", name = "sand-casting", amount = 1},
     },
     results = {
-        {type = "item", name = "iron-stick", amount = 40}
+        {type = "item", name = "iron-stick", amount = 100}
     },
     main_product= "iron-stick",
     subgroup = "py-rawores-iron",
