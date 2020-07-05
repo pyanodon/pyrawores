@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.10
+Date: 2020-07-05
+  Changes:
+    - Reduced sand input in fine nexilit powder.
+    - added molten glass.
+    - Rebalanced ddc raw coal to give more coal gas and tar.
+    - Added full molten processing for stainless and super steel.
+    - Slight buff to molten to iron sticks.
+    - Slight nerf to high grade iron from iron pulp 07.
+    - Slight nerf to unslimed iron to molten iron
+---------------------------------------------------------------------------------------------------
 Version: 2.0.9
 Date: 2020-06-14
   Changes:
