@@ -193,7 +193,7 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "iron-pulp-07", amount = 300},
+        {type = "fluid", name = "iron-pulp-07", amount = 450},
         {type = "item", name = "filtration-media", amount = 1},
     },
     results = {
@@ -300,7 +300,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 60},
     },
     results = {
-        {type = "fluid", name = "molten-iron", amount = 80},
+        {type = "fluid", name = "molten-iron", amount = 40},
     },
     main_product = "molten-iron",
     subgroup = "py-rawores-iron",
