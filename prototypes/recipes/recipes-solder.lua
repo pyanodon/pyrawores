@@ -46,6 +46,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "molten-solder", amount = 20}
     },
+    main_product = 'molten-solder',
     subgroup = "py-rawores-solder",
     order = "j"
 }:add_unlock("lead-mk01")
@@ -65,6 +66,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "molten-solder", amount = 40}
     },
+    main_product = 'molten-solder',
     subgroup = "py-rawores-solder",
     order = "j"
 }:add_unlock("lead-mk02")
@@ -84,6 +86,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "molten-solder", amount = 100}
     },
+    main_product = 'molten-solder',
     subgroup = "py-rawores-solder",
     order = "j"
 }:add_unlock("lead-mk03")
