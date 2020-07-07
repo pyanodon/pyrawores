@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.1
+Date: 2020-07-06
+  Changes:
+    - Added missing locale keys for super steel p1,p2 and stainless p1-p3
+    - Corrected changelog to more accurately display not so slight nerf to iron
+---------------------------------------------------------------------------------------------------
 Version: 2.1.0
 Date: 2020-07-05
   Changes:
@@ -7,8 +13,8 @@ Date: 2020-07-05
     - Rebalanced ddc raw coal to give more coal gas and tar.
     - Added full molten processing for stainless and super steel.
     - Slight buff to molten to iron sticks.
-    - Slight nerf to high grade iron from iron pulp 07.
-    - Slight nerf to unslimed iron to molten iron
+    - Not so slight nerf to high grade iron from iron pulp 07.
+    - Not so slight nerf to unslimed iron to molten iron
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.9
 Date: 2020-06-14
