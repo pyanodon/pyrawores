@@ -9,8 +9,8 @@ Version: 2.1.0
 Date: 2020-07-05
   Changes:
     - Reduced sand input in fine nexelit powder.
-    - added molten glass.
-    - Rebalanced ddc raw coal to give more coal gas and tar.
+    - Added molten glass.
+    - Rebalanced DDC raw coal to give more coal gas and tar.
     - Added full molten processing for stainless and super steel.
     - Slight buff to molten to iron sticks.
     - Not so slight nerf to high grade iron from iron pulp 07.
@@ -37,7 +37,7 @@ Date: 2020-04-23
 Version: 2.0.6
 Date: 2020-04-13
   Changes:
-    - fixed names related to pycoal
+    - Fixed names related to pycoal
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.4
 Date: 2020-04-01
@@ -48,9 +48,9 @@ Version: 2.0.3
 Date: ????
   Changes:
     - Modified all glass recipes to the new glassworks building.
-    - Small balance on cooper.
+    - Small balance on copper.
     - Cyanic acid buff
-    - Ammonia now requiered chromium
+    - Ammonia now required chromium
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.2
 Date: 2020-03-14
@@ -71,7 +71,7 @@ Date: 2020-03-14
 Version: 1.9.9
 Date: 2020-02-28
   Changes:
-    - adjusted robot sound volume
+    - Adjusted robot sound volume
 ---------------------------------------------------------------------------------------------------
 Version: 1.9.8
 
@@ -121,30 +121,30 @@ Version: 1.9.0
 Version: 1.8.9
 
   Changes:
-    - added recipes to make syngas from hydrogen and CO2
+    - Added recipes to make syngas from hydrogen and CO2
 ---------------------------------------------------------------------------------------------------
 Version: 1.8.8
 
   Changes:
-    - balanced more the lead chain
-    - added molten recipe for Ag-Zn alloy if pyFE is active.
+    - Balanced the lead chain more
+    - Added molten recipe for Ag-Zn alloy if pyFE is active.
 ---------------------------------------------------------------------------------------------------
 Version: 1.8.7
 
   Changes:
-    - fixed locale names of ores.
-    - balanced more the lead chain
-    - increased stack sizes for Mo and Nb.
+    - Fixed locale names of ores.
+    - Balanced more the lead chain
+    - Increased stack sizes for Mo and Nb.
 ---------------------------------------------------------------------------------------------------
 Version: 1.8.6
 
   Changes:
-    - fixed an oppsie. shouldnt error on resource depletion now
+    - Fixed an oppsie. Shouldn't error on resource depletion now
 ---------------------------------------------------------------------------------------------------
 Version: 1.8.5
 
   Changes:
-    - Ore processing redone for pyal. currently disabled by default til pyal release
+    - Ore processing redone for pyAL. Currently disabled by default til pyAL release
 ---------------------------------------------------------------------------------------------------
 Version: 1.8.4
 
@@ -159,7 +159,7 @@ Version: 1.8.3
 Version: 1.8.2
 
   Changes:
-    - Mega mines now extract ores more fast.
+    - Mega mines now extract ores faster.
 ---------------------------------------------------------------------------------------------------
 Version: 1.8.1
 
@@ -184,7 +184,7 @@ Version: 1.7.8
 Version: 1.7.7
 
   Changes:
-    - Hydrogen Chloride recipe no have a probability to return the lamp.
+    - Hydrogen Chloride recipe now have a probability to return the lamp.
 ---------------------------------------------------------------------------------------------------
 Version: 1.7.5
 
@@ -209,7 +209,7 @@ Version: 1.7.2
 Version: 1.7.1
 
   Changes:
-    - version
+    - Version
 ---------------------------------------------------------------------------------------------------
 Version: 1.7.0
 
@@ -275,7 +275,7 @@ Version: 1.5.9
 Version: 1.5.8
 
   Changes:
-    - Stainles steel now requiered for chemical science pack and control units.
+    - Stainles steel now required for chemical science pack and control units.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.7
 
@@ -291,7 +291,7 @@ Version: 1.5.6
 Version: 1.5.5
 
   Changes:
-    - migration issues.
+    - Migration issues.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.4
 
@@ -364,7 +364,7 @@ Version: 1.4.3
 Version: 1.4.2
 
   Balances:
-    - mega mines now unlocked with science 3.
+    - Mega mines now unlocked with science 3.
 ---------------------------------------------------------------------------------------------------
 Version: 1.4.1
 
@@ -375,7 +375,7 @@ Version: 1.4.0
 
   Balances:
     - Added new graphics for ores.
-    - reduced HCl from boron.
+    - Reduced HCl from boron.
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.9
 
@@ -397,7 +397,7 @@ Version: 1.3.7
 Version: 1.3.6
 
   Balances:
-    - balanced nexelit for pyPH.
+    - Balanced nexelit for pyPH.
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.5
 
@@ -443,7 +443,7 @@ Version: 1.2.9
   Bug fixes:
     - Compatibility with other mods
   Balances:
-    - map grid fix.
+    - Map grid fix.
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.8
 
@@ -494,15 +494,15 @@ Version: 1.2.1
 Version: 1.1.20
 
   Balances:
-    - removed infinite salt.
-    - reworked pollution.
-    - fixed robots.
-    - lots of balances.
+    - Removed infinite salt.
+    - Reworked pollution.
+    - Fixed robots.
+    - Lots of balances.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.19
 
   Balances:
-    - removed infinite salt.
+    - Removed infinite salt.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.18
 
