@@ -6,12 +6,12 @@
         enabled = false,
         energy_required = 3,
         ingredients = {
-            {type = 'item', name = 'unslimed-iron', amount = 7},
+            {type = 'item', name = 'unslimed-iron', amount = 4},
             {type = 'fluid', name = 'petroleum-sulfonates', amount = 50},
             {type = 'fluid', name = 'oleochemicals', amount = 50}
         },
         results = {
-            {type = 'fluid', name = 'iron-pulp-02', amount = 350}
+            {type = 'fluid', name = 'iron-pulp-02', amount = 400}
         },
         main_product = 'iron-pulp-02',
         subgroup = 'py-rawores-iron',
