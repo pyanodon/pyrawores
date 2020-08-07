@@ -535,7 +535,7 @@ ITEM {
     order = 'aaa',
     stack_size = 500
 }
-
+--[[
 --COPPER
 ITEM {
     type = 'item',
@@ -553,7 +553,7 @@ ITEM {
     order = 'f[copper-ore]-a',
     stack_size = 500
 }
-
+]]--
 ITEM {
     type = 'item',
     name = 'grade-1-copper',
@@ -674,7 +674,7 @@ ITEM {
     order = 'cak',
     stack_size = 500
 }
-
+--[[
 --IRON
 ITEM {
     type = 'item',
@@ -692,7 +692,7 @@ ITEM {
     order = 'e[iron-ore]-a',
     stack_size = 500
 }
-
+]]--
 ITEM {
     type = 'item',
     name = 'processed-iron-ore',
