@@ -220,7 +220,7 @@ RECIPE {
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
-        {type = "fluid", name = "molten-aluminium", amount = 500}
+        {type = "fluid", name = "molten-aluminium", amount = 600}
     },
     main_product = "molten-aluminium",
     subgroup = "py-rawores-aluminium",
