@@ -158,7 +158,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 200}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 55}
+        {type = "item", name = "chromite-sand", amount = 35}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
