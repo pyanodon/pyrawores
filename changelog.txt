@@ -1,5 +1,13 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.1
+Date: 2020-08-09
+  Changes:
+    - Adjustments to iron pulp chain to not give less plates than previous tier processing.
+    - Adjusted sintered aluminium to molten.
+    - Tweaks to titanium processing 2 and 3 to fix first molten titanium stage giving less plates than previous tier.
+    - adjusted chromite pulp 7 to make less chromite sand to bring it into balance with next processing tier.
+---------------------------------------------------------------------------------------------------
+Version: 2.1.1
 Date: 2020-07-06
   Changes:
     - Added missing locale keys for super steel p1,p2 and stainless p1-p3
