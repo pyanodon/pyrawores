@@ -98,14 +98,14 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-4-ti", amount = 1},
+        {type = "item", name = "grade-4-ti", amount = 2},
         {type = "fluid", name = "water", amount = 100},
-        {type = "fluid", name = "mibc", amount = 75}
+        {type = "fluid", name = "mibc", amount = 100}
     },
     results = {
-        {type = "item", name = "powdered-ti", amount = 1},
-        {type = "fluid", name = "ti-pulp-03", amount = 20},
-        {type = "fluid", name = "dirty-water", amount = 20},
+        {type = "item", name = "powdered-ti", amount = 2},
+        {type = "fluid", name = "ti-pulp-03", amount = 60},
+        {type = "fluid", name = "dirty-water", amount = 40},
     },
     main_product = "powdered-ti",
     subgroup = "py-rawores-titanium",
@@ -145,7 +145,7 @@ RECIPE {
     },
     main_product = "high-grade-ti-powder",
     subgroup = "py-rawores-titanium",
-}:add_unlock("titanium-mk03")
+}:add_unlock("titanium-mk02")
 
 RECIPE {
     type = "recipe",
@@ -163,7 +163,7 @@ RECIPE {
     },
     main_product = "concentrated-ti",
     subgroup = "py-rawores-titanium",
-}:add_unlock("titanium-mk03")
+}:add_unlock("titanium-mk02")
 
 RECIPE {
     type = "recipe",
@@ -282,7 +282,7 @@ RECIPE {
     main_product = "molten-titanium",
     subgroup = "py-rawores-titanium",
     order = "bac"
-}:add_unlock("titanium-mk03")
+}:add_unlock("titanium-mk02")
 
 RECIPE {
     type = "recipe",
