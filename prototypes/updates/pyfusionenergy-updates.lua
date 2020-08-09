@@ -25,7 +25,7 @@ RECIPE("secondary-crusher-mk01"):remove_unlock("diamond-mining"):add_unlock("mac
 
 RECIPE("automated-screener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 
-RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20}):replace_ingredient('advanced-circuit', 'electronic-circuit')
+RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20}):replace_ingredient('advanced-circuit', 'electronic-circuit'):replace_ingredient('electric-engine-unit','engine-unit')
 RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 
 RECIPE("u-79-2"):remove_unlock("uranium-mk04")
