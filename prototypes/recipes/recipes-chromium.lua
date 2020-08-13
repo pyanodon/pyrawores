@@ -158,7 +158,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 200}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 35}
+        {type = "item", name = "chromite-sand", amount = 55}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
@@ -174,7 +174,7 @@ RECIPE {
         {type = "item", name = "high-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 15}
+        {type = "item", name = "chromite-sand", amount = 25}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
@@ -190,7 +190,7 @@ RECIPE {
         {type = "item", name = "grade-4-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 8}
+        {type = "item", name = "chromite-sand", amount = 5}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
@@ -206,7 +206,7 @@ RECIPE {
         {type = "item", name = "grade-3-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 7}
+        {type = "item", name = "chromite-sand", amount = 4}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
