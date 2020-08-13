@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.5
+Date: 2020-08-13
+  Changes:
+    - rebalanced the rebalance of the chromium plate processing chains to give more plates per tier.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.4
 Date: 2020-08-13
   Changes:
