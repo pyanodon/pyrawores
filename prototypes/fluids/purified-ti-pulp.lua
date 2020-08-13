@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "purified-ti-pulp", amount = 50},
-        {type = "fluid", name = "ti-overflow-waste", amount = 50},
+        {type = "fluid", name = "ti-overflow-waste", amount = 25},
     },
     main_product = "purified-ti-pulp",
     subgroup = "py-rawores-titanium",

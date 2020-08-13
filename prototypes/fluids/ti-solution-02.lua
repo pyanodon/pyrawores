@@ -9,7 +9,7 @@ RECIPE {
         {type = "fluid", name = "sulfuric-acid", amount = 100},
     },
     results = {
-        {type = "fluid", name = "ti-solution-02", amount = 50},
+        {type = "fluid", name = "ti-solution-02", amount = 100},
         {type = "fluid", name = "dirty-water", amount = 50},
     },
     main_product = "ti-solution-02",

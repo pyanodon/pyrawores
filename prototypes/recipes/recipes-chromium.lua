@@ -46,7 +46,7 @@ RECIPE {
         {type = "item", name = "grade-2-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "grade-1-chromite", amount = 1, probability = 0.5},
+        {type = "item", name = "grade-1-chromite", amount = 1, probability = 0.65},
         {type = "item", name = "gravel", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-chromite",
@@ -137,10 +137,10 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "chromite-solution", amount = 200}
+        {type = "fluid", name = "chromite-solution", amount = 150}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 15}
+        {type = "item", name = "chromite-sand", amount = 35}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
@@ -174,7 +174,7 @@ RECIPE {
         {type = "item", name = "high-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 20}
+        {type = "item", name = "chromite-sand", amount = 15}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
@@ -320,7 +320,7 @@ RECIPE {
         {type = "fluid", name = "carbon-dioxide", amount = 150}
     },
     results = {
-        {type = "fluid", name = "molten-chromium", amount = 100}
+        {type = "fluid", name = "molten-chromium", amount = 150}
     },
     main_product = "molten-chromium",
     subgroup = "py-rawores-chromium",
@@ -355,7 +355,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "chromite-sand", amount = 25},
+        {type = "item", name = "chromite-sand", amount = 20},
         {type = "item", name = "sodium-hydroxide", amount = 2},
         {type = "fluid", name = "light-oil", amount = 100}
         --pyfe pressured air
