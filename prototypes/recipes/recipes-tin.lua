@@ -257,25 +257,6 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "sinter-tin-1",
-    category = "sinter",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "item", name = "high-grade-tin", amount = 1},
-        {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100},
-        --pyfe pressured air
-    },
-    results = {
-        {type = "item", name = "sintered-tin", amount = 1},
-    },
-    main_product = "sintered-tin",
-    subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
-
-RECIPE {
-    type = "recipe",
     name = "sinter-tin-2",
     category = "sinter",
     enabled = false,

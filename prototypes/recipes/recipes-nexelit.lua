@@ -185,25 +185,6 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "sinter-nexelit-1",
-    category = "sinter",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "item", name = "high-grade-nexelit", amount = 4},
-        {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100}
-        --pyfe pressured air
-    },
-    results = {
-        {type = "item", name = "sintered-nexelit", amount = 1}
-    },
-    main_product = "sintered-nexelit",
-    subgroup = "py-rawores-nexelit",
-}:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
-
-RECIPE {
-    type = "recipe",
     name = "sinter-nexelit-2",
     category = "sinter",
     enabled = false,

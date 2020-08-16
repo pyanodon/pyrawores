@@ -171,25 +171,6 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "sinter-copper-1",
-    category = "sinter",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "item", name = "high-grade-copper", amount = 1},
-        {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100}
-        --pyfe pressured air
-    },
-    results = {
-        {type = "item", name = "sintered-copper", amount = 1}
-    },
-    main_product = "sintered-copper",
-    subgroup = "py-rawores-copper",
-}:add_unlock("copper-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
-
-RECIPE {
-    type = "recipe",
     name = "sinter-copper-2",
     category = "sinter",
     enabled = false,
