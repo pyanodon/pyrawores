@@ -203,10 +203,10 @@ RECIPE {
     enabled = false,
     energy_required = 4.5,
     ingredients = {
-        {type = "item", name = "grade-3-chromite", amount = 1}
+        {type = "item", name = "grade-3-chromite", amount = 2}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 4}
+        {type = "item", name = "chromite-sand", amount = 11}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
