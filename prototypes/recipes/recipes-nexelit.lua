@@ -287,7 +287,7 @@ RECIPE {
         {type = "item", name = "borax", amount = 4}
     },
     results = {
-        {type = "fluid", name = "molten-nexelit", amount = 135}
+        {type = "fluid", name = "molten-nexelit", amount = 200}
     },
     main_product = "molten-nexelit",
     subgroup = "py-rawores-nexelit",
