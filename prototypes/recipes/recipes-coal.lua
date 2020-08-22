@@ -53,7 +53,7 @@ RECIPE {
         {type = "item", name = "coarse-coal", amount = 3}
     },
     results = {
-        {type = "item", name = "coal", amount = 5},
+        {type = "item", name = "coal", amount = 4},
     },
     main_product = "coal",
     subgroup = "py-rawores-coal",
@@ -70,13 +70,29 @@ RECIPE {
     },
     results = {
         {type = "item", name = "coarse-coal", amount = 1},
-        {type = "item", name = "coal", amount = 5},
+        {type = "item", name = "coal", amount = 4},
         {type = "item", name = "coal-dust", amount = 1, probability = 0.3}
     },
     main_product = "coarse-coal",
     subgroup = "py-rawores-coal",
 }:add_unlock("coal-mk02"):change_category('screener')
 
+
+RECIPE {
+    type = "recipe",
+    name = "coarse-to-coal",
+    category = "evaporator",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "fines-pulp", amount = 100}
+    },
+    results = {
+        {type = "item", name = "coal", amount = 6},
+    },
+    main_product = "coal",
+    subgroup = "py-rawores-coal",
+}:add_unlock("coal-mk03")
 
 RECIPE {
     type = "recipe",
