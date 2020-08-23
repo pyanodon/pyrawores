@@ -10,8 +10,8 @@ RECIPE {
         {type = "item", name = "coarse-coal", amount = 3},
     },
     results = {
-        {type = "fluid", name = "fines-pulp", amount = 50},
-        {type = "fluid", name = "high-ash-fines", amount = 10},
+        {type = "fluid", name = "fines-pulp", amount = 40},
+        {type = "fluid", name = "high-ash-fines", amount = 25},
     },
     main_product = "fines-pulp",
     subgroup = "py-rawores-coal",

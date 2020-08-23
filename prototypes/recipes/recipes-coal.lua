@@ -102,11 +102,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "biofilm", amount = 1},
-        {type = "fluid", name = "coal-pulp-01", amount = 100},
+        {type = "fluid", name = "coal-pulp-01", amount = 150},
         {type = "fluid", name = "water", amount = 200},
     },
     results = {
-        {type = "item", name = "coal", amount = 20},
+        {type = "item", name = "coal", amount = 40},
     },
     main_product = "coal",
     subgroup = "py-rawores-coal",
@@ -151,7 +151,7 @@ RECIPE {
     },
     main_product = "coal-under-pulp",
     subgroup = "py-rawores-coal",
-}:add_unlock("coal-mk04")
+}:add_unlock("coal-mk03")
 
 RECIPE {
     type = "recipe",
@@ -170,7 +170,7 @@ RECIPE {
     main_product = "refsyngas",
     subgroup = "py-rawores-coal",
     order = "zaa"
-}:add_unlock("coal-mk04"):change_category('thickener'):replace_ingredient('organic-solvent', 'industrial-solvent')
+}:add_unlock("coal-mk03"):change_category('thickener'):replace_ingredient('organic-solvent', 'industrial-solvent')
 
 RECIPE {
     type = "recipe",
@@ -190,4 +190,4 @@ RECIPE {
     },
     main_product = "coal",
     subgroup = "py-rawores-coal",
-}:add_unlock("coal-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("coal-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
