@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.6
+Date: 2020-08-26
+  Changes:
+    - Remove high grade to sintered recipes.
+    - Rebalanced chromite grade 3 to chromite sand.
+    - Adjusted sintered nexelit to molten nexelit to be in line with the rest.
+    - Adjusted and rebalanced tier 3 and 4 of raw coal processing to be better.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.5
 Date: 2020-08-13
   Changes:
