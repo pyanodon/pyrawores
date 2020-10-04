@@ -40,7 +40,7 @@ ENTITY {
     icon = '__pyraworesgraphics__/graphics/icons/py-logistic-robot-02.png',
     icon_size = 32,
     flags = {'placeable-player', 'player-creation', 'placeable-off-grid', 'not-on-map'},
-    minable = {hardness = 0.1, mining_time = 0.1, result = 'py-logistic-robot-02'},
+    minable = {mining_time = 0.1, result = 'py-logistic-robot-02'},
     resistances = {{type = 'fire', percent = 85}},
     max_health = 100,
     collision_box = {{0, 0}, {0, 0}},

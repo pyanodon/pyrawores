@@ -21,12 +21,9 @@ DATA {
     order = "a-b-a",
     map_color = {r = 0.6, g = 0.901, b = 0.847},
     highlight = true,
-    minimum = 100,
-    normal = 200,
-    maximum = 300,
     map_grid = false,
     minable = {
-        hardness = 1.0,
+        
         -- mining_particle = "zinc-rock-particle",
         mining_time = 1,
         results = {
@@ -34,32 +31,21 @@ DATA {
         },
     },
     resource_patch_search_radius = 12,
-    tree_removal_probability = 0.7,
-    tree_removal_max_distance = 32 * 32,
     collision_box = {{-5.3, -5.3}, {5.3, 5.3}},
     selection_box = {{-5.5, -5.5}, {5.5, 5.5}},
-    autoplace = {
-        control = "zinc-rock",
-        sharpness = 3,
-        --max_probability = 0.035,
-        richness_multiplier = 800,
-        richness_multiplier_distance_bonus = 1000,
-        richness_base = 8000000,
-        coverage = 0.00003 / 30,
-        peaks = {
-            {
-                noise_layer = "zinc-rock",
-                noise_octaves_difference = -2.25,
-                noise_persistence = 0.4
-            },
-            --no starting area
-            {
-                influence = -1.0,
-                starting_area_weight_optimal = 1,
-                starting_area_weight_range = 0,
-                starting_area_weight_max_range = 2
-            },
-        }
+    tree_removal_probability = 0.7,
+    tree_removal_max_distance = 32 * 32,
+    autoplace = resource_autoplace.resource_autoplace_settings {
+        name = "zinc-rock",
+        order = "b",
+        base_density = 10,
+        base_spots_per_km2 = 1.25,
+        has_starting_area_placement = false,
+        random_spot_size_minimum = 2,
+        random_spot_size_maximum = 4,
+        regular_rq_factor_multiplier = 1,
+        starting_rq_factor_multiplier = 2,
+        candidate_spot_count = 20
     },
     stage_counts = {0},
     stages = {

@@ -21,12 +21,9 @@ DATA {
     order = "a-b-a",
     map_color = {r = 0.258, g = 0.180, b = 0.807},
     highlight = true,
-    minimum = 100,
-    normal = 200,
-    maximum = 300,
     map_grid = false,
     minable = {
-        hardness = 1.0,
+        
         -- mining_particle = "tin-rock-particle",
         mining_time = 1,
         results = {
@@ -34,32 +31,21 @@ DATA {
         },
     },
     resource_patch_search_radius = 12,
-    tree_removal_probability = 0.7,
-    tree_removal_max_distance = 32 * 32,
     collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
     selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
-    autoplace = {
-        control = "tin-rock",
-        sharpness = 3,
-        --max_probability = 0.035,
-        richness_multiplier = 800,
-        richness_multiplier_distance_bonus = 1000,
-        richness_base = 8000000,
-        coverage = 0.00003 / 30,
-        peaks = {
-            {
-                noise_layer = "tin-rock",
-                noise_octaves_difference = -2.25,
-                noise_persistence = 0.4
-            },
-            --no starting area
-            {
-                influence = -1.0,
-                starting_area_weight_optimal = 1,
-                starting_area_weight_range = 0,
-                starting_area_weight_max_range = 2
-            },
-        }
+    tree_removal_probability = 0.7,
+    tree_removal_max_distance = 32 * 32,
+    autoplace = resource_autoplace.resource_autoplace_settings {
+        name = "tin-rock",
+        order = "b",
+        base_density = 10,
+        base_spots_per_km2 = 1.25,
+        has_starting_area_placement = true,
+        random_spot_size_minimum = 2,
+        random_spot_size_maximum = 4,
+        regular_rq_factor_multiplier = 1,
+        starting_rq_factor_multiplier = 2,
+        candidate_spot_count = 20
     },
     stage_counts = {0},
     stages = {

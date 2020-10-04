@@ -21,7 +21,6 @@ ENTITY {
     order = "a-b-a",
     map_color = {r = 0.6, g = 0.901, b = 0.847},
     minable = {
-        hardness = 1,
         -- mining_particle = "zinc-ore-particle",
         mining_time = 2,
         results = {
@@ -30,23 +29,21 @@ ENTITY {
         fluid_amount = 40,
         required_fluid = "syngas"
     },
-    starting_area = false,
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-    autoplace = {
-        control = "ore-zinc",
-        sharpness = 15/16,
-        richness_multiplier = 1500,
-        richness_multiplier_distance_bonus = 20,
-        richness_base = 10,
-        coverage = 0.0003,
-        peaks = {
-            {
-                noise_layer = "ore-zinc",
-                noise_octaves_difference = -0.85,
-                noise_persistence = 0.4
-            }
-        }
+    tree_removal_probability = 0.7,
+    tree_removal_max_distance = 32 * 32,
+    autoplace = resource_autoplace.resource_autoplace_settings {
+        name = "ore-zinc",
+        order = "b",
+        base_density = 10,
+        base_spots_per_km2 = 1.25,
+        has_starting_area_placement = false,
+        random_spot_size_minimum = 2,
+        random_spot_size_maximum = 4,
+        regular_rq_factor_multiplier = 1,
+        starting_rq_factor_multiplier = 2,
+        candidate_spot_count = 20
     },
     stage_counts = {2000, 1600, 1400, 1200, 800, 400, 200, 10},
     stages = {
