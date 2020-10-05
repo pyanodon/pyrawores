@@ -3,7 +3,7 @@ DATA {
     category = "resource",
     name = "ore-tin",
     richness = true,
-    order = "b-e"
+    order = "p-tin"
 }
 
 DATA {
