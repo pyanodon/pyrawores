@@ -1,3 +1,5 @@
+local resource_autoplace = require("resource-autoplace")
+
 DATA {
     type = "autoplace-control",
     category = "resource",
@@ -36,7 +38,7 @@ ENTITY {
         order = "b",
         base_density = 3,
         base_spots_per_km2 = 1.25,
-        random_probability = 1/48,
+        random_probability = 1 / 48,
         has_starting_area_placement = false,
         random_spot_size_minimum = 1,
         random_spot_size_maximum = 2,

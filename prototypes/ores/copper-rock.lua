@@ -1,3 +1,5 @@
+local resource_autoplace = require("resource-autoplace")
+
 DATA {
     type = "autoplace-control",
     category = "resource",
@@ -16,7 +18,7 @@ DATA {
     name = "copper-rock",
     category = "copper-rock",
     icon = "__pyraworesgraphics__/graphics/icons/ores/copper-rock.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
     map_color = {r = 0.717, g = 0.662, b = 0.447},
@@ -27,7 +29,7 @@ DATA {
         mining_time = 1,
         results = {
             {"copper-ore", 1}
-        },
+        }
     },
     resource_patch_search_radius = 12,
     collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
@@ -39,12 +41,12 @@ DATA {
         order = "b",
         base_density = 3,
         base_spots_per_km2 = 1.25,
-        random_probability = 1/48,
+        random_probability = 1 / 48,
         has_starting_area_placement = false,
         random_spot_size_minimum = 1,
         random_spot_size_maximum = 2,
         additional_richness = 10000,
-        regular_rq_factor_multiplier = 1,
+        regular_rq_factor_multiplier = 1
         --starting_rq_factor_multiplier = 2,
         --candidate_spot_count = 20
     },

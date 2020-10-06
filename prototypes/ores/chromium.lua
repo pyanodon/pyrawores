@@ -1,3 +1,5 @@
+local resource_autoplace = require("resource-autoplace")
+
 DATA {
     type = "autoplace-control",
     category = "resource",
@@ -21,7 +23,6 @@ ENTITY {
     order = "a-b-a",
     map_color = {r = 0.784, g = 0.231, b = 0},
     minable = {
-        
         -- mining_particle = "chromium-ore-particle",
         mining_time = 2,
         results = {

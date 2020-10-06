@@ -1,3 +1,5 @@
+local resource_autoplace = require("resource-autoplace")
+
 DATA {
     type = "autoplace-control",
     category = "resource",
@@ -21,7 +23,6 @@ ENTITY {
     order = "a-b-a",
     map_color = {r = 0.258, g = 0.180, b = 0.807},
     minable = {
-        
         -- mining_particle = "tin-ore-particle",
         mining_time = 1,
         results = {
