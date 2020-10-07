@@ -63,7 +63,7 @@ RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 5
 RECIPE("olefin"):replace_ingredient("water", "hydrogen")
 RECIPE("flask"):remove_ingredient("iron-plate"):add_ingredient({type = "fluid", name = "molten-glass", amount = 100})
 RECIPE("ref-to-light-oil"):add_ingredient({type = "fluid", name = "hydrogen", amount = 250})
-RECIPE("olefin-combustion"):remove_ingredient("water"):add_ingredient({type = "fluid", name = "hydrogen", amount = 100})
+--RECIPE("olefin-combustion"):remove_ingredient("water"):add_ingredient({type = "fluid", name = "hydrogen", amount = 100})
 RECIPE("niobium-oxide"):replace_ingredient("water", "nitrogen")
 RECIPE("filtration-media"):add_ingredient({type = "item", name = "glass", amount = 6})
 RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "optical-fiber", amount = 2})
@@ -77,7 +77,6 @@ RECIPE("wpu"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("fawogae-plantation-mk01"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("advanced-foundry-mk01"):replace_ingredient("steel-furnace", "stone-furnace")
 RECIPE("chemical-science-pack"):replace_ingredient("iron-plate", "stainless-steel")
-
 
 RECIPE("gasturbinemk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "duralumin")
 RECIPE("methanol-reactor"):replace_ingredient("chemical-plant", "electrolyzer-mk01")
