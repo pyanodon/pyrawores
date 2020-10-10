@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.8
+Date: 2020-10-10
+  Changes:
+    - Fixed that raw coal wasnt set to spawn in the start area and had a low probability of spawning at all.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.7
 Date: 2020-10-06
   Changes:
