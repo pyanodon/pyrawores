@@ -66,7 +66,6 @@ ENTITY {
         },
     },
     energy_usage = "1200kW",
-    ingredient_count = 20,
     animation = {
         layers = {
             {
