@@ -87,6 +87,7 @@ RECIPE("nexelit-battery"):add_ingredient({type = "item", name = "lead-plate", am
 RECIPE("py-construction-robot-02"):add_ingredient({type = "item", name = "nexelit-battery", amount = 1})
 RECIPE("py-logistic-robot-02"):add_ingredient({type = "item", name = "nexelit-battery", amount = 1})
 RECIPE("ht-locomotive"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 60}):add_ingredient({type = "item", name = "nickel-plate", amount = 50})
+RECIPE("ht-generic-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 10})
 
 
 RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 10})
