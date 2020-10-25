@@ -1,3 +1,6 @@
+--TECHNOLOGY--
+TECHNOLOGY('coal-processing-3'):add_prereq('ht-trains')
+
 RECIPE("al-pulp-01"):replace_ingredient("boric-acid", "phosphoric-acid")
 RECIPE("powdered-ralesia-seeds"):change_category("pulp")
 RECIPE("glass-fiber"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1}):add_ingredient({type = "fluid", name = "molten-glass", amount = 100})
@@ -80,6 +83,9 @@ RECIPE("ech"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount
 RECIPE("nylon2"):replace_ingredient("sulfuric-acid", "chlorine")
 RECIPE("chloromethane"):replace_ingredient("sulfuric-acid" , "hydrogen-chloride")
 RECIPE("molten-stainless-steel"):remove_ingredient("chromium"):add_ingredient({type = "item", name = "fecr-alloy", amount = 5})
+RECIPE("nexelit-battery"):add_ingredient({type = "item", name = "lead-plate", amount = 5})
+RECIPE("py-construction-robot-02"):add_ingredient({type = "item", name = "nexelit-battery", amount = 1})
+RECIPE("py-logistic-robot-02"):add_ingredient({type = "item", name = "nexelit-battery", amount = 1})
 
 
 RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 10})
