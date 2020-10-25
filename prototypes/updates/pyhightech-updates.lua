@@ -86,6 +86,7 @@ RECIPE("molten-stainless-steel"):remove_ingredient("chromium"):add_ingredient({t
 RECIPE("nexelit-battery"):add_ingredient({type = "item", name = "lead-plate", amount = 5})
 RECIPE("py-construction-robot-02"):add_ingredient({type = "item", name = "nexelit-battery", amount = 1})
 RECIPE("py-logistic-robot-02"):add_ingredient({type = "item", name = "nexelit-battery", amount = 1})
+RECIPE("ht-locomotive"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 60}):add_ingredient({type = "item", name = "nickel-plate", amount = 50})
 
 
 RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 10})
