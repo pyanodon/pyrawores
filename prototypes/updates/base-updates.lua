@@ -1,6 +1,9 @@
 
 RECIPE('atomic-bomb'):remove_ingredient('uranium-235'):add_ingredient({type = "item", name = "yellow-cake", amount = 5})
 
+data.raw.reactor['nuclear-reactor'].use_fuel_glow_color = true
+data.raw.item['uranium-fuel-cell'].fuel_glow_color = {0,1,0,1}
+
 data.raw['underground-belt']['fast-underground-belt'].max_distance = 15
 data.raw['underground-belt']['express-underground-belt'].max_distance = 30
 
