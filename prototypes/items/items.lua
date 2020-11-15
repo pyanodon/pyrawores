@@ -1668,7 +1668,7 @@ ITEM {
     fuel_category = 'nuclear',
     burnt_result = 'used-up-uranium-fuel-cell',
     fuel_value = '20GJ',
-    fuel_glow_color = {1,0.5,1,1},
+    fuel_glow_color = {1,0.5,0,1},
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'cac',
