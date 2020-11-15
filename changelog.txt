@@ -2,6 +2,9 @@
 Version: 2.1.9
 Date: ????
   Changes:
+    - Added fuel glow colors for the different tiers of uranium fuel cells in the reactor.
+    - Removed sand casting from molten titanium and molten glass.
+    - Added sand casting to glass made from molten glass.
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.8
 Date: 2020-10-10

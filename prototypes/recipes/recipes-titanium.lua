@@ -234,7 +234,6 @@ RECIPE {
     ingredients = {
         {type = "item", name = "ti-enriched-dust", amount = 2},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3},
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
@@ -254,7 +253,6 @@ RECIPE {
     ingredients = {
         {type = "item", name = "concentrated-ti", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3},
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
@@ -274,7 +272,6 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-ti", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3},
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
@@ -294,7 +291,6 @@ RECIPE {
     ingredients = {
         {type = "item", name = "reduced-ti", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3},
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {
@@ -314,7 +310,6 @@ RECIPE {
     ingredients = {
         {type = "item", name = "sintered-ti", amount = 1},
         {type = "item", name = "limestone", amount = 3},
-        {type = "item", name = "sand-casting", amount = 3},
         {type = "fluid", name = "heavy-oil", amount = 100}
     },
     results = {

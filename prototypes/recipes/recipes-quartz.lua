@@ -187,7 +187,6 @@ RECIPE {
     energy_required = 6,
     ingredients = {
         {type = "fluid", name = "high-grade-quartz-pulp", amount = 100},
-        {type = "item", name = "sand-casting", amount = 2},
         {type = "item", name = "fuelrod-mk01", amount = 1},
         {type = "item", name = "sodium-carbonate", amount = 1},
     },
@@ -210,7 +209,6 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-grade-quartz", amount = 1},
         {type = "item", name = "sodium-carbonate", amount = 1},
-        --{type = "item", name = "sand-casting", amount = 2},
         {type = "item", name = "fuelrod-mk01", amount = 1},
     },
     results = {
@@ -230,7 +228,8 @@ RECIPE {
     enabled = true,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "molten-glass", amount = 50}
+        {type = "fluid", name = "molten-glass", amount = 50},
+        {type = 'item', name = 'sand-casting', amount = 2}
     },
     results = {
         {type = "item", name = "glass", amount = 5}
