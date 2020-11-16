@@ -2,6 +2,7 @@
 Version: 2.1.10
 Date: ????
   Changes:
+    - Removed sand casting from glass as that created a deadlock at game start.
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.9
 Date: 2020-11-15

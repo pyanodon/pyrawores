@@ -229,7 +229,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "molten-glass", amount = 50},
-        {type = 'item', name = 'sand-casting', amount = 2}
+        --{type = 'item', name = 'sand-casting', amount = 2}
     },
     results = {
         {type = "item", name = "glass", amount = 5}
