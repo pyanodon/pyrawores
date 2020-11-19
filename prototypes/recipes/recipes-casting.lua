@@ -1,5 +1,4 @@
 
-
 RECIPE {
     type = "recipe",
     name = "casting-gear",
@@ -15,7 +14,7 @@ RECIPE {
         {type = "item", name = "iron-gear-wheel", amount = 20}
     },
     main_product= "iron-gear-wheel",
-    subgroup = "py-rawores-iron",
+    subgroup = "py-rawores-casting",
     order = "aza"
   }:add_unlock("iron-mk02")
 
@@ -34,7 +33,7 @@ RECIPE {
         {type = "item", name = "pipe", amount = 30}
     },
     main_product= "pipe",
-    subgroup = "py-rawores-iron",
+    subgroup = "py-rawores-casting",
     order = "aze"
   }:add_unlock("iron-mk02")
 
@@ -53,7 +52,7 @@ RECIPE {
         {type = "item", name = "pipe-to-ground", amount = 20}
     },
     main_product= "pipe-to-ground",
-    subgroup = "py-rawores-iron",
+    subgroup = "py-rawores-casting",
     order = "azf"
   }:add_unlock("iron-mk02")
 
@@ -72,7 +71,7 @@ RECIPE {
         {type = "item", name = "iron-stick", amount = 100}
     },
     main_product= "iron-stick",
-    subgroup = "py-rawores-iron",
+    subgroup = "py-rawores-casting",
     order = "azb"
   }:add_unlock("iron-mk02")
 
@@ -91,7 +90,7 @@ RECIPE {
         {type = "item", name = "copper-cable", amount = 50}
     },
     main_product = "copper-cable",
-    subgroup = "py-rawores-copper",
+    subgroup = "py-rawores-casting",
     order = "aza"
   }:add_unlock("copper-mk02")
 
@@ -111,12 +110,11 @@ RECIPE {
         {type = "item", name = "tinned-cable", amount = 50}
     },
     main_product = "tinned-cable",
-    subgroup = "py-rawores-tin",
+    subgroup = "py-rawores-casting",
     order = "azb"
   }:add_unlock("tin-mk02")
 
-  --SOLDER
-
+--SOLDER
 
 RECIPE {
     type = "recipe",
@@ -194,3 +192,155 @@ RECIPE {
     subgroup = "py-rawores-solder",
     order = "j"
 }:add_unlock("lead-mk04")
+
+RECIPE {
+    type = "recipe",
+    name = "casting-engine-unit",
+    category = "casting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "molten-steel", amount = 50},
+        {type = "fluid", name = "duralumin", amount = 3},
+        {type = "item", name = "sand-casting", amount = 5}
+    },
+    results = {
+        {type = "item", name = "engine-unit", amount = 10}
+    },
+    main_product = 'engine-unit',
+    subgroup = "py-rawores-casting",
+    order = "e"
+}:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "belt", amount = 5})
+
+RECIPE {
+    type = "recipe",
+    name = "casting-niobium-pipe",
+    category = "casting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "niobium-complex", amount = 50},
+        {type = "item", name = "sand-casting", amount = 5}
+    },
+    results = {
+        {type = "item", name = "niobium-pipe", amount = 20}
+    },
+    main_product = 'niobium-pipe',
+    subgroup = "py-rawores-casting",
+    order = "n"
+}:add_unlock("machines-mk03"):add_ingredient({type = "item", name = "rubber", amount = 2})
+
+RECIPE {
+    type = "recipe",
+    name = "casting-niobium-pipe-underground",
+    category = "casting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "niobium-complex", amount = 50},
+        {type = "item", name = "sand-casting", amount = 5}
+    },
+    results = {
+        {type = "item", name = "niobium-pipe-to-ground", amount = 30}
+    },
+    main_product = 'niobium-pipe',
+    subgroup = "py-rawores-casting",
+    order = "nu"
+}:add_unlock("machines-mk03"):add_ingredient({type = "item", name = "rubber", amount = 2})
+
+RECIPE {
+    type = "recipe",
+    name = "casting-ht-pipe",
+    category = "casting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "molten-copper", amount = 10},
+        {type = "item", name = "plastic-bar", amount = 5},
+        {type = "item", name = "sand-casting", amount = 5}
+    },
+    results = {
+        {type = "item", name = "ht-pipes", amount = 20}
+    },
+    main_product = 'ht-pipes',
+    subgroup = "py-rawores-casting",
+    order = "on"
+}:add_unlock("machines-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "casting-ht-pipe-underground",
+    category = "casting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "molten-copper", amount = 50},
+        {type = "item", name = "sand-casting", amount = 5}
+    },
+    results = {
+        {type = "item", name = "ht-pipes-to-ground", amount = 30}
+    },
+    main_product = 'ht-pipes-to-ground',
+    subgroup = "py-rawores-casting",
+    order = "ou"
+}:add_unlock("machines-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "casting-drill-heads",
+    category = "casting",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "fluid", name = "molten-stainless-steel", amount = 50},
+        {type = "fluid", name = "molten-titanium", amount = 50},
+        {type = "fluid", name = "molten-chromium", amount = 50},
+        {type = "item", name = "sand-casting", amount = 5}
+    },
+    results = {
+        {type = "item", name = "drill-head", amount = 40}
+    },
+    main_product = 'drill-head',
+    subgroup = "py-rawores-casting",
+    order = "d"
+}:add_unlock("machines-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "casting-equipment-chassi",
+    category = "casting",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "fluid", name = "molten-copper", amount = 100},
+        {type = "fluid", name = "molten-aluminium", amount = 100},
+        {type = "fluid", name = "molten-tin", amount = 100},
+        {type = "item", name = "sand-casting", amount = 5}
+    },
+    results = {
+        {type = "item", name = "equipment-chassi", amount = 20}
+    },
+    main_product = 'equipment-chassi',
+    subgroup = "py-rawores-casting",
+    order = "ec"
+}:add_unlock("machines-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "casting-lead-container",
+    category = "casting",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "fluid", name = "molten-lead", amount = 50},
+        {type = "fluid", name = "molten-steel", amount = 50},
+        {type = "fluid", name = "niobium-complex", amount = 50},
+        {type = "item", name = "sand-casting", amount = 5}
+    },
+    results = {
+        {type = "item", name = "lead-container", amount = 3}
+    },
+    main_product = 'lead-container',
+    subgroup = "py-rawores-casting",
+    order = "ec"
+}:add_unlock("machines-mk03")
