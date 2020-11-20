@@ -201,7 +201,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "fluid", name = "molten-steel", amount = 50},
-        {type = "fluid", name = "duralumin", amount = 3},
+        {type = "item", name = "duralumin", amount = 3},
         {type = "item", name = "sand-casting", amount = 5}
     },
     results = {
@@ -243,7 +243,7 @@ RECIPE {
     results = {
         {type = "item", name = "niobium-pipe-to-ground", amount = 30}
     },
-    main_product = 'niobium-pipe',
+    main_product = 'niobium-pipe-to-ground',
     subgroup = "py-rawores-casting",
     order = "nu"
 }:add_unlock("machines-mk03"):add_ingredient({type = "item", name = "rubber", amount = 2})

@@ -159,6 +159,13 @@ data:extend {
         group = "py-rawores",
         order = "br"
     },
+    -----------------------------castings----------------
+    {
+        type = "item-subgroup",
+        name = "py-rawores-casting",
+        group = "py-rawores",
+        order = "c"
+    },
     -----------------------------MOLTEN VERSIONS----------------
     {
         type = 'item-subgroup',
