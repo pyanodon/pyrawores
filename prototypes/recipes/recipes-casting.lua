@@ -210,7 +210,7 @@ RECIPE {
     main_product = 'engine-unit',
     subgroup = "py-rawores-casting",
     order = "e"
-}:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "belt", amount = 5})
+}:add_unlock("iron-mk03")
 
 RECIPE {
     type = "recipe",
@@ -228,7 +228,7 @@ RECIPE {
     main_product = 'niobium-pipe',
     subgroup = "py-rawores-casting",
     order = "n"
-}:add_unlock("machines-mk03"):add_ingredient({type = "item", name = "rubber", amount = 2})
+}:add_unlock("machines-mk03")
 
 RECIPE {
     type = "recipe",
@@ -246,7 +246,7 @@ RECIPE {
     main_product = 'niobium-pipe-to-ground',
     subgroup = "py-rawores-casting",
     order = "nu"
-}:add_unlock("machines-mk03"):add_ingredient({type = "item", name = "rubber", amount = 2})
+}:add_unlock("machines-mk03")
 
 RECIPE {
     type = "recipe",
