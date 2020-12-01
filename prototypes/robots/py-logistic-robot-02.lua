@@ -9,7 +9,7 @@ local cargo_bot =
     enabled = false,
     ingredients = {
         {'py-logistic-robot-01', 1},
-        {'battery', 6},
+        {'flying-robot-frame', 1},
         {'titanium-plate', 5},
         {'solder', 5},
         {'super-steel', 10},
@@ -20,7 +20,7 @@ local cargo_bot =
         {'py-logistic-robot-02', 1}
     }
 }
-cargo_bot:add_unlock({'coal-processing-3'})
+cargo_bot:add_unlock({'robotics'})
 
 ITEM {
     type = 'item',

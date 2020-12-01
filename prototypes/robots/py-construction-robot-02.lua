@@ -9,15 +9,14 @@ RECIPE {
         {'py-construction-robot-01', 1},
         {'aramid', 5},
         {'stainless-steel', 5},
-        {'electric-engine-unit', 1},
-        {'battery', 6},
+        {'flying-robot-frame', 1},
         {'solder', 5},
         {'advanced-circuit', 3}
     },
     results = {
         {'py-construction-robot-02', 1}
     }
-}:add_unlock('coal-processing-3')
+}:add_unlock('robotics')
 
 ITEM {
     type = 'item',
