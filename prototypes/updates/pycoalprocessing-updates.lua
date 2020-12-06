@@ -21,6 +21,7 @@ fun.results_replacer("coal-fawogae", "coal", "raw-coal",3)
 
 RECIPE("boric-acid"):change_category('electrolyzer')
 RECIPE("copper-coating"):change_category('electrolyzer')
+RECIPE("nbfe-alloy"):change_category('py-rawores-smelter')
 
 RECIPE("copper-coating"):replace_ingredient("organic-solvent", {"water-saline", 100})
 RECIPE("empty-gas-canister"):replace_ingredient("steel-plate", "aluminium-plate")
@@ -642,7 +643,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nbfe-alloy-2",
-    category = "casting",
+    category = "py-rawores-smelter",
     enabled = false,
     energy_required = 4,
     ingredients = {

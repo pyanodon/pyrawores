@@ -123,4 +123,8 @@ data:extend {
         type = "recipe-category",
         name = "py-rawores-casting"
     },
+    {
+        type = "recipe-category",
+        name = "py-rawores-smelter"
+    },
 }

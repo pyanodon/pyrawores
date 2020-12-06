@@ -105,6 +105,10 @@ require("prototypes/buildings/tin-mine")
 require("prototypes/buildings/titanium-mine")
 require("prototypes/buildings/uranium-mine")
 require("prototypes/buildings/zinc-mine")
+require("prototypes/buildings/smelter-mk01")
+require("prototypes/buildings/smelter-mk02")
+require("prototypes/buildings/smelter-mk03")
+require("prototypes/buildings/smelter-mk04")
 
 --(( RECIPES ))--
 require("prototypes/recipes/recipes")

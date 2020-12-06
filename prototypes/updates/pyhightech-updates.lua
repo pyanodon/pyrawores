@@ -34,7 +34,7 @@ RECIPE("colloidal-silica"):replace_ingredient("niobium-plate", "lead-plate")
 RECIPE("resorcinol"):replace_ingredient("phenol", "sodium-hydroxide")
 RECIPE("carbon-aerogel"):remove_ingredient("silicon"):add_ingredient({type = "item", name = "purified-quartz", amount = 1}):remove_ingredient("syngas"):add_ingredient({type = "fluid", name = "nitrogen", amount = 50})
 RECIPE("zinc-acetate"):replace_ingredient("stone-brick", "zinc-plate")
-RECIPE("ndfeb-alloy"):replace_ingredient("carbon-dioxide", "oxygen")
+RECIPE("ndfeb-alloy"):replace_ingredient("carbon-dioxide", "oxygen"):change_category('py-rawores-smelter')
 RECIPE("supercapacitor-shell"):replace_ingredient("iron-plate", "aluminium-plate")
 RECIPE("lithium-chloride"):replace_ingredient("sulfuric-acid", "hydrogen-chloride")
 RECIPE("lithium-niobate"):replace_ingredient("chromium", "lithium-chloride")
@@ -93,7 +93,10 @@ RECIPE("ht-generic-fluid-wagon"):replace_ingredient("steel-plate", "aluminium-pl
 
 RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 10})
 RECIPE("outlet-gas-02"):change_category("fbreactor")
-RECIPE("fecr-alloy"):change_category("eaf"):add_ingredient({type = "item", name = "graphite", amount = 3})
+RECIPE("fecr-alloy"):change_category('py-rawores-smelter'):add_ingredient({type = "item", name = "graphite", amount = 3})
+RECIPE("ndfeb-alloy"):change_category('py-rawores-smelter')
+RECIPE("crco-alloy"):change_category('py-rawores-smelter')
+RECIPE("re-tin"):change_category('py-rawores-smelter')
 
 RECIPE("ppd"):replace_ingredient("aromatics", "nitrobenzene")
 
@@ -217,6 +220,11 @@ RECIPE("scrubber-mk04"):replace_ingredient("control-unit", "intelligent-unit"):a
 
 RECIPE("wet-scrubber-mk03"):add_ingredient({type = "item", name = "biopolymer", amount = 15}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20})
 RECIPE("wet-scrubber-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-dots", amount = 5})
+
+RECIPE("smelter-mk01"):add_ingredient({type = "item", name = "ceramic", amount = 50})
+RECIPE("smelter-mk02"):add_ingredient({type = "item", name = "ceramic", amount = 50})
+RECIPE("smelter-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20}):add_ingredient({type = "item", name = "graphene-roll", amount = 15})
+RECIPE("smelter-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
 
 --PYFE ENTITIES UPDATES
 
@@ -776,7 +784,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'fecr-alloy-2',
-    category = 'casting',
+    category = 'py-rawores-smelter',
     enabled = false,
     energy_required = 5,
     ingredients = {

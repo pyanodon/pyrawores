@@ -76,7 +76,7 @@ end
 RECIPE("molybdenum-oxide"):add_ingredient({type = "fluid", name = "oxygen", amount = 100})
 RECIPE("vpulp3"):replace_ingredient("petroleum-gas", "ammonia")
 RECIPE("vpulp-precip"):replace_ingredient("water", "ammonia")
-RECIPE("super-alloy"):replace_ingredient("steel-plate", "nickel-plate"):add_ingredient({type = "item", name = "aramid", amount = 1})
+RECIPE("super-alloy"):replace_ingredient("steel-plate", "nickel-plate"):add_ingredient({type = "item", name = "aramid", amount = 1}):change_category('py-rawores-smelter')
 RECIPE("calcinate-separation"):add_result({type = "item", name = "ore-quartz", amount = 1, probability = 0.6})
 RECIPE("gas-separator-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE("grease-table-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
@@ -85,7 +85,7 @@ RECIPE("py-turbine"):add_ingredient({type = "item", name = "super-steel", amount
  --RECIPES
 RECIPE("kmauts-ration"):replace_ingredient("iron-plate", "tin-plate")
 RECIPE("helium"):add_ingredient({type = "fluid", name = "hydrogen", amount = 10})
-RECIPE("nbti-alloy"):replace_ingredient("steel-plate", "titanium-plate"):add_ingredient({type = "fluid", name = "nitrogen", amount = 150})
+RECIPE("nbti-alloy"):replace_ingredient("steel-plate", "titanium-plate"):add_ingredient({type = "fluid", name = "nitrogen", amount = 150}):change_category('py-rawores-smelter')
 RECIPE("sc-wire"):replace_ingredient("iron-plate", "tin-plate"):add_ingredient({type = "item", name = "optical-fiber", amount = 5})
 RECIPE("ferrite"):add_ingredient({type = "item", name = "zinc-plate", amount = 10})
 RECIPE("sc-unit"):add_ingredient({type = "fluid", name = "liquid-nitrogen", amount = 100})
@@ -96,7 +96,7 @@ RECIPE("blanket"):add_ingredient({type = "item", name = "lead-plate", amount = 4
 RECIPE("blanket"):add_ingredient({type = "item", name = "super-steel", amount = 40})
 RECIPE("lead-container"):replace_ingredient("iron-plate", "lead-plate")
 RECIPE("science-coating"):replace_ingredient("steel-plate", "titanium-plate")
-RECIPE("agzn-alloy"):replace_ingredient("iron-plate", "silver-plate"):replace_ingredient("stone", "zinc-plate")
+RECIPE("agzn-alloy"):replace_ingredient("iron-plate", "silver-plate"):replace_ingredient("stone", "zinc-plate"):change_category('py-rawores-smelter')
 RECIPE("silver-foam"):replace_ingredient("water", "hydrogen-chloride")
 RECIPE("tar-gasification"):remove_ingredient("water"):add_ingredient({type = "fluid", name = "pressured-air", amount = 50})
 RECIPE("tpa"):remove_ingredient("steam"):add_ingredient({type = "fluid", name = "liquid-nitrogen", amount = 50})
@@ -113,6 +113,7 @@ RECIPE("molybdenum-filtration"):remove_ingredient("vacuum")
 RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-alloy"):remove_ingredient("steel-plate")
 RECIPE("automated-screener-mk01"):replace_ingredient("electric-engine-unit", "engine-unit"):replace_ingredient("ground-borer", "electric-mining-drill"):replace_ingredient("advanced-circuit", "electronic-circuit"):remove_ingredient("niobium-plate")
 RECIPE("py-heat-exchanger"):replace_ingredient("processing-unit", "advanced-circuit")
+
 
 RECIPE("distilator-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 15}):add_ingredient({type = "item", name = "sc-unit", amount = 4})
 RECIPE("distilator-mk04"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "agzn-alloy", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
@@ -232,6 +233,9 @@ RECIPE("scrubber-mk04"):add_ingredient({type = "item", name = "nbti-alloy", amou
 
 RECIPE("wet-scrubber-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 15})
 RECIPE("wet-scrubber-mk04"):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 3})
+
+RECIPE("smelter-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 15}):add_ingredient({type = "item", name = "boron-carbide", amount = 20}):add_ingredient({type = "item", name = "py-heat-exchanger", amount = 1})
+RECIPE("smelter-mk04"):add_ingredient({type = "item", name = "nbti-alloy", amount = 20}):add_ingredient({type = "item", name = "wall-shield", amount = 2}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 RECIPE("sinter-unit"):add_ingredient({type = "item", name = "super-alloy", amount = 15})
 
@@ -354,7 +358,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nbti-alloy-2",
-    category = "casting",
+    category = "py-rawores-smelter",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -435,7 +439,7 @@ RECIPE('nmf-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", na
 RECIPE {
     type = "recipe",
     name = "agzn-alloy-2",
-    category = "casting",
+    category = "py-rawores-smelter",
     enabled = false,
     energy_required = 8,
     ingredients = {
