@@ -278,7 +278,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "duralumin-1",
-    category = "advanced-foundry",
+    category = "py-rawores-smelter",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -298,7 +298,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "duralumin-2",
-    category = "casting",
+    category = "py-rawores-smelter",
     enabled = false,
     energy_required = 4,
     ingredients = {
