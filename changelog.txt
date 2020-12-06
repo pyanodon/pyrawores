@@ -1,7 +1,8 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.1.14
+Version: 2.2.0
 Date: ????
   Changes:
+    - Fixed crash caused by hightech pipe casting recipe still being enabled when pyhightech was disabled.
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.13
 Date: 2020-12-01

@@ -250,43 +250,6 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "casting-ht-pipe",
-    category = "casting",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "fluid", name = "molten-copper", amount = 10},
-        {type = "item", name = "plastic-bar", amount = 5},
-        {type = "item", name = "sand-casting", amount = 5}
-    },
-    results = {
-        {type = "item", name = "ht-pipes", amount = 20}
-    },
-    main_product = 'ht-pipes',
-    subgroup = "py-rawores-casting",
-    order = "on"
-}:add_unlock("machines-mk03")
-
-RECIPE {
-    type = "recipe",
-    name = "casting-ht-pipe-underground",
-    category = "casting",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "fluid", name = "molten-copper", amount = 50},
-        {type = "item", name = "sand-casting", amount = 5}
-    },
-    results = {
-        {type = "item", name = "ht-pipes-to-ground", amount = 30}
-    },
-    main_product = 'ht-pipes-to-ground',
-    subgroup = "py-rawores-casting",
-    order = "ou"
-}:add_unlock("machines-mk03")
-
-RECIPE {
-    type = "recipe",
     name = "casting-drill-heads",
     category = "casting",
     enabled = false,
