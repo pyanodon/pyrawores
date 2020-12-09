@@ -2,6 +2,7 @@
 Version: 2.2.1
 Date: ????
   Changes:
+    - Added smelter. Warning: All the alloys recipes will be moved to this new building.
 ---------------------------------------------------------------------------------------------------
 Version: 2.2.0
 Date: 2020-12-06
