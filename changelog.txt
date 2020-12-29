@@ -2,6 +2,7 @@
 Version: 2.2.3
 Date: ????
   Changes:
+    - Moved some steps of stainless steel and super steel to the Smelter.
 ---------------------------------------------------------------------------------------------------
 Version: 2.2.2
 Date: 2020-12-10
