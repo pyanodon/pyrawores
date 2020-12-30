@@ -304,3 +304,103 @@ data.raw.fluid["outlet-gas-02"].fuel_value = "0.5MJ"
 data.raw.fluid["outlet-gas-03"].fuel_value = "0.5MJ"
 data.raw.fluid["outlet-gas-04"].fuel_value = "0.5MJ"
 data.raw.fluid["high-ash-fines"].fuel_value = "0.5MJ"
+
+--(( MAP GENERATION PRESET ))--
+data.raw["map-gen-presets"].default["pyanodon-mods"] = {
+    order = "a",
+    basic_settings = {
+      autoplace_controls = {
+        ['iron-ore'] = {frequency = 1, size = 2, richness = 6},
+        ['copper-ore'] = {frequency = 1, size = 2, richness = 6},
+        ['uranium-ore'] = {frequency = 1, size = 1.6, richness = 6},
+        ['stone'] = {frequency = 1, size = 1, richness = 6},
+        ['borax'] = {frequency = 1, size = 2, richness = 6},
+        ['niobium'] = {frequency = 1, size = 1, richness = 6},
+        --['molybdenum-ore'] = {frequency = 5, size = 5, richness = 6},
+        --['regolites'] = {frequency = 5, size = 5, richness = 6},
+        --['volcanic-pipe'] = {frequency = 5, size = 5, richness = 6},
+        --['rare-earth-bolide'] = {frequency = 5, size = 5, richness = 6},
+        --['phosphate-rock'] = {frequency = 5, size = 5, richness = 6},
+        ['ore-quartz'] = {frequency = 1, size = 2, richness = 6},
+        ['ore-tin'] = {frequency = 1, size = 2, richness = 6},
+        ['ore-lead'] = {frequency = 1, size = 2, richness = 6},
+        ['ore-aluminium'] = {frequency = 1, size = 1, richness = 6},
+        ['salt-rock'] = {frequency = 0.8, size = 2, richness = 6},
+        ['quartz-rock'] = {frequency = 0.6, size = 1, richness = 6},
+        ['nickel-rock'] = {frequency = 0.6, size = 1, richness = 6},
+        ['nexelit-rock'] = {frequency = 1, size = 1, richness = 6},
+        ['lead-rock'] = {frequency = 0.6, size = 1, richness = 6},
+        ['iron-rock'] = {frequency = 0.6, size = 1, richness = 6},
+        ['copper-rock'] = {frequency = 0.6, size = 1, richness = 6},
+        ['coal-rock'] = {frequency = 0.6, size = 1, richness = 6},
+        ['chromium-rock'] = {frequency = 0.6, size = 1, richness = 6},
+        ['aluminium-rock'] = {frequency = 0.6, size = 1, richness = 6},
+        ['zinc-rock'] = {frequency = 0.6, size = 1, richness = 6},
+        ['uranium-rock'] = {frequency = 0.6, size = 1, richness = 6},
+        ['titanium-rock'] = {frequency = 0.6, size = 1, richness = 6},
+        ['tin-rock'] = {frequency = 0.6, size = 1, richness = 6},
+        ['raw-coal'] = {frequency = 1, size = 1, richness = 6},
+        ['ore-nickel'] = {frequency = 1, size = 1, richness = 6},
+        ['ore-chromium'] = {frequency = 1, size = 1, richness = 6},
+        ['ore-zinc'] = {frequency = 1, size = 1, richness = 6},
+        ['ore-titanium'] = {frequency = 1, size = 1, richness = 6},
+        --['phosphate-rock-02'] = {frequency = 5, size = 5, richness = 6},
+        --['oil-mk01'] = {frequency = 5, size = 5, richness = 6},
+        --['oil-mk02'] = {frequency = 5, size = 5, richness = 6},
+        --['oil-mk03'] = {frequency = 5, size = 5, richness = 6},
+        --['oil-mk04'] = {frequency = 5, size = 5, richness = 6},
+        ['sulfur-patch'] = {frequency = 1, size = 1, richness = 6},
+        ['oil-sand'] = {frequency = 1, size = 1, richness = 6},
+        --['bitumen-seep'] = {frequency = 2, size = 2, richness = 6},
+        ['enemy-base']= {frequency = 0, size = 0}
+      },
+      --property_expression_names = {
+        --["control-setting:water"] = 1.5,
+        --["control-setting:moisture:bias"] = 0.05,
+        --["control-setting:aux:bias"] = -0.35
+      --},
+      --starting_area = 2,
+      peaceful_mode = true,
+      cliff_settings = {
+        richness = 0
+      }
+    },
+    advanced_settings = {
+      enemy_expansion =
+      {
+        enabled = false
+      },
+      enemy_evolution =
+      {
+        enabled = false
+      },
+      pollution =
+      {
+        enabled = false
+      },
+    },
+}
+
+if mods['pyfusionenergy'] then
+    data.raw["map-gen-presets"].default["pyanodon-mods"].basic_settings.autoplace_controls['molybdenum-ore'] = {frequency = 1, size = 2, richness = 6}
+    data.raw["map-gen-presets"].default["pyanodon-mods"].basic_settings.autoplace_controls['regolites'] = {frequency = 1, size = 1, richness = 6}
+    data.raw["map-gen-presets"].default["pyanodon-mods"].basic_settings.autoplace_controls['volcanic-pipe'] = {frequency = 1, size = 1, richness = 6}
+end
+
+if mods['pyhightech'] then
+    data.raw["map-gen-presets"].default["pyanodon-mods"].basic_settings.autoplace_controls['rare-earth-bolide'] = {frequency = 1, size = 1, richness = 6}
+    data.raw["map-gen-presets"].default["pyanodon-mods"].basic_settings.autoplace_controls['phosphate-rock'] = {frequency = 1, size = 1, richness = 6}
+    data.raw["map-gen-presets"].default["pyanodon-mods"].basic_settings.autoplace_controls['phosphate-rock-02'] = {frequency = 1, size = 1, richness = 6}
+end
+
+if mods['pypetroleumhandling'] then
+    data.raw["map-gen-presets"].default["pyanodon-mods"].basic_settings.autoplace_controls['sulfur-patch'] = {frequency = 1, size = 1, richness = 6}
+    data.raw["map-gen-presets"].default["pyanodon-mods"].basic_settings.autoplace_controls['oil-sand'] = {frequency = 1, size = 1, richness = 6}
+    data.raw["map-gen-presets"].default["pyanodon-mods"].basic_settings.autoplace_controls['bitumen-seep'] = {frequency = 1, size = 1, richness = 6}
+end
+
+if mods['pyalienlife'] then
+    data.raw["map-gen-presets"].default["pyanodon-mods"].basic_settings.autoplace_controls['ore-bioreserve'] = {frequency = 1, size = 2, richness = 6}
+end
+
+data.raw["map-gen-presets"].default.default.order = "a-a"
