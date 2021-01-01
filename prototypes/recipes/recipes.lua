@@ -535,7 +535,7 @@ end
 RECIPE {
     type = "recipe",
     name = "nichrome-2",
-    category = "advanced-foundry",
+    category = "py-rawores-smelter",
     enabled = false,
     energy_required = 4,
     ingredients = {
