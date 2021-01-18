@@ -10,7 +10,6 @@ local cargo_bot =
     ingredients = {
         {'py-logistic-robot-01', 1},
         {'flying-robot-frame', 1},
-        {'electric-engine-unit', 1},
         {'titanium-plate', 5},
         {'solder', 5},
         {'super-steel', 10},

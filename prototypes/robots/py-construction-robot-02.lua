@@ -7,7 +7,6 @@ RECIPE {
     enabled = false,
     ingredients = {
         {'py-construction-robot-01', 1},
-        {'electric-engine-unit', 1},
         {'aramid', 5},
         {'stainless-steel', 5},
         {'flying-robot-frame', 1},
