@@ -452,3 +452,23 @@ RECIPE {
     },
 
 }:add_unlock("fusion-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "casting-lead-container",
+    category = "casting",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "fluid", name = "molten-lead", amount = 50},
+        {type = "fluid", name = "molten-steel", amount = 50},
+        {type = "fluid", name = "niobium-complex", amount = 50},
+        {type = "item", name = "sand-casting", amount = 5}
+    },
+    results = {
+        {type = "item", name = "lead-container", amount = 3}
+    },
+    main_product = 'lead-container',
+    subgroup = "py-rawores-casting",
+    order = "ec"
+}:add_unlock("machines-mk03")
