@@ -456,6 +456,8 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'sulfuric-acid', amount = 50},
     },
+    subgroup = 'py-rawores-fluids',
+    order = 'b1',
 }:add_unlock("sulfur-processing")
 
 RECIPE {
