@@ -6,8 +6,8 @@ Date: ????
 Version: 2.2.7
 Date: 2021-02-02
   Changes:
-      - Changed the position of few recipes to eliminate the fluids tab.
-      - Updated russian locale.
+    - Changed the position of few recipes to eliminate the fluids tab.
+    - Updated russian locale.
 ---------------------------------------------------------------------------------------------------
 Version: 2.2.6
 Date: 2021-01-28
