@@ -40,7 +40,8 @@ RECIPE {
     energy_required = 3.5,
     ingredients = {
         {type = "fluid", name = "sulfuric-acid", amount = 150},
-        {type = "item", name = "gold-concentrate", amount = 1}
+        {type = "item", name = "gold-concentrate", amount = 1},
+        {type = "item", name = "sodium-bisulfate", amount = 2}
     },
     results = {
         {type = "item", name = "gold-precipitate-2", amount = 1}

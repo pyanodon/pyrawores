@@ -75,7 +75,7 @@ end
 
 RECIPE("molybdenum-oxide"):add_ingredient({type = "fluid", name = "oxygen", amount = 100})
 RECIPE("vpulp3"):replace_ingredient("petroleum-gas", "ammonia")
-RECIPE("vpulp-precip"):replace_ingredient("water", "ammonia")
+RECIPE("vpulp-precip"):replace_ingredient("water", "ammonia"):add_ingredient({type = "item", name = "sodium-bisulfate", amount = 1})
 RECIPE("super-alloy"):replace_ingredient("steel-plate", "nickel-plate"):add_ingredient({type = "item", name = "aramid", amount = 1}):change_category('py-rawores-smelter')
 RECIPE("calcinate-separation"):add_result({type = "item", name = "ore-quartz", amount = 1, probability = 0.6})
 --RECIPE("gas-separator-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
