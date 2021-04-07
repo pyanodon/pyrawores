@@ -46,7 +46,7 @@ ENTITY {
     collision_box = {{0, 0}, {0, 0}},
     selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
     max_payload_size = 4,
-    speed = 0.13,
+    speed = 0.10,
     transfer_distance = 0.5,
     max_energy = '1.5MJ',
     energy_per_tick = '0.04kJ',
