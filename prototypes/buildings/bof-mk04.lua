@@ -47,7 +47,7 @@ ENTITY {
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"bof"},
-    crafting_speed = 3.5,
+    crafting_speed = 4,
     energy_source =
     {
       type = "burner",
