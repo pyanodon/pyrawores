@@ -1,6 +1,6 @@
 local fun = require("prototypes/functions/functions")
 
-RECIPE('making-chromium'):remove_unlock('coal-processing-2')
+RECIPE('making-chromium'):remove_unlock('coal-processing-1')
 
 RECIPE('crushing-copper'):remove_unlock('crusher')
 RECIPE('crushed-copper'):remove_unlock('crusher')
