@@ -29,7 +29,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "coke", amount = 30},
-        {type = "item", name = "coal-dust", amount = 10},
+        {type = "item", name = "coal-dust", amount = 4},
         {type = "fluid", name = "steam", amount = 100, temperature = 165}
     },
     main_product = "coke",
