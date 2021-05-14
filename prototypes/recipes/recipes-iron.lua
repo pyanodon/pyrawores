@@ -124,7 +124,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "iron-ore-dust", amount = 1, probability = 0.3},
-        {type = "item", name = "iron-dust-concentrate", amount = 1},
+        {type = "item", name = "iron-dust-concentrate", amount = 1, probability = 0.5},
     },
     main_product = "iron-dust-concentrate",
     icon = "__pyraworesgraphics__/graphics/icons/iron-dust-concentrate.png",
