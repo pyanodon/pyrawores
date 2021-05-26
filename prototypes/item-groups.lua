@@ -149,15 +149,21 @@ data:extend {
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-etc",
+        name = "py-rawores-antimonium",
         group = "py-rawores",
         order = "bq"
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-solder",
+        name = "py-rawores-etc",
         group = "py-rawores",
         order = "br"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-rawores-solder",
+        group = "py-rawores",
+        order = "bs"
     },
     -----------------------------castings----------------
     {
