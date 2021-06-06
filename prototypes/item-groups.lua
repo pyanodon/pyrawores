@@ -149,7 +149,7 @@ data:extend {
     },
     {
         type = "item-subgroup",
-        name = "py-rawores-antimonium",
+        name = "py-rawores-antimony",
         group = "py-rawores",
         order = "bq"
     },
