@@ -1,6 +1,11 @@
 --TECHNOLOGY--
 TECHNOLOGY('coal-processing-3'):add_prereq('ht-trains')
 
+--ENITITY
+if mods['pyhightech'] then
+    table.insert(data.raw['assembling-machine'].minable.results, {name = 'duralumin', amount = 50})
+end
+
 RECIPE("al-pulp-01"):replace_ingredient("boric-acid", "phosphoric-acid")
 RECIPE("powdered-ralesia-seeds"):change_category("pulp")
 RECIPE("glass-fiber"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1}):add_ingredient({type = "fluid", name = "molten-glass", amount = 100})
@@ -41,7 +46,7 @@ RECIPE("lithium-niobate"):replace_ingredient("chromium", "lithium-chloride")
 RECIPE("syngas-methane"):replace_ingredient("niobium-plate", "nickel-plate")
 RECIPE("methane-methanal"):replace_ingredient("water", "oxygen")
 RECIPE("paramagnetic-material"):replace_ingredient("iron-plate", "aluminium-plate")
-RECIPE("valve"):add_ingredient({type = "item", name = "glass", amount = 2})
+RECIPE("vacuum-tube"):add_ingredient({type = "item", name = "glass", amount = 2})
 RECIPE("pcb2"):add_ingredient({type = "item", name = "tin-plate", amount = 5})
 RECIPE("pcb3"):add_ingredient({type = "item", name = "tin-plate", amount = 5})
 RECIPE("pcb4"):add_ingredient({type = "item", name = "lead-plate", amount = 5})
