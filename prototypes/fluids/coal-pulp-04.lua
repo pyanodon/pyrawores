@@ -10,7 +10,7 @@ RECIPE {
         {type = "item", name = "pyrite", amount = 4},
     },
     results = {
-        {type = "fluid", name = "dirty-water", amount = 50},
+        {type = "fluid", name = "dirty-water-heavy", amount = 50},
         {type = "fluid", name = "coal-pulp-04", amount = 100},
         {type = "item", name = "ash", amount = 20},
     },

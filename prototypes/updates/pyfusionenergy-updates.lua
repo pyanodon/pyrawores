@@ -250,7 +250,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "vanadates", amount = 15},
-        {type = "fluid", name = "dirty-water", amount = 75}
+        {type = "fluid", name = "dirty-water-heavy", amount = 75}
     },
     main_product = "vanadates",
     icon = "__pyfusionenergygraphics__/graphics/icons/vanadates.png",

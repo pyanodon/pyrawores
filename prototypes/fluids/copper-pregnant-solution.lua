@@ -10,7 +10,7 @@ RECIPE {
         {type = "fluid", name = "acid-solvent", amount = 10},
     },
     results = {
-        {type = "fluid", name = "dirty-water", amount = 50},
+        {type = "fluid", name = "dirty-water-heavy", amount = 50},
         {type = "fluid", name = "copper-pregnant-solution", amount = 20},
     },
     main_product = "copper-pregnant-solution",

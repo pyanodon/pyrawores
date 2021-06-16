@@ -83,7 +83,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-4-tin", amount = 1},
-        {type = "fluid", name = "dirty-water", amount = 100},
+        {type = "fluid", name = "dirty-water-heavy", amount = 100},
     },
     main_product = "grade-4-tin",
     icon = "__pyraworesgraphics__/graphics/icons/wash-grade-3-tin.png",
@@ -157,7 +157,7 @@ RECIPE {
         {type = "fluid", name = "tin-bottom-pulp", amount = 100},
     },
     results = {
-        {type = "fluid", name = "dirty-water", amount = 50},
+        {type = "fluid", name = "dirty-water-heavy", amount = 50},
         {type = "item", name = "tin-concentrate", amount = 1, probability = 0.75},
     },
     main_product = "tin-concentrate",

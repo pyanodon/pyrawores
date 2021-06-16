@@ -13,7 +13,7 @@
         },
         results = {
             {type = 'fluid', name = 'zinc-overflow', amount = 50},
-            {type = 'fluid', name = 'dirty-water', amount = 50}
+            {type = 'fluid', name = 'dirty-water-heavy', amount = 50}
         },
         main_product = 'zinc-overflow',
         icon = '__pyraworesgraphics__/graphics/icons/zinc-overflow.png',

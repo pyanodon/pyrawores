@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "sl-03", amount = 50},
-        {type = "fluid", name = "dirty-water", amount = 100},
+        {type = "fluid", name = "dirty-water-heavy", amount = 100},
     },
     main_product = "sl-03",
     subgroup = "py-rawores-lead",

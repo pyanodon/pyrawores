@@ -11,7 +11,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "nexelit-pulp-04", amount = 100},
-        {type = "fluid", name = "dirty-water", amount = 100},
+        {type = "fluid", name = "dirty-water-heavy", amount = 100},
     },
     main_product = "nexelit-pulp-04",
     subgroup = "py-rawores-nexelit",

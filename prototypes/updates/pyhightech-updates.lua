@@ -3,7 +3,7 @@ TECHNOLOGY('coal-processing-3'):add_prereq('ht-trains')
 
 --ENITITY
 if mods['pyhightech'] then
-    table.insert(data.raw['assembling-machine'].minable.results, {name = 'duralumin', amount = 50})
+    table.insert(data.raw['assembling-machine']['crash-site-assembling-machine-1-repaired'].minable.results, {name = 'duralumin', amount = 50})
 end
 
 RECIPE("al-pulp-01"):replace_ingredient("boric-acid", "phosphoric-acid")
