@@ -45,7 +45,7 @@ RECIPE("al-pulp-02"):change_category("agitator")
 RECIPE("al-pulp-04"):change_category("agitator")
 RECIPE("crystalized-sodium-aluminate"):remove_ingredient("steam"):add_ingredient({type = "fluid", name = "pressured-air", amount = 500})
 RECIPE("cold-clean-air"):replace_ingredient("filtration-media", "biofilm")
-RECIPE("tin-concentrate-3"):remove_ingredient("heavy-oil"):add_ingredient({type = "fluid", name = "grease", amount = 30})
+RECIPE("tin-concentrate-3"):remove_ingredient("heavy-oil"):add_ingredient({type = "fluid", name = "grease", amount = 50})
 RECIPE("ti-pulp-02"):remove_ingredient("heavy-oil"):add_ingredient({type = "fluid", name = "grease", amount = 50})
 RECIPE("unslimed-iron-2"):change_category("hydrocyclone")
 
