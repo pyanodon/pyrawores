@@ -6,6 +6,8 @@ if mods['pyhightech'] then
     table.insert(data.raw['assembling-machine']['crash-site-assembling-machine-1-repaired'].minable.results, {name = 'duralumin', amount = 50})
 end
 
+TECHNOLOGY('basic-electronics'):add_prereq('fine-electronics')
+
 RECIPE("al-pulp-01"):replace_ingredient("boric-acid", "phosphoric-acid")
 RECIPE("powdered-ralesia-seeds"):change_category("pulp")
 RECIPE("glass-fiber"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1}):add_ingredient({type = "fluid", name = "molten-glass", amount = 100})
@@ -112,6 +114,8 @@ RECIPE("distilator-mk04"):replace_ingredient("control-unit", "intelligent-unit")
 
 RECIPE("advanced-foundry-mk03"):add_ingredient({type = "item", name = "diamagnetic-material", amount = 20}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 15})
 RECIPE("advanced-foundry-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 6}):add_ingredient({type = "item", name = "pi-josephson-junction", amount = 4})
+
+RECIPE("automated-factory-mk01"):replace_ingredient("advanced-circuit", "electronic-circuit")
 
 RECIPE("automated-factory-mk03"):add_ingredient({type = "item", name = "paramagnetic-material", amount = 25}):add_ingredient({type = "item", name = "volumetric-capacitor", amount = 10}):add_ingredient({type = "item", name = "biopolymer", amount = 10})
 RECIPE("automated-factory-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "quantum-vortex-storage-system", amount = 4})
@@ -281,6 +285,9 @@ RECIPE("xyhiphoe-pool-mk04"):replace_ingredient("control-unit", "intelligent-uni
 RECIPE("plankton-farm-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "superconductor", amount = 10})
 RECIPE("plankton-farm-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
 
+RECIPE("nmf-mk01"):remove_unlock('advanced-mining-facilities'):add_unlock('fine-electronics')
+
+RECIPE('aramid'):remove_unlock('machines-mk02'):add_unlock('fine-electronics')
 
 --PYRO RECIPES UPDATES
 
@@ -311,6 +318,8 @@ RECIPE("molten-tin-04"):add_ingredient({type = "item", name = "graphite", amount
 RECIPE("molten-tin-05"):add_ingredient({type = "item", name = "graphite", amount = 2})
 RECIPE("nexelit-refined-pulp"):add_ingredient({type = "item", name = "graphite", amount = 3})
 RECIPE("sinter-unit"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20})
+
+TECHNOLOGY('machines-mk02'):remove_prereq('coal-processing-2'):add_prereq('basic-electronics')
 
 RECIPE {
     type = "recipe",
