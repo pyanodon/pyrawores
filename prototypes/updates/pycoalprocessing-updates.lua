@@ -581,7 +581,7 @@ RECIPE {
     name = "extract-limestone-01",
     category = "soil-extraction",
     enabled = true,
-    energy_required = 3,
+    energy_required = 5,
     ingredients = {
         {type = "fluid", name = "water", amount = 100},
     },
