@@ -15,6 +15,7 @@ TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-p
 TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):add_prereq('coal-processing-2')
 RECIPE('nexelit-ore-1'):remove_unlock('coal-processing-3')
 RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01')
+RECIPE('nexelit-plate'):remove_unlock('fine-electronics')
 
 fun.results_replacer("richdust-separation", "chromite-sand", "chromite-sand",3)
 fun.results_replacer("coal-fawogae", "coal", "raw-coal",3)
