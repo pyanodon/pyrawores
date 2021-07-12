@@ -127,7 +127,7 @@ ENTITY {
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
         sound = {filename = "__pyraworesgraphics__/sounds/scrubber.ogg", volume = 2.0},
-        idle_sound = {filename = "__pyraworesgraphics__/sounds/scrubber.ogg", volume = 1.3},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/scrubber.ogg", volume = 0.3},
         apparent_volume = 2.5
     }
 }
