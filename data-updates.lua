@@ -44,6 +44,7 @@ RECIPE("crushed-iron"):remove_unlock("crusher")
 RECIPE("crushed-copper"):remove_unlock("crusher")
 
 RECIPE("py-local-radar"):set_fields {enabled = false}:add_unlock("engine")
+RECIPE("mk02-locomotive"):add_ingredient({type = "item", name = "glass", amount = 150}):add_ingredient({type = "item", name = "duralumin", amount = 50})
 
 RECIPE("py-logistic-robot-01"):replace_ingredient("iron-plate", "aluminium-plate")
 RECIPE("py-construction-robot-01"):replace_ingredient("iron-plate", "aluminium-plate")
