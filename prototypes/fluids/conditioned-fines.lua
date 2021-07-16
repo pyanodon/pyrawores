@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "conditioned-fines", amount = 100},
-        {type = "fluid", name = "dirty-water", amount = 50},
+        {type = "fluid", name = "dirty-water-heavy", amount = 50},
     },
     main_product = "conditioned-fines",
     subgroup = "py-rawores-coal",

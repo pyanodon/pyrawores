@@ -12,7 +12,7 @@
         },
         results = {
             {type = 'fluid', name = 'nickel-prepared-solution', amount = 100},
-            {type = 'fluid', name = 'dirty-water', amount = 50}
+            {type = 'fluid', name = 'dirty-water-heavy', amount = 50}
         },
         main_product = 'nickel-prepared-solution',
         subgroup = 'py-rawores-nickel',

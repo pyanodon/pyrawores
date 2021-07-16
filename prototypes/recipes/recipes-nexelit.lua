@@ -6,7 +6,7 @@ RECIPE {
     enabled = false,
     energy_required = 1,
     ingredients = {
-        {type = "fluid", name = "dirty-water", amount = 400}
+        {type = "fluid", name = "dirty-water-heavy", amount = 400}
     },
     results = {
         {type = "item", name = "nexelit-ore", amount = 1},
@@ -28,7 +28,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "clean-nexelit", amount = 1},
-        {type = "fluid", name = "dirty-water", amount = 100}
+        {type = "fluid", name = "dirty-water-light", amount = 100}
     },
     main_product = "clean-nexelit",
     icon = "__pyraworesgraphics__/graphics/icons/wash-nexelit.png",

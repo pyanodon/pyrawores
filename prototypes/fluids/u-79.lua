@@ -31,7 +31,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "u-79", amount = 100},
-        {type = "fluid", name = "dirty-water", amount = 100},
+        {type = "fluid", name = "dirty-water-heavy", amount = 100},
     },
     main_product = "u-79",
     subgroup = "py-rawores-uranium",

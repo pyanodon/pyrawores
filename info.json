@@ -12,7 +12,7 @@
     "pycoalprocessing >= 1.0.11",
     "pyindustry >= 1.0.12",
     "(?) rso-mod",
-    "pyraworesgraphics >= 1.0.0"
+    "~ pyraworesgraphics >= 1.0.0"
   ],
   "package": {
     "ignore": [],

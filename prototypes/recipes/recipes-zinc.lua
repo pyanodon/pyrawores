@@ -46,7 +46,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-3-zinc", amount = 5},
-        {type = "fluid", name = "dirty-water", amount = 50}
+        {type = "fluid", name = "dirty-water-light", amount = 50}
     },
     main_product = "grade-3-zinc",
     subgroup = "py-rawores-zinc",

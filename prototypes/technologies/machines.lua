@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/machines-mk01.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"coal-processing-1", 'engine'},
+    prerequisites = {"coal-processing-1"},
     effects = {},
     unit = {
         count = 100,

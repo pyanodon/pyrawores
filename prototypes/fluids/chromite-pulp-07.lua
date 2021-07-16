@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "chromite-pulp-07", amount = 100},
-        {type = "fluid", name = "dirty-water", amount = 200},
+        {type = "fluid", name = "dirty-water-heavy", amount = 200},
     },
     main_product = "chromite-pulp-07",
     subgroup = "py-rawores-chromium",

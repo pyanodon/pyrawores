@@ -11,7 +11,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "copper-pulp-03", amount = 100},
-        {type = "fluid", name = "dirty-water", amount = 50},
+        {type = "fluid", name = "dirty-water-heavy", amount = 50},
         {type = "fluid", name = "copper-pregnant-solution", amount = 20},
     },
     main_product = "copper-pulp-03",
