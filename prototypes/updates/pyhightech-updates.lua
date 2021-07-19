@@ -289,6 +289,8 @@ RECIPE("nmf-mk01"):remove_unlock('advanced-mining-facilities'):add_unlock('fine-
 
 RECIPE('aramid'):remove_unlock('machines-mk02'):add_unlock('fine-electronics')
 
+RECIPE("electronic-circuit"):add_ingredient({type = "item", name = "solder", amount = 2})
+
 --PYRO RECIPES UPDATES
 
 RECIPE("high-grade-ti"):add_ingredient({type = "item", name = "graphite", amount = 3})

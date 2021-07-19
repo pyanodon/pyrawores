@@ -1,6 +1,52 @@
 local fun = require("prototypes/functions/functions")
 
-RECIPE('making-chromium'):remove_unlock('coal-processing-1')
+--TECHNOLOGY
+TECHNOLOGY('engine'):remove_pack('logistic-science-pack')
+TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-processing-2'):add_prereq('aluminium-mk01')
+TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):add_prereq('coal-processing-2')
+
+TECHNOLOGY('ralesia'):add_prereq('machines-mk01')
+TECHNOLOGY('energy-1'):add_prereq('machines-mk01')
+
+--SCIENCE PACKS
+
+TECHNOLOGY('logistic-science-pack'):add_prereq('aluminium-mk01')
+TECHNOLOGY('chemical-science-pack'):add_prereq('nexelit-mk01'):add_prereq('iron-mk02')
+
+--CHROMIUM
+
+TECHNOLOGY('chromium'):set_field{ enabled = false}
+
+RECIPE('making-chromium'):remove_unlock('chromium')
+RECIPE('nichrome'):remove_unlock('chromium'):add_unlock("chromium-mk01")
+RECIPE('richdustseparation'):remove_unlock('chromium'):add_unlock("chromium-mk01")
+RECIPE('sand-classification'):remove_unlock('chromium'):add_unlock("chromium-mk01")
+
+
+--NEXELIT
+
+
+RECIPE('nexelit-ore-1'):remove_unlock('chemical-science-pack')
+RECIPE('nexelit-plate'):remove_unlock('chemical-science-pack')
+
+
+--Autofactory
+
+RECIPE('automated-factory-mk01'):replace_ingredient('advanced-circuit', 'electronic-circuit'):remove_unlock('advanced-electronics'):add_unlock('automation-2')
+
+--advanced-circuit
+
+RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "optical-fiber", amount = 2})
+
+TECHNOLOGY('advanced-electronics'):add_prereq('fine-electronics')
+
+--cladded core
+
+RECIPE("cladded-core"):add_ingredient({type = "item", name = "aramid", amount = 1})
+
+TECHNOLOGY('fine-electronics'):add_prereq('iron-mk02')
+
+--RECIPES
 
 RECIPE('crushing-copper'):remove_unlock('crusher')
 RECIPE('crushed-copper'):remove_unlock('crusher')
@@ -10,12 +56,8 @@ RECIPE('acetylene'):remove_unlock('coal-processing-2'):add_unlock('coal-processi
 RECIPE('calcium-carbide'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1')
 RECIPE('lime'):remove_unlock('separation'):add_unlock('coal-processing-1')
 RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01'):remove_ingredient('chemical-plant')
-TECHNOLOGY('engine'):remove_pack('logistic-science-pack')
-TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-processing-2'):add_prereq('aluminium-mk01')
-TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):add_prereq('coal-processing-2')
-RECIPE('nexelit-ore-1'):remove_unlock('coal-processing-3')
 RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01')
-RECIPE('nexelit-plate'):remove_unlock('fine-electronics')
+
 
 fun.results_replacer("richdust-separation", "chromite-sand", "chromite-sand",3)
 fun.results_replacer("coal-fawogae", "coal", "raw-coal",3)
@@ -58,7 +100,7 @@ RECIPE("cladding"):replace_ingredient("sand", "glass")
 RECIPE("nas-battery"):replace_ingredient("copper-ore", "sodium-hydroxide")
 RECIPE("nas-battery"):add_ingredient({type = "item", name = "lead-plate", amount = 2})
 
-RECIPE("cladded-core"):add_ingredient({type = "item", name = "aramid", amount = 1})
+
 RECIPE("optical-fiber"):remove_ingredient("plastic-bar"):add_ingredient({type = "item", name = "plastic-bar", amount = 5})
 
 RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
@@ -68,7 +110,6 @@ RECIPE("ref-to-light-oil"):add_ingredient({type = "fluid", name = "hydrogen", am
 --RECIPE("olefin-combustion"):remove_ingredient("water"):add_ingredient({type = "fluid", name = "hydrogen", amount = 100})
 RECIPE("niobium-oxide"):replace_ingredient("water", "nitrogen")
 RECIPE("filtration-media"):add_ingredient({type = "item", name = "glass", amount = 6})
-RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "optical-fiber", amount = 2})
 RECIPE("active-carbon"):remove_ingredient("water"):add_ingredient({type = "fluid", name = "nitrogen", amount = 50}):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 4})
 RECIPE("zinc-chloride"):replace_ingredient("iron-plate", "zinc-plate"):replace_ingredient("water", "hydrogen-chloride"):remove_ingredient("copper-plate"):add_result({type = "fluid", name = "hydrogen", amount =20})
 RECIPE("laser-turret"):add_ingredient({type = "item", name = "lens", amount = 1})
