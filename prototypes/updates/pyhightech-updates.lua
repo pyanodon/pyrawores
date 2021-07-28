@@ -321,7 +321,7 @@ RECIPE("molten-tin-05"):add_ingredient({type = "item", name = "graphite", amount
 RECIPE("nexelit-refined-pulp"):add_ingredient({type = "item", name = "graphite", amount = 3})
 RECIPE("sinter-unit"):replace_ingredient("processing-unit", "intelligent-unit"):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20})
 
-TECHNOLOGY('machines-mk02'):remove_prereq('coal-processing-2'):add_prereq('basic-electronics')
+TECHNOLOGY('machines-mk02'):remove_prereq('coal-processing-2')--:add_prereq('basic-electronics')
 
 RECIPE {
     type = "recipe",
