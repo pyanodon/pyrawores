@@ -4,7 +4,6 @@ TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_
 
 RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):add_unlock("machines-mk01")
 RECIPE("acidgas-2"):remove_unlock("regolite-mining"):add_unlock("machines-mk02")
-RECIPE("olefin-plant"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("olefin"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("gasoline"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("pressured-air"):set_fields {energy_required = 1}

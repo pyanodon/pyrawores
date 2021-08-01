@@ -25,6 +25,11 @@ RECIPE('sand-classification'):remove_unlock('chromium'):add_unlock("chromium-mk0
 
 --NEXELIT
 
+--need concrete for quenching for early nexelit
+TECHNOLOGY("concrete"):remove_pack('logistic-science-pack')
+TECHNOLOGY("machines-mk01"):add_prereq('concrete')
+
+RECIPE("quenching-tower"):add_unlock('machines-mk01')
 
 RECIPE('nexelit-ore-1'):remove_unlock('chemical-science-pack')
 RECIPE('nexelit-plate'):remove_unlock('chemical-science-pack')
@@ -128,7 +133,7 @@ RECIPE("jaw-crusher"):remove_ingredient("car"):add_ingredient({type = "item", na
 RECIPE("evaporator"):replace_ingredient("iron-plate", "tin-plate")
 RECIPE("cooling-tower-mk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "stainless-steel")
 RECIPE("desulfurizator-unit"):replace_ingredient("iron-plate", "titanium-plate")
-RECIPE("olefin-plant"):replace_ingredient("chemical-plant", "electrolyzer-mk01")
+RECIPE("olefin-plant"):replace_ingredient("chemical-plant", "electrolyzer-mk01"):replace_ingredient('advanced-circuit','electronic-circuit')
 RECIPE("ground-borer"):replace_ingredient("iron-plate", "titanium-plate")
 RECIPE("fts-reactor"):replace_ingredient("stone-brick", "glass")
 RECIPE("advanced-foundry-mk02"):replace_ingredient("iron-plate", "titanium-plate"):add_ingredient({type = "item", name = "glass", amount = 15})
