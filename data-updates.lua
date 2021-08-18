@@ -38,7 +38,7 @@ RECIPE("electronic-circuit"):set_fields {energy_required = 4}
 RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "solder", amount = 4})
 RECIPE("processing-unit"):add_ingredient({type = "item", name = "solder", amount = 6})
 
-RECIPE("nexelit-plate"):remove_unlock("coal-processing-3")
+RECIPE("nexelit-plate"):remove_unlock("nexelit")
 RECIPE("steel-plate2"):remove_unlock("coal-processing-3")
 RECIPE("crushed-iron"):remove_unlock("crusher")
 RECIPE("crushed-copper"):remove_unlock("crusher")
