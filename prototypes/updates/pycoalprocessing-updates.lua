@@ -27,7 +27,8 @@ RECIPE('sand-classification'):remove_unlock('chromium'):add_unlock("chromium-mk0
 
 --need concrete for quenching for early nexelit
 TECHNOLOGY("concrete"):remove_pack('logistic-science-pack')
-TECHNOLOGY("machines-mk01"):add_prereq('concrete')
+TECHNOLOGY("engine"):remove_prereq('logistic-science-pack')
+--TECHNOLOGY("machines-mk01"):add_prereq('concrete')
 
 RECIPE("quenching-tower"):add_unlock('machines-mk01')
 
