@@ -849,3 +849,5 @@ RECIPE {
     subgroup = "py-rawores-casting",
     order = "ou"
 }:add_unlock("machines-mk03")
+
+RECIPE("biopolymer"):add_ingredient({type = 'fluid', name = 'diesel', amount = 150})

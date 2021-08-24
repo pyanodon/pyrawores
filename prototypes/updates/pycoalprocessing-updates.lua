@@ -772,3 +772,69 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 10}
     }
 }:add_unlock("iron-mk02")
+
+RECIPE {
+    type = "recipe",
+    name = "diesel",
+    category = "olefin",
+    enabled = false,
+    energy_required = 1.5,
+    ingredients = {
+        {type = "item", name = "nexelit-plate", amount = 2},
+        {type = "fluid", name = "methanol", amount = 100},
+        {type = "fluid", name = "carbon-dioxide", amount = 200}
+    },
+    results = {
+        {type = "fluid", name = "diesel", amount = 150},
+        {type = "fluid", name = "olefin", amount = 100}
+    },
+    main_product = "diesel",
+    icon = "__pycoalprocessinggraphics__/graphics/icons/diesel.png",
+    icon_size = 32,
+    subgroup = "py-fluids",
+    order = "d1"
+}:add_unlock("fuel-production")
+
+RECIPE {
+    type = "recipe",
+    name = "diesel2",
+    category = "olefin",
+    enabled = false,
+    energy_required = 1.5,
+    ingredients = {
+        {type = "item", name = "nexelit-plate", amount = 2},
+        {type = "fluid", name = "olefin", amount = 200}
+    },
+    results = {
+        {type = "fluid", name = "diesel", amount = 200}
+    },
+    main_product = "diesel",
+    icon = "__pycoalprocessinggraphics__/graphics/icons/diesel.png",
+    icon_size = 32,
+    subgroup = "py-fluids",
+    order = "d2"
+}:add_unlock("fuel-production")
+
+
+--DIESEL to CM1
+RECIPE {
+    type = "recipe",
+    name = "diesel-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "diesel", amount = 100},
+        {type = "fluid", name = "water", amount = 1000},
+        {type = "item", name = "fuelrod-mk01", amount = 1}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 2400},
+        {type = "fluid", name = "steam", amount = 1000, temperature = 100, catalyst_amount = 1000}
+    },
+    icon = "__pycoalprocessinggraphics__/graphics/icons/combustion-diesel.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "i"
+}:add_unlock("energy-3")

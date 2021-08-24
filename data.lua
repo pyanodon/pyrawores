@@ -290,6 +290,8 @@ require("prototypes/fluids/zinc-waste")
 require("prototypes/fluids/molten-zinc")
 require("prototypes/fluids/molten-solder")
 
+require("__pycoalprocessing__/prototypes/fluids/diesel")
+
 --(( OTHERS ))--
 
 require("prototypes/robots/py-construction-robot-02")
@@ -304,3 +306,4 @@ data.raw.fluid["outlet-gas-02"].fuel_value = "0.5MJ"
 data.raw.fluid["outlet-gas-03"].fuel_value = "0.5MJ"
 data.raw.fluid["outlet-gas-04"].fuel_value = "0.5MJ"
 data.raw.fluid["high-ash-fines"].fuel_value = "0.5MJ"
+data.raw.fluid['diesel'].fuel_value = '1.5MJ'
