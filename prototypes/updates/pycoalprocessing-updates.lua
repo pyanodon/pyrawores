@@ -111,7 +111,7 @@ RECIPE("optical-fiber"):remove_ingredient("plastic-bar"):add_ingredient({type = 
 
 RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
 RECIPE("olefin"):replace_ingredient("water", "hydrogen")
-RECIPE("flask"):remove_ingredient("iron-plate"):add_ingredient({type = "fluid", name = "molten-glass", amount = 200})
+RECIPE("flask"):remove_ingredient("molten-glass"):add_ingredient({type = "fluid", name = "molten-glass", amount = 200})
 RECIPE("ref-to-light-oil"):add_ingredient({type = "fluid", name = "hydrogen", amount = 250})
 --RECIPE("olefin-combustion"):remove_ingredient("water"):add_ingredient({type = "fluid", name = "hydrogen", amount = 100})
 RECIPE("niobium-oxide"):replace_ingredient("water", "nitrogen")
