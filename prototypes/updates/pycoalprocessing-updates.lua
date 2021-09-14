@@ -61,7 +61,7 @@ RECIPE('crushed-iron'):remove_unlock('crusher')
 RECIPE('acetylene'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1'):change_category('gasifier')
 RECIPE('calcium-carbide'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1')
 RECIPE('lime'):remove_unlock('separation'):add_unlock('coal-processing-1')
-RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01'):remove_ingredient('chemical-plant')
+RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01'):remove_ingredient('chemical-plant-mk01')
 RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01')
 
 
@@ -128,13 +128,13 @@ RECIPE("advanced-foundry-mk01"):replace_ingredient("steel-furnace", "stone-furna
 RECIPE("chemical-science-pack"):replace_ingredient("iron-plate", "stainless-steel")
 
 RECIPE("gasturbinemk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "duralumin")
-RECIPE("methanol-reactor"):replace_ingredient("chemical-plant", "electrolyzer-mk01")
+RECIPE("methanol-reactor"):replace_ingredient("chemical-plant-mk01", "electrolyzer-mk01")
 RECIPE("power-house"):replace_ingredient("iron-plate", "lead-plate")
 RECIPE("jaw-crusher"):remove_ingredient("car"):add_ingredient({type = "item", name = "duralumin", amount = 15})
 RECIPE("evaporator"):replace_ingredient("iron-plate", "tin-plate")
 RECIPE("cooling-tower-mk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "stainless-steel")
 RECIPE("desulfurizator-unit"):replace_ingredient("iron-plate", "titanium-plate")
-RECIPE("olefin-plant"):replace_ingredient("chemical-plant", "electrolyzer-mk01"):replace_ingredient('advanced-circuit','electronic-circuit')
+RECIPE("olefin-plant"):replace_ingredient("chemical-plant-mk01", "electrolyzer-mk01"):replace_ingredient('advanced-circuit','electronic-circuit')
 RECIPE("ground-borer"):replace_ingredient("iron-plate", "titanium-plate")
 RECIPE("fts-reactor"):replace_ingredient("stone-brick", "glass")
 RECIPE("advanced-foundry-mk02"):replace_ingredient("iron-plate", "titanium-plate"):add_ingredient({type = "item", name = "glass", amount = 15})
@@ -226,6 +226,10 @@ RECIPE('quenching-tower-mk04'):add_unlock('machines-mk04'):add_ingredient({type 
 RECIPE('power-house-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 15}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE('power-house-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "super-steel", amount = 30})
 RECIPE('power-house-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "lead-plate", amount = 20})
+
+RECIPE('chemical-plant-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 15}):add_ingredient({type = "item", name = "tin-plate", amount = 25}):replace_ingredient('storage-tank', 'py-tank-3000')
+RECIPE('chemical-plant-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "stainless-steel", amount = 40}):replace_ingredient('storage-tank', 'py-tank-6500')
+RECIPE('chemical-plant-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-steel", amount = 45}):replace_ingredient('storage-tank', 'py-tank-8000')
 
 RECIPE('rectisol-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 20}):replace_ingredient('storage-tank', 'py-tank-3000')
 RECIPE('rectisol-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 30}):add_ingredient({type = "item", name = "stainless-steel", amount = 15}):replace_ingredient('storage-tank', 'py-tank-6500')

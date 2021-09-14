@@ -343,7 +343,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "cab"
-}:add_unlock("machines-mk02"):change_category("mixer")
+}:add_unlock("machines-mk02"):change_category("chemistry")
 
 RECIPE {
     type = "recipe",

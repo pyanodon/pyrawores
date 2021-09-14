@@ -18,7 +18,7 @@ RECIPE("hydrocyclone-mk01"):remove_unlock("advanced-mining-facilities"):add_unlo
 RECIPE("py-heat-exchanger"):remove_unlock("fuel-production"):add_unlock("coal-processing-2")
 
 RECIPE("mixer-mk01"):remove_unlock("advanced-mining-facilities"):remove_unlock("basic-electronics"):add_unlock("machines-mk01")
-RECIPE("mixer-mk01"):replace_ingredient("iron-plate", "aluminium-plate"):replace_ingredient("chemical-plant", "washer")
+RECIPE("mixer-mk01"):replace_ingredient("iron-plate", "aluminium-plate"):replace_ingredient("chemical-plant-mk01", "washer")
 
 RECIPE("secondary-crusher-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk01"):replace_ingredient("electric-engine-unit", "engine-unit"):remove_ingredient("nbfe-alloy"):add_ingredient({type = "item", name = "duralumin", amount = 20})
 
@@ -39,7 +39,7 @@ RECIPE("purified-quartz"):change_category("pan")
 RECIPE("prepared-quartz"):change_category("pan")
 RECIPE("quartz-pulp-01"):change_category("hydrocyclone")
 RECIPE("al-pulp-01"):change_category("mixer")
-RECIPE("sodium-bisulfate"):change_category("mixer")
+RECIPE("sodium-bisulfate"):change_category("chemistry")
 RECIPE("al-pulp-02"):change_category("agitator")
 RECIPE("al-pulp-04"):change_category("agitator")
 RECIPE("crystalized-sodium-aluminate"):remove_ingredient("steam"):add_ingredient({type = "fluid", name = "pressured-air", amount = 500})
