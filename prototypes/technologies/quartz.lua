@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/quartz-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"machines-mk01"},
+    prerequisites = {"crusher"},
     effects = {},
     unit = {
         count = 150,

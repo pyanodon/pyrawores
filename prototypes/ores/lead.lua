@@ -29,7 +29,7 @@ ENTITY {
             {"ore-lead", 1}
         },
         fluid_amount = 100,
-        required_fluid = "acetylene"
+        required_fluid = "kerosene"
     },
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},

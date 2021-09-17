@@ -29,7 +29,7 @@ ENTITY {
             {"ore-titanium", 1}
         },
         fluid_amount = 40,
-        required_fluid = "acetylene"
+        required_fluid = "syngas"
     },
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},

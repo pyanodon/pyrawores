@@ -236,7 +236,19 @@ RECIPE("wet-scrubber-mk04"):add_ingredient({type = "item", name = "nbti-alloy", 
 RECIPE("smelter-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 15}):add_ingredient({type = "item", name = "boron-carbide", amount = 20}):add_ingredient({type = "item", name = "py-heat-exchanger", amount = 1})
 RECIPE("smelter-mk04"):add_ingredient({type = "item", name = "nbti-alloy", amount = 20}):add_ingredient({type = "item", name = "wall-shield", amount = 2}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
+RECIPE("chemical-plant-mk03"):add_ingredient({type = "item", name = "sc-unit", amount = 10}):add_ingredient({type = "item", name = "molybdenum-plate", amount = 20})
+RECIPE("chemical-plant-mk04"):add_ingredient({type = "item", name = "control-unit", amount = 10})
+
 RECIPE("sinter-unit"):add_ingredient({type = "item", name = "super-alloy", amount = 15})
+
+RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
+
+--RECIPE('acetylene'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1'):change_category('gasifier')
+
+data.raw.resource["ore-titanium"].minable.required_fluid = "acetylene"
+data.raw.resource["quartz-rock"].minable.required_fluid = "acetylene"
+data.raw.resource["ore-lead"].minable.required_fluid = "acetylene"
+data.raw.resource["uranium-rock"].minable.required_fluid = "gasoline"
 
 RECIPE {
     type = "recipe",

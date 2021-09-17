@@ -104,7 +104,7 @@ RECIPE {
     type = "recipe",
     name = "glass-1",
     category = "glassworks",
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients = {
         {type = "item", name = "ore-quartz", amount = 6}
@@ -117,7 +117,7 @@ RECIPE {
     icon_size = 64,
     subgroup = "py-rawores-quartz",
     order = "aaa"
-}
+}:add_unlock('optics')
 
 RECIPE {
     type = "recipe",

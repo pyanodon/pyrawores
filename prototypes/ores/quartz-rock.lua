@@ -31,7 +31,7 @@ DATA {
             {"ore-quartz", 1}
         },
         fluid_amount = 30,
-        required_fluid = "acetylene"
+        required_fluid = "diesel"
     },
     resource_patch_search_radius = 12,
     collision_box = {{-6.3, -6.3}, {6.3, 6.3}},

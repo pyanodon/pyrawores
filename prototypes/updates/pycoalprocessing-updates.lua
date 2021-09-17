@@ -26,7 +26,10 @@ RECIPE('sand-classification'):remove_unlock('chromium'):add_unlock("chromium-mk0
 --NEXELIT
 
 --need concrete for quenching for early nexelit
-TECHNOLOGY("concrete"):remove_pack('logistic-science-pack')
+TECHNOLOGY("concrete"):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack')
+RECIPE("concrete-richclay"):remove_unlock('concrete')
+
+
 TECHNOLOGY("engine"):remove_prereq('logistic-science-pack')
 --TECHNOLOGY("machines-mk01"):add_prereq('concrete')
 
@@ -44,7 +47,7 @@ RECIPE('automated-factory-mk01'):replace_ingredient('advanced-circuit', 'electro
 
 RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "optical-fiber", amount = 2})
 
-TECHNOLOGY('advanced-electronics'):add_prereq('fine-electronics')
+--TECHNOLOGY('advanced-electronics'):add_prereq('fine-electronics')
 
 --cladded core
 
@@ -58,7 +61,6 @@ RECIPE('crushing-copper'):remove_unlock('crusher')
 RECIPE('crushed-copper'):remove_unlock('crusher')
 RECIPE('crushing-iron'):remove_unlock('crusher')
 RECIPE('crushed-iron'):remove_unlock('crusher')
-RECIPE('acetylene'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1'):change_category('gasifier')
 RECIPE('calcium-carbide'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1')
 RECIPE('lime'):remove_unlock('separation'):add_unlock('coal-processing-1')
 RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01'):remove_ingredient('chemical-plant-mk01')
@@ -109,7 +111,6 @@ RECIPE("nas-battery"):add_ingredient({type = "item", name = "lead-plate", amount
 
 RECIPE("optical-fiber"):remove_ingredient("plastic-bar"):add_ingredient({type = "item", name = "plastic-bar", amount = 5})
 
-RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
 RECIPE("olefin"):replace_ingredient("water", "hydrogen")
 RECIPE("flask"):remove_ingredient("molten-glass"):add_ingredient({type = "fluid", name = "molten-glass", amount = 200})
 RECIPE("ref-to-light-oil"):add_ingredient({type = "fluid", name = "hydrogen", amount = 250})
@@ -227,6 +228,7 @@ RECIPE('power-house-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "i
 RECIPE('power-house-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "super-steel", amount = 30})
 RECIPE('power-house-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "lead-plate", amount = 20})
 
+RECIPE('chemical-plant-mk01'):add_ingredient({type = "item", name = "glass", amount = 50})
 RECIPE('chemical-plant-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 15}):add_ingredient({type = "item", name = "tin-plate", amount = 25}):replace_ingredient('storage-tank', 'py-tank-3000')
 RECIPE('chemical-plant-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "stainless-steel", amount = 40}):replace_ingredient('storage-tank', 'py-tank-6500')
 RECIPE('chemical-plant-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-steel", amount = 45}):replace_ingredient('storage-tank', 'py-tank-8000')
