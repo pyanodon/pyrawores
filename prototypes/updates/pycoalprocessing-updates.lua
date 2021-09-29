@@ -8,11 +8,13 @@ TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('c
 TECHNOLOGY('ralesia'):add_prereq('machines-mk01')
 TECHNOLOGY('energy-1'):add_prereq('machines-mk01'):add_prereq('optics')
 
+TECHNOLOGY("advanced-material-processing"):add_unlock('iron-mk02'):add_unlock('machines-mk01')
 --SCIENCE PACKS
 
 TECHNOLOGY('logistic-science-pack'):add_prereq('aluminium-mk01')
-TECHNOLOGY('chemical-science-pack'):add_prereq('nexelit-mk01'):add_prereq('iron-mk02')
+TECHNOLOGY('chemical-science-pack'):remove_prereq('nexelit'):add_prereq('nexelit-mk01'):add_prereq('iron-mk02')
 
+TECHNOLOGY("nexelit"):set_field{enabled = false}
 --CHROMIUM
 
 TECHNOLOGY('chromium'):set_field{ enabled = false}
@@ -52,7 +54,7 @@ RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "optical-fiber"
 
 RECIPE("cladded-core"):add_ingredient({type = "item", name = "aramid", amount = 1})
 
-TECHNOLOGY('fine-electronics'):add_prereq('iron-mk02')
+TECHNOLOGY('fine-electronics'):add_prereq('iron-mk02'):add_prereq('lead-mk02')
 
 --RECIPES
 
@@ -124,7 +126,7 @@ RECIPE("soil-extractormk02"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("soil-extractormk01"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("wpu"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("fawogae-plantation-mk01"):replace_ingredient("copper-cable", "tinned-cable")
-RECIPE("advanced-foundry-mk01"):replace_ingredient("steel-furnace", "stone-furnace")
+RECIPE("advanced-foundry-mk01"):replace_ingredient("steel-furnace", "stone-furnace"):remove_unlock('nexelit'):add_unlock('machines-mk01')
 RECIPE("chemical-science-pack"):replace_ingredient("iron-plate", "stainless-steel")
 
 RECIPE("gasturbinemk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "duralumin")
