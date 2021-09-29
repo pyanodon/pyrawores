@@ -6,7 +6,7 @@ TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-p
 TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):add_prereq('coal-processing-2')
 
 TECHNOLOGY('ralesia'):add_prereq('machines-mk01')
-TECHNOLOGY('energy-1'):add_prereq('machines-mk01')
+TECHNOLOGY('energy-1'):add_prereq('machines-mk01'):add_prereq('optics')
 
 --SCIENCE PACKS
 
@@ -159,6 +159,7 @@ RECIPE('ball-mill-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "ite
 RECIPE('ball-mill-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 50}):add_ingredient({type = "item", name = "super-steel", amount = 15})
 RECIPE('ball-mill-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "lead-plate", amount = 30})
 
+RECIPE('borax-mine-mk01'):remove_unlock('energy-1'):add_unlock('optics')
 RECIPE('borax-mine-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 15}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE('borax-mine-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "super-steel", amount = 30})
 RECIPE('borax-mine-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "lead-plate", amount = 20})
@@ -279,26 +280,6 @@ RECIPE {
     icon_size = 32,
     order = "b"
 }:add_unlock("methanol-processing-2")
-
-RECIPE {
-    type = "recipe",
-    name = "syngas-distilation",
-    category = "distilator",
-    enabled = false,
-    energy_required = 1.5,
-    ingredients = {
-        {type = "fluid", name = "syngas", amount = 150}
-    },
-    results = {
-        {type = "fluid", name = "hydrogen", amount = 100},
-        {type = "fluid", name = "carbon-dioxide", amount = 50}
-    },
-    main_product = "hydrogen",
-    icon = "__pycoalprocessinggraphics__/graphics/icons/syngas-distilation.png",
-    icon_size = 32,
-    subgroup = "py-items",
-    order = "a [coal-gas]"
-}:add_unlock("coal-processing-2")
 
 RECIPE {
     type = "recipe",

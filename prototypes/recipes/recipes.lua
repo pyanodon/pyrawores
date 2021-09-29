@@ -171,7 +171,7 @@ RECIPE {
         {type = "item", name = "coke", amount = 3}
     },
     results = {
-        {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 520},
+        {type = "fluid", name = "combustion-mixture1", amount = 75, temperature = 520},
         {type = "fluid", name = "steam", amount = 500, temperature = 60}
     },
     icon = "__pycoalprocessinggraphics__/graphics/icons/combustion-hydrogen.png",

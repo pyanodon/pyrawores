@@ -3,7 +3,7 @@ RECIPE {
     name = "hydrogen",
     category = "electrolyzer",
     enabled = false,
-    energy_required = 4,
+    energy_required = 10,
     ingredients = {
         {type = "fluid", name = "water", amount = 300}
     },
