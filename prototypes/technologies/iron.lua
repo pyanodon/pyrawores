@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/iron-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'machines-mk02','iron-mk01'},
+    prerequisites = {'iron-mk01'},
     effects = {},
     unit = {
         count = 100,

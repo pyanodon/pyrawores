@@ -8,24 +8,28 @@ TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('c
 TECHNOLOGY('ralesia'):add_prereq('machines-mk01')
 TECHNOLOGY('energy-1'):add_prereq('machines-mk01'):add_prereq('optics')
 
-TECHNOLOGY("advanced-material-processing"):add_unlock('iron-mk02'):add_unlock('machines-mk01')
+TECHNOLOGY("advanced-material-processing"):add_prereq('iron-mk02'):add_prereq('machines-mk01')
 --SCIENCE PACKS
 
 TECHNOLOGY('logistic-science-pack'):add_prereq('aluminium-mk01')
 TECHNOLOGY('chemical-science-pack'):remove_prereq('nexelit'):add_prereq('nexelit-mk01'):add_prereq('iron-mk02')
 
-TECHNOLOGY("nexelit"):set_field{enabled = false}
+TECHNOLOGY("nexelit"):set_fields{enabled = false}
 --CHROMIUM
 
-TECHNOLOGY('chromium'):set_field{ enabled = false}
+TECHNOLOGY('chromium'):set_fields{enabled = false}
+
+TECHNOLOGY("coal-processing-2"):remove_prereq('chromium'):add_prereq('chromium-mk02')
 
 RECIPE('making-chromium'):remove_unlock('chromium')
 RECIPE('nichrome'):remove_unlock('chromium'):add_unlock("chromium-mk01")
-RECIPE('richdustseparation'):remove_unlock('chromium'):add_unlock("chromium-mk01")
+RECIPE('richdust-separation'):remove_unlock('chromium'):add_unlock("chromium-mk01")
 RECIPE('sand-classification'):remove_unlock('chromium'):add_unlock("chromium-mk01")
 
 
 --NEXELIT
+
+RECIPE("sand-casting"):remove_unlock('nexelit'):add_unlock('machines-mk01')
 
 --need concrete for quenching for early nexelit
 TECHNOLOGY("concrete"):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack')
@@ -42,7 +46,7 @@ RECIPE('nexelit-plate'):remove_unlock('chemical-science-pack')
 
 --Autofactory
 
-RECIPE('automated-factory-mk01'):replace_ingredient('advanced-circuit', 'electronic-circuit'):remove_unlock('advanced-electronics'):add_unlock('automation-2')
+RECIPE('automated-factory-mk01'):replace_ingredient('advanced-circuit', 'electronic-circuit'):remove_unlock('advanced-electronics'):add_unlock('machines-mk01')
 
 --advanced-circuit
 
@@ -58,10 +62,11 @@ TECHNOLOGY('fine-electronics'):add_prereq('iron-mk02'):add_prereq('lead-mk02')
 
 --RECIPES
 
-RECIPE('crushing-copper'):remove_unlock('crusher')
-RECIPE('crushed-copper'):remove_unlock('crusher')
-RECIPE('crushing-iron'):remove_unlock('crusher')
-RECIPE('crushed-iron'):remove_unlock('crusher')
+RECIPE('crushing-copper'):remove_unlock('advanced-material-processing')
+RECIPE('crushed-copper'):remove_unlock('advanced-material-processing')
+RECIPE('crushing-iron'):remove_unlock('advanced-material-processing')
+RECIPE('crushed-iron'):remove_unlock('advanced-material-processing')
+RECIPE("steel-plate2"):remove_unlock('advanced-material-processing-2')
 RECIPE('calcium-carbide'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1')
 RECIPE('lime'):remove_unlock('separation'):add_unlock('coal-processing-1')
 RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01'):remove_ingredient('chemical-plant-mk01')

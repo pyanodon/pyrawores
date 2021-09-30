@@ -40,8 +40,6 @@ RECIPE("processing-unit"):add_ingredient({type = "item", name = "solder", amount
 
 RECIPE("nexelit-plate"):remove_unlock("nexelit")
 RECIPE("steel-plate2"):remove_unlock("coal-processing-3")
-RECIPE("crushed-iron"):remove_unlock("crusher")
-RECIPE("crushed-copper"):remove_unlock("crusher")
 
 RECIPE("py-local-radar"):set_fields {enabled = false}:add_unlock("engine")
 RECIPE("mk02-locomotive"):add_ingredient({type = "item", name = "glass", amount = 150}):add_ingredient({type = "item", name = "duralumin", amount = 50})
