@@ -6,9 +6,10 @@ RECIPE("uranium-processing"):remove_unlock('uranium-processing')
 
 TECHNOLOGY("uranium-processing"):set_field{enabled = false}
 
-RECIPE("kovarex-enrichment-process"):remove_unlock('kovarex-enrichment-process')
+RECIPE("kovarex-enrichment-process"):set_fields{energy_required = 5}
 
-TECHNOLOGY("kovarex-enrichment-process"):set_field{enabled = false}
+TECHNOLOGY("kovarex-enrichment-process"):remove_prereq('uranium-processing'):add_prereq('uranium-mk02'):remove_prereq('rocket-fuel')
+
 TECHNOLOGY("utility-science-pack"):remove_prereq('kovarex-enrichment-process')
 
 RECIPE("nuclear-fuel"):remove_unlock('kovarex-enrichment-process'):add_unlock('uranium-mk04')
@@ -21,7 +22,31 @@ RECIPE('low-density-structure'):change_category('py-rawores-smelter')
 TECHNOLOGY('robotics'):add_prereq('construction-robotics'):add_prereq('logistic-robotics')
 
 data.raw.reactor['nuclear-reactor'].use_fuel_glow_color = true
+
+data.raw["assembling-machine"]["centrifuge"].crafting_speed = 4
+data.raw["assembling-machine"]["centrifuge"].module_specification.module_slots = 4
+
+
+--URANIUM FUEL CELL
+
 data.raw.item['uranium-fuel-cell'].fuel_glow_color = {0,1,0,1}
+
+RECIPE {
+  type = "recipe",
+  name = "uranium-fuel-cell",
+  enabled = false,
+  energy_required = 15,
+  ingredients =
+    {
+      {"lead-plate", 2},
+      {"niobium-plate", 2},
+      {"fuelrod-mk01", 1}
+    },
+  results = {
+      {"uranium-fuel-cell", 2}
+  },
+}
+
 
 data.raw['underground-belt']['fast-underground-belt'].max_distance = 15
 data.raw['underground-belt']['express-underground-belt'].max_distance = 30

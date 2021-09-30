@@ -82,7 +82,7 @@ RECIPE("nbfe-alloy"):change_category('py-rawores-smelter')
 
 RECIPE("copper-coating"):replace_ingredient("organic-solvent", {"water-saline", 100})
 RECIPE("empty-gas-canister"):replace_ingredient("steel-plate", "aluminium-plate")
-RECIPE("fuelrod-mk01"):remove_ingredient("nexelit-ore"):add_ingredient({type = "item", name = "nexelit-plate", amount = 2})
+RECIPE("fuelrod-mk01"):remove_unlock('advanced-material-processing-2')
 RECIPE("methanol-from-syngas"):replace_ingredient("iron-plate", "zinc-plate")
 RECIPE("flying-robot-frame"):replace_ingredient("steel-plate", "niobium-plate")
 RECIPE("ralesia"):replace_ingredient("water", "hydrogen")

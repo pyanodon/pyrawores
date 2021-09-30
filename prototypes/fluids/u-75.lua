@@ -9,7 +9,8 @@ RECIPE {
         {type = "item", name = "filtration-media", amount = 1}
     },
     results = {
-        {type = "fluid", name = "u-75", amount = 100}
+        {type = "fluid", name = "u-75", amount = 100},
+        {type = "item", name = "iron-dust-concentrate", amount = 3}
     },
     main_product = "u-75",
     subgroup = "py-rawores-uranium",

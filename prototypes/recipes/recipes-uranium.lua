@@ -66,6 +66,7 @@ RECIPE {
     results = {
         {type = "item", name = "20-u-powder", amount = 1},
         {type = "item", name = "sand", amount = 1, probability = 0.3},
+        {type = "item", name = "uranium-238", amount = 1}
     },
     main_product = "20-u-powder",
     icon = "__pyraworesgraphics__/graphics/icons/powdered-u-screening.png",
@@ -84,6 +85,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "40-u-powder", amount = 1},
+        {type = "item", name = "uranium-238", amount = 3}
     },
     main_product = "40-u-powder",
     subgroup = "py-rawores-uranium",
@@ -100,6 +102,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "70-u-powder", amount = 1},
+        {type = "item", name = "uranium-238", amount = 6}
     },
     main_product = "70-u-powder",
     subgroup = "py-rawores-uranium",
@@ -118,8 +121,26 @@ RECIPE {
     results = {
         {type = "item", name = "yellow-cake", amount = 1},
         {type = "fluid", name = "dirty-water-heavy", amount = 50},
+        {type = "item", name = "uranium-238", amount = 10}
     },
     main_product = "yellow-cake",
+    subgroup = "py-rawores-uranium",
+}:add_unlock("uranium-mk04")
+
+RECIPE {
+    type = "recipe",
+    name = "yellow-cake-u235",
+    category = "hpf",
+    enabled = false,
+    energy_required = 7.5,
+    ingredients = {
+        {type = "item", name = "yellow-cake", amount = 2},
+        {type = "fluid", name = "oxygen", amount = 500}
+    },
+    results = {
+        {type = "item", name = "uranium-235", amount = 1}
+    },
+    main_product = "uranium-235",
     subgroup = "py-rawores-uranium",
 }:add_unlock("uranium-mk04")
 
@@ -139,7 +160,7 @@ RECIPE {
     },
     main_product = "fuelrod-mk02",
     subgroup = "py-rawores-uranium",
-}:add_unlock("fuel-production")
+}:add_unlock("uranium-mk01")
 
 RECIPE {
     type = "recipe",
@@ -149,7 +170,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "40-u-powder", amount = 5},
-        {type = "item", name = "fuelrod-mk01", amount = 1},
+        {type = "item", name = "fuelrod-mk02", amount = 1},
         {type = "item", name = "lead-plate", amount = 5},
     },
     results = {
@@ -157,7 +178,7 @@ RECIPE {
     },
     main_product = "fuelrod-mk03",
     subgroup = "py-rawores-uranium",
-}:add_unlock("fuel-production")
+}:add_unlock("uranium-mk02")
 
 RECIPE {
     type = "recipe",
@@ -167,7 +188,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "70-u-powder", amount = 5},
-        {type = "item", name = "fuelrod-mk01", amount = 1},
+        {type = "item", name = "fuelrod-mk03", amount = 1},
         {type = "item", name = "lead-plate", amount = 5},
     },
     results = {
@@ -175,7 +196,7 @@ RECIPE {
     },
     main_product = "fuelrod-mk04",
     subgroup = "py-rawores-uranium",
-}:add_unlock("fuel-production")
+}:add_unlock("uranium-mk03")
 
 RECIPE {
     type = "recipe",
@@ -185,7 +206,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "yellow-cake", amount = 3},
-        {type = "item", name = "fuelrod-mk01", amount = 1},
+        {type = "item", name = "fuelrod-mk04", amount = 1},
         {type = "item", name = "lead-plate", amount = 5},
     },
     results = {
@@ -193,7 +214,7 @@ RECIPE {
     },
     main_product = "fuelrod-mk05",
     subgroup = "py-rawores-uranium",
-}:add_unlock("fuel-production")
+}:add_unlock("uranium-mk04")
 
 RECIPE {
     type = "recipe",
@@ -220,7 +241,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "uranium-fuel-cell", amount = 1},
+        {type = "item", name = "uranium-fuel-cell-mk02", amount = 1},
         {type = "item", name = "fuelrod-mk03", amount = 2},
         {type = "item", name = "lead-plate", amount = 5},
     },
@@ -238,7 +259,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "uranium-fuel-cell", amount = 1},
+        {type = "item", name = "uranium-fuel-cell-mk03", amount = 1},
         {type = "item", name = "fuelrod-mk04", amount = 2},
         {type = "item", name = "lead-plate", amount = 5},
     },
@@ -256,7 +277,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "uranium-fuel-cell", amount = 1},
+        {type = "item", name = "uranium-fuel-cell-mk04", amount = 1},
         {type = "item", name = "fuelrod-mk05", amount = 2},
         {type = "item", name = "lead-plate", amount = 5},
     },
