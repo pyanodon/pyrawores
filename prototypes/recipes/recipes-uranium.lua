@@ -151,9 +151,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "20-u-powder", amount = 5},
+        {type = "item", name = "20-u-powder", amount = 4},
         {type = "item", name = "fuelrod-mk01", amount = 1},
-        {type = "item", name = "lead-plate", amount = 5},
+        {type = "item", name = "titanium-plate", amount = 2},
     },
     results = {
         {type = "item", name = "fuelrod-mk02", amount = 1},
@@ -169,7 +169,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "40-u-powder", amount = 5},
+        {type = "item", name = "40-u-powder", amount = 4},
         {type = "item", name = "fuelrod-mk02", amount = 1},
         {type = "item", name = "lead-plate", amount = 5},
     },
@@ -187,9 +187,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "70-u-powder", amount = 5},
+        {type = "item", name = "70-u-powder", amount = 4},
         {type = "item", name = "fuelrod-mk03", amount = 1},
-        {type = "item", name = "lead-plate", amount = 5},
+        {type = "item", name = "zinc-plate", amount = 2},
     },
     results = {
         {type = "item", name = "fuelrod-mk04", amount = 1},
@@ -205,9 +205,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "yellow-cake", amount = 3},
+        {type = "item", name = "yellow-cake", amount = 2},
         {type = "item", name = "fuelrod-mk04", amount = 1},
-        {type = "item", name = "lead-plate", amount = 5},
+        {type = "item", name = "stainless-steel", amount = 1},
     },
     results = {
         {type = "item", name = "fuelrod-mk05", amount = 1},
@@ -225,7 +225,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "uranium-fuel-cell", amount = 1},
         {type = "item", name = "fuelrod-mk02", amount = 2},
-        {type = "item", name = "lead-plate", amount = 5},
+        {type = "item", name = "titanium-plate", amount = 5},
     },
     results = {
         {type = "item", name = "uranium-fuel-cell-mk02", amount = 1},
@@ -261,7 +261,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "uranium-fuel-cell-mk03", amount = 1},
         {type = "item", name = "fuelrod-mk04", amount = 2},
-        {type = "item", name = "lead-plate", amount = 5},
+        {type = "item", name = "zinc-plate", amount = 5},
     },
     results = {
         {type = "item", name = "uranium-fuel-cell-mk04", amount = 1},
@@ -279,7 +279,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "uranium-fuel-cell-mk04", amount = 1},
         {type = "item", name = "fuelrod-mk05", amount = 2},
-        {type = "item", name = "lead-plate", amount = 5},
+        {type = "item", name = "stainless-steel", amount = 5},
     },
     results = {
         {type = "item", name = "uranium-fuel-cell-mk05", amount = 1},

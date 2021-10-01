@@ -1,7 +1,2 @@
 update concrete
  add graphene to reenforced concrete when pyht is active
-
-
-sort out uranium processing, u238 and fuel cells
-
-need to fix kovarex using way to many damn buildings currently

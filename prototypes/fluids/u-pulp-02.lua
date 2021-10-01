@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "u-pulp-01", amount = 100},
-        {type = "fluid", name = "steam", amount = 300, temperature = 165},
+        {type = "fluid", name = "steam", amount = 300, minimum_temperature = 165},
     },
     results = {
         {type = "fluid", name = "u-pulp-02", amount = 100},
