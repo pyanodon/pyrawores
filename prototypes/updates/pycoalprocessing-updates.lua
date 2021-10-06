@@ -635,19 +635,35 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
+    name = "fuelrod-mk01-1",
+    category = "hpf",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "titanium-plate", amount = 5},
+        {type = "item", name = "20-u-powder", amount = 4},
+        {type = "item", name = "coke", amount = 10}
+    },
+    results = {
+        {type = "item", name = "fuelrod-mk01", amount = 1}
+    }
+}:add_unlock("uranium-mk01")
+
+RECIPE {
+    type = "recipe",
     name = "fuelrod-mk01-2",
     category = "hpf",
     enabled = false,
     energy_required = 3.5,
     ingredients = {
         {type = "item", name = "niobium-plate", amount = 2},
-        {type = "item", name = "70-u-powder", amount = 1},
+        {type = "item", name = "40-u-powder", amount = 4},
         {type = "item", name = "coke", amount = 10}
     },
     results = {
-        {type = "item", name = "fuelrod-mk01", amount = 12}
+        {type = "item", name = "fuelrod-mk01", amount = 4}
     }
-}:add_unlock("uranium-mk03")
+}:add_unlock("uranium-mk02")
 
 RECIPE {
     type = "recipe",
@@ -657,29 +673,13 @@ RECIPE {
     energy_required = 3.5,
     ingredients = {
         {type = "item", name = "niobium-plate", amount = 2},
-        {type = "item", name = "40-u-powder", amount = 2},
+        {type = "item", name = "70-u-powder", amount = 4},
         {type = "item", name = "coke", amount = 10}
     },
     results = {
         {type = "item", name = "fuelrod-mk01", amount = 8}
     }
-}:add_unlock("uranium-mk02")
-
-RECIPE {
-    type = "recipe",
-    name = "fuelrod-mk01-4",
-    category = "hpf",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "item", name = "titanium-plate", amount = 5},
-        {type = "item", name = "20-u-powder", amount = 3},
-        {type = "item", name = "coke", amount = 10}
-    },
-    results = {
-        {type = "item", name = "fuelrod-mk01", amount = 4}
-    }
-}:add_unlock("uranium-mk01")
+}:add_unlock("uranium-mk03")
 
 RECIPE {
     type = "recipe",

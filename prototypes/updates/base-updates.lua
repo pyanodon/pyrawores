@@ -23,13 +23,18 @@ TECHNOLOGY('robotics'):add_prereq('construction-robotics'):add_prereq('logistic-
 
 data.raw.reactor['nuclear-reactor'].use_fuel_glow_color = true
 
+--tweaking the centrifuge
 data.raw["assembling-machine"]["centrifuge"].crafting_speed = 4
 data.raw["assembling-machine"]["centrifuge"].module_specification.module_slots = 4
+
+RECIPE("centrifuge"):remove_unlock('uranium-processing'):add_unlock('nuclear-fuel-reprocessing')
 
 
 --URANIUM FUEL CELL
 
 data.raw.item['uranium-fuel-cell'].fuel_glow_color = {0,1,0,1}
+data.raw.item['uranium-fuel-cell'].subgroup = "py-rawores-items"
+data.raw.item['uranium-fuel-cell'].order = "cae"
 
 RECIPE {
   type = "recipe",
@@ -40,10 +45,10 @@ RECIPE {
     {
       {"lead-plate", 2},
       {"niobium-plate", 2},
-      {"fuelrod-mk01", 1}
+      {"fuelrod-mk01", 2}
     },
   results = {
-      {"uranium-fuel-cell", 2}
+      {"uranium-fuel-cell", 1}
   },
 }
 

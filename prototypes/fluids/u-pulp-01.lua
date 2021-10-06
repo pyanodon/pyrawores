@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "20-u-powder", amount = 1},
+        {type = "item", name = "powdered-u", amount = 1},
         {type = "fluid", name = "steam", amount = 300, minimum_temperature = 165},
         {type = "fluid", name = "sulfuric-acid", amount = 50}
     },
@@ -15,7 +15,7 @@ RECIPE {
     main_product = "u-pulp-01",
     subgroup = "py-rawores-uranium",
     order = "q-2"
-}:add_unlock("uranium-mk02")
+}:add_unlock("uranium-mk01")
 
 RECIPE {
     type = "recipe",
@@ -24,12 +24,12 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "uranium-235", amount = 5},
+        {type = "item", name = "uranium-235", amount = 10},
         {type = "fluid", name = "steam", amount = 300, minimum_temperature = 165},
         {type = "fluid", name = "sulfuric-acid", amount = 50}
     },
     results = {
-        {type = "fluid", name = "u-pulp-01", amount = 200}
+        {type = "fluid", name = "u-pulp-01", amount = 100}
     },
     main_product = "u-pulp-01",
     subgroup = "py-rawores-uranium",

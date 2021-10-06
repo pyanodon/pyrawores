@@ -1636,8 +1636,8 @@ ITEM {
     icon = '__pyraworesgraphics__/graphics/icons/uranium-fuel-cell-mk02.png',
     icon_size = 32,
     fuel_category = 'nuclear',
-    burnt_result = 'used-up-uranium-fuel-cell',
-    fuel_value = '10GJ',
+    burnt_result = 'used-up-uranium-fuel-cell-mk02',
+    fuel_value = '8GJ',
     fuel_glow_color = {0,0,1,1},
     flags = {},
     subgroup = 'py-rawores-items',
@@ -1651,8 +1651,8 @@ ITEM {
     icon = '__pyraworesgraphics__/graphics/icons/uranium-fuel-cell-mk03.png',
     icon_size = 32,
     fuel_category = 'nuclear',
-    burnt_result = 'used-up-uranium-fuel-cell',
-    fuel_value = '15GJ',
+    burnt_result = 'used-up-uranium-fuel-cell-mk03',
+    fuel_value = '16GJ',
     fuel_glow_color = {1,1,0,1},
     flags = {},
     subgroup = 'py-rawores-items',
@@ -1666,8 +1666,8 @@ ITEM {
     icon = '__pyraworesgraphics__/graphics/icons/uranium-fuel-cell-mk04.png',
     icon_size = 32,
     fuel_category = 'nuclear',
-    burnt_result = 'used-up-uranium-fuel-cell',
-    fuel_value = '20GJ',
+    burnt_result = 'used-up-uranium-fuel-cell-mk04',
+    fuel_value = '24GJ',
     fuel_glow_color = {1,0.5,0,1},
     flags = {},
     subgroup = 'py-rawores-items',
@@ -1681,14 +1681,54 @@ ITEM {
     icon = '__pyraworesgraphics__/graphics/icons/uranium-fuel-cell-mk05.png',
     icon_size = 32,
     fuel_category = 'nuclear',
-    burnt_result = 'used-up-uranium-fuel-cell',
-    fuel_value = '25GJ',
+    burnt_result = 'used-up-uranium-fuel-cell-mk05',
+    fuel_value = '32GJ',
     fuel_glow_color = {1,0,0,1},
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'cad',
     stack_size = 50
 }
+
+ITEM {
+    type = "item",
+    name = "used-up-uranium-fuel-cell-mk02",
+    icon = "__pyraworesgraphics__/graphics/icons/used-up-uranium-fuel-cell-mk02.png",
+    icon_size = 64,
+    subgroup = 'py-rawores-items',
+    order = 'caf',
+    stack_size = 50
+  }
+
+ITEM {
+    type = "item",
+    name = "used-up-uranium-fuel-cell-mk03",
+    icon = "__pyraworesgraphics__/graphics/icons/used-up-uranium-fuel-cell-mk03.png",
+    icon_size = 64,
+    subgroup = 'py-rawores-items',
+    order = 'cag',
+    stack_size = 50
+  }
+
+ITEM {
+    type = "item",
+    name = "used-up-uranium-fuel-cell-mk04",
+    icon = "__pyraworesgraphics__/graphics/icons/used-up-uranium-fuel-cell-mk04.png",
+    icon_size = 64,
+    subgroup = 'py-rawores-items',
+    order = 'cah',
+    stack_size = 50
+  }
+
+  ITEM {
+    type = "item",
+    name = "used-up-uranium-fuel-cell-mk05",
+    icon = "__pyraworesgraphics__/graphics/icons/used-up-uranium-fuel-cell-mk05.png",
+    icon_size = 64,
+    subgroup = 'py-rawores-items',
+    order = 'cai',
+    stack_size = 50
+  }
 
 --ZINC
 

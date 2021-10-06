@@ -1,2 +1,10 @@
 update concrete
  add graphene to reenforced concrete when pyht is active
+
+move electronics extra recipe to pycoalprocessing.
+    - add crashed assemblers to starting wreck and make the basic recipe hand crafting + crashed assembler only
+    - remove solder/ tinned cable from electronic-circuit 02 recipe and add it back when pyro is active
+    - readd electronics tech to the tech tree with approperate connections
+
+
+add unlocks for mk02-mk04 fawoage plantation, ralesia farm and ulric corral.
