@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/lead-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {--[['machines-mk02',]]'lead-mk01','coal-processing-2'},
+    prerequisites = {--[['machines-mk02','lead-mk01','coal-processing-2']]},
     effects = {},
     unit = {
         count = 100,

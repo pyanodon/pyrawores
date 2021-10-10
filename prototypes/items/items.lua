@@ -1694,7 +1694,7 @@ ITEM {
     type = "item",
     name = "used-up-uranium-fuel-cell-mk02",
     icon = "__pyraworesgraphics__/graphics/icons/used-up-uranium-fuel-cell-mk02.png",
-    icon_size = 64,
+    icon_size = 32,
     subgroup = 'py-rawores-items',
     order = 'caf',
     stack_size = 50
@@ -1704,7 +1704,7 @@ ITEM {
     type = "item",
     name = "used-up-uranium-fuel-cell-mk03",
     icon = "__pyraworesgraphics__/graphics/icons/used-up-uranium-fuel-cell-mk03.png",
-    icon_size = 64,
+    icon_size = 32,
     subgroup = 'py-rawores-items',
     order = 'cag',
     stack_size = 50
@@ -1714,7 +1714,7 @@ ITEM {
     type = "item",
     name = "used-up-uranium-fuel-cell-mk04",
     icon = "__pyraworesgraphics__/graphics/icons/used-up-uranium-fuel-cell-mk04.png",
-    icon_size = 64,
+    icon_size = 32,
     subgroup = 'py-rawores-items',
     order = 'cah',
     stack_size = 50
@@ -1724,7 +1724,7 @@ ITEM {
     type = "item",
     name = "used-up-uranium-fuel-cell-mk05",
     icon = "__pyraworesgraphics__/graphics/icons/used-up-uranium-fuel-cell-mk05.png",
-    icon_size = 64,
+    icon_size = 32,
     subgroup = 'py-rawores-items',
     order = 'cai',
     stack_size = 50
