@@ -28,6 +28,7 @@ RECIPE('sand-classification'):remove_unlock('chromium'):add_unlock("chromium-mk0
 
 
 --NEXELIT
+RECIPE("tailings-copper-iron"):set_fields{enabled = true}
 
 RECIPE("sand-casting"):remove_unlock('nexelit'):add_unlock('machines-mk01')
 

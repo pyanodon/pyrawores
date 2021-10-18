@@ -409,7 +409,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk02"):add_ingredient({type = 'item', name = 'molybdenum-plate', amount = 5}):change_category('nmf')
+}:add_unlock("machines-mk02")
 
 RECIPE {
     type = 'recipe',

@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/machines-mk02.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'nexelit-mk01', 'lead-mk01', --[['advanced-electronics',]] 'aluminium-mk01', 'iron-mk02', 'concrete', 'engine'},
+    prerequisites = {'nexelit-mk01', 'lead-mk01','advanced-electronics', 'aluminium-mk01', 'iron-mk02', 'concrete', 'engine'},
     effects = {},
     unit = {
         count = 100,

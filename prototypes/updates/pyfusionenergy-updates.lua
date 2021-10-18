@@ -1,6 +1,6 @@
 TECHNOLOGY("helium-processing"):remove_pack("production-science-pack")
 TECHNOLOGY("advanced-mining-facilities"):remove_pack("chemical-science-pack"):remove_prereq("diamond-mining"):add_prereq("iron-mk02")
-TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_prereq("advanced-mining-facilities"):remove_prereq("fusion-mk01"):add_prereq("iron-mk02")
+TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_pack('production-science-pack'):remove_prereq('production-science-pack'):add_prereq("machines-mk02")
 
 RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):add_unlock("machines-mk01")
 RECIPE("acidgas-2"):remove_unlock("regolite-mining"):add_unlock("machines-mk02")
@@ -11,6 +11,9 @@ RECIPE("pressured-air"):set_fields {energy_required = 1}
 ITEM("molybdenum-plate").stack_size = 500
 
 --RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('coal-processing-1')
+
+RECIPE("aramid"):add_ingredient({type = 'item', name = 'molybdenum-plate', amount = 5}):change_category('nmf')
+
 
 RECIPE("steam-heating"):remove_ingredient("fuelrod-mk01"):add_ingredient({type = "item", name = "fuelrod-mk01", amount = 1})
 RECIPE("hydrocyclone-mk01"):replace_ingredient("centrifuge", "classifier")
@@ -243,7 +246,7 @@ RECIPE("sinter-unit"):add_ingredient({type = "item", name = "super-alloy", amoun
 
 RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
 
---RECIPE('acetylene'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1'):change_category('gasifier')
+RECIPE('acetylene'):remove_unlock('filtration-2'):set_fields{enabled = true}:change_category('gasifier')
 
 data.raw.resource["ore-titanium"].minable.required_fluid = "acetylene"
 data.raw.resource["quartz-rock"].minable.required_fluid = "acetylene"
