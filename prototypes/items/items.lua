@@ -1573,7 +1573,7 @@ ITEM {
 ITEM {
     type = 'item',
     name = 'fuelrod-mk02',
-    icon = '__pyraworesgraphics__/graphics/icons/fuel-rod-mk02.png',
+    icon = '__pyraworesgraphics__/graphics/icons/fuelrod-mk02.png',
     icon_size = 32,
     fuel_category = 'chemical',
     fuel_value = '125MJ',
