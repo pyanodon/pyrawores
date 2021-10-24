@@ -38,6 +38,10 @@ RECIPE("electronic-circuit"):set_fields {energy_required = 4}
 RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "solder", amount = 4})
 RECIPE("processing-unit"):add_ingredient({type = "item", name = "solder", amount = 6})
 
+RECIPE('guar-gum-plantation'):add_ingredient({type = "item", name = "duralumin", amount = 50})
+RECIPE('guar-gum-plantation-mk02'):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+RECIPE('guar-gum-plantation-mk03'):replace_ingredient("steel-plate", "super-steel")
+
 RECIPE("nexelit-plate"):remove_unlock("nexelit")
 RECIPE("steel-plate2"):remove_unlock("coal-processing-3")
 
