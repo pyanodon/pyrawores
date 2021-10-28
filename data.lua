@@ -290,7 +290,11 @@ require("prototypes/fluids/zinc-waste")
 require("prototypes/fluids/molten-zinc")
 require("prototypes/fluids/molten-solder")
 
+--Pycoal fluids
 require("__pycoalprocessing__/prototypes/fluids/diesel")
+
+--pyfusion fluids
+require("__pyfusionenergy__/prototypes/fluids/liquid-nitrogen")
 
 --(( OTHERS ))--
 
