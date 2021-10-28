@@ -294,7 +294,9 @@ require("prototypes/fluids/molten-solder")
 require("__pycoalprocessing__/prototypes/fluids/diesel")
 
 --pyfusion fluids
+if mods["pyfusionenergy"] then
 require("__pyfusionenergy__/prototypes/fluids/liquid-nitrogen")
+end
 
 --(( OTHERS ))--
 
