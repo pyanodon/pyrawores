@@ -96,7 +96,7 @@ RECIPE("boron"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amou
 RECIPE("blanket"):add_ingredient({type = "item", name = "nexelit-plate", amount = 10})
 RECIPE("blanket"):add_ingredient({type = "item", name = "lead-plate", amount = 40})
 RECIPE("blanket"):add_ingredient({type = "item", name = "super-steel", amount = 40})
-RECIPE("lead-container"):replace_ingredient("iron-plate", "lead-plate")
+RECIPE("lead-container"):replace_ingredient("iron-plate", "lead-plate"):add_ingredient({type = "item", name = "aramid", amount = 3})
 RECIPE("science-coating"):replace_ingredient("steel-plate", "titanium-plate")
 RECIPE("agzn-alloy"):replace_ingredient("iron-plate", "silver-plate"):replace_ingredient("stone", "zinc-plate"):change_category('py-rawores-smelter')
 RECIPE("silver-foam"):replace_ingredient("water", "hydrogen-chloride")
@@ -477,7 +477,8 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 50},
         {type = "fluid", name = "molten-steel", amount = 50},
         {type = "fluid", name = "niobium-complex", amount = 50},
-        {type = "item", name = "sand-casting", amount = 5}
+        {type = "item", name = "sand-casting", amount = 5},
+        {type = "item", name = "aramid", amount = 2},
     },
     results = {
         {type = "item", name = "lead-container", amount = 3}
