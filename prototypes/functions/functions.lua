@@ -956,8 +956,6 @@ function composite_molten_icon(base_prototype, child_prototype, shadow_alpha)
     shadow_alpha = shadow_alpha or 0.6
     base_prototype = data.raw.fluid[base_prototype] or data.raw.item[base_prototype]
     child_prototype = data.raw.fluid[child_prototype] or data.raw.item[child_prototype]
-    local child_path = child_prototype.icon
-    local child_size = child_prototype.icon_size
     return {
         {
             icon = base_prototype.icon,
