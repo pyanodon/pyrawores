@@ -110,28 +110,6 @@ require("prototypes/buildings/smelter-mk02")
 require("prototypes/buildings/smelter-mk03")
 require("prototypes/buildings/smelter-mk04")
 
---(( RECIPES ))--
-require("prototypes/recipes/recipes")
-require("prototypes/recipes/recipes-quartz")
-require("prototypes/recipes/recipes-aluminium")
-require("prototypes/recipes/recipes-chromium")
-require("prototypes/recipes/recipes-copper")
-require("prototypes/recipes/recipes-iron")
-require("prototypes/recipes/recipes-gold")
-require("prototypes/recipes/recipes-coke")
-require("prototypes/recipes/recipes-coal")
-require("prototypes/recipes/recipes-lead")
-require("prototypes/recipes/recipes-silver")
-require("prototypes/recipes/recipes-nexelit")
-require("prototypes/recipes/recipes-nickel")
-require("prototypes/recipes/recipes-steel")
-require("prototypes/recipes/recipes-tin")
-require("prototypes/recipes/recipes-titanium")
-require("prototypes/recipes/recipes-uranium")
-require("prototypes/recipes/recipes-zinc")
-require("prototypes/recipes/recipes-casting")
-require("prototypes/recipes/recipes-solder")
-
 --(( FLUIDs ))--
 require("prototypes/fluids/quartz-pulp-01")
 require("prototypes/fluids/quartz-pulp-02")
@@ -297,6 +275,28 @@ require("__pycoalprocessing__/prototypes/fluids/diesel")
 if mods["pyfusionenergy"] then
 require("__pyfusionenergy__/prototypes/fluids/liquid-nitrogen")
 end
+
+--(( RECIPES ))--
+require("prototypes/recipes/recipes")
+require("prototypes/recipes/recipes-quartz")
+require("prototypes/recipes/recipes-aluminium")
+require("prototypes/recipes/recipes-chromium")
+require("prototypes/recipes/recipes-copper")
+require("prototypes/recipes/recipes-iron")
+require("prototypes/recipes/recipes-gold")
+require("prototypes/recipes/recipes-coke")
+require("prototypes/recipes/recipes-coal")
+require("prototypes/recipes/recipes-lead")
+require("prototypes/recipes/recipes-silver")
+require("prototypes/recipes/recipes-nexelit")
+require("prototypes/recipes/recipes-nickel")
+require("prototypes/recipes/recipes-steel")
+require("prototypes/recipes/recipes-tin")
+require("prototypes/recipes/recipes-titanium")
+require("prototypes/recipes/recipes-uranium")
+require("prototypes/recipes/recipes-zinc")
+require("prototypes/recipes/recipes-casting")
+require("prototypes/recipes/recipes-solder")
 
 --(( OTHERS ))--
 
