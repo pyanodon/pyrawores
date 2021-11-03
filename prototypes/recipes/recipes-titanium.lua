@@ -240,6 +240,26 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 40}
     },
     main_product = "molten-titanium",
+    icons = {
+        {
+            icon = data.raw.fluid["molten-titanium"].icon,
+            icon_size = data.raw.fluid["molten-titanium"].icon_size
+        },
+        { -- Shadow
+            icon = data.raw.item["ti-enriched-dust"].icon,
+            icon_size = data.raw.item["ti-enriched-dust"].icon_size,
+            scale = 0.65,
+            shift = {10, 10},
+            tint = {r = 0, g = 0, b = 0, a = 0.6}
+        },
+        { -- Ingredient icon
+            icon = data.raw.item["ti-enriched-dust"].icon,
+            icon_size = data.raw.item["ti-enriched-dust"].icon_size,
+            scale = 0.5,
+            shift = {10, 10},
+            tint = {r = 1, g = 1, b = 1, a = 1}
+        }
+    },
     subgroup = "py-rawores-titanium",
     order = "bae"
 }:add_unlock("titanium-mk02")
@@ -259,6 +279,26 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 510}
     },
     main_product = "molten-titanium",
+    icons = {
+        {
+            icon = data.raw.fluid["molten-titanium"].icon,
+            icon_size = data.raw.fluid["molten-titanium"].icon_size
+        },
+        { -- Shadow
+            icon = data.raw.item["concentrated-ti"].icon,
+            icon_size = data.raw.item["concentrated-ti"].icon_size,
+            scale = 0.65,
+            shift = {10, 10},
+            tint = {r = 0, g = 0, b = 0, a = 0.6}
+        },
+        { -- Ingredient icon
+            icon = data.raw.item["concentrated-ti"].icon,
+            icon_size = data.raw.item["concentrated-ti"].icon_size,
+            scale = 0.5,
+            shift = {10, 10},
+            tint = {r = 1, g = 1, b = 1, a = 1}
+        }
+    },
     subgroup = "py-rawores-titanium",
     order = "bac"
 }:add_unlock("titanium-mk02")
@@ -278,6 +318,26 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 600}
     },
     main_product = "molten-titanium",
+    icons = {
+        {
+            icon = data.raw.fluid["molten-titanium"].icon,
+            icon_size = data.raw.fluid["molten-titanium"].icon_size
+        },
+        { -- Shadow
+            icon = data.raw.item["high-grade-ti"].icon,
+            icon_size = data.raw.item["high-grade-ti"].icon_size,
+            scale = 0.65,
+            shift = {10, 10},
+            tint = {r = 0, g = 0, b = 0, a = 0.6}
+        },
+        { -- Ingredient icon
+            icon = data.raw.item["high-grade-ti"].icon,
+            icon_size = data.raw.item["high-grade-ti"].icon_size,
+            scale = 0.5,
+            shift = {10, 10},
+            tint = {r = 1, g = 1, b = 1, a = 1}
+        }
+    },
     subgroup = "py-rawores-titanium",
     order = "bab"
 }:add_unlock("titanium-mk03")
@@ -297,6 +357,26 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 650}
     },
     main_product = "molten-titanium",
+    icons = {
+        {
+            icon = data.raw.fluid["molten-titanium"].icon,
+            icon_size = data.raw.fluid["molten-titanium"].icon_size
+        },
+        { -- Shadow
+            icon = data.raw.item["reduced-ti"].icon,
+            icon_size = data.raw.item["reduced-ti"].icon_size,
+            scale = 0.65,
+            shift = {10, 10},
+            tint = {r = 0, g = 0, b = 0, a = 0.6}
+        },
+        { -- Ingredient icon
+            icon = data.raw.item["reduced-ti"].icon,
+            icon_size = data.raw.item["reduced-ti"].icon_size,
+            scale = 0.5,
+            shift = {10, 10},
+            tint = {r = 1, g = 1, b = 1, a = 1}
+        }
+    },
     subgroup = "py-rawores-titanium",
     order = "baa"
 }:add_unlock("titanium-mk04")
@@ -316,6 +396,26 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 400}
     },
     main_product = "molten-titanium",
+    icons = {
+        {
+            icon = data.raw.fluid["molten-titanium"].icon,
+            icon_size = data.raw.fluid["molten-titanium"].icon_size
+        },
+        { -- Shadow
+            icon = data.raw.item["sintered-ti"].icon,
+            icon_size = data.raw.item["sintered-ti"].icon_size,
+            scale = 0.65,
+            shift = {10, 10},
+            tint = {r = 0, g = 0, b = 0, a = 0.6}
+        },
+        { -- Ingredient icon
+            icon = data.raw.item["sintered-ti"].icon,
+            icon_size = data.raw.item["sintered-ti"].icon_size,
+            scale = 0.5,
+            shift = {10, 10},
+            tint = {r = 1, g = 1, b = 1, a = 1}
+        }
+    },
     subgroup = "py-rawores-titanium",
     order = "bad"
 }:add_unlock("titanium-mk04")
