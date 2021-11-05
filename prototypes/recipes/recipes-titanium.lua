@@ -225,6 +225,7 @@ RECIPE {
 
 --MOLTEN VERSION
 
+
 RECIPE {
     type = "recipe",
     name = "molten-titanium-01",
@@ -240,6 +241,7 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 40}
     },
     main_product = "molten-titanium",
+    icons = composite_molten_icon("molten-titanium", "ti-enriched-dust"),
     subgroup = "py-rawores-titanium",
     order = "bae"
 }:add_unlock("titanium-mk02")
@@ -259,6 +261,7 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 510}
     },
     main_product = "molten-titanium",
+    icons = composite_molten_icon("molten-titanium", "concentrated-ti"),
     subgroup = "py-rawores-titanium",
     order = "bac"
 }:add_unlock("titanium-mk02")
@@ -278,6 +281,7 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 600}
     },
     main_product = "molten-titanium",
+    icons = composite_molten_icon("molten-titanium", "high-grade-ti"),
     subgroup = "py-rawores-titanium",
     order = "bab"
 }:add_unlock("titanium-mk03")
@@ -297,6 +301,7 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 650}
     },
     main_product = "molten-titanium",
+    icons = composite_molten_icon("molten-titanium", "reduced-ti"),
     subgroup = "py-rawores-titanium",
     order = "baa"
 }:add_unlock("titanium-mk04")
@@ -316,6 +321,7 @@ RECIPE {
         {type = "fluid", name = "molten-titanium", amount = 400}
     },
     main_product = "molten-titanium",
+    icons = composite_molten_icon("molten-titanium", "sintered-ti"),
     subgroup = "py-rawores-titanium",
     order = "bad"
 }:add_unlock("titanium-mk04")

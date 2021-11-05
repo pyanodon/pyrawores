@@ -951,4 +951,34 @@ function overrides.tech_add_prerequisites(tech, prereq)
     end
 end
 
+-- Takes two prototype names (both must use the style of IconSpecification with icon = string_path), returns an IconSpecification with the icons as composites
+function composite_molten_icon(base_prototype, child_prototype, shadow_alpha)
+    shadow_alpha = shadow_alpha or 0.6
+    base_prototype = data.raw.fluid[base_prototype] or data.raw.item[base_prototype]
+    child_prototype = data.raw.fluid[child_prototype] or data.raw.item[child_prototype]
+    return {
+        {
+            icon = base_prototype.icon,
+            icon_size = base_prototype.icon_size,
+            icon_mipmaps = base_prototype.icon_mipmaps
+        },
+        {
+            icon = child_prototype.icon,
+            icon_size = child_prototype.icon_size,
+            icon_mipmaps = base_prototype.icon_mipmaps,
+            shift = {10, 10},
+            scale = 0.65,
+            tint = {r = 0, g = 0, b = 0, a = shadow_alpha}
+        },
+        {
+            icon = child_prototype.icon,
+            icon_size = child_prototype.icon_size,
+            icon_mipmaps = base_prototype.icon_mipmaps,
+            shift = {10, 10},
+            scale = 0.5,
+            tint = {r = 1, g = 1, b = 1, a = 1}
+        },
+    }
+end
+
 return overrides
