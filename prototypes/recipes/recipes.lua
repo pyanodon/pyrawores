@@ -73,7 +73,7 @@ RECIPE {
     },
     --main_product= "starch",
     icon = "__pycoalprocessinggraphics__/graphics/icons/water-saline.png",
-    icon_size = 32,
+    icon_size = 64,
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("machines-mk01")
