@@ -113,7 +113,7 @@ RECIPE("hydrogen-peroxide"):replace_ingredient("iron-plate", "nickel-plate")
 RECIPE("cladding"):remove_ingredient("molten-glass"):add_ingredient({type = "item", name = "glass", amount = 5})
 --RECIPE("aromatics-to-rubber"):replace_ingredient("plastic-bar", "rubber")
 RECIPE("nas-battery"):replace_ingredient("copper-ore", "sodium-hydroxide")
-RECIPE("nas-battery"):add_ingredient({type = "item", name = "lead-plate", amount = 2})
+RECIPE("nas-battery"):add_ingredient({type = "item", name = "lead-plate", amount = 6})
 
 
 RECIPE("optical-fiber"):remove_ingredient("plastic-bar"):add_ingredient({type = "item", name = "plastic-bar", amount = 5})

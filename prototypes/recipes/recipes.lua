@@ -328,7 +328,7 @@ RECIPE {
         {type = "fluid", name = "sulfuric-acid", amount = 50},
     },
     results = {
-        {type = "item", name = "battery", amount = 2}
+        {type = "item", name = "battery", amount = 3}
     },
     subgroup = "py-rawores-recipes",
     order = "j"
@@ -347,7 +347,7 @@ RECIPE {
         {type = "fluid", name = "sulfuric-acid", amount = 50},
     },
     results = {
-        {type = "item", name = "battery", amount = 2}
+        {type = "item", name = "battery", amount = 4}
     },
     subgroup = "py-rawores-recipes",
     order = "j"
