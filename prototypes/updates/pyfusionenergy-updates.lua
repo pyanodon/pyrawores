@@ -487,3 +487,5 @@ RECIPE {
     subgroup = "py-rawores-casting",
     order = "ec"
 }:add_unlock("machines-mk03")
+
+RECIPE("cool-air"):replace_ingredient("pressured-air", {type = "fluid", name = "liquid-nitrogen", amount = 45}):add_result({type = "fluid", name = "nitrogen", amount = 450})
