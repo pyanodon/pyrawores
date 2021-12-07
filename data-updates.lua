@@ -67,7 +67,7 @@ RECIPE("small-lamp"):add_ingredient({type = "item", name = "glass", amount = 2})
 RECIPE("military-science-pack"):add_ingredient({type = "item", name = "lead-plate", amount = 20}):replace_ingredient("grenade", "aluminium-plate")
 
 RECIPE("laser-turret"):replace_ingredient("steel-plate", "duralumin")
-RECIPE("engine-unit"):replace_ingredient("steel-plate", "aluminium-plate")
+RECIPE("engine-unit"):remove_ingredient("steel-plate"):add_ingredient({type = "item", name = "aluminium-plate", amount = 5})
 RECIPE("electric-engine-unit"):add_ingredient({type = "item", name = "duralumin", amount = 5})
 RECIPE("utility-science-pack"):add_ingredient({type = "item", name = "super-steel", amount = 6})
 RECIPE("pumpjack"):add_ingredient({type = "item", name = "duralumin", amount = 10}):replace_ingredient("pipe", "niobium-pipe")
