@@ -200,7 +200,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "fluid", name = "molten-steel", amount = 50},
+        {type = "fluid", name = "molten-aluminium", amount = 50},
         {type = "item", name = "duralumin", amount = 3},
         {type = "item", name = "sand-casting", amount = 5}
     },
@@ -210,7 +210,7 @@ RECIPE {
     main_product = 'engine-unit',
     subgroup = "py-rawores-casting",
     order = "e"
-}:add_unlock("iron-mk03")
+}:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "belt", amount = 5})
 
 RECIPE {
     type = "recipe",
