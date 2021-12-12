@@ -59,7 +59,7 @@ RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "optical-fiber"
 
 RECIPE("cladded-core"):add_ingredient({type = "item", name = "aramid", amount = 1})
 
-TECHNOLOGY('fine-electronics'):add_prereq('iron-mk02'):add_prereq('lead-mk02')
+TECHNOLOGY('fine-electronics'):add_prereq('iron-mk01'):add_prereq('lead-mk01')
 
 --RECIPES
 
