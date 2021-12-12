@@ -19,7 +19,7 @@ TECHNOLOGY("nexelit"):set_fields{enabled = false}
 
 TECHNOLOGY('chromium'):set_fields{enabled = false}
 
-TECHNOLOGY("coal-processing-2"):remove_prereq('chromium'):add_prereq('chromium-mk02')
+TECHNOLOGY("coal-processing-2"):remove_prereq('chromium'):add_prereq('chromium-mk01')
 
 RECIPE('making-chromium'):remove_unlock('chromium')
 RECIPE('nichrome'):remove_unlock('chromium'):add_unlock("chromium-mk01")
