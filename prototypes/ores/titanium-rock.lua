@@ -32,8 +32,8 @@ DATA {
         }
     },
     resource_patch_search_radius = 12,
-    collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
-    selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
+    collision_box = {{-11.45, -11.45}, {11.45, 11.45}},
+    selection_box = {{-11.5, -11.5}, {11.5, 11.5}},
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
     autoplace = resource_autoplace.resource_autoplace_settings {
@@ -55,8 +55,8 @@ DATA {
         sheet = {
             filename = "__pyraworesgraphics__/graphics/entity/ores/titanium/titanium-mine-place.png",
             priority = "extra-high",
-            width = 416,
-            height = 416,
+            width = 736,
+            height = 672,
             frame_count = 1,
             variation_count = 1,
             shift = util.by_pixel(0, 0)

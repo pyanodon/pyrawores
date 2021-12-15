@@ -9,7 +9,7 @@ RECIPE {
         {"stainless-steel", 50},
         {"nexelit-plate", 50},
         {"titanium-plate", 50},
-        {"advanced-circuit", 30} --add mo plates, vanadium
+        {"advanced-circuit", 30}
     },
     results = {
         {"titanium-mine", 1}
@@ -40,12 +40,12 @@ ENTITY {
     resource_categories = {"titanium-rock"},
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
-    collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
-    selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
+    collision_box = {{-11.3, -11.3}, {11.3, 11.3}},
+    selection_box = {{-11.5, -11.5}, {11.5, 11.5}},
     module_specification = {
         module_slots = 1
     },
-    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+    allowed_effects = {"consumption", "productivity", "pollution"},
     mining_speed = 20,
     energy_source =
     {
@@ -58,7 +58,7 @@ ENTITY {
     energy_usage = "2500kW",
     mining_power = 6,
     resource_searching_radius = 0.49,
-    vector_to_place_result = {0, -6.65},
+    vector_to_place_result = {0, -11.65},
     radius_visualisation_picture = {
         filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-radius-visualization.png",
         width = 12,
@@ -67,121 +67,167 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/cover.png",
+                width = 736,
+                height = 672,
+                frame_count = 1,
+                line_length = 1,
+                repeat_count = 200,
+                animation_speed = 0.2,
+                shift = util.by_pixel(-0, 0)
+            },
+            {
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/1.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
+                animation_speed = 0.2,
+                shift = util.by_pixel(-224, 0)
+            },
+            {
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/2.png",
+                width = 32,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(-192, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/3.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(-160, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/4.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(-128, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/5.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(-96, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a5.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/6.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(-64, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a6.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/7.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(-32, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a7.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/8.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(0, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a8.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/9.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(32, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a9.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/10.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(64, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a10.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/11.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(96, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a11.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/12.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(128, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a12.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/13.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(160, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/a13.png",
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/14.png",
                 width = 32,
-                height = 416,
-                line_length = 50,
-                frame_count = 199,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
                 animation_speed = 0.2,
                 shift = util.by_pixel(192, 0)
+            },
+            {
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/15.png",
+                width = 32,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
+                animation_speed = 0.2,
+                shift = util.by_pixel(224, 0)
+            },
+            {
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/16.png",
+                width = 32,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
+                animation_speed = 0.2,
+                shift = util.by_pixel(256, 0)
+            },
+            {
+                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/17.png",
+                width = 32,
+                height = 480,
+                line_length = 64,
+                frame_count = 200,
+                animation_speed = 0.2,
+                shift = util.by_pixel(288, 0)
             },
         }
     },
