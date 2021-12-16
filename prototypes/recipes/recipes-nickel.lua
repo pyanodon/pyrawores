@@ -308,7 +308,7 @@ RECIPE {
     type = "recipe",
     name = "nickel-plate-1",
     category = "smelting",
-    enabled = true,
+    enabled = false,
     energy_required = 15,
     ingredients = {
         {type = "item", name = "ore-nickel", amount = 10}
@@ -318,7 +318,7 @@ RECIPE {
     },
     subgroup = "py-rawores-nickel",
     order = "aac"
-}
+}:add_unlock("nickel-mk01")
 
 --PLATES
 

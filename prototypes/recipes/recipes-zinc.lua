@@ -304,7 +304,7 @@ RECIPE {
     type = "recipe",
     name = "zinc-plate-1",
     category = "smelting",
-    enabled = true,
+    enabled = false,
     energy_required = 60,
     ingredients = {
         {type = "item", name = "ore-zinc", amount = 40}
@@ -314,7 +314,7 @@ RECIPE {
     },
     subgroup = "py-rawores-zinc",
     order = "aad"
-}
+}:add_unlock("zinc-mk01")
 
 --PLATES
 

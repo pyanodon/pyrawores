@@ -69,7 +69,7 @@ RECIPE("military-science-pack"):add_ingredient({type = "item", name = "lead-plat
 RECIPE("laser-turret"):replace_ingredient("steel-plate", "duralumin")
 RECIPE("engine-unit"):remove_ingredient("steel-plate"):add_ingredient({type = "item", name = "aluminium-plate", amount = 5})
 RECIPE("electric-engine-unit"):add_ingredient({type = "item", name = "duralumin", amount = 5})
-RECIPE("utility-science-pack"):add_ingredient({type = "item", name = "super-steel", amount = 6})
+RECIPE("utility-science-pack"):add_ingredient({type = "item", name = "super-steel", amount = 6}):replace_ingredient("copper-cable", "tinned-cable"):replace_ingredient("nuclear-fuel", "uranium-fuel-cell-mk03")
 RECIPE("pumpjack"):add_ingredient({type = "item", name = "duralumin", amount = 10}):replace_ingredient("pipe", "niobium-pipe")
 
 RECIPE("battery"):replace_ingredient("iron-plate", "zinc-plate")
@@ -98,7 +98,6 @@ RECIPE("steam-turbine"):add_ingredient({type = "item", name = "super-steel", amo
 RECIPE("solar-panel"):add_ingredient({type = "item", name = "pyrite", amount = 5})
 
 RECIPE("advanced-circuit"):replace_ingredient("copper-cable", "tinned-cable")
-RECIPE("utility-science-pack"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("red-wire"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("green-wire"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("beacon"):replace_ingredient("copper-cable", "tinned-cable")

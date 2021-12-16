@@ -313,7 +313,7 @@ RECIPE {
     type = "recipe",
     name = "lead-plate-1",
     category = "smelting",
-    enabled = true,
+    enabled = false,
     energy_required = 10,
     ingredients = {
         {type = "item", name = "ore-lead", amount = 6}
@@ -323,7 +323,7 @@ RECIPE {
     },
     subgroup = "py-rawores-lead",
     order = "aac"
-}
+}:add_unlock("lead-mk01")
 
 --PLATES
 

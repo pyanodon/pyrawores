@@ -28,7 +28,7 @@ RECIPE('sand-classification'):remove_unlock('chromium'):add_unlock("chromium-mk0
 
 
 --NEXELIT
-RECIPE("tailings-copper-iron"):set_fields{enabled = true}
+RECIPE("tailings-copper-iron"):remove_unlock('machine-mk01')
 
 RECIPE("sand-casting"):remove_unlock('nexelit'):add_unlock('machines-mk01')
 
@@ -39,7 +39,7 @@ RECIPE("concrete-richclay"):remove_unlock('concrete')
 TECHNOLOGY("engine"):remove_prereq('logistic-science-pack')
 --TECHNOLOGY("machines-mk01"):add_prereq('concrete')
 
-RECIPE("quenching-tower"):add_unlock('machines-mk01')
+RECIPE("quenching-tower"):remove_unlock('fluid-separation'):add_unlock('machines-mk01')
 
 RECIPE('nexelit-ore-1'):remove_unlock('chemical-science-pack')
 RECIPE('nexelit-plate'):remove_unlock('chemical-science-pack')

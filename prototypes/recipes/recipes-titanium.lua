@@ -352,7 +352,7 @@ RECIPE {
     type = "recipe",
     name = "titanium-plate-1",
     category = "smelting",
-    enabled = true,
+    enabled = false,
     energy_required = 60,
     ingredients = {
         {type = "item", name = "ore-titanium", amount = 40}
@@ -363,7 +363,7 @@ RECIPE {
     main_product = "titanium-plate",
     subgroup = "py-rawores-titanium",
     order = "aad"
-}
+}:add_unlock("titanium-mk01")
 
 --PLATES
 

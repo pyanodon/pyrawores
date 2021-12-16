@@ -320,7 +320,7 @@ RECIPE {
     type = "recipe",
     name = "nexelit-plate-1",
     category = "smelting",
-    enabled = true,
+    enabled = false,
     energy_required = 10,
     ingredients = {
         {type = "item", name = "nexelit-ore", amount = 30}
@@ -330,7 +330,7 @@ RECIPE {
     },
     subgroup = "py-rawores-nexelit",
     order = "aab"
-}
+}:add_unlock("nexelit-mk01")
 
 --PLATES
 

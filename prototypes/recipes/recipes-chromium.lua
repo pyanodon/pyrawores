@@ -373,7 +373,7 @@ RECIPE {
     type = "recipe",
     name = "chromium-plate-1",
     category = "smelting",
-    enabled = true,
+    enabled = false,
     energy_required = 25,
     ingredients = {
         {type = "item", name = "ore-chromium", amount = 10}
@@ -385,4 +385,4 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-chromium",
     order = "aac"
-}
+}:add_unlock("chromium-mk01")
