@@ -365,6 +365,25 @@ RECIPE {
 }:add_unlock("machines-mk02")
 
 RECIPE {
+    type = 'recipe',
+    name = 'fiberboard-3',
+    category = 'pulp',
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = 'item', name = 'treated-wood', amount = 5},
+        {type = 'item', name = 'fiber', amount = 5},
+        {type = "item", name = "sodium-sulfate", amount = 1},
+        {type = "item", name = "sodium-hydroxide", amount = 5},
+        {type = 'fluid', name = 'steam', amount = 500},
+        {type = 'fluid', name = 'anthraquinone', amount = 50},
+    },
+    results = {
+        {type = 'item', name = 'fiberboard', amount = 12},
+    },
+}:add_unlock('fiberboard')
+
+RECIPE {
     type = "recipe",
     name = "biofilm-pyht",
     category = "nano",
