@@ -214,7 +214,7 @@ RECIPE {
     },
     main_product = "high-tin-mix",
     subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk04")
+}:add_unlock("tin-mk03")
 
 RECIPE {
     type = "recipe",
@@ -231,7 +231,7 @@ RECIPE {
     },
     main_product = "high-grade-tin",
     subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk04")
+}:add_unlock("tin-mk03")
 
 
 --SINTER and DRP IMPROVEMENTS
@@ -272,7 +272,7 @@ RECIPE {
     },
     main_product = "sintered-tin",
     subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("tin-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
 
@@ -294,41 +294,41 @@ RECIPE {
     order = "baf"
 }:add_unlock("tin-mk02")
 
-RECIPE {
-    type = "recipe",
-    name = "molten-tin-02",
-    category = "eaf",
-    enabled = false,
-    energy_required = 8,
-    ingredients = {
-        {type = "item", name = "tin-concentrate", amount = 3},
-        {type = "item", name = "borax", amount = 3},
-    },
-    results = {
-        {type = "fluid", name = "molten-tin", amount = 150},
-    },
-    main_product = "molten-tin",
-    subgroup = "py-rawores-tin",
-    order = "bac"
-}:add_unlock("tin-mk03")
+-- RECIPE {
+--     type = "recipe",
+--     name = "molten-tin-02",
+--     category = "eaf",
+--     enabled = false,
+--     energy_required = 8,
+--     ingredients = {
+--         {type = "item", name = "tin-concentrate", amount = 3},
+--         {type = "item", name = "borax", amount = 3},
+--     },
+--     results = {
+--         {type = "fluid", name = "molten-tin", amount = 150},
+--     },
+--     main_product = "molten-tin",
+--     subgroup = "py-rawores-tin",
+--     order = "bac"
+-- }:add_unlock("tin-mk03")
 
-RECIPE {
-    type = "recipe",
-    name = "molten-tin-02-2",
-    category = "eaf",
-    enabled = false,
-    energy_required = 4,
-    ingredients = {
-         {type = "item", name = "borax", amount = 10},
-         {type = "item", name = "high-tin-concentrate", amount = 5},
-    },
-    results = {
-        {type = "fluid", name = "molten-tin", amount = 200},
-    },
-    main_product = "molten-tin",
-    subgroup = "py-rawores-tin",
-    order = "bab"
-}:add_unlock("tin-mk03")
+-- RECIPE {
+--     type = "recipe",
+--     name = "molten-tin-02-2",
+--     category = "eaf",
+--     enabled = false,
+--     energy_required = 4,
+--     ingredients = {
+--          {type = "item", name = "borax", amount = 10},
+--          {type = "item", name = "high-tin-concentrate", amount = 5},
+--     },
+--     results = {
+--         {type = "fluid", name = "molten-tin", amount = 200},
+--     },
+--     main_product = "molten-tin",
+--     subgroup = "py-rawores-tin",
+--     order = "bab"
+-- }:add_unlock("tin-mk03")
 
 RECIPE {
     type = "recipe",
@@ -346,7 +346,7 @@ RECIPE {
     main_product = "molten-tin",
     subgroup = "py-rawores-tin",
     order = "bad"
-}:add_unlock("tin-mk04")
+}:add_unlock("tin-mk03")
 
 RECIPE {
     type = "recipe",
@@ -382,7 +382,7 @@ RECIPE {
     main_product = "molten-tin",
     subgroup = "py-rawores-tin",
     order = "bae"
-}:add_unlock("tin-mk04")
+}:add_unlock("tin-mk05")
 
 
 --CASTINGS

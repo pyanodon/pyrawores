@@ -18,7 +18,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-quartz",
     order = "q-1"
-}:add_unlock("quartz-mk02")
+}:add_unlock("quartz-mk03")
 
 
 FLUID {
@@ -31,8 +31,6 @@ FLUID {
     flow_color = {r = 0.647, g = 0.647, b = 0.647},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-rawores-quartz",
     order = "c"
 }

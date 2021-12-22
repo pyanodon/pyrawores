@@ -193,7 +193,7 @@ RECIPE {
     },
     main_product = "sintered-lead",
     subgroup = "py-rawores-lead",
-}:add_unlock("lead-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("lead-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
 
@@ -285,7 +285,7 @@ RECIPE {
     main_product = "molten-lead",
     subgroup = "py-rawores-lead",
     order = "bab"
-}:add_unlock("lead-mk04")
+}:add_unlock("lead-mk05")
 
 --CASTINGS
 
@@ -323,7 +323,7 @@ RECIPE {
     },
     subgroup = "py-rawores-lead",
     order = "aac"
-}:add_unlock("lead-mk01")
+}:add_unlock("coal-processing-1")
 
 --PLATES
 

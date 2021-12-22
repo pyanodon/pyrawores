@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/gold.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'machines-mk03','chromium-mk03'},
+    prerequisites = {"chemical-science-pack"},
     effects = {},
     unit = {
         count = 120,

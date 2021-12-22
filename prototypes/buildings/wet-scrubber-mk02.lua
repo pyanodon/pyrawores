@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"wet-scrubber-mk02", 1}
     }
-}:add_unlock("machines-mk02")
+}
 
 ITEM {
     type = "item",

@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/coal-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {'machines-mk01'},
+    prerequisites = {"crusher"},
     effects = {},
     unit = {
         count = 100,
@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/coal-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'machines-mk02','coal-mk01','coal-processing-2'},
+    prerequisites = {'coal-mk01', 'logistic-science-pack'},
     effects = {},
     unit = {
         count = 100,
@@ -39,7 +39,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/coal-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'machines-mk03','coal-mk02'},
+    prerequisites = {'coal-mk02', 'chemical-science-pack'},
     effects = {},
     unit = {
         count = 100,
@@ -58,7 +58,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/coal-4.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'machines-mk04','coal-mk03'},
+    prerequisites = {'coal-mk03', 'utility-science-pack'},
     effects = {},
     unit = {
         count = 100,

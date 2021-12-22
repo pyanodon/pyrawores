@@ -18,7 +18,7 @@
         main_product = 'tin-pulp-02',
         subgroup = 'py-rawores-tin',
         order = 'q-2'
-    }:add_unlock('tin-mk04'):add_ingredient({type = 'fluid', name = 'pressured-air', amount = 250})
+    }:add_unlock('tin-mk03'):add_ingredient({type = 'fluid', name = 'pressured-air', amount = 250})
 
 FLUID {
     type = 'fluid',
@@ -30,8 +30,6 @@ FLUID {
     flow_color = {r = 0.258, g = 0.180, b = 0.807},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = 'py-rawores-tin',
     order = 'c'
 }

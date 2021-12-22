@@ -120,7 +120,7 @@ RECIPE {
     type = "recipe",
     name = "molten-solder-0",
     category = "bof",
-    enabled = true,
+    enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-tin", amount = 10},
@@ -132,7 +132,7 @@ RECIPE {
     main_product = 'molten-solder',
     subgroup = "py-rawores-solder",
     order = "j"
-}:add_unlock("lead-mk02")
+}:add_unlock("solder-mk02")
 
 RECIPE {
     type = "recipe",
@@ -151,7 +151,7 @@ RECIPE {
     main_product = 'molten-solder',
     subgroup = "py-rawores-solder",
     order = "j"
-}:add_unlock("lead-mk02")
+}:add_unlock("solder-mk02")
 
 RECIPE {
     type = "recipe",
@@ -171,7 +171,7 @@ RECIPE {
     main_product = 'molten-solder',
     subgroup = "py-rawores-solder",
     order = "j"
-}:add_unlock("lead-mk03")
+}:add_unlock("solder-mk03")
 
 RECIPE {
     type = "recipe",
@@ -191,7 +191,7 @@ RECIPE {
     main_product = 'molten-solder',
     subgroup = "py-rawores-solder",
     order = "j"
-}:add_unlock("lead-mk04")
+}:add_unlock("solder-mk04")
 
 RECIPE {
     type = "recipe",
@@ -228,7 +228,7 @@ RECIPE {
     main_product = 'niobium-pipe',
     subgroup = "py-rawores-casting",
     order = "n"
-}:add_unlock("machines-mk03")
+}:add_unlock("machines-mk04")
 
 RECIPE {
     type = "recipe",
@@ -246,7 +246,7 @@ RECIPE {
     main_product = 'niobium-pipe-to-ground',
     subgroup = "py-rawores-casting",
     order = "nu"
-}:add_unlock("machines-mk03")
+}:add_unlock("machines-mk04")
 
 RECIPE {
     type = "recipe",
@@ -266,7 +266,7 @@ RECIPE {
     main_product = 'drill-head',
     subgroup = "py-rawores-casting",
     order = "d"
-}:add_unlock("machines-mk03")
+}:add_unlock("machines-mk04")
 
 RECIPE {
     type = "recipe",
@@ -286,4 +286,4 @@ RECIPE {
     main_product = 'equipment-chassi',
     subgroup = "py-rawores-casting",
     order = "ec"
-}:add_unlock("machines-mk03")
+}:add_unlock("machines-mk04")

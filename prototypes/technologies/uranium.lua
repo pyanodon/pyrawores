@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/uranium-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {'machines-mk01'},
+    prerequisites = {"chemical-science-pack"},
     effects = {},
     unit = {
         count = 100,
@@ -23,7 +23,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/uranium-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'machines-mk02','uranium-mk01'},
+    prerequisites = {'uranium-mk01', 'production-science-pack'},
     effects = {},
     unit = {
         count = 100,
@@ -43,7 +43,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/uranium-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'machines-mk03','uranium-mk02'},
+    prerequisites = {'uranium-mk02', 'utility-science-pack'},
     effects = {},
     unit = {
         count = 100,
@@ -64,7 +64,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/uranium-4.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'machines-mk04','uranium-mk03'},
+    prerequisites = {'uranium-mk03', 'space-science-pack'},
     effects = {},
     unit = {
         count = 100,

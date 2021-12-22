@@ -15,7 +15,7 @@ RECIPE {
     main_product = "cresylic-acid",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("machines-mk03"):change_category('mixer')
+}:add_unlock("machines-mk04"):change_category('mixer')
 
 
 FLUID {
@@ -28,8 +28,6 @@ FLUID {
     flow_color = {r = 0.478, g = 0, b = 0},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-rawores-fluids",
     order = "c"
 }

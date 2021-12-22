@@ -13,7 +13,7 @@ RECIPE {
     main_product = "xylenol",
     subgroup = "py-rawores-fluids",
     order = "q-1"
-}:add_unlock("machines-mk03")
+}:add_unlock("machines-mk04")
 
 RECIPE {
     type = "recipe",
@@ -32,7 +32,7 @@ RECIPE {
     main_product = "xylenol",
     subgroup = "py-rawores-fluids",
     order = "q-1"
-}:add_unlock("machines-mk03"):add_ingredient({type = "item", name = "phenol", amount = 10})
+}:add_unlock("machines-mk04"):add_ingredient({type = "item", name = "phenol", amount = 10})
 
 
 FLUID {
@@ -45,8 +45,6 @@ FLUID {
     flow_color = {r = 0.082, g = 0.352, b = 0.125},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-rawores-fluids",
     order = "c"
 }

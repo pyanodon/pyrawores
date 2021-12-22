@@ -49,6 +49,13 @@ require("prototypes/technologies/tin")
 require("prototypes/technologies/titanium")
 require("prototypes/technologies/uranium")
 require("prototypes/technologies/zinc")
+require("prototypes/technologies/smelters")
+require("prototypes/technologies/solder")
+require("prototypes/technologies/casting")
+require("prototypes/technologies/electrolysis")
+require("prototypes/technologies/nichrome")
+require("prototypes/technologies/pyrite")
+require("prototypes/technologies/big-mines")
 
 --(( BUILDINGS ))--
 require("prototypes/buildings/quartz-mine")

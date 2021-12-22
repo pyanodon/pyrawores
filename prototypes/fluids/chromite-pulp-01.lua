@@ -28,8 +28,6 @@ FLUID {
     flow_color = {r = 0.862, g = 0.294, b = 0.031},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-rawores-chromium",
     order = "c"
 }

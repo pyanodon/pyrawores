@@ -16,7 +16,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("machines-mk03")
+}:add_unlock("machines-mk04")
 
 
 FLUID {
@@ -29,8 +29,6 @@ FLUID {
     flow_color = {r = 0.341, g = 0.635, b = 0.498},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-rawores-fluids",
     order = "c"
 }

@@ -233,7 +233,7 @@ RECIPE {
         {type = 'item', name = 'iron-ore', amount = 3},
     },
     main_product = "p2s5",
-}:add_unlock("machines-mk03"):replace_ingredient("stone", "phosphate-rock")
+}:add_unlock("machines-mk04"):replace_ingredient("stone", "phosphate-rock")
 
 RECIPE {
     type = 'recipe',
@@ -250,7 +250,7 @@ RECIPE {
         {type = 'item', name = 'pyrite', amount = 1},
     },
     main_product = "p2s5",
-}:add_unlock("machines-mk03"):replace_ingredient("stone", "phosphate-rock")
+}:add_unlock("machines-mk04"):replace_ingredient("stone", "phosphate-rock")
 
 RECIPE {
     type = "recipe",
@@ -293,7 +293,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("aluminium-mk01")
+}:add_unlock("smelters-mk01")
 
 RECIPE {
     type = "recipe",
@@ -372,7 +372,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk03"):add_ingredient({type = 'item', name = 'diamond', amount = 3}):add_ingredient({type = 'item', name = 'boron-carbide', amount = 5}):replace_ingredient("super-steel", "super-alloy"):replace_ingredient("nitrogen", "helium")
+}:add_unlock("machines-mk04"):add_ingredient({type = 'item', name = 'diamond', amount = 3}):add_ingredient({type = 'item', name = 'boron-carbide', amount = 5}):replace_ingredient("super-steel", "super-alloy"):replace_ingredient("nitrogen", "helium")
 
 RECIPE {
     type = "recipe",
@@ -425,7 +425,7 @@ RECIPE {
         {type = 'item', name = 'iron-oxide', amount = 12},
     },
     main_product = "iron-oxide",
-}:add_unlock("coal-mk01")
+}:add_unlock("pyrite")
 
 RECIPE {
     type = 'recipe',
@@ -441,7 +441,7 @@ RECIPE {
         {type = 'item', name = 'pyrite', amount = 1},
     },
     main_product = "pyrite",
-}:add_unlock("coal-mk01")
+}:add_unlock("pyrite")
 
 RECIPE {
     type = 'recipe',

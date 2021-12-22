@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"smelter-mk03", 1}
     }
-}:add_unlock("machines-mk03")
+}:add_unlock("smelters-mk03")
 
 ITEM {
     type = "item",

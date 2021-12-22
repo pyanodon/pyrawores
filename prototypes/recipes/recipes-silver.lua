@@ -36,7 +36,7 @@ RECIPE {
     },
     main_product = "sintered-silver",
     subgroup = "py-rawores-silver",
-}:add_unlock("lead-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("lead-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
 
@@ -115,7 +115,7 @@ RECIPE {
     main_product = "molten-silver",
     subgroup = "py-rawores-silver",
     order = "bab"
-}:add_unlock("lead-mk04")
+}:add_unlock("lead-mk05")
 
 
 --CASTINGS

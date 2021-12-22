@@ -347,7 +347,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "cab"
-}:add_unlock("machines-mk02"):change_category("chemistry")
+}:add_unlock("machines-mk03"):change_category("chemistry")
 
 RECIPE {
     type = "recipe",
@@ -366,7 +366,7 @@ RECIPE {
         {type = "item", name = "fiberboard", amount = 8}
     },
     main_product = "fiberboard"
-}:add_unlock("machines-mk02")
+}:add_unlock("machines-mk03")
 
 RECIPE {
     type = 'recipe',
@@ -440,7 +440,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-items",
     order = "q-2"
-}:add_unlock("machines-mk02")
+}:add_unlock("machines-mk03")
 
 RECIPE {
     type = "recipe",
@@ -853,7 +853,7 @@ RECIPE {
     main_product = 'ht-pipes',
     subgroup = "py-rawores-casting",
     order = "on"
-}:add_unlock("machines-mk03")
+}:add_unlock("machines-mk04")
 
 RECIPE {
     type = "recipe",
@@ -871,6 +871,6 @@ RECIPE {
     main_product = 'ht-pipes-to-ground',
     subgroup = "py-rawores-casting",
     order = "ou"
-}:add_unlock("machines-mk03")
+}:add_unlock("machines-mk04")
 
 RECIPE("biopolymer"):add_ingredient({type = 'fluid', name = 'diesel', amount = 150})

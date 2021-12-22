@@ -306,7 +306,7 @@ RECIPE {
     main_product = "molten-chromium",
     subgroup = "py-rawores-chromium",
     order = "baa"
-}:add_unlock("chromium-mk04")
+}:add_unlock("chromium-mk05")
 
 RECIPE {
     type = "recipe",
@@ -325,7 +325,7 @@ RECIPE {
     main_product = "molten-chromium",
     subgroup = "py-rawores-chromium",
     order = "bab"
-}:add_unlock("chromium-mk03")
+}:add_unlock("chromium-mk04")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -346,7 +346,7 @@ RECIPE {
     },
     main_product = "sintered-chromium",
     subgroup = "py-rawores-chromium",
-}:add_unlock("chromium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("chromium-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",
@@ -365,7 +365,7 @@ RECIPE {
     },
     main_product = "reduced-chromium",
     subgroup = "py-rawores-chromium",
-}:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("chromium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --INITIAL PLATE
 

@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"leaching-station-mk01", 1}
     }
-}:add_unlock("machines-mk01")
+}:add_unlock("machines-mk02")
 
 ITEM {
     type = "item",

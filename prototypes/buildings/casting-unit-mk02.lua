@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"casting-unit-mk02", 1}
     }
-}:add_unlock("machines-mk02")
+}:add_unlock("casting-mk02")
 
 ITEM {
     type = "item",
