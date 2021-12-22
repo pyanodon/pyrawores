@@ -4,36 +4,25 @@ local fun = require("prototypes/functions/functions")
 TECHNOLOGY('engine'):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack'):add_prereq('machines-mk01')
 TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-processing-2'):add_prereq('aluminium-mk01')
 TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):add_prereq('coal-processing-2')
-
 TECHNOLOGY('ralesia'):add_prereq('machines-mk01')
 TECHNOLOGY('energy-1'):add_prereq('machines-mk01'):add_prereq('optics')
-
 TECHNOLOGY("advanced-material-processing"):add_prereq('iron-mk02'):add_prereq('machines-mk01')
---SCIENCE PACKS
-
 TECHNOLOGY('logistic-science-pack'):add_prereq('aluminium-mk01')
 TECHNOLOGY('chemical-science-pack'):remove_prereq('nexelit'):add_prereq('nexelit-mk01'):add_prereq('iron-mk02')
-
-TECHNOLOGY("nexelit"):set_fields{enabled = false}
---CHROMIUM
-
-TECHNOLOGY('chromium'):set_fields{enabled = false}
-
+TECHNOLOGY("nexelit"):set_fields{enabled = false}:set_fields{hidden = true}
+TECHNOLOGY('chromium'):set_fields{enabled = false}:set_fields{hidden = true}
 TECHNOLOGY("coal-processing-2"):remove_prereq('chromium'):add_prereq('chromium-mk01')
+TECHNOLOGY("concrete"):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack')
+TECHNOLOGY('fine-electronics'):add_prereq('iron-mk01'):add_prereq('lead-mk01')
 
+
+-- RECIPE UNLOCKS
 RECIPE('making-chromium'):remove_unlock('chromium')
 RECIPE('nichrome'):remove_unlock('chromium'):add_unlock("chromium-mk01")
 RECIPE('richdust-separation'):remove_unlock('chromium'):add_unlock("chromium-mk01")
 RECIPE('sand-classification'):remove_unlock('chromium'):add_unlock("chromium-mk01")
-
-
---NEXELIT
 RECIPE("tailings-copper-iron"):remove_unlock('machine-mk01')
-
 RECIPE("sand-casting"):remove_unlock('nexelit'):add_unlock('machines-mk01')
-
---need concrete for quenching for early nexelit
-TECHNOLOGY("concrete"):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack')
 RECIPE("concrete-richclay"):remove_unlock('concrete')
 
 --TECHNOLOGY("machines-mk01"):add_prereq('concrete')
@@ -71,18 +60,20 @@ RECIPE('calcium-carbide'):remove_unlock('coal-processing-2'):add_unlock('coal-pr
 RECIPE('lime'):remove_unlock('separation'):add_unlock('coal-processing-1')
 RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01'):remove_ingredient('chemical-plant-mk01')
 RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01')
+RECIPE("fuelrod-mk01"):remove_unlock('advanced-material-processing-2')
 
 
+-- RECIPE CHANGES
+RECIPE('automated-factory-mk01'):replace_ingredient('advanced-circuit', 'electronic-circuit')
+RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "optical-fiber", amount = 2})
+RECIPE("cladded-core"):add_ingredient({type = "item", name = "aramid", amount = 1})
 fun.results_replacer("richdust-separation", "chromite-sand", "chromite-sand",3)
 fun.results_replacer("coal-fawogae", "coal", "raw-coal",3)
-
 RECIPE("boric-acid"):change_category('electrolyzer')
 RECIPE("copper-coating"):change_category('electrolyzer')
 RECIPE("nbfe-alloy"):change_category('py-rawores-smelter')
-
 RECIPE("copper-coating"):replace_ingredient("organic-solvent", {"water-saline", 100})
 RECIPE("empty-gas-canister"):replace_ingredient("steel-plate", "aluminium-plate")
-RECIPE("fuelrod-mk01"):remove_unlock('advanced-material-processing-2')
 RECIPE("methanol-from-syngas"):replace_ingredient("iron-plate", "zinc-plate")
 RECIPE("flying-robot-frame"):replace_ingredient("steel-plate", "niobium-plate")
 RECIPE("ralesia"):replace_ingredient("water", "hydrogen")
@@ -97,7 +88,6 @@ RECIPE("aromatics2"):replace_ingredient("water", "hydrogen")
 RECIPE("niobium-complex"):replace_ingredient("water", "hydrogen-chloride")
 RECIPE("tpa"):replace_ingredient("copper-ore", "nichrome")
 RECIPE("chemical-science-pack"):replace_ingredient("copper-cable", "tinned-cable")
---replaced bob ores with pyro ores
 RECIPE("tailings-classification"):replace_ingredient("copper-ore", "ore-lead") --result
 RECIPE("tailings-classification"):replace_ingredient("iron-ore", "ore-tin") --result
 RECIPE("niobium-plate"):replace_ingredient("coal", "salt"):change_category('electrolyzer')
@@ -110,17 +100,12 @@ RECIPE("nichrome"):replace_ingredient("water", "nitrogen")
 RECIPE("nichrome"):replace_ingredient("iron-plate", "nickel-plate")
 RECIPE("hydrogen-peroxide"):replace_ingredient("iron-plate", "nickel-plate")
 RECIPE("cladding"):remove_ingredient("molten-glass"):add_ingredient({type = "item", name = "glass", amount = 5})
---RECIPE("aromatics-to-rubber"):replace_ingredient("plastic-bar", "rubber")
 RECIPE("nas-battery"):replace_ingredient("copper-ore", "sodium-hydroxide")
 RECIPE("nas-battery"):add_ingredient({type = "item", name = "lead-plate", amount = 6})
-
-
 RECIPE("optical-fiber"):remove_ingredient("plastic-bar"):add_ingredient({type = "item", name = "plastic-bar", amount = 5})
-
 RECIPE("olefin"):replace_ingredient("water", "hydrogen")
 RECIPE("flask"):remove_ingredient("molten-glass"):add_ingredient({type = "fluid", name = "molten-glass", amount = 200})
 RECIPE("ref-to-light-oil"):add_ingredient({type = "fluid", name = "hydrogen", amount = 250})
---RECIPE("olefin-combustion"):remove_ingredient("water"):add_ingredient({type = "fluid", name = "hydrogen", amount = 100})
 RECIPE("niobium-oxide"):replace_ingredient("water", "nitrogen")
 RECIPE("filtration-media"):add_ingredient({type = "item", name = "glass", amount = 6})
 RECIPE("active-carbon"):remove_ingredient("water"):add_ingredient({type = "fluid", name = "nitrogen", amount = 50}):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 4})
@@ -133,7 +118,6 @@ RECIPE("wpu"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("fawogae-plantation-mk01"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("advanced-foundry-mk01"):replace_ingredient("steel-furnace", "stone-furnace"):remove_unlock('nexelit'):add_unlock('machines-mk01')
 RECIPE("chemical-science-pack"):replace_ingredient("iron-plate", "stainless-steel")
-
 RECIPE("gasturbinemk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "duralumin")
 RECIPE("methanol-reactor"):replace_ingredient("chemical-plant-mk01", "electrolyzer-mk01")
 RECIPE("power-house"):replace_ingredient("iron-plate", "lead-plate")
