@@ -285,6 +285,10 @@ RECIPE("xyhiphoe-pool-mk04"):replace_ingredient("control-unit", "intelligent-uni
 RECIPE("plankton-farm-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "superconductor", amount = 10})
 RECIPE("plankton-farm-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
 
+RECIPE("py-heat-exchanger-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "superconductor", amount = 10})
+RECIPE("py-heat-exchanger-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
+
+
 RECIPE("nmf-mk01"):remove_unlock('advanced-mining-facilities'):add_unlock('fine-electronics')
 
 RECIPE('aramid'):remove_unlock('machines-mk02'):add_unlock('fine-electronics')
