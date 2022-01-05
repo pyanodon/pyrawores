@@ -72,7 +72,7 @@ RECIPE("supercapacitor-core"):add_ingredient({type = "item", name = "silver-plat
 RECIPE("glycerol2"):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 5})
 RECIPE("nems"):add_ingredient({type = "item", name = "glass", amount = 10})
 RECIPE("volumetric-capacitor"):add_ingredient({type = "item", name = "glass", amount = 10})
-RECIPE("yag-laser-module"):add_ingredient({type = "item", name = "aluminium-plate", amount = 3})
+RECIPE("yag-laser-module"):add_ingredient({type = "item", name = "aluminium-plate", amount = 10})
 RECIPE("diamagnetic-material"):add_ingredient({type = "item", name = "lead-plate", amount = 2})
 RECIPE("black-liquor"):add_ingredient({type = "fluid", name = "oxygen", amount = 100})
 RECIPE("plastic3"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
