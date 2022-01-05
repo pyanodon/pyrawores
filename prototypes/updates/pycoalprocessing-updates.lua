@@ -423,10 +423,10 @@ RECIPE {
     name = "mining-aluminium",
     category = "ground-borer",
     enabled = false,
-    energy_required = 2.0,
+    energy_required = 3.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 300},
-        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "fluid", name = "lubricant", amount = 100},
+        {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
@@ -443,10 +443,10 @@ RECIPE {
     name = "mining-chromium",
     category = "ground-borer",
     enabled = false,
-    energy_required = 2.0,
+    energy_required = 3.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 300},
-        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "fluid", name = "lubricant", amount = 100},
+        {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
@@ -463,10 +463,10 @@ RECIPE {
     name = "mining-copper",
     category = "ground-borer",
     enabled = false,
-    energy_required = 2.0,
+    energy_required = 3.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 250},
-        {type = "fluid", name = "coal-gas", amount = 250},
+        {type = "fluid", name = "lubricant", amount = 100},
+        {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
@@ -483,10 +483,10 @@ RECIPE {
     name = "mining-iron",
     category = "ground-borer",
     enabled = false,
-    energy_required = 2.0,
+    energy_required = 3.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 250},
-        {type = "fluid", name = "coal-gas", amount = 250},
+        {type = "fluid", name = "lubricant", amount = 100},
+        {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
@@ -503,10 +503,10 @@ RECIPE {
     name = "mining-lead",
     category = "ground-borer",
     enabled = false,
-    energy_required = 2.0,
+    energy_required = 3.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 200},
-        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "fluid", name = "lubricant", amount = 100},
+        {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
@@ -523,10 +523,10 @@ RECIPE {
     name = "mining-nickel",
     category = "ground-borer",
     enabled = false,
-    energy_required = 2.0,
+    energy_required = 3.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 300},
-        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "fluid", name = "lubricant", amount = 100},
+        {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
@@ -543,10 +543,10 @@ RECIPE {
     name = "mining-quartz",
     category = "ground-borer",
     enabled = false,
-    energy_required = 2.0,
+    energy_required = 3.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 300},
-        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "fluid", name = "lubricant", amount = 100},
+        {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
@@ -563,10 +563,10 @@ RECIPE {
     name = "mining-tin",
     category = "ground-borer",
     enabled = false,
-    energy_required = 2.0,
+    energy_required = 3.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 300},
-        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "fluid", name = "lubricant", amount = 100},
+        {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
@@ -585,8 +585,8 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 200},
-        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "fluid", name = "lubricant", amount = 100},
+        {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
@@ -603,10 +603,10 @@ RECIPE {
     name = "mining-zinc",
     category = "ground-borer",
     enabled = false,
-    energy_required = 2.0,
+    energy_required = 3.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 250},
-        {type = "fluid", name = "coal-gas", amount = 250},
+        {type = "fluid", name = "lubricant", amount = 100},
+        {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {

@@ -22,7 +22,7 @@ RECIPE {
     name = "grade-2-lead-crusher",
     category = "impact-crusher",
     enabled = false,
-    energy_required = 1.2,
+    energy_required = 3,
     ingredients = {
         {type = "item", name = "grade-1-lead", amount = 2}
     },
