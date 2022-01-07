@@ -78,9 +78,6 @@ RECIPE("olefin-plant"):add_unlock("fuel-production-1")
 
 
 -- RECIPE CHANGES
-RECIPE('automated-factory-mk01'):replace_ingredient('advanced-circuit', 'electronic-circuit')
-RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "optical-fiber", amount = 2})
-RECIPE("cladded-core"):add_ingredient({type = "item", name = "aramid", amount = 1})
 fun.results_replacer("richdust-separation", "chromite-sand", "chromite-sand",3)
 fun.results_replacer("coal-fawogae", "coal", "raw-coal",3)
 RECIPE("boric-acid"):change_category('electrolyzer')
