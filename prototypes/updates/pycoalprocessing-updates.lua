@@ -1,7 +1,7 @@
 local fun = require("prototypes/functions/functions")
 
 --TECHNOLOGY
-TECHNOLOGY('engine'):remove_pack('logistic-science-pack')
+TECHNOLOGY('engine'):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack'):add_prereq('machines-mk01')
 TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-processing-2'):add_prereq('aluminium-mk01')
 TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):add_prereq('coal-processing-2')
 
@@ -36,7 +36,6 @@ RECIPE("sand-casting"):remove_unlock('nexelit'):add_unlock('machines-mk01')
 TECHNOLOGY("concrete"):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack')
 RECIPE("concrete-richclay"):remove_unlock('concrete')
 
-TECHNOLOGY("engine"):remove_prereq('logistic-science-pack')
 --TECHNOLOGY("machines-mk01"):add_prereq('concrete')
 
 RECIPE("quenching-tower"):remove_unlock('fluid-separation'):add_unlock('machines-mk01')
@@ -167,7 +166,7 @@ RECIPE('ball-mill-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "ite
 RECIPE('ball-mill-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 50}):add_ingredient({type = "item", name = "super-steel", amount = 15})
 RECIPE('ball-mill-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "lead-plate", amount = 30})
 
-RECIPE('borax-mine-mk01'):remove_unlock('energy-1'):add_unlock('optics')
+RECIPE('borax-mine'):remove_unlock('energy-1'):add_unlock('optics')
 RECIPE('borax-mine-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 15}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE('borax-mine-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "super-steel", amount = 30})
 RECIPE('borax-mine-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "lead-plate", amount = 20})
