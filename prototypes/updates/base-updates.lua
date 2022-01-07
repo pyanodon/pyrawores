@@ -1,6 +1,6 @@
 -- TECH CHANGES
---TECHNOLOGY('uranium-processing'):set_field{enabled = false}:set_field{hidden = true}:set_field{prerequisites={}}
-data.raw.technology["uranium-processing"] = nil
+TECHNOLOGY('uranium-processing'):set_field{enabled = false}:set_field{hidden = true}:set_field{prerequisites={}}
+--data.raw.technology["uranium-processing"] = nil
 TECHNOLOGY("kovarex-enrichment-process"):remove_prereq('uranium-processing'):add_prereq('uranium-mk02'):remove_prereq('rocket-fuel')
 TECHNOLOGY("utility-science-pack"):remove_prereq('kovarex-enrichment-process')
 TECHNOLOGY('robotics'):remove_prereq('construction-robotics'):add_prereq('logistic-robotics'):add_prereq('super-steel-mk01')
@@ -8,7 +8,7 @@ TECHNOLOGY("military"):add_prereq("lead-mk01")
 TECHNOLOGY("fast-inserter"):add_prereq("smelters-mk01")
 TECHNOLOGY("construction-robotics"):remove_prereq("steel-processing"):add_prereq("solder-mk01")
 TECHNOLOGY("fluid-handling"):remove_prereq("automation"):remove_prereq("steel-processing"):add_prereq("lead-mk01"):add_prereq("smelters-mk01")
-TECHNOLOGY('engine'):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack'):add_prereq('fast-inserter')
+TECHNOLOGY('engine'):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack')
 TECHNOLOGY('heavy-armor'):remove_prereq('steel-processing')
 TECHNOLOGY('solar-energy'):remove_prereq('logistic-science-pack'):add_prereq('pyrite')
 TECHNOLOGY("advanced-electronics"):remove_prereq("fast-inserter"):remove_prereq("plastics"):add_prereq("fine-electronics"):add_prereq("solder-mk01")

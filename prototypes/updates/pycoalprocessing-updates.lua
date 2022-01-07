@@ -11,7 +11,7 @@ TECHNOLOGY('chemical-science-pack'):remove_prereq('fine-electronics'):remove_pre
 TECHNOLOGY("nexelit"):set_fields{enabled = false}:set_fields{hidden = true}
 TECHNOLOGY('chromium'):set_fields{enabled = false}:set_fields{hidden = true}
 TECHNOLOGY("coal-processing-2"):remove_prereq("concrete"):remove_prereq('chromium'):add_prereq("nichrome")
-TECHNOLOGY("concrete"):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack')
+TECHNOLOGY("concrete"):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack'):remove_prereq('advanced-material-processing')
 TECHNOLOGY('fine-electronics'):remove_prereq('sulfur-processing'):remove_prereq('kevlar'):add_prereq('iron-mk01'):add_prereq('silver-mk01'):add_prereq('aramid')
 TECHNOLOGY("coal-processing-1"):remove_prereq("fluid-handling"):add_prereq("steel-processing")
 TECHNOLOGY("separation"):add_prereq("automation")
