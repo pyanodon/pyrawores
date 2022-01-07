@@ -15,7 +15,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk02")
+}:add_unlock("starch")
 
 RECIPE {
     type = "recipe",
@@ -35,7 +35,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk02"):add_ingredient({type = 'item', name = 'fiberboard', amount = 1})
+}:add_unlock("starch"):add_ingredient({type = 'item', name = 'fiberboard', amount = 1})
 
 RECIPE {
     type = "recipe",
@@ -56,7 +56,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk02"):add_ingredient({type = 'item', name = 'fiberboard', amount = 1})
+}:add_unlock("starch"):add_ingredient({type = 'item', name = 'fiberboard', amount = 1})
 
 RECIPE {
     type = "recipe",
@@ -96,7 +96,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "a8"
-}:add_unlock("coal-processing-2")
+}:add_unlock("salts")
 
 RECIPE {
     type = "recipe",
@@ -115,7 +115,7 @@ RECIPE {
     order = "salt",
     icon = "__pyraworesgraphics__/graphics/icons/salt.png",
     icon_size = 32
-}:add_unlock("coal-processing-2")
+}:add_unlock("fluid-separation")
 
 RECIPE {
     type = "recipe",
@@ -199,7 +199,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-items",
     order = "g"
-}:add_unlock("machines-mk02")
+}:add_unlock("ulric")
 
 RECIPE {
     type = 'recipe',
@@ -216,7 +216,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'mukmoux-fat', amount = 30}
     },
-}:add_unlock("machines-mk02")
+}:add_unlock("mukmoux")
 
 RECIPE {
     type = 'recipe',
@@ -233,7 +233,7 @@ RECIPE {
         {type = 'item', name = 'iron-ore', amount = 3},
     },
     main_product = "p2s5",
-}:add_unlock("machines-mk04"):replace_ingredient("stone", "phosphate-rock")
+}:add_unlock("additives-mk02"):replace_ingredient("stone", "phosphate-rock")
 
 RECIPE {
     type = 'recipe',
@@ -250,7 +250,7 @@ RECIPE {
         {type = 'item', name = 'pyrite', amount = 1},
     },
     main_product = "p2s5",
-}:add_unlock("machines-mk04"):replace_ingredient("stone", "phosphate-rock")
+}:add_unlock("additives-mk02"):replace_ingredient("stone", "phosphate-rock")
 
 RECIPE {
     type = "recipe",
@@ -273,7 +273,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-items",
     order = "q-2"
-}:add_unlock("machines-mk02"):change_category('fbreactor'):replace_ingredient("water", "ammonia")
+}:add_unlock("salts"):change_category('fbreactor'):replace_ingredient("water", "ammonia")
 
 RECIPE {
     type = "recipe",
@@ -314,7 +314,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("aluminium-mk02")
+}:add_unlock("alloys")
 
 RECIPE {
     type = "recipe",
@@ -409,7 +409,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk02")
+}:add_unlock("aramid")
 
 RECIPE {
     type = 'recipe',
@@ -476,7 +476,7 @@ RECIPE {
         {type = 'fluid', name = 'carbon-dioxide', amount = 50},
     },
     main_product = "sodium-carbonate",
-}:add_unlock("sulfur-processing")
+}:add_unlock("salts")
 
 RECIPE {
     type = 'recipe',
@@ -493,7 +493,7 @@ RECIPE {
         {type = 'fluid', name = 'water', amount = 50},
     },
     main_product = "sodium-sulfate",
-}:add_unlock("sulfur-processing")
+}:add_unlock("salts")
 
 RECIPE {
     type = 'recipe',
@@ -530,7 +530,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("nickel-mk03")
+}:add_unlock("alloys")
 
 RECIPE {
     type = "recipe",
@@ -548,7 +548,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 100},
     },
     main_product= "syngas",
-}:add_unlock("fuel-production")
+}:add_unlock("fuel-production-2")
 
 RECIPE {
     type = "recipe",
@@ -564,7 +564,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "syngas", amount = 250},
     },
-}:add_unlock("fuel-production")
+}:add_unlock("fuel-production-2")
 
 RECIPE {
     type = "recipe",
@@ -645,7 +645,7 @@ RECIPE {
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
     order = "k"
-}:add_unlock("fuel-production")
+}:add_unlock("uranium-mk01")
 
 RECIPE {
     type = "recipe",
@@ -667,7 +667,7 @@ RECIPE {
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
     order = "k"
-}:add_unlock("fuel-production")
+}:add_unlock("uranium-mk02")
 
 RECIPE {
     type = "recipe",
@@ -689,7 +689,7 @@ RECIPE {
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
     order = "k"
-}:add_unlock("fuel-production")
+}:add_unlock("uranium-mk03")
 
 RECIPE {
     type = "recipe",
@@ -711,7 +711,7 @@ RECIPE {
     --main_product = "combustion-mixture1",
     subgroup = "py-combustion",
     order = "k"
-}:add_unlock("fuel-production")
+}:add_unlock("uranium-mk04")
 
 RECIPE {
     type = "recipe",
@@ -1015,7 +1015,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("iron-mk02")
+}:add_unlock("alloys")
 
 RECIPE {
     type = "recipe",
@@ -1063,7 +1063,7 @@ RECIPE {
     results = {
         {type = "item", name = "drill-head", amount = 8}
     }
-}:add_unlock("iron-mk02")
+}:add_unlock("stainless-steel")
 
 RECIPE {
     type = "recipe",
@@ -1079,7 +1079,7 @@ RECIPE {
     results = {
         {type = "item", name = "drill-head", amount = 10}
     }
-}:add_unlock("iron-mk02")
+}:add_unlock("stainless-steel")
 
 RECIPE {
     type = "recipe",
@@ -1101,7 +1101,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-fluids",
     order = "d1"
-}:add_unlock("fuel-production")
+}:add_unlock("fuel-production-2")
 
 RECIPE {
     type = "recipe",
@@ -1121,7 +1121,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-fluids",
     order = "d2"
-}:add_unlock("fuel-production")
+}:add_unlock("fuel-production-2")
 
 RECIPE {
     type = "recipe",

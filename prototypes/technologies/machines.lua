@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/machines-mk02.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"logistic-science-pack"},
+    prerequisites = {"py-storage-tanks", "coal-processing-2"},
     effects = {},
     unit = {
         count = 100,
@@ -39,7 +39,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/machines-mk03.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"machines-mk02", "chemical-science-pack"},
+    prerequisites = {"machines-mk02", "chemical-science-pack", "logistics-2"},
     effects = {},
     unit = {
         count = 100,

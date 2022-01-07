@@ -16,7 +16,7 @@ RECIPE {
     main_product = "armac-12",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("coal-processing-2"):change_category('mixer'):replace_ingredient('chlorine','ammonia')
+}:add_unlock("additives-mk02"):change_category('mixer'):replace_ingredient('chlorine','ammonia')
 
 
 FLUID {

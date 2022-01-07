@@ -17,7 +17,7 @@ RECIPE {
     },
     main_product = "reduced-silver",
     subgroup = "py-rawores-silver",
-}:add_unlock("lead-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("silver-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",
@@ -36,7 +36,7 @@ RECIPE {
     },
     main_product = "sintered-silver",
     subgroup = "py-rawores-silver",
-}:add_unlock("lead-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("silver-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
 
@@ -58,7 +58,7 @@ RECIPE {
     main_product = "molten-silver",
     subgroup = "py-rawores-silver",
     order = "bad"
-}:add_unlock("lead-mk03")
+}:add_unlock("silver-mk02")
 
 RECIPE {
     type = "recipe",
@@ -77,7 +77,7 @@ RECIPE {
     main_product = "molten-silver",
     subgroup = "py-rawores-silver",
     order = "bac"
-}:add_unlock("lead-mk03")
+}:add_unlock("silver-mk03")
 
 RECIPE {
     type = "recipe",
@@ -96,7 +96,7 @@ RECIPE {
     main_product = "molten-silver",
     subgroup = "py-rawores-silver",
     order = "baa"
-}:add_unlock("lead-mk04")
+}:add_unlock("silver-mk04")
 
 RECIPE {
     type = "recipe",
@@ -115,7 +115,7 @@ RECIPE {
     main_product = "molten-silver",
     subgroup = "py-rawores-silver",
     order = "bab"
-}:add_unlock("lead-mk05")
+}:add_unlock("silver-mk05")
 
 
 --CASTINGS
@@ -137,7 +137,7 @@ RECIPE {
     main_product= "silver-plate",
     subgroup = "py-rawores-silver",
     order = "aaa"
-}:add_unlock("lead-mk03")
+}:add_unlock("silver-mk02")
 
 
 --INITIAL PLATE
@@ -157,7 +157,7 @@ RECIPE {
     },
     subgroup = "py-rawores-silver",
     order = "aab"
-}:add_unlock("lead-mk02")
+}:add_unlock("silver-mk01")
 
 --PLATES
 
@@ -178,4 +178,4 @@ RECIPE {
     },
     subgroup = "py-rawores-silver",
     order = "aac"
-}:add_unlock("lead-mk03")
+}:add_unlock("silver-mk02")

@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/uranium-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"chemical-science-pack"},
+    prerequisites = {"chemical-science-pack", "machines-mk02"},
     effects = {},
     unit = {
         count = 100,

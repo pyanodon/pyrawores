@@ -153,7 +153,7 @@ RECIPE {
     },
     main_product = "high-grade-silver",
     subgroup = "py-rawores-lead",
-}:add_unlock("lead-mk03")
+}:add_unlock("silver-mk03")
 
 --SINTER and DRP IMPROVEMENTS
 

@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/chromium-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'chromium-mk01', 'logistic-science-pack', 'coal-processing-2'},
+    prerequisites = {'coal-processing-2'},
     effects = {},
     unit = {
         count = 100,
@@ -39,7 +39,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/chromium-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'chromium-mk02', 'chemical-science-pack'},
+    prerequisites = {'chromium-mk02', 'chemical-science-pack', 'additives-mk02'},
     effects = {},
     unit = {
         count = 100,

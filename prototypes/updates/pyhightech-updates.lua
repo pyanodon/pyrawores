@@ -291,8 +291,6 @@ RECIPE("py-heat-exchanger-mk04"):replace_ingredient("control-unit", "intelligent
 
 RECIPE("nmf-mk01"):remove_unlock('advanced-mining-facilities'):add_unlock('fine-electronics')
 
-RECIPE('aramid'):remove_unlock('machines-mk02'):add_unlock('fine-electronics')
-
 RECIPE("electronic-circuit"):add_ingredient({type = "item", name = "solder", amount = 2})
 
 --PYRO RECIPES UPDATES
@@ -330,7 +328,7 @@ TECHNOLOGY('machines-mk02'):remove_prereq('coal-processing-2')--:add_prereq('bas
 RECIPE {
     type = "recipe",
     name = "hydrogen-chloride-2",
-    category = "oil-processing", --pyfe mixer
+    category = "mixer", --pyfe mixer
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -347,7 +345,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "cab"
-}:add_unlock("machines-mk03"):change_category("chemistry")
+}:add_unlock("machines-mk03")
 
 RECIPE {
     type = "recipe",

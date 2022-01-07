@@ -39,7 +39,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/coal-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'coal-mk02', 'chemical-science-pack'},
+    prerequisites = {'coal-mk02', 'chemical-science-pack', 'fuel-production-2'},
     effects = {},
     unit = {
         count = 100,

@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/titanium-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'titanium-mk01', 'logistic-science-pack', 'machines-mk02'},
+    prerequisites = {'titanium-mk01', 'fluid-separation', 'machines-mk02', 'additives-mk01', 'fuel-production-1'},
     effects = {},
     unit = {
         count = 100,

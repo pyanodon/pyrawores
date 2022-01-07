@@ -1,6 +1,6 @@
 TECHNOLOGY("helium-processing"):remove_pack("production-science-pack")
 TECHNOLOGY("advanced-mining-facilities"):remove_pack("chemical-science-pack"):remove_prereq("diamond-mining"):add_prereq("iron-mk02"):remove_prereq('uranium-processing')
-TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_pack('production-science-pack'):remove_prereq('production-science-pack'):add_prereq("machines-mk02")
+TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_pack('production-science-pack'):remove_prereq('production-science-pack')
 
 --RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):add_unlock("machines-mk01")
 RECIPE("acidgas-2"):remove_unlock("regolite-mining"):add_unlock("machines-mk02")
@@ -44,7 +44,6 @@ RECIPE("purified-quartz"):change_category("pan")
 RECIPE("prepared-quartz"):change_category("pan")
 RECIPE("quartz-pulp-01"):change_category("hydrocyclone")
 RECIPE("al-pulp-01"):change_category("mixer")
-RECIPE("sodium-bisulfate"):change_category("chemistry")
 RECIPE("al-pulp-02"):change_category("agitator")
 RECIPE("al-pulp-04"):change_category("agitator")
 RECIPE("crystalized-sodium-aluminate"):remove_ingredient("steam"):add_ingredient({type = "fluid", name = "pressured-air", amount = 500})
@@ -116,7 +115,9 @@ RECIPE("vpulp2"):replace_ingredient("crushed-iron", "iron-ore-dust")
 RECIPE("molybdenum-filtration"):remove_ingredient("vacuum")
 RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-alloy"):remove_ingredient("steel-plate")
 RECIPE("automated-screener-mk01"):replace_ingredient("electric-engine-unit", "engine-unit"):replace_ingredient("ground-borer", "electric-mining-drill"):replace_ingredient("advanced-circuit", "electronic-circuit"):remove_ingredient("niobium-plate")
---RECIPE("py-heat-exchanger"):replace_ingredient("processing-unit", "advanced-circuit")
+RECIPE("py-heat-exchanger"):replace_ingredient("processing-unit", "advanced-circuit")
+RECIPE("sodium-bisulfate"):change_category("mixer")
+RECIPE("mibc"):change_category("mixer")
 
 ----PYFE---
 

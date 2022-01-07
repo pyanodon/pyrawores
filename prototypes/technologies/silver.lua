@@ -1,10 +1,10 @@
 TECHNOLOGY {
     type = 'technology',
-    name = 'nexelit-mk01',
-    icon = '__pyraworesgraphics__/graphics/technology/nexelit-1.png',
-    icon_size = 128,
+    name = 'silver-mk01',
+    icon = '__pyraworesgraphics__/graphics/icons/silver-plate.png',
+    icon_size = 32,
     order = 'c-a',
-    prerequisites = {"fluid-processing-machines-1"},
+    prerequisites = {"lead-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -18,11 +18,11 @@ TECHNOLOGY {
 
 TECHNOLOGY {
     type = 'technology',
-    name = 'nexelit-mk02',
-    icon = '__pyraworesgraphics__/graphics/technology/nexelit-2.png',
-    icon_size = 128,
+    name = 'silver-mk02',
+    icon = '__pyraworesgraphics__/graphics/icons/silver-plate.png',
+    icon_size = 32,
     order = 'c-a',
-    prerequisites = {'chemical-science-pack'},
+    prerequisites = {'chemical-science-pack', 'lead-mk03'},
     effects = {},
     unit = {
         count = 100,
@@ -37,11 +37,11 @@ TECHNOLOGY {
 
 TECHNOLOGY {
     type = 'technology',
-    name = 'nexelit-mk03',
-    icon = '__pyraworesgraphics__/graphics/technology/nexelit-3.png',
-    icon_size = 128,
+    name = 'silver-mk03',
+    icon = '__pyraworesgraphics__/graphics/icons/silver-plate.png',
+    icon_size = 32,
     order = 'c-a',
-    prerequisites = {'nexelit-mk02', 'production-science-pack'},
+    prerequisites = {'silver-mk02', 'production-science-pack'},
     effects = {},
     unit = {
         count = 100,
@@ -57,11 +57,11 @@ TECHNOLOGY {
 
 TECHNOLOGY {
     type = 'technology',
-    name = 'nexelit-mk04',
-    icon = '__pyraworesgraphics__/graphics/technology/nexelit-4.png',
-    icon_size = 128,
+    name = 'silver-mk04',
+    icon = '__pyraworesgraphics__/graphics/icons/silver-plate.png',
+    icon_size = 32,
     order = 'c-a',
-    prerequisites = {'nexelit-mk03', 'utility-science-pack'},
+    prerequisites = {'silver-mk03', 'utility-science-pack'},
     effects = {},
     unit = {
         count = 100,
@@ -78,11 +78,11 @@ TECHNOLOGY {
 
 TECHNOLOGY {
     type = 'technology',
-    name = 'nexelit-mk05',
-    icon = '__pyraworesgraphics__/graphics/technology/nexelit-4.png',
-    icon_size = 128,
+    name = 'silver-mk05',
+    icon = '__pyraworesgraphics__/graphics/icons/silver-plate.png',
+    icon_size = 32,
     order = 'c-a',
-    prerequisites = {'nexelit-mk04', 'utility-science-pack'},
+    prerequisites = {'silver-mk04', 'utility-science-pack'},
     effects = {},
     unit = {
         count = 100,

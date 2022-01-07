@@ -2,21 +2,28 @@ local fun = require("prototypes/functions/functions")
 
 -- TECH CHANGES
 TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-processing-2')
-TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):add_prereq('coal-processing-2')
-TECHNOLOGY('ralesia'):remove_prereq('wood-processing'):add_prereq('electrolysis-mk01')
-TECHNOLOGY('energy-1'):remove_prereq('coal-processing-1'):add_prereq('electrolysis-mk01')
-TECHNOLOGY("advanced-material-processing"):add_prereq('iron-mk02')
+TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):remove_prereq('niobium')
+TECHNOLOGY('ralesia'):remove_prereq('wood-processing'):add_prereq('electrolysis')
+TECHNOLOGY('energy-1'):remove_prereq('coal-processing-1'):add_prereq('electrolysis')
+TECHNOLOGY("advanced-material-processing"):remove_prereq('crusher'):remove_prereq('filtration'):add_prereq('stainless-steel-mk01')
 TECHNOLOGY('logistic-science-pack')
-TECHNOLOGY('chemical-science-pack'):remove_prereq('nexelit'):add_prereq('nexelit-mk01'):add_prereq('iron-mk02')
+TECHNOLOGY('chemical-science-pack'):remove_prereq('fine-electronics'):remove_prereq('nexelit'):add_prereq('nexelit-mk01'):add_prereq('iron-mk02'):add_prereq('advanced-electronics'):add_prereq('stainless-steel-mk01')
 TECHNOLOGY("nexelit"):set_fields{enabled = false}:set_fields{hidden = true}
 TECHNOLOGY('chromium'):set_fields{enabled = false}:set_fields{hidden = true}
-TECHNOLOGY("coal-processing-2"):remove_prereq('chromium'):add_prereq('chromium-mk01')
+TECHNOLOGY("coal-processing-2"):remove_prereq("concrete"):remove_prereq('chromium'):add_prereq("nichrome")
 TECHNOLOGY("concrete"):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack')
-TECHNOLOGY('fine-electronics'):add_prereq('iron-mk01'):add_prereq('lead-mk01')
+TECHNOLOGY('fine-electronics'):remove_prereq('sulfur-processing'):remove_prereq('kevlar'):add_prereq('iron-mk01'):add_prereq('silver-mk01'):add_prereq('aramid')
 TECHNOLOGY("coal-processing-1"):remove_prereq("fluid-handling"):add_prereq("steel-processing")
 TECHNOLOGY("separation"):add_prereq("automation")
 TECHNOLOGY("py-asphalt"):remove_pack("logistic-science-pack"):add_prereq("wood-processing")
 TECHNOLOGY("ulric"):add_prereq("fluid-handling")
+TECHNOLOGY("methanol-processing-1"):remove_prereq("engine"):add_prereq("zinc-mk01")
+TECHNOLOGY("niobium"):remove_prereq("crusher")
+TECHNOLOGY("energy-2"):remove_prereq("coal-processing-2"):add_prereq("fuel-production-1")
+TECHNOLOGY("mukmoux"):remove_prereq("coal-processing-2")
+TECHNOLOGY("fluid-separation"):remove_prereq("sulfur-processing")
+TECHNOLOGY('methanol-processing-2'):add_prereq('mukmoux')
+TECHNOLOGY("energy-3"):remove_prereq("fuel-production")
 
 
 -- RECIPE UNLOCKS
@@ -65,6 +72,9 @@ RECIPE('lime'):remove_unlock('concrete'):add_unlock('coal-processing-1')
 RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01')
 RECIPE("fuelrod-mk01"):remove_unlock('advanced-material-processing-2')
 RECIPE("advanced-foundry-mk01"):remove_unlock('nexelit'):add_unlock('smelters-mk01')
+RECIPE("filtration-media"):remove_unlock("advanced-oil-processing"):add_unlock("filtration")
+RECIPE("dirty-reaction"):remove_unlock("fuel-production-2"):add_unlock("fuel-production-1")
+RECIPE("olefin-plant"):add_unlock("fuel-production-1")
 
 
 -- RECIPE CHANGES
@@ -90,7 +100,6 @@ RECIPE('dedicated-oleochemicals'):replace_ingredient("chromium", "titanium-plate
 RECIPE("ppd"):replace_ingredient("water", "hydrogen"):change_category('electrolyzer'):add_ingredient({type = 'fluid', name = 'chlorine', amount = 400})
 RECIPE("aromatics2"):replace_ingredient("water", "hydrogen")
 RECIPE("niobium-complex"):replace_ingredient("water", "hydrogen-chloride")
-RECIPE("tpa"):replace_ingredient("copper-ore", "nichrome")
 RECIPE("chemical-science-pack"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("tailings-classification"):replace_ingredient("copper-ore", "ore-lead") --result
 RECIPE("tailings-classification"):replace_ingredient("iron-ore", "ore-tin") --result

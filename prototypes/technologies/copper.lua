@@ -39,7 +39,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/copper-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'copper-mk02', 'chemical-science-pack'},
+    prerequisites = {'copper-mk02', 'chemical-science-pack', 'additives-mk02'},
     effects = {},
     unit = {
         count = 100,

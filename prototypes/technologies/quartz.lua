@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/quartz-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'quartz-mk01', 'logistic-science-pack', 'filtration'},
+    prerequisites = {'quartz-mk01', 'filtration'},
     effects = {},
     unit = {
         count = 100,
@@ -39,7 +39,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/quartz-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'quartz-mk02', 'chemical-science-pack'},
+    prerequisites = {'quartz-mk02', 'filtration-2', 'salts'},
     effects = {},
     unit = {
         count = 100,

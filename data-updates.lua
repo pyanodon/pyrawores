@@ -76,7 +76,7 @@ RECIPE("utility-science-pack"):add_ingredient({type = "item", name = "super-stee
 RECIPE("pumpjack"):add_ingredient({type = "item", name = "duralumin", amount = 10}):replace_ingredient("pipe", "niobium-pipe")
 
 RECIPE("battery"):replace_ingredient("iron-plate", "zinc-plate")
-RECIPE("oil-refinery"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("steel-plate", "stainless-steel")
+--RECIPE("oil-refinery"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("steel-plate", "stainless-steel")
 RECIPE("electric-furnace"):add_ingredient({type = "item", name = "super-steel", amount = 15})
 RECIPE("steel-furnace"):add_ingredient({type = "item", name = "stainless-steel", amount = 10})
 RECIPE("fast-transport-belt"):add_ingredient({type = "item", name = "stainless-steel", amount = 2})
@@ -158,9 +158,9 @@ RECIPE("py-burner"):remove_ingredient("steel-furnace"):add_ingredient({type = "i
 RECIPE("nuclear-fuel"):replace_ingredient("uranium-235", "fuelrod-mk05")
 TECHNOLOGY("py-burner"):remove_prereq("advanced-material-processing"):add_prereq("coal-processing-1"):remove_pack("logistic-science-pack")
 
-TECHNOLOGY("oil-processing"):remove_prereq("steel-processing"):add_prereq("iron-mk02")
+TECHNOLOGY("oil-processing"):remove_prereq("steel-processing")
 TECHNOLOGY("desulfurization"):remove_prereq("sulfur-processing")
-TECHNOLOGY("sulfur-processing"):remove_prereq("oil-processing"):add_prereq("coal-processing-1")
+TECHNOLOGY("sulfur-processing"):remove_prereq("oil-processing")
 
 
 ITEM("coal").stack_size = 500

@@ -1,10 +1,10 @@
 TECHNOLOGY {
     type = "technology",
     name = "nichrome",
-    icon = "__pyraworesgraphics__/graphics/icons/nichrome.png",
-    icon_size = 128,
+    icon = "__pycoalprocessinggraphics__/graphics/icons/nichrome.png",
+    icon_size = 32,
     order = "c-a",
-    prerequisites = {"chromium-mk01", "nickel-mk01", "filtration"},
+    prerequisites = {"chromium-mk01", "nickel-mk01", "nitrogen"},
     effects = {},
     unit = {
         count = 100,

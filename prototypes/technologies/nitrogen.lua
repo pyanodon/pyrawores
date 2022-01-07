@@ -1,16 +1,18 @@
 TECHNOLOGY {
     type = "technology",
-    name = "electrolysis",
-    icon = "__pyraworesgraphics__/graphics/icons/electrolyzer-mk01.png",
+    name = "nitrogen",
+    icon = "__pyraworesgraphics__/graphics/icons/nitrogen.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"machines-mk01"},
+    prerequisites = {"logistic-science-pack"},
     effects = {},
     unit = {
         count = 100,
         ingredients = {
             {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
         },
         time = 45
     }
 }
+

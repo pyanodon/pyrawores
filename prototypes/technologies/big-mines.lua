@@ -2,9 +2,9 @@ TECHNOLOGY {
     type = "technology",
     name = "big-mines",
     icon = "__pyraworesgraphics__/graphics/icons/mega-iron.png",
-    icon_size = 128,
+    icon_size = 32,
     order = "c-a",
-    prerequisites = {"chemical-science-pack"},
+    prerequisites = {"chemical-science-pack", "construction-robotics"},
     effects = {},
     unit = {
         count = 100,

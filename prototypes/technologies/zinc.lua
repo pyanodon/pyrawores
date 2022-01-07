@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/zinc-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'zinc-mk01', 'logistic-science-pack', 'casting-mk01'},
+    prerequisites = {'fluid-separation'},
     effects = {},
     unit = {
         count = 100,
@@ -39,7 +39,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/zinc-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'zinc-mk02', 'chemical-science-pack'},
+    prerequisites = {'zinc-mk02', 'chemical-science-pack', 'additives-mk03'},
     effects = {},
     unit = {
         count = 100,

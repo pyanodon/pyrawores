@@ -39,7 +39,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/lead-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'lead-mk02', 'chemical-science-pack'},
+    prerequisites = {'chemical-science-pack', 'machines-mk02', 'additives-mk02'},
     effects = {},
     unit = {
         count = 100,

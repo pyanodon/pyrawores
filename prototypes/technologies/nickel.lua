@@ -39,7 +39,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/nickel-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'nickel-mk02', 'chemical-science-pack'},
+    prerequisites = {'nickel-mk02', 'chemical-science-pack', 'salts'},
     effects = {},
     unit = {
         count = 100,

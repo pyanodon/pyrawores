@@ -17,7 +17,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "baa"
-}:add_unlock("electrolysis-mk01")
+}:add_unlock("electrolysis")
 
 FLUID {
     type = "fluid",

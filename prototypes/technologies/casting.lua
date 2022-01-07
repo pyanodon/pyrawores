@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/machines-mk02.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"casting-mk01", "chemical-science-pack"},
+    prerequisites = {"chemical-science-pack"},
     effects = {},
     unit = {
         count = 100,

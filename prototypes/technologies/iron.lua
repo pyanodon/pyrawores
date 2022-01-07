@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/iron-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'iron-mk01', 'logistic-science-pack', 'coal-processing-2'},
+    prerequisites = {'iron-mk01', 'coal-processing-2'},
     effects = {},
     unit = {
         count = 100,
@@ -39,7 +39,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/iron-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'iron-mk02', 'chemical-science-pack'},
+    prerequisites = {'chemical-science-pack', 'additives-mk02'},
     effects = {},
     unit = {
         count = 100,

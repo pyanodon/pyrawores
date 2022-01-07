@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"electrolyzer-mk03", 1}
     }
-}:add_unlock("electrolysis-mk03")
+}:add_unlock("machines-mk04")
 
 ITEM {
     type = "item",
