@@ -19,7 +19,7 @@ TECHNOLOGY("py-asphalt"):remove_pack("logistic-science-pack"):add_prereq("wood-p
 TECHNOLOGY("ulric"):add_prereq("fluid-handling")
 TECHNOLOGY("methanol-processing-1"):remove_prereq("engine"):add_prereq("zinc-mk01")
 TECHNOLOGY("niobium"):remove_prereq("crusher")
-TECHNOLOGY("energy-2"):remove_prereq("coal-processing-2"):add_prereq("fuel-production-1")
+TECHNOLOGY("energy-2"):remove_prereq("coal-processing-2"):add_prereq("fuel-production")
 TECHNOLOGY("mukmoux"):remove_prereq("coal-processing-2")
 TECHNOLOGY("fluid-separation"):remove_prereq("sulfur-processing")
 TECHNOLOGY('methanol-processing-2'):add_prereq('mukmoux')
@@ -73,8 +73,8 @@ RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01')
 RECIPE("fuelrod-mk01"):remove_unlock('advanced-material-processing-2')
 RECIPE("advanced-foundry-mk01"):remove_unlock('nexelit'):add_unlock('smelters-mk01')
 RECIPE("filtration-media"):remove_unlock("advanced-oil-processing"):add_unlock("filtration")
-RECIPE("dirty-reaction"):remove_unlock("fuel-production-2"):add_unlock("fuel-production-1")
-RECIPE("olefin-plant"):add_unlock("fuel-production-1")
+RECIPE("dirty-reaction"):remove_unlock("fuel-production-2"):add_unlock("fuel-production")
+RECIPE("olefin-plant"):add_unlock("fuel-production")
 
 
 -- RECIPE CHANGES

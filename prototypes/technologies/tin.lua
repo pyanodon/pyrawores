@@ -39,7 +39,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/tin-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'tin-mk02', 'chemical-science-pack', 'additives-mk01', 'mukmoux', 'fuel-production-1'},
+    prerequisites = {'tin-mk02', 'chemical-science-pack', 'additives-mk01', 'mukmoux', 'fuel-production'},
     effects = {},
     unit = {
         count = 100,

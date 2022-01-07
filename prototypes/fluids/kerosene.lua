@@ -18,7 +18,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("fuel-production-1")
+}:add_unlock("fuel-production")
 
 
 FLUID {
