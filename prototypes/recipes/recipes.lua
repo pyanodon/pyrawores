@@ -511,29 +511,6 @@ RECIPE {
     }
 }
 
-if not mods["pyhightech"] then
-
-RECIPE {
-    type = "recipe",
-    name = "electronic-circuit-02",
-    category = "crafting-with-fluid",
-    enabled = false,
-    energy_required = 4,
-    ingredients = {
-        {type = "item", name = "wood", amount = 1},
-        {type = "item", name = "copper-plate", amount = 2},
-        {type = "item", name = "tinned-cable", amount = 4},
-        {type = "item", name = "solder", amount = 2},
-        {type = "fluid", name = "boric-acid", amount = 20},
-    },
-    results = {
-        {type = "item", name = "electronic-circuit", amount = 2}
-    },
-    subgroup = "py-rawores-recipes",
-    order = "j"
-}:add_unlock("coal-processing-1")
-end
-
 RECIPE {
     type = "recipe",
     name = "nichrome-2",

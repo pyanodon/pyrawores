@@ -2,7 +2,7 @@
 RECIPE {
     type = "recipe",
     name = "solder-0",
-    enabled = true,
+    enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item", name = "tin-plate", amount = 1},
