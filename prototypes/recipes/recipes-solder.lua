@@ -13,7 +13,7 @@ RECIPE {
     },
     subgroup = "py-rawores-solder",
     order = "j"
-}:add_unlock('coal-processing-1')
+}--:add_unlock('coal-processing-1')
 
 RECIPE {
     type = "recipe",

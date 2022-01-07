@@ -52,7 +52,8 @@ RECIPE("mk02-fluid-wagon"):add_ingredient({type = "item", name = "glass", amount
 
 RECIPE("py-logistic-robot-01"):replace_ingredient("iron-plate", "aluminium-plate"):add_ingredient({type = "item", name = "solder", amount = 5})
 RECIPE("py-construction-robot-01"):replace_ingredient("iron-plate", "aluminium-plate"):add_ingredient({type = "item", name = "solder", amount = 5})
-TECHNOLOGY("construction-robotics"):add_prereq('coal-processing-1'):remove_prereq('steel-processing'):remove_prereq('automation')
+TECHNOLOGY("construction-robotics"):add_prereq('lead-mk01'):add_prereq('aluminium-mk01'):remove_prereq('steel-processing'):remove_prereq('automation')
+TECHNOLOGY("railway-mk01"):add_prereq('lead-mk01')
 
 RECIPE("py-roboport-mk01"):replace_ingredient("iron-plate", "aluminium-plate")
 RECIPE("py-roboport-mk02"):replace_ingredient("steel-plate", "stainless-steel"):add_ingredient({type = "item", name = "niobium-plate", amount = 5}):add_ingredient({type = "item", name = "aluminium-plate", amount = 15})
