@@ -40,8 +40,8 @@ RECIPE("concrete-richclay"):remove_unlock('concrete')
 
 RECIPE("quenching-tower"):remove_unlock('fluid-separation'):add_unlock('machines-mk01')
 
-RECIPE('nexelit-ore-1'):remove_unlock('chemical-science-pack')
-RECIPE('nexelit-plate'):remove_unlock('chemical-science-pack')
+RECIPE('nexelit-ore-1'):remove_unlock('nexelit')
+RECIPE('nexelit-plate'):remove_unlock('nexelit')
 
 
 --Autofactory
