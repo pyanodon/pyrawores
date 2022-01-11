@@ -7,6 +7,7 @@ RECIPE {
         {"leaching-station-mk01", 1},
         {"storage-tank", 3},
         {"duralumin", 15},
+        {"engine-unit", 5},
         {"lead-plate", 10},
         {"nexelit-plate", 15},
         {"advanced-circuit", 10},

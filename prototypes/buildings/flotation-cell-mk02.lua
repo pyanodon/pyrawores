@@ -8,6 +8,7 @@ RECIPE {
         {"duralumin", 15},
         {"lead-plate", 10},
         {"storage-tank", 1},
+        {"engine-unit", 5},
         {"nexelit-plate", 15},
         {"advanced-circuit", 10},
     },

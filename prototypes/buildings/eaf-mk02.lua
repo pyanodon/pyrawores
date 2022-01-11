@@ -7,6 +7,7 @@ RECIPE {
         {"eaf-mk01", 1},
         {"duralumin", 15},
         {"lead-plate", 10},
+        {"engine-unit", 10},
         {"nexelit-plate", 10},
         {"advanced-circuit", 20},
     },

@@ -7,6 +7,7 @@ RECIPE {
         {"lab", 2},
         {"aluminium-plate", 30},
         {"tar-processing-unit", 1},
+        {"steam-engine", 3},
         {"electronic-circuit", 5},
     },
     results = {

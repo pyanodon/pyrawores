@@ -7,6 +7,7 @@ RECIPE {
         {"boiler", 3},
         {"washer", 1},
         {"iron-plate", 15},
+        {"steam-engine", 1},
         {"electronic-circuit", 10},
     },
     results = {

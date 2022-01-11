@@ -8,6 +8,7 @@ RECIPE {
         {"steel-plate", 40},
         {"titanium-plate", 15},
         {"iron-plate", 40},
+        {"steam-engine", 10},
         {"iron-gear-wheel", 50},
         {"electronic-circuit", 5}
     },

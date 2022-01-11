@@ -7,6 +7,7 @@ RECIPE {
         {"bof-mk02", 1},
         {"titanium-plate", 20},
         {"super-steel", 20},
+        {"electric-engine-unit", 5},
         {"glass", 20},
         {"tin-plate", 20},
         {"processing-unit", 10}

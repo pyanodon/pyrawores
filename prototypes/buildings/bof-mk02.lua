@@ -7,6 +7,7 @@ RECIPE {
         {"bof-mk01", 1},
         {"duralumin", 15},
         {"lead-plate", 10},
+        {"engine-unit", 5},
         {"nexelit-plate", 15},
         {"advanced-circuit", 10},
     },
