@@ -74,7 +74,7 @@ RECIPE("military-science-pack"):add_ingredient({type = "item", name = "lead-plat
 RECIPE("laser-turret"):replace_ingredient("steel-plate", "duralumin")
 RECIPE("engine-unit"):remove_ingredient("steel-plate"):add_ingredient({type = "item", name = "aluminium-plate", amount = 5})
 RECIPE("electric-engine-unit"):add_ingredient({type = "item", name = "duralumin", amount = 5})
-RECIPE("utility-science-pack"):add_ingredient({type = "item", name = "super-steel", amount = 6}):replace_ingredient("copper-cable", "tinned-cable"):replace_ingredient("nuclear-fuel", "uranium-fuel-cell-mk03")
+RECIPE("utility-science-pack"):add_ingredient({type = "item", name = "super-alloy", amount = 5}):replace_ingredient("copper-cable", "tinned-cable"):replace_ingredient("nuclear-fuel", "uranium-fuel-cell-mk03")
 RECIPE("pumpjack"):add_ingredient({type = "item", name = "duralumin", amount = 10}):replace_ingredient("pipe", "niobium-pipe")
 
 RECIPE("battery"):replace_ingredient("iron-plate", "zinc-plate")
