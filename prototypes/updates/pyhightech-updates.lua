@@ -96,6 +96,7 @@ RECIPE("py-logistic-robot-02"):add_ingredient({type = "item", name = "nexelit-ba
 RECIPE("ht-locomotive"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 60}):add_ingredient({type = "item", name = "nickel-plate", amount = 50})
 RECIPE("ht-generic-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 10})
 RECIPE("ht-generic-fluid-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 10})
+RECIPE("ceramic"):remove_unlock("vacuum-tube-electronics"):add_unlock("kicalk")
 
 
 RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 10})
@@ -479,7 +480,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-3")
 
 RECIPE {
     type = "recipe",
@@ -504,7 +505,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("helium-processing")
+}:add_unlock("nucleo-3")
 
 RECIPE {
     type = "recipe",
@@ -529,7 +530,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("helium-processing")
+}:add_unlock("nucleo-3")
 
 RECIPE {
     type = "recipe",
@@ -554,7 +555,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-3")
 
 RECIPE {
     type = "recipe",
@@ -579,7 +580,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-2")
 
 RECIPE {
     type = "recipe",
@@ -704,7 +705,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-2")
 
 RECIPE {
     type = "recipe",
@@ -729,7 +730,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("vanadium-processing")
+}:add_unlock("nucleo-2")
 
 RECIPE {
     type = "recipe",
