@@ -40,7 +40,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/zinc-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'zinc-mk02', 'chemical-science-pack', 'additives-mk03'},
+    prerequisites = {'zinc-mk02', 'chemical-science-pack'},
     dependencies = {'zinc-mk02'},
     effects = {},
     unit = {
