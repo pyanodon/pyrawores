@@ -1,5 +1,6 @@
 -- TECH CHANGES
-TECHNOLOGY('uranium-processing'):set_field{enabled = false}:set_field{hidden = true}:set_field{prerequisites={}}
+data.raw.technology['uranium-processing'].enabled = false
+data.raw.technology['uranium-processing'].hidden = true
 --data.raw.technology["uranium-processing"] = nil
 TECHNOLOGY("kovarex-enrichment-process"):remove_prereq('uranium-processing'):add_prereq('uranium-mk02'):remove_prereq('rocket-fuel')
 TECHNOLOGY("utility-science-pack"):remove_prereq('kovarex-enrichment-process')
@@ -21,7 +22,7 @@ TECHNOLOGY("nuclear-power"):remove_prereq("uranium-processing"):add_prereq("supe
 TECHNOLOGY("electric-energy-distribution-2"):remove_prereq("chemical-science-pack"):add_prereq("super-steel-mk01")
 TECHNOLOGY("advanced-material-processing-2"):remove_prereq("chemical-science-pack"):add_prereq("super-steel-mk01")
 TECHNOLOGY("logistics-2"):remove_prereq("niobium"):add_prereq("stainless-steel-mk01")
-
+TECHNOLOGY("atomic-bomb"):add_pack("space-science-pack")
 
 -- RECIPE UNLOCKS
 RECIPE("uranium-processing"):remove_unlock('uranium-processing')

@@ -22,6 +22,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"py-storage-tanks", "coal-processing-2"},
+    dependencies = {'machines-mk01'},
     effects = {},
     unit = {
         count = 100,
@@ -40,6 +41,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"machines-mk02", "chemical-science-pack", "logistics-2"},
+    dependencies = {'machines-mk02'},
     effects = {},
     unit = {
         count = 100,
@@ -59,6 +61,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk03', 'production-science-pack'},
+    dependencies = {'machines-mk03'},
     effects = {},
     unit = {
         count = 100,
@@ -79,6 +82,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk04', 'utility-science-pack'},
+    dependencies = {'machines-mk04'},
     effects = {},
     unit = {
         count = 100,
@@ -86,6 +90,7 @@ TECHNOLOGY {
             {'automation-science-pack', 1},
             {'logistic-science-pack', 1},
             {'chemical-science-pack', 1},
+            {'military-science-pack', 1},
             {'production-science-pack', 1},
             {'utility-science-pack', 1}
         },

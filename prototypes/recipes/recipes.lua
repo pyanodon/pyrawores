@@ -233,7 +233,7 @@ RECIPE {
         {type = 'item', name = 'iron-ore', amount = 3},
     },
     main_product = "p2s5",
-}:add_unlock("additives-mk02"):replace_ingredient("stone", "phosphate-rock")
+}:add_unlock("additives"):replace_ingredient("stone", "phosphate-rock")
 
 RECIPE {
     type = 'recipe',
@@ -250,7 +250,7 @@ RECIPE {
         {type = 'item', name = 'pyrite', amount = 1},
     },
     main_product = "p2s5",
-}:add_unlock("additives-mk02"):replace_ingredient("stone", "phosphate-rock")
+}:add_unlock("additives"):replace_ingredient("stone", "phosphate-rock")
 
 RECIPE {
     type = "recipe",

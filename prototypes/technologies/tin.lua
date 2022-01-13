@@ -22,6 +22,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'tin-mk01', 'copper-mk02'},
+    dependencies = {'tin-mk01'},
     effects = {},
     unit = {
         count = 100,
@@ -39,7 +40,8 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/tin-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'tin-mk02', 'chemical-science-pack', 'additives-mk01', 'mukmoux', 'fuel-production'},
+    prerequisites = {'tin-mk02', 'chemical-science-pack', 'mibc', 'mukmoux', 'fuel-production'},
+    dependencies = {'tin-mk02'},
     effects = {},
     unit = {
         count = 100,
@@ -59,6 +61,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'tin-mk03', 'production-science-pack'},
+    dependencies = {'tin-mk03'},
     effects = {},
     unit = {
         count = 100,
@@ -79,6 +82,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'tin-mk04', 'utility-science-pack'},
+    dependencies = {'tin-mk04'},
     effects = {},
     unit = {
         count = 100,
@@ -86,6 +90,7 @@ TECHNOLOGY {
             {'automation-science-pack', 1},
             {'logistic-science-pack', 1},
             {'chemical-science-pack', 1},
+            {'military-science-pack', 1},
             {'production-science-pack', 1},
             {'utility-science-pack', 1}
         },

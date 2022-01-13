@@ -23,6 +23,7 @@ TECHNOLOGY {
     icon_size = 32,
     order = 'c-a',
     prerequisites = {'chemical-science-pack', 'lead-mk03'},
+    dependencies = {'silver-mk01'},
     effects = {},
     unit = {
         count = 100,
@@ -42,6 +43,7 @@ TECHNOLOGY {
     icon_size = 32,
     order = 'c-a',
     prerequisites = {'silver-mk02', 'production-science-pack'},
+    dependencies = {'silver-mk02'},
     effects = {},
     unit = {
         count = 100,
@@ -62,6 +64,7 @@ TECHNOLOGY {
     icon_size = 32,
     order = 'c-a',
     prerequisites = {'silver-mk03', 'utility-science-pack'},
+    dependencies = {'silver-mk03'},
     effects = {},
     unit = {
         count = 100,
@@ -69,6 +72,7 @@ TECHNOLOGY {
             {'automation-science-pack', 1},
             {'logistic-science-pack', 1},
             {'chemical-science-pack', 1},
+            {'military-science-pack', 1},
             {'production-science-pack', 1},
             {'utility-science-pack', 1},
         },
@@ -83,6 +87,7 @@ TECHNOLOGY {
     icon_size = 32,
     order = 'c-a',
     prerequisites = {'silver-mk04', 'utility-science-pack'},
+    dependencies = {'silver-mk04'},
     effects = {},
     unit = {
         count = 100,
@@ -90,6 +95,7 @@ TECHNOLOGY {
             {'automation-science-pack', 1},
             {'logistic-science-pack', 1},
             {'chemical-science-pack', 1},
+            {'military-science-pack', 1},
             {'production-science-pack', 1},
             {'utility-science-pack', 1},
             {'space-science-pack', 1},

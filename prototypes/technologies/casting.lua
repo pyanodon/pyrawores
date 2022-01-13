@@ -22,6 +22,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"chemical-science-pack"},
+    dependencies = {'casting-mk01'},
     effects = {},
     unit = {
         count = 100,
@@ -41,6 +42,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"casting-mk02", "production-science-pack"},
+    dependencies = {'casting-mk02'},
     effects = {},
     unit = {
         count = 100,
@@ -61,6 +63,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"casting-mk03", "utility-science-pack"},
+    dependencies = {'casting-mk03'},
     effects = {},
     unit = {
         count = 100,
@@ -68,6 +71,7 @@ TECHNOLOGY {
             {'automation-science-pack', 1},
             {'logistic-science-pack', 1},
             {'chemical-science-pack', 1},
+            {'military-science-pack', 1},
             {'production-science-pack', 1},
             {'utility-science-pack', 1}
         },

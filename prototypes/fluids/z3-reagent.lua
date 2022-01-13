@@ -14,7 +14,7 @@ RECIPE {
     },
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("additives-mk02"):replace_ingredient("sulfuric-acid", "phosphorous-acid"):replace_ingredient("organic-solvent", "carbon-sulfide")
+}:add_unlock("additives"):replace_ingredient("sulfuric-acid", "phosphorous-acid"):replace_ingredient("organic-solvent", "carbon-sulfide")
 
 
 FLUID {

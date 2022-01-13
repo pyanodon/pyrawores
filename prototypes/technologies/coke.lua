@@ -22,6 +22,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'coke-mk01', 'filtration'},
+    dependencies = {'coke-mk01'},
     effects = {},
     unit = {
         count = 100,
@@ -40,6 +41,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'coke-mk02', 'chemical-science-pack', 'machines-mk02'},
+    dependencies = {'coke-mk02'},
     effects = {},
     unit = {
         count = 100,

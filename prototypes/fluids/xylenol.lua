@@ -13,7 +13,7 @@ RECIPE {
     main_product = "xylenol",
     subgroup = "py-rawores-fluids",
     order = "q-1"
-}:add_unlock("additives-mk03")
+}:add_unlock("additives")
 
 RECIPE {
     type = "recipe",
@@ -32,7 +32,7 @@ RECIPE {
     main_product = "xylenol",
     subgroup = "py-rawores-fluids",
     order = "q-1"
-}:add_unlock("additives-mk03"):add_ingredient({type = "item", name = "phenol", amount = 10})
+}:add_unlock("additives"):add_ingredient({type = "item", name = "phenol", amount = 10})
 
 
 FLUID {

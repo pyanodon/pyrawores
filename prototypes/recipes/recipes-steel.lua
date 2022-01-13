@@ -245,7 +245,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-stainless-steel", amount = 50},
-        {type = "item", name = "fuelrod-mk05", amount = 3},
+        {type = "item", name = "fuelrod-mk04", amount = 3},
         {type = "fluid", name = "niobium-complex", amount = 20},
     },
     results = {

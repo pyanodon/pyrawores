@@ -22,6 +22,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"logistic-science-pack", "casting-mk01"},
+    dependencies = {'lead-mk01'},
     effects = {},
     unit = {
         count = 100,
@@ -39,7 +40,8 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/lead-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'chemical-science-pack', 'machines-mk02', 'additives-mk02'},
+    prerequisites = {'chemical-science-pack', 'machines-mk02', 'additives'},
+    dependencies = {'lead-mk02'},
     effects = {},
     unit = {
         count = 100,
@@ -59,6 +61,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'lead-mk03', 'production-science-pack'},
+    dependencies = {'lead-mk03'},
     effects = {},
     unit = {
         count = 100,
@@ -79,6 +82,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'lead-mk04', 'utility-science-pack'},
+    dependencies = {'lead-mk04'},
     effects = {},
     unit = {
         count = 100,
@@ -86,6 +90,7 @@ TECHNOLOGY {
             {'automation-science-pack', 1},
             {'logistic-science-pack', 1},
             {'chemical-science-pack', 1},
+            {'military-science-pack', 1},
             {'production-science-pack', 1},
             {'utility-science-pack', 1}
         },

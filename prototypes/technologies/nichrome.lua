@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pycoalprocessinggraphics__/graphics/icons/nichrome.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"chromium-mk01", "nickel-mk01", "nitrogen"},
+    prerequisites = {"chromium-mk01", "nickel-mk01"},
     effects = {},
     unit = {
         count = 100,

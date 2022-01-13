@@ -22,6 +22,7 @@ TECHNOLOGY {
     icon_size = 32,
     order = 'c-a',
     prerequisites = {'solder-mk01', 'tin-mk02', 'silver-mk01'},
+    dependencies = {'solder-mk01'},
     effects = {},
     unit = {
         count = 100,
@@ -40,6 +41,7 @@ TECHNOLOGY {
     icon_size = 32,
     order = 'c-a',
     prerequisites = {'solder-mk02', 'chemical-science-pack', 'silver-mk02'},
+    dependencies = {'solder-mk02'},
     effects = {},
     unit = {
         count = 100,
@@ -59,6 +61,7 @@ TECHNOLOGY {
     icon_size = 32,
     order = 'c-a',
     prerequisites = {'solder-mk03', 'production-science-pack'},
+    dependencies = {'solder-mk03'},
     effects = {},
     unit = {
         count = 100,
@@ -79,6 +82,7 @@ TECHNOLOGY {
     icon_size = 32,
     order = 'c-a',
     prerequisites = {'solder-mk04', 'utility-science-pack'},
+    dependencies = {'solder-mk04'},
     effects = {},
     unit = {
         count = 100,
@@ -86,6 +90,7 @@ TECHNOLOGY {
             {'automation-science-pack', 1},
             {'logistic-science-pack', 1},
             {'chemical-science-pack', 1},
+            {'military-science-pack', 1},
             {'production-science-pack', 1},
             {'utility-science-pack', 1}
         },

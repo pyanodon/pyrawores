@@ -22,6 +22,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'coal-mk01', 'logistic-science-pack'},
+    dependencies = {'coal-mk01'},
     effects = {},
     unit = {
         count = 100,
@@ -40,6 +41,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'coal-mk02', 'chemical-science-pack', 'fuel-production-2'},
+    dependencies = {'coal-mk02'},
     effects = {},
     unit = {
         count = 100,
@@ -59,6 +61,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'coal-mk03', 'utility-science-pack'},
+    dependencies = {'coal-mk03'},
     effects = {},
     unit = {
         count = 100,
@@ -66,6 +69,8 @@ TECHNOLOGY {
             {'automation-science-pack', 1},
             {'logistic-science-pack', 1},
             {'chemical-science-pack', 1},
+            {'military-science-pack', 1},
+            {'production-science-pack', 1},
             {'utility-science-pack', 1}
         },
         time = 60

@@ -66,7 +66,7 @@ RECIPE('crushed-copper'):remove_unlock('advanced-material-processing')
 RECIPE('crushing-iron'):remove_unlock('advanced-material-processing')
 RECIPE('crushed-iron'):remove_unlock('advanced-material-processing')
 RECIPE("steel-plate2"):remove_unlock('advanced-material-processing-2')
-RECIPE('calcium-carbide'):remove_unlock('coal-processing-2'):add_unlock('coal-processing-1')
+RECIPE('calcium-carbide'):remove_unlock('filtration-2'):add_unlock('coal-processing-1')
 RECIPE('lime'):remove_unlock('concrete'):add_unlock('coal-processing-1')
 --RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01'):remove_ingredient('chemical-plant-mk01')
 RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01')
@@ -74,8 +74,9 @@ RECIPE("fuelrod-mk01"):remove_unlock('advanced-material-processing-2')
 RECIPE("advanced-foundry-mk01"):remove_unlock('nexelit'):add_unlock('smelters-mk01')
 RECIPE("filtration-media"):remove_unlock("advanced-oil-processing"):add_unlock("filtration")
 RECIPE("dirty-reaction"):remove_unlock("fuel-production-2"):add_unlock("fuel-production")
-RECIPE("olefin-plant"):add_unlock("fuel-production")
-
+RECIPE("gasoline"):remove_unlock("fuel-production-2"):add_unlock("fuel-production")
+RECIPE("olefin-plant"):remove_unlock("lubricant"):add_unlock("fuel-production")
+RECIPE("oleo-heavy"):remove_unlock("fluid-separation"):add_unlock("mukmoux")
 
 -- RECIPE CHANGES
 fun.results_replacer("richdust-separation", "chromite-sand", "chromite-sand",3)
@@ -145,6 +146,7 @@ RECIPE("equipment-chassi"):replace_ingredient("iron-plate", "duralumin")
 RECIPE("glass"):set_fields{enabled = false}:set_fields{hidden = true}
 
 
+
 RECIPE('distilator-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "duralumin", amount = 20}):add_ingredient({type = "item", name = "stainless-steel", amount = 30})
 RECIPE('distilator-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "super-steel", amount = 30})
 RECIPE('distilator-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "lead-plate", amount = 20})
@@ -161,7 +163,7 @@ RECIPE('ball-mill-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "ite
 RECIPE('ball-mill-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 50}):add_ingredient({type = "item", name = "super-steel", amount = 15})
 RECIPE('ball-mill-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "lead-plate", amount = 30})
 
-RECIPE('borax-mine'):remove_unlock('energy-1'):set_fields{enabled = true}
+RECIPE('borax-mine'):remove_unlock('boron'):set_fields{enabled = true}
 RECIPE('borax-mine-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "duralumin", amount = 15}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE('borax-mine-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "super-steel", amount = 30})
 RECIPE('borax-mine-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "lead-plate", amount = 20})
@@ -304,94 +306,6 @@ RECIPE {
     subgroup = "py-combustion",
     order = "k"
 }:add_unlock("energy-2")
-
-RECIPE {
-    type = "recipe",
-    name = "fuelrodmk02-combustion",
-    category = "combustion",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "fluid", name = "hydrogen", amount = 50},
-        {type = "fluid", name = "water", amount = 500},
-        {type = "item", name = "fuelrod-mk02", amount = 1}
-    },
-    results = {
-        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 800},
-        {type = "fluid", name = "steam", amount = 500, temperature = 100}
-    },
-    icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk02.png",
-    icon_size = 32,
-    --main_product = "combustion-mixture1",
-    subgroup = "py-combustion",
-    order = "k"
-}:add_unlock("fuel-production")
-
-RECIPE {
-    type = "recipe",
-    name = "fuelrodmk03-combustion",
-    category = "combustion",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "fluid", name = "hydrogen", amount = 50},
-        {type = "fluid", name = "water", amount = 500},
-        {type = "item", name = "fuelrod-mk03", amount = 1}
-    },
-    results = {
-        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 850},
-        {type = "fluid", name = "steam", amount = 500, temperature = 125}
-    },
-    icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk03.png",
-    icon_size = 32,
-    --main_product = "combustion-mixture1",
-    subgroup = "py-combustion",
-    order = "k"
-}:add_unlock("fuel-production")
-
-RECIPE {
-    type = "recipe",
-    name = "fuelrodmk04-combustion",
-    category = "combustion",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "fluid", name = "hydrogen", amount = 50},
-        {type = "fluid", name = "water", amount = 500},
-        {type = "item", name = "fuelrod-mk04", amount = 1}
-    },
-    results = {
-        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 900},
-        {type = "fluid", name = "steam", amount = 500, temperature = 150}
-    },
-    icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk04.png",
-    icon_size = 32,
-    --main_product = "combustion-mixture1",
-    subgroup = "py-combustion",
-    order = "k"
-}:add_unlock("fuel-production")
-
-RECIPE {
-    type = "recipe",
-    name = "fuelrodmk05-combustion",
-    category = "combustion",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "fluid", name = "hydrogen", amount = 50},
-        {type = "fluid", name = "water", amount = 500},
-        {type = "item", name = "fuelrod-mk05", amount = 1}
-    },
-    results = {
-        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 950},
-        {type = "fluid", name = "steam", amount = 500, temperature = 200}
-    },
-    icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk05.png",
-    icon_size = 32,
-    --main_product = "combustion-mixture1",
-    subgroup = "py-combustion",
-    order = "k"
-}:add_unlock("fuel-production")
 
 RECIPE {
     type = "recipe",
@@ -760,48 +674,6 @@ RECIPE {
         {type = "item", name = "drill-head", amount = 10}
     }
 }:add_unlock("iron-mk02")
-
-RECIPE {
-    type = "recipe",
-    name = "diesel",
-    category = "olefin",
-    enabled = false,
-    energy_required = 1.5,
-    ingredients = {
-        {type = "item", name = "nexelit-plate", amount = 2},
-        {type = "fluid", name = "methanol", amount = 100},
-        {type = "fluid", name = "carbon-dioxide", amount = 200}
-    },
-    results = {
-        {type = "fluid", name = "diesel", amount = 150},
-        {type = "fluid", name = "olefin", amount = 100}
-    },
-    main_product = "diesel",
-    icon = "__pycoalprocessinggraphics__/graphics/icons/diesel.png",
-    icon_size = 32,
-    subgroup = "py-fluids",
-    order = "d1"
-}:add_unlock("fuel-production")
-
-RECIPE {
-    type = "recipe",
-    name = "diesel2",
-    category = "olefin",
-    enabled = false,
-    energy_required = 1.5,
-    ingredients = {
-        {type = "item", name = "nexelit-plate", amount = 2},
-        {type = "fluid", name = "olefin", amount = 200}
-    },
-    results = {
-        {type = "fluid", name = "diesel", amount = 200}
-    },
-    main_product = "diesel",
-    icon = "__pycoalprocessinggraphics__/graphics/icons/diesel.png",
-    icon_size = 32,
-    subgroup = "py-fluids",
-    order = "d2"
-}:add_unlock("fuel-production")
 
 
 --DIESEL to CM1

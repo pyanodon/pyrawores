@@ -13,7 +13,7 @@ RECIPE {
     main_product = "purest-nitrogen-gas",
     subgroup = "py-rawores-fluids",
     order = "dab"
-}:add_unlock("nitrogen"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("nitrogen-mk01"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 FLUID {
     type = "fluid",

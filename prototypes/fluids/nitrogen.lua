@@ -14,7 +14,7 @@ RECIPE {
     main_product = "nitrogen",
     subgroup = "py-rawores-fluids",
     order = "daa"
-}:add_unlock("filtration")
+}:add_unlock("nitrogen-mk02")
 
 FLUID {
     type = "fluid",

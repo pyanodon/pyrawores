@@ -9,9 +9,10 @@ TECHNOLOGY {
     icon_size = fp.icon_size,
     order = "c-a",
     prerequisites = { 'fuel-production' },
-    effects = fp.effects,
-    unit = fp.unit
+    dependencies = { 'fuel-production' },
+    effects = table.deep_copy(fp.effects),
+    unit = table.deep_copy(fp.unit)
 }
 
-TECHNOLOGY('fuel-production'):remove_pack('chemical-science-pack')
-
+fp:remove_pack('chemical-science-pack')
+fp.effects = {}

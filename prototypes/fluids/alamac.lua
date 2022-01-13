@@ -16,7 +16,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("additives-mk03")
+}:add_unlock("additives")
 
 
 FLUID {

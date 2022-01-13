@@ -23,6 +23,7 @@ TECHNOLOGY {
     icon_size = 32,
     order = "c-a",
     prerequisites = {"chemical-science-pack", "chromium-mk03"},
+    dependencies = {'stainless-steel-mk01'},
     effects = {},
     unit = {
         count = 100,
@@ -30,6 +31,7 @@ TECHNOLOGY {
             {"automation-science-pack", 1},
             {"logistic-science-pack", 1},
             {"chemical-science-pack", 1},
+            {"production-science-pack", 1},
         },
         time = 60
     }

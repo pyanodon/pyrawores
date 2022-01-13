@@ -24,6 +24,7 @@ TECHNOLOGY {
     icon_size = 32,
     order = "c-a",
     prerequisites = {"production-science-pack", "super-steel-mk01"},
+    dependencies = {'super-steel-mk01'},
     effects = {},
     unit = {
         count = 100,
@@ -31,7 +32,9 @@ TECHNOLOGY {
             {"automation-science-pack", 1},
             {"logistic-science-pack", 1},
             {"chemical-science-pack", 1},
+            {'military-science-pack', 1},
             {"production-science-pack", 1},
+            {"utility-science-pack", 1},
         },
         time = 60
     }
