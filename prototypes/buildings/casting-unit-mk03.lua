@@ -9,6 +9,7 @@ RECIPE {
         {"stainless-steel", 20},
         {"storage-tank", 1},
         {"tin-plate", 20},
+        {"electric-engine-unit", 10},
         {"processing-unit", 10}
     },
     results = {

@@ -151,9 +151,9 @@ RECIPE('distilator-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "it
 RECIPE('distilator-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "super-steel", amount = 30})
 RECIPE('distilator-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "lead-plate", amount = 20})
 
-RECIPE('advanced-foundry-mk02'):add_unlock('smelters-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 30}):add_ingredient({type = "item", name = "engine-unit", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 15})
-RECIPE('advanced-foundry-mk03'):add_unlock('smelters-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "super-steel", amount = 20})
-RECIPE('advanced-foundry-mk04'):add_unlock('smelters-mk04'):add_ingredient({type = "item", name = "lead-plate", amount = 40})
+RECIPE('advanced-foundry-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "duralumin", amount = 30}):add_ingredient({type = "item", name = "stainless-steel", amount = 15})
+RECIPE('advanced-foundry-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "super-steel", amount = 20})
+RECIPE('advanced-foundry-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "lead-plate", amount = 40})
 
 RECIPE('automated-factory-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "duralumin", amount = 30}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE('automated-factory-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 30}):add_ingredient({type = "item", name = "super-steel", amount = 30})

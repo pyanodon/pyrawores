@@ -7,6 +7,7 @@ RECIPE {
         {"boiler", 5},
         {"electric-mining-drill", 1},
         {"steel-plate", 25},
+        {"steam-engine", 3},
         {"electronic-circuit", 10},
     },
     results = {

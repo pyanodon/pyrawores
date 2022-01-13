@@ -9,6 +9,7 @@ RECIPE {
         {"lead-plate", 40},
         {"nexelit-plate", 15},
         {"advanced-circuit", 10},
+        {"engine-unit", 20},
     },
     results = {
         {"smelter-mk02", 1}

@@ -9,6 +9,7 @@ RECIPE {
         {"duralumin", 30},
         {"lead-plate", 30},
         {"nexelit-plate", 20},
+        {"electric-engine-unit", 20},
         {"processing-unit", 10},
     },
     results = {

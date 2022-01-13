@@ -8,6 +8,7 @@ RECIPE {
         {"iron-plate", 30},
         {"radar", 2},
         {"tinned-cable", 20},
+        {"steam-engine", 6},
         {"electronic-circuit", 5},
     },
     results = {

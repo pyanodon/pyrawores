@@ -7,6 +7,7 @@ RECIPE {
         {"hydroclassifier-mk02", 1},
         {"titanium-plate", 20},
         {"stainless-steel", 20},
+        {"electric-engine-unit", 6},
         {"tin-plate", 20},
         {"processing-unit", 10}
     },
