@@ -18,7 +18,7 @@ RECIPE("aramid"):add_ingredient({type = 'item', name = 'molybdenum-plate', amoun
 RECIPE("steam-heating"):remove_ingredient("fuelrod-mk01"):add_ingredient({type = "item", name = "fuelrod-mk01", amount = 1})
 RECIPE("hydrocyclone-mk01"):replace_ingredient("centrifuge", "classifier")
 --RECIPE("hydrocyclone-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
-RECIPE("py-heat-exchanger"):remove_unlock("fusion-1"):add_unlock("machines-mk02")
+RECIPE("py-heat-exchanger"):remove_unlock("fusion-mk01"):add_unlock("machines-mk02")
 
 --RECIPE("mixer-mk01"):remove_unlock("advanced-mining-facilities"):remove_unlock("basic-electronics"):add_unlock("machines-mk01")
 RECIPE("mixer-mk01"):replace_ingredient("iron-plate", "aluminium-plate"):replace_ingredient("chemical-plant-mk01", "washer")

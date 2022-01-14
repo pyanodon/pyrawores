@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "u-pulp-03", amount = 100},
         {type = "item", name = "iron-ore-dust", amount = 3},
-        {type = "fluid", name = "steam", amount = 200, minimum_temperature = 165},
+        {type = "fluid", name = "steam", amount = 200},
     },
     results = {
         {type = "fluid", name = "u-rich-pulp", amount = 100},

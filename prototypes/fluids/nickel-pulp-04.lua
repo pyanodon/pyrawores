@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "nickel-pulp-03", amount = 100},
-        {type = "fluid", name = "steam", amount = 200, temperature = 165},
+        {type = "fluid", name = "steam", amount = 200},
         {type = "fluid", name = "aerofloat-15", amount = 50},
     },
     results = {

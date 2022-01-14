@@ -46,7 +46,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "sodium-aluminate", amount = 2},
-        {type = "fluid", name = "steam", amount = 300, temperature = 165} --pyfe pressured air
+        {type = "fluid", name = "steam", amount = 300} --pyfe pressured air
     },
     results = {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 2}
