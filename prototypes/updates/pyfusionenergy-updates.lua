@@ -305,7 +305,7 @@ RECIPE {
     main_product = "nitrogen",
     subgroup = "py-rawores-fluids",
     order = "dac"
-}:add_unlock("machines-mk04")
+}:add_unlock("nitrogen-mk03")
 
 RECIPE {
     type = "recipe",
