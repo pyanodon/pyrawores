@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"phosphate-mine-02", 1}
     }
-}:add_unlock("advanced-electronics")
+}:add_unlock("big-mines")
 
 ITEM {
     type = "item",

@@ -221,7 +221,7 @@ RECIPE {
     },
     main_product = "sintered-ti",
     subgroup = "py-rawores-titanium",
-}:add_unlock("titanium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("titanium-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
 
@@ -324,7 +324,7 @@ RECIPE {
     icons = composite_molten_icon("molten-titanium", "sintered-ti"),
     subgroup = "py-rawores-titanium",
     order = "bad"
-}:add_unlock("titanium-mk04")
+}:add_unlock("titanium-mk05")
 
 --CASTINGS
 
@@ -363,7 +363,7 @@ RECIPE {
     main_product = "titanium-plate",
     subgroup = "py-rawores-titanium",
     order = "aad"
-}:add_unlock("titanium-mk01")
+}:add_unlock("coal-processing-1")
 
 --PLATES
 

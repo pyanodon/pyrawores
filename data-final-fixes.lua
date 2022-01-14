@@ -1,4 +1,3 @@
-RECIPE('pressured-air'):remove_unlock('semiconductor-doping')
 
 --[[
 local entities = {}

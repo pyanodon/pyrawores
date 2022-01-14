@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "u-pulp-01", amount = 100},
-        {type = "fluid", name = "steam", amount = 300, minimum_temperature = 165},
+        {type = "fluid", name = "steam", amount = 300},
     },
     results = {
         {type = "fluid", name = "u-pulp-02", amount = 100},
@@ -27,8 +27,6 @@ FLUID {
     flow_color = {r = 0.180, g = 0.756, b = 0.196},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-rawores-uranium",
     order = "c"
 }

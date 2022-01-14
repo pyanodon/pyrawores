@@ -178,7 +178,7 @@ RECIPE {
     },
     main_product = "sintered-zinc",
     subgroup = "py-rawores-zinc",
-}:add_unlock("zinc-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("zinc-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
 
@@ -275,7 +275,7 @@ RECIPE {
     main_product = "molten-zinc",
     subgroup = "py-rawores-zinc",
     order = "bac"
-}:add_unlock("zinc-mk04")
+}:add_unlock("zinc-mk05")
 
 --CASTINGS
 

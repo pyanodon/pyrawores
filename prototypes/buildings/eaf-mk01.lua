@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"eaf-mk01", 1}
     }
-}:add_unlock("aluminium-mk01")
+}:add_unlock("smelters-mk01")
 
 ITEM {
     type = "item",

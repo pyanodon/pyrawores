@@ -186,7 +186,7 @@ RECIPE {
     },
     main_product = "sintered-copper",
     subgroup = "py-rawores-copper",
-}:add_unlock("copper-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("copper-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
 
@@ -226,7 +226,7 @@ RECIPE {
     main_product = "molten-copper",
     subgroup = "py-rawores-copper",
     order = "bac"
-}:add_unlock("copper-mk04")
+}:add_unlock("copper-mk05")
 
 RECIPE {
     type = "recipe",

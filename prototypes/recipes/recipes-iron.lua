@@ -243,7 +243,7 @@ RECIPE {
     },
     main_product = "sintered-iron",
     subgroup = "py-rawores-iron",
-}:add_unlock("iron-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("iron-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 
 
@@ -344,7 +344,7 @@ RECIPE {
     main_product = "molten-iron",
     subgroup = "py-rawores-iron",
     order = "bac"
-}:add_unlock("iron-mk04")
+}:add_unlock("iron-mk05")
 
 
 
@@ -371,19 +371,19 @@ RECIPE {
 
 ---EXTRA PLATE---
 
-RECIPE {
-    type = "recipe",
-    name = "low-grade-smelting-iron",
-    category = "smelting",
-    enabled = false,
-    energy_required = 12,
-    ingredients = {
-        {type = "item", name = "processed-iron-ore", amount = 3},
-    },
-    results = {
-        {type = "item", name = "iron-plate", amount = 1}
-    },
-    main_product= "iron-plate",
-    subgroup = "py-rawores-iron",
-    order = "aab"
-}:add_unlock("iron-mk01")
+-- RECIPE {
+--     type = "recipe",
+--     name = "low-grade-smelting-iron",
+--     category = "smelting",
+--     enabled = false,
+--     energy_required = 12,
+--     ingredients = {
+--         {type = "item", name = "processed-iron-ore", amount = 3},
+--     },
+--     results = {
+--         {type = "item", name = "iron-plate", amount = 1}
+--     },
+--     main_product= "iron-plate",
+--     subgroup = "py-rawores-iron",
+--     order = "aab"
+-- }:add_unlock("iron-mk01")

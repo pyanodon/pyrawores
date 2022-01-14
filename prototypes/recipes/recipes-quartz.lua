@@ -34,7 +34,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/powdered-quartz.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
-}:add_unlock("quartz-mk01")
+}:add_unlock("quartz-mk02")
 
 RECIPE {
     type = "recipe",
@@ -54,7 +54,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/purified-quartz.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
-}:add_unlock("quartz-mk02")
+}:add_unlock("quartz-mk03")
 
 RECIPE {
     type = "recipe",
@@ -74,7 +74,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/high-grade-quartz.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
-}:add_unlock("quartz-mk03")
+}:add_unlock("quartz-mk05")
 
 RECIPE {
     type = "recipe",
@@ -94,7 +94,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/class-sand.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
-}:add_unlock("quartz-mk02")
+}:add_unlock("quartz-mk03")
 
 
 --GLASS--
@@ -104,7 +104,7 @@ RECIPE {
     type = "recipe",
     name = "glass-1",
     category = "glassworks",
-    enabled = false,
+    enabled = true,
     energy_required = 5,
     ingredients = {
         {type = "item", name = "ore-quartz", amount = 6}
@@ -117,7 +117,7 @@ RECIPE {
     icon_size = 64,
     subgroup = "py-rawores-quartz",
     order = "aaa"
-}:add_unlock('optics')
+}
 
 RECIPE {
     type = "recipe",
@@ -156,7 +156,7 @@ RECIPE {
     icon_size = 64,
     subgroup = "py-rawores-quartz",
     order = "aac"
-}:add_unlock("quartz-mk01")
+}:add_unlock("quartz-mk02")
 
 RECIPE {
     type = "recipe",
@@ -177,7 +177,7 @@ RECIPE {
     icon_size = 64,
     subgroup = "py-rawores-quartz",
     order = "aad"
-}:add_unlock("quartz-mk02")
+}:add_unlock("quartz-mk03")
 
 RECIPE {
     type = "recipe",
@@ -198,7 +198,7 @@ RECIPE {
     icon_size = 64,
     subgroup = "py-rawores-quartz",
     order = "aae"
-}:add_unlock("quartz-mk03")
+}:add_unlock("quartz-mk04")
 
 RECIPE {
     type = "recipe",
@@ -219,7 +219,7 @@ RECIPE {
     icon_size = 64,
     subgroup = "py-rawores-quartz",
     order = "aaf"
-}:add_unlock("quartz-mk03")
+}:add_unlock("quartz-mk05")
 
 RECIPE {
     type = "recipe",

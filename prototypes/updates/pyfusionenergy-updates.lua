@@ -1,48 +1,51 @@
-TECHNOLOGY("helium-processing"):remove_pack("production-science-pack")
 TECHNOLOGY("advanced-mining-facilities"):remove_pack("chemical-science-pack"):remove_prereq("diamond-mining"):add_prereq("iron-mk02"):remove_prereq('uranium-processing')
-TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_pack('production-science-pack'):remove_prereq('production-science-pack'):add_prereq("machines-mk02")
+TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_pack('production-science-pack'):remove_prereq('production-science-pack')
 
-RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):add_unlock("machines-mk01")
-RECIPE("acidgas-2"):remove_unlock("regolite-mining"):add_unlock("machines-mk02")
-RECIPE("olefin"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
-RECIPE("gasoline"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
+RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):remove_unlock("helium-processing"):remove_unlock("liquid-petroleum-processing"):remove_unlock("advanced-oil-processing"):add_unlock("fluid-processing-machines-1")
+RECIPE("acidgas-2"):remove_unlock("advanced-oil-processing"):add_unlock("machines-mk02")
+RECIPE("olefin"):remove_unlock("fuel-production-2"):add_unlock("fuel-production")
+--RECIPE("gasoline"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("pressured-air"):set_fields {energy_required = 1}
 
 ITEM("molybdenum-plate").stack_size = 500
 
---RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('coal-processing-1')
+RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('coal-processing-1')
+RECIPE('vacuum-pump-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('coal-processing-1')
 
 RECIPE("aramid"):add_ingredient({type = 'item', name = 'molybdenum-plate', amount = 5}):change_category('nmf')
 
 
 RECIPE("steam-heating"):remove_ingredient("fuelrod-mk01"):add_ingredient({type = "item", name = "fuelrod-mk01", amount = 1})
 RECIPE("hydrocyclone-mk01"):replace_ingredient("centrifuge", "classifier")
-RECIPE("hydrocyclone-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
-RECIPE("py-heat-exchanger"):remove_unlock("fuel-production"):add_unlock("machines-mk01")
+--RECIPE("hydrocyclone-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
+RECIPE("py-heat-exchanger"):remove_unlock("fusion-mk01"):add_unlock("machines-mk02")
 
-RECIPE("mixer-mk01"):remove_unlock("advanced-mining-facilities"):remove_unlock("basic-electronics"):add_unlock("machines-mk01")
+--RECIPE("mixer-mk01"):remove_unlock("advanced-mining-facilities"):remove_unlock("basic-electronics"):add_unlock("machines-mk01")
 RECIPE("mixer-mk01"):replace_ingredient("iron-plate", "aluminium-plate"):replace_ingredient("chemical-plant-mk01", "washer")
 
-RECIPE("secondary-crusher-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk01"):replace_ingredient("electric-engine-unit", "engine-unit"):remove_ingredient("nbfe-alloy"):add_ingredient({type = "item", name = "duralumin", amount = 20})
+RECIPE("secondary-crusher-mk01"):remove_unlock("diamond-mining"):add_unlock("crusher")
+RECIPE("secondary-crusher-mk01"):replace_ingredient("electric-engine-unit", "engine-unit"):remove_ingredient("nbfe-alloy"):add_ingredient({type = "item", name = "duralumin", amount = 20})
 
 RECIPE("automated-screener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
+RECIPE("filtration-media"):remove_unlock("filtration-2")
 
-RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20}):replace_ingredient('advanced-circuit', 'electronic-circuit'):replace_ingredient('electric-engine-unit','engine-unit')
+RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk02")
+RECIPE("jig-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20}):replace_ingredient('advanced-circuit', 'electronic-circuit'):replace_ingredient('electric-engine-unit','engine-unit')
 RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 
 RECIPE("u-79-2"):remove_unlock("uranium-mk04")
 RECIPE("u-79"):add_unlock("uranium-mk04")
 
-RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk01")
+RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("fluid-processing-machines-1")
+RECIPE("centrifugal-pan-mk01"):replace_ingredient("advanced-circuit", "electronic-circuit")
 
-RECIPE("agitator-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
+--RECIPE("agitator-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 RECIPE("sodium-chlorate"):remove_unlock("vanadium-processing"):add_unlock("machines-mk02"):change_category("electrolyzer"):remove_ingredient("water-saline"):add_ingredient({type = "item", name = "salt", amount = 10})
 
 RECIPE("purified-quartz"):change_category("pan")
 RECIPE("prepared-quartz"):change_category("pan")
 RECIPE("quartz-pulp-01"):change_category("hydrocyclone")
 RECIPE("al-pulp-01"):change_category("mixer")
-RECIPE("sodium-bisulfate"):change_category("chemistry")
 RECIPE("al-pulp-02"):change_category("agitator")
 RECIPE("al-pulp-04"):change_category("agitator")
 RECIPE("crystalized-sodium-aluminate"):remove_ingredient("steam"):add_ingredient({type = "fluid", name = "pressured-air", amount = 500})
@@ -70,6 +73,7 @@ RECIPE("fusion-reactor-mk01"):add_ingredient({type = "item", name = "glass", amo
 RECIPE("fusion-reactor-mk02"):add_ingredient({type = "item", name = "super-steel", amount = 100}):replace_ingredient("mixer-mk01","mixer-mk02")
 RECIPE("regolite-mine"):add_ingredient({type = "item", name = "automated-factory-mk02", amount = 1})
 RECIPE("molybdenum-concentrate"):replace_ingredient("water", "nitrogen")
+RECIPE("nmf-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("aramid")
 
 if not mods["pyalienlife"] then
 RECIPE("phytoplankton"):replace_ingredient("iron-ore", {"grade-1-tin", 1})
@@ -108,13 +112,16 @@ RECIPE("artillery-wagon"):add_ingredient({type = "item", name = "super-alloy", a
 RECIPE("express-splitter"):add_ingredient({type = "item", name = "super-alloy", amount = 1})
 RECIPE("express-underground-belt"):add_ingredient({type = "item", name = "super-alloy", amount = 1})
 RECIPE("express-transport-belt"):add_ingredient({type = "item", name = "super-alloy", amount = 1})
-RECIPE("nuclear-reactor"):add_ingredient({type = "item", name = "super-alloy", amount = 100})
+RECIPE("nuclear-reactor"):add_ingredient({type = "item", name = "super-steel", amount = 100})
 RECIPE("substation"):replace_ingredient("steel", "super-alloy")
 RECIPE("vpulp2"):replace_ingredient("crushed-iron", "iron-ore-dust")
 RECIPE("molybdenum-filtration"):remove_ingredient("vacuum")
-RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-alloy"):remove_ingredient("steel-plate")
+RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-steel"):remove_ingredient("steel-plate")
 RECIPE("automated-screener-mk01"):replace_ingredient("electric-engine-unit", "engine-unit"):replace_ingredient("ground-borer", "electric-mining-drill"):replace_ingredient("advanced-circuit", "electronic-circuit"):remove_ingredient("niobium-plate")
---RECIPE("py-heat-exchanger"):replace_ingredient("processing-unit", "advanced-circuit")
+RECIPE("py-heat-exchanger"):replace_ingredient("processing-unit", "advanced-circuit")
+RECIPE("sodium-bisulfate"):change_category("mixer")
+RECIPE("mibc"):change_category("mixer")
+RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("fluid-processing-machines-1"):replace_ingredient("electric-engine-unit","engine-unit")
 
 ----PYFE---
 
@@ -252,7 +259,7 @@ RECIPE("sinter-unit"):add_ingredient({type = "item", name = "super-alloy", amoun
 
 RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
 
-RECIPE('acetylene'):remove_unlock('filtration-2'):set_fields{enabled = true}:change_category('gasifier')
+RECIPE('acetylene'):remove_unlock('filtration-2'):add_unlock('coal-processing-1'):change_category('gasifier')
 
 data.raw.resource["ore-titanium"].minable.required_fluid = "acetylene"
 data.raw.resource["quartz-rock"].minable.required_fluid = "acetylene"
@@ -298,7 +305,7 @@ RECIPE {
     main_product = "nitrogen",
     subgroup = "py-rawores-fluids",
     order = "dac"
-}:add_unlock("machines-mk03")
+}:add_unlock("machines-mk04")
 
 RECIPE {
     type = "recipe",
@@ -320,7 +327,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-fusion-gases",
     order = "a"
-}:add_unlock("machines-mk02")
+}:add_unlock("nitrogen-mk02")
 
 RECIPE {
     type = "recipe",
@@ -339,7 +346,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-fusion-gases",
     order = "b"
-}:add_unlock("machines-mk02")
+}:add_unlock("nitrogen-mk02")
 
 RECIPE {
     type = "recipe",
@@ -398,63 +405,63 @@ RECIPE {
 
 --pyfusion mk02 unlocks
 
---RECIPE('xyhiphoe-pool-mk02'):add_unlock('machines-mk02')
-RECIPE('vacuum-pump-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
-RECIPE('agitator-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "glass", amount = 50})
-RECIPE('thickener-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
-RECIPE('hydrocyclone-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
-RECIPE('mixer-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
-RECIPE('automated-screener-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
-RECIPE('secondary-crusher-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
-RECIPE('plankton-farm-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
-RECIPE('centrifugal-pan-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
-RECIPE('jig-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
-RECIPE('grease-table-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
-RECIPE('compressor-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
---RECIPE('genlab-mk02'):add_unlock('machines-mk02')
---RECIPE('kmauts-enclosure-mk02'):add_unlock('machines-mk02')
-RECIPE('gas-separator-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "glass", amount = 50}):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
-RECIPE('nmf-mk02'):add_unlock('machines-mk02'):add_ingredient({type = "item", name = "glass", amount = 50}):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
+--RECIPE('xyhiphoe-pool-mk02'):add_unlock('machines-mk03')
+RECIPE('vacuum-pump-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+RECIPE('agitator-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "glass", amount = 50})
+RECIPE('thickener-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
+RECIPE('hydrocyclone-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+RECIPE('mixer-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
+RECIPE('automated-screener-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
+RECIPE('secondary-crusher-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
+RECIPE('plankton-farm-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
+RECIPE('centrifugal-pan-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
+RECIPE('jig-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
+RECIPE('grease-table-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+RECIPE('compressor-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+--RECIPE('genlab-mk02'):add_unlock('machines-mk03')
+--RECIPE('kmauts-enclosure-mk02'):add_unlock('machines-mk03')
+RECIPE('gas-separator-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "glass", amount = 50}):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
+RECIPE('nmf-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "glass", amount = 50}):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
 
 --pyfusion mk03 unlocks
 
---RECIPE('xyhiphoe-pool-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 5}):add_ingredient({type = "item", name = "nbti-alloy", amount = 20})
-RECIPE('vacuum-pump-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 15}):add_ingredient({type = "item", name = "sc-unit", amount = 4})
-RECIPE('agitator-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "molybdenum-plate", amount = 15})
-RECIPE('thickener-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "py-heat-exchanger", amount = 1})
-RECIPE('hydrocyclone-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "boron-carbide", amount = 15})
-RECIPE('mixer-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 15}):add_ingredient({type = "item", name = "boron-carbide", amount = 20})
-RECIPE('automated-screener-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "boron-carbide", amount = 20})
-RECIPE('secondary-crusher-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 5}):add_ingredient({type = "item", name = "nbti-alloy", amount = 20})
-RECIPE('centrifugal-pan-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "sc-unit", amount = 2})
-RECIPE('plankton-farm-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 5}):add_ingredient({type = "item", name = "nbti-alloy", amount = 20})
-RECIPE('jig-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "molybdenum-plate", amount = 15})
-RECIPE('grease-table-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 25})
-RECIPE('compressor-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "molybdenum-plate", amount = 15})
---RECIPE('genlab-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 5}):add_ingredient({type = "item", name = "nbti-alloy", amount = 20})
---RECIPE('kmauts-enclosure-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 25})
-RECIPE('gas-separator-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "sc-unit", amount = 2})
-RECIPE('nmf-mk03'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "super-alloy", amount = 5}):add_ingredient({type = "item", name = "nbti-alloy", amount = 20})
+--RECIPE('xyhiphoe-pool-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 5}):add_ingredient({type = "item", name = "nbti-alloy", amount = 20})
+RECIPE('vacuum-pump-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 15}):add_ingredient({type = "item", name = "sc-unit", amount = 4})
+RECIPE('agitator-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "molybdenum-plate", amount = 15})
+RECIPE('thickener-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "py-heat-exchanger", amount = 1})
+RECIPE('hydrocyclone-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "boron-carbide", amount = 15})
+RECIPE('mixer-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 15}):add_ingredient({type = "item", name = "boron-carbide", amount = 20})
+RECIPE('automated-screener-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "boron-carbide", amount = 20})
+RECIPE('secondary-crusher-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 5}):add_ingredient({type = "item", name = "nbti-alloy", amount = 20})
+RECIPE('centrifugal-pan-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "sc-unit", amount = 2})
+RECIPE('plankton-farm-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 5}):add_ingredient({type = "item", name = "nbti-alloy", amount = 20})
+RECIPE('jig-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "molybdenum-plate", amount = 15})
+RECIPE('grease-table-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 25})
+RECIPE('compressor-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "molybdenum-plate", amount = 15})
+--RECIPE('genlab-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 5}):add_ingredient({type = "item", name = "nbti-alloy", amount = 20})
+--RECIPE('kmauts-enclosure-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 25})
+RECIPE('gas-separator-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "sc-unit", amount = 2})
+RECIPE('nmf-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 5}):add_ingredient({type = "item", name = "nbti-alloy", amount = 20})
 
 --pyfusion mk04 unlocks
 
---RECIPE('xyhiphoe-pool-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
-RECIPE('vacuum-pump-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
-RECIPE('agitator-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
-RECIPE('thickener-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
-RECIPE('hydrocyclone-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
-RECIPE('mixer-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
-RECIPE('automated-screener-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
-RECIPE('secondary-crusher-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
-RECIPE('plankton-farm-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
-RECIPE('centrifugal-pan-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
-RECIPE('jig-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
-RECIPE('grease-table-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
-RECIPE('compressor-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
---RECIPE('genlab-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
---RECIPE('kmauts-enclosure-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
-RECIPE('gas-separator-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
-RECIPE('nmf-mk04'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+--RECIPE('xyhiphoe-pool-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+RECIPE('vacuum-pump-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+RECIPE('agitator-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
+RECIPE('thickener-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
+RECIPE('hydrocyclone-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+RECIPE('mixer-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+RECIPE('automated-screener-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+RECIPE('secondary-crusher-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
+RECIPE('plankton-farm-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+RECIPE('centrifugal-pan-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
+RECIPE('jig-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+RECIPE('grease-table-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+RECIPE('compressor-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
+--RECIPE('genlab-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
+--RECIPE('kmauts-enclosure-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
+RECIPE('gas-separator-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
+RECIPE('nmf-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 RECIPE {
     type = "recipe",
@@ -492,6 +499,6 @@ RECIPE {
     main_product = 'lead-container',
     subgroup = "py-rawores-casting",
     order = "ec"
-}:add_unlock("machines-mk03")
+}:add_unlock("machines-mk04")
 
 RECIPE("cool-air"):replace_ingredient("pressured-air", {type = "fluid", name = "liquid-nitrogen", amount = 45}):add_result({type = "fluid", name = "nitrogen", amount = 450})

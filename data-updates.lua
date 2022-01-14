@@ -1,21 +1,19 @@
 require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 
-	if mods["pyfusionenergy"] then
-		require("prototypes/updates/pyfusionenergy-updates")
-	end
+require("prototypes/updates/base-updates")
+require("prototypes/updates/pycoalprocessing-updates")
+require("prototypes/updates/pyindustry-updates")
 
-	if mods["pyhightech"] then
-		require("prototypes/updates/pyhightech-updates")
-		require("prototypes.ores.phosphate-rock-02")
-		require("prototypes/buildings/phosphate-mine-02")
-	end
+if mods["pyfusionenergy"] then
+  require("prototypes/updates/pyfusionenergy-updates")
+end
 
-	if mods["pycoalprocessing"] then
-		require("prototypes/updates/pycoalprocessing-updates")
-	end
-
-	require("prototypes/updates/base-updates")
+if mods["pyhightech"] then
+  require("prototypes/updates/pyhightech-updates")
+  require("prototypes.ores.phosphate-rock-02")
+  require("prototypes/buildings/phosphate-mine-02")
+end
 
 --ADAPTATIONS
 
@@ -78,7 +76,7 @@ RECIPE("utility-science-pack"):add_ingredient({type = "item", name = "super-allo
 RECIPE("pumpjack"):add_ingredient({type = "item", name = "duralumin", amount = 10}):replace_ingredient("pipe", "niobium-pipe")
 
 RECIPE("battery"):replace_ingredient("iron-plate", "zinc-plate")
-RECIPE("oil-refinery"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("steel-plate", "stainless-steel")
+--RECIPE("oil-refinery"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("steel-plate", "stainless-steel")
 RECIPE("electric-furnace"):add_ingredient({type = "item", name = "super-steel", amount = 15})
 RECIPE("steel-furnace"):add_ingredient({type = "item", name = "stainless-steel", amount = 10})
 RECIPE("fast-transport-belt"):add_ingredient({type = "item", name = "stainless-steel", amount = 2})
@@ -158,11 +156,11 @@ RECIPE("construction-robot-ht"):replace_ingredient("py-construction-robot-01", "
 RECIPE("logistic-robot-ht"):replace_ingredient("py-logistic-robot-01", "py-logistic-robot-02")
 RECIPE("py-burner"):remove_ingredient("steel-furnace"):add_ingredient({type = "item", name = "titanium-plate", amount = 20})
 RECIPE("nuclear-fuel"):replace_ingredient("uranium-235", "fuelrod-mk05")
-TECHNOLOGY("py-burner"):remove_prereq("coal-processing-2"):add_prereq("coal-processing-1")
+TECHNOLOGY("py-burner"):remove_prereq("advanced-material-processing"):add_prereq("coal-processing-1"):remove_pack("logistic-science-pack")
 
-TECHNOLOGY("oil-processing"):remove_prereq("steel-processing"):add_prereq("iron-mk02")
+TECHNOLOGY("oil-processing"):remove_prereq("steel-processing")
 TECHNOLOGY("desulfurization"):remove_prereq("sulfur-processing")
-TECHNOLOGY("sulfur-processing"):remove_prereq("oil-processing"):add_prereq("coal-processing-1")
+TECHNOLOGY("sulfur-processing"):remove_prereq("oil-processing")
 
 
 ITEM("coal").stack_size = 500

@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"quartz-mine", 1}
     }
-}:add_unlock("quartz-mk02")
+}:add_unlock("big-mines")
 
 ITEM {
     type = "item",

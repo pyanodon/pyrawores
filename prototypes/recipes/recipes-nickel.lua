@@ -144,7 +144,7 @@ RECIPE {
     },
     main_product = "sintered-nickel",
     subgroup = "py-rawores-nickel",
-}:add_unlock("nickel-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("nickel-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
 
@@ -280,7 +280,7 @@ RECIPE {
     main_product = "molten-nickel",
     subgroup = "py-rawores-nickel",
     order = "bab"
-}:add_unlock("nickel-mk04")
+}:add_unlock("nickel-mk05")
 
 --CASTINGS
 

@@ -16,7 +16,7 @@ RECIPE {
     main_product = "armac-12",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("coal-processing-2"):change_category('mixer'):replace_ingredient('chlorine','ammonia')
+}:add_unlock("additives"):change_category('mixer'):replace_ingredient('chlorine','ammonia')
 
 
 FLUID {
@@ -29,8 +29,6 @@ FLUID {
     flow_color = {r = 0.635, g = 0.482, b = 0.341},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-rawores-fluids",
     order = "c"
 }

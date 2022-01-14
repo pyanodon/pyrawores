@@ -14,7 +14,7 @@ RECIPE {
     },
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("machines-mk03"):replace_ingredient("sulfuric-acid", "phosphorous-acid"):replace_ingredient("organic-solvent", "carbon-sulfide")
+}:add_unlock("additives"):replace_ingredient("sulfuric-acid", "phosphorous-acid"):replace_ingredient("organic-solvent", "carbon-sulfide")
 
 
 FLUID {
@@ -27,8 +27,6 @@ FLUID {
     flow_color = {r = 0.784, g = 0.329, b = 0.670},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-rawores-fluids",
     order = "c"
 }

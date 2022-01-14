@@ -142,7 +142,7 @@ RECIPE {
     },
     main_product = "high-grade-nexelit",
     subgroup = "py-rawores-nexelit",
-}:add_unlock("nexelit-mk04")
+}:add_unlock("nexelit-mk03")
 
 RECIPE {
     type = "recipe",
@@ -160,7 +160,7 @@ RECIPE {
     },
     main_product = "high-grade-nexelit",
     subgroup = "py-rawores-nexelit",
-}:add_unlock("nexelit-mk04")
+}:add_unlock("nexelit-mk03")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -200,7 +200,7 @@ RECIPE {
     },
     main_product = "sintered-nexelit",
     subgroup = "py-rawores-nexelit",
-}:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("nexelit-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
 
@@ -222,23 +222,23 @@ RECIPE {
     order = "bad"
 }:add_unlock("nexelit-mk02")
 
-RECIPE {
-    type = "recipe",
-    name = "molten-nexelit-02",
-    category = "advanced-foundry",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "fluid", name = "nexelit-pulp-04", amount = 50},
-        {type = "item", name = "borax", amount = 3}
-    },
-    results = {
-        {type = "fluid", name = "molten-nexelit", amount = 50}
-    },
-    main_product = "molten-nexelit",
-    subgroup = "py-rawores-nexelit",
-    order = "bab"
-}:add_unlock("nexelit-mk03")
+-- RECIPE {
+--     type = "recipe",
+--     name = "molten-nexelit-02",
+--     category = "advanced-foundry",
+--     enabled = false,
+--     energy_required = 3,
+--     ingredients = {
+--         {type = "fluid", name = "nexelit-pulp-04", amount = 50},
+--         {type = "item", name = "borax", amount = 3}
+--     },
+--     results = {
+--         {type = "fluid", name = "molten-nexelit", amount = 50}
+--     },
+--     main_product = "molten-nexelit",
+--     subgroup = "py-rawores-nexelit",
+--     order = "bab"
+-- }:add_unlock("nexelit-mk03")
 
 RECIPE {
     type = "recipe",
@@ -256,7 +256,7 @@ RECIPE {
     main_product = "molten-nexelit",
     subgroup = "py-rawores-nexelit",
     order = "bae"
-}:add_unlock("nexelit-mk04")
+}:add_unlock("nexelit-mk03")
 
 RECIPE {
     type = "recipe",
@@ -292,7 +292,7 @@ RECIPE {
     main_product = "molten-nexelit",
     subgroup = "py-rawores-nexelit",
     order = "baa"
-}:add_unlock("nexelit-mk04")
+}:add_unlock("nexelit-mk05")
 
 --CASTINGS
 

@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/copper-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {'machines-mk01'},
+    prerequisites = {"crusher", "casting-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -21,7 +21,8 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/copper-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'machines-mk02','copper-mk01'},
+    prerequisites = {'copper-mk01', 'logistic-science-pack'},
+    dependencies = {'copper-mk01'},
     effects = {},
     unit = {
         count = 100,
@@ -39,7 +40,8 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/copper-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'machines-mk03','copper-mk02'},
+    prerequisites = {'copper-mk02', 'chemical-science-pack', 'additives'},
+    dependencies = {'copper-mk02'},
     effects = {},
     unit = {
         count = 100,
@@ -58,7 +60,8 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/copper-4.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'machines-mk04','copper-mk03'},
+    prerequisites = {'copper-mk03', 'production-science-pack'},
+    dependencies = {'copper-mk03'},
     effects = {},
     unit = {
         count = 100,
@@ -66,6 +69,29 @@ TECHNOLOGY {
             {'automation-science-pack', 1},
             {'logistic-science-pack', 1},
             {'chemical-science-pack', 1},
+            {'production-science-pack', 1}
+        },
+        time = 60
+    }
+}
+
+TECHNOLOGY {
+    type = 'technology',
+    name = 'copper-mk05',
+    icon = '__pyraworesgraphics__/graphics/technology/copper-4.png',
+    icon_size = 128,
+    order = 'c-a',
+    prerequisites = {'copper-mk04', 'utility-science-pack'},
+    dependencies = {'copper-mk04'},
+    effects = {},
+    unit = {
+        count = 100,
+        ingredients = {
+            {'automation-science-pack', 1},
+            {'logistic-science-pack', 1},
+            {'chemical-science-pack', 1},
+            {'military-science-pack', 1},
+            {'production-science-pack', 1},
             {'utility-science-pack', 1}
         },
         time = 60

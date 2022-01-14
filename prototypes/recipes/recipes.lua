@@ -15,7 +15,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk02")
+}:add_unlock("starch")
 
 RECIPE {
     type = "recipe",
@@ -35,7 +35,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk02"):add_ingredient({type = 'item', name = 'fiberboard', amount = 1})
+}:add_unlock("starch"):add_ingredient({type = 'item', name = 'fiberboard', amount = 1})
 
 RECIPE {
     type = "recipe",
@@ -56,7 +56,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk02"):add_ingredient({type = 'item', name = 'fiberboard', amount = 1})
+}:add_unlock("starch"):add_ingredient({type = 'item', name = 'fiberboard', amount = 1})
 
 RECIPE {
     type = "recipe",
@@ -96,7 +96,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "a8"
-}:add_unlock("coal-processing-2")
+}:add_unlock("salts")
 
 RECIPE {
     type = "recipe",
@@ -115,7 +115,7 @@ RECIPE {
     order = "salt",
     icon = "__pyraworesgraphics__/graphics/icons/salt.png",
     icon_size = 32
-}:add_unlock("coal-processing-2")
+}:add_unlock("fluid-separation")
 
 RECIPE {
     type = "recipe",
@@ -199,7 +199,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-items",
     order = "g"
-}:add_unlock("machines-mk02")
+}:add_unlock("ulric")
 
 RECIPE {
     type = 'recipe',
@@ -216,7 +216,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'mukmoux-fat', amount = 30}
     },
-}:add_unlock("machines-mk02")
+}:add_unlock("mukmoux")
 
 RECIPE {
     type = 'recipe',
@@ -233,7 +233,7 @@ RECIPE {
         {type = 'item', name = 'iron-ore', amount = 3},
     },
     main_product = "p2s5",
-}:add_unlock("machines-mk03"):replace_ingredient("stone", "phosphate-rock")
+}:add_unlock("additives"):replace_ingredient("stone", "phosphate-rock")
 
 RECIPE {
     type = 'recipe',
@@ -250,7 +250,7 @@ RECIPE {
         {type = 'item', name = 'pyrite', amount = 1},
     },
     main_product = "p2s5",
-}:add_unlock("machines-mk03"):replace_ingredient("stone", "phosphate-rock")
+}:add_unlock("additives"):replace_ingredient("stone", "phosphate-rock")
 
 RECIPE {
     type = "recipe",
@@ -273,7 +273,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-items",
     order = "q-2"
-}:add_unlock("machines-mk02"):change_category('fbreactor'):replace_ingredient("water", "ammonia")
+}:add_unlock("salts"):change_category('fbreactor'):replace_ingredient("water", "ammonia")
 
 RECIPE {
     type = "recipe",
@@ -293,7 +293,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("aluminium-mk01")
+}:add_unlock("smelters-mk01")
 
 RECIPE {
     type = "recipe",
@@ -314,7 +314,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("aluminium-mk02")
+}:add_unlock("alloys")
 
 RECIPE {
     type = "recipe",
@@ -372,7 +372,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk03"):add_ingredient({type = 'item', name = 'diamond', amount = 3}):add_ingredient({type = 'item', name = 'boron-carbide', amount = 5}):replace_ingredient("super-steel", "super-alloy"):replace_ingredient("nitrogen", "helium")
+}:add_unlock("machines-mk04"):add_ingredient({type = 'item', name = 'diamond', amount = 3}):add_ingredient({type = 'item', name = 'boron-carbide', amount = 5}):replace_ingredient("super-steel", "super-alloy"):replace_ingredient("nitrogen", "helium")
 
 RECIPE {
     type = "recipe",
@@ -409,7 +409,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk02")
+}:add_unlock("aramid")
 
 RECIPE {
     type = 'recipe',
@@ -425,7 +425,7 @@ RECIPE {
         {type = 'item', name = 'iron-oxide', amount = 12},
     },
     main_product = "iron-oxide",
-}:add_unlock("coal-mk01")
+}:add_unlock("pyrite")
 
 RECIPE {
     type = 'recipe',
@@ -441,7 +441,7 @@ RECIPE {
         {type = 'item', name = 'pyrite', amount = 1},
     },
     main_product = "pyrite",
-}:add_unlock("coal-mk01")
+}:add_unlock("pyrite")
 
 RECIPE {
     type = 'recipe',
@@ -476,7 +476,7 @@ RECIPE {
         {type = 'fluid', name = 'carbon-dioxide', amount = 50},
     },
     main_product = "sodium-carbonate",
-}:add_unlock("sulfur-processing")
+}:add_unlock("salts")
 
 RECIPE {
     type = 'recipe',
@@ -493,7 +493,7 @@ RECIPE {
         {type = 'fluid', name = 'water', amount = 50},
     },
     main_product = "sodium-sulfate",
-}:add_unlock("sulfur-processing")
+}:add_unlock("salts")
 
 RECIPE {
     type = 'recipe',
@@ -530,7 +530,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("nickel-mk03")
+}:add_unlock("alloys")
 
 RECIPE {
     type = "recipe",
@@ -548,7 +548,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 100},
     },
     main_product= "syngas",
-}:add_unlock("fuel-production")
+}:add_unlock("fuel-production-2")
 
 RECIPE {
     type = "recipe",
@@ -564,7 +564,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "syngas", amount = 250},
     },
-}:add_unlock("fuel-production")
+}:add_unlock("fuel-production-2")
 
 RECIPE {
     type = "recipe",
@@ -582,3 +582,566 @@ RECIPE {
         {type = "item", name = "rail", amount = 8},
     },
 }:add_unlock("railway")
+
+RECIPE {
+    type = "recipe",
+    name = "methanol-from-hydrogen",
+    category = "methanol",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "carbon-dioxide", amount = 90},
+        {type = "fluid", name = "hydrogen", amount = 150},
+        {type = "item", name = "nichrome", amount = 1}
+    },
+    results = {
+        {type = "fluid", name = "methanol", amount = 120}
+    },
+    subgroup = "py-methanol",
+    icon = "__pycoalprocessinggraphics__/graphics/icons/methanol.png",
+    icon_size = 32,
+    order = "b"
+}:add_unlock("methanol-processing-2")
+
+RECIPE {
+    type = "recipe",
+    name = "kerosene-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "hydrogen", amount = 50},
+        {type = "fluid", name = "kerosene", amount = 100},
+        {type = "fluid", name = "water", amount = 500}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 800},
+        {type = "fluid", name = "steam", amount = 500, temperature = 150}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/combustion-kerosene.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "k"
+}:add_unlock("energy-2")
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrodmk02-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "hydrogen", amount = 50},
+        {type = "fluid", name = "water", amount = 500},
+        {type = "item", name = "fuelrod-mk02", amount = 1}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 800},
+        {type = "fluid", name = "steam", amount = 500, temperature = 100}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk02.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "k"
+}:add_unlock("uranium-mk01")
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrodmk03-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "hydrogen", amount = 50},
+        {type = "fluid", name = "water", amount = 500},
+        {type = "item", name = "fuelrod-mk03", amount = 1}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 850},
+        {type = "fluid", name = "steam", amount = 500, temperature = 125}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk03.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "k"
+}:add_unlock("uranium-mk02")
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrodmk04-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "hydrogen", amount = 50},
+        {type = "fluid", name = "water", amount = 500},
+        {type = "item", name = "fuelrod-mk04", amount = 1}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 900},
+        {type = "fluid", name = "steam", amount = 500, temperature = 150}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk04.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "k"
+}:add_unlock("uranium-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrodmk05-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "hydrogen", amount = 50},
+        {type = "fluid", name = "water", amount = 500},
+        {type = "item", name = "fuelrod-mk05", amount = 1}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 950},
+        {type = "fluid", name = "steam", amount = 500, temperature = 200}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk05.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "k"
+}:add_unlock("uranium-mk04")
+
+RECIPE {
+    type = "recipe",
+    name = "glycerol-hydrogen",
+    category = "electrolyzer",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "glycerol", amount = 20},
+        {type = "fluid", name = "water", amount = 50} --pyfe-liquid-nitrogen
+    },
+    results = {
+        {type = "fluid", name = "hydrogen", amount = 300}
+    },
+    icon = "__pycoalprocessinggraphics__/graphics/icons/glycerol-hydrogen.png",
+    icon_size = 32,
+    subgroup = "py-fluid-handling",
+    order = "o"
+}:add_unlock("coal-processing-3"):replace_ingredient("water", "liquid-nitrogen")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-aluminium",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-aluminium", amount = 15}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-aluminium.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-chromium",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-chromium", amount = 15}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-chromium.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-copper",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 250},
+        {type = "fluid", name = "coal-gas", amount = 250},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "copper-ore", amount = 15}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-copper.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-1")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-iron",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 250},
+        {type = "fluid", name = "coal-gas", amount = 250},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "iron-ore", amount = 15}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-iron.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-1")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-lead",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-lead", amount = 20}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-lead.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-nickel",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-nickel", amount = 15}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-nickel.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-quartz",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-quartz", amount = 15}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-quartz.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-1")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-tin",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 300},
+        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-tin", amount = 15}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-tin.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-titanium",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-titanium", amount = 15}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-titanium.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "mining-zinc",
+    category = "ground-borer",
+    enabled = false,
+    energy_required = 2.0,
+    ingredients = {
+        {type = "fluid", name = "lubricant", amount = 250},
+        {type = "fluid", name = "coal-gas", amount = 250},
+        {type = "item", name = "drill-head", amount = 1}
+    },
+    results = {
+        {type = "item", name = "ore-zinc", amount = 15}
+    },
+    icon = "__pyraworesgraphics__/graphics/icons/drilling-zinc.png",
+    icon_size = 32,
+    subgroup = "py-drilling",
+    order = "a"
+}:add_unlock("excavation-2")
+
+RECIPE {
+    type = "recipe",
+    name = "extract-limestone-01",
+    category = "soil-extraction",
+    enabled = true,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "water", amount = 100},
+    },
+    results = {
+        {type = "item", name = "limestone", amount = 2}
+    },
+    subgroup = "py-extraction",
+    order = "d"
+}
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrod-mk01-1",
+    category = "hpf",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "titanium-plate", amount = 5},
+        {type = "item", name = "20-u-powder", amount = 4},
+        {type = "item", name = "coke", amount = 10}
+    },
+    results = {
+        {type = "item", name = "fuelrod-mk01", amount = 1}
+    }
+}:add_unlock("uranium-mk01")
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrod-mk01-2",
+    category = "hpf",
+    enabled = false,
+    energy_required = 3.5,
+    ingredients = {
+        {type = "item", name = "niobium-plate", amount = 2},
+        {type = "item", name = "40-u-powder", amount = 4},
+        {type = "item", name = "coke", amount = 10}
+    },
+    results = {
+        {type = "item", name = "fuelrod-mk01", amount = 4}
+    }
+}:add_unlock("uranium-mk02")
+
+RECIPE {
+    type = "recipe",
+    name = "fuelrod-mk01-3",
+    category = "hpf",
+    enabled = false,
+    energy_required = 3.5,
+    ingredients = {
+        {type = "item", name = "niobium-plate", amount = 2},
+        {type = "item", name = "70-u-powder", amount = 4},
+        {type = "item", name = "coke", amount = 10}
+    },
+    results = {
+        {type = "item", name = "fuelrod-mk01", amount = 8}
+    }
+}:add_unlock("uranium-mk03")
+
+RECIPE {
+    type = "recipe",
+    name = "nbfe-alloy-2",
+    category = "py-rawores-smelter",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "molten-iron", amount = 100},
+        {type = "fluid", name = "niobium-complex", amount = 40},
+        {type = "item", name = "sand-casting", amount = 4},
+    },
+    results = {
+        {type = "item", name = "nbfe-alloy", amount = 15}
+    },
+    main_product= "nbfe-alloy",
+    icon = "__pycoalprocessinggraphics__/graphics/icons/nbfe-alloy.png",
+    icon_size = 32,
+    subgroup = "py-rawores-recipes",
+    order = "j"
+}:add_unlock("alloys")
+
+RECIPE {
+    type = "recipe",
+    name = "drill-head-2",
+    category = "crafting",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item", name = "steel-plate", amount = 8},
+        {type = "item", name = "chromium", amount = 3},
+        {type = "item", name = "aluminium-plate", amount = 6}
+    },
+    results = {
+        {type = "item", name = "drill-head", amount = 4}
+    }
+}:add_unlock("coal-processing-2")
+
+RECIPE {
+    type = "recipe",
+    name = "drill-head-3",
+    category = "crafting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "steel-plate", amount = 8},
+        {type = "item", name = "titanium-plate", amount = 4},
+        {type = "item", name = "aluminium-plate", amount = 6}
+    },
+    results = {
+        {type = "item", name = "drill-head", amount = 6}
+    }
+}:add_unlock("coal-processing-2")
+
+RECIPE {
+    type = "recipe",
+    name = "drill-head-4",
+    category = "crafting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "stainless-steel", amount = 4},
+        {type = "item", name = "titanium-plate", amount = 4},
+        {type = "item", name = "duralumin", amount = 5},
+    },
+    results = {
+        {type = "item", name = "drill-head", amount = 8}
+    }
+}:add_unlock("stainless-steel")
+
+RECIPE {
+    type = "recipe",
+    name = "drill-head-5",
+    category = "crafting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "stainless-steel", amount = 4},
+        {type = "item", name = "titanium-plate", amount = 4},
+        {type = "item", name = "niobium-plate", amount = 3},
+    },
+    results = {
+        {type = "item", name = "drill-head", amount = 10}
+    }
+}:add_unlock("stainless-steel")
+
+RECIPE {
+    type = "recipe",
+    name = "diesel",
+    category = "olefin",
+    enabled = false,
+    energy_required = 1.5,
+    ingredients = {
+        {type = "item", name = "nexelit-plate", amount = 2},
+        {type = "fluid", name = "methanol", amount = 100},
+        {type = "fluid", name = "carbon-dioxide", amount = 200}
+    },
+    results = {
+        {type = "fluid", name = "diesel", amount = 150},
+        {type = "fluid", name = "olefin", amount = 100}
+    },
+    main_product = "diesel",
+    icon = "__pycoalprocessinggraphics__/graphics/icons/diesel.png",
+    icon_size = 32,
+    subgroup = "py-fluids",
+    order = "d1"
+}:add_unlock("fuel-production-2")
+
+RECIPE {
+    type = "recipe",
+    name = "diesel2",
+    category = "olefin",
+    enabled = false,
+    energy_required = 1.5,
+    ingredients = {
+        {type = "item", name = "nexelit-plate", amount = 2},
+        {type = "fluid", name = "olefin", amount = 200}
+    },
+    results = {
+        {type = "fluid", name = "diesel", amount = 200}
+    },
+    main_product = "diesel",
+    icon = "__pycoalprocessinggraphics__/graphics/icons/diesel.png",
+    icon_size = 32,
+    subgroup = "py-fluids",
+    order = "d2"
+}:add_unlock("fuel-production-2")
+
+RECIPE {
+    type = "recipe",
+    name = "diesel-combustion",
+    category = "combustion",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "diesel", amount = 100},
+        {type = "fluid", name = "water", amount = 1000},
+        {type = "item", name = "fuelrod-mk01", amount = 1}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 2400},
+        {type = "fluid", name = "steam", amount = 1000, temperature = 100, catalyst_amount = 1000}
+    },
+    icon = "__pycoalprocessinggraphics__/graphics/icons/combustion-diesel.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "i"
+}:add_unlock("energy-3")
+

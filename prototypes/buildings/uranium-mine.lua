@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"uranium-mine", 1}
     }
-}:add_unlock("uranium-mk02")
+}:add_unlock("big-mines")
 
 ITEM {
     type = "item",

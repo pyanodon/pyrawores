@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"sinter-unit", 1}
     }
-}:add_unlock("machines-mk04")
+}:add_unlock("machines-mk05")
 
 ITEM {
     type = "item",

@@ -303,7 +303,7 @@ RECIPE {
     },
     main_product = "uranium-238",
     subgroup = "py-rawores-uranium",
-}:add_unlock("uranium-mk01")
+}:add_unlock("nuclear-fuel-reprocessing")
 
 RECIPE {
     type = "recipe",

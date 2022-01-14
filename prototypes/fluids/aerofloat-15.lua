@@ -15,7 +15,7 @@ RECIPE {
     main_product = "aerofloat-15",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("machines-mk03")
+}:add_unlock("additives")
 
 
 FLUID {
@@ -28,8 +28,6 @@ FLUID {
     flow_color = {r = 0.086, g = 0.164, b = 0.243},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-rawores-fluids",
     order = "c"
 }

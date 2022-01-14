@@ -46,7 +46,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "sodium-aluminate", amount = 2},
-        {type = "fluid", name = "steam", amount = 300, temperature = 165} --pyfe pressured air
+        {type = "fluid", name = "steam", amount = 300} --pyfe pressured air
     },
     results = {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 2}
@@ -94,7 +94,7 @@ RECIPE {
     },
     main_product = "reduced-aluminium",
     subgroup = "py-rawores-aluminium",
-}:add_unlock("aluminium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("aluminium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE {
     type = "recipe",
@@ -113,7 +113,7 @@ RECIPE {
     },
     main_product = "sintered-aluminium",
     subgroup = "py-rawores-aluminium",
-}:add_unlock("aluminium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("aluminium-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 --MOLTEN VERSION
 
@@ -206,7 +206,7 @@ RECIPE {
     main_product = "molten-aluminium",
     subgroup = "py-rawores-aluminium",
     order = "baa"
-}:add_unlock("aluminium-mk03")
+}:add_unlock("aluminium-mk04")
 
 RECIPE {
     type = "recipe",
@@ -225,7 +225,7 @@ RECIPE {
     main_product = "molten-aluminium",
     subgroup = "py-rawores-aluminium",
     order = "bac"
-}:add_unlock("aluminium-mk04")
+}:add_unlock("aluminium-mk05")
 
 ----PLATES----
 

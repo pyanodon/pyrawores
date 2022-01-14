@@ -22,7 +22,7 @@ RECIPE("epoxy"):add_ingredient({type = "item", name = "sodium-hydroxide", amount
 --RECIPE('outlet-gas-3'):add_result({type = "fluid", name = "ammonia", amount = 50})
 RECIPE("high-flux-core"):replace_ingredient("liquid-pure-air", "liquid-nitrogen")
 RECIPE("diode-core"):replace_ingredient("liquid-pure-air", "liquid-nitrogen")
-RECIPE("heavy-fermion"):replace_ingredient("uranium-238", "70-u-powder")
+RECIPE("heavy-fermion"):replace_ingredient("uranium-238", "40-u-powder")
 RECIPE("capacitor-termination"):replace_ingredient("boric-acid", "liquid-nitrogen")
 RECIPE("superconductor"):replace_ingredient("liquid-helium", "liquid-nitrogen")
 RECIPE("silicon-wafer"):add_ingredient({type = "item", name = "crushed-quartz", amount = 2}):add_ingredient({type = "item", name = "aramid", amount = 1})
@@ -96,6 +96,7 @@ RECIPE("py-logistic-robot-02"):add_ingredient({type = "item", name = "nexelit-ba
 RECIPE("ht-locomotive"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 60}):add_ingredient({type = "item", name = "nickel-plate", amount = 50})
 RECIPE("ht-generic-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 10})
 RECIPE("ht-generic-fluid-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 10})
+RECIPE("ceramic"):remove_unlock("vacuum-tube-electronics"):add_unlock("coal-processing-1")
 
 
 RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 10})
@@ -291,8 +292,6 @@ RECIPE("py-heat-exchanger-mk04"):replace_ingredient("control-unit", "intelligent
 
 RECIPE("nmf-mk01"):remove_unlock('advanced-mining-facilities'):add_unlock('fine-electronics')
 
-RECIPE('aramid'):remove_unlock('machines-mk02'):add_unlock('fine-electronics')
-
 RECIPE("electronic-circuit"):add_ingredient({type = "item", name = "solder", amount = 2})
 
 --PYRO RECIPES UPDATES
@@ -330,7 +329,7 @@ TECHNOLOGY('machines-mk02'):remove_prereq('coal-processing-2')--:add_prereq('bas
 RECIPE {
     type = "recipe",
     name = "hydrogen-chloride-2",
-    category = "oil-processing", --pyfe mixer
+    category = "mixer", --pyfe mixer
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -347,7 +346,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "cab"
-}:add_unlock("machines-mk02"):change_category("chemistry")
+}:add_unlock("machines-mk03")
 
 RECIPE {
     type = "recipe",
@@ -360,13 +359,13 @@ RECIPE {
         {type = "item", name = "raw-fiber", amount = 5},
         {type = "item", name = "sodium-sulfate", amount = 1},
         {type = "item", name = "sodium-hydroxide", amount = 5},
-        {type = "fluid", name = "steam", amount = 500, temperature = 165}
+        {type = "fluid", name = "steam", amount = 500}
     },
     results = {
         {type = "item", name = "fiberboard", amount = 8}
     },
     main_product = "fiberboard"
-}:add_unlock("machines-mk02")
+}:add_unlock("fiberboard-2")
 
 RECIPE {
     type = 'recipe',
@@ -385,7 +384,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'fiberboard', amount = 12},
     },
-}:add_unlock('fiberboard')
+}:add_unlock('fiberboard-2')
 
 RECIPE {
     type = "recipe",
@@ -440,7 +439,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-items",
     order = "q-2"
-}:add_unlock("machines-mk02")
+}:add_unlock("machines-mk03")
 
 RECIPE {
     type = "recipe",
@@ -481,7 +480,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-3")
 
 RECIPE {
     type = "recipe",
@@ -506,7 +505,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("helium-processing")
+}:add_unlock("nucleo-3")
 
 RECIPE {
     type = "recipe",
@@ -531,7 +530,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("helium-processing")
+}:add_unlock("nucleo-3")
 
 RECIPE {
     type = "recipe",
@@ -556,7 +555,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-3")
 
 RECIPE {
     type = "recipe",
@@ -581,7 +580,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-2")
 
 RECIPE {
     type = "recipe",
@@ -706,7 +705,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-2")
 
 RECIPE {
     type = "recipe",
@@ -731,7 +730,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("vanadium-processing")
+}:add_unlock("nucleo-2")
 
 RECIPE {
     type = "recipe",
@@ -748,7 +747,7 @@ RECIPE {
     results = {
         {type = "item", name = "py-fertilizer", amount = 15}
     }
-}:add_unlock("basic-electronics")
+}:add_unlock("fertilizer")
 
 RECIPE {
     type = "recipe",
@@ -853,7 +852,7 @@ RECIPE {
     main_product = 'ht-pipes',
     subgroup = "py-rawores-casting",
     order = "on"
-}:add_unlock("machines-mk03")
+}:add_unlock("machines-mk04")
 
 RECIPE {
     type = "recipe",
@@ -871,6 +870,6 @@ RECIPE {
     main_product = 'ht-pipes-to-ground',
     subgroup = "py-rawores-casting",
     order = "ou"
-}:add_unlock("machines-mk03")
+}:add_unlock("machines-mk04")
 
 RECIPE("biopolymer"):add_ingredient({type = 'fluid', name = 'diesel', amount = 150})

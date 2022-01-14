@@ -18,12 +18,12 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "caa"
-}:add_unlock("machines-mk02")
+}:add_unlock("coal-processing-2")
 
 RECIPE {
     type = "recipe",
     name = "sodium-bisulfate",
-    category = "chemistry", --pyfe mixer
+    category = "chemistry",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -39,7 +39,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk02")
+}:add_unlock("salts")
 
 RECIPE {
     type = "recipe",
@@ -60,7 +60,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk02")
+}:add_unlock("salts")
 
 FLUID {
     type = "fluid",
@@ -72,8 +72,6 @@ FLUID {
     flow_color = {r = 0.737, g = 0.878, b = 0.580},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-rawores-fluids",
     order = "c"
 }

@@ -13,7 +13,7 @@ RECIPE {
     },
     subgroup = "py-rawores-solder",
     order = "j"
-}--:add_unlock('coal-processing-1')
+}:add_unlock('solder-mk01')
 
 RECIPE {
     type = "recipe",
@@ -30,7 +30,7 @@ RECIPE {
     main_product = 'solder',
     subgroup = "py-rawores-solder",
     order = "j"
-}:add_unlock("lead-mk01")
+}:add_unlock("solder-mk02")
 
 RECIPE {
     type = "recipe",
@@ -49,7 +49,7 @@ RECIPE {
     main_product = 'molten-solder',
     subgroup = "py-rawores-solder",
     order = "j"
-}:add_unlock("lead-mk01")
+}:add_unlock("solder-mk01")
 
 RECIPE {
     type = "recipe",
@@ -69,7 +69,7 @@ RECIPE {
     main_product = 'molten-solder',
     subgroup = "py-rawores-solder",
     order = "j"
-}:add_unlock("lead-mk02")
+}:add_unlock("solder-mk02")
 
 RECIPE {
     type = "recipe",
@@ -89,4 +89,4 @@ RECIPE {
     main_product = 'molten-solder',
     subgroup = "py-rawores-solder",
     order = "j"
-}:add_unlock("lead-mk03")
+}:add_unlock("solder-mk03")
