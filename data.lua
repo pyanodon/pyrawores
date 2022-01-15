@@ -278,8 +278,6 @@ require("prototypes/fluids/u-25")
 require("prototypes/fluids/u-23")
 require("prototypes/fluids/u-20")
 require("prototypes/fluids/u-15")
-require("prototypes/fluids/u-waste")
-require("prototypes/fluids/vanadium-mixture")
 require("prototypes/fluids/zinc-pulp-01")
 require("prototypes/fluids/zinc-pulp-02")
 require("prototypes/fluids/zinc-pulp-03")
@@ -288,6 +286,11 @@ require("prototypes/fluids/zinc-overflow")
 require("prototypes/fluids/zinc-waste")
 require("prototypes/fluids/molten-zinc")
 require("prototypes/fluids/molten-solder")
+
+if mods['pyfusionenergy'] then
+    require("prototypes/fluids/u-waste")
+    require("prototypes/fluids/vanadium-mixture")
+end
 
 --Pycoal fluids
 require("__pycoalprocessing__/prototypes/fluids/diesel")

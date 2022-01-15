@@ -1,3 +1,5 @@
+local fun = require("prototypes/functions/functions")
+
 TECHNOLOGY("advanced-mining-facilities"):remove_pack("chemical-science-pack"):remove_prereq("diamond-mining"):add_prereq("iron-mk02"):remove_prereq('uranium-processing')
 TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_pack('production-science-pack'):remove_prereq('production-science-pack')
 
@@ -33,8 +35,7 @@ RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk02")
 RECIPE("jig-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20}):replace_ingredient('advanced-circuit', 'electronic-circuit'):replace_ingredient('electric-engine-unit','engine-unit')
 RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 
-RECIPE("u-79-2"):remove_unlock("uranium-mk04")
-RECIPE("u-79"):add_unlock("uranium-mk04")
+fun.results_replacer("u-79", "dirty-water-heavy", "u-waste")
 
 RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("fluid-processing-machines-1")
 RECIPE("centrifugal-pan-mk01"):replace_ingredient("advanced-circuit", "electronic-circuit")
@@ -127,6 +128,7 @@ RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock(
 
 RECIPE("py-heat-exchanger-mk03"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "agitator-mk01", amount = 1})
 RECIPE("py-heat-exchanger-mk04"):add_ingredient({type = "item", name = "nbti-alloy", amount = 20}):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+RECIPE('borax-mine'):remove_unlock('boron')
 
 -----PYCP---
 

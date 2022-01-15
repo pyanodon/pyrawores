@@ -163,7 +163,7 @@ RECIPE('ball-mill-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "ite
 RECIPE('ball-mill-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 50}):add_ingredient({type = "item", name = "super-steel", amount = 15})
 RECIPE('ball-mill-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "lead-plate", amount = 30})
 
-RECIPE('borax-mine'):remove_unlock('boron'):set_fields{enabled = true}
+RECIPE('borax-mine'):remove_unlock('energy-1'):set_fields{enabled = true}
 RECIPE('borax-mine-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "duralumin", amount = 15}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE('borax-mine-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "super-steel", amount = 30})
 RECIPE('borax-mine-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "lead-plate", amount = 20})
