@@ -11,33 +11,12 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "u-79", amount = 100},
-        {type = "fluid", name = "u-waste", amount = 100},
-    },
-    main_product = "u-79",
-    subgroup = "py-rawores-uranium",
-    order = "q-2"
-}:replace_ingredient("organic-solvent", "industrial-solvent")
-
-RECIPE {
-    type = "recipe",
-    name = "u-79-2",
-    category = "scrubber",
-    enabled = false,
-    energy_required = 4,
-    ingredients = {
-        {type = "fluid", name = "u-75", amount = 100},
-        {type = "fluid", name = "organic-solvent", amount = 100}, --pyfe industrial solvent
-        {type = "item", name = "sand", amount = 10},
-    },
-    results = {
-        {type = "fluid", name = "u-79", amount = 100},
         {type = "fluid", name = "dirty-water-heavy", amount = 100},
     },
     main_product = "u-79",
     subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("uranium-mk04"):replace_ingredient("organic-solvent", "industrial-solvent")
-
 
 
 FLUID {
