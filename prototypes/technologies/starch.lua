@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "starch",
-    icon = "__pyraworesgraphics__/graphics/icons/starch.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/technology/starch.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"chemical-science-pack", "salts"},
     effects = {},

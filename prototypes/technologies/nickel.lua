@@ -78,7 +78,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'nickel-mk05',
-    icon = '__pyraworesgraphics__/graphics/technology/nickel-4.png',
+    icon = '__pyraworesgraphics__/graphics/technology/nickel-5.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'nickel-mk04', 'utility-science-pack'},

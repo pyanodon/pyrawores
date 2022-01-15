@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "smelters-mk01",
-    icon = "__pyraworesgraphics__/graphics/technology/machines-mk01.png",
+    icon = "__pyraworesgraphics__/graphics/technology/smelter-1.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"py-burner"},
@@ -18,7 +18,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'smelters-mk02',
-    icon = '__pyraworesgraphics__/graphics/technology/machines-mk02.png',
+    icon = '__pyraworesgraphics__/graphics/technology/smelter-2.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"chemical-science-pack"},
@@ -38,7 +38,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'smelters-mk03',
-    icon = '__pyraworesgraphics__/graphics/technology/machines-mk03.png',
+    icon = '__pyraworesgraphics__/graphics/technology/smelter-3.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"smelters-mk02", 'production-science-pack'},
@@ -59,7 +59,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'smelters-mk04',
-    icon = '__pyraworesgraphics__/graphics/technology/machines-mk04.png',
+    icon = '__pyraworesgraphics__/graphics/technology/smelter-4.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"smelters-mk03", 'utility-science-pack'},

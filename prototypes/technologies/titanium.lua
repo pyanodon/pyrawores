@@ -78,7 +78,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'titanium-mk05',
-    icon = '__pyraworesgraphics__/graphics/technology/titanium-4.png',
+    icon = '__pyraworesgraphics__/graphics/technology/titanium-5.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'titanium-mk04', 'utility-science-pack'},

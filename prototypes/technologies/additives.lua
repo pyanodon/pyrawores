@@ -1,10 +1,10 @@
 TECHNOLOGY {
     type = 'technology',
     name = 'additives',
-    icon = '__pyraworesgraphics__/graphics/icons/mibc.png',
-    icon_size = 32,
+    icon = '__pyraworesgraphics__/graphics/technology/frothers.png',
+    icon_size = 128,
     order = 'c-a',
-    prerequisites = {'mibc', "machines-mk02", "fuel-production-2"},
+    prerequisites = {'mibc', "machines-mk02", "fuel-production-mk02"},
     effects = {},
     unit = {
         count = 100,

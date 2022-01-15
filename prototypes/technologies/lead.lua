@@ -78,7 +78,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'lead-mk05',
-    icon = '__pyraworesgraphics__/graphics/technology/lead-4.png',
+    icon = '__pyraworesgraphics__/graphics/technology/lead-5.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'lead-mk04', 'utility-science-pack'},

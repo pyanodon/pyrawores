@@ -78,7 +78,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'copper-mk05',
-    icon = '__pyraworesgraphics__/graphics/technology/copper-4.png',
+    icon = '__pyraworesgraphics__/graphics/technology/copper-5.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'copper-mk04', 'utility-science-pack'},

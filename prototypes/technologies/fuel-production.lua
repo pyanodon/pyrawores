@@ -4,8 +4,8 @@ local fp = TECHNOLOGY('fuel-production')
 
 TECHNOLOGY {
     type = "technology",
-    name = "fuel-production-2",
-    icon = fp.icon,
+    name = "fuel-production-mk02",
+    icon = "__pycoalprocessinggraphics__/graphics/technology/fuel-production-mk02.png",
     icon_size = fp.icon_size,
     order = "c-a",
     prerequisites = { 'fuel-production' },

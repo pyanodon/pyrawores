@@ -350,7 +350,7 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "fiberboard-2",
+    name = "fiberboard-mk02",
     category = "pulp",
     enabled = false,
     energy_required = 5,
@@ -365,7 +365,7 @@ RECIPE {
         {type = "item", name = "fiberboard", amount = 8}
     },
     main_product = "fiberboard"
-}:add_unlock("fiberboard-2")
+}:add_unlock("fiberboard-mk02")
 
 RECIPE {
     type = 'recipe',
@@ -384,7 +384,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'fiberboard', amount = 12},
     },
-}:add_unlock('fiberboard-2')
+}:add_unlock('fiberboard-mk02')
 
 RECIPE {
     type = "recipe",
@@ -480,7 +480,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-3")
+}:add_unlock("nucleo-mk03")
 
 RECIPE {
     type = "recipe",
@@ -505,7 +505,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-3")
+}:add_unlock("nucleo-mk03")
 
 RECIPE {
     type = "recipe",
@@ -530,7 +530,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-3")
+}:add_unlock("nucleo-mk03")
 
 RECIPE {
     type = "recipe",
@@ -555,7 +555,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-3")
+}:add_unlock("nucleo-mk03")
 
 RECIPE {
     type = "recipe",
@@ -580,7 +580,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-2")
+}:add_unlock("nucleo-mk02")
 
 RECIPE {
     type = "recipe",
@@ -705,7 +705,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-2")
+}:add_unlock("nucleo-mk02")
 
 RECIPE {
     type = "recipe",
@@ -730,7 +730,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-2")
+}:add_unlock("nucleo-mk02")
 
 RECIPE {
     type = "recipe",

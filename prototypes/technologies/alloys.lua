@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "alloys",
-    icon = "__pyraworesgraphics__/graphics/icons/duralumin.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/technologu/alloys.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"chemical-science-pack", "aluminium-mk01", "copper-mk02", "nickel-mk02", "chromium-mk03"},
     effects = {},

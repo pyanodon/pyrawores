@@ -78,7 +78,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'iron-mk05',
-    icon = '__pyraworesgraphics__/graphics/technology/iron-4.png',
+    icon = '__pyraworesgraphics__/graphics/technology/iron-5.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'iron-mk04', 'utility-science-pack'},

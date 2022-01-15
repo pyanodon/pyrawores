@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "aramid",
-    icon = "__pyraworesgraphics__/graphics/icons/aramid.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/technology/aramid.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"kevlar", "sulfur-processing"},
     effects = {},

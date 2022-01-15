@@ -78,7 +78,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'zinc-mk05',
-    icon = '__pyraworesgraphics__/graphics/technology/zinc-4.png',
+    icon = '__pyraworesgraphics__/graphics/technology/zinc-5.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'zinc-mk04', 'utility-science-pack'},

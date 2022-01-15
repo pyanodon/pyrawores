@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "electrolysis",
-    icon = "__pyraworesgraphics__/graphics/icons/electrolyzer-mk01.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/technology/electrolysis.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"machines-mk01"},
     effects = {},

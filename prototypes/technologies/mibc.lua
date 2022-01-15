@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = 'technology',
     name = 'mibc',
-    icon = '__pyraworesgraphics__/graphics/icons/mibc.png',
-    icon_size = 32,
+    icon = '__pyraworesgraphics__/graphics/technology/mibc.png',
+    icon_size = 128,
     order = 'c-a',
     prerequisites = {"coal-processing-2"},
     effects = {},

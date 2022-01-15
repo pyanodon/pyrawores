@@ -40,7 +40,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/quartz-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'quartz-mk02', 'filtration-2', 'salts'},
+    prerequisites = {'quartz-mk02', 'filtration-mk02', 'salts'},
     dependencies = {'quartz-mk02'},
     effects = {},
     unit = {
@@ -57,7 +57,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'quartz-mk04',
-    icon = '__pyraworesgraphics__/graphics/technology/quartz-3.png',
+    icon = '__pyraworesgraphics__/graphics/technology/quartz-4.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'quartz-mk03', 'production-science-pack'},
@@ -78,7 +78,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'quartz-mk05',
-    icon = '__pyraworesgraphics__/graphics/technology/quartz-3.png',
+    icon = '__pyraworesgraphics__/graphics/technology/quartz-5.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'quartz-mk04', 'utility-science-pack'},
