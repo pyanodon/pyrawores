@@ -20,7 +20,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = "technology",
     name = "super-steel-mk02",
-    icon = "__pyraworesgraphics__/graphics/icons/super-steel-2.png",
+    icon = "__pyraworesgraphics__/graphics/technology/super-steel-2.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"production-science-pack", "super-steel-mk01"},
