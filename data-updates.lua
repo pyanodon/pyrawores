@@ -230,7 +230,7 @@ local recipes_list =
   "al-tailings-separation",
   "pregnant-solution-01",
   "vanadium-mixture",
-  "fiberboard-2",
+  "fiberboard-mk02",
   "xylenol-3",
   "ammonium-chloride-2",
   "ammonia2",

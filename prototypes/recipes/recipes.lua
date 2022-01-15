@@ -548,7 +548,7 @@ RECIPE {
         {type = "fluid", name = "oxygen", amount = 100},
     },
     main_product= "syngas",
-}:add_unlock("fuel-production-2")
+}:add_unlock("fuel-production-mk02")
 
 RECIPE {
     type = "recipe",
@@ -564,7 +564,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "syngas", amount = 250},
     },
-}:add_unlock("fuel-production-2")
+}:add_unlock("fuel-production-mk02")
 
 RECIPE {
     type = "recipe",
@@ -1101,7 +1101,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-fluids",
     order = "d1"
-}:add_unlock("fuel-production-2")
+}:add_unlock("fuel-production-mk02")
 
 RECIPE {
     type = "recipe",
@@ -1121,7 +1121,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-fluids",
     order = "d2"
-}:add_unlock("fuel-production-2")
+}:add_unlock("fuel-production-mk02")
 
 RECIPE {
     type = "recipe",

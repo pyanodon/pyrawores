@@ -1,10 +1,10 @@
 TECHNOLOGY {
     type = "technology",
     name = "salts",
-    icon = "__pyraworesgraphics__/graphics/icons/sodium-sulfate.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/technology/salt.png",
+    icon_size = 128,
     order = "c-a",
-    prerequisites = {"filtration-2"},
+    prerequisites = {"filtration-mk02"},
     effects = {},
     unit = {
         count = 100,

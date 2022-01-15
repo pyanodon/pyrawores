@@ -78,7 +78,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'tin-mk05',
-    icon = '__pyraworesgraphics__/graphics/technology/tin-4.png',
+    icon = '__pyraworesgraphics__/graphics/technology/tin-5.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'tin-mk04', 'utility-science-pack'},

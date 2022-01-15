@@ -3,7 +3,7 @@ TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_
 
 RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):remove_unlock("helium-processing"):remove_unlock("liquid-petroleum-processing"):remove_unlock("advanced-oil-processing"):add_unlock("fluid-processing-machines-1")
 RECIPE("acidgas-2"):remove_unlock("advanced-oil-processing"):add_unlock("machines-mk02")
-RECIPE("olefin"):remove_unlock("fuel-production-2"):add_unlock("fuel-production")
+RECIPE("olefin"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
 --RECIPE("gasoline"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("pressured-air"):set_fields {energy_required = 1}
 
@@ -27,7 +27,7 @@ RECIPE("secondary-crusher-mk01"):remove_unlock("diamond-mining"):add_unlock("cru
 RECIPE("secondary-crusher-mk01"):replace_ingredient("electric-engine-unit", "engine-unit"):remove_ingredient("nbfe-alloy"):add_ingredient({type = "item", name = "duralumin", amount = 20})
 
 RECIPE("automated-screener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
-RECIPE("filtration-media"):remove_unlock("filtration-2")
+RECIPE("filtration-media"):remove_unlock("filtration-mk02")
 
 RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk02")
 RECIPE("jig-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20}):replace_ingredient('advanced-circuit', 'electronic-circuit'):replace_ingredient('electric-engine-unit','engine-unit')
@@ -259,7 +259,7 @@ RECIPE("sinter-unit"):add_ingredient({type = "item", name = "super-alloy", amoun
 
 RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
 
-RECIPE('acetylene'):remove_unlock('filtration-2'):add_unlock('coal-processing-1'):change_category('gasifier')
+RECIPE('acetylene'):remove_unlock('filtration-mk02'):add_unlock('coal-processing-1'):change_category('gasifier')
 
 data.raw.resource["ore-titanium"].minable.required_fluid = "acetylene"
 data.raw.resource["quartz-rock"].minable.required_fluid = "acetylene"

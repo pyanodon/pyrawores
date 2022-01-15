@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "nitrogen-mk01",
-    icon = "__pyraworesgraphics__/graphics/icons/nitrogen.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/technology/nitrogen-processing-mk01.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"logistic-science-pack"},
     effects = {},
@@ -20,8 +20,8 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = "technology",
     name = "nitrogen-mk02",
-    icon = "__pyraworesgraphics__/graphics/icons/nitrogen.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/technology/nitrogen-processing-mk02.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"logistic-science-pack"},
     dependencies = {"nitrogen-mk01"},
@@ -40,8 +40,8 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = "technology",
     name = "nitrogen-mk03",
-    icon = "__pyraworesgraphics__/graphics/icons/nitrogen.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/technology/nitrogen-processing-mk03.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"production-science-pack"},
     dependencies = {"nitrogen-mk02"},

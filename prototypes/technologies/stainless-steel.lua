@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "stainless-steel-mk01",
-    icon = "__pyraworesgraphics__/graphics/icons/stainless-steel.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/technology/stainless-steel-1.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"niobium", "steel-mk02", "aramid"},
     effects = {},
@@ -19,8 +19,8 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = "technology",
     name = "stainless-steel-mk02",
-    icon = "__pyraworesgraphics__/graphics/icons/stainless-steel.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/technology/stainless-steel-2.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"chemical-science-pack", "chromium-mk03"},
     dependencies = {'stainless-steel-mk01'},

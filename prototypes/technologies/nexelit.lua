@@ -83,7 +83,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'nexelit-mk05',
-    icon = '__pyraworesgraphics__/graphics/technology/nexelit-4.png',
+    icon = '__pyraworesgraphics__/graphics/technology/nexelit-5.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'nexelit-mk04', 'utility-science-pack'},

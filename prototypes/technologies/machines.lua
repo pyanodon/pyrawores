@@ -78,7 +78,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'machines-mk05',
-    icon = '__pyraworesgraphics__/graphics/technology/machines-mk04.png',
+    icon = '__pyraworesgraphics__/graphics/technology/machines-mk05.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'machines-mk04', 'utility-science-pack'},
