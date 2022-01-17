@@ -32,8 +32,8 @@ DATA {
         },
     },
     resource_patch_search_radius = 12,
-    collision_box = {{-5.3, -5.3}, {5.3, 5.3}},
-    selection_box = {{-5.5, -5.5}, {5.5, 5.5}},
+    collision_box = {{-9.3, -9.3}, {9.3, 9.3}},
+    selection_box = {{-9.5, -9.5}, {9.5, 9.5}},
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
     autoplace = resource_autoplace.resource_autoplace_settings {
@@ -55,8 +55,8 @@ DATA {
         sheet = {
             filename = "__pyraworesgraphics__/graphics/entity/ores/aluminium/aluminium-mine-place.png",
             priority = "extra-high",
-            width = 352,
-            height = 352,
+            width = 672,
+            height = 672,
             frame_count = 1,
             variation_count = 1,
             shift = util.by_pixel(0, 0)
