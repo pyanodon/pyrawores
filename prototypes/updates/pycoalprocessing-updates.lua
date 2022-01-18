@@ -45,7 +45,7 @@ RECIPE('nexelit-plate'):remove_unlock('nexelit')
 
 --Autofactory
 
-RECIPE('automated-factory-mk01'):replace_ingredient('advanced-circuit', 'electronic-circuit'):remove_unlock('advanced-electronics'):add_unlock('machines-mk01')
+RECIPE('automated-factory-mk01'):replace_ingredient('advanced-circuit', 'electronic-circuit'):remove_unlock('advanced-electronics'):add_unlock('fast-inserter')
 
 --advanced-circuit
 
