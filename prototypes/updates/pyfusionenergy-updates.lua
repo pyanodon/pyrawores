@@ -41,7 +41,7 @@ RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("fluid
 RECIPE("centrifugal-pan-mk01"):replace_ingredient("advanced-circuit", "electronic-circuit")
 
 --RECIPE("agitator-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
-RECIPE("sodium-chlorate"):remove_unlock("vanadium-processing"):add_unlock("machines-mk02"):change_category("electrolyzer"):remove_ingredient("water-saline"):add_ingredient({type = "item", name = "salt", amount = 10})
+RECIPE("sodium-chlorate"):remove_unlock("vanadium-processing"):add_unlock("salts"):change_category("electrolyzer"):remove_ingredient("water-saline"):add_ingredient({type = "item", name = "salt", amount = 10})
 
 RECIPE("purified-quartz"):change_category("pan")
 RECIPE("prepared-quartz"):change_category("pan")
@@ -403,7 +403,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("titanium-mk03")
+}:add_unlock("alloys")
 
 --pyfusion mk02 unlocks
 
@@ -480,7 +480,7 @@ RECIPE {
         {type = "item", name = "agzn-alloy", amount = 10}
     },
 
-}:add_unlock("fusion-mk03")
+}:add_unlock("fusion-mk03") --TODO: alloys-mk02
 
 RECIPE {
     type = "recipe",

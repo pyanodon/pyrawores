@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "prepared-quartz",
-    category = "washer", --pyFE pan
+    category = "leaching", --pyFE pan
     enabled = false,
     energy_required = 3,
     ingredients = {

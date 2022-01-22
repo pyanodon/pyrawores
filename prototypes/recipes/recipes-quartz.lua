@@ -39,7 +39,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "purified-quartz",
-    category = "washer",--pyFE pan
+    category = "leaching",--pyFE pan
     enabled = false,
     energy_required = 3,
     ingredients = {
