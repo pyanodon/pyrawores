@@ -98,10 +98,9 @@ RECIPE("ht-generic-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):
 RECIPE("ht-generic-fluid-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 10})
 RECIPE("ceramic"):remove_unlock("vacuum-tube-electronics"):add_unlock("coal-processing-1")
 
-
 RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 10})
 RECIPE("outlet-gas-02"):change_category("fbreactor")
-RECIPE("fecr-alloy"):change_category('py-rawores-smelter'):add_ingredient({type = "item", name = "graphite", amount = 3})
+RECIPE("fecr-alloy"):change_category('py-rawores-smelter'):add_ingredient({type = "item", name = "graphite", amount = 3}):remove_unlock("basic-electronics"):add_unlock("stainless-steel-mk01")
 RECIPE("ndfeb-alloy"):change_category('py-rawores-smelter')
 RECIPE("crco-alloy"):change_category('py-rawores-smelter')
 RECIPE("re-tin"):change_category('py-rawores-smelter')
@@ -833,7 +832,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'fecr-alloy', amount = 20}
     }
-}:add_unlock('chromium-mk03')
+}:add_unlock('alloys')
 
 RECIPE {
     type = "recipe",

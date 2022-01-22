@@ -237,6 +237,7 @@ RECIPE('chemical-plant-mk02'):add_unlock('machines-mk03'):add_ingredient({type =
 RECIPE('chemical-plant-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "stainless-steel", amount = 40}):replace_ingredient('storage-tank', 'py-tank-6500')
 RECIPE('chemical-plant-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "super-steel", amount = 45}):replace_ingredient('storage-tank', 'py-tank-8000')
 
+RECIPE('rectisol'):remove_unlock('methanol-processing-1'):add_unlock('machines-mk01')
 RECIPE('rectisol-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "duralumin", amount = 20}):replace_ingredient('storage-tank', 'py-tank-3000')
 RECIPE('rectisol-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 30}):add_ingredient({type = "item", name = "stainless-steel", amount = 15}):replace_ingredient('storage-tank', 'py-tank-6500')
 RECIPE('rectisol-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "tin-plate", amount = 30}):add_ingredient({type = "item", name = "super-steel", amount = 20}):replace_ingredient('storage-tank', 'py-tank-8000')
@@ -609,7 +610,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("iron-mk02")
+}:add_unlock("alloys")
 
 RECIPE {
     type = "recipe",
