@@ -35,7 +35,7 @@ ENTITY {
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "leaching-station-mk04"},
-    fast_replaceable_group = "leaching-station-mk01",
+    fast_replaceable_group = "leaching-station",
     max_health = 100,
     corpse = "medium-remnants",
     dying_explosion = "big-explosion",

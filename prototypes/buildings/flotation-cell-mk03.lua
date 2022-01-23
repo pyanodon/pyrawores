@@ -36,7 +36,7 @@ ENTITY {
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "flotation-cell-mk03"},
-    fast_replaceable_group = "flotation-cell-mk01",
+    fast_replaceable_group = "flotation-cell",
     max_health = 100,
     corpse = "medium-remnants",
     dying_explosion = "big-explosion",

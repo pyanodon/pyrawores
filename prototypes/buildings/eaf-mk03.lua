@@ -35,7 +35,7 @@ ENTITY {
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "eaf-mk03"},
-    fast_replaceable_group = "eaf-mk01",
+    fast_replaceable_group = "eaf",
     max_health = 100,
     corpse = "medium-remnants",
     dying_explosion = "big-explosion",
