@@ -78,7 +78,7 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "sand-classification2",
+    name = "sand-classification",
     category = "classifier",
     enabled = false,
     energy_required = 1,
@@ -94,7 +94,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/class-sand.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
-}:add_unlock("quartz-mk03")
+}:add_unlock("separation")
 
 
 --GLASS--
