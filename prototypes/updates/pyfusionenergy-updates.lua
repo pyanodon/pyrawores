@@ -68,7 +68,7 @@ RECIPE("compressor-mk01"):add_ingredient({type = "item", name = "titanium-plate"
 if not mods['pyalienlife'] then
 RECIPE("genlab-mk01"):add_ingredient({type = "item", name = "glass", amount = 50})
 end
-RECIPE("bio-reactor"):add_ingredient({type = "item", name = "glass", amount = 50})
+RECIPE("bio-reactor-mk01"):add_ingredient({type = "item", name = "glass", amount = 50})
 RECIPE("nmf-mk01"):add_ingredient({type = "item", name = "glass", amount = 50}):replace_ingredient("fast-transport-belt", "transport-belt"):replace_ingredient("advanced-circuit", "electronic-circuit")
 RECIPE("fusion-reactor-mk01"):add_ingredient({type = "item", name = "glass", amount = 300}):add_ingredient({type = "item", name = "super-steel", amount = 100})
 RECIPE("fusion-reactor-mk02"):add_ingredient({type = "item", name = "super-steel", amount = 100}):replace_ingredient("mixer-mk01","mixer-mk02")
