@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "casting-mk01",
-    icon = "__pyraworesgraphics__/graphics/technology/machines-mk01.png",
+    icon = "__pycoalprocessinggraphics__/graphics/missing_icon.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"engine"},
@@ -18,7 +18,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'casting-mk02',
-    icon = '__pyraworesgraphics__/graphics/technology/machines-mk02.png',
+    icon = '__pycoalprocessinggraphics__/graphics/missing_icon.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"chemical-science-pack"},
@@ -38,7 +38,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'casting-mk03',
-    icon = '__pyraworesgraphics__/graphics/technology/machines-mk03.png',
+    icon = '__pycoalprocessinggraphics__/graphics/missing_icon.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"casting-mk02", "production-science-pack"},
@@ -59,7 +59,7 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = 'technology',
     name = 'casting-mk04',
-    icon = '__pyraworesgraphics__/graphics/technology/machines-mk04.png',
+    icon = '__pycoalprocessinggraphics__/graphics/missing_icon.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"casting-mk03", "utility-science-pack"},
