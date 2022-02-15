@@ -23,6 +23,7 @@ TECHNOLOGY("electric-energy-distribution-2"):remove_prereq("chemical-science-pac
 TECHNOLOGY("advanced-material-processing-2"):remove_prereq("chemical-science-pack"):add_prereq("super-steel-mk01")
 TECHNOLOGY("logistics-2"):remove_prereq("niobium"):add_prereq("stainless-steel-mk01")
 TECHNOLOGY("atomic-bomb"):add_pack("space-science-pack")
+TECHNOLOGY("plastics"):remove_pack('logistic-science-pack')
 
 -- RECIPE UNLOCKS
 RECIPE("uranium-processing"):remove_unlock('uranium-processing')
