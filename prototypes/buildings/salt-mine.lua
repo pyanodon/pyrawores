@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {"salt-mine", 1}
     }
-}:add_unlock("machines-mk01")
+}:add_unlock("electrolysis")
 
 ITEM {
     type = "item",
