@@ -38,12 +38,12 @@ ENTITY {
     max_health = 100,
     corpse = "medium-remnants",
     dying_explosion = "big-explosion",
-    collision_box = {{-2.3, -2.3}, {2.3, 2.3}},
-    selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
+    collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
+    selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
     module_specification = {
         module_slots = 4
     },
-    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+    allowed_effects = {"consumption", "speed", "pollution"},
     crafting_categories = {"sinter"},
     crafting_speed = 1,
     energy_source =
@@ -52,6 +52,13 @@ ENTITY {
       --fuel_category = "chemical",
       fuel_categories = {"chemical", "biomass"},
       effectivity = 1,
+      light_flicker =
+      {
+          minimum_intensity = 0,
+          maximum_intensity = 0,
+          light_intensity_to_size_coefficient = 0,
+          color = {1,0.93,0.19},
+      },
       fuel_inventory_size = 1,
       burnt_inventory_size = 1,
       emissions_per_minute = 0.06,
@@ -59,10 +66,10 @@ ENTITY {
       {
         {
             name = "smoke",
-            north_position = {2.0, -5.0},
-            east_position = {2.0, -5.0},
-            west_position = {2.0, -5.0},
-            south_position = {2.0, -5.0},
+            north_position = {3, -7.0},
+            east_position = {3, -7.0},
+            west_position = {3, -7.0},
+            south_position = {3, -7.0},
             frequency = 90,
             starting_vertical_speed = 0.15,
             slow_down_factor = 1,
@@ -76,55 +83,85 @@ ENTITY {
             {
                 filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/off.png",
                 --priority = "high",
-                width = 160,
-                height = 256,
+                width = 224,
+                height = 384,
                 --line_length = 1,
                 frame_count = 1,
                 --animation_speed = 2,
-                shift = util.by_pixel(0, -48)
+                shift = util.by_pixel(0, -80)
             },
             {
                 filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/shadow.png",
                 --priority = "high",
-                width = 64,
-                height = 128,
+                width = 96,
+                height = 384,
                 --line_length = 1,
                 frame_count = 1,
                 --animation_speed = 2,
                 draw_as_shadow = true,
-                shift = util.by_pixel(110, -32)
+                shift = util.by_pixel(158, -80)
             },
         }
     },
     working_visualisations = {
         {
-            north_position = util.by_pixel(0, 16),
-            west_position = util.by_pixel(0, 16),
-            south_position = util.by_pixel(0, 16),
-            east_position = util.by_pixel(0, 16),
+            north_position = util.by_pixel(0, 48),
+            west_position = util.by_pixel(0, 48),
+            south_position = util.by_pixel(0, 48),
+            east_position = util.by_pixel(0, 48),
             animation = {
                 filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/bot.png",
-                priority = "high",
                 frame_count = 120,
-                line_length = 12,
-                width = 160,
+                line_length = 10,
+                width = 224,
                 height = 128,
-                animation_speed = 0.3
+                animation_speed = 0.35
             }
         },
         {
-            north_position = util.by_pixel(0, -112),
-            west_position = util.by_pixel(0, -112),
-            south_position = util.by_pixel(0, -112),
-            east_position = util.by_pixel(0, -112),
+            north_position = util.by_pixel(0, -80),
+            west_position = util.by_pixel(0, -80),
+            south_position = util.by_pixel(0, -80),
+            east_position = util.by_pixel(0, -80),
+            animation = {
+                filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/mid.png",
+                priority = "high",
+                frame_count = 120,
+                line_length = 10,
+                width = 224,
+                height = 128,
+                animation_speed = 0.35
+            }
+        },
+        {
+            north_position = util.by_pixel(0, -80),
+            west_position = util.by_pixel(0, -80),
+            south_position = util.by_pixel(0, -80),
+            east_position = util.by_pixel(0, -80),
+            animation = {
+                filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/glow.png",
+                draw_as_glow = true,
+                blend_mode = "additive-soft",
+                frame_count = 120,
+                line_length = 10,
+                width = 224,
+                height = 128,
+                animation_speed = 0.35
+            }
+        },
+        {
+            north_position = util.by_pixel(0, -208),
+            west_position = util.by_pixel(0, -208),
+            south_position = util.by_pixel(0, -208),
+            east_position = util.by_pixel(0, -208),
             animation = {
                 filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/top.png",
                 priority = "high",
                 frame_count = 120,
-                line_length = 12,
-                width = 160,
+                line_length = 10,
+                width = 224,
                 height = 128,
-                animation_speed = 0.3
+                animation_speed = 0.35
             }
         },
     },
@@ -136,7 +173,7 @@ ENTITY {
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_area = 10,
             base_level = -1,
-            pipe_connections = {{type = "input", position = {1.0, -3.0}}}
+            pipe_connections = {{type = "input", position = {1.0, -4.0}}}
         },
         {
             production_type = "input",
@@ -144,21 +181,21 @@ ENTITY {
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_area = 10,
             base_level = -1,
-            pipe_connections = {{type = "input", position = {-1.0, -3.0}}}
+            pipe_connections = {{type = "input", position = {-1.0, -4.0}}}
         },
         {
             production_type = "output",
             pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_level = 1,
-            pipe_connections = {{type = "output", position = {1.0, 3.0}}}
+            pipe_connections = {{type = "output", position = {1.0, 4.0}}}
         },
         {
             production_type = "output",
             pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_level = 1,
-            pipe_connections = {{type = "output", position = {-1.0, 3.0}}}
+            pipe_connections = {{type = "output", position = {-1.0, 4.0}}}
         },
         off_when_no_fluid_recipe = true
     },

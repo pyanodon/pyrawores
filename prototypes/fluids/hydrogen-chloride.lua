@@ -53,7 +53,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "sodium-sulfate", amount = 1},
-        {type = "fluid", name = "hydrogen-chloride", amount = 30}
+        {type = "fluid", name = "hydrogen-chloride", amount = 40}
     },
     main_product = "sodium-sulfate",
     icon = "__pyraworesgraphics__/graphics/icons/sodium-sulfate.png",

@@ -1144,4 +1144,3 @@ RECIPE {
     subgroup = "py-combustion",
     order = "i"
 }:add_unlock("energy-3")
-
