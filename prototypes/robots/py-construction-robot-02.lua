@@ -4,6 +4,7 @@ RECIPE {
     type = 'recipe',
     name = 'py-construction-robot-02',
     energy_required = 10,
+    category = "crafting-with-fluid",
     enabled = false,
     ingredients = {
         {'py-construction-robot-01', 1},
@@ -11,7 +12,8 @@ RECIPE {
         {'stainless-steel', 5},
         {'flying-robot-frame', 1},
         {'solder', 5},
-        {'advanced-circuit', 3}
+        {'advanced-circuit', 3},
+        {type = "fluid", name = "lubricant", amount = 100},
     },
     results = {
         {'py-construction-robot-02', 1}
