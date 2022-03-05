@@ -842,6 +842,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "fluid", name = "molten-copper", amount = 10},
+        {type = "fluid", name = "molten-titanium", amount = 10},
         {type = "item", name = "plastic-bar", amount = 5},
         {type = "item", name = "sand-casting", amount = 5}
     },
@@ -861,6 +862,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "fluid", name = "molten-copper", amount = 50},
+        {type = "fluid", name = "molten-titanium", amount = 10},
         {type = "item", name = "sand-casting", amount = 5}
     },
     results = {

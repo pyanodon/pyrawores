@@ -28,7 +28,7 @@ ITEM {
     order = 'b',
     place_result = 'py-construction-robot-02',
     stack_size = 50
-}:subgroup_order("py-hightech-items", "b")
+}:subgroup_order('py-robots', 'd')
 
 ENTITY {
     type = 'construction-robot',
