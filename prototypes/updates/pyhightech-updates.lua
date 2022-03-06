@@ -844,6 +844,7 @@ RECIPE {
         {type = "fluid", name = "molten-copper", amount = 10},
         {type = "fluid", name = "molten-titanium", amount = 10},
         {type = "item", name = "plastic-bar", amount = 5},
+        {type = "item", name = "rubber", amount = 5},
         {type = "item", name = "sand-casting", amount = 5}
     },
     results = {
@@ -863,6 +864,8 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "molten-copper", amount = 50},
         {type = "fluid", name = "molten-titanium", amount = 10},
+        {type = "item", name = "rubber", amount = 5},
+        {type = "item", name = "plastic-bar", amount = 5},
         {type = "item", name = "sand-casting", amount = 5}
     },
     results = {
