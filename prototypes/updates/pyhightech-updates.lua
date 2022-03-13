@@ -844,7 +844,6 @@ RECIPE {
         {type = "fluid", name = "molten-copper", amount = 10},
         {type = "fluid", name = "molten-titanium", amount = 10},
         {type = "item", name = "plastic-bar", amount = 5},
-        {type = "item", name = "rubber", amount = 5},
         {type = "item", name = "sand-casting", amount = 5}
     },
     results = {
@@ -853,7 +852,7 @@ RECIPE {
     main_product = 'ht-pipes',
     subgroup = "py-rawores-casting",
     order = "on"
-}:add_unlock("machines-mk04")
+}:add_unlock("machines-mk04"):add_ingredient({type = "item", name = "rubber", amount = 5})
 
 RECIPE {
     type = "recipe",
@@ -864,7 +863,6 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "molten-copper", amount = 50},
         {type = "fluid", name = "molten-titanium", amount = 10},
-        {type = "item", name = "rubber", amount = 5},
         {type = "item", name = "plastic-bar", amount = 5},
         {type = "item", name = "sand-casting", amount = 5}
     },
@@ -874,6 +872,6 @@ RECIPE {
     main_product = 'ht-pipes-to-ground',
     subgroup = "py-rawores-casting",
     order = "ou"
-}:add_unlock("machines-mk04")
+}:add_unlock("machines-mk04"):add_ingredient({type = "item", name = "rubber", amount = 5})
 
 RECIPE("biopolymer"):add_ingredient({type = 'fluid', name = 'diesel', amount = 150})
