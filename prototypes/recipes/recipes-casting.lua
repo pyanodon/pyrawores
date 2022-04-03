@@ -16,7 +16,7 @@ RECIPE {
     main_product= "iron-gear-wheel",
     subgroup = "py-rawores-casting",
     order = "aza"
-  }:add_unlock("iron-mk02")
+  }:add_unlock("casting-mk02"):replace_ingredient('sand-casting','mold')
 
   RECIPE {
     type = "recipe",
@@ -35,7 +35,7 @@ RECIPE {
     main_product= "pipe",
     subgroup = "py-rawores-casting",
     order = "aze"
-  }:add_unlock("iron-mk02")
+  }:add_unlock("casting-mk02"):replace_ingredient('sand-casting','mold')
 
   RECIPE {
     type = "recipe",
@@ -54,7 +54,7 @@ RECIPE {
     main_product= "pipe-to-ground",
     subgroup = "py-rawores-casting",
     order = "azf"
-  }:add_unlock("iron-mk02")
+  }:add_unlock("casting-mk02"):replace_ingredient('sand-casting','mold')
 
   RECIPE {
     type = "recipe",
@@ -73,7 +73,7 @@ RECIPE {
     main_product= "iron-stick",
     subgroup = "py-rawores-casting",
     order = "azb"
-  }:add_unlock("iron-mk02")
+  }:add_unlock("casting-mk02"):replace_ingredient('sand-casting','mold')
 
   RECIPE {
     type = "recipe",
@@ -92,7 +92,7 @@ RECIPE {
     main_product = "copper-cable",
     subgroup = "py-rawores-casting",
     order = "aza"
-  }:add_unlock("copper-mk02")
+  }:add_unlock("casting-mk02"):replace_ingredient('sand-casting','mold')
 
   RECIPE {
     type = "recipe",
@@ -112,7 +112,7 @@ RECIPE {
     main_product = "tinned-cable",
     subgroup = "py-rawores-casting",
     order = "azb"
-  }:add_unlock("tin-mk02")
+  }:add_unlock("casting-mk02"):replace_ingredient('sand-casting','mold')
 
 --SOLDER
 
@@ -210,7 +210,7 @@ RECIPE {
     main_product = 'engine-unit',
     subgroup = "py-rawores-casting",
     order = "e"
-}:add_unlock("iron-mk03"):add_ingredient({type = "item", name = "belt", amount = 5})
+}:add_unlock("casting-mk03"):add_ingredient({type = "item", name = "belt", amount = 5}):replace_ingredient('sand-casting','mold')
 
 RECIPE {
     type = "recipe",
@@ -228,7 +228,7 @@ RECIPE {
     main_product = 'niobium-pipe',
     subgroup = "py-rawores-casting",
     order = "n"
-}:add_unlock("machines-mk04")
+}:add_unlock("casting-mk03"):replace_ingredient('sand-casting','mold')
 
 RECIPE {
     type = "recipe",
@@ -246,7 +246,7 @@ RECIPE {
     main_product = 'niobium-pipe-to-ground',
     subgroup = "py-rawores-casting",
     order = "nu"
-}:add_unlock("machines-mk04")
+}:add_unlock("casting-mk03"):replace_ingredient('sand-casting','mold')
 
 RECIPE {
     type = "recipe",
@@ -266,7 +266,7 @@ RECIPE {
     main_product = 'drill-head',
     subgroup = "py-rawores-casting",
     order = "d"
-}:add_unlock("machines-mk04")
+}:add_unlock("drill-head-mk03"):replace_ingredient('sand-casting','mold')
 
 RECIPE {
     type = "recipe",
@@ -286,4 +286,4 @@ RECIPE {
     main_product = 'equipment-chassi',
     subgroup = "py-rawores-casting",
     order = "ec"
-}:add_unlock("machines-mk04")
+}:add_unlock("casting-mk03"):replace_ingredient('sand-casting','mold')

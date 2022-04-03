@@ -2,6 +2,7 @@ local fun = require("prototypes/functions/functions")
 
 TECHNOLOGY("advanced-mining-facilities"):remove_pack("chemical-science-pack"):remove_prereq("diamond-mining"):add_prereq("iron-mk02"):remove_prereq('uranium-processing')
 TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_pack('production-science-pack'):remove_prereq('production-science-pack')
+TECHNOLOGY("fluid-pressurization"):remove_pack("chemical-science-pack"):remove_pack("logistic-science-pack")
 
 RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):remove_unlock("helium-processing"):remove_unlock("liquid-petroleum-processing"):remove_unlock("advanced-oil-processing"):add_unlock("fluid-processing-machines-1")
 RECIPE("acidgas-2"):remove_unlock("advanced-oil-processing"):add_unlock("machines-mk02")
@@ -10,9 +11,6 @@ RECIPE("olefin"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-producti
 RECIPE("pressured-air"):set_fields {energy_required = 1}
 
 ITEM("molybdenum-plate").stack_size = 500
-
-RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('coal-processing-1')
-RECIPE('vacuum-pump-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('coal-processing-1')
 
 RECIPE("aramid"):add_ingredient({type = 'item', name = 'molybdenum-plate', amount = 5}):change_category('nmf')
 
@@ -92,7 +90,7 @@ RECIPE("py-turbine"):add_ingredient({type = "item", name = "super-steel", amount
  --RECIPES
 RECIPE("kmauts-ration"):replace_ingredient("iron-plate", "tin-plate")
 RECIPE("helium"):add_ingredient({type = "fluid", name = "hydrogen", amount = 10})
-RECIPE("nbti-alloy"):replace_ingredient("steel-plate", "titanium-plate"):add_ingredient({type = "fluid", name = "nitrogen", amount = 150}):change_category('py-rawores-smelter')
+RECIPE("nbti-alloy"):replace_ingredient("steel-plate", "titanium-plate"):add_ingredient({type = "fluid", name = "nitrogen", amount = 150}):change_category('py-rawores-smelter'):remove_unlock("nenbit-matrix"):add_unlock("alloys-mk03")
 RECIPE("sc-wire"):replace_ingredient("iron-plate", "tin-plate"):add_ingredient({type = "item", name = "optical-fiber", amount = 5})
 RECIPE("ferrite"):add_ingredient({type = "item", name = "zinc-plate", amount = 10})
 RECIPE("sc-unit"):add_ingredient({type = "fluid", name = "liquid-nitrogen", amount = 100})
@@ -403,7 +401,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("alloys")
+}:add_unlock("alloys-mk04")
 
 --pyfusion mk02 unlocks
 
@@ -480,7 +478,7 @@ RECIPE {
         {type = "item", name = "agzn-alloy", amount = 10}
     },
 
-}:add_unlock("fusion-mk03") --TODO: alloys-mk02
+}:add_unlock("alloys-mk05")
 
 RECIPE {
     type = "recipe",
@@ -501,6 +499,6 @@ RECIPE {
     main_product = 'lead-container',
     subgroup = "py-rawores-casting",
     order = "ec"
-}:add_unlock("machines-mk04")
+}:add_unlock("machines-mk04"):replace_ingredient('sand-casting','mold')
 
 RECIPE("cool-air"):replace_ingredient("pressured-air", {type = "fluid", name = "liquid-nitrogen", amount = 45}):add_result({type = "fluid", name = "nitrogen", amount = 450})
