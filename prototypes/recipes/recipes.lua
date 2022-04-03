@@ -314,7 +314,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("alloys")
+}:add_unlock("alloys-mk03")
 
 RECIPE {
     type = "recipe",
@@ -372,7 +372,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("machines-mk04"):add_ingredient({type = 'item', name = 'diamond', amount = 3}):add_ingredient({type = 'item', name = 'boron-carbide', amount = 5}):replace_ingredient("super-steel", "super-alloy"):replace_ingredient("nitrogen", "helium")
+}:add_unlock("drill-head-mk03"):add_ingredient({type = 'item', name = 'diamond', amount = 3}):add_ingredient({type = 'item', name = 'boron-carbide', amount = 5}):replace_ingredient("super-steel", "super-alloy"):replace_ingredient("nitrogen", "helium")
 
 RECIPE {
     type = "recipe",
@@ -530,7 +530,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("alloys")
+}:add_unlock("alloys-mk03")
 
 RECIPE {
     type = "recipe",
@@ -1015,7 +1015,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("alloys")
+}:add_unlock("alloys-mk03")
 
 RECIPE {
     type = "recipe",
@@ -1031,7 +1031,7 @@ RECIPE {
     results = {
         {type = "item", name = "drill-head", amount = 4}
     }
-}:add_unlock("coal-processing-2")
+}:add_unlock("drill-head-mk01")
 
 RECIPE {
     type = "recipe",
@@ -1047,7 +1047,7 @@ RECIPE {
     results = {
         {type = "item", name = "drill-head", amount = 6}
     }
-}:add_unlock("coal-processing-2")
+}:add_unlock("drill-head-mk01")
 
 RECIPE {
     type = "recipe",
@@ -1063,7 +1063,7 @@ RECIPE {
     results = {
         {type = "item", name = "drill-head", amount = 8}
     }
-}:add_unlock("stainless-steel")
+}:add_unlock("drill-head-mk02")
 
 RECIPE {
     type = "recipe",
@@ -1079,7 +1079,7 @@ RECIPE {
     results = {
         {type = "item", name = "drill-head", amount = 10}
     }
-}:add_unlock("stainless-steel")
+}:add_unlock("drill-head-mk02")
 
 RECIPE {
     type = "recipe",

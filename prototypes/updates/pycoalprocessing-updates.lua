@@ -77,6 +77,8 @@ RECIPE("dirty-reaction"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-
 RECIPE("gasoline"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
 RECIPE("olefin-plant"):remove_unlock("lubricant"):add_unlock("fuel-production")
 RECIPE("oleo-heavy"):remove_unlock("fluid-separation"):add_unlock("mukmoux")
+RECIPE("nbfe-alloy"):remove_unlock("niobium"):add_unlock("alloys-mk02")
+RECIPE("drill-head"):remove_unlock("niobium"):add_unlock("drill-head-mk01")
 
 -- RECIPE CHANGES
 fun.results_replacer("richdust-separation", "chromite-sand", "chromite-sand",3)
@@ -129,7 +131,6 @@ RECIPE("wpu"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("fawogae-plantation-mk01"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("advanced-foundry-mk01"):replace_ingredient("steel-furnace", {type = "item", name = "py-burner", amount = 1})
 RECIPE("chemical-science-pack"):replace_ingredient("iron-plate", "stainless-steel")
-RECIPE("gasturbinemk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "duralumin")
 RECIPE("methanol-reactor"):replace_ingredient("chemical-plant-mk01", "electrolyzer-mk01")
 RECIPE("power-house"):replace_ingredient("iron-plate", "lead-plate")
 RECIPE("jaw-crusher"):remove_ingredient("car"):add_ingredient({type = "item", name = "duralumin", amount = 15})
@@ -145,6 +146,8 @@ RECIPE("botanical-nursery"):add_ingredient({name = "glass", amount = 10})
 RECIPE("equipment-chassi"):replace_ingredient("iron-plate", "duralumin")
 RECIPE("glass"):set_fields{enabled = false}:set_fields{hidden = true}
 
+RECIPE("gasturbinemk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "duralumin"):remove_unlock("energy-2"):add_unlock("machines-mk03")
+RECIPE("gasturbinemk03"):remove_unlock("energy-3"):add_unlock("machines-mk04")
 
 
 RECIPE('distilator-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "duralumin", amount = 20}):add_ingredient({type = "item", name = "stainless-steel", amount = 30})
@@ -590,92 +593,6 @@ RECIPE {
         {type = "item", name = "fuelrod-mk01", amount = 8}
     }
 }:add_unlock("uranium-mk03")
-
-RECIPE {
-    type = "recipe",
-    name = "nbfe-alloy-2",
-    category = "py-rawores-smelter",
-    enabled = false,
-    energy_required = 4,
-    ingredients = {
-        {type = "fluid", name = "molten-iron", amount = 100},
-        {type = "fluid", name = "niobium-complex", amount = 40},
-        {type = "item", name = "sand-casting", amount = 4},
-    },
-    results = {
-        {type = "item", name = "nbfe-alloy", amount = 15}
-    },
-    main_product= "nbfe-alloy",
-    icon = "__pycoalprocessinggraphics__/graphics/icons/nbfe-alloy.png",
-    icon_size = 32,
-    subgroup = "py-rawores-recipes",
-    order = "j"
-}:add_unlock("alloys")
-
-RECIPE {
-    type = "recipe",
-    name = "drill-head-2",
-    category = "crafting",
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "item", name = "steel-plate", amount = 8},
-        {type = "item", name = "chromium", amount = 3},
-        {type = "item", name = "aluminium-plate", amount = 6}
-    },
-    results = {
-        {type = "item", name = "drill-head", amount = 4}
-    }
-}:add_unlock("coal-processing-2")
-
-RECIPE {
-    type = "recipe",
-    name = "drill-head-3",
-    category = "crafting",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "item", name = "steel-plate", amount = 8},
-        {type = "item", name = "titanium-plate", amount = 4},
-        {type = "item", name = "aluminium-plate", amount = 6}
-    },
-    results = {
-        {type = "item", name = "drill-head", amount = 6}
-    }
-}:add_unlock("coal-processing-2")
-
-RECIPE {
-    type = "recipe",
-    name = "drill-head-4",
-    category = "crafting",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "item", name = "stainless-steel", amount = 4},
-        {type = "item", name = "titanium-plate", amount = 4},
-        {type = "item", name = "duralumin", amount = 5},
-    },
-    results = {
-        {type = "item", name = "drill-head", amount = 8}
-    }
-}:add_unlock("iron-mk02")
-
-RECIPE {
-    type = "recipe",
-    name = "drill-head-5",
-    category = "crafting",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "item", name = "stainless-steel", amount = 4},
-        {type = "item", name = "titanium-plate", amount = 4},
-        {type = "item", name = "niobium-plate", amount = 3},
-    },
-    results = {
-        {type = "item", name = "drill-head", amount = 10}
-    }
-}:add_unlock("iron-mk02")
-
 
 --DIESEL to CM1
 RECIPE {

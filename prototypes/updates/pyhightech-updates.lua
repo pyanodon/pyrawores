@@ -400,7 +400,7 @@ RECIPE {
         {type = "item", name = "biofilm", amount = 15}
     },
     main_product = "biofilm"
-}:add_unlock("nano-tech")
+}:add_unlock("nems")
 
 RECIPE {
     type = "recipe",
@@ -418,7 +418,7 @@ RECIPE {
     main_product = "xylenol",
     subgroup = "py-rawores-fluids",
     order = "q-1"
-}:add_unlock("iron-mk04"):change_category("mixer")
+}:add_unlock("additives"):change_category("mixer")
 
 RECIPE {
     type = "recipe",
@@ -832,7 +832,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'fecr-alloy', amount = 20}
     }
-}:add_unlock('alloys')
+}:add_unlock('alloys-mk03')
 
 RECIPE {
     type = "recipe",
@@ -852,7 +852,7 @@ RECIPE {
     main_product = 'ht-pipes',
     subgroup = "py-rawores-casting",
     order = "on"
-}:add_unlock("machines-mk04"):add_ingredient({type = "item", name = "rubber", amount = 5})
+}:add_unlock("casting-mk04"):add_ingredient({type = "item", name = "rubber", amount = 5}):replace_ingredient('sand-casting','mold')
 
 RECIPE {
     type = "recipe",
@@ -872,6 +872,6 @@ RECIPE {
     main_product = 'ht-pipes-to-ground',
     subgroup = "py-rawores-casting",
     order = "ou"
-}:add_unlock("machines-mk04"):add_ingredient({type = "item", name = "rubber", amount = 5})
+}:add_unlock("casting-mk04"):add_ingredient({type = "item", name = "rubber", amount = 5}):replace_ingredient('sand-casting','mold')
 
 RECIPE("biopolymer"):add_ingredient({type = 'fluid', name = 'diesel', amount = 150})

@@ -18,7 +18,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "caa"
-}:add_unlock("coal-processing-2")
+}:add_unlock("filtration")
 
 RECIPE {
     type = "recipe",

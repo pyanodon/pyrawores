@@ -68,6 +68,7 @@ require("prototypes/technologies/silver")
 require("prototypes/technologies/additives")
 require("prototypes/technologies/fuel-production")
 require("prototypes/technologies/mibc")
+require("prototypes/technologies/drill-head")
 
 --(( BUILDINGS ))--
 require("prototypes/buildings/quartz-mine")
