@@ -7,6 +7,10 @@ require("prototypes/recipe-categories")
 
 require('prototypes/items/items')
 
+if mods["pyalienlife"] then
+    require('prototypes/items/pyalienlife-items')
+end
+
 --(( RESOURCES ))--
 require("prototypes.ores.quartz")
 require("prototypes.ores.raw-coal")
