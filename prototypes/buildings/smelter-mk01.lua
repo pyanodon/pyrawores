@@ -53,6 +53,7 @@ ENTITY {
     {
       type = "fluid",
       emissions_per_minute = 10,
+      destroy_non_fuel_fluid = false,
 	  fluid_box =
 		{
 		base_area = 1,
