@@ -29,7 +29,7 @@ ITEM {
     subgroup = 'py-unsorted',
     order = 'b',
     place_result = 'py-construction-robot-02',
-    stack_size = 50
+    stack_size = 500
 }:subgroup_order('py-robots', 'd')
 
 ENTITY {

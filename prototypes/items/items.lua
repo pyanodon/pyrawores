@@ -51,7 +51,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-quartz',
     order = 'cac',
-    stack_size = 50
+    stack_size = 500
 }
 
 ITEM {
@@ -62,7 +62,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-quartz',
     order = 'cad',
-    stack_size = 50
+    stack_size = 500
 }
 
 ITEM {
@@ -1582,7 +1582,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'baa',
-    stack_size = 50
+    stack_size = 500
 }
 
 ITEM {
@@ -1597,7 +1597,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'bab',
-    stack_size = 50
+    stack_size = 500
 }
 
 ITEM {
@@ -1612,7 +1612,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'bac',
-    stack_size = 50
+    stack_size = 500
 }
 
 ITEM {
@@ -1627,7 +1627,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'bad',
-    stack_size = 50
+    stack_size = 500
 }
 
 ITEM {
@@ -1642,7 +1642,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'caa',
-    stack_size = 50
+    stack_size = 500
 }
 
 ITEM {
@@ -1657,7 +1657,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'cab',
-    stack_size = 50
+    stack_size = 500
 }
 
 ITEM {
@@ -1672,7 +1672,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'cac',
-    stack_size = 50
+    stack_size = 500
 }
 
 ITEM {
@@ -1687,7 +1687,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'cad',
-    stack_size = 50
+    stack_size = 500
 }
 
 ITEM {
@@ -1697,7 +1697,7 @@ ITEM {
     icon_size = 32,
     subgroup = 'py-rawores-items',
     order = 'caf',
-    stack_size = 50
+    stack_size = 500
   }
 
 ITEM {
@@ -1707,7 +1707,7 @@ ITEM {
     icon_size = 32,
     subgroup = 'py-rawores-items',
     order = 'cag',
-    stack_size = 50
+    stack_size = 500
   }
 
 ITEM {
@@ -1717,7 +1717,7 @@ ITEM {
     icon_size = 32,
     subgroup = 'py-rawores-items',
     order = 'cah',
-    stack_size = 50
+    stack_size = 500
   }
 
   ITEM {
@@ -1727,7 +1727,7 @@ ITEM {
     icon_size = 32,
     subgroup = 'py-rawores-items',
     order = 'cai',
-    stack_size = 50
+    stack_size = 500
   }
 
 --ZINC
@@ -1883,7 +1883,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'g',
-    stack_size = 50
+    stack_size = 500
 }
 
 ITEM {
