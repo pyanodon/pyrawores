@@ -323,7 +323,7 @@ RECIPE {
     },
     subgroup = "py-rawores-lead",
     order = "aac"
-}:add_unlock("coal-processing-1")
+}:add_unlock("solder-mk01")
 
 --PLATES
 

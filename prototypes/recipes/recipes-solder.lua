@@ -35,7 +35,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "solder-1",
-    category = "bof",
+    category = "hpf",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -49,7 +49,7 @@ RECIPE {
     main_product = 'molten-solder',
     subgroup = "py-rawores-solder",
     order = "j"
-}:add_unlock("solder-mk01")
+}:add_unlock("solder-mk02")
 
 RECIPE {
     type = "recipe",

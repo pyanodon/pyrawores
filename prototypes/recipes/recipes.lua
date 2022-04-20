@@ -293,7 +293,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("smelters-mk01")
+}:add_unlock("alloys-mk01")
 
 RECIPE {
     type = "recipe",

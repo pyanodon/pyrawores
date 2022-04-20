@@ -3,6 +3,7 @@ local fun = require("prototypes/functions/functions")
 TECHNOLOGY("advanced-mining-facilities"):remove_pack("chemical-science-pack"):remove_prereq("diamond-mining"):add_prereq("iron-mk02"):remove_prereq('uranium-processing')
 TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_pack('production-science-pack'):remove_prereq('production-science-pack')
 TECHNOLOGY("fluid-pressurization"):remove_pack("chemical-science-pack"):remove_pack("logistic-science-pack")
+TECHNOLOGY("acetylene"):remove_pack("chemical-science-pack"):remove_pack("logistic-science-pack")
 
 RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):remove_unlock("helium-processing"):remove_unlock("liquid-petroleum-processing"):remove_unlock("advanced-oil-processing"):add_unlock("fluid-processing-machines-1")
 RECIPE("acidgas-2"):remove_unlock("advanced-oil-processing"):add_unlock("machines-mk02")
@@ -259,7 +260,8 @@ RECIPE("sinter-unit"):add_ingredient({type = "item", name = "super-alloy", amoun
 
 RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
 
-RECIPE('acetylene'):remove_unlock('filtration-mk02'):add_unlock('coal-processing-1'):change_category('gasifier')
+RECIPE('acetylene'):change_category('gasifier')
+
 
 data.raw.resource["ore-titanium"].minable.required_fluid = "acetylene"
 data.raw.resource["quartz-rock"].minable.required_fluid = "acetylene"
