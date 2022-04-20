@@ -45,7 +45,7 @@ RECIPE('nexelit-plate'):remove_unlock('nexelit')
 
 --Autofactory
 
-RECIPE('automated-factory-mk01'):replace_ingredient('advanced-circuit', 'electronic-circuit'):remove_unlock('advanced-electronics'):add_unlock('fast-inserter')
+RECIPE('automated-factory-mk01'):replace_ingredient('advanced-circuit', 'electronic-circuit'):remove_unlock('advanced-electronics'):add_unlock('automation-2')
 
 --advanced-circuit
 
@@ -66,8 +66,7 @@ RECIPE('crushed-copper'):remove_unlock('advanced-material-processing')
 RECIPE('crushing-iron'):remove_unlock('advanced-material-processing')
 RECIPE('crushed-iron'):remove_unlock('advanced-material-processing')
 RECIPE("steel-plate2"):remove_unlock('advanced-material-processing-2')
-RECIPE('calcium-carbide'):remove_unlock('filtration-mk02'):add_unlock('coal-processing-1')
-RECIPE('lime'):remove_unlock('concrete'):add_unlock('coal-processing-1')
+RECIPE('lime'):remove_unlock('concrete'):add_unlock('acetylene')
 --RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01'):remove_ingredient('chemical-plant-mk01')
 RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01')
 RECIPE("fuelrod-mk01"):remove_unlock('advanced-material-processing-2')
@@ -127,7 +126,6 @@ RECIPE("laser-turret"):add_ingredient({type = "item", name = "lens", amount = 1}
 RECIPE("cooling-tower-mk01"):replace_ingredient("iron-plate", "duralumin")
 RECIPE("soil-extractormk02"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("soil-extractormk01"):replace_ingredient("copper-cable", "tinned-cable")
-RECIPE("wpu"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("fawogae-plantation-mk01"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("advanced-foundry-mk01"):replace_ingredient("steel-furnace", {type = "item", name = "py-burner", amount = 1})
 RECIPE("chemical-science-pack"):replace_ingredient("iron-plate", "stainless-steel")

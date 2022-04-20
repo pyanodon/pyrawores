@@ -290,7 +290,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "copper-plate-4",
-    category = "casting",
+    category = "smelting",
     enabled = false,
     energy_required = 2,
     ingredients = {

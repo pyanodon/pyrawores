@@ -2,7 +2,7 @@
 TECHNOLOGY('coal-processing-3'):add_prereq('ht-trains')
 
 --ENITITY
-if mods['pyhightech'] then
+if mods['pyhightech'] and not mods["pyalienlife"] then
     table.insert(data.raw['assembling-machine']['crash-site-assembling-machine-1-repaired'].minable.results, {name = 'duralumin', amount = 50})
 end
 
@@ -96,7 +96,6 @@ RECIPE("py-logistic-robot-02"):add_ingredient({type = "item", name = "nexelit-ba
 RECIPE("ht-locomotive"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 60}):add_ingredient({type = "item", name = "nickel-plate", amount = 50})
 RECIPE("ht-generic-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 10})
 RECIPE("ht-generic-fluid-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 10})
-RECIPE("ceramic"):remove_unlock("vacuum-tube-electronics"):add_unlock("coal-processing-1")
 
 RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 10})
 RECIPE("outlet-gas-02"):change_category("fbreactor")

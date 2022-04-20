@@ -17,7 +17,7 @@ RECIPE {
     icon = "__pycoalprocessinggraphics__/graphics/icons/crush-iron.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
-}:add_unlock("iron-mk01")
+}:add_unlock("crusher")
 
 RECIPE {
     type = "recipe",
@@ -371,19 +371,19 @@ RECIPE {
 
 ---EXTRA PLATE---
 
--- RECIPE {
---     type = "recipe",
---     name = "low-grade-smelting-iron",
---     category = "smelting",
---     enabled = false,
---     energy_required = 12,
---     ingredients = {
---         {type = "item", name = "processed-iron-ore", amount = 3},
---     },
---     results = {
---         {type = "item", name = "iron-plate", amount = 1}
---     },
---     main_product= "iron-plate",
---     subgroup = "py-rawores-iron",
---     order = "aab"
--- }:add_unlock("iron-mk01")
+RECIPE {
+    type = "recipe",
+    name = "low-grade-smelting-iron",
+    category = "smelting",
+    enabled = false,
+    energy_required = 12,
+    ingredients = {
+        {type = "item", name = "processed-iron-ore", amount = 3},
+    },
+    results = {
+        {type = "item", name = "iron-plate", amount = 1}
+    },
+    main_product= "iron-plate",
+    subgroup = "py-rawores-iron",
+    order = "aab"
+}:add_unlock("crusher")
