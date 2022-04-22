@@ -205,7 +205,7 @@ RECIPE {
     type = 'recipe',
     name = 'mukmoux-fat-salt',
     category = 'mukmoux',
-    enabled = 'false',
+    enabled = false,
     energy_required = 35,
     ingredients = {
         {type = 'item', name = 'fawogae', amount = 5},
@@ -222,7 +222,7 @@ RECIPE {
     type = 'recipe',
     name = 'p2s5',
     category = 'hpf',
-    enabled = 'false',
+    enabled = false,
     energy_required = 3,
     ingredients = {
         {type = 'item', name = 'stone', amount = 15},
@@ -239,7 +239,7 @@ RECIPE {
     type = 'recipe',
     name = 'p2s5-2',
     category = 'hpf',
-    enabled = 'false',
+    enabled = false,
     energy_required = 3,
     ingredients = {
         {type = 'item', name = 'stone', amount = 15},
@@ -415,7 +415,7 @@ RECIPE {
     type = 'recipe',
     name = 'pyrite-burn',
     category = 'hpf',
-    enabled = 'false',
+    enabled = false,
     energy_required = 4,
     ingredients = {
         {type = 'item', name = 'pyrite', amount = 5},
@@ -431,7 +431,7 @@ RECIPE {
     type = 'recipe',
     name = 'pyrite-make',
     category = 'hpf',
-    enabled = 'false',
+    enabled = false,
     energy_required = 6,
     ingredients = {
         {type = 'item', name = 'iron-oxide', amount = 3},
@@ -447,7 +447,7 @@ RECIPE {
     type = 'recipe',
     name = 'sulfuric-acid-01',
     category = 'chemistry',
-    enabled = 'false',
+    enabled = false,
     energy_required = 4,
     ingredients = {
         {type = 'fluid', name = 'acidgas', amount = 100},
@@ -464,7 +464,7 @@ RECIPE {
     type = 'recipe',
     name = 'sodium-carbonate-1',
     category = 'hpf',
-    enabled = 'false',
+    enabled = false,
     energy_required = 4,
     ingredients = {
         {type = 'item', name = 'sodium-sulfate', amount = 1},
@@ -482,7 +482,7 @@ RECIPE {
     type = 'recipe',
     name = 'sodium-sulfate-1',
     category = 'chemistry',
-    enabled = 'false',
+    enabled = false,
     energy_required = 4,
     ingredients = {
         {type = 'item', name = 'sodium-hydroxide', amount = 10},

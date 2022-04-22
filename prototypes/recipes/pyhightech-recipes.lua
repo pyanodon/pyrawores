@@ -461,7 +461,7 @@ RECIPE {
     type = 'recipe',
     name = 'cyanic-acid-01',
     category = 'quenching-tower',
-    enabled = 'false',
+    enabled = false,
     energy_required = 5,
     ingredients = {
         {type = 'fluid', name = 'methane', amount = 100},
@@ -479,7 +479,7 @@ RECIPE {
     type = 'recipe',
     name = 'collagen-glycerol',
     category = 'chemistry',
-    enabled = 'false',
+    enabled = false,
     energy_required = 4,
     ingredients = {
         {type = 'fluid', name = 'water', amount = 100},
