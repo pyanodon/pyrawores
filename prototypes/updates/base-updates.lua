@@ -38,23 +38,6 @@ RECIPE("kovarex-enrichment-process"):set_fields{energy_required = 5}
 RECIPE('electric-engine-unit'):remove_ingredient('copper-cable'):add_ingredient({type = "item", name = "copper-cable", amount = 150}):add_ingredient({type = "item", name = "aluminium-plate", amount = 10}):add_ingredient({type = "item", name = "bolts", amount = 20})--:remove_ingredient("engine-unit")
 RECIPE('low-density-structure'):change_category('py-rawores-smelter')
 
-RECIPE {
-  type = "recipe",
-  name = "uranium-fuel-cell",
-  enabled = false,
-  energy_required = 15,
-  ingredients =
-    {
-      {"lead-plate", 2},
-      {"niobium-plate", 2},
-      {"fuelrod-mk01", 2}
-    },
-  results = {
-      {"uranium-fuel-cell", 1}
-  },
-}:add_unlock('uranium-mk01')
-
-
 -- ENTITY CHANGES
 data.raw.reactor['nuclear-reactor'].use_fuel_glow_color = true
 
@@ -72,7 +55,6 @@ data.raw['autoplace-control']['coal'] = nil
 data.raw.item['uranium-fuel-cell'].fuel_glow_color = {0,1,0,1}
 data.raw.item['uranium-fuel-cell'].subgroup = "py-rawores-items"
 data.raw.item['uranium-fuel-cell'].order = "cae"
-
 
 -- OTHER
 

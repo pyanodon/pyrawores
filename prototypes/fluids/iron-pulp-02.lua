@@ -16,7 +16,7 @@
         main_product = 'iron-pulp-02',
         subgroup = 'py-rawores-iron',
         order = 'q-2'
-    }:add_unlock('iron-mk03'):change_category('pan')
+    }:add_unlock('iron-mk03')
 
 FLUID {
     type = 'fluid',

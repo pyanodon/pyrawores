@@ -15,7 +15,7 @@ RECIPE {
     main_product = "acid-solvent",
     subgroup = "py-rawores-fluids",
     order = "q-2"
-}:add_unlock("additives"):change_category("mixer")
+}:add_unlock("additives")
 
 FLUID {
     type = "fluid",

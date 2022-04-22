@@ -86,7 +86,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/grade-4-zinc-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-zinc",
-}:add_unlock("zinc-mk03"):change_category("screener")
+}:add_unlock("zinc-mk03")
 
 RECIPE {
     type = "recipe",
@@ -104,7 +104,7 @@ RECIPE {
     },
     main_product = "purified-zinc",
     subgroup = "py-rawores-zinc",
-}:add_unlock("zinc-mk03"):change_category("grease"):add_ingredient({type = "fluid", name = "grease", amount = 25})
+}:add_unlock("zinc-mk03")
 
 RECIPE {
     type = "recipe",
@@ -159,7 +159,7 @@ RECIPE {
     },
     main_product = "reduced-zinc",
     subgroup = "py-rawores-zinc",
-}:add_unlock("zinc-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("zinc-mk04")
 
 RECIPE {
     type = "recipe",
@@ -178,7 +178,7 @@ RECIPE {
     },
     main_product = "sintered-zinc",
     subgroup = "py-rawores-zinc",
-}:add_unlock("zinc-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("zinc-mk05")
 
 --MOLTEN VERSION
 

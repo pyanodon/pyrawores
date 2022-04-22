@@ -41,7 +41,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/recrush-coal.png",
     icon_size = 32,
     subgroup = "py-rawores-coal",
-}:add_unlock("coal-mk01"):change_category('secondary-crusher')
+}:add_unlock("coal-mk01")
 
 RECIPE {
     type = "recipe",
@@ -57,7 +57,7 @@ RECIPE {
     },
     main_product = "coal",
     subgroup = "py-rawores-coal",
-}:add_unlock("coal-mk02"):change_category('secondary-crusher')
+}:add_unlock("coal-mk02")
 
 RECIPE {
     type = "recipe",
@@ -75,8 +75,7 @@ RECIPE {
     },
     main_product = "coarse-coal",
     subgroup = "py-rawores-coal",
-}:add_unlock("coal-mk02"):change_category('screener')
-
+}:add_unlock("coal-mk02")
 
 RECIPE {
     type = "recipe",
@@ -131,7 +130,7 @@ RECIPE {
     },
     main_product = "conditioned-fines",
     subgroup = "py-rawores-coal",
-}:add_unlock("coal-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("coal-mk04")
 
 
 --HIGH ASH FINES RECLAMATION
@@ -170,7 +169,7 @@ RECIPE {
     main_product = "refsyngas",
     subgroup = "py-rawores-coal",
     order = "zaa"
-}:add_unlock("coal-mk03"):change_category('thickener'):replace_ingredient('organic-solvent', 'industrial-solvent')
+}:add_unlock("coal-mk03")
 
 RECIPE {
     type = "recipe",
@@ -190,4 +189,4 @@ RECIPE {
     },
     main_product = "coal",
     subgroup = "py-rawores-coal",
-}:add_unlock("coal-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("coal-mk03")

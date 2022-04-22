@@ -16,7 +16,7 @@ RECIPE {
     main_product = "u-79",
     subgroup = "py-rawores-uranium",
     order = "q-2"
-}:add_unlock("uranium-mk04"):replace_ingredient("organic-solvent", "industrial-solvent")
+}:add_unlock("uranium-mk04")
 
 
 FLUID {

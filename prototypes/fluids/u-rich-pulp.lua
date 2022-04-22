@@ -15,7 +15,7 @@ RECIPE {
     main_product = "u-rich-pulp",
     subgroup = "py-rawores-uranium",
     order = "q-2"
-}:add_unlock("uranium-mk02"):change_category('agitator')
+}:add_unlock("uranium-mk02")
 
 
 FLUID {

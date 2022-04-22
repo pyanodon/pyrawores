@@ -36,7 +36,7 @@ RECIPE {
     },
     main_product = "sodium-aluminate",
     subgroup = "py-rawores-aluminium",
-}:add_unlock("aluminium-mk03"):add_ingredient({type = "item", name = "sodium-chlorate", amount = 5})
+}:add_unlock("aluminium-mk03")
 
 RECIPE {
     type = "recipe",
@@ -94,7 +94,7 @@ RECIPE {
     },
     main_product = "reduced-aluminium",
     subgroup = "py-rawores-aluminium",
-}:add_unlock("aluminium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("aluminium-mk04")
 
 RECIPE {
     type = "recipe",
@@ -113,7 +113,7 @@ RECIPE {
     },
     main_product = "sintered-aluminium",
     subgroup = "py-rawores-aluminium",
-}:add_unlock("aluminium-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("aluminium-mk05")
 
 --MOLTEN VERSION
 

@@ -53,7 +53,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/chromite-2-grade-screener.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
-}:add_unlock("chromium-mk02"):change_category("screener")
+}:add_unlock("chromium-mk02")
 
 RECIPE {
     type = "recipe",
@@ -107,7 +107,7 @@ RECIPE {
     },
     main_product = "high-chromite",
     subgroup = "py-rawores-chromium",
-}:add_unlock("chromium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("chromium-mk03")
 
 RECIPE {
     type = "recipe",
@@ -126,7 +126,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/recrush-high-chromite.png",
     icon_size = 32,
     subgroup = "py-rawores-chromium",
-}:add_unlock("chromium-mk03"):change_category("secondary-crusher")
+}:add_unlock("chromium-mk03")
 
 --CHROMITE SAND YIELDS
 
@@ -346,7 +346,7 @@ RECIPE {
     },
     main_product = "sintered-chromium",
     subgroup = "py-rawores-chromium",
-}:add_unlock("chromium-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("chromium-mk05")
 
 RECIPE {
     type = "recipe",
@@ -365,7 +365,7 @@ RECIPE {
     },
     main_product = "reduced-chromium",
     subgroup = "py-rawores-chromium",
-}:add_unlock("chromium-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("chromium-mk04")
 
 --INITIAL PLATE
 

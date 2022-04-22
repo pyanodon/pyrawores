@@ -14,7 +14,7 @@ RECIPE {
     main_product = "u-83",
     subgroup = "py-rawores-uranium",
     order = "q-2"
-}:add_unlock("uranium-mk04"):change_category('agitator'):replace_ingredient("nitrogen", "ammonia")
+}:add_unlock("uranium-mk04")
 
 
 FLUID {

@@ -17,7 +17,7 @@ RECIPE {
     },
     main_product = "reduced-silver",
     subgroup = "py-rawores-silver",
-}:add_unlock("silver-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("silver-mk04")
 
 RECIPE {
     type = "recipe",
@@ -36,7 +36,7 @@ RECIPE {
     },
     main_product = "sintered-silver",
     subgroup = "py-rawores-silver",
-}:add_unlock("silver-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("silver-mk05")
 
 --MOLTEN VERSION
 

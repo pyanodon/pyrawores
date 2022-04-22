@@ -16,7 +16,7 @@ RECIPE {
     main_product = "armac-12",
     subgroup = "py-rawores-recipes",
     order = "q-2"
-}:add_unlock("additives"):change_category('mixer'):replace_ingredient('chlorine','ammonia')
+}:add_unlock("additives")
 
 
 FLUID {

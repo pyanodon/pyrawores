@@ -17,7 +17,7 @@
         main_product = 'ti-pulp-05',
         subgroup = 'py-rawores-titanium',
         order = 'q-2'
-    }:add_unlock('titanium-mk03'):change_category('hydrocyclone')
+    }:add_unlock('titanium-mk03')
 
 FLUID {
     type = 'fluid',

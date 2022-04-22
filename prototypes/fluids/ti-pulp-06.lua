@@ -15,7 +15,7 @@ RECIPE {
     main_product = "ti-pulp-06",
     subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk03"):change_category('pan')
+}:add_unlock("titanium-mk03")
 
 
 FLUID {

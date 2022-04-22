@@ -15,7 +15,7 @@ RECIPE {
     main_product = "outlet-gas-02",
     subgroup = "py-rawores-coke",
     order = "q-2"
-}:add_unlock("coke-mk02"):change_category('gas-separator')
+}:add_unlock("coke-mk02")
 
 FLUID {
     type = "fluid",

@@ -11,8 +11,14 @@ end
 
 if mods["pyhightech"] then
   require("prototypes/updates/pyhightech-updates")
-  require("prototypes.ores.phosphate-rock-02")
-  require("prototypes/buildings/phosphate-mine-02")
+end
+
+if mods["pypetroleumhandling"] then
+  require("prototypes/updates/pypetroleumhandling-updates")
+end
+
+if mods["pyalienlife"] then
+  require("prototypes/updates/pyalienlife-updates")
 end
 
 --ADAPTATIONS

@@ -15,7 +15,7 @@ RECIPE {
     main_product = "gold-solution",
     subgroup = "py-rawores-gold",
     order = "q-2"
-}:add_unlock("gold"):replace_ingredient("water", "ammonia")
+}:add_unlock("gold")
 
 FLUID {
     type = "fluid",

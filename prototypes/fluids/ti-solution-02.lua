@@ -15,7 +15,7 @@ RECIPE {
     main_product = "ti-solution-02",
     subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("titanium-mk03")
 
 
 FLUID {

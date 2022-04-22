@@ -15,7 +15,7 @@ RECIPE {
     main_product = "ti-overflow-waste",
     subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 350})
+}:add_unlock("titanium-mk03")
 
 
 FLUID {

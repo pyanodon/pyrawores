@@ -14,7 +14,7 @@ RECIPE {
     main_product = "ti-solution",
     subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk03"):change_category('agitator')
+}:add_unlock("titanium-mk03")
 
 
 FLUID {

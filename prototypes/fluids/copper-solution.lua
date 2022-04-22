@@ -16,7 +16,7 @@
         main_product = 'copper-solution',
         subgroup = 'py-rawores-copper',
         order = 'q-2'
-    }:add_unlock('copper-mk03'):change_category('mixer')
+    }:add_unlock('copper-mk03')
 
 FLUID {
     type = 'fluid',

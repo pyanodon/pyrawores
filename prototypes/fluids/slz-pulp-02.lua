@@ -15,7 +15,7 @@ RECIPE {
     main_product = "slz-pulp-02",
     subgroup = "py-rawores-lead",
     order = "q-1"
-}:add_unlock("lead-mk03"):replace_ingredient("organic-solvent", "soda-ash")
+}:add_unlock("lead-mk03")
 
 
 FLUID {

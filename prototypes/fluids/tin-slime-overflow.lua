@@ -15,7 +15,7 @@ RECIPE {
     main_product = "tin-slime-overflow",
     subgroup = "py-rawores-tin",
     order = "q-2"
-}:add_unlock("tin-mk03"):change_category('thickener')
+}:add_unlock("tin-mk03")
 
 
 FLUID {

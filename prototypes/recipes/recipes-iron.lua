@@ -37,7 +37,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/processed-iron-ore-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
-}:add_unlock("iron-mk02"):change_category('screener')
+}:add_unlock("iron-mk02")
 
 RECIPE {
     type = "recipe",
@@ -55,7 +55,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/recrush-grade-3-iron.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
-}:add_unlock("iron-mk02"):change_category('secondary-crusher')
+}:add_unlock("iron-mk02")
 
 RECIPE {
     type = "recipe",
@@ -111,7 +111,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/iron-concentrate.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
-}:add_unlock("iron-mk03"):change_category('jig')
+}:add_unlock("iron-mk03")
 
 RECIPE {
     type = "recipe",
@@ -184,7 +184,7 @@ RECIPE {
     main_product = "iron-pulp-07",
     subgroup = "py-rawores-iron",
     order = "q-2"
-}:add_unlock("iron-mk03"):change_category('thickener')
+}:add_unlock("iron-mk03")
 
 RECIPE {
     type = "recipe",
@@ -224,7 +224,7 @@ RECIPE {
     },
     main_product = "reduced-iron",
     subgroup = "py-rawores-iron",
-}:add_unlock("iron-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("iron-mk04")
 
 RECIPE {
     type = "recipe",
@@ -243,7 +243,7 @@ RECIPE {
     },
     main_product = "sintered-iron",
     subgroup = "py-rawores-iron",
-}:add_unlock("iron-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("iron-mk05")
 
 
 

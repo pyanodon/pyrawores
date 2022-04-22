@@ -20,7 +20,7 @@
         icon_size = 32,
         subgroup = 'py-rawores-zinc',
         order = 'q-2'
-    }:add_unlock('zinc-mk03'):change_category('jig')
+    }:add_unlock('zinc-mk03')
 
 FLUID {
     type = 'fluid',

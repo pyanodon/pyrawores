@@ -15,7 +15,7 @@ RECIPE {
     main_product = "nickel-pulp-02",
     subgroup = "py-rawores-nickel",
     order = "q-2"
-}:add_unlock("nickel-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("nickel-mk03")
 
 
 FLUID {

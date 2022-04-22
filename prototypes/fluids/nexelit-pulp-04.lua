@@ -16,7 +16,7 @@ RECIPE {
     main_product = "nexelit-pulp-04",
     subgroup = "py-rawores-nexelit",
     order = "q-2"
-}:add_unlock("nexelit-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 75})
+}:add_unlock("nexelit-mk03")
 
 
 FLUID {

@@ -19,7 +19,7 @@
         icon_size = 32,
         subgroup = 'py-rawores-lead',
         order = 'q-1'
-    }:add_unlock('lead-mk03'):replace_ingredient('water', 'cyanic-acid')
+    }:add_unlock('lead-mk03')
 
 FLUID {
     type = 'fluid',

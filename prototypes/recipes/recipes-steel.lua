@@ -16,7 +16,7 @@ RECIPE {
     },
     main_product = "sponge-iron",
     subgroup = "py-rawores-iron",
-}:add_unlock("steel-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("steel-mk03")
 
 RECIPE {
     type = "recipe",
@@ -97,7 +97,7 @@ RECIPE {
     main_product = "molten-stainless-steel",
     subgroup = "py-rawores-iron-alloys",
     order = "daa"
-}:add_unlock("stainless-steel-mk01"):add_ingredient({type = "item", name = "phosphate-rock", amount =4})
+}:add_unlock("stainless-steel-mk01")
 
 RECIPE {
     type = "recipe",
@@ -138,7 +138,7 @@ RECIPE {
     main_product = "molten-super-steel",
     subgroup = "py-rawores-iron-alloys",
     order = "faa"
-}:add_unlock("super-steel-mk01"):add_ingredient({type = "item", name = "molybdenum-plate", amount =1}):add_ingredient({type = "item", name = "vanadium-oxide", amount =2})
+}:add_unlock("super-steel-mk01")
 
 RECIPE {
     type = "recipe",
@@ -214,7 +214,7 @@ RECIPE {
     main_product = "molten-stainless-steel-p3",
     subgroup = "py-rawores-iron-alloys",
     order = "dad"
-}:add_unlock("stainless-steel-mk02"):add_ingredient({type = "item", name = "phosphate-rock", amount =4})
+}:add_unlock("stainless-steel-mk02")
 
 RECIPE {
     type = "recipe",
@@ -273,7 +273,7 @@ RECIPE {
     main_product = "molten-super-steel-p2",
     subgroup = "py-rawores-iron-alloys",
     order = "fac"
-}:add_unlock("super-steel-mk02"):add_ingredient({type = "item", name = "vanadium-oxide", amount =3})
+}:add_unlock("super-steel-mk02")
 
 
 RECIPE {
@@ -291,4 +291,4 @@ RECIPE {
     main_product = "molten-super-steel",
     subgroup = "py-rawores-iron-alloys",
     order = "fad"
-}:add_unlock("super-steel-mk02"):add_ingredient({type = "item", name = "molybdenum-oxide", amount = 4})
+}:add_unlock("super-steel-mk02")

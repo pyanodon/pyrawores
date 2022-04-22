@@ -18,7 +18,7 @@
         main_product = 'tin-pulp-02',
         subgroup = 'py-rawores-tin',
         order = 'q-2'
-    }:add_unlock('tin-mk03'):add_ingredient({type = 'fluid', name = 'pressured-air', amount = 250})
+    }:add_unlock('tin-mk03')
 
 FLUID {
     type = 'fluid',

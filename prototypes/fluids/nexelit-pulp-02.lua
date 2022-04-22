@@ -15,7 +15,7 @@ RECIPE {
     main_product = "nexelit-pulp-02",
     subgroup = "py-rawores-nexelit",
     order = "q-2"
-}:add_unlock("nexelit-mk03"):replace_ingredient("syngas", "acetone")
+}:add_unlock("nexelit-mk03")
 
 FLUID {
     type = "fluid",
