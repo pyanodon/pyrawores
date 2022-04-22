@@ -35,7 +35,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("starch"):add_ingredient({type = 'item', name = 'fiberboard', amount = 1})
+}:add_unlock("starch")
 
 RECIPE {
     type = "recipe",
@@ -56,7 +56,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("starch"):add_ingredient({type = 'item', name = 'fiberboard', amount = 1})
+}:add_unlock("starch")
 
 RECIPE {
     type = "recipe",
@@ -233,7 +233,7 @@ RECIPE {
         {type = 'item', name = 'iron-ore', amount = 3},
     },
     main_product = "p2s5",
-}:add_unlock("additives"):replace_ingredient("stone", "phosphate-rock")
+}:add_unlock("additives")
 
 RECIPE {
     type = 'recipe',
@@ -250,7 +250,7 @@ RECIPE {
         {type = 'item', name = 'pyrite', amount = 1},
     },
     main_product = "p2s5",
-}:add_unlock("additives"):replace_ingredient("stone", "phosphate-rock")
+}:add_unlock("additives")
 
 RECIPE {
     type = "recipe",
@@ -273,7 +273,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-items",
     order = "q-2"
-}:add_unlock("salts"):change_category('fbreactor'):replace_ingredient("water", "ammonia")
+}:add_unlock("salts")
 
 RECIPE {
     type = "recipe",
@@ -332,7 +332,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("battery"):add_ingredient({type = 'item', name = 'rayon', amount = 2})
+}:add_unlock("battery")
 
 RECIPE {
     type = "recipe",
@@ -351,7 +351,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("battery"):add_ingredient({type = 'item', name = 'rayon', amount = 2})
+}:add_unlock("battery")
 
 RECIPE {
     type = "recipe",
@@ -372,7 +372,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("drill-head-mk03"):add_ingredient({type = 'item', name = 'diamond', amount = 3}):add_ingredient({type = 'item', name = 'boron-carbide', amount = 5}):replace_ingredient("super-steel", "super-alloy"):replace_ingredient("nitrogen", "helium")
+}:add_unlock("drill-head-mk03")
 
 RECIPE {
     type = "recipe",
@@ -730,7 +730,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-fluid-handling",
     order = "o"
-}:add_unlock("coal-processing-3"):replace_ingredient("water", "liquid-nitrogen")
+}:add_unlock("coal-processing-3")
 
 RECIPE {
     type = "recipe",
@@ -1144,3 +1144,18 @@ RECIPE {
     subgroup = "py-combustion",
     order = "i"
 }:add_unlock("energy-3")
+
+RECIPE {
+    type = "recipe",
+    name = "uranium-fuel-cell",
+    enabled = false,
+    energy_required = 15,
+    ingredients = {
+        {"lead-plate", 2},
+        {"niobium-plate", 2},
+        {"fuelrod-mk01", 2}
+    },
+    results = {
+        {"uranium-fuel-cell", 1}
+    },
+}:add_unlock('uranium-mk01')

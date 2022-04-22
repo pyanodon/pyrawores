@@ -15,7 +15,7 @@ RECIPE {
     main_product = "u-81",
     subgroup = "py-rawores-uranium",
     order = "q-2"
-}:add_unlock("uranium-mk04"):replace_ingredient("water", "soda-ash")
+}:add_unlock("uranium-mk04")
 
 
 FLUID {

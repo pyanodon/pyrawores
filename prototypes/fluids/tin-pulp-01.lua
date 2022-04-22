@@ -15,7 +15,7 @@ RECIPE {
     main_product = "tin-pulp-01",
     subgroup = "py-rawores-tin",
     order = "q-2"
-}:add_unlock("tin-mk03"):change_category('pan'):replace_ingredient("nitrogen", "soda-ash")
+}:add_unlock("tin-mk03")
 
 
 FLUID {

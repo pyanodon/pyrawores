@@ -16,7 +16,7 @@ RECIPE {
     main_product = "chromite-pulp-01",
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("chromium-mk03"):change_category('agitator')
+}:add_unlock("chromium-mk03")
 
 FLUID {
     type = "fluid",

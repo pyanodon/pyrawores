@@ -32,7 +32,7 @@ RECIPE {
     main_product = "nickel-overflow",
     subgroup = "py-rawores-nickel",
     order = "q-2"
-}:add_unlock("nickel-mk03"):change_category('pan')
+}:add_unlock("nickel-mk03")
 
 FLUID {
     type = "fluid",

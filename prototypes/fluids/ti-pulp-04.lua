@@ -15,7 +15,7 @@ RECIPE {
     main_product = "ti-pulp-04",
     subgroup = "py-rawores-titanium",
     order = "q-2"
-}:add_unlock("titanium-mk03"):change_category('thickener')
+}:add_unlock("titanium-mk03")
 
 
 FLUID {

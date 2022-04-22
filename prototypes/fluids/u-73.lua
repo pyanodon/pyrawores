@@ -14,7 +14,7 @@ RECIPE {
     main_product = "u-73",
     subgroup = "py-rawores-uranium",
     order = "q-2"
-}:add_unlock("uranium-mk04"):change_category("mixer")
+}:add_unlock("uranium-mk04")
 
 FLUID {
     type = "fluid",

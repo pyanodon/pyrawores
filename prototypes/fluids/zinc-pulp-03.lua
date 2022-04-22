@@ -15,7 +15,7 @@ RECIPE {
     main_product = "zinc-pulp-03",
     subgroup = "py-rawores-zinc",
     order = "q-2"
-}:add_unlock("zinc-mk03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 250})
+}:add_unlock("zinc-mk03")
 
 FLUID {
     type = "fluid",

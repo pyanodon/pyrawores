@@ -17,7 +17,7 @@
         main_product = 'processed-chromite',
         subgroup = 'py-rawores-chromium',
         order = 'q-2'
-    }:add_unlock('chromium-mk03'):change_category('pan')
+    }:add_unlock('chromium-mk03')
 
 FLUID {
     type = 'fluid',

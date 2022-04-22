@@ -16,7 +16,7 @@
         main_product = 'zinc-pulp-04',
         subgroup = 'py-rawores-zinc',
         order = 'q-2'
-    }:add_unlock('zinc-mk03'):change_category('agitator'):add_ingredient({type = 'fluid', name = 'soda-ash', amount = 300})
+    }:add_unlock('zinc-mk03')
 
     RECIPE {
         type = 'recipe',
@@ -35,7 +35,7 @@
         main_product = 'zinc-pulp-04',
         subgroup = 'py-rawores-zinc',
         order = 'q-2'
-    }:add_unlock('zinc-mk03'):change_category('thickener')
+    }:add_unlock('zinc-mk03')
 
 
 FLUID {

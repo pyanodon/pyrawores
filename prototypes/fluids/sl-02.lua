@@ -17,7 +17,7 @@
         main_product = 'sl-02',
         subgroup = 'py-rawores-lead',
         order = 'q-1'
-    }:add_unlock('lead-mk03'):change_category('hydrocyclone')
+    }:add_unlock('lead-mk03')
 
 FLUID {
     type = 'fluid',

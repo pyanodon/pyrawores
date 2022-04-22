@@ -52,7 +52,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/grade-2-u-recrush.png",
     icon_size = 32,
     subgroup = "py-rawores-uranium",
-}:add_unlock("uranium-mk01"):change_category('secondary-crusher')
+}:add_unlock("uranium-mk01")
 
 RECIPE {
     type = "recipe",

@@ -34,7 +34,7 @@ RECIPE {
     },
     main_product = "coke",
     subgroup = "py-rawores-coke",
-}:add_unlock("coke-mk02"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("coke-mk02")
 
 RECIPE {
     type = "recipe",

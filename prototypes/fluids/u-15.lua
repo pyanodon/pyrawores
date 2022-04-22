@@ -34,7 +34,7 @@ RECIPE {
     main_product = "u-15",
     subgroup = "py-rawores-uranium",
     order = "q-2"
-}:add_unlock("uranium-mk03"):change_category('thickener')
+}:add_unlock("uranium-mk03")
 
 FLUID {
     type = "fluid",

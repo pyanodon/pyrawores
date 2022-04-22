@@ -17,7 +17,7 @@
         main_product = 'ti-pulp-01',
         subgroup = 'py-rawores-titanium',
         order = 'q-2'
-    }:add_unlock('titanium-mk03'):replace_ingredient('sodium-carbonate', 'sodium-chlorate')
+    }:add_unlock('titanium-mk03')
 
 FLUID {
     type = 'fluid',

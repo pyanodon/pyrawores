@@ -16,7 +16,7 @@ RECIPE {
     main_product = "copper-pulp-01",
     subgroup = "py-rawores-copper",
     order = "q-2"
-}:add_unlock("copper-mk03"):add_ingredient({type = "fluid", name = "grease", amount =10})
+}:add_unlock("copper-mk03")
 
 
 FLUID {

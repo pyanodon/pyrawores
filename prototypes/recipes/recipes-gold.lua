@@ -13,7 +13,7 @@ RECIPE {
     },
     main_product = "gold-precipitate",
     subgroup = "py-rawores-gold",
-}:add_unlock("gold"):change_category("agitator")
+}:add_unlock("gold")
 
 RECIPE {
     type = "recipe",
@@ -30,7 +30,7 @@ RECIPE {
     },
     main_product = "gold-concentrate",
     subgroup = "py-rawores-gold",
-}:add_unlock("gold"):replace_ingredient("sulfuric-acid", "cyanic-acid")
+}:add_unlock("gold")
 
 RECIPE {
     type = "recipe",

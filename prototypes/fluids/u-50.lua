@@ -14,7 +14,7 @@ RECIPE {
     main_product = "u-50",
     subgroup = "py-rawores-uranium",
     order = "q-2"
-}:add_unlock("uranium-mk03"):change_category('hydrocyclone')
+}:add_unlock("uranium-mk03")
 
 
 FLUID {

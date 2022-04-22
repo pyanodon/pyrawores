@@ -36,7 +36,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/grade-1-nickel-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-nickel",
-}:add_unlock("nickel-mk02"):change_category("screener")
+}:add_unlock("nickel-mk02")
 
 RECIPE {
     type = "recipe",
@@ -54,7 +54,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/recrush-nickel-rejects.png",
     icon_size = 32,
     subgroup = "py-rawores-nickel",
-}:add_unlock("nickel-mk02"):change_category("secondary-crusher")
+}:add_unlock("nickel-mk02")
 
 RECIPE {
     type = "recipe",
@@ -125,7 +125,7 @@ RECIPE {
     },
     main_product = "reduced-nickel",
     subgroup = "py-rawores-nickel",
-}:add_unlock("nickel-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("nickel-mk04")
 
 RECIPE {
     type = "recipe",
@@ -144,7 +144,7 @@ RECIPE {
     },
     main_product = "sintered-nickel",
     subgroup = "py-rawores-nickel",
-}:add_unlock("nickel-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("nickel-mk05")
 
 --MOLTEN VERSION
 

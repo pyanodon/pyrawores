@@ -15,7 +15,7 @@ RECIPE {
     main_product = "nickel-pulp-01",
     subgroup = "py-rawores-nickel",
     order = "q-2"
-}:add_unlock("nickel-mk03"):change_category('agitator')
+}:add_unlock("nickel-mk03")
 
 
 FLUID {

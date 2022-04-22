@@ -14,7 +14,7 @@ RECIPE {
     main_product = "chromite-mix",
     subgroup = "py-rawores-chromium",
     order = "q-2"
-}:add_unlock("gold"):change_category('mixer')
+}:add_unlock("gold")
 
 
 FLUID {

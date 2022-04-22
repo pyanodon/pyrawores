@@ -14,7 +14,7 @@ RECIPE {
     main_product = "tin-slime",
     subgroup = "py-rawores-tin",
     order = "q-2"
-}:add_unlock("tin-mk03"):change_category('hydrocyclone')
+}:add_unlock("tin-mk03")
 
 
 FLUID {

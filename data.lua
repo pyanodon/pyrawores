@@ -327,6 +327,14 @@ require("prototypes/recipes/recipes-zinc")
 require("prototypes/recipes/recipes-casting")
 require("prototypes/recipes/recipes-solder")
 
+if mods["pyfusionenergy"] then
+    require("prototypes/recipes/pyfusionenergy-recipes")
+end
+
+if mods["pyhightech"] then
+    require("prototypes/recipes/pyhightech-recipes")
+end
+
 --(( OTHERS ))--
 
 require("prototypes/robots/py-construction-robot-02")
@@ -344,3 +352,8 @@ data.raw.fluid['diesel'].fuel_value = '1.5MJ'
 
 table.insert(data.raw['fluid-turret']['flamethrower-turret'].attack_parameters.fluids, {type = 'diesel', damage_modifier = 2})
 table.insert(data.raw['fluid-turret']['flamethrower-turret'].attack_parameters.fluids, {type = 'kerosene', damage_modifier = 2})
+
+if mods["pyhightech"] then
+    require("prototypes.ores.phosphate-rock-02")
+    require("prototypes/buildings/phosphate-mine-02")
+end

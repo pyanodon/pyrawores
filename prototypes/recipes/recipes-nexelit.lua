@@ -73,7 +73,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/nexelit-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-nexelit",
-}:add_unlock("nexelit-mk02"):change_category("screener")
+}:add_unlock("nexelit-mk02")
 
 RECIPE {
     type = "recipe",
@@ -108,7 +108,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/recrush-grade-2-nexelit.png",
     icon_size = 32,
     subgroup = "py-rawores-nexelit",
-}:add_unlock("nexelit-mk02"):change_category("secondary-crusher")
+}:add_unlock("nexelit-mk02")
 
 RECIPE {
     type = "recipe",
@@ -181,7 +181,7 @@ RECIPE {
     },
     main_product = "reduced-nexelit",
     subgroup = "py-rawores-nexelit",
-}:add_unlock("nexelit-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 450})
+}:add_unlock("nexelit-mk04")
 
 RECIPE {
     type = "recipe",
@@ -200,7 +200,7 @@ RECIPE {
     },
     main_product = "sintered-nexelit",
     subgroup = "py-rawores-nexelit",
-}:add_unlock("nexelit-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("nexelit-mk05")
 
 --MOLTEN VERSION
 

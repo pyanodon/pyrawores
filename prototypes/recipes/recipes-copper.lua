@@ -18,7 +18,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/ore-copper-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-copper",
-}:add_unlock("copper-mk01"):change_category("screener")
+}:add_unlock("copper-mk01")
 
 RECIPE {
     type = "recipe",
@@ -54,7 +54,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/grade-2-copper-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-copper",
-}:add_unlock("copper-mk02"):change_category("screener")
+}:add_unlock("copper-mk02")
 
 RECIPE {
     type = "recipe",
@@ -90,7 +90,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/grade-3-copper-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-copper",
-}:add_unlock("copper-mk02"):change_category("screener")
+}:add_unlock("copper-mk02")
 
 RECIPE {
     type = "recipe",
@@ -146,7 +146,7 @@ RECIPE {
     },
     main_product = "high-grade-copper",
     subgroup = "py-rawores-copper",
-}:add_unlock("copper-mk03"):change_category("agitator")
+}:add_unlock("copper-mk03")
 
 --SINTER and DRP IMPROVEMENTS
 
@@ -167,7 +167,7 @@ RECIPE {
     },
     main_product = "reduced-copper",
     subgroup = "py-rawores-copper",
-}:add_unlock("copper-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("copper-mk04")
 
 RECIPE {
     type = "recipe",
@@ -186,7 +186,7 @@ RECIPE {
     },
     main_product = "sintered-copper",
     subgroup = "py-rawores-copper",
-}:add_unlock("copper-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("copper-mk05")
 
 --MOLTEN VERSION
 

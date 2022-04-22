@@ -15,7 +15,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/ore-tin-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk01"):change_category('screener')
+}:add_unlock("tin-mk01")
 
 RECIPE {
     type = "recipe",
@@ -51,7 +51,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/grade-1-tin-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk02"):change_category('screener')
+}:add_unlock("tin-mk02")
 
 RECIPE {
     type = "recipe",
@@ -69,7 +69,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/recrush-tin-ore-rejects.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk02"):change_category('secondary-crusher')
+}:add_unlock("tin-mk02")
 
 RECIPE {
     type = "recipe",
@@ -124,7 +124,7 @@ RECIPE {
     },
     main_product = "tin-concentrate",
     subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk03"):change_category('jig')
+}:add_unlock("tin-mk03")
 
 RECIPE {
     type = "recipe",
@@ -143,7 +143,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/tin-rejects-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk03"):change_category('screener')
+}:add_unlock("tin-mk03")
 
 RECIPE {
     type = "recipe",
@@ -181,7 +181,7 @@ RECIPE {
     },
     main_product = "tin-concentrate",
     subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk03"):change_category('grease')
+}:add_unlock("tin-mk03")
 
 RECIPE {
     type = "recipe",
@@ -253,7 +253,7 @@ RECIPE {
     },
     main_product = "reduced-tin",
     subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("tin-mk04")
 
 RECIPE {
     type = "recipe",
@@ -272,7 +272,7 @@ RECIPE {
     },
     main_product = "sintered-tin",
     subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
+}:add_unlock("tin-mk05")
 
 --MOLTEN VERSION
 

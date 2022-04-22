@@ -17,7 +17,7 @@ RECIPE {
     main_product = "coal-pulp-01",
     subgroup = "py-rawores-coal",
     order = "q-2"
-}:add_unlock("coal-mk04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
+}:add_unlock("coal-mk04")
 
 
 FLUID {

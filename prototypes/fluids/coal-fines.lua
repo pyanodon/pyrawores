@@ -16,7 +16,7 @@ RECIPE {
     main_product = "coal-fines",
     subgroup = "py-rawores-coal",
     order = "q-2"
-}:add_unlock("coal-mk04"):change_category('jig')
+}:add_unlock("coal-mk04")
 
 
 FLUID {
