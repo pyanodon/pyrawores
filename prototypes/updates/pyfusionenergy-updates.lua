@@ -489,4 +489,5 @@ RECIPE("zinc-pulp-04-2"):change_category('thickener')
 
 if mods["pyhightech"] then
     RECIPE("aramid-2"):add_ingredient({type = "item", name = "molybdenum-plate", amount = 5}):change_category("nmf")
+    RECIPE("xylenol-3"):change_category("mixer")
 end

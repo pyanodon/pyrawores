@@ -37,7 +37,7 @@ RECIPE {
         {type = "item", name = "fiberboard", amount = 8}
     },
     main_product = "fiberboard"
-}:add_unlock("fiberboard-mk02")
+}
 
 RECIPE {
     type = 'recipe',
@@ -56,7 +56,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'fiberboard', amount = 12},
     },
-}:add_unlock('fiberboard-mk02')
+}
 
 RECIPE {
     type = "recipe",
@@ -73,7 +73,7 @@ RECIPE {
         {type = "item", name = "biofilm", amount = 15}
     },
     main_product = "biofilm"
-}:add_unlock("nems")
+}
 
 RECIPE {
     type = "recipe",
@@ -91,7 +91,7 @@ RECIPE {
     main_product = "xylenol",
     subgroup = "py-rawores-fluids",
     order = "q-1"
-}:add_unlock("additives"):change_category("mixer")
+}:add_unlock("additives")
 
 RECIPE {
     type = "recipe",
@@ -152,7 +152,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-mk03")
+}
 
 RECIPE {
     type = "recipe",
@@ -177,7 +177,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-mk03")
+}
 
 RECIPE {
     type = "recipe",
@@ -202,7 +202,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-mk03")
+}
 
 RECIPE {
     type = "recipe",
@@ -227,7 +227,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-mk03")
+}
 
 RECIPE {
     type = "recipe",
@@ -252,7 +252,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-mk02")
+}
 
 RECIPE {
     type = "recipe",
@@ -277,7 +277,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}
 
 RECIPE {
     type = "recipe",
@@ -302,7 +302,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}
 
 RECIPE {
     type = "recipe",
@@ -327,7 +327,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}
 
 RECIPE {
     type = "recipe",
@@ -352,7 +352,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}
 
 RECIPE {
     type = "recipe",
@@ -377,7 +377,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-mk02")
+}
 
 RECIPE {
     type = "recipe",
@@ -402,7 +402,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo-mk02")
+}
 
 RECIPE {
     type = "recipe",
@@ -419,7 +419,7 @@ RECIPE {
     results = {
         {type = "item", name = "py-fertilizer", amount = 15}
     }
-}:add_unlock("fertilizer")
+}
 
 RECIPE {
     type = "recipe",
@@ -438,7 +438,7 @@ RECIPE {
     },
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("nano-tech")
+}
 
 RECIPE {
     type = "recipe",
@@ -455,7 +455,7 @@ RECIPE {
         {type = "item", name = "ceramic", amount = 10}
     },
     main_product = "ceramic"
-}:add_unlock("basic-electronics")
+}
 
 RECIPE {
     type = 'recipe',

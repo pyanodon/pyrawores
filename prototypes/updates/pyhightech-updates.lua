@@ -106,6 +106,25 @@ RECIPE("re-tin"):change_category('py-rawores-smelter')
 
 RECIPE("ppd"):replace_ingredient("aromatics", "nitrobenzene")
 
+RECIPE("fiberboard-mk02"):add_unlock("fiberboard-mk02")
+RECIPE("fiberboard-3"):add_unlock('fiberboard-mk02')
+RECIPE("biofilm-pyht"):add_unlock("nems")
+RECIPE("pa-oxygen"):add_unlock("nucleo-mk03")
+RECIPE("pa-helium"):add_unlock("nucleo-mk03")
+RECIPE("pa-hydrogen"):add_unlock("nucleo-mk03")
+RECIPE("pa-boron"):add_unlock("nucleo-mk03")
+RECIPE("pa-coal2"):add_unlock("nucleo-mk02")
+RECIPE("pa-aluminium"):add_unlock("nucleo")
+RECIPE("pa-nickel"):add_unlock("nucleo")
+RECIPE("pa-zinc"):add_unlock("nucleo")
+RECIPE("pa-silver"):add_unlock("nucleo")
+RECIPE("pa-gold"):add_unlock("nucleo-mk02")
+RECIPE("pa-vanadium2"):add_unlock("nucleo-mk02")
+RECIPE("fertilizer-2"):add_unlock("fertilizer")
+RECIPE("aramid-2"):add_unlock("nano-tech")
+RECIPE("ceramic-2"):add_unlock("basic-electronics")
+
+
 --PYCP ENTITIES UPDATES
 
 RECIPE("distilator-mk03"):add_ingredient({type = "item", name = "phosphate-glass", amount = 15}):add_ingredient({type = "item", name = "biopolymer", amount = 10}):add_ingredient({type = "item", name = "aerogel", amount = 10})
