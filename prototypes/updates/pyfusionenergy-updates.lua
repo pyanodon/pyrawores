@@ -6,9 +6,8 @@ TECHNOLOGY("fluid-pressurization"):remove_pack("chemical-science-pack"):remove_p
 TECHNOLOGY("acetylene"):remove_pack("chemical-science-pack"):remove_pack("logistic-science-pack")
 
 RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):remove_unlock("helium-processing"):remove_unlock("liquid-petroleum-processing"):remove_unlock("advanced-oil-processing"):add_unlock("fluid-processing-machines-1")
-RECIPE("acidgas-2"):remove_unlock("advanced-oil-processing"):add_unlock("machines-mk02")
+RECIPE("acidgas-2"):remove_unlock("advanced-oil-processing"):add_unlock("sulfur-processing")
 RECIPE("olefin"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
---RECIPE("gasoline"):remove_unlock("fuel-production"):add_unlock("machines-mk02")
 RECIPE("pressured-air"):set_fields {energy_required = 1}
 
 ITEM("molybdenum-plate").stack_size = 500
@@ -18,10 +17,8 @@ RECIPE("aramid"):add_ingredient({type = 'item', name = 'molybdenum-plate', amoun
 
 RECIPE("steam-heating"):remove_ingredient("fuelrod-mk01"):add_ingredient({type = "item", name = "fuelrod-mk01", amount = 1})
 RECIPE("hydrocyclone-mk01"):replace_ingredient("centrifuge", "classifier")
---RECIPE("hydrocyclone-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 RECIPE("py-heat-exchanger"):remove_unlock("fusion-mk01"):add_unlock("machines-mk02")
 
---RECIPE("mixer-mk01"):remove_unlock("advanced-mining-facilities"):remove_unlock("basic-electronics"):add_unlock("machines-mk01")
 RECIPE("mixer-mk01"):replace_ingredient("iron-plate", "aluminium-plate"):replace_ingredient("chemical-plant-mk01", "washer")
 
 RECIPE("secondary-crusher-mk01"):remove_unlock("diamond-mining"):add_unlock("crusher")
@@ -39,7 +36,6 @@ fun.results_replacer("u-79", "dirty-water-heavy", "u-waste")
 RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("fluid-processing-machines-1")
 RECIPE("centrifugal-pan-mk01"):replace_ingredient("advanced-circuit", "electronic-circuit")
 
---RECIPE("agitator-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 RECIPE("sodium-chlorate"):remove_unlock("vanadium-processing"):add_unlock("salts"):change_category("electrolyzer"):remove_ingredient("water-saline"):add_ingredient({type = "item", name = "salt", amount = 10})
 
 RECIPE("purified-quartz"):change_category("pan")
@@ -74,10 +70,7 @@ RECIPE("fusion-reactor-mk02"):add_ingredient({type = "item", name = "super-steel
 RECIPE("regolite-mine"):add_ingredient({type = "item", name = "automated-factory-mk02", amount = 1})
 RECIPE("molybdenum-concentrate"):replace_ingredient("water", "nitrogen")
 RECIPE("nmf-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("aramid")
-
-if not mods["pyalienlife"] then
-    RECIPE("phytoplankton"):replace_ingredient("iron-ore", {"grade-1-tin", 1})
-end
+RECIPE("phytoplankton"):replace_ingredient("iron-ore", {"grade-1-tin", 1})
 
 RECIPE("molybdenum-oxide"):add_ingredient({type = "fluid", name = "oxygen", amount = 100})
 RECIPE("vpulp3"):replace_ingredient("petroleum-gas", "ammonia")

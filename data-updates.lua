@@ -49,10 +49,6 @@ RECIPE('guar-gum-plantation'):add_ingredient({type = "item", name = "duralumin",
 RECIPE('guar-gum-plantation-mk02'):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE('guar-gum-plantation-mk03'):replace_ingredient("steel-plate", "super-steel")
 
-RECIPE("nexelit-plate"):remove_unlock("nexelit")
-RECIPE("steel-plate2"):remove_unlock("coal-processing-3")
-
-RECIPE("py-local-radar"):set_fields {enabled = false}:add_unlock("engine")
 RECIPE("mk02-locomotive"):add_ingredient({type = "item", name = "glass", amount = 150}):add_ingredient({type = "item", name = "duralumin", amount = 50})
 RECIPE("mk02-wagon"):add_ingredient({type = "item", name = "glass", amount = 100}):add_ingredient({type = "item", name = "duralumin", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 40})
 RECIPE("mk02-fluid-wagon"):add_ingredient({type = "item", name = "glass", amount = 100}):add_ingredient({type = "item", name = "duralumin", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 40})

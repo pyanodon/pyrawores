@@ -26,11 +26,11 @@ TECHNOLOGY("atomic-bomb"):add_pack("space-science-pack")
 TECHNOLOGY("plastics"):remove_pack('logistic-science-pack')
 
 -- RECIPE UNLOCKS
-RECIPE("uranium-processing"):remove_unlock('uranium-processing')
+RECIPE("uranium-processing"):remove_unlock('uranium-processing'):set_fields{hidden = true}
 RECIPE("nuclear-fuel"):remove_unlock('kovarex-enrichment-process'):add_unlock('uranium-mk04')
-RECIPE('flying-robot-frame'):add_unlock('robotics')
+RECIPE('flying-robot-frame'):add_unlock('robotics'):set_fields{hidden = false}
+ITEM("flying-robot-frame"):remove_flag("hidden")
 RECIPE("centrifuge"):remove_unlock('uranium-processing'):add_unlock('nuclear-fuel-reprocessing')
-
 
 -- RECIPE CHANGES
 RECIPE('atomic-bomb'):remove_ingredient('uranium-235'):add_ingredient({type = "item", name = "yellow-cake", amount = 5})
