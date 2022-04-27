@@ -27,20 +27,17 @@ TECHNOLOGY("energy-3"):remove_prereq("fuel-production")
 
 
 -- RECIPE UNLOCKS
-RECIPE('making-chromium'):remove_unlock('chromium')
+RECIPE('making-chromium'):remove_unlock('chromium'):set_fields{hidden = true}
 RECIPE('nichrome'):remove_unlock('chromium'):add_unlock("nichrome")
---RECIPE('richdust-separation'):remove_unlock('chromium'):add_unlock("chromium-mk01")
---RECIPE('sand-classification'):remove_unlock('chromium'):add_unlock("chromium-mk01")
-RECIPE("tailings-copper-iron"):remove_unlock('machine-mk01')
+RECIPE("tailings-copper-iron"):remove_unlock('fluid-separation'):set_fields{hidden = true}
 RECIPE("sand-casting"):remove_unlock('nexelit'):add_unlock('casting-mk01')
-RECIPE("concrete-richclay"):remove_unlock('concrete')
+RECIPE("concrete-richclay"):remove_unlock('concrete'):set_fields{hidden = true}
 
 --TECHNOLOGY("machines-mk01"):add_prereq('concrete')
 
 RECIPE("quenching-tower"):remove_unlock('fluid-separation'):add_unlock('machines-mk01')
 
-RECIPE('nexelit-ore-1'):remove_unlock('nexelit')
-RECIPE('nexelit-plate'):remove_unlock('nexelit')
+RECIPE('nexelit-plate'):remove_unlock('nexelit'):set_fields{hidden = true}
 
 
 --Autofactory
@@ -61,19 +58,20 @@ TECHNOLOGY('fine-electronics'):add_prereq('iron-mk01'):add_prereq('lead-mk01')
 
 --RECIPES
 
-RECIPE('crushing-copper'):remove_unlock('advanced-material-processing')
-RECIPE('crushed-copper'):remove_unlock('advanced-material-processing')
-RECIPE('crushing-iron'):remove_unlock('advanced-material-processing')
-RECIPE('crushed-iron'):remove_unlock('advanced-material-processing')
-RECIPE("steel-plate2"):remove_unlock('advanced-material-processing-2')
+RECIPE('crushing-copper'):remove_unlock('advanced-material-processing'):set_fields{hidden = true}
+RECIPE('crushed-copper'):remove_unlock('advanced-material-processing'):set_fields{hidden = true}
+RECIPE('crushing-iron'):remove_unlock('advanced-material-processing'):set_fields{hidden = true}
+RECIPE('crushed-iron'):remove_unlock('advanced-material-processing'):set_fields{hidden = true}
+RECIPE("steel-plate2"):remove_unlock('advanced-material-processing-2'):set_fields{hidden = true}
+
+ITEM("crushed-copper"):add_flag("hidden")
+ITEM("crushed-iron"):add_flag("hidden")
+
 RECIPE('lime'):remove_unlock('concrete'):add_unlock('acetylene')
---RECIPE('evaporator'):remove_unlock('coal-processing-2'):add_unlock('machines-mk01'):remove_ingredient('chemical-plant-mk01')
 RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01')
-RECIPE("fuelrod-mk01"):remove_unlock('advanced-material-processing-2')
+RECIPE("fuelrod-mk01"):remove_unlock('advanced-material-processing-2'):set_fields{hidden = true}
 RECIPE("advanced-foundry-mk01"):remove_unlock('nexelit'):add_unlock('smelters-mk01')
 RECIPE("filtration-media"):remove_unlock("advanced-oil-processing"):add_unlock("filtration")
-RECIPE("dirty-reaction"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
-RECIPE("gasoline"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
 RECIPE("olefin-plant"):remove_unlock("lubricant"):add_unlock("fuel-production")
 RECIPE("oleo-heavy"):remove_unlock("fluid-separation"):add_unlock("mukmoux")
 RECIPE("nbfe-alloy"):remove_unlock("niobium"):add_unlock("alloys-mk02")
@@ -82,6 +80,7 @@ RECIPE("drill-head"):remove_unlock("niobium"):add_unlock("drill-head-mk01")
 -- RECIPE CHANGES
 fun.results_replacer("richdust-separation", "chromite-sand", "chromite-sand",3)
 fun.results_replacer("coal-fawogae", "coal", "raw-coal",3)
+fun.results_replacer("oleochemicals-distilation", "coal", "raw-coal",4)
 RECIPE("boric-acid"):change_category('electrolyzer')
 RECIPE("copper-coating"):change_category('electrolyzer')
 RECIPE("nbfe-alloy"):change_category('py-rawores-smelter')
