@@ -10,7 +10,7 @@ RECIPE("acidgas-2"):remove_unlock("advanced-oil-processing"):add_unlock("sulfur-
 RECIPE("olefin"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
 RECIPE("pressured-air"):set_fields {energy_required = 1}
 
-ITEM("molybdenum-plate").stack_size = 500
+ITEM("molybdenum-plate").stack_size = 100
 
 RECIPE("aramid"):add_ingredient({type = 'item', name = 'molybdenum-plate', amount = 5}):change_category('nmf')
 

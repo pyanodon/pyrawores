@@ -31,7 +31,7 @@ ITEM {
     subgroup = 'py-unsorted',
     order = 'c',
     place_result = 'py-logistic-robot-02',
-    stack_size = 200
+    stack_size = 50
 }:subgroup_order('py-robots', 'e')
 
 ENTITY {

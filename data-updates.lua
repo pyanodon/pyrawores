@@ -168,23 +168,8 @@ TECHNOLOGY("desulfurization"):remove_prereq("sulfur-processing")
 TECHNOLOGY("sulfur-processing"):remove_prereq("oil-processing")
 
 
-ITEM("coal").stack_size = 500
-ITEM("iron-ore").stack_size = 500
-ITEM("uranium-ore").stack_size = 500
-ITEM("copper-ore").stack_size = 500
-ITEM("chromium").stack_size = 500
-ITEM("limestone").stack_size = 500
-ITEM("lime").stack_size = 500
-ITEM("stone").stack_size = 500
-ITEM("sulfur").stack_size = 500
-ITEM("iron-plate").stack_size = 500
-ITEM("copper-plate").stack_size = 500
-ITEM("steel-plate").stack_size = 500
-ITEM("stone-brick").stack_size = 500
-ITEM("iron-gear-wheel").stack_size = 500
-ITEM("wood").stack_size = 500
-ITEM("niobium-plate").stack_size = 500
-ITEM("niobium-plate").stack_size = 500
+ITEM("sulfur").stack_size = 100
+ITEM("landfill").stack_size = 1000
 
 for _, player in DATA:pairs('character') do
     player.crafting_categories = player.String_Array(player.crafting_categories or {}) + 'handcrafting'

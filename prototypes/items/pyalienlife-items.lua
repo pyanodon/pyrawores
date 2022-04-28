@@ -16,5 +16,5 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-ores",
     order = "aaa",
-    stack_size = 500
+    stack_size = 100
 }

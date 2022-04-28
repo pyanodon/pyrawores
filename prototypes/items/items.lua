@@ -18,7 +18,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-ores",
     order = "aaa",
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -29,7 +29,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-quartz",
     order = "caa",
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -40,7 +40,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-quartz',
     order = 'cab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -51,7 +51,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-quartz',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -62,7 +62,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-quartz',
     order = 'cad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -73,7 +73,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-plates',
     order = 'aab',
-    stack_size = 500
+    stack_size = 100
 }
 
 --ALUMINIUM
@@ -93,7 +93,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-ores",
     order = "aaa",
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -104,7 +104,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-aluminium",
     order = "caa",
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -115,7 +115,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-aluminium',
     order = 'cab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -126,7 +126,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-aluminium',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -137,7 +137,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-aluminium',
     order = 'cad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -148,7 +148,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-plates',
     order = 'aab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -159,7 +159,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-aluminium',
     order = 'cae',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -170,7 +170,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-aluminium',
     order = 'caf',
-    stack_size = 500
+    stack_size = 100
 }
 
 --TITANIUM
@@ -190,7 +190,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-ores",
     order = "aaa",
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -201,7 +201,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-titanium",
     order = "cab",
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -212,7 +212,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-titanium',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -223,7 +223,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-titanium',
     order = 'cad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -234,7 +234,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-titanium',
     order = 'cae',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -245,7 +245,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-titanium',
     order = 'caf',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -256,7 +256,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-titanium',
     order = 'cag',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -267,7 +267,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-titanium',
     order = 'cah',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -278,7 +278,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-titanium',
     order = 'cai',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -289,7 +289,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-titanium',
     order = 'caj',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -300,7 +300,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-titanium',
     order = 'cak',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -311,7 +311,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-titanium',
     order = 'cal',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -322,7 +322,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-titanium',
     order = 'cam',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -333,7 +333,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-titanium',
     order = 'can',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -344,7 +344,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-plates',
     order = 'aab',
-    stack_size = 500
+    stack_size = 100
 }
 
 --CHROMIUM
@@ -364,7 +364,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-ores',
     order = 'aaa',
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -375,7 +375,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-chromium',
     order = 'caa',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -386,7 +386,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-chromium',
     order = 'cab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -397,7 +397,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-chromium',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -408,7 +408,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-chromium',
     order = 'cad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -419,7 +419,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-chromium',
     order = 'cae',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -430,7 +430,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-chromium',
     order = 'caf',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -441,7 +441,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-chromium',
     order = 'cag',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -452,7 +452,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-chromium',
     order = 'cah',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -463,7 +463,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-chromium',
     order = 'cai',
-    stack_size = 500
+    stack_size = 100
 }
 
 --GOLD
@@ -476,7 +476,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-gold',
     order = 'caa',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -487,7 +487,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-gold',
     order = 'cab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -498,7 +498,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-gold',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -509,7 +509,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-gold',
     order = 'cad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -520,7 +520,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-plates',
     order = 'aaa',
-    stack_size = 500
+    stack_size = 100
 }
 
 --COKE
@@ -533,7 +533,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-coke',
     order = 'aaa',
-    stack_size = 500
+    stack_size = 100
 }
 --[[
 --COPPER
@@ -562,7 +562,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-copper',
     order = 'caa',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -573,7 +573,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-copper',
     order = 'cab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -584,7 +584,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-copper',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -595,7 +595,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-copper',
     order = 'cad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -606,7 +606,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-copper',
     order = 'cae',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -617,7 +617,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-copper',
     order = 'caf',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -628,7 +628,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-copper',
     order = 'cag',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -639,7 +639,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-copper',
     order = 'cah',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -650,7 +650,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-copper',
     order = 'cai',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -661,7 +661,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-copper',
     order = 'caj',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -672,7 +672,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-copper',
     order = 'cak',
-    stack_size = 500
+    stack_size = 100
 }
 --[[
 --IRON
@@ -701,7 +701,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'caa',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -712,7 +712,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'cab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -723,7 +723,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -734,7 +734,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'cad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -745,7 +745,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'cae',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -756,7 +756,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'caf',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -767,7 +767,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'cag',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -778,7 +778,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'cah',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -789,7 +789,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'cai',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -800,7 +800,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'caj',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -811,7 +811,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'cak',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -822,7 +822,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'cal',
-    stack_size = 500
+    stack_size = 100
 }
 
 --COAL
@@ -835,7 +835,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-coal',
     order = 'aaa',
-    stack_size = 500,
+    stack_size = 50,
     fuel_value = '3MJ',
     fuel_category = 'chemical'
 }
@@ -850,7 +850,7 @@ ITEM {
     order = 'aab',
     fuel_value = '6MJ',
     fuel_category = 'chemical',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -863,7 +863,7 @@ ITEM {
     order = 'aac',
     fuel_value = '10MJ',
     fuel_category = 'chemical',
-    stack_size = 500
+    stack_size = 100
 }
 
 --LEAD
@@ -883,7 +883,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-ores",
     order = "aaa",
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -894,7 +894,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-lead",
     order = "caa",
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -905,7 +905,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-lead',
     order = 'caa',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -916,7 +916,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-lead',
     order = 'cab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -927,7 +927,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-lead',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -938,7 +938,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-lead',
     order = 'cad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -949,7 +949,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-lead',
     order = 'cae',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -960,7 +960,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-lead',
     order = 'caf',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -971,7 +971,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-lead',
     order = 'cag',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -982,7 +982,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-lead',
     order = 'cah',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -993,7 +993,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-lead',
     order = 'cai',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1004,7 +1004,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-lead',
     order = 'caj',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1015,7 +1015,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-lead',
     order = 'cak',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1026,7 +1026,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-lead',
     order = 'cal',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1037,7 +1037,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-plates',
     order = 'aab',
-    stack_size = 500
+    stack_size = 100
 }
 
 --SILVER
@@ -1050,7 +1050,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-silver',
     order = 'caa',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1061,7 +1061,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-silver',
     order = 'cab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1072,7 +1072,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-silver',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1083,7 +1083,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-plates',
     order = 'aab',
-    stack_size = 500
+    stack_size = 100
 }
 
 --NEXELIT
@@ -1096,7 +1096,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nexelit',
     order = 'caa',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1107,7 +1107,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nexelit',
     order = 'cab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1118,7 +1118,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nexelit',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1129,7 +1129,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nexelit',
     order = 'cad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1140,7 +1140,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nexelit',
     order = 'cae',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1151,7 +1151,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nexelit',
     order = 'caf',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1162,7 +1162,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nexelit',
     order = 'cag',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1173,7 +1173,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nexelit',
     order = 'cah',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1184,7 +1184,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nexelit',
     order = 'cai',
-    stack_size = 500
+    stack_size = 100
 }
 
 --NICKEL
@@ -1204,7 +1204,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-ores",
     order = "aaa",
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -1215,7 +1215,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-nickel",
     order = "caa",
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1226,7 +1226,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nickel',
     order = 'cab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1237,7 +1237,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nickel',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1248,7 +1248,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nickel',
     order = 'cad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1259,7 +1259,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nickel',
     order = 'cae',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1270,7 +1270,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nickel',
     order = 'caf',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1281,7 +1281,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nickel',
     order = 'cag',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1292,7 +1292,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-nickel',
     order = 'cah',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1303,7 +1303,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-plates',
     order = 'aab',
-    stack_size = 500
+    stack_size = 100
 }
 
 --TIN
@@ -1323,7 +1323,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-ores",
     order = "aaa",
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -1334,7 +1334,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-tin",
     order = "caa",
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1345,7 +1345,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'cab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1356,7 +1356,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1367,7 +1367,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'cad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1378,7 +1378,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'cae',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1389,7 +1389,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'caf',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1400,7 +1400,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'cag',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1411,7 +1411,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'cah',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1422,7 +1422,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'cai',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1433,7 +1433,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'caj',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1444,7 +1444,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'cak',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1455,7 +1455,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'cal',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1466,7 +1466,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'cam',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1477,7 +1477,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-tin',
     order = 'can',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1488,7 +1488,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-plates',
     order = 'aab',
-    stack_size = 500
+    stack_size = 100
 }
 
 --URANIUM
@@ -1501,7 +1501,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-uranium',
     order = 'aaa',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1512,7 +1512,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-uranium',
     order = 'aab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1523,7 +1523,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-uranium',
     order = 'aac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1534,7 +1534,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-uranium',
     order = '20',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1545,7 +1545,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-uranium',
     order = '40',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1556,7 +1556,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-uranium',
     order = '70',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1567,7 +1567,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-uranium',
     order = 'aad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1582,7 +1582,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'baa',
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -1597,7 +1597,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'bab',
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -1612,7 +1612,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'bac',
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -1627,7 +1627,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'bad',
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -1642,7 +1642,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'caa',
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -1657,7 +1657,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'cab',
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -1672,7 +1672,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'cac',
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -1687,7 +1687,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'cad',
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -1697,7 +1697,7 @@ ITEM {
     icon_size = 32,
     subgroup = 'py-rawores-items',
     order = 'caf',
-    stack_size = 500
+    stack_size = 50
   }
 
 ITEM {
@@ -1707,7 +1707,7 @@ ITEM {
     icon_size = 32,
     subgroup = 'py-rawores-items',
     order = 'cag',
-    stack_size = 500
+    stack_size = 50
   }
 
 ITEM {
@@ -1717,7 +1717,7 @@ ITEM {
     icon_size = 32,
     subgroup = 'py-rawores-items',
     order = 'cah',
-    stack_size = 500
+    stack_size = 50
   }
 
   ITEM {
@@ -1727,7 +1727,7 @@ ITEM {
     icon_size = 32,
     subgroup = 'py-rawores-items',
     order = 'cai',
-    stack_size = 500
+    stack_size = 50
   }
 
 --ZINC
@@ -1747,7 +1747,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-ores",
     order = "aaa",
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -1758,7 +1758,7 @@ ITEM {
     flags = {},
     subgroup = "py-rawores-zinc",
     order = "caa",
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1769,7 +1769,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-zinc',
     order = 'cab',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1780,7 +1780,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-zinc',
     order = 'cac',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1791,7 +1791,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-zinc',
     order = 'cad',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1802,7 +1802,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-zinc',
     order = 'cae',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1813,7 +1813,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-zinc',
     order = 'caf',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1824,7 +1824,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-zinc',
     order = 'cag',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1835,7 +1835,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-zinc',
     order = 'cah',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1846,7 +1846,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-zinc',
     order = 'cai',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1857,7 +1857,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-zinc',
     order = 'caj',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1868,7 +1868,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-plates',
     order = 'aab',
-    stack_size = 500
+    stack_size = 100
 }
 
 --EXTRAS--
@@ -1883,7 +1883,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'g',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1894,7 +1894,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'a',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1905,7 +1905,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'a',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1916,7 +1916,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-ores',
     order = 'a',
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -1927,7 +1927,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'a',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1938,7 +1938,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'a',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1949,7 +1949,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'a',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1960,7 +1960,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'a',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1971,7 +1971,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'a',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1982,7 +1982,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'a',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -1993,7 +1993,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'a',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -2004,7 +2004,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-plates',
     order = 'a',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -2015,7 +2015,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-plates',
     order = 'a',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -2026,7 +2026,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-plates',
     order = 'b',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -2037,7 +2037,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-iron',
     order = 'daa',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -2048,7 +2048,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'a',
-    stack_size = 500
+    stack_size = 200
 }
 
 ITEM {
@@ -2059,7 +2059,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'a',
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -2070,5 +2070,5 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-solder',
     order = 'b',
-    stack_size = 500
+    stack_size = 100
 }
