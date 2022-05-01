@@ -124,10 +124,10 @@ RECIPE('borax-mine'):remove_unlock('boron')
 
 -----PYCP---
 
-RECIPE("distilator-mk03"):add_ingredient({type = "item", name = "super-steel", amount = 15}):add_ingredient({type = "item", name = "sc-unit", amount = 4})
+RECIPE("distilator-mk03"):add_ingredient({type = "item", name = "nbti-alloy", amount = 15}):add_ingredient({type = "item", name = "sc-unit", amount = 4})
 RECIPE("distilator-mk04"):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "agzn-alloy", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
-RECIPE("advanced-foundry-mk03"):add_ingredient({type = "item", name = "super-steel", amount = 20}):add_ingredient({type = "item", name = "py-heat-exchanger", amount = 1})
+RECIPE("advanced-foundry-mk03"):add_ingredient({type = "item", name = "nbti-alloy", amount = 20}):add_ingredient({type = "item", name = "py-heat-exchanger", amount = 1})
 RECIPE("advanced-foundry-mk04"):add_ingredient({type = "item", name = "super-alloy", amount = 30}):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 
 RECIPE("automated-factory-mk03"):add_ingredient({type = "item", name = "nbti-alloy", amount = 20}):add_ingredient({type = "item", name = "py-heat-exchanger", amount = 1})
