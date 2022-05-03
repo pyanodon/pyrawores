@@ -130,7 +130,7 @@ RECIPE("ceramic-2"):add_unlock("basic-electronics")
 RECIPE("distilator-mk03"):add_ingredient({type = "item", name = "phosphate-glass", amount = 15}):add_ingredient({type = "item", name = "biopolymer", amount = 10}):add_ingredient({type = "item", name = "aerogel", amount = 10})
 RECIPE("distilator-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 6}):add_ingredient({type = "item", name = "var-josephson-junction", amount = 4})
 
-RECIPE("advanced-foundry-mk03"):add_ingredient({type = "item", name = "diamagnetic-material", amount = 20}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 15})
+RECIPE("advanced-foundry-mk03"):add_ingredient({type = "item", name = "paramagnetic-material", amount = 20}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 15})
 RECIPE("advanced-foundry-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 6}):add_ingredient({type = "item", name = "pi-josephson-junction", amount = 4})
 
 RECIPE("automated-factory-mk01"):replace_ingredient("advanced-circuit", "electronic-circuit")
@@ -236,8 +236,8 @@ RECIPE("flotation-cell-mk04"):replace_ingredient("control-unit", "intelligent-un
 RECIPE("hydroclassifier-mk03"):add_ingredient({type = "item", name = "biopolymer", amount = 30}):add_ingredient({type = "item", name = "carbon-nanotube", amount = 30}):add_ingredient({type = "item", name = "aerogel", amount = 15})
 RECIPE("hydroclassifier-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "nems", amount = 5}):add_ingredient({type = "item", name = "graphene-roll", amount = 15})
 
-RECIPE("impact-crusher-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 40}):add_ingredient({type = "item", name = "re-magnet", amount = 30}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
-RECIPE("impact-crusher-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "nv-center", amount = 2})
+RECIPE("impact-crusher-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 40}):add_ingredient({type = "item", name = "re-magnet", amount = 30})
+RECIPE("impact-crusher-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "nv-center", amount = 2}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
 
 RECIPE("leaching-station-mk03"):add_ingredient({type = "item", name = "phosphate-glass", amount = 50}):add_ingredient({type = "item", name = "biopolymer", amount = 35}):add_ingredient({type = "item", name = "aerogel", amount = 15})
 RECIPE("leaching-station-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "hyperelastic-material", amount = 4})
