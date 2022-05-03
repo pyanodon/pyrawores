@@ -9,6 +9,7 @@ RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):remove_unlock("helium
 RECIPE("acidgas-2"):remove_unlock("advanced-oil-processing"):add_unlock("sulfur-processing")
 RECIPE("olefin"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
 RECIPE("pressured-air"):set_fields {energy_required = 1}
+RECIPE('lime'):remove_unlock('concrete'):add_unlock('acetylene')
 
 ITEM("molybdenum-plate").stack_size = 100
 
