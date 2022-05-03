@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"impact-crusher-mk01", 1}
     }
-}:add_unlock("crusher")
+}:add_unlock("machines-mk01")
 
 ITEM {
     type = "item",
