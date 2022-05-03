@@ -67,7 +67,6 @@ RECIPE("steel-plate2"):remove_unlock('advanced-material-processing-2'):set_field
 ITEM("crushed-copper"):add_flag("hidden")
 ITEM("crushed-iron"):add_flag("hidden")
 
-RECIPE('lime'):remove_unlock('concrete'):add_unlock('acetylene')
 RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01')
 RECIPE("fuelrod-mk01"):remove_unlock('advanced-material-processing-2'):set_fields{hidden = true}
 RECIPE("advanced-foundry-mk01"):remove_unlock('nexelit'):add_unlock('smelters-mk01')
