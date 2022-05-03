@@ -8,8 +8,10 @@ TECHNOLOGY("acetylene"):remove_pack("chemical-science-pack"):remove_pack("logist
 RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):remove_unlock("helium-processing"):remove_unlock("liquid-petroleum-processing"):remove_unlock("advanced-oil-processing"):add_unlock("fluid-processing-machines-1")
 RECIPE("acidgas-2"):remove_unlock("advanced-oil-processing"):add_unlock("sulfur-processing")
 RECIPE("olefin"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
+RECIPE("gasoline"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
 RECIPE("pressured-air"):set_fields {energy_required = 1}
 RECIPE('lime'):remove_unlock('concrete'):add_unlock('acetylene')
+RECIPE("titanium-plate-1"):remove_unlock("coal-processing-1"):add_unlock('acetylene')
 
 ITEM("molybdenum-plate").stack_size = 100
 
