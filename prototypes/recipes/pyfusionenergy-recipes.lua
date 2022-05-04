@@ -171,4 +171,4 @@ RECIPE {
     main_product = 'lead-container',
     subgroup = "py-rawores-casting",
     order = "ec"
-}:add_unlock("machines-mk04")
+}:add_unlock("casting-mk03")
