@@ -96,7 +96,7 @@ RECIPE("boron"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amou
 RECIPE("blanket"):add_ingredient({type = "item", name = "nexelit-plate", amount = 10})
 RECIPE("blanket"):add_ingredient({type = "item", name = "lead-plate", amount = 40})
 RECIPE("blanket"):add_ingredient({type = "item", name = "super-steel", amount = 40})
-RECIPE("lead-container"):replace_ingredient("iron-plate", "lead-plate"):add_ingredient({type = "item", name = "aramid", amount = 3})
+RECIPE("lead-container"):replace_ingredient("iron-plate", "lead-plate"):add_ingredient({type = "item", name = "aramid", amount = 3}):remove_unlock("coated-container"):add_unlock("aramid")
 RECIPE("science-coating"):replace_ingredient("steel-plate", "titanium-plate")
 RECIPE("agzn-alloy"):replace_ingredient("iron-plate", "silver-plate"):replace_ingredient("stone", "zinc-plate"):change_category('py-rawores-smelter')
 RECIPE("silver-foam"):replace_ingredient("water", "hydrogen-chloride")
@@ -482,6 +482,13 @@ RECIPE("zinc-pulp-03"):add_ingredient({type = "fluid", name = "pressured-air", a
 RECIPE("zinc-pulp-04"):change_category('agitator'):add_ingredient({type = 'fluid', name = 'soda-ash', amount = 300})
 RECIPE("zinc-pulp-04-2"):change_category('thickener')
 
+RECIPE("fuelrod-mk01-1"):replace_ingredient("titanium-plate", {type = "item", name = "lead-container", amount = 1})
+RECIPE("fuelrod-mk01-2"):replace_ingredient("niobium-plate", {type = "item", name = "lead-container", amount = 1})
+RECIPE("fuelrod-mk01-3"):replace_ingredient("niobium-plate", {type = "item", name = "lead-container", amount = 1})
+RECIPE("fuelrod-mk02"):replace_ingredient("titanium-plate", {type = "item", name = "lead-container", amount = 1})
+RECIPE("fuelrod-mk03"):replace_ingredient("lead-plate", {type = "item", name = "coated-container", amount = 1})
+RECIPE("fuelrod-mk04"):replace_ingredient("zinc-plate", {type = "item", name = "coated-container", amount = 1})
+RECIPE("fuelrod-mk05"):replace_ingredient("stainless-steel", {type = "item", name = "coated-container", amount = 1})
 
 if mods["pyhightech"] then
     RECIPE("aramid-2"):add_ingredient({type = "item", name = "molybdenum-plate", amount = 5}):change_category("nmf")
