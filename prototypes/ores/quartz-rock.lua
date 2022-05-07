@@ -31,7 +31,7 @@ DATA {
             {"ore-quartz", 1}
         },
         fluid_amount = 30,
-        required_fluid = "diesel"
+        required_fluid = (mods["pyfusionenergy"] and "acetylene" or "diesel")
     },
     resource_patch_search_radius = 12,
     collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
