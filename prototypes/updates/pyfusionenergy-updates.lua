@@ -258,12 +258,6 @@ RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 5
 
 RECIPE('acetylene'):change_category('gasifier')
 
-
-data.raw.resource["ore-titanium"].minable.required_fluid = "acetylene"
-data.raw.resource["quartz-rock"].minable.required_fluid = "acetylene"
-data.raw.resource["ore-lead"].minable.required_fluid = "acetylene"
-data.raw.resource["uranium-rock"].minable.required_fluid = "gasoline"
-
 --pyfusion mk02 unlocks
 
 --RECIPE('xyhiphoe-pool-mk02'):add_unlock('machines-mk03')
