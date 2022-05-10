@@ -124,6 +124,7 @@ RECIPE("fertilizer-2"):add_unlock("fertilizer")
 RECIPE("aramid-2"):add_unlock("nano-tech")
 RECIPE("ceramic-2"):add_unlock("basic-electronics")
 
+RECIPE("heavy-fermion"):remove_unlock("integrated-circuits-3"):add_unlock("alloys-mk04")
 
 --PYCP ENTITIES UPDATES
 
