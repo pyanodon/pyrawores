@@ -33,6 +33,8 @@ RECIPE("tailings-copper-iron"):remove_unlock('fluid-separation'):set_fields{hidd
 RECIPE("sand-casting"):remove_unlock('nexelit'):add_unlock('casting-mk01')
 RECIPE("concrete-richclay"):remove_unlock('concrete'):set_fields{hidden = true}
 RECIPE("slacked-lime"):remove_unlock("filtration-mk02"):add_unlock("salts")
+RECIPE("glass-2"):remove_unlock("advanced-material-processing")
+RECIPE("powdered-quartz"):remove_unlock("advanced-material-processing")
 
 --TECHNOLOGY("machines-mk01"):add_prereq('concrete')
 
