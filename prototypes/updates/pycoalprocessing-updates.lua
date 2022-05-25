@@ -78,6 +78,7 @@ RECIPE("olefin-plant"):remove_unlock("lubricant"):add_unlock("fuel-production")
 RECIPE("oleo-heavy"):remove_unlock("fluid-separation"):add_unlock("mukmoux")
 RECIPE("nbfe-alloy"):remove_unlock("niobium"):add_unlock("alloys-mk02")
 RECIPE("drill-head"):remove_unlock("niobium"):add_unlock("drill-head-mk01")
+RECIPE("richdust-separation"):add_unlock("fluid-separation")
 
 -- RECIPE CHANGES
 fun.results_replacer("richdust-separation", "chromite-sand", "chromite-sand",3)
