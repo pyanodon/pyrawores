@@ -2,7 +2,7 @@
 data.raw.technology['uranium-processing'].enabled = false
 data.raw.technology['uranium-processing'].hidden = true
 --data.raw.technology["uranium-processing"] = nil
-TECHNOLOGY("kovarex-enrichment-process"):remove_prereq('uranium-processing'):add_prereq('uranium-mk02'):remove_prereq('rocket-fuel')
+TECHNOLOGY("kovarex-enrichment-process"):set_fields{enabled = false}:set_fields{hidden = true}
 TECHNOLOGY("utility-science-pack"):remove_prereq('kovarex-enrichment-process')
 TECHNOLOGY('robotics'):remove_prereq('construction-robotics'):add_prereq('logistic-robotics'):add_prereq('super-steel-mk01')
 TECHNOLOGY("military"):add_prereq("lead-mk01")
