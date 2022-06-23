@@ -527,7 +527,7 @@ RECIPE {
     },
     main_product= "nichrome",
     icon = "__pycoalprocessinggraphics__/graphics/icons/nichrome.png",
-    icon_size = 32,
+    icon_size = 64,
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("alloys-mk03")
