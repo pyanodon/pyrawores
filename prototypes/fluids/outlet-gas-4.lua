@@ -29,5 +29,6 @@ FLUID {
     max_temperature = 1000,
     gas_temperature = 15,
     subgroup = "py-rawores-coke",
-    order = "c"
+    order = "c",
+    auto_barrel = false
 }
