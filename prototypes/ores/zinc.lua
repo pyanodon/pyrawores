@@ -24,7 +24,7 @@ ENTITY {
     map_color = {r = 0.6, g = 0.901, b = 0.847},
     minable = {
         -- mining_particle = "zinc-ore-particle",
-        mining_time = 2,
+        mining_time = 1,
         results = {
             {"ore-zinc", 1}
         },
