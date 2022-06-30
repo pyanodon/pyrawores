@@ -24,7 +24,7 @@ ENTITY {
     map_color = {r = 0.2, g = 0.2, b = 0.2},
     minable = {
         -- mining_particle = "lead-ore-particle",
-        mining_time = 2,
+        mining_time = 1,
         results = {
             {"ore-lead", 1}
         },
