@@ -30,7 +30,7 @@ RECIPE("secondary-crusher-mk01"):replace_ingredient("electric-engine-unit", "eng
 RECIPE("automated-screener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 RECIPE("filtration-media"):remove_unlock("filtration-mk02")
 
-RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk02")
+RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("titanium-mk02")
 RECIPE("jig-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20}):replace_ingredient('advanced-circuit', 'electronic-circuit'):replace_ingredient('electric-engine-unit','engine-unit')
 RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 

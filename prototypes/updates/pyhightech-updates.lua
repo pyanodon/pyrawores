@@ -298,13 +298,13 @@ RECIPE("secondary-crusher-mk04"):replace_ingredient("control-unit", "intelligent
 RECIPE("thickener-mk03"):add_ingredient({type = "item", name = "biopolymer", amount = 30}):add_ingredient({type = "item", name = "carbon-nanotube", amount = 30}):add_ingredient({type = "item", name = "aerogel", amount = 15})
 RECIPE("thickener-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "nems", amount = 5}):add_ingredient({type = "item", name = "graphene-roll", amount = 15})
 
-RECIPE("xyhiphoe-pool-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "superconductor", amount = 10})
+-- RECIPE("xyhiphoe-pool-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20})
 RECIPE("xyhiphoe-pool-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
 
 RECIPE("plankton-farm-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "superconductor", amount = 10})
 RECIPE("plankton-farm-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
 
-RECIPE("py-heat-exchanger-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "superconductor", amount = 10})
+-- RECIPE("py-heat-exchanger-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20})
 RECIPE("py-heat-exchanger-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
 
 
