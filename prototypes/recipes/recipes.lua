@@ -314,7 +314,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-recipes",
     order = "j"
-}:add_unlock("alloys-mk03")
+}:add_unlock("alloys-mk02")
 
 RECIPE {
     type = "recipe",
