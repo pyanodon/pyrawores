@@ -152,7 +152,7 @@ RECIPE("heat-exchanger"):replace_ingredient("steel-plate", "titanium-plate"):rep
 RECIPE("rail"):add_ingredient({type = "item", name = "solder", amount = 5})
 RECIPE("piercing-rounds-magazine"):add_ingredient({type = "item", name = "lead-plate", amount = 1}):remove_ingredient("copper-plate")
 RECIPE("shotgun-shell"):add_ingredient({type = "item", name = "lead-plate", amount = 1}):remove_ingredient("copper-plate")
-RECIPE("firearm-magazine"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "lead-plate", amount = 2}):add_unlock('lead-mk01')
+RECIPE("firearm-magazine"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "lead-plate", amount = 2}):add_unlock('military')
 RECIPE("piercing-shotgun-shell"):add_ingredient({type = "item", name = "plastic-bar", amount = 1}):remove_ingredient("copper-plate")
 TECHNOLOGY("military"):add_prereq('lead-mk01')
 TECHNOLOGY("fast-inserter"):add_prereq('aluminium-mk01')
