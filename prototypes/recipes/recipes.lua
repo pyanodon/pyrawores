@@ -503,7 +503,7 @@ RECIPE {
     energy_required = 8,
     ingredients = {
         {type = 'item', name = 'iron-plate', amount = 1},
-        {type = 'item', name = 'coal', amount = 2},
+        {type = 'item', name = 'raw-coal', amount = 2},
         {type = 'item', name = 'stone', amount = 2},
     },
     results = {

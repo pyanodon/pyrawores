@@ -63,3 +63,13 @@ for _, preset in pairs(data.raw["map-gen-presets"]["default"]) do
       preset.basic_settings.autoplace_controls['coal'] = nil
     end
 end
+
+for _, rock in pairs(data.raw["simple-entity"]) do
+    if rock.minable ~= nil and rock.minable.results ~= nil then
+        for _, result in pairs(rock.minable.results) do
+            if result.name == "coal" then
+                result.name = "raw-coal"
+            end
+        end
+    end
+end
