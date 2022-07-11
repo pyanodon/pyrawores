@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/copper-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"crusher", "casting-mk01"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/copper-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'copper-mk01', 'logistic-science-pack'},
+    prerequisites = {'copper-mk01'},
     dependencies = {'copper-mk01'},
     effects = {},
     unit = {
@@ -40,7 +40,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/copper-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'copper-mk02', 'chemical-science-pack', 'additives'},
+    prerequisites = {'copper-mk02'},
     dependencies = {'copper-mk02'},
     effects = {},
     unit = {
@@ -60,7 +60,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/copper-4.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'copper-mk03', 'production-science-pack'},
+    prerequisites = {'copper-mk03'},
     dependencies = {'copper-mk03'},
     effects = {},
     unit = {
@@ -81,7 +81,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/copper-5.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'copper-mk04', 'utility-science-pack'},
+    prerequisites = {'copper-mk04'},
     dependencies = {'copper-mk04'},
     effects = {},
     unit = {

@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/electrolysis.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"machines-mk01"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,

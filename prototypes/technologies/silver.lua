@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/silver-1.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"lead-mk02"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -22,7 +22,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/silver-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'chemical-science-pack', 'lead-mk03'},
+    prerequisites = {'silver-mk01'},
     dependencies = {'silver-mk01'},
     effects = {},
     unit = {
@@ -42,7 +42,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/silver-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'silver-mk02', 'production-science-pack'},
+    prerequisites = {'silver-mk02'},
     dependencies = {'silver-mk02'},
     effects = {},
     unit = {
@@ -63,7 +63,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/silver-4.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'silver-mk03', 'utility-science-pack'},
+    prerequisites = {'silver-mk03'},
     dependencies = {'silver-mk03'},
     effects = {},
     unit = {
@@ -86,7 +86,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/silver-5.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'silver-mk04', 'utility-science-pack'},
+    prerequisites = {'silver-mk04'},
     dependencies = {'silver-mk04'},
     effects = {},
     unit = {

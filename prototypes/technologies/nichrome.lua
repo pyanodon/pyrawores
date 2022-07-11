@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/nichrome.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"chromium-mk01", "nickel-mk01"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,

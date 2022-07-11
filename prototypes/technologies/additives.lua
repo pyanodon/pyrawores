@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/frothers.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'mibc', "machines-mk02", "fuel-production-mk02"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,

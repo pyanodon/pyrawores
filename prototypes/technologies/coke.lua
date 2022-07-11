@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/coke-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"smelters-mk01"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/coke-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'coke-mk01', 'filtration'},
+    prerequisites = {'coke-mk01'},
     dependencies = {'coke-mk01'},
     effects = {},
     unit = {
@@ -40,7 +40,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/coke-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'coke-mk02', 'chemical-science-pack', 'machines-mk02'},
+    prerequisites = {'coke-mk02'},
     dependencies = {'coke-mk02'},
     effects = {},
     unit = {

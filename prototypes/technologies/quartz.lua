@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/quartz-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"crusher"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 150,
@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/quartz-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'quartz-mk01', 'filtration'},
+    prerequisites = {'quartz-mk01'},
     dependencies = {'quartz-mk01'},
     effects = {},
     unit = {
@@ -40,7 +40,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/quartz-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'quartz-mk02', 'filtration-mk02', 'salts'},
+    prerequisites = {'quartz-mk02'},
     dependencies = {'quartz-mk02'},
     effects = {},
     unit = {
@@ -60,7 +60,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/quartz-4.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'quartz-mk03', 'production-science-pack'},
+    prerequisites = {'quartz-mk03'},
     dependencies = {'quartz-mk03'},
     effects = {},
     unit = {
@@ -81,7 +81,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/quartz-5.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'quartz-mk04', 'utility-science-pack'},
+    prerequisites = {'quartz-mk04'},
     dependencies = {'quartz-mk04'},
     effects = {},
     unit = {

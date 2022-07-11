@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/solder-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"smelters-mk01"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/solder-2.png",
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'solder-mk01', 'tin-mk02', 'silver-mk01'},
+    prerequisites = {'solder-mk01'},
     dependencies = {'solder-mk01'},
     effects = {},
     unit = {
@@ -40,7 +40,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/solder-3.png",
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'solder-mk02', 'chemical-science-pack', 'silver-mk02'},
+    prerequisites = {'solder-mk02'},
     dependencies = {'solder-mk02'},
     effects = {},
     unit = {
@@ -60,7 +60,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/solder-4.png",
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'solder-mk03', 'production-science-pack'},
+    prerequisites = {'solder-mk03'},
     dependencies = {'solder-mk03'},
     effects = {},
     unit = {
@@ -81,7 +81,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/solder-5.png",
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'solder-mk04', 'utility-science-pack'},
+    prerequisites = {'solder-mk04'},
     dependencies = {'solder-mk04'},
     effects = {},
     unit = {

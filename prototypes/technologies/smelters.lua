@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/smelter-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"py-burner"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/smelter-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"chemical-science-pack"},
+    prerequisites = {'smelters-mk01'},
     dependencies = {'smelters-mk01'},
     effects = {},
     unit = {
@@ -41,7 +41,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/smelter-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"smelters-mk02", 'production-science-pack'},
+    prerequisites = {"smelters-mk02"},
     dependencies = {'smelters-mk02'},
     effects = {},
     unit = {
@@ -62,7 +62,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/smelter-4.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"smelters-mk03", 'utility-science-pack'},
+    prerequisites = {"smelters-mk03"},
     dependencies = {'smelters-mk03'},
     effects = {},
     unit = {

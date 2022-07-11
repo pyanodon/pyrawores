@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/tin-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"crusher"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/tin-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'tin-mk01', 'copper-mk02'},
+    prerequisites = {'tin-mk01'},
     dependencies = {'tin-mk01'},
     effects = {},
     unit = {
@@ -40,7 +40,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/tin-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'tin-mk02', 'chemical-science-pack', 'mibc', 'mukmoux', 'fuel-production'},
+    prerequisites = {'tin-mk02'},
     dependencies = {'tin-mk02'},
     effects = {},
     unit = {
@@ -60,7 +60,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/tin-4.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'tin-mk03', 'production-science-pack'},
+    prerequisites = {'tin-mk03'},
     dependencies = {'tin-mk03'},
     effects = {},
     unit = {
@@ -81,7 +81,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/tin-5.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'tin-mk04', 'utility-science-pack'},
+    prerequisites = {'tin-mk04'},
     dependencies = {'tin-mk04'},
     effects = {},
     unit = {

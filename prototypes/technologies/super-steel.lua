@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/super-steel-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"uranium-mk01"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -23,7 +23,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/super-steel-2.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"production-science-pack", "super-steel-mk01"},
+    prerequisites = {"super-steel-mk01"},
     dependencies = {'super-steel-mk01'},
     effects = {},
     unit = {

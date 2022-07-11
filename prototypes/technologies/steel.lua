@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__base__/graphics/technology/steel-processing.png",
     icon_size = 256,
     order = "c-a",
-    prerequisites = {"logistic-science-pack", "iron-mk01"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -22,7 +22,7 @@ TECHNOLOGY {
     icon = "__base__/graphics/technology/steel-processing.png",
     icon_size = 256,
     order = "c-a",
-    prerequisites = {"chemical-science-pack", "salts"},
+    prerequisites = {},
     dependencies = {'steel-mk02'},
     effects = {},
     unit = {

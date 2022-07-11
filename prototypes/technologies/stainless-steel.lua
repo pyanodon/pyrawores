@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/stainless-steel-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"niobium", "steel-mk02", "aramid"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -22,7 +22,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/stainless-steel-2.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"chemical-science-pack", "chromium-mk03"},
+    prerequisites = {},
     dependencies = {'stainless-steel-mk01'},
     effects = {},
     unit = {

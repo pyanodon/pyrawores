@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/mibc.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"coal-processing-2"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
