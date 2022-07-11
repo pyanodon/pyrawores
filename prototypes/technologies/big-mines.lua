@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/large-scale-mining.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"chemical-science-pack", "construction-robotics"},
+    prerequisites = {"construction-robotics"},
     effects = {},
     unit = {
         count = 100,

@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/nitrogen-processing-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"logistic-science-pack"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -23,7 +23,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/nitrogen-processing-2.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"logistic-science-pack"},
+    prerequisites = {},
     dependencies = {"nitrogen-mk01"},
     effects = {},
     unit = {
@@ -43,7 +43,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/nitrogen-processing-3.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"production-science-pack"},
+    prerequisites = {},
     dependencies = {"nitrogen-mk02"},
     effects = {},
     unit = {

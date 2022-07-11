@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/pyrite.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"sulfur-processing"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,

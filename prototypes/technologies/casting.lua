@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/casting-mk01.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"engine"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/casting-mk02.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"chemical-science-pack"},
+    prerequisites = {'casting-mk01'},
     dependencies = {'casting-mk01'},
     effects = {},
     unit = {
@@ -41,7 +41,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/casting-mk03.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"casting-mk02", "production-science-pack"},
+    prerequisites = {"casting-mk02"},
     dependencies = {'casting-mk02'},
     effects = {},
     unit = {
@@ -62,7 +62,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/casting-mk04.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"casting-mk03", "utility-science-pack"},
+    prerequisites = {"casting-mk03"},
     dependencies = {'casting-mk03'},
     effects = {},
     unit = {

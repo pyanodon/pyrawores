@@ -1,12 +1,10 @@
 --TECHNOLOGY--
-TECHNOLOGY('coal-processing-3'):add_prereq('ht-trains')
+-- TECHNOLOGY('coal-processing-3'):add_prereq('ht-trains')
 
 --ENITITY
 if mods['pyhightech'] and not mods["pyalienlife"] then
     table.insert(data.raw['assembling-machine']['crash-site-assembling-machine-1-repaired'].minable.results, {name = 'duralumin', amount = 50})
 end
-
-TECHNOLOGY('basic-electronics'):add_prereq('fine-electronics')
 
 RECIPE("al-pulp-01"):replace_ingredient("boric-acid", "phosphoric-acid")
 RECIPE("powdered-ralesia-seeds"):change_category("pulp")

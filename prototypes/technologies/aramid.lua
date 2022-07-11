@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/aramid.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"kevlar", "sulfur-processing"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,

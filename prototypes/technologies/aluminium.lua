@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/aluminium-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'aluminium-mk01', 'coal-processing-2', 'solder-mk01'},
+    prerequisites = {'aluminium-mk01'},
     dependencies = {'aluminium-mk01'},
     effects = {},
     unit = {
@@ -40,7 +40,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/aluminium-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'aluminium-mk02', 'chemical-science-pack', 'additives'},
+    prerequisites = {'aluminium-mk02'},
     dependencies = {'aluminium-mk02'},
     effects = {},
     unit = {
@@ -60,7 +60,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/aluminium-4.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'aluminium-mk03', 'production-science-pack'},
+    prerequisites = {'aluminium-mk03'},
     dependencies = {'aluminium-mk03'},
     effects = {},
     unit = {
@@ -81,7 +81,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/aluminium-5.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'aluminium-mk04', 'utility-science-pack'},
+    prerequisites = {'aluminium-mk04'},
     dependencies = {'aluminium-mk04'},
     effects = {},
     unit = {

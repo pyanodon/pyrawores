@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/zinc-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"crusher"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/zinc-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'fluid-separation'},
+    prerequisites = {'zinc-mk01'},
     dependencies = {'zinc-mk01'},
     effects = {},
     unit = {
@@ -40,7 +40,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/zinc-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'zinc-mk02', 'chemical-science-pack'},
+    prerequisites = {'zinc-mk02'},
     dependencies = {'zinc-mk02'},
     effects = {},
     unit = {
@@ -60,7 +60,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/zinc-4.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'zinc-mk03', 'production-science-pack'},
+    prerequisites = {'zinc-mk03'},
     dependencies = {'zinc-mk03'},
     effects = {},
     unit = {
@@ -81,7 +81,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/zinc-5.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'zinc-mk04', 'utility-science-pack'},
+    prerequisites = {'zinc-mk04'},
     dependencies = {'zinc-mk04'},
     effects = {},
     unit = {

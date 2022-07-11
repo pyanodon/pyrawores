@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/titanium-1.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"crusher"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/titanium-2.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'titanium-mk01', 'fluid-separation', 'machines-mk02', 'mibc', 'fuel-production'},
+    prerequisites = {'titanium-mk01'},
     dependencies = {'titanium-mk01'},
     effects = {},
     unit = {
@@ -40,7 +40,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/titanium-3.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'titanium-mk02', 'chemical-science-pack'},
+    prerequisites = {'titanium-mk02'},
     dependencies = {'titanium-mk02'},
     effects = {},
     unit = {
@@ -60,7 +60,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/titanium-4.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'titanium-mk03', 'production-science-pack'},
+    prerequisites = {'titanium-mk03'},
     dependencies = {'titanium-mk03'},
     effects = {},
     unit = {
@@ -81,7 +81,7 @@ TECHNOLOGY {
     icon = '__pyraworesgraphics__/graphics/technology/titanium-5.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'titanium-mk04', 'utility-science-pack'},
+    prerequisites = {'titanium-mk04'},
     dependencies = {'titanium-mk04'},
     effects = {},
     unit = {
