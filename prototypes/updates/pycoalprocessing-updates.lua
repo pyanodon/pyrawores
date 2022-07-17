@@ -6,7 +6,6 @@ TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('c
 TECHNOLOGY('ralesia'):remove_prereq('wood-processing')
 TECHNOLOGY('energy-1'):remove_prereq('coal-processing-1')
 TECHNOLOGY("advanced-material-processing"):remove_prereq('crusher'):remove_prereq('filtration')
-TECHNOLOGY('chemical-science-pack'):remove_prereq('fine-electronics'):remove_prereq('nexelit')
 TECHNOLOGY("nexelit"):set_fields{enabled = false}:set_fields{hidden = true}
 TECHNOLOGY('chromium'):set_fields{enabled = false}:set_fields{hidden = true}
 TECHNOLOGY("coal-processing-2"):remove_prereq("concrete"):remove_prereq('chromium')

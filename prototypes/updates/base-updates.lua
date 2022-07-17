@@ -3,7 +3,6 @@ data.raw.technology['uranium-processing'].enabled = false
 data.raw.technology['uranium-processing'].hidden = true
 --data.raw.technology["uranium-processing"] = nil
 TECHNOLOGY("kovarex-enrichment-process"):set_fields{enabled = false}:set_fields{hidden = true}
-TECHNOLOGY("utility-science-pack"):remove_prereq('kovarex-enrichment-process')
 TECHNOLOGY('robotics'):remove_prereq('construction-robotics'):add_prereq('logistic-robotics')
 TECHNOLOGY("construction-robotics"):remove_prereq("steel-processing")
 TECHNOLOGY("fluid-handling"):remove_prereq("automation"):remove_prereq("steel-processing")
@@ -14,7 +13,6 @@ TECHNOLOGY("advanced-electronics"):remove_prereq("fast-inserter"):remove_prereq(
 TECHNOLOGY("automobilism"):remove_prereq("engine")
 TECHNOLOGY("battery"):remove_prereq("sulfur-processing")
 TECHNOLOGY("explosives"):remove_prereq("sulfur-processing")
-TECHNOLOGY("production-science-pack"):remove_prereq("uranium-processing")
 TECHNOLOGY("nuclear-power"):remove_prereq("uranium-processing")
 TECHNOLOGY("electric-energy-distribution-2"):remove_prereq("chemical-science-pack")
 TECHNOLOGY("advanced-material-processing-2"):remove_prereq("chemical-science-pack")
