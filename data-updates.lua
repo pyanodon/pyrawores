@@ -82,7 +82,7 @@ RECIPE("pumpjack"):add_ingredient({type = "item", name = "duralumin", amount = 1
 RECIPE("battery"):replace_ingredient("iron-plate", "zinc-plate")
 --RECIPE("oil-refinery"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("steel-plate", "stainless-steel")
 RECIPE("electric-furnace"):add_ingredient({type = "item", name = "super-steel", amount = 15})
-RECIPE("steel-furnace"):add_ingredient({type = "item", name = "stainless-steel", amount = 10})
+--RECIPE("steel-furnace"):add_ingredient({type = "item", name = "stainless-steel", amount = 10})
 RECIPE("fast-transport-belt"):add_ingredient({type = "item", name = "stainless-steel", amount = 2})
 RECIPE("fast-underground-belt"):add_ingredient({type = "item", name = "stainless-steel", amount = 3})
 RECIPE("fast-splitter"):add_ingredient({type = "item", name = "stainless-steel", amount = 5})
