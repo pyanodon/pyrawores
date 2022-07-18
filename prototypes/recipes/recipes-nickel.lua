@@ -304,21 +304,21 @@ RECIPE {
 
 --INITIAL PLATE
 
-RECIPE {
-    type = "recipe",
-    name = "nickel-plate-1",
-    category = "smelting",
-    enabled = false,
-    energy_required = 15,
-    ingredients = {
-        {type = "item", name = "ore-nickel", amount = 10}
-    },
-    results = {
-        {type = "item", name = "nickel-plate", amount = 1}
-    },
-    subgroup = "py-rawores-nickel",
-    order = "aac"
-}:add_unlock("nickel-mk01")
+-- RECIPE {
+--     type = "recipe",
+--     name = "nickel-plate-1",
+--     category = "smelting",
+--     enabled = false,
+--     energy_required = 15,
+--     ingredients = {
+--         {type = "item", name = "ore-nickel", amount = 10}
+--     },
+--     results = {
+--         {type = "item", name = "nickel-plate", amount = 1}
+--     },
+--     subgroup = "py-rawores-nickel",
+--     order = "aac"
+-- }:add_unlock("nickel-mk01")
 
 --PLATES
 
