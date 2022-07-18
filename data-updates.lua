@@ -53,7 +53,7 @@ RECIPE("mk02-locomotive"):add_ingredient({type = "item", name = "glass", amount 
 RECIPE("mk02-wagon"):add_ingredient({type = "item", name = "glass", amount = 100}):add_ingredient({type = "item", name = "duralumin", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 40})
 RECIPE("mk02-fluid-wagon"):add_ingredient({type = "item", name = "glass", amount = 100}):add_ingredient({type = "item", name = "duralumin", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 40})
 
-RECIPE("py-logistic-robot-01"):replace_ingredient("iron-plate", "aluminium-plate"):add_ingredient({type = "item", name = "solder", amount = 5})
+RECIPE("py-logistic-robot-01"):add_ingredient({type = "item", name = "solder", amount = 5})
 RECIPE("py-construction-robot-01"):replace_ingredient("iron-plate", "aluminium-plate"):add_ingredient({type = "item", name = "solder", amount = 5})
 TECHNOLOGY("construction-robotics"):remove_prereq('steel-processing'):remove_prereq('automation')
 
