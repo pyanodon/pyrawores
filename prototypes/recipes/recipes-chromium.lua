@@ -369,20 +369,20 @@ RECIPE {
 
 --INITIAL PLATE
 
-RECIPE {
-    type = "recipe",
-    name = "chromium-plate-1",
-    category = "smelting",
-    enabled = false,
-    energy_required = 25,
-    ingredients = {
-        {type = "item", name = "ore-chromium", amount = 10}
-    },
-    results = {
-        {type = "item", name = "chromium", amount = 1}
-    },
-    icon = "__pycoalprocessinggraphics__/graphics/icons/chromium.png",
-    icon_size = 32,
-    subgroup = "py-rawores-chromium",
-    order = "aac"
-}:add_unlock("chromium-mk01")
+-- RECIPE {
+--     type = "recipe",
+--     name = "chromium-plate-1",
+--     category = "smelting",
+--     enabled = false,
+--     energy_required = 25,
+--     ingredients = {
+--         {type = "item", name = "ore-chromium", amount = 10}
+--     },
+--     results = {
+--         {type = "item", name = "chromium", amount = 1}
+--     },
+--     icon = "__pycoalprocessinggraphics__/graphics/icons/chromium.png",
+--     icon_size = 32,
+--     subgroup = "py-rawores-chromium",
+--     order = "aac"
+-- }:add_unlock("chromium-mk01")
