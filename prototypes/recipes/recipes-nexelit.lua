@@ -316,21 +316,21 @@ RECIPE {
 
 --INITIAL PLATE
 
-RECIPE {
-    type = "recipe",
-    name = "nexelit-plate-1",
-    category = "smelting",
-    enabled = false,
-    energy_required = 10,
-    ingredients = {
-        {type = "item", name = "nexelit-ore", amount = 30}
-    },
-    results = {
-        {type = "item", name = "nexelit-plate", amount = 6}
-    },
-    subgroup = "py-rawores-nexelit",
-    order = "aab"
-}:add_unlock("nexelit-mk01")
+-- RECIPE {
+--     type = "recipe",
+--     name = "nexelit-plate-1",
+--     category = "smelting",
+--     enabled = false,
+--     energy_required = 10,
+--     ingredients = {
+--         {type = "item", name = "nexelit-ore", amount = 30}
+--     },
+--     results = {
+--         {type = "item", name = "nexelit-plate", amount = 6}
+--     },
+--     subgroup = "py-rawores-nexelit",
+--     order = "aab"
+-- }:add_unlock("nexelit-mk01")
 
 --PLATES
 
