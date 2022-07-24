@@ -1,4 +1,4 @@
-local fun = require("prototypes/functions/functions")
+local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 
 -- TECH CHANGES
 TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-processing-2')
@@ -76,9 +76,9 @@ RECIPE("drill-head"):remove_unlock("niobium"):add_unlock("drill-head-mk01")
 RECIPE("richdust-separation"):add_unlock("fluid-separation")
 
 -- RECIPE CHANGES
-fun.results_replacer("richdust-separation", "chromite-sand", "chromite-sand",3)
-fun.results_replacer("coal-fawogae", "coal", "raw-coal",3)
-fun.results_replacer("oleochemicals-distilation", "coal", "raw-coal",4)
+FUN.results_replacer("richdust-separation", "chromite-sand", "chromite-sand",3)
+FUN.results_replacer("coal-fawogae", "coal", "raw-coal",3)
+FUN.results_replacer("oleochemicals-distilation", "coal", "raw-coal",4)
 RECIPE("boric-acid"):change_category('electrolyzer')
 RECIPE("copper-coating"):change_category('electrolyzer')
 RECIPE("nbfe-alloy"):change_category('py-rawores-smelter')

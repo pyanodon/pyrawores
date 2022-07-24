@@ -1,4 +1,4 @@
-local fun = require("prototypes/functions/functions")
+local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 
 TECHNOLOGY("advanced-mining-facilities"):remove_pack("chemical-science-pack"):remove_prereq("diamond-mining"):remove_prereq('uranium-processing')
 TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_pack('production-science-pack'):remove_prereq('production-science-pack')
@@ -34,7 +34,7 @@ RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("titanium-mk02")
 RECIPE("jig-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20}):replace_ingredient('advanced-circuit', 'electronic-circuit'):replace_ingredient('electric-engine-unit','engine-unit')
 RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 
-fun.results_replacer("u-79", "dirty-water-heavy", "u-waste")
+FUN.results_replacer("u-79", "dirty-water-heavy", "u-waste")
 
 RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("fluid-processing-machines-1")
 RECIPE("centrifugal-pan-mk01"):replace_ingredient("advanced-circuit", "electronic-circuit")
