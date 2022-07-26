@@ -39,12 +39,8 @@ data.raw.reactor['nuclear-reactor'].use_fuel_glow_color = true
 data.raw["assembling-machine"]["centrifuge"].crafting_speed = 4
 data.raw["assembling-machine"]["centrifuge"].module_specification.module_slots = 4
 
-data.raw['underground-belt']['fast-underground-belt'].max_distance = 15
-data.raw['underground-belt']['express-underground-belt'].max_distance = 30
-
 data.raw.resource['coal'].autoplace = nil
 data.raw['autoplace-control']['coal'] = nil
-
 
 -- ITEM CHANGES
 data.raw.item['uranium-fuel-cell'].fuel_glow_color = {0,1,0,1}
