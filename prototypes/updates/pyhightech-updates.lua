@@ -252,6 +252,21 @@ RECIPE("smelter-mk02"):add_ingredient({type = "item", name = "ceramic", amount =
 RECIPE("smelter-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20}):add_ingredient({type = "item", name = "graphene-roll", amount = 15})
 RECIPE("smelter-mk04"):replace_ingredient("control-unit", "intelligent-unit"):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 5}):add_ingredient({type = "item", name = "harmonic-absorber", amount = 10})
 
+RECIPE('aluminium-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('chromium-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('coal-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('copper-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('iron-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('zinc-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('uranium-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('titanium-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('tin-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('lead-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('nexelit-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('quartz-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('nickel-mine'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+RECIPE('phosphate-mine-02'):add_ingredient({type = "item", name = "graphene-roll", amount = 5})
+
 --PYFE ENTITIES UPDATES
 
 RECIPE("agitator-mk03"):add_ingredient({type = "item", name = "heavy-fermion", amount = 20}):add_ingredient({type = "item", name = "carbon-aerogel", amount = 20}):add_ingredient({type = "item", name = "graphene-roll", amount = 15})

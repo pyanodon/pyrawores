@@ -186,9 +186,9 @@ RECIPE('ground-borer-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "
 RECIPE('ground-borer-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 20}):add_ingredient({type = "item", name = "stainless-steel", amount = 15})
 RECIPE('ground-borer-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "super-steel", amount = 30})
 
-RECIPE('desulfurizator-unit-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "duralumin", amount = 15}):add_ingredient({type = "item", name = "tin-plate", amount = 25}):add_ingredient({type = "item", name = "glass", amount = 10})
-RECIPE('desulfurizator-unit-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "stainless-steel", amount = 30})
-RECIPE('desulfurizator-unit-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "super-steel", amount = 35})
+RECIPE('desulfurizator-unit-mk02'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "duralumin", amount = 15}):add_ingredient({type = "item", name = "tin-plate", amount = 25}):add_ingredient({type = "item", name = "glass", amount = 10})
+RECIPE('desulfurizator-unit-mk03'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "stainless-steel", amount = 30})
+-- RECIPE('desulfurizator-unit-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "super-steel", amount = 35})
 
 RECIPE('evaporator-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "duralumin", amount = 15}):add_ingredient({type = "item", name = "tin-plate", amount = 25}):add_ingredient({type = "item", name = "glass", amount = 10})
 RECIPE('evaporator-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 40}):add_ingredient({type = "item", name = "stainless-steel", amount = 30})

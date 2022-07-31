@@ -18,7 +18,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-fluids",
     order = "cab"
-}:add_unlock("machines-mk03")
+}:add_unlock("additives")
 
 RECIPE {
     type = "recipe",
@@ -111,7 +111,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-rawores-items",
     order = "q-2"
-}:add_unlock("machines-mk03")
+}:add_unlock("additives")
 
 RECIPE {
     type = "recipe",
