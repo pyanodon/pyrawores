@@ -16,7 +16,7 @@ RECIPE("titanium-plate-1"):remove_unlock("coal-processing-1"):add_unlock('alloys
 ITEM("molybdenum-plate").stack_size = 100
 
 RECIPE("aramid"):add_ingredient({type = 'item', name = 'molybdenum-plate', amount = 5}):change_category('nmf')
-
+RECIPE("methyl-acrylate"):replace_ingredient("iron-plate", "nickel-plate")
 
 RECIPE("steam-heating"):remove_ingredient("fuelrod-mk01"):add_ingredient({type = "item", name = "fuelrod-mk01", amount = 1})
 RECIPE("hydrocyclone-mk01"):replace_ingredient("centrifuge", "classifier")
@@ -271,7 +271,7 @@ RECIPE('secondary-crusher-mk02'):add_unlock('machines-mk03'):add_ingredient({typ
 RECIPE('plankton-farm-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
 RECIPE('centrifugal-pan-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
 RECIPE('jig-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "stainless-steel", amount = 25})
-RECIPE('grease-table-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+RECIPE('grease-table-mk02'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE('compressor-mk02'):add_unlock('machines-mk03'):add_ingredient({type = "item", name = "titanium-plate", amount = 10}):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 --RECIPE('genlab-mk02'):add_unlock('machines-mk03')
 --RECIPE('kmauts-enclosure-mk02'):add_unlock('machines-mk03')
@@ -291,7 +291,7 @@ RECIPE('secondary-crusher-mk03'):add_unlock('machines-mk04'):add_ingredient({typ
 RECIPE('centrifugal-pan-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 10}):add_ingredient({type = "item", name = "sc-unit", amount = 2})
 RECIPE('plankton-farm-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 5}):add_ingredient({type = "item", name = "nbti-alloy", amount = 20})
 RECIPE('jig-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "molybdenum-plate", amount = 15})
-RECIPE('grease-table-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 25})
+RECIPE('grease-table-mk03'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "super-alloy", amount = 25})
 RECIPE('compressor-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "molybdenum-plate", amount = 15})
 --RECIPE('genlab-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 5}):add_ingredient({type = "item", name = "nbti-alloy", amount = 20})
 --RECIPE('kmauts-enclosure-mk03'):add_unlock('machines-mk04'):add_ingredient({type = "item", name = "super-alloy", amount = 25})
@@ -311,7 +311,7 @@ RECIPE('secondary-crusher-mk04'):add_unlock('machines-mk05'):add_ingredient({typ
 RECIPE('plankton-farm-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 RECIPE('centrifugal-pan-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
 RECIPE('jig-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
-RECIPE('grease-table-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+-- RECIPE('grease-table-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "wall-shield", amount = 5}):add_ingredient({type = "item", name = "science-coating", amount = 2}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 RECIPE('compressor-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
 --RECIPE('genlab-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
 --RECIPE('kmauts-enclosure-mk04'):add_unlock('machines-mk05'):add_ingredient({type = "item", name = "nbti-alloy", amount = 10}):add_ingredient({type = "item", name = "wall-shield", amount = 4}):add_ingredient({type = "item", name = "control-unit", amount = 3})
@@ -480,7 +480,7 @@ RECIPE("fuelrod-mk01-1"):replace_ingredient("titanium-plate", {type = "item", na
 RECIPE("fuelrod-mk01-2"):replace_ingredient("niobium-plate", {type = "item", name = "lead-container", amount = 1})
 RECIPE("fuelrod-mk01-3"):replace_ingredient("niobium-plate", {type = "item", name = "lead-container", amount = 1})
 RECIPE("fuelrod-mk02"):replace_ingredient("titanium-plate", {type = "item", name = "lead-container", amount = 1})
-RECIPE("fuelrod-mk03"):replace_ingredient("lead-plate", {type = "item", name = "coated-container", amount = 1})
+RECIPE("fuelrod-mk03"):replace_ingredient("lead-plate", {type = "item", name = "lead-container", amount = 1})
 RECIPE("fuelrod-mk04"):replace_ingredient("zinc-plate", {type = "item", name = "coated-container", amount = 1})
 RECIPE("fuelrod-mk05"):replace_ingredient("stainless-steel", {type = "item", name = "coated-container", amount = 1})
 
