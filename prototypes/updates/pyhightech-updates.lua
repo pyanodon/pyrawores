@@ -8,7 +8,7 @@ end
 
 RECIPE("al-pulp-01"):replace_ingredient("boric-acid", "phosphoric-acid")
 RECIPE("powdered-ralesia-seeds"):change_category("pulp")
-RECIPE("glass-fiber"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1}):add_ingredient({type = "fluid", name = "molten-glass", amount = 100})
+RECIPE("glass-fiber"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1}):add_ingredient({type = "fluid", name = "molten-glass", amount = 100, fluidbox_index = 2})
 RECIPE("phosphate-glass"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1}):replace_ingredient("glass-fiber", "crushed-quartz")
 RECIPE("nexelit-matrix"):replace_ingredient("wood", "epoxy")
 RECIPE("rayon"):add_ingredient({type = "item", name = "sodium-carbonate", amount = 5})

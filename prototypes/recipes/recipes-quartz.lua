@@ -122,7 +122,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-2",
-    category = 'glassworks',
+    category = "glassworks",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -141,7 +141,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-3",
-    category = 'glassworks',
+    category = "glassworks",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -161,7 +161,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-4",
-    category = 'glassworks',
+    category = "glassworks",
     enabled = false,
     energy_required = 11,
     ingredients = {
@@ -182,7 +182,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-5",
-    category = 'glassworks',
+    category = "glassworks",
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -203,7 +203,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-6",
-    category = 'glassworks',
+    category = "glassworks",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -224,7 +224,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-glass",
-    category = 'glassworks',
+    category = "glassworks",
     enabled = true,
     energy_required = 3,
     ingredients = {
