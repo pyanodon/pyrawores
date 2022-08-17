@@ -29,11 +29,11 @@ RECIPE {
         {type = "item", name = "processed-iron-ore", amount = 5}
     },
     results = {
-        {type = "item", name = "grade-1-iron", amount = 1},
+        {type = "item", name = "grade-1-iron", amount = 1, probability = 0.5},
         {type = "item", name = "grade-2-iron", amount = 1, probability = 0.5},
-        {type = "item", name = "grade-3-iron", amount = 1, probability = 0.5},
+        {type = "item", name = "grade-3-iron", amount = 1},
     },
-    main_product = "grade-1-iron",
+    main_product = "grade-3-iron",
     icon = "__pyraworesgraphics__/graphics/icons/processed-iron-ore-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
@@ -46,12 +46,12 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "grade-3-iron", amount = 1}
+        {type = "item", name = "grade-2-iron", amount = 1}
     },
     results = {
-        {type = "item", name = "grade-2-iron", amount = 1},
+        {type = "item", name = "grade-3-iron", amount = 1},
     },
-    main_product = "grade-2-iron",
+    main_product = "grade-3-iron",
     icon = "__pyraworesgraphics__/graphics/icons/recrush-grade-3-iron.png",
     icon_size = 32,
     subgroup = "py-rawores-iron",
@@ -64,13 +64,13 @@ RECIPE {
     enabled = false,
     energy_required = 1,
     ingredients = {
-        {type = "item", name = "grade-2-iron", amount = 1}
+        {type = "item", name = "grade-1-iron", amount = 1}
     },
     results = {
         {type = "item", name = "gravel", amount = 1, probability = 0.5},
-        {type = "item", name = "grade-1-iron", amount = 1}
+        {type = "item", name = "grade-2-iron", amount = 1}
     },
-    main_product = "grade-1-iron",
+    main_product = "grade-2-iron",
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk02")
 
@@ -81,7 +81,7 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "item", name = "grade-1-iron", amount = 1}
+        {type = "item", name = "grade-3-iron", amount = 1}
     },
     results = {
         {type = "item", name = "iron-ore-dust", amount = 1}
