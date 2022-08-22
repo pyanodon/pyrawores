@@ -226,11 +226,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = 'item', name = 'stone', amount = 15},
-        {type = 'item', name = 'pyrite', amount = 10},
+        {type = 'item', name = 'pyrite', amount = 5},
     },
     results = {
         {type = 'item', name = 'p2s5', amount = 1},
-        {type = 'item', name = 'iron-ore', amount = 3},
+        {type = 'item', name = 'iron-ore', amount = 1},
     },
     main_product = "p2s5",
 }:add_unlock("additives")
@@ -243,11 +243,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = 'item', name = 'stone', amount = 15},
-        {type = 'item', name = 'sulfur', amount = 20},
+        {type = 'item', name = 'sulfur', amount = 5},
     },
     results = {
         {type = 'item', name = 'p2s5', amount = 1},
-        {type = 'item', name = 'pyrite', amount = 1},
+        {type = 'item', name = 'pyrite', amount = 2},
     },
     main_product = "p2s5",
 }:add_unlock("additives")
