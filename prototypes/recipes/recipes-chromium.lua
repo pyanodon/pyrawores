@@ -58,17 +58,16 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-4-chromite",
-    category = "chemistry",
-     --pyFE hydrocyclone
+    category = "chemistry", --pyFE hydrocyclone
     enabled = false,
-    energy_required = 3,
+    energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-3-chromite", amount = 1},
-        {type = "fluid", name = "water", amount = 100}
+        {type = "item", name = "grade-3-chromite", amount = 2},
+        {type = "fluid", name = "water", amount = 200}
     },
     results = {
-        {type = "item", name = "grade-4-chromite", amount = 1},
-        {type = "item", name = "chromite-rejects", amount = 1}
+        {type = "item", name = "grade-4-chromite", amount = 4},
+        {type = "item", name = "chromite-rejects", amount = 4}
     },
     main_product = "grade-4-chromite",
     subgroup = "py-rawores-chromium",
@@ -164,6 +163,7 @@ RECIPE {
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk03")
 
+--[[
 RECIPE {
     type = "recipe",
     name = "tier-3-chromite-sand",
@@ -179,23 +179,25 @@ RECIPE {
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk03")
+]]--
 
 RECIPE {
     type = "recipe",
     name = "tier-2-chromite-sand",
     category = "solid-separator",
     enabled = false,
-    energy_required = 3,
+    energy_required = 2,
     ingredients = {
-        {type = "item", name = "grade-4-chromite", amount = 1}
+        {type = "item", name = "grade-4-chromite", amount = 2}
     },
     results = {
-        {type = "item", name = "chromite-sand", amount = 5}
+        {type = "item", name = "chromite-sand", amount = 12}
     },
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk02")
 
+--[[
 RECIPE {
     type = "recipe",
     name = "tier-1-chromite-sand",
@@ -211,13 +213,14 @@ RECIPE {
     main_product = "chromite-sand",
     subgroup = "py-rawores-chromium",
 }:add_unlock("chromium-mk02")
+]]--
 
 RECIPE {
     type = "recipe",
     name = "tier-0-chromite-sand",
     category = "solid-separator",
     enabled = false,
-    energy_required = 4.5,
+    energy_required = 2,
     ingredients = {
         {type = "item", name = "grade-1-chromite", amount = 1}
     },
@@ -355,7 +358,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "chromite-sand", amount = 20},
+        {type = "item", name = "chromite-sand", amount = 15},
         {type = "item", name = "sodium-hydroxide", amount = 2},
         {type = "fluid", name = "light-oil", amount = 100}
         --pyfe pressured air
