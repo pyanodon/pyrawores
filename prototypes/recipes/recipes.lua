@@ -581,7 +581,7 @@ RECIPE {
     results = {
         {type = "item", name = "rail", amount = 8},
     },
-}:add_unlock("railway")
+}:add_unlock("railway-mk02")
 
 RECIPE {
     type = "recipe",
