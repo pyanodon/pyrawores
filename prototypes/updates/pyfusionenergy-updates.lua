@@ -90,7 +90,7 @@ RECIPE("helium"):add_ingredient({type = "fluid", name = "hydrogen", amount = 10}
 RECIPE("nbti-alloy"):replace_ingredient("steel-plate", "titanium-plate"):add_ingredient({type = "fluid", name = "nitrogen", amount = 150}):change_category('py-rawores-smelter'):remove_unlock("nenbit-matrix"):add_unlock("alloys-mk03")
 RECIPE("sc-wire"):replace_ingredient("iron-plate", "tin-plate"):add_ingredient({type = "item", name = "optical-fiber", amount = 5})
 RECIPE("ferrite"):add_ingredient({type = "item", name = "zinc-plate", amount = 10})
-RECIPE("sc-unit"):add_ingredient({type = "fluid", name = "liquid-nitrogen", amount = 100})
+RECIPE("sc-unit"):add_ingredient({type = "fluid", name = "liquid-nitrogen", amount = 600})
 RECIPE("boron-mixture"):add_ingredient({type = "item", name = "aluminium-plate", amount = 5})
 RECIPE("boron"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 300})
 RECIPE("blanket"):add_ingredient({type = "item", name = "nexelit-plate", amount = 10})
