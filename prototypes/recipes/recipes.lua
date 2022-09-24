@@ -1159,3 +1159,17 @@ RECIPE {
         {"uranium-fuel-cell", 1}
     },
 }:add_unlock('uranium-mk01')
+
+RECIPE {
+    type = "recipe",
+    name = "bricks-to-stone",
+    category = "secondary-crusher",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {"stone-brick", 4},
+    },
+    results = {
+        {"stone", 8},
+    },
+}:add_unlock('crusher')
