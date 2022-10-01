@@ -1163,7 +1163,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "bricks-to-stone",
-    category = "secondary-crusher",
+    category = "crusher",
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1172,4 +1172,4 @@ RECIPE {
     results = {
         {"stone", 8},
     },
-}:add_unlock('crusher')
+}:add_unlock('crusher'):change_category("secondary-crusher")
