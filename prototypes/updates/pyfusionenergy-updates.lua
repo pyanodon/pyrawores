@@ -118,6 +118,7 @@ RECIPE("py-heat-exchanger"):replace_ingredient("processing-unit", "advanced-circ
 RECIPE("sodium-bisulfate"):change_category("mixer")
 RECIPE("mibc"):change_category("mixer")
 RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("fluid-processing-machines-1"):replace_ingredient("electric-engine-unit","engine-unit")
+RECIPE("bricks-to-stone"):change_category("secondary-crusher")
 
 ----PYFE---
 

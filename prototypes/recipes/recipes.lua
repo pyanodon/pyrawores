@@ -1172,4 +1172,4 @@ RECIPE {
     results = {
         {"stone", 8},
     },
-}:add_unlock('crusher'):change_category("secondary-crusher")
+}:add_unlock('crusher')
