@@ -100,9 +100,9 @@ RECIPE("chemical-science-pack"):replace_ingredient("copper-cable", "tinned-cable
 RECIPE("tailings-classification"):replace_ingredient("copper-ore", "ore-lead") --result
 RECIPE("tailings-classification"):replace_ingredient("iron-ore", "ore-tin") --result
 RECIPE("niobium-plate"):replace_ingredient("coal", "salt"):change_category('electrolyzer')
-RECIPE("sulfur-crudeoil"):replace_ingredient("iron-ore", "salt")
-RECIPE("sulfur-heavyoil"):add_ingredient({type = 'item', name = 'salt', amount = 10})
-RECIPE("sulfur-lightoil"):add_ingredient({type = 'item', name = 'salt', amount = 10})
+--RECIPE("sulfur-crudeoil"):replace_ingredient("iron-ore", "salt")
+--RECIPE("sulfur-heavyoil"):add_ingredient({type = 'item', name = 'salt', amount = 10})
+--RECIPE("sulfur-lightoil"):add_ingredient({type = 'item', name = 'salt', amount = 10})
 RECIPE("glass-core"):remove_ingredient("molten-glass"):add_ingredient({type = "fluid", name = "molten-glass", amount = 100, fluidbox_index = 2})
 RECIPE("glass-core"):replace_ingredient("steel-plate", "silver-plate")
 RECIPE("nichrome"):replace_ingredient("water", "nitrogen")
