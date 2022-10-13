@@ -224,7 +224,14 @@ local recipes_list =
   "phosphate-mine-02",
   "methanol-from-hydrogen",
   "glycerol-hydrogen",
-  "extract-limestone-01"
+  "extract-limestone-01",
+  "fuelrod-mk01-1",
+  "fuelrod-mk01-2",
+  "fuelrod-mk01-3",
+  "fuelrod-mk02",
+  "fuelrod-mk03",
+  "fuelrod-mk04",
+  "fuelrod-mk05",
 }
 
 --adding to module limitation list
