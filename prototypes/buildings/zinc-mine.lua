@@ -49,12 +49,20 @@ ENTITY {
     mining_speed = 20,
     energy_source =
     {
+        light_flicker =
+        {
+            minimum_intensity = 0,
+            maximum_intensity = 0,
+            light_intensity_to_size_coefficient = 0,
+            color = {0,0,0},
+        },
       type = "burner",
       fuel_category = "drill",
       effectivity = 1,
       fuel_inventory_size = 1,
       emissions_per_minute = 0.06,
     },
+
     energy_usage = "2500kW",
     mining_power = 6,
     resource_searching_radius = 0.49,

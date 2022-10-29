@@ -81,6 +81,13 @@ ENTITY {
         },
       },
     },
+    light_flicker =
+    {
+        minimum_intensity = 0,
+        maximum_intensity = 0,
+        light_intensity_to_size_coefficient = 0,
+        color = {0,0,0},
+    },
     energy_usage = "1000kW",
     mining_power = 6,
     resource_searching_radius = 0.49,

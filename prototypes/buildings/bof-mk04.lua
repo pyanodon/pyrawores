@@ -50,6 +50,13 @@ ENTITY {
     crafting_speed = 4,
     energy_source =
     {
+        light_flicker =
+        {
+            minimum_intensity = 0,
+            maximum_intensity = 0,
+            light_intensity_to_size_coefficient = 0,
+            color = {0,0,0},
+        },
       type = "burner",
       --fuel_category = "chemical",
       fuel_categories = {"chemical", "biomass", "jerry"},
@@ -101,6 +108,22 @@ ENTITY {
                 width = 128,
                 height = 160,
                 animation_speed = 1
+            }
+        },
+        {
+            north_position = util.by_pixel(-15.5, -64),
+            west_position = util.by_pixel(-15.5, -64),
+            south_position = util.by_pixel(-15.5, -64),
+            east_position = util.by_pixel(-15.5, -64),
+            animation = {
+                filename = "__pyraworesgraphics__/graphics/entity/bof-mk01/g.png",
+                priority = "high",
+                frame_count = 24,
+                line_length = 6,
+                width = 128,
+                height = 160,
+                draw_as_glow = true,
+                animation_speed = 1.0
             }
         },
     },
@@ -156,8 +179,7 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyraworesgraphics__/sounds/bof.ogg", volume = 0.9},
-        idle_sound = {filename = "__pyraworesgraphics__/sounds/bof.ogg", volume = 0.3},
-        apparent_volume = 2.5
+        sound = {filename = "__pyraworesgraphics__/sounds/bof.ogg", volume = 0.8},
+        idle_sound = {filename = "__pyraworesgraphics__/sounds/bof.ogg", volume = 0.02},
     }
 }
