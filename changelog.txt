@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.4.2
+Date: 2022-11-03
+  Changes:
+    - added russian translation.
+    - added night lights to several machines. basic oxygen furnace, aluminium,chromium, coal, copper, iron, lead, nexelit, nickel, phosphate, quartz, salt, tin, titanium, uranium, zinc mines.
+    - fixed sand classification had double unlock in seperation tech.
+---------------------------------------------------------------------------------------------------
 Version: 2.4.1
 Date: 2022-10-20
   Changes:
