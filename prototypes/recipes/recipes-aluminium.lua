@@ -31,7 +31,7 @@ RECIPE {
         {type = "item", name = "starch", amount = 5}
     },
     results = {
-        {type = "item", name = "sodium-aluminate", amount = 1},
+        {type = "item", name = "sodium-aluminate", amount = 4},
         {type = "fluid", name = "al-tailings", amount = 50}
     },
     main_product = "sodium-aluminate",
@@ -45,7 +45,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "sodium-aluminate", amount = 2},
+        {type = "item", name = "sodium-aluminate", amount = 8},
         {type = "fluid", name = "steam", amount = 300} --pyfe pressured air
     },
     results = {
