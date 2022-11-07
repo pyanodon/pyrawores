@@ -128,7 +128,7 @@ RECIPE("advanced-foundry-mk01"):replace_ingredient("steel-furnace", {type = "ite
 RECIPE("chemical-science-pack"):replace_ingredient("iron-plate", "stainless-steel")
 RECIPE("methanol-reactor"):replace_ingredient("chemical-plant-mk01", "electrolyzer-mk01")
 RECIPE("power-house"):replace_ingredient("iron-plate", "lead-plate")
-RECIPE("jaw-crusher"):remove_ingredient("car"):add_ingredient({type = "item", name = "duralumin", amount = 15})
+RECIPE("jaw-crusher"):remove_ingredient("car")--:add_ingredient({type = "item", name = "duralumin", amount = 15})
 RECIPE("evaporator"):replace_ingredient("iron-plate", "tin-plate")
 RECIPE("cooling-tower-mk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "stainless-steel")
 RECIPE("desulfurizator-unit"):replace_ingredient("iron-plate", "titanium-plate")

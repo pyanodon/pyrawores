@@ -24,7 +24,7 @@ RECIPE("py-heat-exchanger"):remove_unlock("fusion-mk01"):add_unlock("machines-mk
 
 RECIPE("mixer-mk01"):replace_ingredient("iron-plate", "aluminium-plate"):replace_ingredient("chemical-plant-mk01", "washer")
 
-RECIPE("secondary-crusher-mk01"):remove_unlock("diamond-mining"):add_unlock("crusher")
+RECIPE("secondary-crusher-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk01")
 RECIPE("secondary-crusher-mk01"):replace_ingredient("electric-engine-unit", "engine-unit"):remove_ingredient("nbfe-alloy"):add_ingredient({type = "item", name = "duralumin", amount = 20})
 
 RECIPE("automated-screener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
@@ -118,7 +118,7 @@ RECIPE("py-heat-exchanger"):replace_ingredient("processing-unit", "advanced-circ
 RECIPE("sodium-bisulfate"):change_category("mixer")
 RECIPE("mibc"):change_category("mixer")
 RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("fluid-processing-machines-1"):replace_ingredient("electric-engine-unit","engine-unit")
-RECIPE("bricks-to-stone"):change_category("secondary-crusher")
+--RECIPE("bricks-to-stone"):change_category("secondary-crusher")
 
 ----PYFE---
 
