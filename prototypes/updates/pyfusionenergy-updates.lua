@@ -38,7 +38,7 @@ FUN.results_replacer("u-79", "dirty-water-heavy", "u-waste")
 
 RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk03"):replace_ingredient("advanced-circuit", "electronic-circuit")
 
-RECIPE("gas-separator-mk01"):remove_unlock("sulfur-processing"):add_unlock("coke-mk02")
+RECIPE("gas-separator-mk01"):remove_unlock("helium-processing-mk02"):add_unlock("coke-mk02")
 
 RECIPE("sodium-chlorate"):remove_unlock("vanadium-processing"):add_unlock("salts"):change_category("electrolyzer"):remove_ingredient("water-saline"):add_ingredient({type = "item", name = "salt", amount = 10})
 
