@@ -5,7 +5,7 @@ TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_
 TECHNOLOGY("fluid-pressurization"):remove_pack("chemical-science-pack"):remove_pack("logistic-science-pack")
 TECHNOLOGY("acetylene"):remove_pack("chemical-science-pack"):remove_pack("logistic-science-pack")
 
-RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):remove_unlock("helium-processing"):remove_unlock("liquid-petroleum-processing"):remove_unlock("advanced-oil-processing"):add_unlock("fluid-processing-machines-1")
+RECIPE("compressor-mk01"):remove_unlock("regolite-mining"):remove_unlock("helium-processing"):remove_unlock("liquid-petroleum-processing"):remove_unlock("advanced-oil-processing"):add_unlock("nitrogen-mk02")
 RECIPE("acidgas-2"):remove_unlock("advanced-oil-processing"):add_unlock("sulfur-processing")
 RECIPE("olefin"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
 RECIPE("gasoline"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
@@ -36,8 +36,9 @@ RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 
 FUN.results_replacer("u-79", "dirty-water-heavy", "u-waste")
 
-RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("fluid-processing-machines-1")
-RECIPE("centrifugal-pan-mk01"):replace_ingredient("advanced-circuit", "electronic-circuit")
+RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk03"):replace_ingredient("advanced-circuit", "electronic-circuit")
+
+RECIPE("gas-separator-mk01"):remove_unlock("sulfur-processing"):add_unlock("coke-mk02")
 
 RECIPE("sodium-chlorate"):remove_unlock("vanadium-processing"):add_unlock("salts"):change_category("electrolyzer"):remove_ingredient("water-saline"):add_ingredient({type = "item", name = "salt", amount = 10})
 
@@ -80,7 +81,7 @@ RECIPE("vpulp3"):replace_ingredient("petroleum-gas", "ammonia")
 RECIPE("vpulp-precip"):replace_ingredient("water", "ammonia"):add_ingredient({type = "item", name = "sodium-bisulfate", amount = 1})
 RECIPE("super-alloy"):replace_ingredient("steel-plate", "nickel-plate"):add_ingredient({type = "item", name = "aramid", amount = 1}):change_category('py-rawores-smelter')
 RECIPE("calcinate-separation"):add_result({type = "item", name = "ore-quartz", amount = 1, probability = 0.6})
---RECIPE("gas-separator-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+
 RECIPE("grease-table-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
 RECIPE("py-turbine"):add_ingredient({type = "item", name = "super-steel", amount = 20}):add_ingredient({type = "item", name = "super-alloy", amount = 20})
 
@@ -117,7 +118,7 @@ RECIPE("automated-screener-mk01"):replace_ingredient("electric-engine-unit", "en
 RECIPE("py-heat-exchanger"):replace_ingredient("processing-unit", "advanced-circuit")
 RECIPE("sodium-bisulfate"):change_category("mixer")
 RECIPE("mibc"):change_category("mixer")
-RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("fluid-processing-machines-1"):replace_ingredient("electric-engine-unit","engine-unit")
+RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("molybdenum-processing"):replace_ingredient("electric-engine-unit","engine-unit")
 --RECIPE("bricks-to-stone"):change_category("secondary-crusher")
 
 ----PYFE---

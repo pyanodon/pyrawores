@@ -10,6 +10,7 @@
   "dependencies": [
     "pycoalprocessing >= 1.0.11",
     "pyindustry >= 1.0.12",
+    "(?) pyfusionenergy",
     "(?) rso-mod",
     "~ pyraworesgraphics >= 1.0.0"
   ],
