@@ -10,7 +10,7 @@ RECIPE("acidgas-2"):remove_unlock("advanced-oil-processing"):add_unlock("sulfur-
 RECIPE("olefin"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
 RECIPE("gasoline"):remove_unlock("fuel-production-mk02"):add_unlock("fuel-production")
 RECIPE("pressured-air"):set_fields {energy_required = 1}
-RECIPE('lime'):remove_unlock('concrete'):add_unlock('acetylene')
+--RECIPE('lime'):remove_unlock('concrete'):add_unlock('acetylene')
 RECIPE("titanium-plate-1"):remove_unlock("coal-processing-1"):add_unlock('alloys-mk01')
 
 ITEM("molybdenum-plate").stack_size = 100
