@@ -33,7 +33,7 @@ RECIPE("powdered-quartz"):remove_unlock("advanced-material-processing")
 
 --TECHNOLOGY("machines-mk01"):add_prereq('concrete')
 
-RECIPE("quenching-tower"):remove_unlock('fluid-separation'):add_unlock('machines-mk01')
+--RECIPE("quenching-tower"):remove_unlock('fluid-separation'):add_unlock('machines-mk01')
 
 RECIPE('nexelit-plate'):remove_unlock('nexelit'):set_fields{hidden = true}
 
