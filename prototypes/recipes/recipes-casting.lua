@@ -11,7 +11,7 @@ RECIPE {
         {type = "item", name = "sand-casting", amount = 1},
     },
     results = {
-        {type = "item", name = "iron-gear-wheel", amount = 20}
+        {type = "item", name = "iron-gear-wheel", amount = 50}
     },
     main_product= "iron-gear-wheel",
     subgroup = "py-rawores-casting",
@@ -87,7 +87,7 @@ RECIPE {
         {type = "item", name = "sand-casting", amount = 1}
     },
     results = {
-        {type = "item", name = "copper-cable", amount = 50}
+        {type = "item", name = "copper-cable", amount = 55}
     },
     main_product = "copper-cable",
     subgroup = "py-rawores-casting",
@@ -107,7 +107,7 @@ RECIPE {
         {type = "item", name = "sand-casting", amount = 1}
     },
     results = {
-        {type = "item", name = "tinned-cable", amount = 50}
+        {type = "item", name = "tinned-cable", amount = 55}
     },
     main_product = "tinned-cable",
     subgroup = "py-rawores-casting",
