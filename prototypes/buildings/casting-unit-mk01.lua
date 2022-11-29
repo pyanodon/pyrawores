@@ -4,7 +4,7 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"steel-furnace", 2},
+        {"steam-engine", 2},
         {"steel-plate", 15},
         {"copper-plate", 20},
         {"radar", 1}, --pyindustry local radar
