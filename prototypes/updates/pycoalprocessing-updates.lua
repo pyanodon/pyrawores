@@ -24,7 +24,7 @@ TECHNOLOGY("energy-3"):remove_prereq("fuel-production")
 -- RECIPE UNLOCKS
 RECIPE('making-chromium'):remove_unlock('chromium'):set_fields{hidden = true}
 RECIPE('nichrome'):remove_unlock('chromium'):add_unlock("nichrome")
-RECIPE("tailings-copper-iron"):remove_unlock('fluid-separation'):set_fields{hidden = true}
+RECIPE("tailings-copper-iron"):remove_unlock('separation'):set_fields{hidden = true}
 RECIPE("sand-casting"):remove_unlock('nexelit'):add_unlock('casting-mk01')
 RECIPE("concrete-richclay"):remove_unlock('concrete'):set_fields{hidden = true}
 RECIPE("slacked-lime"):remove_unlock("filtration-mk02"):add_unlock("salts")
