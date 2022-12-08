@@ -166,7 +166,7 @@ RECIPE {
         {type = "fluid", name = "tar", amount = 30},
     },
     results = {
-        {type = "fluid", name = "molten-solder", amount = 60}
+        {type = "fluid", name = "molten-solder", amount = 70}
     },
     main_product = 'molten-solder',
     subgroup = "py-rawores-solder",
