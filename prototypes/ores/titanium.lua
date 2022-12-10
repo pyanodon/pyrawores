@@ -47,7 +47,7 @@ ENTITY {
         starting_rq_factor_multiplier = 2,
         candidate_spot_count = 20
     },
-    stage_counts = {1000, 800, 700, 600, 400, 200, 100, 20},
+    stage_counts = {20000, 13000, 10000, 5000, 3000, 1000, 500, 100},
     stages = {
         sheet = {
             filename = "__pyraworesgraphics__/graphics/entity/ores/titanium/titanium.png",
