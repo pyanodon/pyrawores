@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.4.5
+Date: 2022-12-19
+  Changes:
+    - rebalanced solder recipes.
+    - fixed double unlock for filtration media if pypetroleum handling and pyrawores are active.
+---------------------------------------------------------------------------------------------------
 Version: 2.4.4
 Date: 2022-11-28
   Changes:
