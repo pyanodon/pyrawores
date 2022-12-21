@@ -6,7 +6,7 @@ RECIPE {
     enabled = false,
     energy_required = 1,
     ingredients = {
-        {type = "fluid", name = "dirty-water-heavy", amount = 400}
+        {type = "fluid", name = "dirty-water-heavy", amount = 500}
     },
     results = {
         {type = "item", name = "nexelit-ore", amount = 1},
