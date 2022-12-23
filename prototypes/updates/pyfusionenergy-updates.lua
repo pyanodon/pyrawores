@@ -105,7 +105,7 @@ RECIPE("tar-gasification"):remove_ingredient("water"):add_ingredient({type = "fl
 RECIPE("tpa"):remove_ingredient("steam"):add_ingredient({type = "fluid", name = "liquid-nitrogen", amount = 50})
 RECIPE("anthraquinone"):remove_ingredient("steam"):add_ingredient({type = "fluid", name = "liquid-nitrogen", amount = 10})
 RECIPE("assembling-machine-3"):add_ingredient({type = "item", name = "super-alloy", amount = 10})
-RECIPE("artillery-wagon"):add_ingredient({type = "item", name = "super-alloy", amount = 40})
+--RECIPE("artillery-wagon"):add_ingredient({type = "item", name = "super-alloy", amount = 40})
 RECIPE("express-splitter"):add_ingredient({type = "item", name = "super-alloy", amount = 1})
 RECIPE("express-underground-belt"):add_ingredient({type = "item", name = "super-alloy", amount = 1})
 RECIPE("express-transport-belt"):add_ingredient({type = "item", name = "super-alloy", amount = 1})
