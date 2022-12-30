@@ -498,9 +498,9 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'ammo-initial',
-    category = 'handcrafting',
+    category = 'crafting',
     enabled = true,
-    energy_required = 8,
+    energy_required = 12,
     ingredients = {
         {type = 'item', name = 'iron-plate', amount = 1},
         {type = 'item', name = 'raw-coal', amount = 2},
