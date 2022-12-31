@@ -2,7 +2,7 @@
 Version: 2.4.6
 Date: ?
   Changes:
-    - tweaks for inital ammo recipe. see https://github.com/pyanodon/pybugreports/issues/95
+    - Removed inital ammo recipe. You must now research gunpowder before crafting any ammo.
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.5
 Date: 2022-12-19

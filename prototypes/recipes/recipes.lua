@@ -495,6 +495,7 @@ RECIPE {
     main_product = "sodium-sulfate",
 }:add_unlock("salts")
 
+--[[
 RECIPE {
     type = 'recipe',
     name = 'ammo-initial',
@@ -509,7 +510,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'firearm-magazine', amount = 1}
     }
-}
+}--]]
 
 RECIPE {
     type = "recipe",
