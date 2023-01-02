@@ -945,8 +945,6 @@ RECIPE {
     results = {
         {type = "item", name = "limestone", amount = 2}
     },
-    subgroup = "py-extraction",
-    order = "d"
 }
 
 RECIPE {
