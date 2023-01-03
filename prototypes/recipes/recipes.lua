@@ -330,8 +330,6 @@ RECIPE {
     results = {
         {type = "item", name = "battery", amount = 3}
     },
-    subgroup = "py-rawores-recipes",
-    order = "j"
 }:add_unlock("battery")
 
 RECIPE {
@@ -349,8 +347,6 @@ RECIPE {
     results = {
         {type = "item", name = "battery", amount = 4}
     },
-    subgroup = "py-rawores-recipes",
-    order = "j"
 }:add_unlock("battery")
 
 RECIPE {
