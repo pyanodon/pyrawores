@@ -37,12 +37,19 @@ data:extend {
         group = 'py-rawores',
         order = 'a-e'
     },
+    -----------------------------MEGA MINES----------------
+    {
+        type = 'item-subgroup',
+        name = 'py-rawores-mines',
+        group = 'py-rawores',
+        order = 'a-f'
+    },
     -----------------------------PLATES----------------
     {
         type = 'item-subgroup',
         name = 'py-rawores-plates',
         group = 'py-rawores',
-        order = 'a-f'
+        order = 'b'
     },
     -----------------------------SPECIFIC METALS----------------
     {
@@ -178,13 +185,6 @@ data:extend {
         name = 'py-rawores-molten',
         group = 'py-rawores',
         order = 'f'
-    },
-    -----------------------------MEGA MINES----------------
-    {
-        type = 'item-subgroup',
-        name = 'py-rawores-mines',
-        group = 'py-rawores',
-        order = 'z'
     },
     {
         type = 'item-subgroup',
