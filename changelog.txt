@@ -1,8 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.6
-Date: ?
+Date: 2023-1-5
   Changes:
     - Removed inital ammo recipe. You must now research gunpowder before crafting any ammo.
+    - Removed several plate to molten solder recipes
+    - Reduced the crushed quartz output from sand sorting
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.5
 Date: 2022-12-19
