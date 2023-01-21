@@ -45,7 +45,7 @@ ENTITY {
         module_slots = 1
     },
     allowed_effects = {"consumption", "speed", "productivity"},
-    mining_speed = 20,
+    mining_speed = 8,
     energy_source =
     {
         light_flicker =
