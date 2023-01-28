@@ -338,8 +338,6 @@ end
 require("prototypes/robots/py-construction-robot-02")
 require("prototypes/robots/py-logistic-robot-02")
 
-require('prototypes/tips-and-tricks')
-
 data.raw.fluid["coke-oven-gas"].fuel_value = "1MJ"
 data.raw.fluid["kerosene"].fuel_value = "1.5MJ"
 data.raw.fluid["hydrogen"].fuel_value = "20KJ"
