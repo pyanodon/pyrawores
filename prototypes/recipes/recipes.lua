@@ -1168,3 +1168,22 @@ RECIPE {
         {"stone", 8},
     },
 }:add_unlock('crusher')
+
+RECIPE {
+    type = "recipe",
+    name = "boric-acid-hcl",
+    category = "mixer",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "boric-acid", amount = 300},
+        {type = "item", name = "salt", amount = 10},
+    },
+    results = {
+        {type = "fluid", name = "hydrogen-chloride", amount = 75},
+        {type = "fluid", name = "dirty-water-heavy", amount = 200}
+    },
+    main_product = "hydrogen-chloride",
+    subgroup = "py-rawores-fluids",
+    order = "q-2"
+}:add_unlock("salts")
