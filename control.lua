@@ -1,0 +1,1 @@
+require 'scripts/wiki/text-pages'
