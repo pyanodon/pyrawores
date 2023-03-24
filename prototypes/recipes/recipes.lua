@@ -1172,7 +1172,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "boric-acid-hcl",
-    category = "mixer",
+    category = mods.pyfusionenergy and "mixer" or "chemistry",
     enabled = false,
     energy_required = 5,
     ingredients = {
