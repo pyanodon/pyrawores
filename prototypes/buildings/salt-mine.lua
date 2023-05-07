@@ -86,13 +86,9 @@ ENTITY {
         width = 12,
         height = 12
     },
-
-    require ("__pyrawores__/prototypes/circuit-connector-definitions-pyro"),
-
-    circuit_wire_connection_points = salt_mine_connector_definitions.points,
-    circuit_connector_sprites = salt_mine_connector_definitions.sprites,
+    circuit_wire_connection_points = circuit_connector_definitions["salt-mine"].points,
+    circuit_connector_sprites = circuit_connector_definitions["salt-mine"].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-
     animations = {
         layers = {
             {
