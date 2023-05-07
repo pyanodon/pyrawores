@@ -5,6 +5,8 @@ require("prototypes/recipe-categories")
 
 require('prototypes/items/items')
 
+require('prototypes/circuit-connector-definitions')
+
 if mods["pyalienlife"] then
     require('prototypes/items/pyalienlife-items')
 end
