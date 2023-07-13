@@ -10,9 +10,12 @@ RECIPE {
         {type = "fluid", name = "nitrogen", amount = 20},
         {type = "fluid", name = "oxygen", amount = 20}
     },
-    main_product = "purest-nitrogen-gas",
+    localised_name = {"recipe-name.fractional-distillation"},
+    localised_description = {"recipe-description.fractional-distillation"},
     subgroup = "py-rawores-fluids",
-    order = "dab"
+    order = "dab",
+    icon = "__pyraworesgraphics__/graphics/icons/fractional-distillation.png",
+    icon_size = 32
 }:add_unlock("nitrogen-mk01")
 
 FLUID {
@@ -28,3 +31,20 @@ FLUID {
     subgroup = "py-rawores-fluids",
     order = "c"
 }
+
+if mods["pyfusionenergy"] then
+    RECIPE {
+        type = "recipe",
+        name = "purest-nitrogen-gas-recycle",
+        category = "vacuum",
+        enabled = false,
+        energy_required = 1,
+        ingredients = {
+            {type = "fluid", name = "purest-nitrogen-gas", amount = 60}
+        },
+        results = {
+            {type = "fluid", name = "pressured-air", amount = 60}
+        },
+        main_product = "pressured-air"
+    }:add_unlock("nitrogen-mk01")
+end

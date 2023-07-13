@@ -3,6 +3,8 @@ Version: 2.4.9
 Date: ?
   Changes:
     - update chinese translation. credit sdqwo
+    - rename purest nitrogen to contaminated nitrogen
+    - add a new recipe for converting contaminated nitrogen into pressurized air
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.8
 Date: 2023-3-28
