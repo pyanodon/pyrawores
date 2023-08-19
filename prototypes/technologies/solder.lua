@@ -75,7 +75,7 @@ TECHNOLOGY {
     }
 }
 
-TECHNOLOGY {
+--[[TECHNOLOGY {
     type = 'technology',
     name = 'solder-mk05',
     icon = "__pyraworesgraphics__/graphics/technology/solder-5.png",
@@ -96,4 +96,4 @@ TECHNOLOGY {
         },
         time = 60
     }
-}
+}--]]
