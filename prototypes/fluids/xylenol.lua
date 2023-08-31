@@ -3,12 +3,12 @@ RECIPE {
     name = "xylenol-1",
     category = "distilator",
     enabled = false,
-    energy_required = 3,
+    energy_required = 6,
     ingredients = {
-        {type = "fluid", name = "tar", amount = 200},
+        {type = "fluid", name = "tar", amount = 100},
     },
     results = {
-        {type = "fluid", name = "xylenol", amount = 25},
+        {type = "fluid", name = "xylenol", amount = 5},
     },
     main_product = "xylenol",
     subgroup = "py-rawores-fluids",

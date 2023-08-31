@@ -3,6 +3,8 @@ Version: 2.4.10
 Date: ?
   Changes:
     - deleted empty tech solder mk05
+    - nerfed xylenol recipe from tar
+    - buffed xylenol recipe from feetnol
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.9
 Date: 2023-7-25
