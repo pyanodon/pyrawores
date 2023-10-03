@@ -222,3 +222,8 @@ local recipes_list =
 
 --adding to module limitation list
 FUN.productivity(recipes_list)
+
+if register_cache_file ~= nil then
+    register_cache_file({"pycoalprocessing","pyindustry","pyrawores"}, "__pyrawores__/cached-configs/pycoalprocessing+pyindustry+pyrawores.lua")
+    register_cache_file({"pycoalprocessing","pyfusionenergy","pyindustry","pyrawores"}, "__pyrawores__/cached-configs/pycoalprocessing+pyfusionenergy+pyindustry+pyrawores.lua")
+end
