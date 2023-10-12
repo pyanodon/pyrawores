@@ -570,10 +570,9 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "treated-wood", amount = 2},
         {type = "item", name = "solder", amount = 2},
         {type = "item", name = "steel-plate", amount = 2},
-        {type = "item", name = "stone-brick", amount = 4},
+        {type = "item", name = "refined-concrete", amount = 8},
     },
     results = {
         {type = "item", name = "rail", amount = 8},
