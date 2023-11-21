@@ -1,8 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.11
-Date: ???
+Date: 2023-11-21
   Changes:
     - added decentralised PyPP cache file
+    - tweaked rail 2 recipe to use refined concrete instead of stone bricks
+    - fixed nexelit slurry was mislabeled as a gas
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.10
 Date: 2023-9-3
@@ -652,7 +654,7 @@ Version: 1.2.5
   Bug fixes:
     - Fixed nichrome.
 ---------------------------------------------------------------------------------------------------
-Version: 1.2.5
+Version: 1.2.4
 
   Balances:
     - Added nichrome.
