@@ -149,35 +149,47 @@ data:extend {
         order = 'bo'
     },
     {
-        type = "item-subgroup",
-        name = "py-rawores-gold",
-        group = "py-rawores",
-        order = "bp"
+        type = 'item-subgroup',
+        name = 'py-rawores-gold',
+        group = 'py-rawores',
+        order = 'bp'
     },
     {
-        type = "item-subgroup",
-        name = "py-rawores-antimony",
-        group = "py-rawores",
-        order = "bq"
+        type = 'item-subgroup',
+        name = 'py-rawores-antimony',
+        group = 'py-rawores',
+        order = 'bq'
     },
     {
-        type = "item-subgroup",
-        name = "py-rawores-etc",
-        group = "py-rawores",
-        order = "br"
+        type = 'item-subgroup',
+        name = 'py-rawores-niobium',
+        group = 'py-rawores',
+        order = 'bqq'
     },
     {
-        type = "item-subgroup",
-        name = "py-rawores-solder",
-        group = "py-rawores",
-        order = "bs"
+        type = 'item-subgroup',
+        name = 'py-rawores-rare-earth',
+        group = 'py-rawores',
+        order = 'bqqq'
+    },
+    {
+        type = 'item-subgroup',
+        name = 'py-rawores-etc',
+        group = 'py-rawores',
+        order = 'br'
+    },
+    {
+        type = 'item-subgroup',
+        name = 'py-rawores-solder',
+        group = 'py-rawores',
+        order = 'bs'
     },
     -----------------------------castings----------------
     {
-        type = "item-subgroup",
-        name = "py-rawores-casting",
-        group = "py-rawores",
-        order = "c"
+        type = 'item-subgroup',
+        name = 'py-rawores-casting',
+        group = 'py-rawores',
+        order = 'c'
     },
     -----------------------------MOLTEN VERSIONS----------------
     {
