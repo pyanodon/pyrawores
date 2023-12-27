@@ -190,7 +190,7 @@ local recipes_list =
   "cyanic-acid-01",
   "diesel",
   "diesel2",
-  "extract-limestone-01"
+  "extract-limestone-01",
   "fertilizer-2",
   "glycerol-hydrogen",
   "methanol-from-hydrogen",
