@@ -42,6 +42,9 @@ data.raw["assembling-machine"]["centrifuge"].module_specification.module_slots =
 data.raw.resource['coal'].autoplace = nil
 data.raw['autoplace-control']['coal'] = nil
 
+data.raw.resource["uranium-ore"].minable.required_fluid = nil
+data.raw.resource["uranium-ore"].minable.fluid_amount = nil
+
 -- ITEM CHANGES
 data.raw.item['uranium-fuel-cell'].fuel_glow_color = {0,1,0,1}
 data.raw.item['uranium-fuel-cell'].subgroup = "py-rawores-items"
