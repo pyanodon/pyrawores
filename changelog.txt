@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.4.13
+Date: ?
+  Changes:
+    - Updated technology name locale so that ore processing tier names are as expected. for example: Iron processing - Stage 5
+---------------------------------------------------------------------------------------------------
 Version: 2.4.12
 Date: 2024-1-8
   Changes:
