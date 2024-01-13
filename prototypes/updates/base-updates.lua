@@ -42,8 +42,10 @@ data.raw["assembling-machine"]["centrifuge"].module_specification.module_slots =
 data.raw.resource['coal'].autoplace = nil
 data.raw['autoplace-control']['coal'] = nil
 
-data.raw.resource["uranium-ore"].minable.required_fluid = nil
-data.raw.resource["uranium-ore"].minable.fluid_amount = nil
+if data.raw.resource["uranium-ore"] ~= nil then
+    data.raw.resource["uranium-ore"].minable.required_fluid = nil
+    data.raw.resource["uranium-ore"].minable.fluid_amount = nil
+end
 
 -- ITEM CHANGES
 data.raw.item['uranium-fuel-cell'].fuel_glow_color = {0,1,0,1}
