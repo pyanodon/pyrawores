@@ -89,7 +89,6 @@ RECIPE("express-transport-belt"):add_ingredient({type = "item", name = "super-st
 RECIPE("express-underground-belt"):add_ingredient({type = "item", name = "super-steel", amount = 5})
 RECIPE("express-splitter"):add_ingredient({type = "item", name = "super-steel", amount = 5})
 RECIPE("fast-inserter"):add_ingredient({type = "item", name = "duralumin", amount = 5})
-RECIPE("filter-inserter"):add_ingredient({type = "item", name = "duralumin", amount = 5})
 RECIPE("stack-inserter"):add_ingredient({type = "item", name = "duralumin", amount = 5})
 RECIPE("assembling-machine-3"):add_ingredient({type = "item", name = "stainless-steel", amount = 10})
 RECIPE("assembling-machine-2"):replace_ingredient("iron-plate", "chromium"):add_ingredient({type = "item", name = "duralumin", amount = 5})
