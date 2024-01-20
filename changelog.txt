@@ -1,8 +1,9 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.13
-Date: ?
+Date: 2024-1-19
   Changes:
     - Updated technology name locale so that ore processing tier names are as expected. for example: Iron processing - Stage 5
+    - fixed an error with missing uranium ore when used with angels mods
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.12
 Date: 2024-1-8
