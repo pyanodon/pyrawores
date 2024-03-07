@@ -198,7 +198,6 @@ local recipes_list =
   "p2s5-2",
   "p2s5",
   "petroleum-sulfonates",
-  "phosphate-mine-02",
   "pregnant-solution-01",
   "py-sodium-hydroxide",
   "pyrite-burn",
