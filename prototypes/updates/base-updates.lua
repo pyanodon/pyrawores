@@ -35,6 +35,15 @@ RECIPE('low-density-structure'):change_category('py-rawores-smelter')
 
 -- ENTITY CHANGES
 data.raw.reactor['nuclear-reactor'].use_fuel_glow_color = true
+data.raw.reactor['nuclear-reactor'].working_light_picture = {
+    filename = "__pyraworesgraphics__/graphics/entity/reactor/reactor-lights.png",
+    blend_mode = "additive",
+    draw_as_glow = true,
+    width = 320,
+    height = 320,
+    scale = 0.5,
+    shift = { -0.03125, -0.1875 }
+}
 
 data.raw["assembling-machine"]["centrifuge"].crafting_speed = 4
 data.raw["assembling-machine"]["centrifuge"].module_specification.module_slots = 4
