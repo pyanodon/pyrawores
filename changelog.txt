@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.4.15
+Date: ?
+  Changes:
+    - Removed phosphate big mines from the productivity list (https://github.com/pyanodon/pybugreports/issues/425)
+---------------------------------------------------------------------------------------------------
 Version: 2.4.14
 Date: 2024-3-13
   Changes:
