@@ -1,8 +1,14 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.4.14
+Version: 2.4.15
 Date: ?
   Changes:
     - Removed phosphate big mines from the productivity list (https://github.com/pyanodon/pybugreports/issues/425)
+---------------------------------------------------------------------------------------------------
+Version: 2.4.14
+Date: 2024-3-13
+  Changes:
+    - Fixed that low grade copper rejects didnt actually say they were copper
+    - Fixed the vanilla nuclear reactor glow effects didnt work with pys added fuel cells correctly 
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.13
 Date: 2024-1-19
