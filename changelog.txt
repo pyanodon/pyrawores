@@ -1,8 +1,9 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.15
-Date: ?
+Date: 2024-3-24
   Changes:
     - Removed phosphate big mines from the productivity list (https://github.com/pyanodon/pybugreports/issues/425)
+    - Fixed some resources couldnt be disabled in map setup screen
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.14
 Date: 2024-3-13
