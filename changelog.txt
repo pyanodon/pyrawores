@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.4.16
+Date: When it's done
+  Changes:
+    - Added circuit connectivity to big mines (credit: JStMorgan) (https://github.com/pyanodon/pybugreports/issues/415)
+---------------------------------------------------------------------------------------------------
 Version: 2.4.15
 Date: 2024-3-24
   Changes:
