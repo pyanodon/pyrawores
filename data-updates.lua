@@ -35,7 +35,7 @@ ITEM("copper-cable"):set("icon_mipmaps", nil)
 RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore", amount = 8}):set_fields {energy_required = 10}
 RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient({type = "item", name = "copper-ore", amount = 8}):set_fields {energy_required = 10}
 
-RECIPE("steel-plate"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "coke",amount = 5}):add_ingredient({type = "item", name = "iron-ore",amount = 20}):add_ingredient({type = "item", name = "limestone",amount = 5}):change_category('advanced-foundry'):set_fields {energy_required = 15}
+RECIPE("steel-plate"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "coke",amount = 5}):add_ingredient({type = "item", name = "iron-ore",amount = 20}):add_ingredient({type = "item", name = "limestone",amount = 5}):set_fields{energy_required = 15}.category = 'advanced-foundry'
 RECIPE("electronic-circuit"):set_fields {energy_required = 4}
 --RECIPE("electronic-circuit"):add_ingredient({type = "item", name = "solder", amount = 2})
 RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "solder", amount = 4})

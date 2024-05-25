@@ -72,7 +72,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/powdered-u-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-uranium",
-}:add_unlock("uranium-mk01")--:change_category('screener') TODO: move to something with a fluid box
+}:add_unlock("uranium-mk01")--.category = 'screener' TODO: move to something with a fluid box
 
 RECIPE {
     type = "recipe",
