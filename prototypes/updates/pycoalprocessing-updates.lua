@@ -1,5 +1,3 @@
-local FUN = require('__pycoalprocessing__/prototypes/functions/functions')
-
 -- TECH CHANGES
 TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-processing-2')
 TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):remove_prereq('niobium')

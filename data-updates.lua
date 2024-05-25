@@ -1,24 +1,21 @@
-require("__stdlib__/stdlib/data/data").Util.create_data_globals()
-local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
-
-require("prototypes/updates/base-updates")
-require("prototypes/updates/pycoalprocessing-updates")
-require("prototypes/updates/pyindustry-updates")
+require 'prototypes/updates/base-updates'
+require 'prototypes/updates/pycoalprocessing-updates'
+require 'prototypes/updates/pyindustry-updates'
 
 if mods["pyfusionenergy"] then
-  require("prototypes/updates/pyfusionenergy-updates")
+  require 'prototypes/updates/pyfusionenergy-updates'
 end
 
 if mods["pyhightech"] then
-  require("prototypes/updates/pyhightech-updates")
+  require 'prototypes/updates/pyhightech-updates'
 end
 
 if mods["pypetroleumhandling"] then
-  require("prototypes/updates/pypetroleumhandling-updates")
+  require 'prototypes/updates/pypetroleumhandling-updates'
 end
 
 if mods["pyalienlife"] then
-  require("prototypes/updates/pyalienlife-updates")
+  require 'prototypes/updates/pyalienlife-updates'
 end
 
 --ADAPTATIONS
@@ -219,7 +216,7 @@ local recipes_list =
 }
 
 --adding to module limitation list
-FUN.productivity(recipes_list)
+py.allow_productivity(recipes_list)
 
 if register_cache_file ~= nil then
     register_cache_file({"pycoalprocessing","pyindustry","pyrawores"}, "__pyrawores__/cached-configs/pycoalprocessing+pyindustry+pyrawores.lua")
