@@ -157,16 +157,8 @@ TECHNOLOGY("oil-processing"):remove_prereq("steel-processing")
 TECHNOLOGY("desulfurization"):remove_prereq("sulfur-processing")
 TECHNOLOGY("sulfur-processing"):remove_prereq("oil-processing")
 
-
 ITEM("sulfur").stack_size = 100
 ITEM("landfill").stack_size = 1000
-
-for _, player in DATA:pairs('character') do
-    player.crafting_categories = player.String_Array(player.crafting_categories or {}) + 'handcrafting'
-end
-for _, controller in DATA:pairs('god-controller') do
-    controller.crafting_categories = controller.String_Array(controller.crafting_categories or {}) + 'handcrafting'
-end
 
 local recipes_list =
 	{
