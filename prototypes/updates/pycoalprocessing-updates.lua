@@ -76,9 +76,9 @@ RECIPE('drill-head'):remove_unlock('niobium'):add_unlock('drill-head-mk01')
 RECIPE('richdust-separation'):add_unlock('fluid-separation')
 
 -- RECIPE CHANGES
-FUN.results_replacer('richdust-separation', 'chromite-sand', 'chromite-sand',3)
-FUN.results_replacer('coal-fawogae', 'coal', 'raw-coal',3)
-FUN.results_replacer('oleochemicals-distilation', 'coal', 'raw-coal',4)
+RECIPE('richdust-separation'):replace_result('chromite-sand', 'chromite-sand',3)
+RECIPE('coal-fawogae'):replace_result('coal', 'raw-coal',3)
+RECIPE('oleochemicals-distilation'):replace_result('coal', 'raw-coal',4)
 RECIPE('boric-acid').category = 'electrolyzer'
 RECIPE('copper-coating').category = 'electrolyzer'
 RECIPE('nbfe-alloy').category = 'py-rawores-smelter'
