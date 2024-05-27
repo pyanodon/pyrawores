@@ -122,7 +122,7 @@ RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock(
 ----PYFE---
 
 RECIPE("py-heat-exchanger-mk03"):add_ingredient({type = "item", name = "super-steel", amount = 10}):add_ingredient({type = "item", name = "agitator-mk01", amount = 1})
-RECIPE("py-heat-exchanger-mk04"):add_ingredient({type = "item", name = "seper-alloy", amount = 20}):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+RECIPE("py-heat-exchanger-mk04"):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 RECIPE('borax-mine'):remove_unlock('boron')
 
 -----PYCP---
