@@ -7,7 +7,7 @@ if mods['pyhightech'] and not mods["pyalienlife"] then
 end
 
 RECIPE("al-pulp-01"):replace_ingredient("boric-acid", "phosphoric-acid")
-RECIPE("powdered-ralesia-seeds"):change_category("pulp")
+RECIPE("powdered-ralesia-seeds").category = 'pulp'
 RECIPE("glass-fiber"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1}):add_ingredient({type = "fluid", name = "molten-glass", amount = 100, fluidbox_index = 2})
 RECIPE("phosphate-glass"):add_ingredient({type = "item", name = "sodium-sulfate", amount = 1}):replace_ingredient("glass-fiber", "crushed-quartz")
 RECIPE("nexelit-matrix"):replace_ingredient("wood", "epoxy")
@@ -39,7 +39,7 @@ RECIPE("colloidal-silica"):replace_ingredient("niobium-plate", "lead-plate")
 RECIPE("resorcinol"):replace_ingredient("phenol", "sodium-hydroxide")
 RECIPE("carbon-aerogel"):remove_ingredient("silicon"):add_ingredient({type = "item", name = "purified-quartz", amount = 1}):remove_ingredient("syngas"):add_ingredient({type = "fluid", name = "nitrogen", amount = 50})
 RECIPE("zinc-acetate"):replace_ingredient("stone-brick", "zinc-plate")
-RECIPE("ndfeb-alloy"):replace_ingredient("carbon-dioxide", "oxygen"):change_category('py-rawores-smelter')
+RECIPE("ndfeb-alloy"):replace_ingredient("carbon-dioxide", "oxygen").category = 'py-rawores-smelter'
 RECIPE("supercapacitor-shell"):replace_ingredient("iron-plate", "aluminium-plate")
 RECIPE("lithium-chloride"):replace_ingredient("sulfuric-acid", "hydrogen-chloride")
 RECIPE("lithium-niobate"):replace_ingredient("chromium", "lithium-chloride")
@@ -96,11 +96,11 @@ RECIPE("ht-generic-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):
 RECIPE("ht-generic-fluid-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient({type = "item", name = "glass", amount = 20}):add_ingredient({type = "item", name = "nickel-plate", amount = 10})
 
 RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient({type = "item", name = "phenol", amount = 10})
-RECIPE("outlet-gas-02"):change_category("fbreactor")
-RECIPE("fecr-alloy"):change_category('py-rawores-smelter'):add_ingredient({type = "item", name = "graphite", amount = 3}):remove_unlock("basic-electronics"):add_unlock("stainless-steel-mk01")
-RECIPE("ndfeb-alloy"):change_category('py-rawores-smelter')
-RECIPE("crco-alloy"):change_category('py-rawores-smelter')
-RECIPE("re-tin"):change_category('py-rawores-smelter')
+RECIPE("outlet-gas-02").category = 'fbreactor'
+RECIPE("fecr-alloy"):add_ingredient({type = "item", name = "graphite", amount = 3}):remove_unlock("basic-electronics"):add_unlock("stainless-steel-mk01").category = 'py-rawores-smelter'
+RECIPE("ndfeb-alloy").category = 'py-rawores-smelter'
+RECIPE("crco-alloy").category = 'py-rawores-smelter'
+RECIPE("re-tin").category = 'py-rawores-smelter'
 
 RECIPE("ppd"):replace_ingredient("aromatics", "nitrobenzene")
 
@@ -347,9 +347,9 @@ RECIPE("molten-lead-05"):add_ingredient({type = "item", name = "graphite", amoun
 RECIPE("molten-nickel-00"):add_ingredient({type = "item", name = "graphite", amount = 3})
 RECIPE("molten-steel-02"):add_ingredient({type = "item", name = "graphite", amount = 3})
 RECIPE("molten-tin-01"):add_ingredient({type = "item", name = "graphite", amount = 6})
-RECIPE("molten-tin-02"):add_ingredient({type = "item", name = "graphite", amount = 3})
+--RECIPE("molten-tin-02"):add_ingredient({type = "item", name = "graphite", amount = 3})
 RECIPE("molten-tin-03"):add_ingredient({type = "item", name = "graphite", amount = 3})
-RECIPE("molten-tin-02-2"):add_ingredient({type = "item", name = "graphite", amount = 10})
+--RECIPE("molten-tin-02-2"):add_ingredient({type = "item", name = "graphite", amount = 10})
 RECIPE("molten-tin-04"):add_ingredient({type = "item", name = "graphite", amount = 3})
 RECIPE("molten-tin-05"):add_ingredient({type = "item", name = "graphite", amount = 2})
 RECIPE("nexelit-refined-pulp"):add_ingredient({type = "item", name = "graphite", amount = 3})
@@ -365,7 +365,7 @@ RECIPE("starch"):add_ingredient({type = 'item', name = 'fiberboard', amount = 1}
 RECIPE("starch-2"):add_ingredient({type = 'item', name = 'fiberboard', amount = 1})
 RECIPE("p2s5"):remove_ingredient("stone"):add_ingredient({type = "item", name = "phosphate-rock", amount = 5})
 RECIPE("p2s5-2"):remove_ingredient("stone"):add_ingredient({type = "item", name = "phosphate-rock", amount = 5})
-RECIPE("ammonium-chloride"):change_category('fbreactor'):replace_ingredient("water", "ammonia")
+RECIPE("ammonium-chloride"):replace_ingredient("water", "ammonia").category = 'fbreactor'
 RECIPE("battery-1"):add_ingredient({type = 'item', name = 'rayon', amount = 2})
 RECIPE("battery-2"):add_ingredient({type = 'item', name = 'rayon', amount = 2})
 RECIPE("armac-12"):replace_ingredient('chlorine','ammonia')

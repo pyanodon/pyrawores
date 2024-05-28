@@ -60,18 +60,14 @@ ENTITY {
                 filename = "__pyraworesgraphics__/graphics/entity/impact-crusher-mk01/off-mk03.png",
                 width = 192,
                 height = 224,
-                --line_length = 9,
                 frame_count = 1,
-                --animation_speed = 2,
                 shift = util.by_pixel(0, -16)
             },
             {
                 filename = "__pyraworesgraphics__/graphics/entity/impact-crusher-mk01/shadow.png",
                 width = 202,
                 height = 170,
-                --line_length = 10,
                 frame_count = 1,
-                --animation_speed = 2,
                 draw_as_shadow = true,
                 shift = util.by_pixel(8, 10)
             }

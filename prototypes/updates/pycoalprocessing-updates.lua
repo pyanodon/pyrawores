@@ -1,5 +1,3 @@
-local FUN = require('__pycoalprocessing__/prototypes/functions/functions')
-
 -- TECH CHANGES
 TECHNOLOGY('crusher'):remove_pack('logistic-science-pack'):remove_prereq('coal-processing-2')
 TECHNOLOGY('excavation-1'):remove_pack('chemical-science-pack'):remove_prereq('coal-processing-3'):remove_prereq('niobium')
@@ -78,12 +76,12 @@ RECIPE('drill-head'):remove_unlock('niobium'):add_unlock('drill-head-mk01')
 RECIPE('richdust-separation'):add_unlock('fluid-separation')
 
 -- RECIPE CHANGES
-FUN.results_replacer('richdust-separation', 'chromite-sand', 'chromite-sand',3)
-FUN.results_replacer('coal-fawogae', 'coal', 'raw-coal',3)
-FUN.results_replacer('oleochemicals-distilation', 'coal', 'raw-coal',4)
-RECIPE('boric-acid'):change_category('electrolyzer')
-RECIPE('copper-coating'):change_category('electrolyzer')
-RECIPE('nbfe-alloy'):change_category('py-rawores-smelter')
+RECIPE('richdust-separation'):replace_result('chromite-sand', 'chromite-sand',3)
+RECIPE('coal-fawogae'):replace_result('coal', 'raw-coal',3)
+RECIPE('oleochemicals-distilation'):replace_result('coal', 'raw-coal',4)
+RECIPE('boric-acid').category = 'electrolyzer'
+RECIPE('copper-coating').category = 'electrolyzer'
+RECIPE('nbfe-alloy').category = 'py-rawores-smelter'
 RECIPE('copper-coating'):replace_ingredient('organic-solvent', {'water-saline', 100})
 RECIPE('empty-gas-canister'):replace_ingredient('steel-plate', 'aluminium-plate')
 RECIPE('methanol-from-syngas'):replace_ingredient('iron-plate', 'zinc-plate')
@@ -91,17 +89,17 @@ RECIPE('flying-robot-frame'):replace_ingredient('steel-plate', 'niobium-plate')
 RECIPE('ralesia'):replace_ingredient('water', 'hydrogen')
 RECIPE('equipment-chassi'):replace_ingredient('copper-plate', 'tin-plate')
 RECIPE('lens'):remove_ingredient('molten-glass'):add_ingredient({type = 'fluid', name = 'molten-glass', amount = 100, fluidbox_index = 2})
-RECIPE('diborane'):replace_ingredient('water', 'hydrogen'):change_category('electrolyzer')
+RECIPE('diborane'):replace_ingredient('water', 'hydrogen').category = 'electrolyzer'
 RECIPE('oleochemicals-distilation'):replace_ingredient('water', 'oxygen')
 RECIPE('oleo-gasification'):replace_ingredient('water', 'oxygen')
 RECIPE('dedicated-oleochemicals'):replace_ingredient('chromium', 'titanium-plate')
-RECIPE('ppd'):replace_ingredient('water', 'hydrogen'):change_category('electrolyzer'):add_ingredient({type = 'fluid', name = 'chlorine', amount = 400})
+RECIPE('ppd'):replace_ingredient('water', 'hydrogen'):add_ingredient({type = 'fluid', name = 'chlorine', amount = 400}).category = 'electrolyzer'
 RECIPE('aromatics2'):replace_ingredient('water', 'hydrogen')
 RECIPE('niobium-complex'):replace_ingredient('water', 'hydrogen-chloride')
 RECIPE('chemical-science-pack'):replace_ingredient('copper-cable', 'tinned-cable')
 RECIPE('tailings-classification'):replace_ingredient('copper-ore', 'ore-lead') --result
 RECIPE('tailings-classification'):replace_ingredient('iron-ore', 'ore-tin') --result
-RECIPE('niobium-plate'):replace_ingredient('coal', 'salt'):change_category('electrolyzer')
+RECIPE('niobium-plate'):replace_ingredient('coal', 'salt').category = 'electrolyzer'
 --RECIPE('sulfur-crudeoil'):replace_ingredient('iron-ore', 'salt')
 --RECIPE('sulfur-heavyoil'):add_ingredient({type = 'item', name = 'salt', amount = 10})
 --RECIPE('sulfur-lightoil'):add_ingredient({type = 'item', name = 'salt', amount = 10})

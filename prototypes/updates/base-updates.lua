@@ -31,7 +31,7 @@ RECIPE("centrifuge"):remove_unlock('uranium-processing'):add_unlock('nuclear-fue
 RECIPE('atomic-bomb'):remove_ingredient('uranium-235'):add_ingredient({type = "item", name = "yellow-cake", amount = 5})
 RECIPE("kovarex-enrichment-process"):set_fields{energy_required = 5}
 RECIPE('electric-engine-unit'):remove_ingredient('copper-cable'):add_ingredient({type = "item", name = "copper-cable", amount = 150}):add_ingredient({type = "item", name = "aluminium-plate", amount = 10}):add_ingredient({type = "item", name = "bolts", amount = 20})--:remove_ingredient("engine-unit")
-RECIPE('low-density-structure'):change_category('py-rawores-smelter')
+RECIPE('low-density-structure').category = 'py-rawores-smelter'
 
 -- ENTITY CHANGES
 data.raw.reactor['nuclear-reactor'].use_fuel_glow_color = true

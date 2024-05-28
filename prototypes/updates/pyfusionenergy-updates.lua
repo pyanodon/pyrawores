@@ -1,5 +1,3 @@
-local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
-
 TECHNOLOGY("advanced-mining-facilities"):remove_pack("chemical-science-pack"):remove_prereq("diamond-mining"):remove_prereq('uranium-processing')
 TECHNOLOGY("molybdenum-processing"):remove_pack("chemical-science-pack"):remove_pack('production-science-pack'):remove_prereq('production-science-pack')
 TECHNOLOGY("fluid-pressurization"):remove_pack("chemical-science-pack"):remove_pack("logistic-science-pack")
@@ -15,7 +13,7 @@ RECIPE("titanium-plate-1"):remove_unlock("coal-processing-1"):add_unlock('alloys
 
 ITEM("molybdenum-plate").stack_size = 100
 
-RECIPE("aramid"):add_ingredient({type = 'item', name = 'molybdenum-plate', amount = 5}):change_category('nmf')
+RECIPE("aramid"):add_ingredient({type = 'item', name = 'molybdenum-plate', amount = 5}).category = 'nmf'
 RECIPE("methyl-acrylate"):replace_ingredient("iron-plate", "nickel-plate")
 
 RECIPE("steam-heating"):remove_ingredient("fuelrod-mk01"):add_ingredient({type = "item", name = "fuelrod-mk01", amount = 1})
@@ -34,29 +32,29 @@ RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("titanium-mk02")
 RECIPE("jig-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20}):replace_ingredient('advanced-circuit', 'electronic-circuit'):replace_ingredient('electric-engine-unit','engine-unit')
 RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 
-FUN.results_replacer("u-79", "dirty-water-heavy", "u-waste")
+RECIPE('u-79'):replace_result("dirty-water-heavy", "u-waste")
 
 RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk03"):replace_ingredient("advanced-circuit", "electronic-circuit")
 
 RECIPE("gas-separator-mk01"):remove_unlock("helium-processing-mk02"):add_unlock("coke-mk02")
 
-RECIPE("sodium-chlorate"):remove_unlock("vanadium-processing"):add_unlock("salts"):change_category("electrolyzer"):remove_ingredient("water-saline"):add_ingredient({type = "item", name = "salt", amount = 10})
+RECIPE("sodium-chlorate"):remove_unlock("vanadium-processing"):add_unlock("salts"):remove_ingredient('water-saline'):add_ingredient({type = "item", name = "salt", amount = 10}).category = 'electrolyzer'
 
-RECIPE("purified-quartz"):change_category("pan")
-RECIPE("prepared-quartz"):change_category("pan")
-RECIPE("quartz-pulp-01"):change_category("hydrocyclone")
-RECIPE("al-pulp-01"):change_category("mixer")
-RECIPE("al-pulp-02"):change_category("agitator")
-RECIPE("al-pulp-04"):change_category("agitator")
+RECIPE("purified-quartz").category = 'pan'
+RECIPE("prepared-quartz").category = 'pan'
+RECIPE("quartz-pulp-01").category = 'hydrocyclone'
+RECIPE("al-pulp-01").category = 'mixer'
+RECIPE("al-pulp-02").category = 'agitator'
+RECIPE("al-pulp-04").category = 'agitator'
 RECIPE("crystalized-sodium-aluminate"):remove_ingredient("steam"):add_ingredient({type = "fluid", name = "pressured-air", amount = 500})
 RECIPE("cold-clean-air"):replace_ingredient("filtration-media", "biofilm")
 RECIPE("tin-concentrate-3"):remove_ingredient("heavy-oil"):add_ingredient({type = "fluid", name = "grease", amount = 50})
 RECIPE("ti-pulp-02"):remove_ingredient("heavy-oil"):add_ingredient({type = "fluid", name = "grease", amount = 50})
-RECIPE("unslimed-iron-2"):change_category("hydrocyclone")
+RECIPE("unslimed-iron-2").category = 'hydrocyclone'
 
-RECIPE("grade-4-chromite"):change_category("hydrocyclone")
+RECIPE("grade-4-chromite").category = 'hydrocyclone'
 
-RECIPE("molybdenum-plate"):add_ingredient({type = "fluid", name = "hydrogen", amount = 100}):change_category("electrolyzer")
+RECIPE("molybdenum-plate"):add_ingredient({type = "fluid", name = "hydrogen", amount = 100}).category = 'electrolyzer'
 RECIPE("agitator-mk01"):replace_ingredient("iron-plate", "glass")
 RECIPE("mixer-mk01"):replace_ingredient("steel-plate", "titanium-plate")
 RECIPE("diamond-mine"):replace_ingredient("iron-plate", "titanium-plate")
@@ -79,7 +77,7 @@ RECIPE("phytoplankton"):replace_ingredient("iron-ore", {"grade-1-tin", 1})
 RECIPE("molybdenum-oxide"):add_ingredient({type = "fluid", name = "oxygen", amount = 100})
 RECIPE("vpulp3"):replace_ingredient("petroleum-gas", "ammonia")
 RECIPE("vpulp-precip"):replace_ingredient("water", "ammonia"):add_ingredient({type = "item", name = "sodium-bisulfate", amount = 1})
-RECIPE("super-alloy"):replace_ingredient("steel-plate", "nickel-plate"):add_ingredient({type = "item", name = "aramid", amount = 1}):change_category('py-rawores-smelter')
+RECIPE("super-alloy"):replace_ingredient("steel-plate", "nickel-plate"):add_ingredient({type = "item", name = "aramid", amount = 1}).category = 'py-rawores-smelter'
 RECIPE("calcinate-separation"):add_result({type = "item", name = "ore-quartz", amount = 1, probability = 0.6})
 
 RECIPE("grease-table-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
@@ -88,7 +86,7 @@ RECIPE("py-turbine"):add_ingredient({type = "item", name = "super-steel", amount
  --RECIPES
 RECIPE("kmauts-ration"):replace_ingredient("iron-plate", "tin-plate")
 RECIPE("helium"):add_ingredient({type = "fluid", name = "hydrogen", amount = 10})
-RECIPE("nbti-alloy"):replace_ingredient("steel-plate", "titanium-plate"):add_ingredient({type = "fluid", name = "nitrogen", amount = 150}):change_category('py-rawores-smelter'):remove_unlock("nenbit-matrix"):add_unlock("alloys-mk03")
+RECIPE("nbti-alloy"):replace_ingredient("steel-plate", "titanium-plate"):add_ingredient({type = "fluid", name = "nitrogen", amount = 150}):remove_unlock("nenbit-matrix"):add_unlock("alloys-mk03").category = 'py-rawores-smelter'
 RECIPE("sc-wire"):replace_ingredient("iron-plate", "tin-plate"):add_ingredient({type = "item", name = "optical-fiber", amount = 5})
 RECIPE("ferrite"):add_ingredient({type = "item", name = "zinc-plate", amount = 10})
 RECIPE("sc-unit"):add_ingredient({type = "fluid", name = "liquid-nitrogen", amount = 600})
@@ -99,7 +97,7 @@ RECIPE("blanket"):add_ingredient({type = "item", name = "lead-plate", amount = 4
 RECIPE("blanket"):add_ingredient({type = "item", name = "super-steel", amount = 40})
 RECIPE("lead-container"):replace_ingredient("iron-plate", "lead-plate"):add_ingredient({type = "item", name = "aramid", amount = 3}):remove_unlock("coated-container"):add_unlock("aramid")
 RECIPE("science-coating"):replace_ingredient("steel-plate", "titanium-plate")
-RECIPE("agzn-alloy"):replace_ingredient("iron-plate", "silver-plate"):replace_ingredient("stone", "zinc-plate"):change_category('py-rawores-smelter')
+RECIPE("agzn-alloy"):replace_ingredient("iron-plate", "silver-plate"):replace_ingredient("stone", "zinc-plate").category = 'py-rawores-smelter'
 RECIPE("silver-foam"):replace_ingredient("water", "hydrogen-chloride")
 RECIPE("tar-gasification"):remove_ingredient("water"):add_ingredient({type = "fluid", name = "pressured-air", amount = 50})
 RECIPE("tpa"):remove_ingredient("steam"):add_ingredient({type = "fluid", name = "liquid-nitrogen", amount = 50})
@@ -116,15 +114,15 @@ RECIPE("molybdenum-filtration"):remove_ingredient("vacuum")
 RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-steel"):remove_ingredient("steel-plate")
 RECIPE("automated-screener-mk01"):replace_ingredient("electric-engine-unit", "engine-unit"):replace_ingredient("ground-borer", "electric-mining-drill"):replace_ingredient("advanced-circuit", "electronic-circuit"):remove_ingredient("niobium-plate")
 RECIPE("py-heat-exchanger"):replace_ingredient("processing-unit", "advanced-circuit")
-RECIPE("sodium-bisulfate"):change_category("mixer")
-RECIPE("mibc"):change_category("mixer")
+RECIPE("sodium-bisulfate").category = 'mixer'
+RECIPE("mibc").category = 'mixer'
 RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("molybdenum-processing"):replace_ingredient("electric-engine-unit","engine-unit")
---RECIPE("bricks-to-stone"):change_category("secondary-crusher")
+--RECIPE("bricks-to-stone").category = 'secondary-crusher'
 
 ----PYFE---
 
 RECIPE("py-heat-exchanger-mk03"):add_ingredient({type = "item", name = "super-steel", amount = 10}):add_ingredient({type = "item", name = "agitator-mk01", amount = 1})
-RECIPE("py-heat-exchanger-mk04"):add_ingredient({type = "item", name = "seper-alloy", amount = 20}):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
+RECIPE("py-heat-exchanger-mk04"):add_ingredient({type = "item", name = "super-alloy", amount = 20}):add_ingredient({type = "item", name = "boron-carbide", amount = 30}):add_ingredient({type = "item", name = "science-coating", amount = 1}):add_ingredient({type = "item", name = "control-unit", amount = 5})
 RECIPE('borax-mine'):remove_unlock('boron')
 
 -----PYCP---
@@ -258,7 +256,7 @@ RECIPE("sinter-unit"):add_ingredient({type = "item", name = "super-alloy", amoun
 
 RECIPE("gasoline"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
 
-RECIPE('acetylene'):change_category('gasifier')
+RECIPE('acetylene').category = 'gasifier'
 
 --pyfusion mk02 unlocks
 
@@ -326,51 +324,51 @@ RECIPE("sodium-aluminate"):add_ingredient({type = "item", name = "sodium-chlorat
 RECIPE("reduction-aluminium"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 RECIPE("sinter-aluminium-2"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
-RECIPE("grade-2-chromite-beneficiation"):change_category("screener")
+RECIPE("grade-2-chromite-beneficiation").category = 'screener'
 RECIPE("high-chromite"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
-RECIPE("recrush-processed-chromite"):change_category("secondary-crusher")
+RECIPE("recrush-processed-chromite").category = 'secondary-crusher'
 RECIPE("sinter-chromium"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 RECIPE("reduction-chromium"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
-RECIPE("crushed-coal"):change_category('secondary-crusher')
-RECIPE("coarse-coal-to-coal"):change_category('secondary-crusher')
-RECIPE("coarse-coal"):change_category('screener')
+RECIPE("crushed-coal").category = 'secondary-crusher'
+RECIPE("coarse-coal-to-coal").category = 'secondary-crusher'
+RECIPE("coarse-coal").category = 'screener'
 RECIPE("coal-pulp-02"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
-RECIPE("coal-slime-overflow"):change_category('thickener'):replace_ingredient('organic-solvent', 'industrial-solvent')
+RECIPE("coal-slime-overflow"):replace_ingredient('organic-solvent', 'industrial-solvent').category = 'thickener'
 RECIPE("coal-pulp-05-refining"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
 RECIPE("quench-redcoke"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 
-RECIPE("grade-2-copper"):change_category("screener")
-RECIPE("grade-3-copper"):change_category("screener")
-RECIPE("grade-4-copper"):change_category("screener")
-RECIPE("high-grade-copper"):change_category("agitator")
+RECIPE("grade-2-copper").category = 'screener'
+RECIPE("grade-3-copper").category = 'screener'
+RECIPE("grade-4-copper").category = 'screener'
+RECIPE("high-grade-copper").category = 'agitator'
 RECIPE("reduction-copper"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 RECIPE("sinter-copper-2"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
-RECIPE("gold-precipitate"):change_category("agitator")
+RECIPE("gold-precipitate").category = 'agitator'
 
-RECIPE("grade-2-iron"):change_category('screener')
-RECIPE("grade-3-iron-processing"):change_category('secondary-crusher')
-RECIPE("iron-concentrate"):change_category('jig')
-RECIPE("iron-pulp-06-thickener"):change_category('thickener')
+RECIPE("grade-2-iron").category = 'screener'
+RECIPE("grade-3-iron-processing").category = 'secondary-crusher'
+RECIPE("iron-concentrate").category = 'jig'
+RECIPE("iron-pulp-06-thickener").category = 'thickener'
 RECIPE("reduction-iron"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 RECIPE("sinter-iron-2"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
-RECIPE("grade-1-lead"):change_category("screener")
-RECIPE("grade-2-lead"):change_category("screener")
-RECIPE("grade-2-crush-lead"):change_category("secondary-crusher")
-RECIPE("lead-refined-dust-03"):change_category("screener")
+RECIPE("grade-1-lead").category = 'screener'
+RECIPE("grade-2-lead").category = 'screener'
+RECIPE("grade-2-crush-lead").category = 'secondary-crusher'
+RECIPE("lead-refined-dust-03").category = 'screener'
 RECIPE("reduction-lead"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 RECIPE("sinter-lead-2"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
-RECIPE("grade-3-nexelit"):change_category("screener")
-RECIPE("nex-grade-2-crush"):change_category("secondary-crusher")
+RECIPE("grade-3-nexelit").category = 'screener'
+RECIPE("nex-grade-2-crush").category = 'secondary-crusher'
 RECIPE("reduction-nexelit"):add_ingredient({type = "fluid", name = "pressured-air", amount = 450})
 RECIPE("sinter-nexelit-2"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
-RECIPE("grade-3-nickel"):change_category("screener")
-RECIPE("nickel-rejects-recrush"):change_category("secondary-crusher")
+RECIPE("grade-3-nickel").category = 'screener'
+RECIPE("nickel-rejects-recrush").category = 'secondary-crusher'
 RECIPE("reduction-nickel"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 RECIPE("sinter-nickel-2"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
@@ -383,100 +381,100 @@ RECIPE("molten-super-steel"):add_ingredient({type = "item", name = "molybdenum-p
 RECIPE("full-molten-super-steel-2"):add_ingredient({type = "item", name = "vanadium-oxide", amount =3})
 RECIPE("full-molten-super-steel-3"):add_ingredient({type = "item", name = "molybdenum-oxide", amount = 4})
 
-RECIPE("grade-1-tin"):change_category('screener')
-RECIPE("grade-3-tin"):change_category('screener')
-RECIPE("tin-ore-rejects"):change_category('secondary-crusher')
-RECIPE("tin-concentrate"):change_category('jig')
-RECIPE("powdered-tin"):change_category('screener')
-RECIPE("tin-concentrate-3"):change_category('grease')
+RECIPE("grade-1-tin").category = 'screener'
+RECIPE("grade-3-tin").category = 'screener'
+RECIPE("tin-ore-rejects").category = 'secondary-crusher'
+RECIPE("tin-concentrate").category = 'jig'
+RECIPE("powdered-tin").category = 'screener'
+RECIPE("tin-concentrate-3").category = 'grease'
 RECIPE("reduction-tin"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 RECIPE("sinter-tin-2"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
-RECIPE("grade-1-ti"):change_category("screener")
-RECIPE("grade-3-ti"):change_category("screener")
-RECIPE("ti-rejects-recrush"):change_category("secondary-crusher")
-RECIPE("powdered-ti"):change_category("jig")
-RECIPE("ti-enriched-dust"):change_category("screener")
+RECIPE("grade-1-ti").category = 'screener'
+RECIPE("grade-3-ti").category = 'screener'
+RECIPE("ti-rejects-recrush").category = 'secondary-crusher'
+RECIPE("powdered-ti").category = 'jig'
+RECIPE("ti-enriched-dust").category = 'screener'
 RECIPE("reduction-titanium"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 RECIPE("sinter-titanium-2"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
-RECIPE("grade-2-u-crush"):change_category('secondary-crusher')
+RECIPE("grade-2-u-crush").category = 'secondary-crusher'
 
-RECIPE("powdered-zinc"):change_category("screener")
-RECIPE("purified-zinc"):change_category("grease"):add_ingredient({type = "fluid", name = "grease", amount = 25})
+RECIPE("powdered-zinc").category = 'screener'
+RECIPE("purified-zinc"):add_ingredient({type = "fluid", name = "grease", amount = 25}).category = 'grease'
 RECIPE("reduced-zinc"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 RECIPE("sinter-zinc-2"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 
 RECIPE("mega-drill-head"):add_ingredient({type = 'item', name = 'diamond', amount = 3}):add_ingredient({type = 'item', name = 'boron-carbide', amount = 5}):replace_ingredient("super-steel", "super-alloy"):replace_ingredient("nitrogen", "helium")
 RECIPE("glycerol-hydrogen"):replace_ingredient("water", "liquid-nitrogen")
 
-RECIPE("acid-solvent"):change_category("mixer")
-RECIPE("armac-12"):change_category('mixer')
-RECIPE("chromite-mix"):change_category('mixer')
-RECIPE("chromite-pulp-01"):change_category('agitator')
-RECIPE("chromite-pulp-02"):change_category('pan')
+RECIPE("acid-solvent").category = 'mixer'
+RECIPE("armac-12").category = 'mixer'
+RECIPE("chromite-mix").category = 'mixer'
+RECIPE("chromite-pulp-01").category = 'agitator'
+RECIPE("chromite-pulp-02").category = 'pan'
 RECIPE("chromite-pulp-04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 RECIPE("chromite-pulp-05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 RECIPE("chromite-pulp-06"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
-RECIPE("chromite-pulp-07"):change_category('thickener')
-RECIPE("coal-fines"):change_category('jig')
+RECIPE("chromite-pulp-07").category = 'thickener'
+RECIPE("coal-fines").category = 'jig'
 RECIPE("coal-pulp-01"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
-RECIPE("coal-pulp-04"):change_category('jig')
+RECIPE("coal-pulp-04").category = 'jig'
 RECIPE("coal-pulp-05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
-RECIPE("conditioned-fines"):change_category('pan')
+RECIPE("conditioned-fines").category = 'pan'
 RECIPE("copper-pulp-01"):add_ingredient({type = "fluid", name = "grease", amount =10})
-RECIPE("copper-solution"):change_category("mixer")
-RECIPE("cresylic-acid"):change_category("mixer")
-RECIPE("fines-pulp"):change_category("jig")
-RECIPE("iron-pulp-02"):change_category("pan")
+RECIPE("copper-solution").category = 'mixer'
+RECIPE("cresylic-acid").category = 'mixer'
+RECIPE("fines-pulp").category = 'jig'
+RECIPE("iron-pulp-02").category = 'pan'
 RECIPE("iron-pulp-04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 RECIPE("iron-pulp-05"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
 RECIPE("iron-pulp-06"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
-RECIPE("iron-slime"):change_category("mixer")
-RECIPE("nexelit-pulp-01"):change_category('pan'):add_ingredient({type = 'item', name = 'sodium-chlorate', amount = 2})
+RECIPE("iron-slime").category = 'mixer'
+RECIPE("nexelit-pulp-01"):add_ingredient({type = 'item', name = 'sodium-chlorate', amount = 2}).category = 'pan'
 RECIPE("nexelit-pulp-04"):add_ingredient({type = "fluid", name = "pressured-air", amount = 75})
-RECIPE("nickel-overflow-2"):change_category('pan')
-RECIPE("nickel-pulp-01"):change_category('agitator')
+RECIPE("nickel-overflow-2").category = 'pan'
+RECIPE("nickel-pulp-01").category = 'agitator'
 RECIPE("nickel-pulp-02"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
-RECIPE("outlet-gas-02"):change_category('gas-separator')
-RECIPE("prepared-nickel-pulp"):change_category('hydrocyclone')
+RECIPE("outlet-gas-02").category = 'gas-separator'
+RECIPE("prepared-nickel-pulp").category = 'hydrocyclone'
 RECIPE("purest-nitrogen-gas"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 RECIPE("sl-01"):add_ingredient({type = "fluid", name = "pressured-air", amount = 50})
 RECIPE("sl-01-2"):add_ingredient({type = "fluid", name = "pressured-air", amount = 350})
-RECIPE("sl-02"):change_category('hydrocyclone')
-RECIPE("sl-03"):change_category('thickener')
+RECIPE("sl-02").category = 'hydrocyclone'
+RECIPE("sl-03").category = 'thickener'
 RECIPE("slz-pulp-02"):replace_ingredient("organic-solvent", "soda-ash")
 RECIPE("ti-overflow-waste"):add_ingredient({type = "fluid", name = "pressured-air", amount = 350})
 RECIPE("ti-pulp-01"):replace_ingredient('sodium-carbonate', 'sodium-chlorate')
-RECIPE("ti-pulp-02"):change_category('grease')
-RECIPE("ti-pulp-03"):change_category('grease'):replace_ingredient("heavy-oil", "grease")
-RECIPE("ti-pulp-04"):change_category('thickener')
-RECIPE("ti-pulp-05"):change_category('hydrocyclone')
-RECIPE("ti-pulp-06"):change_category('pan')
+RECIPE("ti-pulp-02").category = 'grease'
+RECIPE("ti-pulp-03"):replace_ingredient("heavy-oil", "grease").category = 'grease'
+RECIPE("ti-pulp-04").category = 'thickener'
+RECIPE("ti-pulp-05").category = 'hydrocyclone'
+RECIPE("ti-pulp-06").category = 'pan'
 RECIPE("ti-solution-02"):add_ingredient({type = "fluid", name = "pressured-air", amount = 150})
-RECIPE("ti-solution"):change_category('agitator')
-RECIPE("tin-pulp-01"):change_category('pan'):replace_ingredient("nitrogen", "soda-ash")
+RECIPE("ti-solution").category = 'agitator'
+RECIPE("tin-pulp-01"):replace_ingredient("nitrogen", "soda-ash").category = 'pan'
 RECIPE("tin-pulp-02"):add_ingredient({type = 'fluid', name = 'pressured-air', amount = 250})
-RECIPE("tin-slime-overflow"):change_category('thickener')
-RECIPE("tin-slime"):change_category('hydrocyclone')
-RECIPE("u-15-2"):change_category('thickener')
-RECIPE("u-23"):change_category("thickener")
-RECIPE("u-33"):change_category("thickener")
-RECIPE("u-50"):change_category('hydrocyclone')
-RECIPE("u-65"):change_category('hydrocyclone')
-RECIPE("u-70"):change_category("thickener")
-RECIPE("u-73"):change_category("mixer")
+RECIPE("tin-slime-overflow").category = 'thickener'
+RECIPE("tin-slime").category = 'hydrocyclone'
+RECIPE("u-15-2").category = 'thickener'
+RECIPE("u-23").category = 'thickener'
+RECIPE("u-33").category = 'thickener'
+RECIPE("u-50").category = 'hydrocyclone'
+RECIPE("u-65").category = 'hydrocyclone'
+RECIPE("u-70").category = 'thickener'
+RECIPE("u-73").category = 'mixer'
 RECIPE("u-79"):replace_ingredient("organic-solvent", "industrial-solvent")
 RECIPE("u-81"):replace_ingredient("water", "soda-ash")
-RECIPE("u-83"):change_category('agitator')
-RECIPE("u-pulp-02"):change_category('agitator')
-RECIPE("u-rich-pulp"):change_category('agitator')
-RECIPE("zinc-overflow"):change_category('jig')
+RECIPE("u-83").category = 'agitator'
+RECIPE("u-pulp-02").category = 'agitator'
+RECIPE("u-rich-pulp").category = 'agitator'
+RECIPE("zinc-overflow").category = 'jig'
 RECIPE("zinc-pulp-01"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 RECIPE("zinc-pulp-02"):add_ingredient({type = "fluid", name = "pressured-air", amount = 100})
 RECIPE("zinc-pulp-03"):add_ingredient({type = "fluid", name = "pressured-air", amount = 250})
-RECIPE("zinc-pulp-04"):change_category('agitator'):add_ingredient({type = 'fluid', name = 'soda-ash', amount = 300})
-RECIPE("zinc-pulp-04-2"):change_category('thickener')
+RECIPE("zinc-pulp-04"):add_ingredient({type = 'fluid', name = 'soda-ash', amount = 300}).category = 'agitator'
+RECIPE("zinc-pulp-04-2").category = 'thickener'
 
 RECIPE("fuelrod-mk01-1"):replace_ingredient("titanium-plate", {type = "item", name = "lead-container", amount = 1})
 RECIPE("fuelrod-mk01-2"):replace_ingredient("niobium-plate", {type = "item", name = "lead-container", amount = 1})
@@ -487,6 +485,6 @@ RECIPE("fuelrod-mk04"):replace_ingredient("zinc-plate", {type = "item", name = "
 RECIPE("fuelrod-mk05"):replace_ingredient("stainless-steel", {type = "item", name = "coated-container", amount = 1})
 
 if mods["pyhightech"] then
-    RECIPE("aramid-2"):add_ingredient({type = "item", name = "molybdenum-plate", amount = 5}):change_category("nmf")
-    RECIPE("xylenol-3"):change_category("mixer")
+    RECIPE("aramid-2"):add_ingredient({type = "item", name = "molybdenum-plate", amount = 5}).category = 'nmf'
+    RECIPE("xylenol-3").category = 'mixer'
 end
