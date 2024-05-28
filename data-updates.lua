@@ -1,24 +1,21 @@
-require("__stdlib__/stdlib/data/data").Util.create_data_globals()
-local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
-
-require("prototypes/updates/base-updates")
-require("prototypes/updates/pycoalprocessing-updates")
-require("prototypes/updates/pyindustry-updates")
+require 'prototypes/updates/base-updates'
+require 'prototypes/updates/pycoalprocessing-updates'
+require 'prototypes/updates/pyindustry-updates'
 
 if mods["pyfusionenergy"] then
-  require("prototypes/updates/pyfusionenergy-updates")
+  require 'prototypes/updates/pyfusionenergy-updates'
 end
 
 if mods["pyhightech"] then
-  require("prototypes/updates/pyhightech-updates")
+  require 'prototypes/updates/pyhightech-updates'
 end
 
 if mods["pypetroleumhandling"] then
-  require("prototypes/updates/pypetroleumhandling-updates")
+  require 'prototypes/updates/pypetroleumhandling-updates'
 end
 
 if mods["pyalienlife"] then
-  require("prototypes/updates/pyalienlife-updates")
+  require 'prototypes/updates/pyalienlife-updates'
 end
 
 --ADAPTATIONS
@@ -38,7 +35,7 @@ ITEM("copper-cable"):set("icon_mipmaps", nil)
 RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient({type = "item", name = "iron-ore", amount = 8}):set_fields {energy_required = 10}
 RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient({type = "item", name = "copper-ore", amount = 8}):set_fields {energy_required = 10}
 
-RECIPE("steel-plate"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "coke",amount = 5}):add_ingredient({type = "item", name = "iron-ore",amount = 20}):add_ingredient({type = "item", name = "limestone",amount = 5}):change_category('advanced-foundry'):set_fields {energy_required = 15}
+RECIPE("steel-plate"):remove_ingredient("iron-plate"):add_ingredient({type = "item", name = "coke",amount = 5}):add_ingredient({type = "item", name = "iron-ore",amount = 20}):add_ingredient({type = "item", name = "limestone",amount = 5}):set_fields{energy_required = 15}.category = 'advanced-foundry'
 RECIPE("electronic-circuit"):set_fields {energy_required = 4}
 --RECIPE("electronic-circuit"):add_ingredient({type = "item", name = "solder", amount = 2})
 RECIPE("advanced-circuit"):add_ingredient({type = "item", name = "solder", amount = 4})
@@ -160,16 +157,8 @@ TECHNOLOGY("oil-processing"):remove_prereq("steel-processing")
 TECHNOLOGY("desulfurization"):remove_prereq("sulfur-processing")
 TECHNOLOGY("sulfur-processing"):remove_prereq("oil-processing")
 
-
 ITEM("sulfur").stack_size = 100
 ITEM("landfill").stack_size = 1000
-
-for _, player in DATA:pairs('character') do
-    player.crafting_categories = player.String_Array(player.crafting_categories or {}) + 'handcrafting'
-end
-for _, controller in DATA:pairs('god-controller') do
-    controller.crafting_categories = controller.String_Array(controller.crafting_categories or {}) + 'handcrafting'
-end
 
 local recipes_list =
 	{
@@ -219,7 +208,7 @@ local recipes_list =
 }
 
 --adding to module limitation list
-FUN.productivity(recipes_list)
+py.allow_productivity(recipes_list)
 
 if register_cache_file ~= nil then
     register_cache_file({"pycoalprocessing","pyindustry","pyrawores"}, "__pyrawores__/cached-configs/pycoalprocessing+pyindustry+pyrawores.lua")
