@@ -1,8 +1,12 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.4.16
+Version: 2.4.17
 Date: 2024-??-??
   Changes:
     - Changed the name of lead dust to silver-lead dust.
+---------------------------------------------------------------------------------------------------
+Version: 2.4.16
+Date: 2024-6-3
+  Changes:
     - Added circuit connectivity to big mines (credit: JStMorgan) (https://github.com/pyanodon/pybugreports/issues/415)
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.15
