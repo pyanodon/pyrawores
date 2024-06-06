@@ -32,7 +32,7 @@ RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("titanium-mk02")
 RECIPE("jig-mk01"):add_ingredient({type = "item", name = "stainless-steel", amount = 20}):replace_ingredient('advanced-circuit', 'electronic-circuit'):replace_ingredient('electric-engine-unit','engine-unit')
 RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 
-RECIPE('u-79'):replace_result("dirty-water-heavy", "u-waste")
+if RECIPE['u-79'] then RECIPE('u-79'):replace_result("dirty-water-heavy", "u-waste") end
 
 RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk03"):replace_ingredient("advanced-circuit", "electronic-circuit")
 
@@ -457,16 +457,22 @@ RECIPE("tin-pulp-01"):replace_ingredient("nitrogen", "soda-ash").category = 'pan
 RECIPE("tin-pulp-02"):add_ingredient({type = 'fluid', name = 'pressured-air', amount = 250})
 RECIPE("tin-slime-overflow").category = 'thickener'
 RECIPE("tin-slime").category = 'hydrocyclone'
-RECIPE("u-15-2").category = 'thickener'
-RECIPE("u-23").category = 'thickener'
-RECIPE("u-33").category = 'thickener'
-RECIPE("u-50").category = 'hydrocyclone'
-RECIPE("u-65").category = 'hydrocyclone'
-RECIPE("u-70").category = 'thickener'
-RECIPE("u-73").category = 'mixer'
-RECIPE("u-79"):replace_ingredient("organic-solvent", "industrial-solvent")
-RECIPE("u-81"):replace_ingredient("water", "soda-ash")
-RECIPE("u-83").category = 'agitator'
+
+if not mods.pyalternativeenergy then
+    RECIPE("u-15-2").category = 'thickener'
+    RECIPE("u-23").category = 'thickener'
+    RECIPE("u-33").category = 'thickener'
+    RECIPE("u-50").category = 'hydrocyclone'
+    RECIPE("u-65").category = 'hydrocyclone'
+    RECIPE("u-70").category = 'thickener'
+    RECIPE("u-73").category = 'mixer'
+    RECIPE("u-79"):replace_ingredient("organic-solvent", "industrial-solvent")
+    RECIPE("u-81"):replace_ingredient("water", "soda-ash")
+    RECIPE("u-83").category = 'agitator'
+    RECIPE("fuelrod-mk01-2"):replace_ingredient("niobium-plate", {type = "item", name = "lead-container", amount = 1})
+    RECIPE("fuelrod-mk01-3"):replace_ingredient("niobium-plate", {type = "item", name = "lead-container", amount = 1})
+end
+
 RECIPE("u-pulp-02").category = 'agitator'
 RECIPE("u-rich-pulp").category = 'agitator'
 RECIPE("zinc-overflow").category = 'jig'
@@ -477,8 +483,6 @@ RECIPE("zinc-pulp-04"):add_ingredient({type = 'fluid', name = 'soda-ash', amount
 RECIPE("zinc-pulp-04-2").category = 'thickener'
 
 RECIPE("fuelrod-mk01-1"):replace_ingredient("titanium-plate", {type = "item", name = "lead-container", amount = 1})
-RECIPE("fuelrod-mk01-2"):replace_ingredient("niobium-plate", {type = "item", name = "lead-container", amount = 1})
-RECIPE("fuelrod-mk01-3"):replace_ingredient("niobium-plate", {type = "item", name = "lead-container", amount = 1})
 RECIPE("fuelrod-mk02"):replace_ingredient("titanium-plate", {type = "item", name = "lead-container", amount = 1})
 RECIPE("fuelrod-mk03"):replace_ingredient("lead-plate", {type = "item", name = "lead-container", amount = 1})
 RECIPE("fuelrod-mk04"):replace_ingredient("zinc-plate", {type = "item", name = "coated-container", amount = 1})

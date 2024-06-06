@@ -374,6 +374,6 @@ RECIPE("mibc"):replace_ingredient('aromatics','acetone')
 RECIPE("nexelit-pulp-02"):replace_ingredient("syngas", "acetone")
 RECIPE("outlet-gas-04"):add_ingredient({type = "fluid", name = "tall-oil", amount = 50})
 RECIPE("slz-pulp-01"):replace_ingredient('water', 'cyanic-acid')
-RECIPE("u-83"):replace_ingredient("nitrogen", "ammonia")
+if RECIPE['u-83'] then RECIPE("u-83"):replace_ingredient("nitrogen", "ammonia") end
 RECIPE("xylenol-2"):add_ingredient({type = "item", name = "phenol", amount = 10})
 RECIPE("z3-reagent"):replace_ingredient("sulfuric-acid", "phosphorous-acid"):replace_ingredient("organic-solvent", "carbon-sulfide")
