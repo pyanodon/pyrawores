@@ -309,3 +309,7 @@ change_subgroup(data.raw.fluid['re-pulp-03'], 'py-rawores-rare-earth')
 change_subgroup(data.raw.fluid['re-pulp-04'], 'py-rawores-rare-earth')   
 change_subgroup(data.raw.item['re-precipitate-01'], 'py-rawores-rare-earth')   
 change_subgroup(data.raw.item['re-precipitate-02'], 'py-rawores-rare-earth')   
+
+ITEM('fuelrod-mk01'):set_fields{subgroup = "py-rawores-items", order = "baa"}
+RECIPE('fuelrod-mk01'):set_fields{subgroup = "py-rawores-uranium"}
+RECIPE('fuelrod-mk01-1'):set_fields{subgroup = "py-rawores-uranium"}
