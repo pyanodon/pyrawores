@@ -3,6 +3,7 @@ Version: 2.4.17
 Date: 2024-??-??
   Changes:
     - Changed the name of lead dust to silver-lead dust.
+    - Nerfed big aluminium mine module slots to 1 to match other big mines
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.16
 Date: 2024-6-3

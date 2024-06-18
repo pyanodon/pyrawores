@@ -1581,7 +1581,7 @@ ITEM {
     fuel_top_speed_multiplier = 1.2,
     flags = {},
     subgroup = 'py-rawores-items',
-    order = 'baa',
+    order = 'bab',
     stack_size = 50
 }
 
@@ -1596,7 +1596,7 @@ ITEM {
     fuel_top_speed_multiplier = 1.2,
     flags = {},
     subgroup = 'py-rawores-items',
-    order = 'bab',
+    order = 'bac',
     stack_size = 50
 }
 
@@ -1611,7 +1611,7 @@ ITEM {
     fuel_top_speed_multiplier = 1.2,
     flags = {},
     subgroup = 'py-rawores-items',
-    order = 'bac',
+    order = 'bad',
     stack_size = 50
 }
 
@@ -1626,7 +1626,7 @@ ITEM {
     fuel_top_speed_multiplier = 1.2,
     flags = {},
     subgroup = 'py-rawores-items',
-    order = 'bad',
+    order = 'bae',
     stack_size = 50
 }
 
