@@ -309,5 +309,5 @@ change_subgroup(data.raw.item['re-precipitate-01'], 'py-rawores-rare-earth')
 change_subgroup(data.raw.item['re-precipitate-02'], 'py-rawores-rare-earth')   
 
 ITEM('fuelrod-mk01'):set_fields{subgroup = "py-rawores-items", order = "baa"}
-RECIPE('fuelrod-mk01'):set_fields{subgroup = "py-rawores-uranium"}
-RECIPE('fuelrod-mk01-1'):set_fields{subgroup = "py-rawores-uranium"}
+if RECIPE['fuelrod-mk01'] then RECIPE('fuelrod-mk01'):set_fields {subgroup = 'py-rawores-uranium'} end
+if RECIPE['fuelrod-mk01-1'] then RECIPE('fuelrod-mk01-1'):set_fields {subgroup = 'py-rawores-uranium'} end
