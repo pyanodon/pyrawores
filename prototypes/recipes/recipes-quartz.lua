@@ -187,7 +187,7 @@ RECIPE {
     energy_required = 6,
     ingredients = {
         {type = "fluid", name = "high-grade-quartz-pulp", amount = 100, fluidbox_index = 1},
-        {type = "item", name = "lithium-peroxide", amount = 1}, --should be lithium oxide, maybe someday
+        {type = "item", name = "fuelrod-mk01", amount = 1},
         {type = "item", name = "sodium-carbonate", amount = 1},
     },
     results = {
@@ -207,12 +207,12 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "high-grade-quartz", amount = 2},
-        {type = "item", name = "sodium-carbonate", amount = 2},
-        {type = "item", name = "lithium-peroxide", amount = 1},
+        {type = "item", name = "high-grade-quartz", amount = 1},
+        {type = "item", name = "sodium-carbonate", amount = 1},
+        {type = "item", name = "fuelrod-mk01", amount = 1},
     },
     results = {
-        {type = "fluid", name = "molten-glass", amount = 1300}
+        {type = "fluid", name = "molten-glass", amount = 650}
     },
     --main_product= "glass",
     icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
