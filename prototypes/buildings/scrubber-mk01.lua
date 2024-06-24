@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"steam-engine", 3},
-        {"soil-extractormk01", 1},
+        {"soil-extractor-mk01", 1},
         {"stone-brick", 20},
         {"electronic-circuit", 15},
     },
