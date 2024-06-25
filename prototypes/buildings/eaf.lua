@@ -134,6 +134,14 @@ for i = 1, 4 do
                     frame_count = 1,
                     shift = util.by_pixel(0, -16)
                 },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/eaf/off-mask.png',
+                    width = 160,
+                    height = 192,
+                    frame_count = 1,
+                    shift = util.by_pixel(0, -16),
+                    tint = py.tints[i]
+                },
             }
         },
         working_visualisations = {
@@ -145,13 +153,27 @@ for i = 1, 4 do
                 south_position = util.by_pixel(16, -16),
                 east_position = util.by_pixel(16, -16),
                 animation = {
-                    filename = '__pyraworesgraphics__/graphics/entity/eaf/on.png',
-                    priority = 'high',
-                    frame_count = 50,
-                    line_length = 10,
-                    width = 128,
-                    height = 128,
-                    animation_speed = 3
+                    layers = {
+                        {
+                            filename = '__pyraworesgraphics__/graphics/entity/eaf/on.png',
+                            priority = 'high',
+                            frame_count = 50,
+                            line_length = 10,
+                            width = 128,
+                            height = 128,
+                            animation_speed = 3
+                        },
+                        {
+                            filename = '__pyraworesgraphics__/graphics/entity/eaf/on-mask.png',
+                            priority = 'high',
+                            frame_count = 50,
+                            line_length = 10,
+                            width = 128,
+                            height = 128,
+                            animation_speed = 3,
+                            tint = py.tints[i]
+                        },
+                    }
                 }
             },
         },

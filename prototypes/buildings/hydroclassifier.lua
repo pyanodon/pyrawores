@@ -148,6 +148,7 @@ for i = 1, 4 do
                     animation_speed = 1,
                     shift = util.by_pixel(-63, -2),
                     tint = py.tints[i],
+                    draw_as_glow = true,
                 },
                 {
                     filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h2-mask.png',
@@ -158,6 +159,7 @@ for i = 1, 4 do
                     animation_speed = 1,
                     shift = util.by_pixel(31, -2),
                     tint = py.tints[i],
+                    draw_as_glow = true,
                 },
                 {
                     filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h3-mask.png',
@@ -168,6 +170,7 @@ for i = 1, 4 do
                     animation_speed = 1,
                     shift = util.by_pixel(95, -2),
                     tint = py.tints[i],
+                    draw_as_glow = true,
                 },
                 {
                     filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/shadow.png',
