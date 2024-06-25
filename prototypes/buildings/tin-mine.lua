@@ -77,7 +77,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/1.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -86,7 +86,7 @@ ENTITY {
                 shift = util.by_pixel(-176, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/2.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -95,7 +95,7 @@ ENTITY {
                 shift = util.by_pixel(-112, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/3.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -104,7 +104,7 @@ ENTITY {
                 shift = util.by_pixel(-48, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/4.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -113,7 +113,7 @@ ENTITY {
                 shift = util.by_pixel(16, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/5.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/5.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -122,7 +122,7 @@ ENTITY {
                 shift = util.by_pixel(80, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/6.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/6.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -131,7 +131,7 @@ ENTITY {
                 shift = util.by_pixel(144, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/7.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/7.png",
                 width = 32,
                 height = 416,
                 line_length = 32,
@@ -140,7 +140,7 @@ ENTITY {
                 shift = util.by_pixel(176, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h1.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -150,7 +150,7 @@ ENTITY {
                 shift = util.by_pixel(-166, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h2.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -160,7 +160,7 @@ ENTITY {
                 shift = util.by_pixel(-102, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h3.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -170,7 +170,7 @@ ENTITY {
                 shift = util.by_pixel(-38, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h4.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -180,7 +180,7 @@ ENTITY {
                 shift = util.by_pixel(26, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h5.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h5.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -190,7 +190,7 @@ ENTITY {
                 shift = util.by_pixel(90, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h6.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h6.png",
                 width = 64,
                 height = 416,
                 line_length = 32,
@@ -200,7 +200,7 @@ ENTITY {
                 shift = util.by_pixel(154, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/tin-mine/h7.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h7.png",
                 width = 32,
                 height = 416,
                 line_length = 32,

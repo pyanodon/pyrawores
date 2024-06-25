@@ -125,7 +125,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/raw.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/raw.png",
                 width = 672,
                 height = 864,
                 repeat_count = 50,
@@ -135,7 +135,7 @@ ENTITY {
                 shift = util.by_pixel(-0, -128)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/ao.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/ao.png",
                 width = 672,
                 height = 864,
                 repeat_count = 50,
@@ -145,7 +145,7 @@ ENTITY {
                 shift = util.by_pixel(-0, -128)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/sh.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/sh.png",
                 width = 704,
                 height = 608,
                 repeat_count = 50,
@@ -156,7 +156,7 @@ ENTITY {
                 shift = util.by_pixel(45, 32)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/r1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/r1.png",
                 width = 128,
                 height = 512,
                 line_length = 16,
@@ -165,7 +165,7 @@ ENTITY {
                 shift = util.by_pixel(-240, 16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/r2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/r2.png",
                 width = 128,
                 height = 512,
                 line_length = 16,
@@ -174,7 +174,7 @@ ENTITY {
                 shift = util.by_pixel(-112, 16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/r3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/r3.png",
                 width = 128,
                 height = 512,
                 line_length = 16,
@@ -183,7 +183,7 @@ ENTITY {
                 shift = util.by_pixel(16, 16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/r4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/r4.png",
                 width = 96,
                 height = 512,
                 line_length = 16,
@@ -192,7 +192,7 @@ ENTITY {
                 shift = util.by_pixel(128, 16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/a1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/a1.png",
                 width = 128,
                 height = 512,
                 line_length = 16,
@@ -201,7 +201,7 @@ ENTITY {
                 shift = util.by_pixel(-240, 16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/a2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/a2.png",
                 width = 128,
                 height = 512,
                 line_length = 16,
@@ -210,7 +210,7 @@ ENTITY {
                 shift = util.by_pixel(-112, 16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/a3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/a3.png",
                 width = 128,
                 height = 512,
                 line_length = 16,
@@ -219,7 +219,7 @@ ENTITY {
                 shift = util.by_pixel(16, 16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/a4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/a4.png",
                 width = 96,
                 height = 512,
                 line_length = 16,
@@ -228,7 +228,7 @@ ENTITY {
                 shift = util.by_pixel(128, 16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/smoke.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/smoke.png",
                 width = 256,
                 height = 288,
                 line_length = 8,
@@ -237,7 +237,7 @@ ENTITY {
                 shift = util.by_pixel(-80, -96)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/sparkle.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/sparkle.png",
                 width = 128,
                 height = 160,
                 line_length = 10,
@@ -246,7 +246,7 @@ ENTITY {
                 shift = util.by_pixel(-160, 208)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/pof.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/pof.png",
                 width = 96,
                 height = 64,
                 line_length = 16,
@@ -255,7 +255,7 @@ ENTITY {
                 shift = util.by_pixel(128, -16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/l1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/l1.png",
                 width = 128,
                 height = 128,
                 repeat_count = 50,
@@ -266,7 +266,7 @@ ENTITY {
                 shift = util.by_pixel(272, -144)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/l-bottom.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/l-bottom.png",
                 width = 128,
                 height = 128,
                 repeat_count = 50,
@@ -277,7 +277,7 @@ ENTITY {
                 shift = util.by_pixel(-48, 208)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/aluminium-mine/l-top.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/l-top.png",
                 width = 160,
                 height = 128,
                 repeat_count = 50,

@@ -103,7 +103,7 @@ ENTITY {
     animations = {
         layers = {
             {
-            filename = "__pyraworesgraphics__/graphics/entity/coal-mine/h1.png",
+            filename = "__pyraworesgraphics__/graphics/entity/big-mines/coal-mine/h1.png",
             priority = "high",
             frame_count = 79,
             line_length = 21,
@@ -113,7 +113,7 @@ ENTITY {
             shift = util.by_pixel(-128, -20)
             },
             {
-            filename = "__pyraworesgraphics__/graphics/entity/coal-mine/h2.png",
+            filename = "__pyraworesgraphics__/graphics/entity/big-mines/coal-mine/h2.png",
             priority = "high",
             frame_count = 79,
             line_length = 21,
@@ -123,7 +123,7 @@ ENTITY {
             shift = util.by_pixel(-32, -20)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/coal-mine/h3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/coal-mine/h3.png",
                 priority = "high",
                 frame_count = 79,
                 line_length = 21,
@@ -133,7 +133,7 @@ ENTITY {
                 shift = util.by_pixel(64, -20)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/coal-mine/h4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/coal-mine/h4.png",
                 priority = "high",
                 frame_count = 79,
                 line_length = 21,

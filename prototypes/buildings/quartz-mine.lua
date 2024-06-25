@@ -89,7 +89,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h1.png",
                 width = 64,
                 height = 446,
                 line_length = 25,
@@ -98,7 +98,7 @@ ENTITY {
                 shift = util.by_pixel(-177, -12)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h2.png",
                 width = 64,
                 height = 446,
                 line_length = 25,
@@ -107,7 +107,7 @@ ENTITY {
                 shift = util.by_pixel(-113, -12)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h3.png",
                 width = 64,
                 height = 446,
                 line_length = 25,
@@ -116,7 +116,7 @@ ENTITY {
                 shift = util.by_pixel(-49, -12)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h4.png",
                 width = 64,
                 height = 446,
                 line_length = 25,
@@ -125,7 +125,7 @@ ENTITY {
                 shift = util.by_pixel(15, -12)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h5.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h5.png",
                 width = 64,
                 height = 446,
                 line_length = 25,
@@ -134,7 +134,7 @@ ENTITY {
                 shift = util.by_pixel(79, -12)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h6.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h6.png",
                 width = 64,
                 height = 446,
                 line_length = 25,
@@ -143,7 +143,7 @@ ENTITY {
                 shift = util.by_pixel(143, -12)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/quartz-mine/h7.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h7.png",
                 width = 40,
                 height = 446,
                 line_length = 25,

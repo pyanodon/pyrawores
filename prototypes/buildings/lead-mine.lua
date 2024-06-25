@@ -77,7 +77,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/lead-mine/h1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/lead-mine/h1.png",
                 width = 128,
                 height = 384,
                 line_length = 16,
@@ -86,7 +86,7 @@ ENTITY {
                 shift = util.by_pixel(-112, -10)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/lead-mine/h2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/lead-mine/h2.png",
                 width = 128,
                 height = 384,
                 line_length = 16,
@@ -95,7 +95,7 @@ ENTITY {
                 shift = util.by_pixel(16, -10)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/lead-mine/h3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/lead-mine/h3.png",
                 width = 101,
                 height = 384,
                 line_length = 16,

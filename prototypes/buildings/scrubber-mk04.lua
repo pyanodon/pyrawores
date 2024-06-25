@@ -55,7 +55,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/scrubber-mk01/scrubber-mk04.png",
+                filename = "__pyraworesgraphics__/graphics/entity/scrubber/scrubber-mk04.png",
                 width = 224,
                 height = 317,
                 line_length = 9,
@@ -64,7 +64,7 @@ ENTITY {
                 shift = util.by_pixel(0, -47)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/scrubber-mk01/sh.png",
+                filename = "__pyraworesgraphics__/graphics/entity/scrubber/sh.png",
                 width = 157,
                 height = 192,
                 line_length = 10,

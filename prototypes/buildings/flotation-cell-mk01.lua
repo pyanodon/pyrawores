@@ -55,14 +55,14 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/flotation-cell-mk01/off-mk01.png",
+                filename = "__pyraworesgraphics__/graphics/entity/flotation-cell/off-mk01.png",
                 width = 192,
                 height = 229,
                 frame_count = 1,
                 shift = util.by_pixel(-1, -19)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/flotation-cell-mk01/sh.png",
+                filename = "__pyraworesgraphics__/graphics/entity/flotation-cell/sh.png",
                 width = 143,
                 height = 172,
                 frame_count = 1,
@@ -78,7 +78,7 @@ ENTITY {
             south_position = util.by_pixel(-1, -17.5),
             east_position = util.by_pixel(-1, -17.5),
             animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/flotation-cell-mk01/flotation-cell-mk01.png",
+                filename = "__pyraworesgraphics__/graphics/entity/flotation-cell/flotation-cell-mk01.png",
                 --priority = "low",
                 frame_count = 100,
                 line_length = 10,

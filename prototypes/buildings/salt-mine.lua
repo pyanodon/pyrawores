@@ -92,7 +92,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/salt-mine/i1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/i1.png",
                 width = 96,
                 height = 352,
                 line_length = 20,
@@ -101,7 +101,7 @@ ENTITY {
                 shift = util.by_pixel(-129, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/salt-mine/i2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/i2.png",
                 width = 96,
                 height = 352,
                 line_length = 20,
@@ -110,7 +110,7 @@ ENTITY {
                 shift = util.by_pixel(-33, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/salt-mine/i3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/i3.png",
                 width = 96,
                 height = 352,
                 line_length = 20,
@@ -119,7 +119,7 @@ ENTITY {
                 shift = util.by_pixel(63, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/salt-mine/i4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/i4.png",
                 width = 64,
                 height = 352,
                 line_length = 20,
@@ -128,7 +128,7 @@ ENTITY {
                 shift = util.by_pixel(143, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/salt-mine/is3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/is3.png",
                 width = 96,
                 height = 352,
                 line_length = 20,
@@ -138,7 +138,7 @@ ENTITY {
                 shift = util.by_pixel(72, 13)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/salt-mine/is4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/is4.png",
                 width = 64,
                 height = 352,
                 line_length = 20,

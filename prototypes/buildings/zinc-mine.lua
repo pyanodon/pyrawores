@@ -78,7 +78,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/zinc-mine/i1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/zinc-mine/i1.png",
                 width = 96,
                 height = 352,
                 line_length = 21,
@@ -87,7 +87,7 @@ ENTITY {
                 shift = util.by_pixel(-128, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/zinc-mine/i2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/zinc-mine/i2.png",
                 width = 96,
                 height = 352,
                 line_length = 21,
@@ -96,7 +96,7 @@ ENTITY {
                 shift = util.by_pixel(-32, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/zinc-mine/i3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/zinc-mine/i3.png",
                 width = 96,
                 height = 352,
                 line_length = 21,
@@ -105,7 +105,7 @@ ENTITY {
                 shift = util.by_pixel(64, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/zinc-mine/i4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/zinc-mine/i4.png",
                 width = 69,
                 height = 352,
                 line_length = 21,

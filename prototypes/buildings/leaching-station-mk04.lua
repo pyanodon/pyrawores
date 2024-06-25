@@ -56,7 +56,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/leaching-station-mk01/off-mk04.png",
+                filename = "__pyraworesgraphics__/graphics/entity/leaching-station/off-mk04.png",
                 width = 224,
                 height = 233,
                 frame_count = 1,
@@ -71,7 +71,7 @@ ENTITY {
             south_position = util.by_pixel(0, -5),
             east_position = util.by_pixel(0, -5),
             animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/leaching-station-mk01/on-mk04.png",
+                filename = "__pyraworesgraphics__/graphics/entity/leaching-station/on-mk04.png",
                 --priority = "extra-high",
                 frame_count = 1,
                 width = 224,

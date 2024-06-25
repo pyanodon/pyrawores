@@ -77,7 +77,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/phosphate-mine-02/i1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i1.png",
                 width = 64,
                 height = 429,
                 line_length = 32,
@@ -86,7 +86,7 @@ ENTITY {
                 shift = util.by_pixel(-178, 6)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/phosphate-mine-02/i2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i2.png",
                 width = 64,
                 height = 429,
                 line_length = 32,
@@ -95,7 +95,7 @@ ENTITY {
                 shift = util.by_pixel(-114, 6)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/phosphate-mine-02/i3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i3.png",
                 width = 64,
                 height = 429,
                 line_length = 32,
@@ -104,7 +104,7 @@ ENTITY {
                 shift = util.by_pixel(-50, 6)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/phosphate-mine-02/i4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i4.png",
                 width = 64,
                 height = 429,
                 line_length = 32,
@@ -113,7 +113,7 @@ ENTITY {
                 shift = util.by_pixel(14, 6)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/phosphate-mine-02/i5.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i5.png",
                 width = 64,
                 height = 429,
                 line_length = 32,
@@ -122,7 +122,7 @@ ENTITY {
                 shift = util.by_pixel(78, 6)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/phosphate-mine-02/i6.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i6.png",
                 width = 64,
                 height = 429,
                 line_length = 32,
@@ -131,7 +131,7 @@ ENTITY {
                 shift = util.by_pixel(142, 6)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/phosphate-mine-02/i7.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i7.png",
                 width = 32,
                 height = 429,
                 line_length = 32,

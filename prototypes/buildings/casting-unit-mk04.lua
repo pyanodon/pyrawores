@@ -57,7 +57,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/casting-unit-mk01/off-mk04.png",
+                filename = "__pyraworesgraphics__/graphics/entity/casting-unit/off-mk04.png",
                 width = 238,
                 height = 234,
                 frame_count = 1,
@@ -72,7 +72,7 @@ ENTITY {
             south_position = util.by_pixel(6.5, -5),
             east_position = util.by_pixel(6.5, -5),
             animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/casting-unit-mk01/on-mk04.png",
+                filename = "__pyraworesgraphics__/graphics/entity/casting-unit/on-mk04.png",
                 priority = "high",
                 frame_count = 30,
                 line_length = 6,

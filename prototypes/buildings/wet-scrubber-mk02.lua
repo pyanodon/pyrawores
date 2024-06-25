@@ -57,21 +57,21 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/wet-scrubber-mk01/wet-scrubber-base-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/wet-scrubber/wet-scrubber-base-mk02.png",
                 width = 192,
                 height = 224,
                 frame_count = 1,
                 shift = util.by_pixel(0, -17)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/wet-scrubber-mk01/top-off-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/wet-scrubber/top-off-mk02.png",
                 width = 192,
                 height = 128,
                 frame_count = 1,
                 shift = util.by_pixel(0, -190)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/wet-scrubber-mk01/shadow.png",
+                filename = "__pyraworesgraphics__/graphics/entity/wet-scrubber/shadow.png",
                 width = 224,
                 height = 192,
                 frame_count = 1,
@@ -87,7 +87,7 @@ ENTITY {
             south_position = util.by_pixel(0, -190),
             east_position = util.by_pixel(0, -190),
             animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/wet-scrubber-mk01/anim-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/wet-scrubber/anim-mk02.png",
                 --priority = "extra-high",
                 frame_count = 2,
                 width = 192,

@@ -89,7 +89,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/uranium-mine/left.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/uranium-mine/left.png",
                 width = 192,
                 height = 399,
                 line_length = 10,
@@ -98,7 +98,7 @@ ENTITY {
                 shift = util.by_pixel(-80, -22)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/uranium-mine/right.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/uranium-mine/right.png",
                 width = 160,
                 height = 399,
                 line_length = 10,
@@ -108,7 +108,7 @@ ENTITY {
             },
             --SHADOWS
             {
-                filename = "__pyraworesgraphics__/graphics/entity/uranium-mine/shadow-left.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/uranium-mine/shadow-left.png",
                 width = 192,
                 height = 373,
                 line_length = 10,
@@ -118,7 +118,7 @@ ENTITY {
                 shift = util.by_pixel(-80, -4)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/uranium-mine/shadow-right.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/uranium-mine/shadow-right.png",
                 width = 191,
                 height = 373,
                 line_length = 10,

@@ -78,7 +78,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/cover.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/cover.png",
                 width = 736,
                 height = 672,
                 frame_count = 1,
@@ -88,7 +88,7 @@ ENTITY {
                 shift = util.by_pixel(-0, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/1.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -97,7 +97,7 @@ ENTITY {
                 shift = util.by_pixel(-224, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/2.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -106,7 +106,7 @@ ENTITY {
                 shift = util.by_pixel(-192, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/3.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -115,7 +115,7 @@ ENTITY {
                 shift = util.by_pixel(-160, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/4.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -124,7 +124,7 @@ ENTITY {
                 shift = util.by_pixel(-128, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/5.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/5.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -133,7 +133,7 @@ ENTITY {
                 shift = util.by_pixel(-96, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/6.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/6.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -142,7 +142,7 @@ ENTITY {
                 shift = util.by_pixel(-64, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/7.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/7.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -151,7 +151,7 @@ ENTITY {
                 shift = util.by_pixel(-32, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/8.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/8.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -160,7 +160,7 @@ ENTITY {
                 shift = util.by_pixel(0, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/9.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/9.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -169,7 +169,7 @@ ENTITY {
                 shift = util.by_pixel(32, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/10.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/10.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -178,7 +178,7 @@ ENTITY {
                 shift = util.by_pixel(64, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/11.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/11.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -187,7 +187,7 @@ ENTITY {
                 shift = util.by_pixel(96, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/12.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/12.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -196,7 +196,7 @@ ENTITY {
                 shift = util.by_pixel(128, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/13.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/13.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -205,7 +205,7 @@ ENTITY {
                 shift = util.by_pixel(160, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/14.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/14.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -214,7 +214,7 @@ ENTITY {
                 shift = util.by_pixel(192, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/15.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/15.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -223,7 +223,7 @@ ENTITY {
                 shift = util.by_pixel(224, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/16.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/16.png",
                 width = 32,
                 height = 480,
                 line_length = 64,
@@ -232,7 +232,7 @@ ENTITY {
                 shift = util.by_pixel(256, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/titanium-mine/17.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/titanium-mine/17.png",
                 width = 32,
                 height = 480,
                 line_length = 64,

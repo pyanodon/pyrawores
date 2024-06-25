@@ -77,7 +77,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/chromium-mine/s1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s1.png",
                 width = 64,
                 height = 384,
                 line_length = 32,
@@ -86,7 +86,7 @@ ENTITY {
                 shift = util.by_pixel(-144, -16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/chromium-mine/s2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s2.png",
                 width = 64,
                 height = 384,
                 line_length = 32,
@@ -95,7 +95,7 @@ ENTITY {
                 shift = util.by_pixel(-80, -16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/chromium-mine/s3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s3.png",
                 width = 64,
                 height = 384,
                 line_length = 32,
@@ -104,7 +104,7 @@ ENTITY {
                 shift = util.by_pixel(-16, -16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/chromium-mine/s4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s4.png",
                 width = 64,
                 height = 384,
                 line_length = 32,
@@ -113,7 +113,7 @@ ENTITY {
                 shift = util.by_pixel(48, -16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/chromium-mine/s5.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s5.png",
                 width = 64,
                 height = 384,
                 line_length = 32,
@@ -122,7 +122,7 @@ ENTITY {
                 shift = util.by_pixel(112, -16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/chromium-mine/s6.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s6.png",
                 width = 64,
                 height = 384,
                 line_length = 32,

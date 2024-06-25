@@ -57,14 +57,14 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/impact-crusher-mk01/off.png",
+                filename = "__pyraworesgraphics__/graphics/entity/impact-crusher/off.png",
                 width = 192,
                 height = 224,
                 frame_count = 1,
                 shift = util.by_pixel(0, -16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/impact-crusher-mk01/shadow.png",
+                filename = "__pyraworesgraphics__/graphics/entity/impact-crusher/shadow.png",
                 width = 202,
                 height = 170,
                 frame_count = 1,
@@ -80,7 +80,7 @@ ENTITY {
             south_position = util.by_pixel(-48, -16),
             east_position = util.by_pixel(-48, -16),
             animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/impact-crusher-mk01/left.png",
+                filename = "__pyraworesgraphics__/graphics/entity/impact-crusher/left.png",
                 priority = "high",
                 frame_count = 99,
                 line_length = 20,
@@ -95,7 +95,7 @@ ENTITY {
             south_position = util.by_pixel(48, -16),
             east_position = util.by_pixel(48, -16),
             animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/impact-crusher-mk01/right.png",
+                filename = "__pyraworesgraphics__/graphics/entity/impact-crusher/right.png",
                 priority = "high",
                 frame_count = 99,
                 line_length = 20,

@@ -56,7 +56,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/hydroclassifier-mk01/h1-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/hydroclassifier/h1-mk02.png",
                 width = 96,
                 height = 227,
                 line_length = 21,
@@ -65,7 +65,7 @@ ENTITY {
                 shift = util.by_pixel(-63, -2)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/hydroclassifier-mk01/h2-mk02.png",
+                filename = "__pyraworesgraphics__/graphics/entity/hydroclassifier/h2-mk02.png",
                 width = 96,
                 height = 227,
                 line_length = 21,
@@ -74,7 +74,7 @@ ENTITY {
                 shift = util.by_pixel(31, -2)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/hydroclassifier-mk01/h3-mk03.png",
+                filename = "__pyraworesgraphics__/graphics/entity/hydroclassifier/h3-mk03.png",
                 width = 32,
                 height = 227,
                 line_length = 21,
@@ -83,7 +83,7 @@ ENTITY {
                 shift = util.by_pixel(95, -2)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/hydroclassifier-mk01/shadow.png",
+                filename = "__pyraworesgraphics__/graphics/entity/hydroclassifier/shadow.png",
                 width = 96,
                 height = 222,
                 line_length = 21,

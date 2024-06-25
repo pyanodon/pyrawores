@@ -78,7 +78,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/botleft.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/botleft.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -87,7 +87,7 @@ ENTITY {
                 shift = util.by_pixel(-144, 112)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/botmid.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/botmid.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -96,7 +96,7 @@ ENTITY {
                 shift = util.by_pixel(-16, 112)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/botright.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/botright.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -105,7 +105,7 @@ ENTITY {
                 shift = util.by_pixel(112, 112)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/midleft.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/midleft.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -114,7 +114,7 @@ ENTITY {
                 shift = util.by_pixel(-144, -16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/midmid.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/midmid.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -123,7 +123,7 @@ ENTITY {
                 shift = util.by_pixel(-16, -16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/midright.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/midright.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -132,7 +132,7 @@ ENTITY {
                 shift = util.by_pixel(112, -16)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/topleft.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/topleft.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -141,7 +141,7 @@ ENTITY {
                 shift = util.by_pixel(-144, -144)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/topmid.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/topmid.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -150,7 +150,7 @@ ENTITY {
                 shift = util.by_pixel(-16, -144)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/topright.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/topright.png",
                 width = 128,
                 height = 128,
                 line_length = 16,
@@ -159,7 +159,7 @@ ENTITY {
                 shift = util.by_pixel(112, -144)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/botline.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/botline.png",
                 width = 416,
                 height = 32,
                 line_length = 4,
@@ -168,7 +168,7 @@ ENTITY {
                 shift = util.by_pixel(0, 192)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/iron-mine/rightline.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/rightline.png",
                 width = 32,
                 height = 416,
                 line_length = 64,

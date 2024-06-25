@@ -82,7 +82,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/bof-mk01/off.png",
+                filename = "__pyraworesgraphics__/graphics/entity/bof/off.png",
                 width = 256,
                 height = 288,
                 frame_count = 1,
@@ -97,7 +97,7 @@ ENTITY {
             south_position = util.by_pixel(-15.5, -64),
             east_position = util.by_pixel(-15.5, -64),
             animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/bof-mk01/on.png",
+                filename = "__pyraworesgraphics__/graphics/entity/bof/on.png",
                 priority = "high",
                 frame_count = 24,
                 line_length = 6,
@@ -112,7 +112,7 @@ ENTITY {
             south_position = util.by_pixel(-15.5, -64),
             east_position = util.by_pixel(-15.5, -64),
             animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/bof-mk01/g.png",
+                filename = "__pyraworesgraphics__/graphics/entity/bof/g.png",
                 priority = "high",
                 frame_count = 24,
                 line_length = 6,

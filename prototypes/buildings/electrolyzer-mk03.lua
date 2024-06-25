@@ -57,14 +57,14 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/electrolyzer-mk01/off-mk03.png",
+                filename = "__pyraworesgraphics__/graphics/entity/electrolyzer/off-mk03.png",
                 width = 189,
                 height = 192,
                 frame_count = 1,
                 shift = util.by_pixel(0, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/electrolyzer-mk01/shadow.png",
+                filename = "__pyraworesgraphics__/graphics/entity/electrolyzer/shadow.png",
                 width = 29,
                 height = 192,
                 frame_count = 1,
@@ -129,7 +129,7 @@ ENTITY {
             south_position = util.by_pixel(-14.5, -16),
             east_position = util.by_pixel(-14.5, -16),
             animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/electrolyzer-mk01/on-mk03.png",
+                filename = "__pyraworesgraphics__/graphics/entity/electrolyzer/on-mk03.png",
                 priority = "high",
                 frame_count = 60,
                 line_length = 10,

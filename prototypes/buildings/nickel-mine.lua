@@ -77,7 +77,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a1.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -86,7 +86,7 @@ ENTITY {
                 shift = util.by_pixel(-192, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a2.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -95,7 +95,7 @@ ENTITY {
                 shift = util.by_pixel(-160, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a3.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -104,7 +104,7 @@ ENTITY {
                 shift = util.by_pixel(-128, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a4.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -113,7 +113,7 @@ ENTITY {
                 shift = util.by_pixel(-96, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a5.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a5.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -122,7 +122,7 @@ ENTITY {
                 shift = util.by_pixel(-64, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a6.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a6.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -131,7 +131,7 @@ ENTITY {
                 shift = util.by_pixel(-32, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a7.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a7.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -140,7 +140,7 @@ ENTITY {
                 shift = util.by_pixel(0, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a8.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a8.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -149,7 +149,7 @@ ENTITY {
                 shift = util.by_pixel(32, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a9.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a9.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -158,7 +158,7 @@ ENTITY {
                 shift = util.by_pixel(64, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a10.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a10.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -167,7 +167,7 @@ ENTITY {
                 shift = util.by_pixel(96, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a11.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a11.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -176,7 +176,7 @@ ENTITY {
                 shift = util.by_pixel(128, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a12.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a12.png",
                 width = 32,
                 height = 416,
                 line_length = 64,
@@ -185,7 +185,7 @@ ENTITY {
                 shift = util.by_pixel(160, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nickel-mine/a13.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a13.png",
                 width = 32,
                 height = 416,
                 line_length = 64,

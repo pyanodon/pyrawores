@@ -70,7 +70,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/eaf-mk01/off.png",
+                filename = "__pyraworesgraphics__/graphics/entity/eaf/off.png",
                 width = 160,
                 height = 192,
                 frame_count = 1,
@@ -85,7 +85,7 @@ ENTITY {
             south_position = util.by_pixel(16, -16),
             east_position = util.by_pixel(16, -16),
             animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/eaf-mk01/on.png",
+                filename = "__pyraworesgraphics__/graphics/entity/eaf/on.png",
                 priority = "high",
                 frame_count = 50,
                 line_length = 10,

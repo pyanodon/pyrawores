@@ -112,7 +112,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nexelit-mine/i1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i1.png",
                 width = 64,
                 height = 352,
                 line_length = 32,
@@ -121,7 +121,7 @@ ENTITY {
                 shift = util.by_pixel(-144, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nexelit-mine/i2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i2.png",
                 width = 64,
                 height = 352,
                 line_length = 32,
@@ -130,7 +130,7 @@ ENTITY {
                 shift = util.by_pixel(-80, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nexelit-mine/i3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i3.png",
                 width = 64,
                 height = 352,
                 line_length = 32,
@@ -139,7 +139,7 @@ ENTITY {
                 shift = util.by_pixel(-16, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nexelit-mine/i4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i4.png",
                 width = 64,
                 height = 352,
                 line_length = 32,
@@ -148,7 +148,7 @@ ENTITY {
                 shift = util.by_pixel(48, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nexelit-mine/i5.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i5.png",
                 width = 64,
                 height = 352,
                 line_length = 32,
@@ -157,7 +157,7 @@ ENTITY {
                 shift = util.by_pixel(112, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nexelit-mine/i6.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i6.png",
                 width = 32,
                 height = 352,
                 line_length = 32,
@@ -167,7 +167,7 @@ ENTITY {
             },
             --SHADOWS
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nexelit-mine/sh1.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh1.png",
                 width = 64,
                 height = 320,
                 line_length = 32,
@@ -177,7 +177,7 @@ ENTITY {
                 shift = util.by_pixel(-134, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nexelit-mine/sh2.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh2.png",
                 width = 64,
                 height = 320,
                 line_length = 32,
@@ -187,7 +187,7 @@ ENTITY {
                 shift = util.by_pixel(-70, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nexelit-mine/sh3.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh3.png",
                 width = 64,
                 height = 320,
                 line_length = 32,
@@ -197,7 +197,7 @@ ENTITY {
                 shift = util.by_pixel(-6, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nexelit-mine/sh4.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh4.png",
                 width = 64,
                 height = 320,
                 line_length = 32,
@@ -207,7 +207,7 @@ ENTITY {
                 shift = util.by_pixel(58, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nexelit-mine/sh5.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh5.png",
                 width = 64,
                 height = 320,
                 line_length = 32,
@@ -217,7 +217,7 @@ ENTITY {
                 shift = util.by_pixel(122, 0)
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/nexelit-mine/sh6.png",
+                filename = "__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh6.png",
                 width = 59,
                 height = 320,
                 line_length = 32,
