@@ -205,14 +205,14 @@ RECIPE {
     name = "glass-6",
     category = "glassworks",
     enabled = false,
-    energy_required = 4,
+    energy_required = 10,
     ingredients = {
-        {type = "item", name = "high-grade-quartz", amount = 1},
-        {type = "item", name = "sodium-carbonate", amount = 1},
-        {type = "item", name = "fuelrod-mk01", amount = 1},
+        {type = "item", name = "high-grade-quartz", amount = 4},
+        {type = "item", name = "sodium-carbonate", amount = 4},
+        {type = "item", name = "lithium-peroxide", amount = 1},
     },
     results = {
-        {type = "fluid", name = "molten-glass", amount = 650}
+        {type = "fluid", name = "molten-glass", amount = 2600}
     },
     --main_product= "glass",
     icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
