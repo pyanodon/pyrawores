@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.17
-Date: ???
+Date: 2024-6-28
   Changes:
     - Changed the alloy smelter description. (https://github.com/pyanodon/pybugreports/issues/535)
     - Nerfed big aluminium mine module slots to 1 to match other big mines.
