@@ -153,7 +153,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "nexelit-slurry", amount = 25},
         {type = "fluid", name = "boric-acid", amount = 50},
-        {type = "fluid", name = "methanol", amount = 50}
+        {type = "fluid", name = "methanol", amount = 10}
     },
     results = {
         {type = "item", name = "high-grade-nexelit", amount = 1}

@@ -4,15 +4,15 @@
         name = 'nexelit-pulp-01',
         category = 'chemistry', --pyfe pan
         enabled = false,
-        energy_required = 2,
+        energy_required = 20,
         ingredients = {
-            {type = 'item', name = 'fine-nexelit-powder', amount = 1},
+            {type = 'item', name = 'fine-nexelit-powder', amount = 10},
             {type = 'fluid', name = 'glycerol', amount = 25},
             {type = 'fluid', name = 'syngas', amount = 75}
             --pyfe sodium chlorate
         },
         results = {
-            {type = 'fluid', name = 'nexelit-pulp-01', amount = 10}
+            {type = 'fluid', name = 'nexelit-pulp-01', amount = 100}
         },
         main_product = 'nexelit-pulp-01',
         subgroup = 'py-rawores-nexelit',
