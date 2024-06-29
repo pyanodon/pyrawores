@@ -1883,7 +1883,7 @@ ITEM {
     flags = {},
     subgroup = 'py-rawores-items',
     order = 'g',
-    stack_size = 100
+    stack_size = 5
 }
 
 ITEM {
