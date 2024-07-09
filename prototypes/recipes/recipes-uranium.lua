@@ -291,7 +291,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nuclear-fuel-reprocessing-mk02",
-    category = "centrifuging",
+    category = "centrifuging-low", -- temporary
     enabled = false,
     energy_required = 60,
     ingredients = {
@@ -308,7 +308,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nuclear-fuel-reprocessing-mk03",
-    category = "centrifuging",
+    category = "centrifuging-low", -- temporary
     enabled = false,
     energy_required = 60,
     ingredients = {
@@ -325,7 +325,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nuclear-fuel-reprocessing-mk04",
-    category = "centrifuging",
+    category = "centrifuging-low", -- temporary
     enabled = false,
     energy_required = 60,
     ingredients = {
@@ -342,7 +342,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nuclear-fuel-reprocessing-mk05",
-    category = "centrifuging",
+    category = "centrifuging-low", -- temporary
     enabled = false,
     energy_required = 60,
     ingredients = {
