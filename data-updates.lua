@@ -176,6 +176,7 @@ end
 
 local recipes_list =
 	{
+  "ceramic-2",
   "acid-solvent",
   "aerofloat-15",
   "alamac",
