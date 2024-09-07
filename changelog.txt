@@ -5,6 +5,7 @@ Date: ?
     - Reduced the stack size of mega drill heads from 100 to 5.
     - allowed productivity modules in the improved ceramic recipe (https://github.com/pyanodon/pybugreports/issues/540)
     - Misc. locale updates
+    - fixed some recipes outputting more steam than input water when using productivity modules
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.17
 Date: 2024-6-28
