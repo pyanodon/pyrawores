@@ -165,6 +165,7 @@ ITEM("landfill").stack_size = 1000
 
 local recipes_list =
 	{
+  "ceramic-2",
   "acid-solvent",
   "aerofloat-15",
   "alamac",

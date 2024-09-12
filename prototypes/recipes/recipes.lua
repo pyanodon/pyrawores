@@ -172,7 +172,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 75, temperature = 520},
-        {type = "fluid", name = "steam", amount = 500, temperature = 150}
+        {type = "fluid", name = "steam", amount = 500, temperature = 150, catalyst_amount = 500}
     },
     icon = "__pycoalprocessinggraphics__/graphics/icons/combustion-hydrogen.png",
     icon_size = 32,
@@ -612,7 +612,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 800},
-        {type = "fluid", name = "steam", amount = 500, temperature = 150}
+        {type = "fluid", name = "steam", amount = 500, temperature = 150, catalyst_amount = 500}
     },
     icon = "__pyraworesgraphics__/graphics/icons/combustion-kerosene.png",
     icon_size = 32,
@@ -634,7 +634,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 800},
-        {type = "fluid", name = "steam", amount = 500, temperature = 150}
+        {type = "fluid", name = "steam", amount = 500, temperature = 150, catalyst_amount = 500}
     },
     icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk02.png",
     icon_size = 32,
@@ -656,7 +656,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 850},
-        {type = "fluid", name = "steam", amount = 500, temperature = 150}
+        {type = "fluid", name = "steam", amount = 500, temperature = 150, catalyst_amount = 500}
     },
     icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk03.png",
     icon_size = 32,
@@ -678,7 +678,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 900},
-        {type = "fluid", name = "steam", amount = 500, temperature = 150}
+        {type = "fluid", name = "steam", amount = 500, temperature = 150, catalyst_amount = 500}
     },
     icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk04.png",
     icon_size = 32,
@@ -700,7 +700,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 300, temperature = 950},
-        {type = "fluid", name = "steam", amount = 500, temperature = 150}
+        {type = "fluid", name = "steam", amount = 500, temperature = 150, catalyst_amount = 500}
     },
     icon = "__pyraworesgraphics__/graphics/icons/combustion-fuelrod-mk05.png",
     icon_size = 32,

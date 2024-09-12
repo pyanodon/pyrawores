@@ -1,6 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.4.18
+Date: ?
+  Changes:
+    - Reduced the stack size of mega drill heads from 100 to 5.
+    - allowed productivity modules in the improved ceramic recipe (https://github.com/pyanodon/pybugreports/issues/540)
+    - Misc. locale updates
+    - fixed some recipes outputting more steam than input water when using productivity modules
+---------------------------------------------------------------------------------------------------
 Version: 2.4.17
-Date: 2024-??-??
+Date: 2024-6-28
   Changes:
     - Changed the name of lead dust to silver-lead dust.
     - Nerfed big aluminium mine module slots to 1 to match other big mines
