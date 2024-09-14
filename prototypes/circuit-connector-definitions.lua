@@ -2,7 +2,7 @@
 -- for base-game implementation details, see https://github.com/wube/factorio-data/blob/ed3d12197fbbe63fcd19c0eb23bc826cea44410f/core/lualib/circuit-connector-sprites.lua#L101
 -- variation counts from 0 (Python-like).
 
-circuit_connector_definitions["aluminium-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["aluminium-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -13,7 +13,7 @@ circuit_connector_definitions["aluminium-mine"] = circuit_connector_definitions.
   }
 )
 
-circuit_connector_definitions["chromium-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["chromium-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -24,7 +24,7 @@ circuit_connector_definitions["chromium-mine"] = circuit_connector_definitions.c
   }
 )
 
-circuit_connector_definitions["coal-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["coal-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -35,7 +35,7 @@ circuit_connector_definitions["coal-mine"] = circuit_connector_definitions.creat
   }
 )
 
-circuit_connector_definitions["copper-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["copper-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -46,7 +46,7 @@ circuit_connector_definitions["copper-mine"] = circuit_connector_definitions.cre
   }
 )
 
-circuit_connector_definitions["iron-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["iron-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -57,7 +57,7 @@ circuit_connector_definitions["iron-mine"] = circuit_connector_definitions.creat
   }
 )
 
-circuit_connector_definitions["lead-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["lead-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -68,7 +68,7 @@ circuit_connector_definitions["lead-mine"] = circuit_connector_definitions.creat
   }
 )
 
-circuit_connector_definitions["nexelit-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["nexelit-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -79,7 +79,7 @@ circuit_connector_definitions["nexelit-mine"] = circuit_connector_definitions.cr
   }
 )
 
-circuit_connector_definitions["nickel-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["nickel-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -90,7 +90,7 @@ circuit_connector_definitions["nickel-mine"] = circuit_connector_definitions.cre
   }
 )
 
-circuit_connector_definitions["phosphate-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["phosphate-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -101,7 +101,7 @@ circuit_connector_definitions["phosphate-mine"] = circuit_connector_definitions.
   }
 )
 
-circuit_connector_definitions["quartz-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["quartz-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -112,7 +112,7 @@ circuit_connector_definitions["quartz-mine"] = circuit_connector_definitions.cre
   }
 )
 
-circuit_connector_definitions["salt-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["salt-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -123,7 +123,7 @@ circuit_connector_definitions["salt-mine"] = circuit_connector_definitions.creat
   }
 )
 
-circuit_connector_definitions["tin-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["tin-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -134,7 +134,7 @@ circuit_connector_definitions["tin-mine"] = circuit_connector_definitions.create
   }
 )
 
-circuit_connector_definitions["titanium-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["titanium-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -145,7 +145,7 @@ circuit_connector_definitions["titanium-mine"] = circuit_connector_definitions.c
   }
 )
 
-circuit_connector_definitions["uranium-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["uranium-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
@@ -156,7 +156,7 @@ circuit_connector_definitions["uranium-mine"] = circuit_connector_definitions.cr
   }
 )
 
-circuit_connector_definitions["zinc-mine"] = circuit_connector_definitions.create
+circuit_connector_definitions["zinc-mine"] = circuit_connector_definitions.create_vector
 (
   universal_connector_template,
   {--Directions are up, right, down, left.
