@@ -195,7 +195,7 @@ ENTITY {
             },
         }
     },
-    vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact.ogg', volume = 0.65},
+    vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {
         sound = {filename = '__pyraworesgraphics__/sounds/nickel-mine.ogg', volume = 1.5},
         idle_sound = {filename = '__pyraworesgraphics__/sounds/nickel-mine.ogg', volume = 0.3},
