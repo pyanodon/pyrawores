@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'phosphate-mine',        1},
-        {'electric-mining-drill', 20},
-        {'stainless-steel',       50},
-        {'nexelit-plate',         50},
-        {'aramid',                40},
-        {'advanced-circuit',      30} --add mo plates, vanadium
+        {type = "item", name = 'phosphate-mine', amount = 1},
+        {type = "item", name = 'electric-mining-drill', amount = 20},
+        {type = "item", name = 'stainless-steel', amount = 50},
+        {type = "item", name = 'nexelit-plate', amount = 50},
+        {type = "item", name = 'aramid', amount = 40},
+        {type = "item", name = 'advanced-circuit', amount = 30} --add mo plates, vanadium
     },
     results = {
-        {'phosphate-mine-02', 1}
+        {type = "item", name = 'phosphate-mine-02', amount = 1}
     }
 }:add_unlock('big-mines')
 

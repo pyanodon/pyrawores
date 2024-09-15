@@ -295,7 +295,7 @@ RECIPE {
     enabled = false,
     energy_required = 60,
     ingredients = {
-        {"used-up-uranium-fuel-cell-mk02", 5}
+        {type = "item", name = "used-up-uranium-fuel-cell-mk02", amount = 5}
     },
     results = {
         {type = "item", name = "uranium-238", amount = 3},

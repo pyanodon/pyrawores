@@ -4,13 +4,13 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'electric-mining-drill', 5},
-        {'iron-plate',            60},
-        {'jaw-crusher',           1},
-        {'electronic-circuit',    40}
+        {type = "item", name = 'electric-mining-drill', amount = 5},
+        {type = "item", name = 'iron-plate', amount = 60},
+        {type = "item", name = 'jaw-crusher', amount = 1},
+        {type = "item", name = 'electronic-circuit', amount = 40}
     },
     results = {
-        {'salt-mine', 1}
+        {type = "item", name = 'salt-mine', amount = 1}
     }
 }:add_unlock('electrolysis')
 

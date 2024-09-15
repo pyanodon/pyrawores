@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"titanium-plate", 200},
-        {"super-steel", 50},
-        {"electric-engine-unit", 10},
-        {"advanced-foundry-mk03", 1},
-        {"processing-unit", 25},
+        {type = "item", name = "titanium-plate", amount = 200},
+        {type = "item", name = "super-steel", amount = 50},
+        {type = "item", name = "electric-engine-unit", amount = 10},
+        {type = "item", name = "advanced-foundry-mk03", amount = 1},
+        {type = "item", name = "processing-unit", amount = 25},
     },
     results = {
-        {"sinter-unit", 1}
+        {type = "item", name = "sinter-unit", amount = 1}
     }
 }:add_unlock("machines-mk05")
 

@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'electric-mining-drill', 1},
-        {'flotation-cell-mk01',   1},
-        {'steel-plate',           20},
-        {'iron-plate',            15},
-        {'electronic-circuit',    20},
+        {type = "item", name = 'electric-mining-drill', amount = 1},
+        {type = "item", name = 'flotation-cell-mk01', amount = 1},
+        {type = "item", name = 'steel-plate', amount = 20},
+        {type = "item", name = 'iron-plate', amount = 15},
+        {type = "item", name = 'electronic-circuit', amount = 20},
     },
     results = {
-        {'hydroclassifier-mk01', 1}
+        {type = "item", name = 'hydroclassifier-mk01', amount = 1}
     }
 }:add_unlock('machines-mk01')
 

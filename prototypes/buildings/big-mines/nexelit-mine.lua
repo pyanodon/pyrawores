@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'automated-factory-mk01', 2},
-        {'electric-mining-drill',  20},
-        {'stainless-steel',        50},
-        {'nexelit-plate',          50},
-        {'advanced-circuit',       30} --add mo plates, vanadium
+        {type = "item", name = 'automated-factory-mk01', amount = 2},
+        {type = "item", name = 'electric-mining-drill', amount = 20},
+        {type = "item", name = 'stainless-steel', amount = 50},
+        {type = "item", name = 'nexelit-plate', amount = 50},
+        {type = "item", name = 'advanced-circuit', amount = 30} --add mo plates, vanadium
     },
     results = {
-        {'nexelit-mine', 1}
+        {type = "item", name = 'nexelit-mine', amount = 1}
     }
 }:add_unlock('big-mines')
 

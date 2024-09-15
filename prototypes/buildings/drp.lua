@@ -4,13 +4,13 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"titanium-plate", 200},
-        {"super-steel", 50},
-        {"classifier", 3},
-        {"processing-unit", 25},
+        {type = "item", name = "titanium-plate", amount = 200},
+        {type = "item", name = "super-steel", amount = 50},
+        {type = "item", name = "classifier", amount = 3},
+        {type = "item", name = "processing-unit", amount = 25},
     },
     results = {
-        {"drp", 1}
+        {type = "item", name = "drp", amount = 1}
     }
 }:add_unlock("machines-mk04")
 

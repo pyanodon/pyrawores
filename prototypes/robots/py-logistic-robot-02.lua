@@ -8,16 +8,16 @@ local cargo_bot =
     category = 'crafting-with-fluid',
     enabled = false,
     ingredients = {
-        {'py-logistic-robot-01', 1},
-        {'flying-robot-frame', 1},
-        {'titanium-plate', 5},
-        {'solder', 5},
-        {'super-steel', 10},
-        {'advanced-circuit', 5},
+        {type = "item", name = 'py-logistic-robot-01', amount = 1},
+        {type = "item", name = 'flying-robot-frame', amount = 1},
+        {type = "item", name = 'titanium-plate', amount = 5},
+        {type = "item", name = 'solder', amount = 5},
+        {type = "item", name = 'super-steel', amount = 10},
+        {type = "item", name = 'advanced-circuit', amount = 5},
         {type = 'fluid', name = 'lubricant', amount = 300}
     },
     results = {
-        {'py-logistic-robot-02', 1}
+        {type = "item", name = 'py-logistic-robot-02', amount = 1}
     }
 }
 cargo_bot:add_unlock({'robotics'})
