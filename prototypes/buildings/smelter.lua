@@ -296,7 +296,7 @@ for i = 1, 4 do
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 base_area = 10,
                 base_level = -1,
-                pipe_connections = {{type = 'input', position = {-3.0, -7.0}}}
+                pipe_connections = {{flow_direction = 'input', position = {-3.0, -6.3}, direction = defines.direction.north}}
             },
             {
                 production_type = 'input',
@@ -304,7 +304,7 @@ for i = 1, 4 do
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 base_area = 10,
                 base_level = -1,
-                pipe_connections = {{type = 'input', position = {-5.0, -7.0}}}
+                pipe_connections = {{flow_direction = 'input', position = {-5.0, -6.3}, direction = defines.direction.north}}
             },
             {
                 production_type = 'input',
@@ -312,7 +312,7 @@ for i = 1, 4 do
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 base_area = 10,
                 base_level = -1,
-                pipe_connections = {{type = 'input', position = {3.0, -7.0}}}
+                pipe_connections = {{flow_direction = 'input', position = {3.0, -6.3}, direction = defines.direction.north}}
             },
             {
                 production_type = 'input',
@@ -320,7 +320,7 @@ for i = 1, 4 do
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 base_area = 10,
                 base_level = -1,
-                pipe_connections = {{type = 'input', position = {5.0, -7.0}}}
+                pipe_connections = {{flow_direction = 'input', position = {5.0, -6.3}, direction = defines.direction.north}}
             },
             {
                 production_type = 'output',
@@ -328,7 +328,7 @@ for i = 1, 4 do
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 base_area = 10,
                 base_level = 1,
-                pipe_connections = {{type = 'output', position = {3.0, 7.0}}}
+                pipe_connections = {{flow_direction = 'output', position = {3.0, 6.3}, direction = defines.direction.south}}
             },
             {
                 production_type = 'output',
@@ -336,7 +336,7 @@ for i = 1, 4 do
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 base_area = 10,
                 base_level = 1,
-                pipe_connections = {{type = 'output', position = {5.0, 7.0}}}
+                pipe_connections = {{flow_direction = 'output', position = {5.0, 6.3}, direction = defines.direction.south}}
             },
             {
                 production_type = 'output',
@@ -344,7 +344,7 @@ for i = 1, 4 do
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 base_area = 10,
                 base_level = 1,
-                pipe_connections = {{type = 'output', position = {-3.0, 7.0}}}
+                pipe_connections = {{flow_direction = 'output', position = {-3.0, 6.3}, direction = defines.direction.south}}
             },
             {
                 production_type = 'output',
@@ -352,7 +352,7 @@ for i = 1, 4 do
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 base_area = 10,
                 base_level = 1,
-                pipe_connections = {{type = 'output', position = {-5.0, 7.0}}}
+                pipe_connections = {{flow_direction = 'output', position = {-5.0, 6.3}, direction = defines.direction.south}}
             },
             off_when_no_fluid_recipe = true
         },
