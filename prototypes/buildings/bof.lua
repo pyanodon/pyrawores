@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'boiler',             3},
-        {'washer',             1},
-        {'iron-plate',         15},
-        {'steam-engine',       1},
-        {'electronic-circuit', 10},
+        {type = "item", name = 'boiler', amount = 3},
+        {type = "item", name = 'washer', amount = 1},
+        {type = "item", name = 'iron-plate', amount = 15},
+        {type = "item", name = 'steam-engine', amount = 1},
+        {type = "item", name = 'electronic-circuit', amount = 10},
     },
     results = {
-        {'bof-mk01', 1}
+        {type = "item", name = 'bof-mk01', amount = 1}
     }
 }:add_unlock('smelters-mk01')
 

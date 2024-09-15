@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'storage-tank',       1}, --pyindustry py-tank-5000
-        {'steel-plate',        15},
-        {'distilator',         1},
-        {'pipe',               10},
-        {'electronic-circuit', 5},
+        {type = "item", name = 'storage-tank', amount = 1}, --pyindustry py-tank-5000
+        {type = "item", name = 'steel-plate', amount = 15},
+        {type = "item", name = 'distilator', amount = 1},
+        {type = "item", name = 'pipe', amount = 10},
+        {type = "item", name = 'electronic-circuit', amount = 5},
     },
     results = {
-        {'wet-scrubber-mk01', 1}
+        {type = "item", name = 'wet-scrubber-mk01', amount = 1}
     }
 }:add_unlock('machines-mk02')
 

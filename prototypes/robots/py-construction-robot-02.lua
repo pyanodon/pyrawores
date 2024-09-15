@@ -7,16 +7,16 @@ RECIPE {
     category = "crafting-with-fluid",
     enabled = false,
     ingredients = {
-        {'py-construction-robot-01', 1},
-        {'aramid', 5},
-        {'stainless-steel', 5},
-        {'flying-robot-frame', 1},
-        {'solder', 5},
-        {'advanced-circuit', 3},
+        {type = "item", name = 'py-construction-robot-01', amount = 1},
+        {type = "item", name = 'aramid', amount = 5},
+        {type = "item", name = 'stainless-steel', amount = 5},
+        {type = "item", name = 'flying-robot-frame', amount = 1},
+        {type = "item", name = 'solder', amount = 5},
+        {type = "item", name = 'advanced-circuit', amount = 3},
         {type = "fluid", name = "lubricant", amount = 100},
     },
     results = {
-        {'py-construction-robot-02', 1}
+        {type = "item", name = 'py-construction-robot-02', amount = 1}
     }
 }:add_unlock('robotics')
 

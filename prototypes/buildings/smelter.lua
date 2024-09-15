@@ -4,16 +4,16 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {'stone-brick',        20},
-        {'steel-plate',        40},
-        {'titanium-plate',     15},
-        {'iron-plate',         40},
-        {'steam-engine',       10},
-        {'iron-gear-wheel',    50},
-        {'electronic-circuit', 5}
+        {type = "item", name = 'stone-brick', amount = 20},
+        {type = "item", name = 'steel-plate', amount = 40},
+        {type = "item", name = 'titanium-plate', amount = 15},
+        {type = "item", name = 'iron-plate', amount = 40},
+        {type = "item", name = 'steam-engine', amount = 10},
+        {type = "item", name = 'iron-gear-wheel', amount = 50},
+        {type = "item", name = 'electronic-circuit', amount = 5}
     },
     results = {
-        {'smelter-mk01', 1}
+        {type = "item", name = 'smelter-mk01', amount = 1}
     }
 }:add_unlock('alloys-mk01')
 

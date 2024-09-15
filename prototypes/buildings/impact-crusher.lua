@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'electric-mining-drill', 2},
-        {'iron-plate',            30},
-        {'radar',                 2},
-        {'tinned-cable',          20},
-        {'steam-engine',          6},
-        {'electronic-circuit',    5},
+        {type = "item", name = 'electric-mining-drill', amount = 2},
+        {type = "item", name = 'iron-plate', amount = 30},
+        {type = "item", name = 'radar', amount = 2},
+        {type = "item", name = 'tinned-cable', amount = 20},
+        {type = "item", name = 'steam-engine', amount = 6},
+        {type = "item", name = 'electronic-circuit', amount = 5},
     },
     results = {
-        {'impact-crusher-mk01', 1}
+        {type = "item", name = 'impact-crusher-mk01', amount = 1}
     }
 }:add_unlock('machines-mk01')
 

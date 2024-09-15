@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'lab',                 2},
-        {'aluminium-plate',     30},
-        {'tar-processing-unit', 1},
-        {'steam-engine',        3},
-        {'electronic-circuit',  5},
+        {type = "item", name = 'lab', amount = 2},
+        {type = "item", name = 'aluminium-plate', amount = 30},
+        {type = "item", name = 'tar-processing-unit', amount = 1},
+        {type = "item", name = 'steam-engine', amount = 3},
+        {type = "item", name = 'electronic-circuit', amount = 5},
     },
     results = {
-        {'electrolyzer-mk01', 1}
+        {type = "item", name = 'electrolyzer-mk01', amount = 1}
     }
 }:add_unlock('electrolysis')
 

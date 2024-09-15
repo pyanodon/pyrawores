@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'steam-engine', 2},
-        {'steel-plate',  15},
-        {'copper-plate', 20},
-        {'radar',        1}, --pyindustry local radar
-        {'lab',          1},
+        {type = "item", name = 'steam-engine', amount = 2},
+        {type = "item", name = 'steel-plate', amount = 15},
+        {type = "item", name = 'copper-plate', amount = 20},
+        {type = "item", name = 'radar', amount = 1}, --pyindustry local radar
+        {type = "item", name = 'lab', amount = 1},
     },
     results = {
-        {'casting-unit-mk01', 1}
+        {type = "item", name = 'casting-unit-mk01', amount = 1}
     }
 }:add_unlock('casting-mk01')
 

@@ -4,13 +4,13 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'steam-engine',        3},
-        {'soil-extractor-mk01', 1},
-        {'stone-brick',         20},
-        {'electronic-circuit',  15},
+        {type = "item", name = 'steam-engine', amount = 3},
+        {type = "item", name = 'soil-extractor-mk01', amount = 1},
+        {type = "item", name = 'stone-brick', amount = 20},
+        {type = "item", name = 'electronic-circuit', amount = 15},
     },
     results = {
-        {'scrubber-mk01', 1}
+        {type = "item", name = 'scrubber-mk01', amount = 1}
     }
 }:add_unlock('machines-mk01')
 

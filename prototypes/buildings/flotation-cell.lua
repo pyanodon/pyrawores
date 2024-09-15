@@ -4,13 +4,13 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'steam-engine',       4},
-        {'steel-plate',        10},
-        {'lab',                1},
-        {'electronic-circuit', 3},
+        {type = "item", name = 'steam-engine', amount = 4},
+        {type = "item", name = 'steel-plate', amount = 10},
+        {type = "item", name = 'lab', amount = 1},
+        {type = "item", name = 'electronic-circuit', amount = 3},
     },
     results = {
-        {'flotation-cell-mk01', 1}
+        {type = "item", name = 'flotation-cell-mk01', amount = 1}
     }
 }:add_unlock('machines-mk01')
 

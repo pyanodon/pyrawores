@@ -1145,12 +1145,12 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {"lead-plate", 2},
-        {"niobium-plate", 2},
-        {"fuelrod-mk01", 2}
+        {type = "item", name = "lead-plate", amount = 2},
+        {type = "item", name = "niobium-plate", amount = 2},
+        {type = "item", name = "fuelrod-mk01", amount = 2}
     },
     results = {
-        {"uranium-fuel-cell", 1}
+        {type = "item", name = "uranium-fuel-cell", amount = 1}
     },
 }:add_unlock('uranium-mk01')
 
