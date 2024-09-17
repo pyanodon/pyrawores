@@ -77,104 +77,106 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['copper-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['copper-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/c1.png',
-                width = 96,
-                height = 448,
-                line_length = 20,
-                frame_count = 80,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-160, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/c2.png',
-                width = 96,
-                height = 448,
-                line_length = 20,
-                frame_count = 80,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-64, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/c3.png',
-                width = 96,
-                height = 448,
-                line_length = 20,
-                frame_count = 80,
-                animation_speed = 0.2,
-                shift = util.by_pixel(32, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/c4.png',
-                width = 96,
-                height = 448,
-                line_length = 20,
-                frame_count = 80,
-                animation_speed = 0.2,
-                shift = util.by_pixel(128, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/c5.png',
-                width = 32,
-                height = 448,
-                line_length = 20,
-                frame_count = 80,
-                animation_speed = 0.2,
-                shift = util.by_pixel(192, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/s1.png',
-                width = 96,
-                height = 363,
-                line_length = 20,
-                frame_count = 80,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(-136, 14)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/s2.png',
-                width = 96,
-                height = 363,
-                line_length = 20,
-                frame_count = 80,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(-40, 14)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/s3.png',
-                width = 96,
-                height = 363,
-                line_length = 20,
-                frame_count = 80,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(56, 14)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/s4.png',
-                width = 96,
-                height = 363,
-                line_length = 20,
-                frame_count = 80,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(152, 14)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/s5.png',
-                width = 31,
-                height = 363,
-                line_length = 20,
-                frame_count = 80,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(168, 14)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/c1.png',
+                    width = 96,
+                    height = 448,
+                    line_length = 20,
+                    frame_count = 80,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-160, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/c2.png',
+                    width = 96,
+                    height = 448,
+                    line_length = 20,
+                    frame_count = 80,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-64, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/c3.png',
+                    width = 96,
+                    height = 448,
+                    line_length = 20,
+                    frame_count = 80,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(32, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/c4.png',
+                    width = 96,
+                    height = 448,
+                    line_length = 20,
+                    frame_count = 80,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(128, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/c5.png',
+                    width = 32,
+                    height = 448,
+                    line_length = 20,
+                    frame_count = 80,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(192, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/s1.png',
+                    width = 96,
+                    height = 363,
+                    line_length = 20,
+                    frame_count = 80,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(-136, 14)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/s2.png',
+                    width = 96,
+                    height = 363,
+                    line_length = 20,
+                    frame_count = 80,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(-40, 14)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/s3.png',
+                    width = 96,
+                    height = 363,
+                    line_length = 20,
+                    frame_count = 80,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(56, 14)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/s4.png',
+                    width = 96,
+                    height = 363,
+                    line_length = 20,
+                    frame_count = 80,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(152, 14)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/copper-mine/s5.png',
+                    width = 31,
+                    height = 363,
+                    line_length = 20,
+                    frame_count = 80,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(168, 14)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

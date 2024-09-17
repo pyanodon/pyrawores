@@ -77,108 +77,110 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['iron-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['iron-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/botleft.png',
-                width = 128,
-                height = 128,
-                line_length = 16,
-                frame_count = 200,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-144, 112)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/botmid.png',
-                width = 128,
-                height = 128,
-                line_length = 16,
-                frame_count = 200,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-16, 112)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/botright.png',
-                width = 128,
-                height = 128,
-                line_length = 16,
-                frame_count = 200,
-                animation_speed = 0.2,
-                shift = util.by_pixel(112, 112)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/midleft.png',
-                width = 128,
-                height = 128,
-                line_length = 16,
-                frame_count = 200,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-144, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/midmid.png',
-                width = 128,
-                height = 128,
-                line_length = 16,
-                frame_count = 200,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-16, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/midright.png',
-                width = 128,
-                height = 128,
-                line_length = 16,
-                frame_count = 200,
-                animation_speed = 0.2,
-                shift = util.by_pixel(112, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/topleft.png',
-                width = 128,
-                height = 128,
-                line_length = 16,
-                frame_count = 200,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-144, -144)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/topmid.png',
-                width = 128,
-                height = 128,
-                line_length = 16,
-                frame_count = 200,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-16, -144)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/topright.png',
-                width = 128,
-                height = 128,
-                line_length = 16,
-                frame_count = 200,
-                animation_speed = 0.2,
-                shift = util.by_pixel(112, -144)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/botline.png',
-                width = 416,
-                height = 32,
-                line_length = 4,
-                frame_count = 200,
-                animation_speed = 0.2,
-                shift = util.by_pixel(0, 192)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/rightline.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 200,
-                animation_speed = 0.2,
-                shift = util.by_pixel(192, 0)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/botleft.png',
+                    width = 128,
+                    height = 128,
+                    line_length = 16,
+                    frame_count = 200,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-144, 112)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/botmid.png',
+                    width = 128,
+                    height = 128,
+                    line_length = 16,
+                    frame_count = 200,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-16, 112)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/botright.png',
+                    width = 128,
+                    height = 128,
+                    line_length = 16,
+                    frame_count = 200,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(112, 112)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/midleft.png',
+                    width = 128,
+                    height = 128,
+                    line_length = 16,
+                    frame_count = 200,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-144, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/midmid.png',
+                    width = 128,
+                    height = 128,
+                    line_length = 16,
+                    frame_count = 200,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-16, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/midright.png',
+                    width = 128,
+                    height = 128,
+                    line_length = 16,
+                    frame_count = 200,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(112, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/topleft.png',
+                    width = 128,
+                    height = 128,
+                    line_length = 16,
+                    frame_count = 200,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-144, -144)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/topmid.png',
+                    width = 128,
+                    height = 128,
+                    line_length = 16,
+                    frame_count = 200,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-16, -144)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/topright.png',
+                    width = 128,
+                    height = 128,
+                    line_length = 16,
+                    frame_count = 200,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(112, -144)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/botline.png',
+                    width = 416,
+                    height = 32,
+                    line_length = 4,
+                    frame_count = 200,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(0, 192)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/iron-mine/rightline.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 200,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(192, 0)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

@@ -76,142 +76,144 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['tin-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['tin-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/1.png',
-                width = 64,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-176, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/2.png',
-                width = 64,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-112, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/3.png',
-                width = 64,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-48, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/4.png',
-                width = 64,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                shift = util.by_pixel(16, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/5.png',
-                width = 64,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                shift = util.by_pixel(80, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/6.png',
-                width = 64,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                shift = util.by_pixel(144, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/7.png',
-                width = 32,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                shift = util.by_pixel(176, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h1.png',
-                width = 64,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(-166, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h2.png',
-                width = 64,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(-102, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h3.png',
-                width = 64,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(-38, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h4.png',
-                width = 64,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(26, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h5.png',
-                width = 64,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(90, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h6.png',
-                width = 64,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(154, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h7.png',
-                width = 32,
-                height = 416,
-                line_length = 32,
-                frame_count = 120,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(200, 0)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/1.png',
+                    width = 64,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-176, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/2.png',
+                    width = 64,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-112, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/3.png',
+                    width = 64,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-48, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/4.png',
+                    width = 64,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(16, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/5.png',
+                    width = 64,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(80, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/6.png',
+                    width = 64,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(144, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/7.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(176, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h1.png',
+                    width = 64,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(-166, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h2.png',
+                    width = 64,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(-102, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h3.png',
+                    width = 64,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(-38, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h4.png',
+                    width = 64,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(26, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h5.png',
+                    width = 64,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(90, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h6.png',
+                    width = 64,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(154, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/tin-mine/h7.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 32,
+                    frame_count = 120,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(200, 0)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

@@ -115,55 +115,57 @@ for i = 1, 4 do
             },
         },
         energy_usage = (350 * i) .. 'kW',
-        animation = {
-            layers = {
+        graphics_set = {
+            working_visualisations = {
                 {
-                    filename = '__pyraworesgraphics__/graphics/entity/casting-unit/off.png',
-                    width = 238,
-                    height = 234,
-                    frame_count = 1,
-                    shift = util.by_pixel(7, -5)
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/casting-unit/off-mask.png',
-                    width = 238,
-                    height = 234,
-                    frame_count = 1,
-                    shift = util.by_pixel(7, -5),
-                    tint = py.tints[i]
-                },
-            }
-        },
-        working_visualisations = {
-            {
-                fadeout = true,
-                constant_speed = true,
-                north_position = util.by_pixel(6.5, -5),
-                west_position = util.by_pixel(6.5, -5),
-                south_position = util.by_pixel(6.5, -5),
-                east_position = util.by_pixel(6.5, -5),
-                animation = {
-                    layers = {
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/casting-unit/on.png',
-                            priority = 'high',
-                            frame_count = 30,
-                            line_length = 6,
-                            width = 237,
-                            height = 234,
-                            animation_speed = 0.5
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/casting-unit/on-mask.png',
-                            priority = 'high',
-                            frame_count = 30,
-                            line_length = 6,
-                            width = 237,
-                            height = 234,
-                            animation_speed = 0.5,
-                            tint = py.tints[i]
-                        },
+                    fadeout = true,
+                    constant_speed = true,
+                    north_position = util.by_pixel(6.5, -5),
+                    west_position = util.by_pixel(6.5, -5),
+                    south_position = util.by_pixel(6.5, -5),
+                    east_position = util.by_pixel(6.5, -5),
+                    animation = {
+                        layers = {
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/casting-unit/on.png',
+                                priority = 'high',
+                                frame_count = 30,
+                                line_length = 6,
+                                width = 237,
+                                height = 234,
+                                animation_speed = 0.5
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/casting-unit/on-mask.png',
+                                priority = 'high',
+                                frame_count = 30,
+                                line_length = 6,
+                                width = 237,
+                                height = 234,
+                                animation_speed = 0.5,
+                                tint = py.tints[i]
+                            },
+                        }
                     }
+                },
+            },
+            animation = {
+                layers = {
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/casting-unit/off.png',
+                        width = 238,
+                        height = 234,
+                        frame_count = 1,
+                        shift = util.by_pixel(7, -5)
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/casting-unit/off-mask.png',
+                        width = 238,
+                        height = 234,
+                        frame_count = 1,
+                        shift = util.by_pixel(7, -5),
+                        tint = py.tints[i]
+                    },
                 }
             },
         },

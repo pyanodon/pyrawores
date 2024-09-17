@@ -166,129 +166,131 @@ for i = 1, 4 do
         burns_fluid = true,
         scale_fluid_usage = true,
         energy_usage = (10 * i) .. 'MW',
-        animation = {
-            layers = {
+        graphics_set = {
+            working_visualisations = {
                 {
-                    filename = '__pyraworesgraphics__/graphics/entity/smelter/off.png',
-                    width = 512,
-                    height = 544,
-                    frame_count = 1,
-                    shift = util.by_pixel(16, -64)
+                    fadeout = true,
+                    constant_speed = true,
+                    animation = {
+                        layers = {
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/smelter/left-on.png',
+                                frame_count = 50,
+                                line_length = 16,
+                                width = 128,
+                                height = 480,
+                                animation_speed = 0.3,
+                                shift = util.by_pixel(-144, -64)
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/smelter/left-on-mask.png',
+                                frame_count = 50,
+                                line_length = 16,
+                                width = 128,
+                                height = 480,
+                                animation_speed = 0.3,
+                                tint = py.tints[i],
+                                shift = util.by_pixel(-144, -64)
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/smelter/mid-on.png',
+                                frame_count = 50,
+                                line_length = 16,
+                                width = 128,
+                                height = 480,
+                                animation_speed = 0.3,
+                                shift = util.by_pixel(-16, -64)
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/smelter/mid-on-mask.png',
+                                frame_count = 50,
+                                line_length = 16,
+                                width = 128,
+                                height = 480,
+                                animation_speed = 0.3,
+                                tint = py.tints[i],
+                                shift = util.by_pixel(-16, -64)
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/smelter/right-on.png',
+                                frame_count = 50,
+                                line_length = 16,
+                                width = 96,
+                                height = 480,
+                                animation_speed = 0.3,
+                                shift = util.by_pixel(96, -64)
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/smelter/right-on-mask.png',
+                                frame_count = 50,
+                                line_length = 16,
+                                width = 96,
+                                height = 480,
+                                animation_speed = 0.3,
+                                tint = py.tints[i],
+                                shift = util.by_pixel(96, -64)
+                            },
+                        },
+                    }
                 },
                 {
-                    filename = '__pyraworesgraphics__/graphics/entity/smelter/off-mask.png',
-                    width = 512,
-                    height = 544,
-                    frame_count = 1,
-                    shift = util.by_pixel(16, -64),
-                    tint = py.tints[i],
-                },
-            }
-        },
-        working_visualisations = {
-            {
-                fadeout = true,
-                constant_speed = true,
-                animation = {
-                    layers = {
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/smelter/left-on.png',
-                            frame_count = 50,
-                            line_length = 16,
-                            width = 128,
-                            height = 480,
-                            animation_speed = 0.3,
-                            shift = util.by_pixel(-144, -64)
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/smelter/left-on-mask.png',
-                            frame_count = 50,
-                            line_length = 16,
-                            width = 128,
-                            height = 480,
-                            animation_speed = 0.3,
-                            tint = py.tints[i],
-                            shift = util.by_pixel(-144, -64)
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/smelter/mid-on.png',
-                            frame_count = 50,
-                            line_length = 16,
-                            width = 128,
-                            height = 480,
-                            animation_speed = 0.3,
-                            shift = util.by_pixel(-16, -64)
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/smelter/mid-on-mask.png',
-                            frame_count = 50,
-                            line_length = 16,
-                            width = 128,
-                            height = 480,
-                            animation_speed = 0.3,
-                            tint = py.tints[i],
-                            shift = util.by_pixel(-16, -64)
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/smelter/right-on.png',
-                            frame_count = 50,
-                            line_length = 16,
-                            width = 96,
-                            height = 480,
-                            animation_speed = 0.3,
-                            shift = util.by_pixel(96, -64)
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/smelter/right-on-mask.png',
-                            frame_count = 50,
-                            line_length = 16,
-                            width = 96,
-                            height = 480,
-                            animation_speed = 0.3,
-                            tint = py.tints[i],
-                            shift = util.by_pixel(96, -64)
-                        },
+                    fadeout = true,
+                    constant_speed = true,
+                    animation = {
+                        layers = {
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/smelter/left-fx.png',
+                                frame_count = 50,
+                                line_length = 16,
+                                width = 128,
+                                height = 480,
+                                animation_speed = 0.3,
+                                draw_as_glow = true,
+                                shift = util.by_pixel(-144, -64)
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/smelter/mid-fx.png',
+                                frame_count = 50,
+                                line_length = 16,
+                                width = 128,
+                                height = 480,
+                                animation_speed = 0.3,
+                                draw_as_glow = true,
+                                shift = util.by_pixel(-16, -64)
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/smelter/right-fx.png',
+                                frame_count = 50,
+                                line_length = 16,
+                                width = 96,
+                                height = 480,
+                                animation_speed = 0.3,
+                                draw_as_glow = true,
+                                shift = util.by_pixel(96, -64)
+                            },
+                        }
+                    }
+                }
+            },
+            animation = {
+                layers = {
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/smelter/off.png',
+                        width = 512,
+                        height = 544,
+                        frame_count = 1,
+                        shift = util.by_pixel(16, -64)
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/smelter/off-mask.png',
+                        width = 512,
+                        height = 544,
+                        frame_count = 1,
+                        shift = util.by_pixel(16, -64),
+                        tint = py.tints[i],
                     },
                 }
             },
-            {
-                fadeout = true,
-                constant_speed = true,
-                animation = {
-                    layers = {
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/smelter/left-fx.png',
-                            frame_count = 50,
-                            line_length = 16,
-                            width = 128,
-                            height = 480,
-                            animation_speed = 0.3,
-                            draw_as_glow = true,
-                            shift = util.by_pixel(-144, -64)
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/smelter/mid-fx.png',
-                            frame_count = 50,
-                            line_length = 16,
-                            width = 128,
-                            height = 480,
-                            animation_speed = 0.3,
-                            draw_as_glow = true,
-                            shift = util.by_pixel(-16, -64)
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/smelter/right-fx.png',
-                            frame_count = 50,
-                            line_length = 16,
-                            width = 96,
-                            height = 480,
-                            animation_speed = 0.3,
-                            draw_as_glow = true,
-                            shift = util.by_pixel(96, -64)
-                        },
-                    }
-                }
-            }
         },
         fluid_boxes = {
             --1

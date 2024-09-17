@@ -87,72 +87,74 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['quartz-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['quartz-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h1.png',
-                width = 64,
-                height = 446,
-                line_length = 25,
-                frame_count = 100,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-177, -12)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h2.png',
-                width = 64,
-                height = 446,
-                line_length = 25,
-                frame_count = 100,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-113, -12)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h3.png',
-                width = 64,
-                height = 446,
-                line_length = 25,
-                frame_count = 100,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-49, -12)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h4.png',
-                width = 64,
-                height = 446,
-                line_length = 25,
-                frame_count = 100,
-                animation_speed = 0.3,
-                shift = util.by_pixel(15, -12)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h5.png',
-                width = 64,
-                height = 446,
-                line_length = 25,
-                frame_count = 100,
-                animation_speed = 0.3,
-                shift = util.by_pixel(79, -12)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h6.png',
-                width = 64,
-                height = 446,
-                line_length = 25,
-                frame_count = 100,
-                animation_speed = 0.3,
-                shift = util.by_pixel(143, -12)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h7.png',
-                width = 40,
-                height = 446,
-                line_length = 25,
-                frame_count = 100,
-                animation_speed = 0.3,
-                shift = util.by_pixel(195, -12)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h1.png',
+                    width = 64,
+                    height = 446,
+                    line_length = 25,
+                    frame_count = 100,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-177, -12)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h2.png',
+                    width = 64,
+                    height = 446,
+                    line_length = 25,
+                    frame_count = 100,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-113, -12)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h3.png',
+                    width = 64,
+                    height = 446,
+                    line_length = 25,
+                    frame_count = 100,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-49, -12)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h4.png',
+                    width = 64,
+                    height = 446,
+                    line_length = 25,
+                    frame_count = 100,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(15, -12)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h5.png',
+                    width = 64,
+                    height = 446,
+                    line_length = 25,
+                    frame_count = 100,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(79, -12)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h6.png',
+                    width = 64,
+                    height = 446,
+                    line_length = 25,
+                    frame_count = 100,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(143, -12)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/quartz-mine/h7.png',
+                    width = 40,
+                    height = 446,
+                    line_length = 25,
+                    frame_count = 100,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(195, -12)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

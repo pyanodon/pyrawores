@@ -77,45 +77,47 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['zinc-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['zinc-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/zinc-mine/i1.png',
-                width = 96,
-                height = 352,
-                line_length = 21,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-128, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/zinc-mine/i2.png',
-                width = 96,
-                height = 352,
-                line_length = 21,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-32, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/zinc-mine/i3.png',
-                width = 96,
-                height = 352,
-                line_length = 21,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(64, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/zinc-mine/i4.png',
-                width = 69,
-                height = 352,
-                line_length = 21,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(146, 0)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/zinc-mine/i1.png',
+                    width = 96,
+                    height = 352,
+                    line_length = 21,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-128, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/zinc-mine/i2.png',
+                    width = 96,
+                    height = 352,
+                    line_length = 21,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-32, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/zinc-mine/i3.png',
+                    width = 96,
+                    height = 352,
+                    line_length = 21,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(64, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/zinc-mine/i4.png',
+                    width = 69,
+                    height = 352,
+                    line_length = 21,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(146, 0)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

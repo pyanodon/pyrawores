@@ -124,172 +124,174 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['aluminium-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['aluminium-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/raw.png',
-                width = 672,
-                height = 864,
-                repeat_count = 50,
-                line_length = 1,
-                frame_count = 1,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-0, -128)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/ao.png',
-                width = 672,
-                height = 864,
-                repeat_count = 50,
-                line_length = 1,
-                frame_count = 1,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-0, -128)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/sh.png',
-                width = 704,
-                height = 608,
-                repeat_count = 50,
-                line_length = 1,
-                frame_count = 1,
-                draw_as_shadow = true,
-                animation_speed = 0.2,
-                shift = util.by_pixel(45, 32)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/r1.png',
-                width = 128,
-                height = 512,
-                line_length = 16,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-240, 16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/r2.png',
-                width = 128,
-                height = 512,
-                line_length = 16,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-112, 16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/r3.png',
-                width = 128,
-                height = 512,
-                line_length = 16,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(16, 16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/r4.png',
-                width = 96,
-                height = 512,
-                line_length = 16,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(128, 16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/a1.png',
-                width = 128,
-                height = 512,
-                line_length = 16,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-240, 16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/a2.png',
-                width = 128,
-                height = 512,
-                line_length = 16,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-112, 16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/a3.png',
-                width = 128,
-                height = 512,
-                line_length = 16,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(16, 16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/a4.png',
-                width = 96,
-                height = 512,
-                line_length = 16,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(128, 16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/smoke.png',
-                width = 256,
-                height = 288,
-                line_length = 8,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-80, -96)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/sparkle.png',
-                width = 128,
-                height = 160,
-                line_length = 10,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-160, 208)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/pof.png',
-                width = 96,
-                height = 64,
-                line_length = 16,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(128, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/l1.png',
-                width = 128,
-                height = 128,
-                repeat_count = 50,
-                line_length = 1,
-                frame_count = 1,
-                draw_as_glow = true,
-                animation_speed = 0.2,
-                shift = util.by_pixel(272, -144)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/l-bottom.png',
-                width = 128,
-                height = 128,
-                repeat_count = 50,
-                line_length = 1,
-                frame_count = 1,
-                draw_as_glow = true,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-48, 208)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/l-top.png',
-                width = 160,
-                height = 128,
-                repeat_count = 50,
-                line_length = 1,
-                frame_count = 1,
-                draw_as_glow = true,
-                animation_speed = 0.2,
-                shift = util.by_pixel(32, -208)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/raw.png',
+                    width = 672,
+                    height = 864,
+                    repeat_count = 50,
+                    line_length = 1,
+                    frame_count = 1,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-0, -128)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/ao.png',
+                    width = 672,
+                    height = 864,
+                    repeat_count = 50,
+                    line_length = 1,
+                    frame_count = 1,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-0, -128)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/sh.png',
+                    width = 704,
+                    height = 608,
+                    repeat_count = 50,
+                    line_length = 1,
+                    frame_count = 1,
+                    draw_as_shadow = true,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(45, 32)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/r1.png',
+                    width = 128,
+                    height = 512,
+                    line_length = 16,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-240, 16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/r2.png',
+                    width = 128,
+                    height = 512,
+                    line_length = 16,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-112, 16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/r3.png',
+                    width = 128,
+                    height = 512,
+                    line_length = 16,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(16, 16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/r4.png',
+                    width = 96,
+                    height = 512,
+                    line_length = 16,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(128, 16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/a1.png',
+                    width = 128,
+                    height = 512,
+                    line_length = 16,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-240, 16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/a2.png',
+                    width = 128,
+                    height = 512,
+                    line_length = 16,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-112, 16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/a3.png',
+                    width = 128,
+                    height = 512,
+                    line_length = 16,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(16, 16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/a4.png',
+                    width = 96,
+                    height = 512,
+                    line_length = 16,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(128, 16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/smoke.png',
+                    width = 256,
+                    height = 288,
+                    line_length = 8,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-80, -96)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/sparkle.png',
+                    width = 128,
+                    height = 160,
+                    line_length = 10,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-160, 208)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/pof.png',
+                    width = 96,
+                    height = 64,
+                    line_length = 16,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(128, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/l1.png',
+                    width = 128,
+                    height = 128,
+                    repeat_count = 50,
+                    line_length = 1,
+                    frame_count = 1,
+                    draw_as_glow = true,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(272, -144)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/l-bottom.png',
+                    width = 128,
+                    height = 128,
+                    repeat_count = 50,
+                    line_length = 1,
+                    frame_count = 1,
+                    draw_as_glow = true,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-48, 208)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/l-top.png',
+                    width = 160,
+                    height = 128,
+                    repeat_count = 50,
+                    line_length = 1,
+                    frame_count = 1,
+                    draw_as_glow = true,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(32, -208)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

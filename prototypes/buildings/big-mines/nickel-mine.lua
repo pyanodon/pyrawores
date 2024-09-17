@@ -76,126 +76,128 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['nickel-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['nickel-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a1.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-192, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a2.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-160, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a3.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-128, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a4.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-96, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a5.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-64, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a6.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-32, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a7.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(0, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a8.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(32, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a9.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(64, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a10.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(96, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a11.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(128, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a12.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(160, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a13.png',
-                width = 32,
-                height = 416,
-                line_length = 64,
-                frame_count = 131,
-                animation_speed = 0.2,
-                shift = util.by_pixel(192, 0)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a1.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-192, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a2.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-160, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a3.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-128, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a4.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-96, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a5.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-64, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a6.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-32, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a7.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(0, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a8.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(32, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a9.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(64, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a10.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(96, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a11.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(128, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a12.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(160, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a13.png',
+                    width = 32,
+                    height = 416,
+                    line_length = 64,
+                    frame_count = 131,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(192, 0)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

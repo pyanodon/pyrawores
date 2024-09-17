@@ -54,37 +54,39 @@ ENTITY {
         },
     },
     energy_usage = "1500kW",
-    animation = {
-        layers = {
-            {
-                filename = "__pyraworesgraphics__/graphics/entity/drp/down.png",
-                width = 160,
-                height = 160,
-                line_length = 12,
-                frame_count = 144,
-                animation_speed = 0.5,
-                shift = util.by_pixel(0, 0)
-            },
-            {
-                filename = "__pyraworesgraphics__/graphics/entity/drp/up.png",
-                width = 160,
-                height = 160,
-                line_length = 12,
-                frame_count = 144,
-                animation_speed = 0.5,
-                shift = util.by_pixel(0, -160)
-            },
-            {
-                filename = "__pyraworesgraphics__/graphics/entity/drp/sh.png",
-                width = 192,
-                height = 128,
-                line_length = 10,
-                frame_count = 144,
-                animation_speed = 0.5,
-                draw_as_shadow = true,
-                shift = util.by_pixel(20, 10)
-            },
-        }
+    graphics_set = {
+        animation = {
+            layers = {
+                {
+                    filename = "__pyraworesgraphics__/graphics/entity/drp/down.png",
+                    width = 160,
+                    height = 160,
+                    line_length = 12,
+                    frame_count = 144,
+                    animation_speed = 0.5,
+                    shift = util.by_pixel(0, 0)
+                },
+                {
+                    filename = "__pyraworesgraphics__/graphics/entity/drp/up.png",
+                    width = 160,
+                    height = 160,
+                    line_length = 12,
+                    frame_count = 144,
+                    animation_speed = 0.5,
+                    shift = util.by_pixel(0, -160)
+                },
+                {
+                    filename = "__pyraworesgraphics__/graphics/entity/drp/sh.png",
+                    width = 192,
+                    height = 128,
+                    line_length = 10,
+                    frame_count = 144,
+                    animation_speed = 0.5,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(20, 10)
+                },
+            }
+        },
     },
     fluid_boxes = {
         --1

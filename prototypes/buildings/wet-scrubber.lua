@@ -114,45 +114,47 @@ for i = 1, 4 do
             },
         },
         energy_usage = (200 * i) .. 'kW',
-        animation = {
-            layers = {
+        graphics_set = {
+            working_visualisations = {
                 {
-                    filename = '__pyraworesgraphics__/graphics/entity/wet-scrubber/wet-scrubber-base-mk0' .. i .. '.png',
-                    width = 192,
-                    height = 224,
-                    frame_count = 1,
-                    shift = util.by_pixel(0, -17)
+                    north_position = util.by_pixel(0, -190),
+                    west_position = util.by_pixel(0, -190),
+                    south_position = util.by_pixel(0, -190),
+                    east_position = util.by_pixel(0, -190),
+                    animation = {
+                        filename = '__pyraworesgraphics__/graphics/entity/wet-scrubber/anim-mk0' .. i .. '.png',
+                        --priority = "extra-high",
+                        frame_count = 2,
+                        width = 192,
+                        height = 128,
+                        animation_speed = 0.2
+                    }
                 },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/wet-scrubber/top-off-mk0' .. i .. '.png',
-                    width = 192,
-                    height = 128,
-                    frame_count = 1,
-                    shift = util.by_pixel(0, -190)
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/wet-scrubber/shadow.png',
-                    width = 224,
-                    height = 192,
-                    frame_count = 1,
-                    draw_as_shadow = true,
-                    shift = util.by_pixel(32, 0)
-                }
-            }
-        },
-        working_visualisations = {
-            {
-                north_position = util.by_pixel(0, -190),
-                west_position = util.by_pixel(0, -190),
-                south_position = util.by_pixel(0, -190),
-                east_position = util.by_pixel(0, -190),
-                animation = {
-                    filename = '__pyraworesgraphics__/graphics/entity/wet-scrubber/anim-mk0' .. i .. '.png',
-                    --priority = "extra-high",
-                    frame_count = 2,
-                    width = 192,
-                    height = 128,
-                    animation_speed = 0.2
+            },
+            animation = {
+                layers = {
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/wet-scrubber/wet-scrubber-base-mk0' .. i .. '.png',
+                        width = 192,
+                        height = 224,
+                        frame_count = 1,
+                        shift = util.by_pixel(0, -17)
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/wet-scrubber/top-off-mk0' .. i .. '.png',
+                        width = 192,
+                        height = 128,
+                        frame_count = 1,
+                        shift = util.by_pixel(0, -190)
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/wet-scrubber/shadow.png',
+                        width = 224,
+                        height = 192,
+                        frame_count = 1,
+                        draw_as_shadow = true,
+                        shift = util.by_pixel(32, 0)
+                    }
                 }
             },
         },

@@ -91,66 +91,68 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['salt-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['salt-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/i1.png',
-                width = 96,
-                height = 352,
-                line_length = 20,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-129, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/i2.png',
-                width = 96,
-                height = 352,
-                line_length = 20,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-33, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/i3.png',
-                width = 96,
-                height = 352,
-                line_length = 20,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(63, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/i4.png',
-                width = 64,
-                height = 352,
-                line_length = 20,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(143, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/is3.png',
-                width = 96,
-                height = 352,
-                line_length = 20,
-                frame_count = 100,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(72, 13)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/is4.png',
-                width = 64,
-                height = 352,
-                line_length = 20,
-                frame_count = 100,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(151, 13)
-            },
-
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/i1.png',
+                    width = 96,
+                    height = 352,
+                    line_length = 20,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-129, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/i2.png',
+                    width = 96,
+                    height = 352,
+                    line_length = 20,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-33, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/i3.png',
+                    width = 96,
+                    height = 352,
+                    line_length = 20,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(63, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/i4.png',
+                    width = 64,
+                    height = 352,
+                    line_length = 20,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(143, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/is3.png',
+                    width = 96,
+                    height = 352,
+                    line_length = 20,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(72, 13)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/salt-mine/is4.png',
+                    width = 64,
+                    height = 352,
+                    line_length = 20,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(151, 13)
+                },
+    
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

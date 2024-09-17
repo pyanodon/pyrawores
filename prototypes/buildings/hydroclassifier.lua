@@ -112,79 +112,81 @@ for i = 1, 4 do
             },
         },
         energy_usage = (500 * i) .. 'kW',
-        animation = {
-            layers = {
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h1.png',
-                    width = 96,
-                    height = 227,
-                    line_length = 21,
-                    frame_count = 150,
-                    animation_speed = 1,
-                    shift = util.by_pixel(-63, -2)
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h2.png',
-                    width = 96,
-                    height = 227,
-                    line_length = 21,
-                    frame_count = 150,
-                    animation_speed = 1,
-                    shift = util.by_pixel(31, -2)
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h3.png',
-                    width = 32,
-                    height = 227,
-                    line_length = 21,
-                    frame_count = 150,
-                    animation_speed = 1,
-                    shift = util.by_pixel(95, -2)
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h1-mask.png',
-                    width = 96,
-                    height = 227,
-                    line_length = 21,
-                    frame_count = 150,
-                    animation_speed = 1,
-                    shift = util.by_pixel(-63, -2),
-                    tint = py.tints[i],
-                    draw_as_glow = true,
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h2-mask.png',
-                    width = 96,
-                    height = 227,
-                    line_length = 21,
-                    frame_count = 150,
-                    animation_speed = 1,
-                    shift = util.by_pixel(31, -2),
-                    tint = py.tints[i],
-                    draw_as_glow = true,
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h3-mask.png',
-                    width = 32,
-                    height = 227,
-                    line_length = 21,
-                    frame_count = 150,
-                    animation_speed = 1,
-                    shift = util.by_pixel(95, -2),
-                    tint = py.tints[i],
-                    draw_as_glow = true,
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/shadow.png',
-                    width = 96,
-                    height = 222,
-                    line_length = 21,
-                    frame_count = 150,
-                    animation_speed = 1,
-                    draw_as_shadow = true,
-                    shift = util.by_pixel(79, -2)
+        graphics_set = {
+            animation = {
+                layers = {
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h1.png',
+                        width = 96,
+                        height = 227,
+                        line_length = 21,
+                        frame_count = 150,
+                        animation_speed = 1,
+                        shift = util.by_pixel(-63, -2)
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h2.png',
+                        width = 96,
+                        height = 227,
+                        line_length = 21,
+                        frame_count = 150,
+                        animation_speed = 1,
+                        shift = util.by_pixel(31, -2)
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h3.png',
+                        width = 32,
+                        height = 227,
+                        line_length = 21,
+                        frame_count = 150,
+                        animation_speed = 1,
+                        shift = util.by_pixel(95, -2)
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h1-mask.png',
+                        width = 96,
+                        height = 227,
+                        line_length = 21,
+                        frame_count = 150,
+                        animation_speed = 1,
+                        shift = util.by_pixel(-63, -2),
+                        tint = py.tints[i],
+                        draw_as_glow = true,
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h2-mask.png',
+                        width = 96,
+                        height = 227,
+                        line_length = 21,
+                        frame_count = 150,
+                        animation_speed = 1,
+                        shift = util.by_pixel(31, -2),
+                        tint = py.tints[i],
+                        draw_as_glow = true,
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/h3-mask.png',
+                        width = 32,
+                        height = 227,
+                        line_length = 21,
+                        frame_count = 150,
+                        animation_speed = 1,
+                        shift = util.by_pixel(95, -2),
+                        tint = py.tints[i],
+                        draw_as_glow = true,
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/hydroclassifier/shadow.png',
+                        width = 96,
+                        height = 222,
+                        line_length = 21,
+                        frame_count = 150,
+                        animation_speed = 1,
+                        draw_as_shadow = true,
+                        shift = util.by_pixel(79, -2)
+                    }
                 }
-            }
+            },
         },
         fluid_boxes = {
             --1

@@ -111,28 +111,30 @@ for i = 1, 4 do
             },
         },
         energy_usage = (300 * i) .. 'kW',
-        animation = {
-            layers = {
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/scrubber/scrubber-mk0' .. i .. '.png',
-                    width = 224,
-                    height = 317,
-                    line_length = 9,
-                    frame_count = 50,
-                    animation_speed = 1,
-                    shift = util.by_pixel(0, -47)
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/scrubber/sh.png',
-                    width = 157,
-                    height = 192,
-                    line_length = 10,
-                    frame_count = 50,
-                    animation_speed = 1,
-                    draw_as_shadow = true,
-                    shift = util.by_pixel(64, 16)
+        graphics_set = {
+            animation = {
+                layers = {
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/scrubber/scrubber-mk0' .. i .. '.png',
+                        width = 224,
+                        height = 317,
+                        line_length = 9,
+                        frame_count = 50,
+                        animation_speed = 1,
+                        shift = util.by_pixel(0, -47)
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/scrubber/sh.png',
+                        width = 157,
+                        height = 192,
+                        line_length = 10,
+                        frame_count = 50,
+                        animation_speed = 1,
+                        draw_as_shadow = true,
+                        shift = util.by_pixel(64, 16)
+                    }
                 }
-            }
+            },
         },
         fluid_boxes = {
             --1

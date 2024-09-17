@@ -101,49 +101,51 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['coal-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['coal-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/coal-mine/h1.png',
-                priority = 'high',
-                frame_count = 79,
-                line_length = 21,
-                width = 96,
-                height = 402,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-128, -20)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/coal-mine/h2.png',
-                priority = 'high',
-                frame_count = 79,
-                line_length = 21,
-                width = 96,
-                height = 402,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-32, -20)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/coal-mine/h3.png',
-                priority = 'high',
-                frame_count = 79,
-                line_length = 21,
-                width = 96,
-                height = 402,
-                animation_speed = 0.3,
-                shift = util.by_pixel(64, -20)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/coal-mine/h4.png',
-                priority = 'high',
-                frame_count = 79,
-                line_length = 21,
-                width = 64,
-                height = 402,
-                animation_speed = 0.3,
-                shift = util.by_pixel(144, -20)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/coal-mine/h1.png',
+                    priority = 'high',
+                    frame_count = 79,
+                    line_length = 21,
+                    width = 96,
+                    height = 402,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-128, -20)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/coal-mine/h2.png',
+                    priority = 'high',
+                    frame_count = 79,
+                    line_length = 21,
+                    width = 96,
+                    height = 402,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-32, -20)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/coal-mine/h3.png',
+                    priority = 'high',
+                    frame_count = 79,
+                    line_length = 21,
+                    width = 96,
+                    height = 402,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(64, -20)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/coal-mine/h4.png',
+                    priority = 'high',
+                    frame_count = 79,
+                    line_length = 21,
+                    width = 64,
+                    height = 402,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(144, -20)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

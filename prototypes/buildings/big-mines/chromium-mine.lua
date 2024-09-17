@@ -76,63 +76,65 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['chromium-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['chromium-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s1.png',
-                width = 64,
-                height = 384,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-144, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s2.png',
-                width = 64,
-                height = 384,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-80, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s3.png',
-                width = 64,
-                height = 384,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-16, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s4.png',
-                width = 64,
-                height = 384,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                shift = util.by_pixel(48, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s5.png',
-                width = 64,
-                height = 384,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                shift = util.by_pixel(112, -16)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s6.png',
-                width = 64,
-                height = 384,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                shift = util.by_pixel(176, -16)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s1.png',
+                    width = 64,
+                    height = 384,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-144, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s2.png',
+                    width = 64,
+                    height = 384,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-80, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s3.png',
+                    width = 64,
+                    height = 384,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-16, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s4.png',
+                    width = 64,
+                    height = 384,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(48, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s5.png',
+                    width = 64,
+                    height = 384,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(112, -16)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/chromium-mine/s6.png',
+                    width = 64,
+                    height = 384,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(176, -16)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

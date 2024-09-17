@@ -76,72 +76,74 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['phosphate-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['phosphate-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i1.png',
-                width = 64,
-                height = 429,
-                line_length = 32,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-178, 6)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i2.png',
-                width = 64,
-                height = 429,
-                line_length = 32,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-114, 6)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i3.png',
-                width = 64,
-                height = 429,
-                line_length = 32,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-50, 6)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i4.png',
-                width = 64,
-                height = 429,
-                line_length = 32,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(14, 6)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i5.png',
-                width = 64,
-                height = 429,
-                line_length = 32,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(78, 6)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i6.png',
-                width = 64,
-                height = 429,
-                line_length = 32,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(142, 6)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i7.png',
-                width = 32,
-                height = 429,
-                line_length = 32,
-                frame_count = 100,
-                animation_speed = 0.2,
-                shift = util.by_pixel(190, 6)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i1.png',
+                    width = 64,
+                    height = 429,
+                    line_length = 32,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-178, 6)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i2.png',
+                    width = 64,
+                    height = 429,
+                    line_length = 32,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-114, 6)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i3.png',
+                    width = 64,
+                    height = 429,
+                    line_length = 32,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-50, 6)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i4.png',
+                    width = 64,
+                    height = 429,
+                    line_length = 32,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(14, 6)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i5.png',
+                    width = 64,
+                    height = 429,
+                    line_length = 32,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(78, 6)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i6.png',
+                    width = 64,
+                    height = 429,
+                    line_length = 32,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(142, 6)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/phosphate-mine-02/i7.png',
+                    width = 32,
+                    height = 429,
+                    line_length = 32,
+                    frame_count = 100,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(190, 6)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

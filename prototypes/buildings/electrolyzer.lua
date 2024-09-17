@@ -113,24 +113,45 @@ for i = 1, 4 do
             },
         },
         energy_usage = (10 * i) .. 'MW',
-        animation = {
-            layers = {
+        graphics_set = {
+            working_visualisations = {
                 {
-                    filename = '__pyraworesgraphics__/graphics/entity/electrolyzer/off-mk0' .. i .. '.png',
-                    width = 189,
-                    height = 192,
-                    frame_count = 1,
-                    shift = util.by_pixel(0, 0)
+                    fadeout = true,
+                    constant_speed = true,
+                    north_position = util.by_pixel(-14.5, -16),
+                    west_position = util.by_pixel(-14.5, -16),
+                    south_position = util.by_pixel(-14.5, -16),
+                    east_position = util.by_pixel(-14.5, -16),
+                    animation = {
+                        filename = '__pyraworesgraphics__/graphics/entity/electrolyzer/on-mk0' .. i .. '.png',
+                        priority = 'high',
+                        frame_count = 60,
+                        line_length = 10,
+                        width = 160,
+                        height = 160,
+                        animation_speed = 1.5
+                    }
                 },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/electrolyzer/shadow.png',
-                    width = 29,
-                    height = 192,
-                    frame_count = 1,
-                    draw_as_shadow = true,
-                    shift = util.by_pixel(94, 0)
+            },
+            animation = {
+                layers = {
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/electrolyzer/off-mk0' .. i .. '.png',
+                        width = 189,
+                        height = 192,
+                        frame_count = 1,
+                        shift = util.by_pixel(0, 0)
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/electrolyzer/shadow.png',
+                        width = 29,
+                        height = 192,
+                        frame_count = 1,
+                        draw_as_shadow = true,
+                        shift = util.by_pixel(94, 0)
+                    }
                 }
-            }
+            },
         },
         fluid_boxes = {
             --1
@@ -180,25 +201,6 @@ for i = 1, 4 do
                 pipe_connections = {{flow_direction = 'output', position = {1.5, 2.7}, direction = defines.direction.south}}
             },
             off_when_no_fluid_recipe = true
-        },
-        working_visualisations = {
-            {
-                fadeout = true,
-                constant_speed = true,
-                north_position = util.by_pixel(-14.5, -16),
-                west_position = util.by_pixel(-14.5, -16),
-                south_position = util.by_pixel(-14.5, -16),
-                east_position = util.by_pixel(-14.5, -16),
-                animation = {
-                    filename = '__pyraworesgraphics__/graphics/entity/electrolyzer/on-mk0' .. i .. '.png',
-                    priority = 'high',
-                    frame_count = 60,
-                    line_length = 10,
-                    width = 160,
-                    height = 160,
-                    animation_speed = 1.5
-                }
-            },
         },
         vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
         working_sound = {
