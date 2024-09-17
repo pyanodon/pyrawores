@@ -115,63 +115,65 @@ for i = 1, 4 do
             },
         },
         energy_usage = (1.5 * i) .. 'MW',
-        animation = {
-            layers = {
+        graphics_set = {
+            working_visualisations = {
                 {
-                    filename = '__pyraworesgraphics__/graphics/entity/flotation-cell/off.png',
-                    width = 192,
-                    height = 229,
-                    frame_count = 1,
-                    shift = util.by_pixel(-1, -19)
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/flotation-cell/off-mask.png',
-                    width = 192,
-                    height = 229,
-                    frame_count = 1,
-                    shift = util.by_pixel(-1, -19),
-                    tint = py.tints[i]
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/flotation-cell/sh.png',
-                    width = 143,
-                    height = 172,
-                    frame_count = 1,
-                    draw_as_shadow = true,
-                    shift = util.by_pixel(42, 10)
-                }
-            }
-        },
-        working_visualisations = {
-            {
-                fadeout = true,
-                constant_speed = true,
-                north_position = util.by_pixel(-1, -17.5),
-                west_position = util.by_pixel(-1, -17.5),
-                south_position = util.by_pixel(-1, -17.5),
-                east_position = util.by_pixel(-1, -17.5),
-                animation = {
-                    layers = {
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/flotation-cell/flotation-cell.png',
-                            frame_count = 100,
-                            line_length = 10,
-                            width = 192,
-                            height = 160,
-                            animation_speed = 1
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/flotation-cell/flotation-cell-mask.png',
-                            frame_count = 100,
-                            line_length = 10,
-                            width = 192,
-                            height = 160,
-                            animation_speed = 1,
-                            tint = py.tints[i]
-                        },
+                    fadeout = true,
+                    constant_speed = true,
+                    north_position = util.by_pixel(-1, -17.5),
+                    west_position = util.by_pixel(-1, -17.5),
+                    south_position = util.by_pixel(-1, -17.5),
+                    east_position = util.by_pixel(-1, -17.5),
+                    animation = {
+                        layers = {
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/flotation-cell/flotation-cell.png',
+                                frame_count = 100,
+                                line_length = 10,
+                                width = 192,
+                                height = 160,
+                                animation_speed = 1
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/flotation-cell/flotation-cell-mask.png',
+                                frame_count = 100,
+                                line_length = 10,
+                                width = 192,
+                                height = 160,
+                                animation_speed = 1,
+                                tint = py.tints[i]
+                            },
+                        }
                     }
                 }
-            }
+            },
+            animation = {
+                layers = {
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/flotation-cell/off.png',
+                        width = 192,
+                        height = 229,
+                        frame_count = 1,
+                        shift = util.by_pixel(-1, -19)
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/flotation-cell/off-mask.png',
+                        width = 192,
+                        height = 229,
+                        frame_count = 1,
+                        shift = util.by_pixel(-1, -19),
+                        tint = py.tints[i]
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/flotation-cell/sh.png',
+                        width = 143,
+                        height = 172,
+                        frame_count = 1,
+                        draw_as_shadow = true,
+                        shift = util.by_pixel(42, 10)
+                    }
+                }
+            },
         },
         fluid_boxes = {
             --1

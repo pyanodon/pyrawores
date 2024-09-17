@@ -113,81 +113,83 @@ for i = 1, 4 do
             },
         },
         energy_usage = (300 * i) .. 'kW',
-        animation = {
-            layers = {
+        graphics_set = {
+            working_visualisations = {
                 {
-                    filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/off.png',
-                    width = 192,
-                    height = 224,
-                    frame_count = 1,
-                    shift = util.by_pixel(0, -16)
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/off-mask.png',
-                    width = 192,
-                    height = 224,
-                    frame_count = 1,
-                    shift = util.by_pixel(0, -16),
-                    tint = py.tints[i],
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/shadow.png',
-                    width = 202,
-                    height = 170,
-                    frame_count = 1,
-                    draw_as_shadow = true,
-                    shift = util.by_pixel(8, 10)
-                }
-            }
-        },
-        working_visualisations = {
-            {
-                fadeout = true,
-                constant_speed = true,
-                animation = {
-                    layers = {
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/left.png',
-                            priority = 'high',
-                            frame_count = 99,
-                            line_length = 20,
-                            width = 96,
-                            height = 224,
-                            animation_speed = 2.0,
-                            shift = util.by_pixel(-48, -16)
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/left-mask.png',
-                            priority = 'high',
-                            frame_count = 99,
-                            line_length = 20,
-                            width = 96,
-                            height = 224,
-                            animation_speed = 2.0,
-                            shift = util.by_pixel(-48, -16),
-                            tint = py.tints[i],
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/right.png',
-                            priority = 'high',
-                            frame_count = 99,
-                            line_length = 20,
-                            width = 96,
-                            height = 224,
-                            animation_speed = 2.0,
-                            shift = util.by_pixel(48, -16)
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/right-mask.png',
-                            priority = 'high',
-                            frame_count = 99,
-                            line_length = 20,
-                            width = 96,
-                            height = 224,
-                            animation_speed = 2.0,
-                            shift = util.by_pixel(48, -16),
-                            tint = py.tints[i],
+                    fadeout = true,
+                    constant_speed = true,
+                    animation = {
+                        layers = {
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/left.png',
+                                priority = 'high',
+                                frame_count = 99,
+                                line_length = 20,
+                                width = 96,
+                                height = 224,
+                                animation_speed = 2.0,
+                                shift = util.by_pixel(-48, -16)
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/left-mask.png',
+                                priority = 'high',
+                                frame_count = 99,
+                                line_length = 20,
+                                width = 96,
+                                height = 224,
+                                animation_speed = 2.0,
+                                shift = util.by_pixel(-48, -16),
+                                tint = py.tints[i],
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/right.png',
+                                priority = 'high',
+                                frame_count = 99,
+                                line_length = 20,
+                                width = 96,
+                                height = 224,
+                                animation_speed = 2.0,
+                                shift = util.by_pixel(48, -16)
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/right-mask.png',
+                                priority = 'high',
+                                frame_count = 99,
+                                line_length = 20,
+                                width = 96,
+                                height = 224,
+                                animation_speed = 2.0,
+                                shift = util.by_pixel(48, -16),
+                                tint = py.tints[i],
+                            }
                         }
+                    }
+                },
+            },
+            animation = {
+                layers = {
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/off.png',
+                        width = 192,
+                        height = 224,
+                        frame_count = 1,
+                        shift = util.by_pixel(0, -16)
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/off-mask.png',
+                        width = 192,
+                        height = 224,
+                        frame_count = 1,
+                        shift = util.by_pixel(0, -16),
+                        tint = py.tints[i],
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/impact-crusher/shadow.png',
+                        width = 202,
+                        height = 170,
+                        frame_count = 1,
+                        draw_as_shadow = true,
+                        shift = util.by_pixel(8, 10)
                     }
                 }
             },

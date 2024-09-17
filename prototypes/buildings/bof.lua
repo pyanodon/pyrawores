@@ -137,51 +137,53 @@ for i = 1, 4 do
             },
         },
         energy_usage = (5 * i) .. 'MW',
-        animation = {
-            layers = {
+        graphics_set = {
+            working_visualisations = {
                 {
-                    filename = '__pyraworesgraphics__/graphics/entity/bof/off-mk0' .. i .. '.png',
-                    width = 256,
-                    height = 288,
-                    frame_count = 1,
-                    shift = util.by_pixel(17, -32)
+                    fadeout = true,
+                    constant_speed = true,
+                    north_position = util.by_pixel(-15.5, -64),
+                    west_position = util.by_pixel(-15.5, -64),
+                    south_position = util.by_pixel(-15.5, -64),
+                    east_position = util.by_pixel(-15.5, -64),
+                    animation = {
+                        filename = '__pyraworesgraphics__/graphics/entity/bof/on-mk0' .. i .. '.png',
+                        priority = 'high',
+                        frame_count = 24,
+                        line_length = 6,
+                        width = 128,
+                        height = 160,
+                        animation_speed = 1.0
+                    }
                 },
-            }
-        },
-        working_visualisations = {
-            {
-                fadeout = true,
-                constant_speed = true,
-                north_position = util.by_pixel(-15.5, -64),
-                west_position = util.by_pixel(-15.5, -64),
-                south_position = util.by_pixel(-15.5, -64),
-                east_position = util.by_pixel(-15.5, -64),
-                animation = {
-                    filename = '__pyraworesgraphics__/graphics/entity/bof/on-mk0' .. i .. '.png',
-                    priority = 'high',
-                    frame_count = 24,
-                    line_length = 6,
-                    width = 128,
-                    height = 160,
-                    animation_speed = 1.0
-                }
+                {
+                    fadeout = true,
+                    constant_speed = true,
+                    north_position = util.by_pixel(-15.5, -64),
+                    west_position = util.by_pixel(-15.5, -64),
+                    south_position = util.by_pixel(-15.5, -64),
+                    east_position = util.by_pixel(-15.5, -64),
+                    animation = {
+                        filename = '__pyraworesgraphics__/graphics/entity/bof/g.png',
+                        priority = 'high',
+                        frame_count = 24,
+                        line_length = 6,
+                        width = 128,
+                        height = 160,
+                        draw_as_glow = true,
+                        animation_speed = 1.0
+                    }
+                },
             },
-            {
-                fadeout = true,
-                constant_speed = true,
-                north_position = util.by_pixel(-15.5, -64),
-                west_position = util.by_pixel(-15.5, -64),
-                south_position = util.by_pixel(-15.5, -64),
-                east_position = util.by_pixel(-15.5, -64),
-                animation = {
-                    filename = '__pyraworesgraphics__/graphics/entity/bof/g.png',
-                    priority = 'high',
-                    frame_count = 24,
-                    line_length = 6,
-                    width = 128,
-                    height = 160,
-                    draw_as_glow = true,
-                    animation_speed = 1.0
+            animation = {
+                layers = {
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/bof/off-mk0' .. i .. '.png',
+                        width = 256,
+                        height = 288,
+                        frame_count = 1,
+                        shift = util.by_pixel(17, -32)
+                    },
                 }
             },
         },

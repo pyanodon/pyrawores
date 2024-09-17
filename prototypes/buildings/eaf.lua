@@ -127,55 +127,57 @@ for i = 1, 4 do
             },
         },
         energy_usage = (18 * i) .. 'MW',
-        animation = {
-            layers = {
+        graphics_set = {
+            working_visualisations = {
                 {
-                    filename = '__pyraworesgraphics__/graphics/entity/eaf/off.png',
-                    width = 160,
-                    height = 192,
-                    frame_count = 1,
-                    shift = util.by_pixel(0, -16)
-                },
-                {
-                    filename = '__pyraworesgraphics__/graphics/entity/eaf/off-mask.png',
-                    width = 160,
-                    height = 192,
-                    frame_count = 1,
-                    shift = util.by_pixel(0, -16),
-                    tint = py.tints[i]
-                },
-            }
-        },
-        working_visualisations = {
-            {
-                fadeout = true,
-                constant_speed = true,
-                north_position = util.by_pixel(16, -16),
-                west_position = util.by_pixel(16, -16),
-                south_position = util.by_pixel(16, -16),
-                east_position = util.by_pixel(16, -16),
-                animation = {
-                    layers = {
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/eaf/on.png',
-                            priority = 'high',
-                            frame_count = 50,
-                            line_length = 10,
-                            width = 128,
-                            height = 128,
-                            animation_speed = 3
-                        },
-                        {
-                            filename = '__pyraworesgraphics__/graphics/entity/eaf/on-mask.png',
-                            priority = 'high',
-                            frame_count = 50,
-                            line_length = 10,
-                            width = 128,
-                            height = 128,
-                            animation_speed = 3,
-                            tint = py.tints[i]
-                        },
+                    fadeout = true,
+                    constant_speed = true,
+                    north_position = util.by_pixel(16, -16),
+                    west_position = util.by_pixel(16, -16),
+                    south_position = util.by_pixel(16, -16),
+                    east_position = util.by_pixel(16, -16),
+                    animation = {
+                        layers = {
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/eaf/on.png',
+                                priority = 'high',
+                                frame_count = 50,
+                                line_length = 10,
+                                width = 128,
+                                height = 128,
+                                animation_speed = 3
+                            },
+                            {
+                                filename = '__pyraworesgraphics__/graphics/entity/eaf/on-mask.png',
+                                priority = 'high',
+                                frame_count = 50,
+                                line_length = 10,
+                                width = 128,
+                                height = 128,
+                                animation_speed = 3,
+                                tint = py.tints[i]
+                            },
+                        }
                     }
+                },
+            },
+            animation = {
+                layers = {
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/eaf/off.png',
+                        width = 160,
+                        height = 192,
+                        frame_count = 1,
+                        shift = util.by_pixel(0, -16)
+                    },
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/eaf/off-mask.png',
+                        width = 160,
+                        height = 192,
+                        frame_count = 1,
+                        shift = util.by_pixel(0, -16),
+                        tint = py.tints[i]
+                    },
                 }
             },
         },

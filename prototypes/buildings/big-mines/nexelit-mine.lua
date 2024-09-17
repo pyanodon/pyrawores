@@ -111,124 +111,126 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['nexelit-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['nexelit-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i1.png',
-                width = 64,
-                height = 352,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-144, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i2.png',
-                width = 64,
-                height = 352,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-80, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i3.png',
-                width = 64,
-                height = 352,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-16, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i4.png',
-                width = 64,
-                height = 352,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                shift = util.by_pixel(48, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i5.png',
-                width = 64,
-                height = 352,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                shift = util.by_pixel(112, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i6.png',
-                width = 32,
-                height = 352,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                shift = util.by_pixel(160, 0)
-            },
-            --SHADOWS
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh1.png',
-                width = 64,
-                height = 320,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(-134, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh2.png',
-                width = 64,
-                height = 320,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(-70, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh3.png',
-                width = 64,
-                height = 320,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(-6, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh4.png',
-                width = 64,
-                height = 320,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(58, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh5.png',
-                width = 64,
-                height = 320,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(122, 0)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh6.png',
-                width = 59,
-                height = 320,
-                line_length = 32,
-                frame_count = 160,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(183, 0)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i1.png',
+                    width = 64,
+                    height = 352,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-144, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i2.png',
+                    width = 64,
+                    height = 352,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-80, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i3.png',
+                    width = 64,
+                    height = 352,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-16, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i4.png',
+                    width = 64,
+                    height = 352,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(48, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i5.png',
+                    width = 64,
+                    height = 352,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(112, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/i6.png',
+                    width = 32,
+                    height = 352,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(160, 0)
+                },
+                --SHADOWS
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh1.png',
+                    width = 64,
+                    height = 320,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(-134, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh2.png',
+                    width = 64,
+                    height = 320,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(-70, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh3.png',
+                    width = 64,
+                    height = 320,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(-6, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh4.png',
+                    width = 64,
+                    height = 320,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(58, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh5.png',
+                    width = 64,
+                    height = 320,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(122, 0)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/nexelit-mine/sh6.png',
+                    width = 59,
+                    height = 320,
+                    line_length = 32,
+                    frame_count = 160,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(183, 0)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

@@ -80,84 +80,86 @@ ENTITY {
       },
     },
     energy_usage = "20MW",
-    animation = {
-        layers = {
+    graphics_set = {
+        working_visualisations = {
             {
-                filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/off.png",
-                width = 224,
-                height = 384,
-                frame_count = 1,
-                shift = util.by_pixel(0, -80)
+                north_position = util.by_pixel(0, 48),
+                west_position = util.by_pixel(0, 48),
+                south_position = util.by_pixel(0, 48),
+                east_position = util.by_pixel(0, 48),
+                animation = {
+                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/bot.png",
+                    frame_count = 120,
+                    line_length = 10,
+                    width = 224,
+                    height = 128,
+                    animation_speed = 0.35
+                }
             },
             {
-                filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/shadow.png",
-                width = 96,
-                height = 384,
-                frame_count = 1,
-                draw_as_shadow = true,
-                shift = util.by_pixel(158, -80)
+                north_position = util.by_pixel(0, -80),
+                west_position = util.by_pixel(0, -80),
+                south_position = util.by_pixel(0, -80),
+                east_position = util.by_pixel(0, -80),
+                animation = {
+                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/mid.png",
+                    priority = "high",
+                    frame_count = 120,
+                    line_length = 10,
+                    width = 224,
+                    height = 128,
+                    animation_speed = 0.35
+                }
             },
-        }
-    },
-    working_visualisations = {
-        {
-            north_position = util.by_pixel(0, 48),
-            west_position = util.by_pixel(0, 48),
-            south_position = util.by_pixel(0, 48),
-            east_position = util.by_pixel(0, 48),
-            animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/bot.png",
-                frame_count = 120,
-                line_length = 10,
-                width = 224,
-                height = 128,
-                animation_speed = 0.35
-            }
+            {
+                north_position = util.by_pixel(0, -80),
+                west_position = util.by_pixel(0, -80),
+                south_position = util.by_pixel(0, -80),
+                east_position = util.by_pixel(0, -80),
+                animation = {
+                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/glow.png",
+                    draw_as_glow = true,
+                    blend_mode = "additive-soft",
+                    frame_count = 120,
+                    line_length = 10,
+                    width = 224,
+                    height = 128,
+                    animation_speed = 0.35
+                }
+            },
+            {
+                north_position = util.by_pixel(0, -208),
+                west_position = util.by_pixel(0, -208),
+                south_position = util.by_pixel(0, -208),
+                east_position = util.by_pixel(0, -208),
+                animation = {
+                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/top.png",
+                    priority = "high",
+                    frame_count = 120,
+                    line_length = 10,
+                    width = 224,
+                    height = 128,
+                    animation_speed = 0.35
+                }
+            },
         },
-        {
-            north_position = util.by_pixel(0, -80),
-            west_position = util.by_pixel(0, -80),
-            south_position = util.by_pixel(0, -80),
-            east_position = util.by_pixel(0, -80),
-            animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/mid.png",
-                priority = "high",
-                frame_count = 120,
-                line_length = 10,
-                width = 224,
-                height = 128,
-                animation_speed = 0.35
-            }
-        },
-        {
-            north_position = util.by_pixel(0, -80),
-            west_position = util.by_pixel(0, -80),
-            south_position = util.by_pixel(0, -80),
-            east_position = util.by_pixel(0, -80),
-            animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/glow.png",
-                draw_as_glow = true,
-                blend_mode = "additive-soft",
-                frame_count = 120,
-                line_length = 10,
-                width = 224,
-                height = 128,
-                animation_speed = 0.35
-            }
-        },
-        {
-            north_position = util.by_pixel(0, -208),
-            west_position = util.by_pixel(0, -208),
-            south_position = util.by_pixel(0, -208),
-            east_position = util.by_pixel(0, -208),
-            animation = {
-                filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/top.png",
-                priority = "high",
-                frame_count = 120,
-                line_length = 10,
-                width = 224,
-                height = 128,
-                animation_speed = 0.35
+        animation = {
+            layers = {
+                {
+                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/off.png",
+                    width = 224,
+                    height = 384,
+                    frame_count = 1,
+                    shift = util.by_pixel(0, -80)
+                },
+                {
+                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/shadow.png",
+                    width = 96,
+                    height = 384,
+                    frame_count = 1,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(158, -80)
+                },
             }
         },
     },

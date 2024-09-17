@@ -87,48 +87,50 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions['uranium-mine'].points,
     circuit_connector_sprites = circuit_connector_definitions['uranium-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/uranium-mine/left.png',
-                width = 192,
-                height = 399,
-                line_length = 10,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-80, -22)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/uranium-mine/right.png',
-                width = 160,
-                height = 399,
-                line_length = 10,
-                frame_count = 50,
-                animation_speed = 0.2,
-                shift = util.by_pixel(96, -22)
-            },
-            --SHADOWS
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/uranium-mine/shadow-left.png',
-                width = 192,
-                height = 373,
-                line_length = 10,
-                frame_count = 50,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(-80, -4)
-            },
-            {
-                filename = '__pyraworesgraphics__/graphics/entity/big-mines/uranium-mine/shadow-right.png',
-                width = 191,
-                height = 373,
-                line_length = 10,
-                frame_count = 50,
-                animation_speed = 0.2,
-                draw_as_shadow = true,
-                shift = util.by_pixel(112, -4)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/uranium-mine/left.png',
+                    width = 192,
+                    height = 399,
+                    line_length = 10,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-80, -22)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/uranium-mine/right.png',
+                    width = 160,
+                    height = 399,
+                    line_length = 10,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(96, -22)
+                },
+                --SHADOWS
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/uranium-mine/shadow-left.png',
+                    width = 192,
+                    height = 373,
+                    line_length = 10,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(-80, -4)
+                },
+                {
+                    filename = '__pyraworesgraphics__/graphics/entity/big-mines/uranium-mine/shadow-right.png',
+                    width = 191,
+                    height = 373,
+                    line_length = 10,
+                    frame_count = 50,
+                    animation_speed = 0.2,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(112, -4)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
     working_sound = {

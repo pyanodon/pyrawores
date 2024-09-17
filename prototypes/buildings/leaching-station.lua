@@ -115,31 +115,33 @@ for i = 1, 4 do
             },
         },
         energy_usage = (400 * i) .. 'kW',
-        animation = {
-            layers = {
+        graphics_set = {
+            working_visualisations = {
                 {
-                    filename = '__pyraworesgraphics__/graphics/entity/leaching-station/off-mk0' .. i .. '.png',
-                    width = 224,
-                    height = 233,
-                    frame_count = 1,
-                    shift = util.by_pixel(0, -5)
+                    fadeout = true,
+                    constant_speed = true,
+                    north_position = util.by_pixel(0, -5),
+                    west_position = util.by_pixel(0, -5),
+                    south_position = util.by_pixel(0, -5),
+                    east_position = util.by_pixel(0, -5),
+                    animation = {
+                        filename = '__pyraworesgraphics__/graphics/entity/leaching-station/on-mk0' .. i .. '.png',
+                        frame_count = 1,
+                        width = 224,
+                        height = 233,
+                        --animation_speed = 0.4
+                    }
                 },
-            }
-        },
-        working_visualisations = {
-            {
-                fadeout = true,
-                constant_speed = true,
-                north_position = util.by_pixel(0, -5),
-                west_position = util.by_pixel(0, -5),
-                south_position = util.by_pixel(0, -5),
-                east_position = util.by_pixel(0, -5),
-                animation = {
-                    filename = '__pyraworesgraphics__/graphics/entity/leaching-station/on-mk0' .. i .. '.png',
-                    frame_count = 1,
-                    width = 224,
-                    height = 233,
-                    --animation_speed = 0.4
+            },
+            animation = {
+                layers = {
+                    {
+                        filename = '__pyraworesgraphics__/graphics/entity/leaching-station/off-mk0' .. i .. '.png',
+                        width = 224,
+                        height = 233,
+                        frame_count = 1,
+                        shift = util.by_pixel(0, -5)
+                    },
                 }
             },
         },
