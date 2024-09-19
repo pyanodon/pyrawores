@@ -50,21 +50,13 @@ ENTITY {
     stage_counts = {2000, 1600, 1400, 1200, 800, 400, 200, 10},
     stages = {
         sheet = {
-            filename = "__pyraworesgraphics__/graphics/entity/ores/coal/coal.png",
+            filename = "__pyraworesgraphics__/graphics/entity/ores/coal/hr-coal.png",
             priority = "extra-high",
-            width = 64,
-            height = 64,
+            width = 128,
+            height = 128,
             frame_count = 8,
             variation_count = 8,
-            hr_version = {
-                filename = "__pyraworesgraphics__/graphics/entity/ores/coal/hr-coal.png",
-                priority = "extra-high",
-                width = 128,
-                height = 128,
-                frame_count = 8,
-                variation_count = 8,
-                scale = 0.5
-            }
+            scale = 0.5
         }
     }
 }
