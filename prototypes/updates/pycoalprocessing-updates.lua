@@ -60,8 +60,8 @@ RECIPE('crushing-iron'):remove_unlock('advanced-material-processing'):set_fields
 RECIPE('crushed-iron'):remove_unlock('advanced-material-processing'):set_fields{hidden = true}
 RECIPE('steel-plate2'):remove_unlock('advanced-material-processing-2'):set_fields{hidden = true}
 
-ITEM('crushed-copper'):add_flag('hidden')
-ITEM('crushed-iron'):add_flag('hidden')
+ITEM('crushed-copper').hidden = true
+ITEM('crushed-iron').hidden = true
 
 RECIPE('coke-coal'):remove_unlock('coal-processing-1'):add_unlock('coke-mk01'):replace_ingredient('coal', 'raw-coal')
 if RECIPE['fuelrod-mk01'] then RECIPE('fuelrod-mk01'):remove_unlock('advanced-material-processing-2'):set_fields{hidden = true} end
