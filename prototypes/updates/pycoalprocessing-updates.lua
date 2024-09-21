@@ -38,13 +38,13 @@ RECIPE('nexelit-plate'):remove_unlock('nexelit'):set_fields{hidden = true}
 
 --Autofactory
 
-RECIPE('automated-factory-mk01'):replace_ingredient('advanced-circuit', 'electronic-circuit'):remove_unlock('advanced-electronics'):add_unlock('fast-inserter')
+RECIPE('automated-factory-mk01'):replace_ingredient('advanced-circuit', 'electronic-circuit'):remove_unlock('advanced-circuit'):add_unlock('fast-inserter')
 
 --advanced-circuit
 
 RECIPE('advanced-circuit'):add_ingredient({type = 'item', name = 'optical-fiber', amount = 2})
 
---TECHNOLOGY('advanced-electronics'):add_prereq('fine-electronics')
+--TECHNOLOGY('advanced-circuit'):add_prereq('fine-electronics')
 
 --cladded core
 

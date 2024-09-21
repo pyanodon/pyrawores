@@ -127,7 +127,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "ammonia", amount = 100}
     }
-}:add_unlock("advanced-electronics")
+}:add_unlock("advanced-circuit")
 
 RECIPE {
     type = "recipe",
@@ -473,7 +473,7 @@ RECIPE {
         {type = 'fluid', name = 'hydrogen', amount = 50},
     },
     main_product = "cyanic-acid",
-}:add_unlock("advanced-electronics")
+}:add_unlock("advanced-circuit")
 
 RECIPE {
     type = 'recipe',
@@ -489,7 +489,7 @@ RECIPE {
         {type = 'fluid', name = 'glycerol', amount = 100},
     },
     main_product = "glycerol",
-}:add_unlock("advanced-electronics")
+}:add_unlock("advanced-circuit")
 
 RECIPE {
     type = 'recipe',

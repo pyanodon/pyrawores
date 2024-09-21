@@ -9,7 +9,7 @@ TECHNOLOGY("fluid-handling"):remove_prereq("automation"):remove_prereq("steel-pr
 TECHNOLOGY('engine'):remove_pack('logistic-science-pack'):remove_prereq('logistic-science-pack')
 TECHNOLOGY('heavy-armor'):remove_prereq('steel-processing')
 TECHNOLOGY('solar-energy'):remove_prereq('logistic-science-pack')
-TECHNOLOGY("advanced-electronics"):remove_prereq("fast-inserter"):remove_prereq("plastics")
+TECHNOLOGY("advanced-circuit"):remove_prereq("fast-inserter"):remove_prereq("plastics")
 TECHNOLOGY("automobilism"):remove_prereq("engine")
 TECHNOLOGY("battery"):remove_prereq("sulfur-processing")
 TECHNOLOGY("explosives"):remove_prereq("sulfur-processing")
