@@ -50,7 +50,7 @@ ENTITY {
         volume = 200,
         base_level = -1,
         pipe_connections = {
-            {position = {-7, -3}},
+            {flow_direction = "input-output", position = {-6.3, -3}, direction = defines.direction.west},
         }
     },
     module_slots = 1,
