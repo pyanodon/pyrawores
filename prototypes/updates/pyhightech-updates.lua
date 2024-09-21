@@ -3,7 +3,7 @@
 
 --ENITITY
 if mods['pyhightech'] and not mods["pyalienlife"] then
-    table.insert(data.raw['assembling-machine']['crash-site-assembling-machine-1-repaired'].minable.results, {name = 'duralumin', amount = 50})
+    table.insert(data.raw['assembling-machine']['crash-site-assembling-machine-1-repaired'].minable.results, {type = "item", name = 'duralumin', amount = 50})
 end
 
 RECIPE("al-pulp-01"):replace_ingredient("boric-acid", "phosphoric-acid")
