@@ -57,7 +57,7 @@ data:extend{{
         -- mining_particle = "phosphate-rock-02-particle",
         mining_time = 1,
         results = {
-            {"phosphate-rock", 1}
+            {type = "item", name = "phosphate-rock", amount = 1}
         }
     },
     resource_patch_search_radius = 12,

@@ -57,7 +57,7 @@ data:extend{{
         -- mining_particle = "uranium-rock-particle",
         mining_time = 1,
         results = {
-            {"uranium-ore", 1}
+            {type = "item", name = "uranium-ore", amount = 1}
         },
         fluid_amount = 10,
         required_fluid = (mods["pyfusionenergy"] and "gasoline" or "diesel")

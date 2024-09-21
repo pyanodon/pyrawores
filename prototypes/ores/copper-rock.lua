@@ -57,7 +57,7 @@ data:extend{{
         -- mining_particle = "copper-rock-particle",
         mining_time = 1,
         results = {
-            {"copper-ore", 1}
+            {type = "item", name = "copper-ore", amount = 1}
         }
     },
     resource_patch_search_radius = 12,

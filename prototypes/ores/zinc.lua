@@ -26,7 +26,7 @@ ENTITY {
         -- mining_particle = "zinc-ore-particle",
         mining_time = 1,
         results = {
-            {"ore-zinc", 1}
+            {type = "item", name = "ore-zinc", amount = 1}
         },
         fluid_amount = 40,
         required_fluid = "aromatics"

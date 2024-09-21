@@ -57,7 +57,7 @@ data:extend{{
         -- mining_particle = "chromium-rock-particle",
         mining_time = 1,
         results = {
-            {"ore-chromium", 1}
+            {type = "item", name = "ore-chromium", amount = 1}
         }
     },
     resource_patch_search_radius = 12,
