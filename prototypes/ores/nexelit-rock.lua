@@ -57,7 +57,7 @@ data:extend{{
         -- mining_particle = "nexelit-rock-particle",
         mining_time = 1,
         results = {
-            {"nexelit-ore", 1}
+            {type = "item", name = "nexelit-ore", amount = 1}
         }
     },
     resource_patch_search_radius = 12,

@@ -26,7 +26,7 @@ ENTITY {
         -- mining_particle = "raw-coal-ore-particle",
         mining_time = 0.5,
         results = {
-            {"raw-coal", 1}
+            {type = "item", name = "raw-coal", amount = 1}
         }
     },
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},

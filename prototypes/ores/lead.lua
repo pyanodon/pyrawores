@@ -26,7 +26,7 @@ ENTITY {
         -- mining_particle = "lead-ore-particle",
         mining_time = 1,
         results = {
-            {"ore-lead", 1}
+            {type = "item", name = "ore-lead", amount = 1}
         },
         fluid_amount = 100,
         required_fluid = (mods["pyfusionenergy"] and "acetylene" or "syngas")

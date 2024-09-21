@@ -57,7 +57,7 @@ data:extend{{
         -- mining_particle = "tin-rock-particle",
         mining_time = 1,
         results = {
-            {"ore-tin", 1}
+            {type = "item", name = "ore-tin", amount = 1}
         }
     },
     resource_patch_search_radius = 12,
