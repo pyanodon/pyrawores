@@ -57,7 +57,7 @@ ENTITY {
             color = {0, 0, 0},
         },
         type = 'burner',
-        fuel_category = 'drill',
+        fuel_categories = {'drill'},
         effectivity = 1,
         fuel_inventory_size = 1,
         emissions_per_minute = {
