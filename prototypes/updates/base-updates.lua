@@ -49,7 +49,8 @@ data.raw["assembling-machine"]["centrifuge"].crafting_speed = 4
 data.raw["assembling-machine"]["centrifuge"].module_slots = 4
 
 data.raw.resource['coal'].autoplace = nil
-data.raw['autoplace-control']['coal'] = nil
+-- TODO figure out what happened to it
+-- data.raw['autoplace-control']['coal'] = nil
 
 if data.raw.resource["uranium-ore"] ~= nil then
     data.raw.resource["uranium-ore"].minable.required_fluid = nil
