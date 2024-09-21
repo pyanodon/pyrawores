@@ -98,9 +98,7 @@ for i = 1, 4 do
         collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
         selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
         match_animation_speed_to_activity = false,
-        module_specification = {
-            module_slots = i
-        },
+        module_slots = i,
         allowed_effects = {'consumption', 'speed', 'productivity', 'pollution'},
         crafting_categories = {'hydroclassifier'},
         crafting_speed = i,
