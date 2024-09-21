@@ -1,5 +1,7 @@
 local resource_autoplace = require 'resource-autoplace'
 
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["ore-quartz"] = {}
+
 data:extend{{
     type = "autoplace-control",
     category = "resource",

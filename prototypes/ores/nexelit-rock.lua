@@ -1,3 +1,5 @@
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["nexelit-rock"] = {}
+
 data:extend{{
     type = "autoplace-control",
     category = "resource",
@@ -14,30 +16,30 @@ data:extend{{
 data:extend{
     {
         type = "noise-expression",
-        name = "py_nexelit-rock_starting_area",
+        name = "py_nexelit_rock_starting_area",
         -- 0% chance of spawning in starting area (tier == 0)
         -- Using this is equivalent to has_starting_area_placement = false
-        expression = "clamp(var('tier'), 0, 1)"
+        expression = "clamp(var('tier_from_start'), 0, 1)"
     },
     {
         type = "noise-expression",
-        name = "py_nexelit-rock_desired_frequency",
+        name = "py_nexelit_rock_desired_frequency",
         -- 1 in 48 chunks (each chunk is 64x64 tiles)
         expression = "1 / (64 * 64^2)"
     },
     {
         -- We return the chance of spawning on any given tile here
         type = "noise-expression",
-        name = "py_nexelit-rock",
+        name = "py_nexelit_rock",
         -- Our final chance, likely a very, very small decimal
         expression = [[
-            py_nexelit-rock_starting_area * py_nexelit-rock_desired_frequency * var("control-setting:nexelit-rock:frequency:multiplier")
+            py_nexelit_rock_starting_area * py_nexelit_rock_desired_frequency * var("control-setting:nexelit-rock:frequency:multiplier")
         ]]
     },
     {
         -- We return the richness here, which is just the quantity the resource tile yields
         type = "noise-expression",
-        name = "py_nexelit-rock_richness",
+        name = "py_nexelit_rock_richness",
         expression = "2^16 * var('distance') * var('control-setting:nexelit-rock:richness:multiplier')"
     }
 }
@@ -69,9 +71,9 @@ data:extend{{
         name = "nexelit-rock",
         order = "b-nexelit-rock",
         -- We return the chance of spawning on any given tile here
-        probability_expression = "py_nexelit-rock",
+        probability_expression = "py_nexelit_rock",
         -- We return the richness here, which is just the quantity the resource tile yields
-        richness_expression = "py_nexelit-rock_richness"
+        richness_expression = "py_nexelit_rock_richness"
     },
     stage_counts = {0},
     stages = {
