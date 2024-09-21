@@ -101,9 +101,7 @@ for i = 1, 4 do
         collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
         selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
         match_animation_speed_to_activity = false,
-        module_specification = {
-            module_slots = i
-        },
+        module_slots = i,
         allowed_effects = {'consumption', 'speed', 'pollution', 'productivity'},
         crafting_categories = {'py-rawores-smelter'},
         crafting_speed = i,

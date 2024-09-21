@@ -43,9 +43,7 @@ ENTITY {
     dying_explosion = 'medium-explosion',
     collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
     selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
-    module_specification = {
-        module_slots = 1
-    },
+    module_slots = 1,
     allowed_effects = {'consumption', 'speed', 'productivity'},
     mining_speed = 20,
     energy_source =

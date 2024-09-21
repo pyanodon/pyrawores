@@ -46,7 +46,7 @@ data.raw.reactor['nuclear-reactor'].working_light_picture = {
 }
 
 data.raw["assembling-machine"]["centrifuge"].crafting_speed = 4
-data.raw["assembling-machine"]["centrifuge"].module_specification.module_slots = 4
+data.raw["assembling-machine"]["centrifuge"].module_slots = 4
 
 data.raw.resource['coal'].autoplace = nil
 data.raw['autoplace-control']['coal'] = nil
