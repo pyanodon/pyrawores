@@ -8,10 +8,10 @@ data:extend{{
     order = "p-chro"
 }}
 
-data:extend{{
-    type = "noise-layer",
-    name = "ore-chromium"
-}}
+-- data:extend{{
+--     type = "noise-layer",
+--     name = "ore-chromium"
+-- }}
 
 ENTITY {
     type = "resource",
