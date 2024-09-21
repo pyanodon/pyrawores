@@ -8,10 +8,10 @@ data:extend{{
     order = "p-quar"
 }}
 
-data:extend{{
-    type = "noise-layer",
-    name = "ore-quartz"
-}}
+-- data:extend{{
+--     type = "noise-layer",
+--     name = "ore-quartz"
+-- }}
 
 ENTITY {
     type = "resource",
