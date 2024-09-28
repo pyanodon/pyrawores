@@ -123,7 +123,7 @@ ENTITY {
     circuit_connector_sprites = circuit_connector_definitions['aluminium-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
     graphics_set = {
-        animations = {
+        animation = {
             layers = {
                 {
                     filename = '__pyraworesgraphics__/graphics/entity/big-mines/aluminium-mine/raw.png',

@@ -75,7 +75,7 @@ ENTITY {
     circuit_connector_sprites = circuit_connector_definitions['nickel-mine'].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
     graphics_set = {
-        animations = {
+        animation = {
             layers = {
                 {
                     filename = '__pyraworesgraphics__/graphics/entity/big-mines/nickel-mine/a1.png',
