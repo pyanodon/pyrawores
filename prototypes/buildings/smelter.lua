@@ -290,6 +290,7 @@ for i = 1, 4 do
                 }
             },
         },
+        fluid_boxes_off_when_no_fluid_recipe = true,
         fluid_boxes = {
             --1
             {
@@ -352,7 +353,6 @@ for i = 1, 4 do
                 volume = 1000,
                 pipe_connections = {{flow_direction = 'output', position = {-5.0, 6.3}, direction = defines.direction.south}}
             },
-            off_when_no_fluid_recipe = true
         },
         vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
         working_sound = {
