@@ -49,7 +49,7 @@ ENTITY {
         volume = 200,
         base_level = -1,
         pipe_connections = {
-            {flow_direction = "input-output", position = {5.3, 0}, direction = defines.direction.east},
+            {flow_direction = "input-output", position = {5.0, 0}, direction = defines.direction.east},
         }
     },
 
