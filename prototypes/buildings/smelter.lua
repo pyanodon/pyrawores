@@ -118,7 +118,7 @@ for i = 1, 4 do
                 base_level = -1,
                 pipe_connections =
                 {
-                    {flow_direction = 'input', position = {0, -6.3}, direction = defines.direction.north}
+                    {flow_direction = 'input', position = {0, -6.0}, direction = defines.direction.north}
                 },
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
@@ -299,7 +299,7 @@ for i = 1, 4 do
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
                 base_level = -1,
-                pipe_connections = {{flow_direction = 'input', position = {-3.0, -6.3}, direction = defines.direction.north}}
+                pipe_connections = {{flow_direction = 'input', position = {-3.0, -6.0}, direction = defines.direction.north}}
             },
             {
                 production_type = 'input',
@@ -307,7 +307,7 @@ for i = 1, 4 do
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
                 base_level = -1,
-                pipe_connections = {{flow_direction = 'input', position = {-5.0, -6.3}, direction = defines.direction.north}}
+                pipe_connections = {{flow_direction = 'input', position = {-5.0, -6.0}, direction = defines.direction.north}}
             },
             {
                 production_type = 'input',
@@ -315,7 +315,7 @@ for i = 1, 4 do
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
                 base_level = -1,
-                pipe_connections = {{flow_direction = 'input', position = {3.0, -6.3}, direction = defines.direction.north}}
+                pipe_connections = {{flow_direction = 'input', position = {3.0, -6.0}, direction = defines.direction.north}}
             },
             {
                 production_type = 'input',
@@ -323,35 +323,35 @@ for i = 1, 4 do
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
                 base_level = -1,
-                pipe_connections = {{flow_direction = 'input', position = {5.0, -6.3}, direction = defines.direction.north}}
+                pipe_connections = {{flow_direction = 'input', position = {5.0, -6.0}, direction = defines.direction.north}}
             },
             {
                 production_type = 'output',
                 pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = 'output', position = {3.0, 6.3}, direction = defines.direction.south}}
+                pipe_connections = {{flow_direction = 'output', position = {3.0, 6.0}, direction = defines.direction.south}}
             },
             {
                 production_type = 'output',
                 pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = 'output', position = {5.0, 6.3}, direction = defines.direction.south}}
+                pipe_connections = {{flow_direction = 'output', position = {5.0, 6.0}, direction = defines.direction.south}}
             },
             {
                 production_type = 'output',
                 pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = 'output', position = {-3.0, 6.3}, direction = defines.direction.south}}
+                pipe_connections = {{flow_direction = 'output', position = {-3.0, 6.0}, direction = defines.direction.south}}
             },
             {
                 production_type = 'output',
                 pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = 'output', position = {-5.0, 6.3}, direction = defines.direction.south}}
+                pipe_connections = {{flow_direction = 'output', position = {-5.0, 6.0}, direction = defines.direction.south}}
             },
         },
         vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
