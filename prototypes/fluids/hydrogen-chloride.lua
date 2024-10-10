@@ -5,13 +5,13 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "chlorine", amount = 100},
-        {type = "fluid", name = "hydrogen", amount = 100},
-        {type = "item", name = "small-lamp", amount = 1}
+        {type = "fluid", name = "chlorine",   amount = 100},
+        {type = "fluid", name = "hydrogen",   amount = 100},
+        {type = "item",  name = "small-lamp", amount = 1}
     },
     results = {
         {type = "fluid", name = "hydrogen-chloride", amount = 100},
-        {type = "item", name = "small-lamp", amount = 1, probability = 0.5}
+        {type = "item",  name = "small-lamp",        amount = 1,  probability = 0.5}
     },
     main_product = "hydrogen-chloride",
     icon = "__pyraworesgraphics__/graphics/icons/hydrogen-chloride.png",
@@ -27,11 +27,11 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "salt", amount = 10},
+        {type = "item",  name = "salt",          amount = 10},
         {type = "fluid", name = "sulfuric-acid", amount = 100}
     },
     results = {
-        {type = "item", name = "sodium-bisulfate", amount = 1},
+        {type = "item",  name = "sodium-bisulfate",  amount = 1},
         {type = "fluid", name = "hydrogen-chloride", amount = 30}
     },
     main_product = "sodium-bisulfate",
@@ -48,11 +48,11 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "salt", amount = 5},
+        {type = "item", name = "salt",             amount = 5},
         {type = "item", name = "sodium-bisulfate", amount = 1}
     },
     results = {
-        {type = "item", name = "sodium-sulfate", amount = 1},
+        {type = "item",  name = "sodium-sulfate",    amount = 1},
         {type = "fluid", name = "hydrogen-chloride", amount = 40}
     },
     main_product = "sodium-sulfate",

@@ -6,11 +6,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "outlet-gas-02", amount = 100},
-        {type = "fluid", name = "acidgas", amount = 50}
+        {type = "fluid", name = "acidgas",       amount = 50}
     },
     results = {
         {type = "fluid", name = "outlet-gas-03", amount = 100},
-        {type = "item", name = "sulfur", amount = 10}
+        {type = "item",  name = "sulfur",        amount = 10}
         --add ammonia
     },
     main_product = "outlet-gas-03",

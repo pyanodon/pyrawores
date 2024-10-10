@@ -1,6 +1,6 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["aluminium-rock"] = {}
 
-data:extend{{
+data:extend {{
     type = "autoplace-control",
     category = "resource",
     name = "aluminium-rock",
@@ -13,7 +13,7 @@ data:extend{{
 --     name = "aluminium-rock"
 -- }}
 
-data:extend{
+data:extend {
     {
         type = "noise-expression",
         name = "py_aluminium_rock_starting_area",
@@ -44,12 +44,12 @@ data:extend{
     }
 }
 
-data:extend{{
+data:extend {{
     type = "resource",
     name = "aluminium-rock",
     category = "aluminium-rock",
     icon = "__pyraworesgraphics__/graphics/icons/ores/aluminium-rock.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
     map_color = {r = 1, g = 0.709, b = 0.286},

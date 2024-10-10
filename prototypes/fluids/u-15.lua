@@ -5,11 +5,11 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "u-20", amount = 50},
+        {type = "fluid", name = "u-20",  amount = 50},
         {type = "fluid", name = "water", amount = 200},
     },
     results = {
-        {type = "fluid", name = "u-15", amount = 25},
+        {type = "fluid", name = "u-15",              amount = 25},
         {type = "fluid", name = "dirty-water-heavy", amount = 50},
     },
     main_product = "u-15",
@@ -24,11 +24,11 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "u-23", amount = 50},
+        {type = "fluid", name = "u-23",  amount = 50},
         {type = "fluid", name = "water", amount = 200},
     },
     results = {
-        {type = "fluid", name = "u-15", amount = 25},
+        {type = "fluid", name = "u-15",              amount = 25},
         {type = "fluid", name = "dirty-water-heavy", amount = 50},
     },
     main_product = "u-15",
@@ -40,7 +40,7 @@ FLUID {
     type = "fluid",
     name = "u-15",
     icon = "__pyraworesgraphics__/graphics/icons/u-15.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.180, g = 0.756, b = 0.196},

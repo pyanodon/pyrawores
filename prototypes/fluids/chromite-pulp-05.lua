@@ -6,11 +6,11 @@ RECIPE {
     energy_required = 2,
     ingredients = {
         {type = "fluid", name = "chromite-pulp-06", amount = 100},
-        {type = "fluid", name = "glycerol", amount = 100},
+        {type = "fluid", name = "glycerol",         amount = 100},
     },
     results = {
         {type = "fluid", name = "chromite-pulp-05", amount = 50},
-        {type = "item", name = "high-chromite", amount = 1, probability = 0.2},
+        {type = "item",  name = "high-chromite",    amount = 1, probability = 0.2},
     },
     main_product = "chromite-pulp-05",
     subgroup = "py-rawores-chromium",
@@ -21,7 +21,7 @@ FLUID {
     type = "fluid",
     name = "chromite-pulp-05",
     icon = "__pyraworesgraphics__/graphics/icons/chromite-pulp-05.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.862, g = 0.294, b = 0.031},

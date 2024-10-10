@@ -1,4 +1,3 @@
-
 ---PROCESSING RECIPES---
 
 RECIPE {
@@ -30,7 +29,7 @@ RECIPE {
         {type = "item", name = "grade-1-copper", amount = 2}
     },
     results = {
-        {type = "item", name = "stone", amount = 2},
+        {type = "item", name = "stone",          amount = 2},
         {type = "item", name = "grade-2-copper", amount = 1}
     },
     main_product = "grade-2-copper",
@@ -67,7 +66,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-3-copper", amount = 1, probability = 0.5},
-        {type = "item", name = "gravel", amount = 1}
+        {type = "item", name = "gravel",         amount = 1}
     },
     main_product = "grade-3-copper",
     subgroup = "py-rawores-copper",
@@ -83,7 +82,7 @@ RECIPE {
         {type = "item", name = "grade-3-copper", amount = 2}
     },
     results = {
-        {type = "item", name = "grade-4-copper", amount = 1},
+        {type = "item", name = "grade-4-copper",    amount = 1},
         {type = "item", name = "low-grade-rejects", amount = 2}
     },
     main_product = "grade-4-copper",
@@ -102,7 +101,7 @@ RECIPE {
         {type = "item", name = "low-grade-rejects", amount = 4}
     },
     results = {
-        {type = "item", name = "grade-4-copper", amount = 1, probability = 0.3},
+        {type = "item", name = "grade-4-copper",  amount = 1, probability = 0.3},
         {type = "item", name = "copper-low-dust", amount = 1}
     },
     main_product = "grade-4-copper",
@@ -118,11 +117,11 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "item", name = "copper-low-dust", amount = 1},
-        {type = "fluid", name = "water", amount = 200}
+        {type = "item",  name = "copper-low-dust", amount = 1},
+        {type = "fluid", name = "water",           amount = 200}
     },
     results = {
-        {type = "item", name = "low-grade-copper", amount = 1},
+        {type = "item",  name = "low-grade-copper",  amount = 1},
         {type = "fluid", name = "dirty-water-heavy", amount = 200}
     },
     main_product = "low-grade-copper",
@@ -141,7 +140,7 @@ RECIPE {
         {type = "fluid", name = "copper-pregnant-solution", amount = 100}
     },
     results = {
-        {type = "item", name = "high-grade-copper", amount = 1},
+        {type = "item",  name = "high-grade-copper", amount = 1},
         {type = "fluid", name = "dirty-water-heavy", amount = 100}
     },
     main_product = "high-grade-copper",
@@ -157,9 +156,9 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "high-grade-copper", amount = 1},
-        {type = "item", name = "sodium-sulfate", amount = 2},
-        {type = "fluid", name = "diesel", amount = 50}
+        {type = "item",  name = "high-grade-copper", amount = 1},
+        {type = "item",  name = "sodium-sulfate",    amount = 2},
+        {type = "fluid", name = "diesel",            amount = 50}
         --pyfe pressured air
     },
     results = {
@@ -176,9 +175,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "reduced-copper", amount = 1},
-        {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100}
+        {type = "item",  name = "reduced-copper", amount = 1},
+        {type = "item",  name = "lime",           amount = 3},
+        {type = "fluid", name = "syngas",         amount = 100}
         --pyfe pressured air
     },
     results = {
@@ -197,9 +196,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "reduced-copper", amount = 1},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 60}
+        {type = "item",  name = "reduced-copper", amount = 1},
+        {type = "item",  name = "borax",          amount = 3},
+        {type = "fluid", name = "oxygen",         amount = 60}
     },
     results = {
         {type = "fluid", name = "molten-copper", amount = 60}
@@ -216,9 +215,9 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "sintered-copper", amount = 1},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 60}
+        {type = "item",  name = "sintered-copper", amount = 1},
+        {type = "item",  name = "borax",           amount = 3},
+        {type = "fluid", name = "oxygen",          amount = 60}
     },
     results = {
         {type = "fluid", name = "molten-copper", amount = 47}
@@ -235,9 +234,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "high-grade-copper", amount = 1},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 60}
+        {type = "item",  name = "high-grade-copper", amount = 1},
+        {type = "item",  name = "borax",             amount = 3},
+        {type = "fluid", name = "oxygen",            amount = 60}
     },
     results = {
         {type = "fluid", name = "molten-copper", amount = 50}
@@ -254,9 +253,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-4-copper", amount = 3},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 60}
+        {type = "item",  name = "grade-4-copper", amount = 3},
+        {type = "item",  name = "borax",          amount = 3},
+        {type = "fluid", name = "oxygen",         amount = 60}
     },
     results = {
         {type = "fluid", name = "molten-copper", amount = 21}
@@ -276,8 +275,8 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-copper", amount = 100},
-        {type = "item", name = "borax", amount = 3},
-        {type = "item", name = "sand-casting", amount = 1}
+        {type = "item",  name = "borax",         amount = 3},
+        {type = "item",  name = "sand-casting",  amount = 1}
     },
     results = {
         {type = "item", name = "copper-plate", amount = 60}

@@ -5,11 +5,11 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "ti-pulp-03", amount = 100},
+        {type = "fluid", name = "ti-pulp-03",    amount = 100},
         {type = "fluid", name = "sulfuric-acid", amount = 150},
     },
     results = {
-        {type = "fluid", name = "purified-ti-pulp", amount = 50},
+        {type = "fluid", name = "purified-ti-pulp",  amount = 50},
         {type = "fluid", name = "ti-overflow-waste", amount = 25},
     },
     main_product = "purified-ti-pulp",
@@ -25,7 +25,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "ti-pulp-04", amount = 300},
-        {type = "item", name = "biofilm", amount = 1},
+        {type = "item",  name = "biofilm",    amount = 1},
     },
     results = {
         {type = "fluid", name = "purified-ti-pulp", amount = 150},
@@ -40,7 +40,7 @@ FLUID {
     type = "fluid",
     name = "purified-ti-pulp",
     icon = "__pyraworesgraphics__/graphics/icons/purified-ti-pulp.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.713, g = 0.643, b = 0.733},

@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "chromite-concentrate", amount = 100},
-        {type = "fluid", name = "chlorine", amount = 200},
+        {type = "fluid", name = "chlorine",             amount = 200},
     },
     results = {
         {type = "fluid", name = "prepared-chromium", amount = 50},
@@ -21,7 +21,7 @@ FLUID {
     type = "fluid",
     name = "prepared-chromium",
     icon = "__pyraworesgraphics__/graphics/icons/prepared-chromium.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.213, g = 0.656, b = 0.668},

@@ -5,9 +5,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "u-79", amount = 100},
+        {type = "fluid", name = "u-79",  amount = 100},
         {type = "fluid", name = "water", amount = 100}, --pyfe soda-ash
-        {type = "item", name = "sand", amount = 10},
+        {type = "item",  name = "sand",  amount = 10},
     },
     results = {
         {type = "fluid", name = "u-81", amount = 100},
@@ -22,7 +22,7 @@ FLUID {
     type = "fluid",
     name = "u-81",
     icon = "__pyraworesgraphics__/graphics/icons/u-81.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.180, g = 0.756, b = 0.196},

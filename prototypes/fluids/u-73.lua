@@ -5,8 +5,8 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "u-70", amount = 100},
-        {type = "item", name = "steel-plate", amount = 5}
+        {type = "fluid", name = "u-70",        amount = 100},
+        {type = "item",  name = "steel-plate", amount = 5}
     },
     results = {
         {type = "fluid", name = "u-73", amount = 100}

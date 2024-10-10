@@ -5,9 +5,9 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "sulfuric-acid", amount = 75},
+        {type = "fluid", name = "sulfuric-acid",     amount = 75},
         {type = "fluid", name = "hydrogen-peroxide", amount = 20},
-        {type = "item", name = "iron-oxide", amount = 3}
+        {type = "item",  name = "iron-oxide",        amount = 3}
     },
     results = {
         {type = "fluid", name = "acid-solvent", amount = 100}

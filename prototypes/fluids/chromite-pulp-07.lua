@@ -6,10 +6,10 @@ RECIPE {
     energy_required = 2,
     ingredients = {
         {type = "fluid", name = "chromite-pulp-05", amount = 100},
-        {type = "fluid", name = "water", amount = 300},
+        {type = "fluid", name = "water",            amount = 300},
     },
     results = {
-        {type = "fluid", name = "chromite-pulp-07", amount = 100},
+        {type = "fluid", name = "chromite-pulp-07",  amount = 100},
         {type = "fluid", name = "dirty-water-heavy", amount = 200},
     },
     main_product = "chromite-pulp-07",
@@ -22,7 +22,7 @@ FLUID {
     type = "fluid",
     name = "chromite-pulp-07",
     icon = "__pyraworesgraphics__/graphics/icons/chromite-pulp-07.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.862, g = 0.294, b = 0.031},

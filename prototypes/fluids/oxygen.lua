@@ -2,7 +2,7 @@ FLUID {
     type = "fluid",
     name = "oxygen",
     icon = "__pyraworesgraphics__/graphics/icons/oxygen.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 15, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.701, g = 0.160, b = 0.180},

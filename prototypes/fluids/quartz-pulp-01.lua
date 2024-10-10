@@ -5,11 +5,11 @@ RECIPE {
     enabled = false,
     energy_required = 1,
     ingredients = {
-        {type = "item", name = "powdered-quartz", amount = 5},
-        {type = "fluid", name = "water", amount = 100},
+        {type = "item",  name = "powdered-quartz", amount = 5},
+        {type = "fluid", name = "water",           amount = 100},
     },
     results = {
-        {type = "fluid", name = "quartz-pulp-01", amount = 50},
+        {type = "fluid", name = "quartz-pulp-01",    amount = 50},
         {type = "fluid", name = "dirty-water-light", amount = 50}
     },
     main_product = "quartz-pulp-01",
@@ -24,7 +24,7 @@ FLUID {
     type = "fluid",
     name = "quartz-pulp-01",
     icon = "__pyraworesgraphics__/graphics/icons/quartz-pulp-01.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.647, g = 0.647, b = 0.647},

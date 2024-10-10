@@ -1,4 +1,3 @@
-
 --[[
 local entities = {}
 local ings = {}
@@ -25,4 +24,4 @@ table.sort(clean_ings)
 log(serpent.block(entities))
 log(serpent.block(ings))
 log(serpent.block(clean_ings))
-]]--
+]] --

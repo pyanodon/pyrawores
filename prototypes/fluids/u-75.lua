@@ -5,12 +5,12 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "u-73", amount = 100},
-        {type = "item", name = "filtration-media", amount = 1}
+        {type = "fluid", name = "u-73",             amount = 100},
+        {type = "item",  name = "filtration-media", amount = 1}
     },
     results = {
-        {type = "fluid", name = "u-75", amount = 100},
-        {type = "item", name = "iron-dust-concentrate", amount = 3}
+        {type = "fluid", name = "u-75",                  amount = 100},
+        {type = "item",  name = "iron-dust-concentrate", amount = 3}
     },
     main_product = "u-75",
     subgroup = "py-rawores-uranium",

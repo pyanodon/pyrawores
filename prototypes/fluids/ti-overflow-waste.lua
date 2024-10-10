@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "ti-solution-02", amount = 300},
-        {type = "fluid", name = "alamac", amount = 50},
+        {type = "fluid", name = "alamac",         amount = 50},
     },
     results = {
         {type = "fluid", name = "ti-overflow-waste", amount = 300},
@@ -22,7 +22,7 @@ FLUID {
     type = "fluid",
     name = "ti-overflow-waste",
     icon = "__pyraworesgraphics__/graphics/icons/ti-overflow-waste.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.713, g = 0.643, b = 0.733},

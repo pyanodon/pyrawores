@@ -5,14 +5,14 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "iron-oxide", amount = 10},
-        {type = "item", name = "sodium-sulfate", amount = 2},
-        {type = "fluid", name = "light-oil", amount = 100},
+        {type = "item",  name = "iron-oxide",     amount = 10},
+        {type = "item",  name = "sodium-sulfate", amount = 2},
+        {type = "fluid", name = "light-oil",      amount = 100},
         --pyfe pressured air
     },
     results = {
-        {type = "item", name = "sponge-iron", amount = 1},
-        {type = "fluid", name = "flue-gas", amount = 400},
+        {type = "item",  name = "sponge-iron", amount = 1},
+        {type = "fluid", name = "flue-gas",    amount = 400},
     },
     main_product = "sponge-iron",
     subgroup = "py-rawores-iron",
@@ -26,7 +26,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "sponge-iron", amount = 1},
-        {type = "item", name = "limestone", amount = 3},
+        {type = "item", name = "limestone",   amount = 3},
     },
     results = {
         {type = "fluid", name = "molten-steel", amount = 50},
@@ -43,13 +43,13 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "coke", amount = 10},
+        {type = "item",  name = "coke",        amount = 10},
         {type = "fluid", name = "molten-iron", amount = 50},
-        {type = "fluid", name = "oxygen", amount = 100},
+        {type = "fluid", name = "oxygen",      amount = 100},
     },
     results = {
         {type = "fluid", name = "molten-steel", amount = 50},
-        {type = "fluid", name = "flue-gas", amount = 500},
+        {type = "fluid", name = "flue-gas",     amount = 500},
     },
     main_product = "molten-steel",
     subgroup = "py-rawores-iron-alloys",
@@ -63,7 +63,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "sand-casting", amount = 2},
+        {type = "item",  name = "sand-casting", amount = 2},
         {type = "fluid", name = "molten-steel", amount = 100},
     },
     results = {
@@ -83,13 +83,13 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "molten-steel", amount = 100},
-        {type = "item", name = "sulfur", amount = 1},
-        {type = "item", name = "chromium", amount = 7},
-        {type = "item", name = "copper-plate", amount = 2},
-        {type = "item", name = "nickel-plate", amount = 5},
-        {type = "item", name = "niobium-plate", amount = 2},
---pyht phosphorous rock
+        {type = "fluid", name = "molten-steel",  amount = 100},
+        {type = "item",  name = "sulfur",        amount = 1},
+        {type = "item",  name = "chromium",      amount = 7},
+        {type = "item",  name = "copper-plate",  amount = 2},
+        {type = "item",  name = "nickel-plate",  amount = 5},
+        {type = "item",  name = "niobium-plate", amount = 2},
+        --pyht phosphorous rock
     },
     results = {
         {type = "fluid", name = "molten-stainless-steel", amount = 50},
@@ -106,8 +106,8 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "sand-casting", amount = 2},
-        {type = "item", name = "aramid", amount = 1},
+        {type = "item",  name = "sand-casting",           amount = 2},
+        {type = "item",  name = "aramid",                 amount = 1},
         {type = "fluid", name = "molten-stainless-steel", amount = 100},
     },
     results = {
@@ -128,9 +128,9 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-stainless-steel", amount = 50},
-        {type = "item", name = "fuelrod-mk02", amount = 3},
-        {type = "item", name = "niobium-plate", amount = 1},
-        {type = "item", name = "titanium-plate", amount = 4},
+        {type = "item",  name = "fuelrod-mk02",           amount = 3},
+        {type = "item",  name = "niobium-plate",          amount = 1},
+        {type = "item",  name = "titanium-plate",         amount = 4},
     },
     results = {
         {type = "fluid", name = "molten-super-steel", amount = 50},
@@ -147,8 +147,8 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "sand-casting", amount = 2},
-        {type = "item", name = "aramid", amount = 1},
+        {type = "item",  name = "sand-casting",       amount = 2},
+        {type = "item",  name = "aramid",             amount = 1},
         {type = "fluid", name = "molten-super-steel", amount = 100},
     },
     results = {
@@ -168,8 +168,8 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "molten-steel", amount = 100},
-        {type = "item", name = "sulfur", amount = 1},
+        {type = "fluid", name = "molten-steel",    amount = 100},
+        {type = "item",  name = "sulfur",          amount = 1},
         {type = "fluid", name = "molten-chromium", amount = 30},
     },
     results = {
@@ -188,7 +188,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-stainless-steel-p1", amount = 50},
-        {type = "fluid", name = "molten-copper", amount = 5},
+        {type = "fluid", name = "molten-copper",             amount = 5},
     },
     results = {
         {type = "fluid", name = "molten-stainless-steel-p2", amount = 60},
@@ -206,7 +206,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-stainless-steel-p2", amount = 50},
-        {type = "fluid", name = "molten-nickel", amount = 10},
+        {type = "fluid", name = "molten-nickel",             amount = 10},
     },
     results = {
         {type = "fluid", name = "molten-stainless-steel-p3", amount = 70},
@@ -224,8 +224,8 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-stainless-steel-p3", amount = 50},
-        {type = "fluid", name = "niobium-complex", amount = 25},
-        {type = 'item', name = 'fuelrod-mk03', amount = 1}
+        {type = "fluid", name = "niobium-complex",           amount = 25},
+        {type = "item",  name = "fuelrod-mk03",              amount = 1}
     },
     results = {
         {type = "fluid", name = "molten-stainless-steel", amount = 100},
@@ -245,8 +245,8 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-stainless-steel", amount = 50},
-        {type = "item", name = "fuelrod-mk04", amount = 3},
-        {type = "fluid", name = "niobium-complex", amount = 20},
+        {type = "item",  name = "fuelrod-mk04",           amount = 3},
+        {type = "fluid", name = "niobium-complex",        amount = 20},
     },
     results = {
         {type = "fluid", name = "molten-super-steel-p1", amount = 60},
@@ -265,7 +265,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-super-steel-p1", amount = 50},
-        {type = "fluid", name = "molten-titanium", amount = 20},
+        {type = "fluid", name = "molten-titanium",       amount = 20},
     },
     results = {
         {type = "fluid", name = "molten-super-steel-p2", amount = 60},

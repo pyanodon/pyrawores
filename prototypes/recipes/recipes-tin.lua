@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "grade-1-tin",
-    category = "solid-separator",--pyFE screener
+    category = "solid-separator", --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -28,7 +28,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-tin", amount = 1, probability = 0.5},
-        {type = "item", name = "stone", amount = 1}
+        {type = "item", name = "stone",       amount = 1}
     },
     main_product = "grade-1-tin",
     subgroup = "py-rawores-tin",
@@ -37,14 +37,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-tin",
-    category = "solid-separator",--pyFE screener
+    category = "solid-separator", --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item", name = "grade-1-tin", amount = 2},
     },
     results = {
-        {type = "item", name = "grade-3-tin", amount = 1},
+        {type = "item", name = "grade-3-tin",     amount = 1},
         {type = "item", name = "tin-ore-rejects", amount = 1, probability = 0.5},
     },
     main_product = "grade-3-tin",
@@ -56,7 +56,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tin-ore-rejects",
-    category = "crusher",--pyFE secondary crusher
+    category = "crusher", --pyFE secondary crusher
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -78,11 +78,11 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "grade-3-tin", amount = 1},
-        {type = "fluid", name = "water", amount = 100},
+        {type = "item",  name = "grade-3-tin", amount = 1},
+        {type = "fluid", name = "water",       amount = 100},
     },
     results = {
-        {type = "item", name = "grade-4-tin", amount = 1},
+        {type = "item",  name = "grade-4-tin",       amount = 1},
         {type = "fluid", name = "dirty-water-heavy", amount = 100},
     },
     main_product = "grade-4-tin",
@@ -114,12 +114,12 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "tin-dust", amount = 1},
-        {type = "fluid", name = "mibc", amount = 75},
-        {type = "fluid", name = "water", amount = 100},
+        {type = "item",  name = "tin-dust", amount = 1},
+        {type = "fluid", name = "mibc",     amount = 75},
+        {type = "fluid", name = "water",    amount = 100},
     },
     results = {
-        {type = "item", name = "tin-rejects", amount = 1},
+        {type = "item", name = "tin-rejects",     amount = 1},
         {type = "item", name = "tin-concentrate", amount = 1, probability = 0.2},
     },
     main_product = "tin-concentrate",
@@ -129,14 +129,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "powdered-tin",
-    category = "solid-separator",--pyFE screener
+    category = "solid-separator", --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item", name = "tin-rejects", amount = 1},
     },
     results = {
-        {type = "item", name = "powdered-tin", amount = 1},
+        {type = "item", name = "powdered-tin",  amount = 1},
         {type = "item", name = "tailings-dust", amount = 1},
     },
     main_product = "powdered-tin",
@@ -152,13 +152,13 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "sand", amount = 10},
-        {type = "fluid", name = "water", amount = 100},
+        {type = "item",  name = "sand",            amount = 10},
+        {type = "fluid", name = "water",           amount = 100},
         {type = "fluid", name = "tin-bottom-pulp", amount = 100},
     },
     results = {
         {type = "fluid", name = "dirty-water-heavy", amount = 50},
-        {type = "item", name = "tin-concentrate", amount = 1, probability = 0.75},
+        {type = "item",  name = "tin-concentrate",   amount = 1, probability = 0.75},
     },
     main_product = "tin-concentrate",
     subgroup = "py-rawores-tin",
@@ -171,13 +171,13 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "filtration-media", amount = 1},
-        {type = "fluid", name = "tin-pulp-01", amount = 450},
-        {type = "fluid", name = "heavy-oil", amount = 100}, --pyfe grease
+        {type = "item",  name = "filtration-media", amount = 1},
+        {type = "fluid", name = "tin-pulp-01",      amount = 450},
+        {type = "fluid", name = "heavy-oil",        amount = 100}, --pyfe grease
     },
     results = {
-        {type = "fluid", name = "lubricant", amount = 50},
-        {type = "item", name = "tin-concentrate", amount = 5},
+        {type = "fluid", name = "lubricant",       amount = 50},
+        {type = "item",  name = "tin-concentrate", amount = 5},
     },
     main_product = "tin-concentrate",
     subgroup = "py-rawores-tin",
@@ -194,7 +194,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "high-tin-concentrate", amount = 2},
-        {type = "item", name = "sand", amount = 1},
+        {type = "item", name = "sand",                 amount = 1},
     },
     main_product = "high-tin-concentrate",
     subgroup = "py-rawores-tin",
@@ -227,7 +227,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "high-grade-tin", amount = 1},
-        {type = "item", name = "iron-ore-dust", amount = 1, probability = 0.5},
+        {type = "item", name = "iron-ore-dust",  amount = 1, probability = 0.5},
     },
     main_product = "high-grade-tin",
     subgroup = "py-rawores-tin",
@@ -243,9 +243,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "high-grade-tin", amount = 1},
-        {type = "item", name = "sodium-sulfate", amount = 1},
-        {type = "fluid", name = "diesel", amount = 50},
+        {type = "item",  name = "high-grade-tin", amount = 1},
+        {type = "item",  name = "sodium-sulfate", amount = 1},
+        {type = "fluid", name = "diesel",         amount = 50},
         --pyfe pressured air
     },
     results = {
@@ -262,9 +262,9 @@ RECIPE {
     enabled = false,
     energy_required = 8,
     ingredients = {
-        {type = "item", name = "reduced-tin", amount = 3},
-        {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100},
+        {type = "item",  name = "reduced-tin", amount = 3},
+        {type = "item",  name = "lime",        amount = 3},
+        {type = "fluid", name = "syngas",      amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -284,7 +284,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "tin-dust", amount = 6},
-        {type = "item", name = "borax", amount = 4},
+        {type = "item", name = "borax",    amount = 4},
     },
     results = {
         {type = "fluid", name = "molten-tin", amount = 30},
@@ -338,7 +338,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "high-grade-tin", amount = 1},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax",          amount = 3},
     },
     results = {
         {type = "fluid", name = "molten-tin", amount = 92},
@@ -356,7 +356,7 @@ RECIPE {
     energy_required = 6,
     ingredients = {
         {type = "item", name = "reduced-tin", amount = 2},
-        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "borax",       amount = 3},
     },
     results = {
         {type = "fluid", name = "molten-tin", amount = 250},
@@ -374,7 +374,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "sintered-tin", amount = 1},
-        {type = "item", name = "borax", amount = 2},
+        {type = "item", name = "borax",        amount = 2},
     },
     results = {
         {type = "fluid", name = "molten-tin", amount = 80},
@@ -395,13 +395,13 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "molten-tin", amount = 100},
-        {type = "item", name = "sand-casting", amount = 1},
+        {type = "fluid", name = "molten-tin",   amount = 100},
+        {type = "item",  name = "sand-casting", amount = 1},
     },
     results = {
         {type = "item", name = "tin-plate", amount = 50}
     },
-    main_product= "tin-plate",
+    main_product = "tin-plate",
     subgroup = "py-rawores-tin",
     order = "aaa"
 }:add_unlock("tin-mk02")

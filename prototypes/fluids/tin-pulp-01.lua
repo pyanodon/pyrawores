@@ -6,10 +6,10 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "tin-slime-overflow", amount = 100},
-        {type = "fluid", name = "nitrogen", amount = 50}, --pyfe soda-ash
+        {type = "fluid", name = "nitrogen",           amount = 50}, --pyfe soda-ash
     },
     results = {
-        {type = "fluid", name = "tin-pulp-01", amount = 100},
+        {type = "fluid", name = "tin-pulp-01",       amount = 100},
         {type = "fluid", name = "dirty-water-heavy", amount = 50},
     },
     main_product = "tin-pulp-01",
@@ -22,7 +22,7 @@ FLUID {
     type = "fluid",
     name = "tin-pulp-01",
     icon = "__pyraworesgraphics__/graphics/icons/tin-pulp-01.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.258, g = 0.180, b = 0.807},

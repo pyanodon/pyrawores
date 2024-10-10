@@ -2,7 +2,7 @@ FLUID {
     type = "fluid",
     name = "u-45",
     icon = "__pyraworesgraphics__/graphics/icons/u-45.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.180, g = 0.756, b = 0.196},

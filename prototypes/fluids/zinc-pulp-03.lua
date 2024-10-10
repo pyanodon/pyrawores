@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "zinc-pulp-03", amount = 300},
-        {type = "fluid", name = "zinc-waste", amount = 150},
+        {type = "fluid", name = "zinc-waste",   amount = 150},
     },
     main_product = "zinc-pulp-03",
     subgroup = "py-rawores-zinc",
@@ -21,7 +21,7 @@ FLUID {
     type = "fluid",
     name = "zinc-pulp-03",
     icon = "__pyraworesgraphics__/graphics/icons/zinc-pulp-03.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.6, g = 0.903, b = 0.847},

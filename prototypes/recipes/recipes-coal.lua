@@ -1,4 +1,3 @@
-
 RECIPE {
     type = "recipe",
     name = "distilled-raw-coal",
@@ -9,10 +8,10 @@ RECIPE {
         {type = "item", name = "raw-coal", amount = 10}
     },
     results = {
-        {type = "fluid", name = "coal-gas", amount = 60},
-        {type = "fluid", name = "tar", amount = 30},
-        {type = "item", name = "iron-oxide", amount = 1, probability = 0.2},
-        {type = "item", name = "coal", amount = 3}
+        {type = "fluid", name = "coal-gas",   amount = 60},
+        {type = "fluid", name = "tar",        amount = 30},
+        {type = "item",  name = "iron-oxide", amount = 1, probability = 0.2},
+        {type = "item",  name = "coal",       amount = 3}
     },
     main_product = "coal",
     icon = "__pyraworesgraphics__/graphics/icons/coalgas-from-rawcoal.png",
@@ -34,8 +33,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "crushed-coal", amount = 1},
-        {type = "item", name = "coal", amount = 2},
-        {type = "item", name = "coal-dust", amount = 1, probability = 0.3}
+        {type = "item", name = "coal",         amount = 2},
+        {type = "item", name = "coal-dust",    amount = 1, probability = 0.3}
     },
     main_product = "crushed-coal",
     icon = "__pyraworesgraphics__/graphics/icons/recrush-coal.png",
@@ -70,8 +69,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "coarse-coal", amount = 1},
-        {type = "item", name = "coal", amount = 4},
-        {type = "item", name = "coal-dust", amount = 1, probability = 0.3}
+        {type = "item", name = "coal",        amount = 4},
+        {type = "item", name = "coal-dust",   amount = 1, probability = 0.3}
     },
     main_product = "coarse-coal",
     subgroup = "py-rawores-coal",
@@ -100,9 +99,9 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "biofilm", amount = 1},
+        {type = "item",  name = "biofilm",      amount = 1},
         {type = "fluid", name = "coal-pulp-01", amount = 150},
-        {type = "fluid", name = "water", amount = 200},
+        {type = "fluid", name = "water",        amount = 200},
     },
     results = {
         {type = "item", name = "coal", amount = 40},
@@ -123,10 +122,10 @@ RECIPE {
         --pyFE air
     },
     results = {
-        {type = "fluid", name = "high-ash-fines", amount = 30},
+        {type = "fluid", name = "high-ash-fines",    amount = 30},
         {type = "fluid", name = "conditioned-fines", amount = 50},
         {type = "fluid", name = "dirty-water-heavy", amount = 100},
-        {type = "item", name = "pyrite", amount = 1, probability = 0.4},
+        {type = "item",  name = "pyrite",            amount = 1,  probability = 0.4},
     },
     main_product = "conditioned-fines",
     subgroup = "py-rawores-coal",
@@ -146,7 +145,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "coal-slime-overflow", amount = 50},
-        {type = "fluid", name = "coal-under-pulp", amount = 50},
+        {type = "fluid", name = "coal-under-pulp",     amount = 50},
     },
     main_product = "coal-under-pulp",
     subgroup = "py-rawores-coal",
@@ -160,10 +159,10 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "coal-slime-overflow", amount = 100},
-        {type = "fluid", name = "organic-solvent", amount = 50}, --pyfe industrial solvent
+        {type = "fluid", name = "organic-solvent",     amount = 50}, --pyfe industrial solvent
     },
     results = {
-        {type = "fluid", name = "refsyngas", amount = 300},
+        {type = "fluid", name = "refsyngas",         amount = 300},
         {type = "fluid", name = "dirty-water-heavy", amount = 300},
     },
     main_product = "refsyngas",
@@ -179,13 +178,13 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "coal-pulp-05", amount = 100},
-        {type = "fluid", name = "tar", amount = 100},
+        {type = "fluid", name = "tar",          amount = 100},
         --pyfe pressured air
     },
     results = {
-        {type = "fluid", name = "coal-pulp-04", amount = 50},
+        {type = "fluid", name = "coal-pulp-04",      amount = 50},
         {type = "fluid", name = "dirty-water-heavy", amount = 100},
-        {type = "item", name = "coal", amount = 20},
+        {type = "item",  name = "coal",              amount = 20},
     },
     main_product = "coal",
     subgroup = "py-rawores-coal",

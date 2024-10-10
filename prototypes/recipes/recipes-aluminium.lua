@@ -1,4 +1,3 @@
-
 ---PROCESSING RECIPES---
 
 RECIPE {
@@ -12,7 +11,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "powdered-aluminium", amount = 1},
-        {type = "item", name = "gravel", amount = 1, probability = 0.5}
+        {type = "item", name = "gravel",             amount = 1, probability = 0.5}
     },
     main_product = "powdered-aluminium",
     subgroup = "py-rawores-aluminium",
@@ -25,14 +24,14 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "al-pulp-04", amount = 300},
-        {type = "fluid", name = "water", amount = 300},
-        {type = "item", name = "sodium-hydroxide", amount = 5},
-        {type = "item", name = "starch", amount = 5}
+        {type = "fluid", name = "al-pulp-04",       amount = 300},
+        {type = "fluid", name = "water",            amount = 300},
+        {type = "item",  name = "sodium-hydroxide", amount = 5},
+        {type = "item",  name = "starch",           amount = 5}
     },
     results = {
-        {type = "item", name = "sodium-aluminate", amount = 4},
-        {type = "fluid", name = "al-tailings", amount = 50}
+        {type = "item",  name = "sodium-aluminate", amount = 4},
+        {type = "fluid", name = "al-tailings",      amount = 50}
     },
     main_product = "sodium-aluminate",
     subgroup = "py-rawores-aluminium",
@@ -45,8 +44,8 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "sodium-aluminate", amount = 8},
-        {type = "fluid", name = "steam", amount = 300} --pyfe pressured air
+        {type = "item",  name = "sodium-aluminate", amount = 8},
+        {type = "fluid", name = "steam",            amount = 300} --pyfe pressured air
     },
     results = {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 2}
@@ -63,13 +62,13 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 1},
-         --pyht graphite
-        {type = "item", name = "sodium-hydroxide", amount = 8},
-        {type = "item", name = "nichrome", amount = 2}
+        --pyht graphite
+        {type = "item", name = "sodium-hydroxide",             amount = 8},
+        {type = "item", name = "nichrome",                     amount = 2}
     },
     results = {
-        {type = "item", name = "high-grade-alumina", amount = 1},
-        {type = "fluid", name = "water", amount = 50}
+        {type = "item",  name = "high-grade-alumina", amount = 1},
+        {type = "fluid", name = "water",              amount = 50}
     },
     main_product = "high-grade-alumina",
     subgroup = "py-rawores-aluminium",
@@ -84,9 +83,9 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "high-grade-alumina", amount = 1},
-        {type = "item", name = "iron-oxide", amount = 2},
-        {type = "fluid", name = "diesel", amount = 50}
+        {type = "item",  name = "high-grade-alumina", amount = 1},
+        {type = "item",  name = "iron-oxide",         amount = 2},
+        {type = "fluid", name = "diesel",             amount = 50}
         --pyfe pressured air
     },
     results = {
@@ -103,9 +102,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "reduced-aluminium", amount = 1},
-        {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100}
+        {type = "item",  name = "reduced-aluminium", amount = 1},
+        {type = "item",  name = "lime",              amount = 3},
+        {type = "fluid", name = "syngas",            amount = 100}
         --pyfe pressured air
     },
     results = {
@@ -125,7 +124,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "powdered-aluminium", amount = 2},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax",              amount = 3}
     },
     results = {
         {type = "fluid", name = "molten-aluminium", amount = 10}
@@ -143,7 +142,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "al-pulp-02", amount = 100},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item",  name = "borax",      amount = 3}
     },
     results = {
         {type = "fluid", name = "molten-aluminium", amount = 50}
@@ -161,7 +160,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 1},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax",                        amount = 3}
     },
     results = {
         {type = "fluid", name = "molten-aluminium", amount = 375}
@@ -179,7 +178,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "high-grade-alumina", amount = 1},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax",              amount = 3}
     },
     results = {
         {type = "fluid", name = "molten-aluminium", amount = 470}
@@ -196,9 +195,9 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "reduced-aluminium", amount = 1},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 100}
+        {type = "item",  name = "reduced-aluminium", amount = 1},
+        {type = "item",  name = "borax",             amount = 3},
+        {type = "fluid", name = "heavy-oil",         amount = 100}
     },
     results = {
         {type = "fluid", name = "molten-aluminium", amount = 600}
@@ -215,9 +214,9 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "sintered-aluminium", amount = 1},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 100}
+        {type = "item",  name = "sintered-aluminium", amount = 1},
+        {type = "item",  name = "borax",              amount = 3},
+        {type = "fluid", name = "heavy-oil",          amount = 100}
     },
     results = {
         {type = "fluid", name = "molten-aluminium", amount = 440}
@@ -237,7 +236,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-aluminium", amount = 100},
-        {type = "item", name = "sand-casting", amount = 1}
+        {type = "item",  name = "sand-casting",     amount = 1}
     },
     results = {
         {type = "item", name = "aluminium-plate", amount = 50}

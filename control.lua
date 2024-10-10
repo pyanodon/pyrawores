@@ -1,6 +1,6 @@
-require '__pypostprocessing__.lib'
+require "__pypostprocessing__.lib"
 
-require 'scripts/wiki/text-pages'
+require "scripts/wiki/text-pages"
 
 remote.add_interface("pyro", {
     ---@param func string

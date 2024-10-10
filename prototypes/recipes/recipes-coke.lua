@@ -5,11 +5,11 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "coal", amount = 20},
+        {type = "item",  name = "coal",  amount = 20},
         {type = "fluid", name = "steam", amount = 200} --pyfe vaccumm
     },
     results = {
-        {type = "item", name = "redhot-coke", amount = 5},
+        {type = "item",  name = "redhot-coke",   amount = 5},
         {type = "fluid", name = "coke-oven-gas", amount = 50}
     },
     main_product = "redhot-coke",
@@ -23,14 +23,14 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "redhot-coke", amount = 6},
-        {type = "fluid", name = "water", amount = 200}
+        {type = "item",  name = "redhot-coke", amount = 6},
+        {type = "fluid", name = "water",       amount = 200}
         --pyfe pressured-air
     },
     results = {
-        {type = "item", name = "coke", amount = 30},
-        {type = "item", name = "coal-dust", amount = 4},
-        {type = "fluid", name = "steam", amount = 100, temperature = 250}
+        {type = "item",  name = "coke",      amount = 30},
+        {type = "item",  name = "coal-dust", amount = 4},
+        {type = "fluid", name = "steam",     amount = 100, temperature = 250}
     },
     main_product = "coke",
     subgroup = "py-rawores-coke",
@@ -44,7 +44,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "outlet-gas-04", amount = 100},
-        {type = "fluid", name = "light-oil", amount = 50}
+        {type = "fluid", name = "light-oil",     amount = 50}
         --pyht tall-oil
     },
     results = {

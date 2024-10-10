@@ -1,62 +1,62 @@
-local sounds = require '__base__/prototypes/entity/sounds'
+local sounds = require "__base__/prototypes/entity/sounds"
 
 local cargo_bot =
     RECIPE {
-    type = 'recipe',
-    name = 'py-logistic-robot-02',
-    energy_required = 10,
-    category = 'crafting-with-fluid',
-    enabled = false,
-    ingredients = {
-        {type = "item", name = 'py-logistic-robot-01', amount = 1},
-        {type = "item", name = 'flying-robot-frame', amount = 1},
-        {type = "item", name = 'titanium-plate', amount = 5},
-        {type = "item", name = 'solder', amount = 5},
-        {type = "item", name = 'super-steel', amount = 10},
-        {type = "item", name = 'advanced-circuit', amount = 5},
-        {type = 'fluid', name = 'lubricant', amount = 300}
-    },
-    results = {
-        {type = "item", name = 'py-logistic-robot-02', amount = 1}
+        type = "recipe",
+        name = "py-logistic-robot-02",
+        energy_required = 10,
+        category = "crafting-with-fluid",
+        enabled = false,
+        ingredients = {
+            {type = "item",  name = "py-logistic-robot-01", amount = 1},
+            {type = "item",  name = "flying-robot-frame",   amount = 1},
+            {type = "item",  name = "titanium-plate",       amount = 5},
+            {type = "item",  name = "solder",               amount = 5},
+            {type = "item",  name = "super-steel",          amount = 10},
+            {type = "item",  name = "advanced-circuit",     amount = 5},
+            {type = "fluid", name = "lubricant",            amount = 300}
+        },
+        results = {
+            {type = "item", name = "py-logistic-robot-02", amount = 1}
+        }
     }
-}
-cargo_bot:add_unlock({'robotics'})
+cargo_bot:add_unlock {"robotics"}
 
 ITEM {
-    type = 'item',
-    name = 'py-logistic-robot-02',
-    icon = '__pyraworesgraphics__/graphics/icons/py-logistic-robot-02.png',
+    type = "item",
+    name = "py-logistic-robot-02",
+    icon = "__pyraworesgraphics__/graphics/icons/py-logistic-robot-02.png",
     icon_size = 32,
     flags = {},
-    subgroup = 'py-unsorted',
-    order = 'c',
-    place_result = 'py-logistic-robot-02',
+    subgroup = "py-unsorted",
+    order = "c",
+    place_result = "py-logistic-robot-02",
     stack_size = 50
-}:subgroup_order('py-robots', 'e')
+}:subgroup_order("py-robots", "e")
 
 ENTITY {
-    type = 'logistic-robot',
-    name = 'py-logistic-robot-02',
-    icon = '__pyraworesgraphics__/graphics/icons/py-logistic-robot-02.png',
+    type = "logistic-robot",
+    name = "py-logistic-robot-02",
+    icon = "__pyraworesgraphics__/graphics/icons/py-logistic-robot-02.png",
     icon_size = 32,
-    flags = {'placeable-player', 'player-creation', 'placeable-off-grid', 'not-on-map'},
-    minable = {mining_time = 0.1, result = 'py-logistic-robot-02'},
-    resistances = {{type = 'fire', percent = 85}},
+    flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
+    minable = {mining_time = 0.1, result = "py-logistic-robot-02"},
+    resistances = {{type = "fire", percent = 85}},
     max_health = 100,
     collision_box = {{0, 0}, {0, 0}},
     selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
     max_payload_size = 5,
     speed = 0.13,
     transfer_distance = 0.5,
-    max_energy = '2.5MJ',
-    energy_per_tick = '0.06kJ',
+    max_energy = "2.5MJ",
+    energy_per_tick = "0.06kJ",
     speed_multiplier_when_out_of_energy = 0.2,
-    energy_per_move = '3.4kJ',
+    energy_per_move = "3.4kJ",
     min_to_charge = 0.2,
     max_to_charge = 0.95,
     idle = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-idle.png',
-        priority = 'high',
+        filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/hr-idle.png",
+        priority = "high",
         line_length = 16,
         width = 128,
         height = 128,
@@ -67,8 +67,8 @@ ENTITY {
         scale = 0.5
     },
     idle_with_cargo = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-idle-payload.png',
-        priority = 'high',
+        filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/hr-idle-payload.png",
+        priority = "high",
         line_length = 16,
         width = 128,
         height = 128,
@@ -78,8 +78,8 @@ ENTITY {
         scale = 0.5
     },
     in_motion = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-run.png',
-        priority = 'high',
+        filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/hr-run.png",
+        priority = "high",
         line_length = 16,
         width = 128,
         height = 128,
@@ -89,8 +89,8 @@ ENTITY {
         scale = 0.5
     },
     in_motion_with_cargo = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-run-payload.png',
-        priority = 'high',
+        filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/hr-run-payload.png",
+        priority = "high",
         line_length = 16,
         width = 128,
         height = 128,
@@ -100,8 +100,8 @@ ENTITY {
         scale = 0.5
     },
     shadow_idle = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-shadow.png',
-        priority = 'high',
+        filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/hr-shadow.png",
+        priority = "high",
         line_length = 16,
         width = 128,
         height = 96,
@@ -112,8 +112,8 @@ ENTITY {
         scale = 0.5
     },
     shadow_idle_with_cargo = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-shadow-payload.png',
-        priority = 'high',
+        filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/hr-shadow-payload.png",
+        priority = "high",
         line_length = 16,
         width = 128,
         height = 96,
@@ -124,8 +124,8 @@ ENTITY {
         scale = 0.5
     },
     shadow_in_motion = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-shadow.png',
-        priority = 'high',
+        filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/hr-shadow.png",
+        priority = "high",
         line_length = 16,
         width = 128,
         height = 96,
@@ -136,8 +136,8 @@ ENTITY {
         scale = 0.5
     },
     shadow_in_motion_with_cargo = {
-        filename = '__pyraworesgraphics__/graphics/entity/cargo-robot/hr-shadow-payload.png',
-        priority = 'high',
+        filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/hr-shadow-payload.png",
+        priority = "high",
         line_length = 16,
         width = 128,
         height = 96,

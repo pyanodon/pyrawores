@@ -5,8 +5,8 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "powdered-u", amount = 1},
-        {type = "fluid", name = "steam", amount = 300},
+        {type = "item",  name = "powdered-u",    amount = 1},
+        {type = "fluid", name = "steam",         amount = 300},
         {type = "fluid", name = "sulfuric-acid", amount = 50}
     },
     results = {
@@ -24,8 +24,8 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "uranium-235", amount = 10},
-        {type = "fluid", name = "steam", amount = 300},
+        {type = "item",  name = "uranium-235",   amount = 10},
+        {type = "fluid", name = "steam",         amount = 300},
         {type = "fluid", name = "sulfuric-acid", amount = 50}
     },
     results = {

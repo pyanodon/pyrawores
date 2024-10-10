@@ -1,6 +1,6 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["phosphate-rock-02"] = {}
 
-data:extend{{
+data:extend {{
     type = "autoplace-control",
     category = "resource",
     name = "phosphate-rock-02",
@@ -13,7 +13,7 @@ data:extend{{
 --     name = "phosphate-rock-02"
 -- }}
 
-data:extend{
+data:extend {
     {
         type = "noise-expression",
         name = "py_phosphate_rock_02_starting_area",
@@ -44,7 +44,7 @@ data:extend{
     }
 }
 
-data:extend{{
+data:extend {{
     type = "resource",
     name = "phosphate-rock-02",
     category = "phosphate-rock-02",

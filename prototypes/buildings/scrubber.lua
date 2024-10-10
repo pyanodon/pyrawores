@@ -1,119 +1,119 @@
 RECIPE {
-    type = 'recipe',
-    name = 'scrubber-mk01',
+    type = "recipe",
+    name = "scrubber-mk01",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = 'steam-engine', amount = 3},
-        {type = "item", name = 'soil-extractor-mk01', amount = 1},
-        {type = "item", name = 'stone-brick', amount = 20},
-        {type = "item", name = 'electronic-circuit', amount = 15},
+        {type = "item", name = "steam-engine",        amount = 3},
+        {type = "item", name = "soil-extractor-mk01", amount = 1},
+        {type = "item", name = "stone-brick",         amount = 20},
+        {type = "item", name = "electronic-circuit",  amount = 15},
     },
     results = {
-        {type = "item", name = 'scrubber-mk01', amount = 1}
+        {type = "item", name = "scrubber-mk01", amount = 1}
     }
-}:add_unlock('machines-mk01')
+}:add_unlock("machines-mk01")
 
 RECIPE {
-    type = 'recipe',
-    name = 'scrubber-mk02',
+    type = "recipe",
+    name = "scrubber-mk02",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'scrubber-mk01',    1},
-        {'duralumin',        15},
-        {'lead-plate',       10},
-        {'nexelit-plate',    15},
-        {'engine-unit',      10},
-        {'advanced-circuit', 10},
+        {"scrubber-mk01",    1},
+        {"duralumin",        15},
+        {"lead-plate",       10},
+        {"nexelit-plate",    15},
+        {"engine-unit",      10},
+        {"advanced-circuit", 10},
     },
     results = {
-        {'scrubber-mk02', 1}
+        {"scrubber-mk02", 1}
     }
-}:add_unlock('machines-mk03')
+}:add_unlock("machines-mk03")
 
 RECIPE {
-    type = 'recipe',
-    name = 'scrubber-mk03',
+    type = "recipe",
+    name = "scrubber-mk03",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'scrubber-mk02',        1},
-        {'titanium-plate',       20},
-        {'stainless-steel',      20},
-        {'tin-plate',            20},
-        {'electric-engine-unit', 10},
-        {'processing-unit',      10}
+        {"scrubber-mk02",        1},
+        {"titanium-plate",       20},
+        {"stainless-steel",      20},
+        {"tin-plate",            20},
+        {"electric-engine-unit", 10},
+        {"processing-unit",      10}
     },
     results = {
-        {'scrubber-mk03', 1}
+        {"scrubber-mk03", 1}
     }
-}:add_unlock('machines-mk04')
+}:add_unlock("machines-mk04")
 
 RECIPE {
-    type = 'recipe',
-    name = 'scrubber-mk04',
+    type = "recipe",
+    name = "scrubber-mk04",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'scrubber-mk03',         1},
-        {'super-steel',           30},
-        {'low-density-structure', 15},
-        {'nbfe-alloy',            20},
+        {"scrubber-mk03",         1},
+        {"super-steel",           30},
+        {"low-density-structure", 15},
+        {"nbfe-alloy",            20},
     },
     results = {
-        {'scrubber-mk04', 1}
+        {"scrubber-mk04", 1}
     }
-}:add_unlock('machines-mk05')
+}:add_unlock("machines-mk05")
 
 for i = 1, 4 do
-    local name = 'scrubber-mk0' .. i
-    local icon = '__pyraworesgraphics__/graphics/icons/' .. name .. '.png'
+    local name = "scrubber-mk0" .. i
+    local icon = "__pyraworesgraphics__/graphics/icons/" .. name .. ".png"
     local icon_size = 32
 
     ITEM {
-        type = 'item',
+        type = "item",
         name = name,
         icon = icon,
         icon_size = icon_size,
         flags = {},
-        subgroup = 'py-rawores-buildings-mk0' .. i,
-        order = 'g',
+        subgroup = "py-rawores-buildings-mk0" .. i,
+        order = "g",
         place_result = name,
         stack_size = 10
     }
 
     ENTITY {
-        type = 'assembling-machine',
+        type = "assembling-machine",
         name = name,
         icon = icon,
         icon_size = icon_size,
-        flags = {'placeable-neutral', 'player-creation'},
+        flags = {"placeable-neutral", "player-creation"},
         minable = {mining_time = 1, result = name},
-        fast_replaceable_group = 'scrubber',
+        fast_replaceable_group = "scrubber",
         max_health = 300 * i,
-        corpse = 'medium-remnants',
-        dying_explosion = 'big-explosion',
+        corpse = "medium-remnants",
+        dying_explosion = "big-explosion",
         collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
         selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
         match_animation_speed_to_activity = false,
         module_slots = i,
-        allowed_effects = {'consumption', 'speed', 'productivity', 'pollution'},
-        crafting_categories = {'scrubber'},
+        allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+        crafting_categories = {"scrubber"},
         crafting_speed = i,
         energy_source = {
-            type = 'electric',
-            usage_priority = 'secondary-input',
+            type = "electric",
+            usage_priority = "secondary-input",
             emissions_per_minute = {
                 pollution = 0.06 * i
             },
         },
-        energy_usage = (300 * i) .. 'kW',
+        energy_usage = (300 * i) .. "kW",
         graphics_set = {
             animation = {
                 layers = {
                     {
-                        filename = '__pyraworesgraphics__/graphics/entity/scrubber/scrubber-mk0' .. i .. '.png',
+                        filename = "__pyraworesgraphics__/graphics/entity/scrubber/scrubber-mk0" .. i .. ".png",
                         width = 224,
                         height = 317,
                         line_length = 9,
@@ -122,7 +122,7 @@ for i = 1, 4 do
                         shift = util.by_pixel(0, -47)
                     },
                     {
-                        filename = '__pyraworesgraphics__/graphics/entity/scrubber/sh.png',
+                        filename = "__pyraworesgraphics__/graphics/entity/scrubber/sh.png",
                         width = 157,
                         height = 192,
                         line_length = 10,
@@ -138,55 +138,55 @@ for i = 1, 4 do
         fluid_boxes = {
             --1
             {
-                production_type = 'input',
-                pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
+                production_type = "input",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
                 base_level = -1,
-                pipe_connections = {{flow_direction = 'input', position = {-2.0, -3.0}, direction = defines.direction.north}}
+                pipe_connections = {{flow_direction = "input", position = {-2.0, -3.0}, direction = defines.direction.north}}
             },
             {
-                production_type = 'input',
-                pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
+                production_type = "input",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
                 base_level = -1,
-                pipe_connections = {{flow_direction = 'input', position = {0.0, -3.0}, direction = defines.direction.north}}
+                pipe_connections = {{flow_direction = "input", position = {0.0, -3.0}, direction = defines.direction.north}}
             },
             {
-                production_type = 'input',
-                pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
+                production_type = "input",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
                 base_level = -1,
-                pipe_connections = {{flow_direction = 'input', position = {2.0, -3.0}, direction = defines.direction.north}}
+                pipe_connections = {{flow_direction = "input", position = {2.0, -3.0}, direction = defines.direction.north}}
             },
             {
-                production_type = 'output',
-                pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
+                production_type = "output",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
-                pipe_connections = {{flow_direction = 'output', position = {0.0, 3.0}, direction = defines.direction.south}}
+                pipe_connections = {{flow_direction = "output", position = {0.0, 3.0}, direction = defines.direction.south}}
             },
             {
-                production_type = 'output',
-                pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
+                production_type = "output",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
-                pipe_connections = {{flow_direction = 'output', position = {-2.0, 3.0}, direction = defines.direction.south}}
+                pipe_connections = {{flow_direction = "output", position = {-2.0, 3.0}, direction = defines.direction.south}}
             },
             {
-                production_type = 'output',
-                pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
+                production_type = "output",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
-                pipe_connections = {{flow_direction = 'output', position = {2.0, 3.0}, direction = defines.direction.south}}
+                pipe_connections = {{flow_direction = "output", position = {2.0, 3.0}, direction = defines.direction.south}}
             },
         },
-        vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
+        vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
         working_sound = {
-            sound = {filename = '__pyraworesgraphics__/sounds/scrubber.ogg', volume = 2.0},
-            idle_sound = {filename = '__pyraworesgraphics__/sounds/scrubber.ogg', volume = 0.3},
+            sound = {filename = "__pyraworesgraphics__/sounds/scrubber.ogg", volume = 2.0},
+            idle_sound = {filename = "__pyraworesgraphics__/sounds/scrubber.ogg", volume = 0.3},
             apparent_volume = 2.5
         }
     }

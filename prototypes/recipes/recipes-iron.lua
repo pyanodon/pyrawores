@@ -10,7 +10,7 @@ RECIPE {
         {type = "item", name = "iron-ore", amount = 5}
     },
     results = {
-        {type = "item", name = "stone", amount = 1},
+        {type = "item", name = "stone",              amount = 1},
         {type = "item", name = "processed-iron-ore", amount = 3}
     },
     main_product = "processed-iron-ore",
@@ -67,7 +67,7 @@ RECIPE {
         {type = "item", name = "grade-2-iron", amount = 1}
     },
     results = {
-        {type = "item", name = "gravel", amount = 1, probability = 0.5},
+        {type = "item", name = "gravel",       amount = 1, probability = 0.5},
         {type = "item", name = "grade-1-iron", amount = 1}
     },
     main_product = "grade-1-iron",
@@ -100,12 +100,12 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "iron-pulp-01", amount = 100},
-        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "water",        amount = 100},
     },
     results = {
-        {type = "item", name = "iron-concentrate", amount = 1},
+        {type = "item",  name = "iron-concentrate",  amount = 1},
         {type = "fluid", name = "dirty-water-heavy", amount = 100},
-        {type = "fluid", name = "coal-slurry", amount = 50},
+        {type = "fluid", name = "coal-slurry",       amount = 50},
     },
     main_product = "iron-concentrate",
     icon = "__pyraworesgraphics__/graphics/icons/iron-concentrate.png",
@@ -123,7 +123,7 @@ RECIPE {
         {type = "item", name = "iron-concentrate", amount = 1},
     },
     results = {
-        {type = "item", name = "iron-ore-dust", amount = 1, probability = 0.3},
+        {type = "item", name = "iron-ore-dust",         amount = 1, probability = 0.3},
         {type = "item", name = "iron-dust-concentrate", amount = 1, probability = 0.5},
     },
     main_product = "iron-dust-concentrate",
@@ -140,11 +140,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "iron-slime", amount = 100},
-        {type = "fluid", name = "water", amount = 200},
+        {type = "fluid", name = "water",      amount = 200},
     },
     results = {
         {type = "fluid", name = "dirty-water-heavy", amount = 100},
-        {type = "item", name = "unslimed-iron", amount = 1},
+        {type = "item",  name = "unslimed-iron",     amount = 1},
     },
     main_product = "unslimed-iron",
     subgroup = "py-rawores-iron",
@@ -158,11 +158,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "iron-pulp-01", amount = 300},
-        {type = "fluid", name = "water", amount = 200},
+        {type = "fluid", name = "water",        amount = 200},
     },
     results = {
         {type = "fluid", name = "dirty-water-heavy", amount = 100},
-        {type = "item", name = "unslimed-iron", amount = 1},
+        {type = "item",  name = "unslimed-iron",     amount = 1},
     },
     main_product = "unslimed-iron",
     subgroup = "py-rawores-iron",
@@ -179,7 +179,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "dirty-water-heavy", amount = 50},
-        {type = "fluid", name = "iron-pulp-07", amount = 50},
+        {type = "fluid", name = "iron-pulp-07",      amount = 50},
     },
     main_product = "iron-pulp-07",
     subgroup = "py-rawores-iron",
@@ -193,8 +193,8 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "iron-pulp-07", amount = 450},
-        {type = "item", name = "filtration-media", amount = 1},
+        {type = "fluid", name = "iron-pulp-07",     amount = 450},
+        {type = "item",  name = "filtration-media", amount = 1},
     },
     results = {
         {type = "item", name = "high-grade-iron", amount = 7},
@@ -214,9 +214,9 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "high-grade-iron", amount = 1},
-        {type = "item", name = "sodium-sulfate", amount = 2},
-        {type = "fluid", name = "diesel", amount = 50},
+        {type = "item",  name = "high-grade-iron", amount = 1},
+        {type = "item",  name = "sodium-sulfate",  amount = 2},
+        {type = "fluid", name = "diesel",          amount = 50},
         --pyfe pressured air
     },
     results = {
@@ -233,9 +233,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "reduced-iron", amount = 1},
-        {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100},
+        {type = "item",  name = "reduced-iron", amount = 1},
+        {type = "item",  name = "lime",         amount = 3},
+        {type = "fluid", name = "syngas",       amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -257,9 +257,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "processed-iron-ore", amount = 5},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 60},
+        {type = "item",  name = "processed-iron-ore", amount = 5},
+        {type = "item",  name = "borax",              amount = 3},
+        {type = "fluid", name = "oxygen",             amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 10},
@@ -276,9 +276,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "unslimed-iron", amount = 1},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 60},
+        {type = "item",  name = "unslimed-iron", amount = 1},
+        {type = "item",  name = "borax",         amount = 3},
+        {type = "fluid", name = "oxygen",        amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 40},
@@ -295,9 +295,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "high-grade-iron", amount = 1},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 60},
+        {type = "item",  name = "high-grade-iron", amount = 1},
+        {type = "item",  name = "borax",           amount = 3},
+        {type = "fluid", name = "oxygen",          amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 150},
@@ -315,9 +315,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "reduced-iron", amount = 1},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 60},
+        {type = "item",  name = "reduced-iron", amount = 1},
+        {type = "item",  name = "borax",        amount = 3},
+        {type = "fluid", name = "oxygen",       amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 200},
@@ -334,9 +334,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "sintered-iron", amount = 1},
-        {type = "item", name = "borax", amount = 3},
-        {type = "fluid", name = "oxygen", amount = 60},
+        {type = "item",  name = "sintered-iron", amount = 1},
+        {type = "item",  name = "borax",         amount = 3},
+        {type = "fluid", name = "oxygen",        amount = 60},
     },
     results = {
         {type = "fluid", name = "molten-iron", amount = 150},
@@ -357,14 +357,14 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "molten-iron", amount = 100},
-        {type = "item", name = "borax", amount = 3},
-        {type = "item", name = "sand-casting", amount = 1},
+        {type = "fluid", name = "molten-iron",  amount = 100},
+        {type = "item",  name = "borax",        amount = 3},
+        {type = "item",  name = "sand-casting", amount = 1},
     },
     results = {
         {type = "item", name = "iron-plate", amount = 60}
     },
-    main_product= "iron-plate",
+    main_product = "iron-plate",
     subgroup = "py-rawores-iron",
     order = "aaa"
 }:add_unlock("iron-mk01")
@@ -383,7 +383,7 @@ RECIPE {
     results = {
         {type = "item", name = "iron-plate", amount = 1}
     },
-    main_product= "iron-plate",
+    main_product = "iron-plate",
     subgroup = "py-rawores-iron",
     order = "aab"
 }:add_unlock("crusher")

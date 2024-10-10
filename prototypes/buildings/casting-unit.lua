@@ -1,118 +1,118 @@
 RECIPE {
-    type = 'recipe',
-    name = 'casting-unit-mk01',
+    type = "recipe",
+    name = "casting-unit-mk01",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = 'steam-engine', amount = 2},
-        {type = "item", name = 'steel-plate', amount = 15},
-        {type = "item", name = 'copper-plate', amount = 20},
-        {type = "item", name = 'radar', amount = 1}, --pyindustry local radar
-        {type = "item", name = 'lab', amount = 1},
+        {type = "item", name = "steam-engine", amount = 2},
+        {type = "item", name = "steel-plate",  amount = 15},
+        {type = "item", name = "copper-plate", amount = 20},
+        {type = "item", name = "radar",        amount = 1}, --pyindustry local radar
+        {type = "item", name = "lab",          amount = 1},
     },
     results = {
-        {type = "item", name = 'casting-unit-mk01', amount = 1}
+        {type = "item", name = "casting-unit-mk01", amount = 1}
     }
-}:add_unlock('casting-mk01')
+}:add_unlock("casting-mk01")
 
 RECIPE {
-    type = 'recipe',
-    name = 'casting-unit-mk02',
+    type = "recipe",
+    name = "casting-unit-mk02",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'casting-unit-mk01', 1},
-        {'duralumin',         15},
-        {'engine-unit',       15},
-        {'lead-plate',        10},
-        {'nexelit-plate',     15},
-        {'advanced-circuit',  10},
+        {"casting-unit-mk01", 1},
+        {"duralumin",         15},
+        {"engine-unit",       15},
+        {"lead-plate",        10},
+        {"nexelit-plate",     15},
+        {"advanced-circuit",  10},
     },
     results = {
-        {'casting-unit-mk02', 1}
+        {"casting-unit-mk02", 1}
     }
-}:add_unlock('casting-mk02')
+}:add_unlock("casting-mk02")
 
 RECIPE {
-    type = 'recipe',
-    name = 'casting-unit-mk03',
+    type = "recipe",
+    name = "casting-unit-mk03",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'casting-unit-mk02',    1},
-        {'titanium-plate',       20},
-        {'stainless-steel',      20},
-        {'storage-tank',         1},
-        {'tin-plate',            20},
-        {'electric-engine-unit', 10},
-        {'processing-unit',      10}
+        {"casting-unit-mk02",    1},
+        {"titanium-plate",       20},
+        {"stainless-steel",      20},
+        {"storage-tank",         1},
+        {"tin-plate",            20},
+        {"electric-engine-unit", 10},
+        {"processing-unit",      10}
     },
     results = {
-        {'casting-unit-mk03', 1}
+        {"casting-unit-mk03", 1}
     }
-}:add_unlock('casting-mk03')
+}:add_unlock("casting-mk03")
 
 RECIPE {
-    type = 'recipe',
-    name = 'casting-unit-mk04',
+    type = "recipe",
+    name = "casting-unit-mk04",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {'casting-unit-mk03',     1},
-        {'concrete',              15},
-        {'super-steel',           30},
-        {'storage-tank',          1},
-        {'low-density-structure', 10},
-        {'nbfe-alloy',            10},
+        {"casting-unit-mk03",     1},
+        {"concrete",              15},
+        {"super-steel",           30},
+        {"storage-tank",          1},
+        {"low-density-structure", 10},
+        {"nbfe-alloy",            10},
     },
     results = {
-        {'casting-unit-mk04', 1}
+        {"casting-unit-mk04", 1}
     }
-}:add_unlock('casting-mk04')
+}:add_unlock("casting-mk04")
 
 for i = 1, 4 do
-    local name = 'casting-unit-mk0' .. i
-    local icon = '__pyraworesgraphics__/graphics/icons/' .. name .. '.png'
+    local name = "casting-unit-mk0" .. i
+    local icon = "__pyraworesgraphics__/graphics/icons/" .. name .. ".png"
     local icon_size = 32
-    
+
     ITEM {
-        type = 'item',
+        type = "item",
         name = name,
         icon = icon,
         icon_size = icon_size,
         flags = {},
-        subgroup = 'py-rawores-buildings-mk0' .. i,
-        order = 'b',
+        subgroup = "py-rawores-buildings-mk0" .. i,
+        order = "b",
         place_result = name,
         stack_size = 10
     }
 
     ENTITY {
-        type = 'assembling-machine',
+        type = "assembling-machine",
         name = name,
         icon = icon,
         icon_size = icon_size,
-        flags = {'placeable-neutral', 'player-creation'},
+        flags = {"placeable-neutral", "player-creation"},
         minable = {mining_time = 1, result = name},
-        fast_replaceable_group = 'casting-unit',
+        fast_replaceable_group = "casting-unit",
         max_health = 400 * i,
-        corpse = 'medium-remnants',
-        dying_explosion = 'big-explosion',
+        corpse = "medium-remnants",
+        dying_explosion = "big-explosion",
         collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
         selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
         match_animation_speed_to_activity = false,
         module_slots = i,
-        allowed_effects = {'consumption', 'speed', 'productivity', 'pollution'},
-        crafting_categories = {'casting'},
+        allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+        crafting_categories = {"casting"},
         crafting_speed = i,
         energy_source = {
-            type = 'electric',
-            usage_priority = 'secondary-input',
+            type = "electric",
+            usage_priority = "secondary-input",
             emissions_per_minute = {
                 pollution = 0.06 * i
             },
         },
-        energy_usage = (350 * i) .. 'kW',
+        energy_usage = (350 * i) .. "kW",
         graphics_set = {
             working_visualisations = {
                 {
@@ -125,8 +125,8 @@ for i = 1, 4 do
                     animation = {
                         layers = {
                             {
-                                filename = '__pyraworesgraphics__/graphics/entity/casting-unit/on.png',
-                                priority = 'high',
+                                filename = "__pyraworesgraphics__/graphics/entity/casting-unit/on.png",
+                                priority = "high",
                                 frame_count = 30,
                                 line_length = 6,
                                 width = 237,
@@ -134,8 +134,8 @@ for i = 1, 4 do
                                 animation_speed = 0.5
                             },
                             {
-                                filename = '__pyraworesgraphics__/graphics/entity/casting-unit/on-mask.png',
-                                priority = 'high',
+                                filename = "__pyraworesgraphics__/graphics/entity/casting-unit/on-mask.png",
+                                priority = "high",
                                 frame_count = 30,
                                 line_length = 6,
                                 width = 237,
@@ -150,14 +150,14 @@ for i = 1, 4 do
             animation = {
                 layers = {
                     {
-                        filename = '__pyraworesgraphics__/graphics/entity/casting-unit/off.png',
+                        filename = "__pyraworesgraphics__/graphics/entity/casting-unit/off.png",
                         width = 238,
                         height = 234,
                         frame_count = 1,
                         shift = util.by_pixel(7, -5)
                     },
                     {
-                        filename = '__pyraworesgraphics__/graphics/entity/casting-unit/off-mask.png',
+                        filename = "__pyraworesgraphics__/graphics/entity/casting-unit/off-mask.png",
                         width = 238,
                         height = 234,
                         frame_count = 1,
@@ -171,48 +171,48 @@ for i = 1, 4 do
         fluid_boxes = {
             --1
             {
-                production_type = 'input',
-                pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
+                production_type = "input",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
                 base_level = -1,
-                pipe_connections = {{flow_direction = 'input', position = {0.0, -3.0}, direction = defines.direction.north}}
+                pipe_connections = {{flow_direction = "input", position = {0.0, -3.0}, direction = defines.direction.north}}
             },
             {
-                production_type = 'input',
-                pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
+                production_type = "input",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
                 base_level = -1,
-                pipe_connections = {{flow_direction = 'input', position = {0.0, 3.0}, direction = defines.direction.south}}
+                pipe_connections = {{flow_direction = "input", position = {0.0, 3.0}, direction = defines.direction.south}}
             },
             {
-                production_type = 'input',
-                pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
+                production_type = "input",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
                 base_level = -1,
-                pipe_connections = {{flow_direction = 'input', position = {3.0, 0.0}, direction = defines.direction.east}}
+                pipe_connections = {{flow_direction = "input", position = {3.0, 0.0}, direction = defines.direction.east}}
             },
             {
-                production_type = 'input',
-                pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
+                production_type = "input",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
                 base_level = -1,
-                pipe_connections = {{flow_direction = 'input', position = {3.0, 2.0}, direction = defines.direction.east}}
+                pipe_connections = {{flow_direction = "input", position = {3.0, 2.0}, direction = defines.direction.east}}
             },
             {
-                production_type = 'output',
-                pipe_picture = py.pipe_pictures('assembling-machine-2', nil, {0.0, -0.96}, nil, nil),
+                production_type = "output",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
-                pipe_connections = {{flow_direction = 'output', position = {-3.0, 0.0}, direction = defines.direction.west}}
+                pipe_connections = {{flow_direction = "output", position = {-3.0, 0.0}, direction = defines.direction.west}}
             },
         },
-        vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact-1.ogg', volume = 0.65},
+        vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
         working_sound = {
-            sound = {filename = '__pyraworesgraphics__/sounds/casting-unit.ogg', volume = 0.8},
+            sound = {filename = "__pyraworesgraphics__/sounds/casting-unit.ogg", volume = 0.8},
             apparent_volume = 2.5
         }
     }

@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "chromium-rejects", amount = 50},
-        {type = "fluid", name = "water", amount = 100}
+        {type = "fluid", name = "water",            amount = 100}
     },
     results = {
         {type = "item", name = "gold-precipitate", amount = 5}
@@ -22,8 +22,8 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "fluid", name = "sulfuric-acid", amount = 100}, --pyht cyanic-acid
-        {type = "item", name = "gold-precipitate", amount = 5}
+        {type = "fluid", name = "sulfuric-acid",    amount = 100}, --pyht cyanic-acid
+        {type = "item",  name = "gold-precipitate", amount = 5}
     },
     results = {
         {type = "item", name = "gold-concentrate", amount = 1}
@@ -39,9 +39,9 @@ RECIPE {
     enabled = false,
     energy_required = 3.5,
     ingredients = {
-        {type = "fluid", name = "sulfuric-acid", amount = 150},
-        {type = "item", name = "gold-concentrate", amount = 1},
-        {type = "item", name = "sodium-bisulfate", amount = 2}
+        {type = "fluid", name = "sulfuric-acid",    amount = 150},
+        {type = "item",  name = "gold-concentrate", amount = 1},
+        {type = "item",  name = "sodium-bisulfate", amount = 2}
     },
     results = {
         {type = "item", name = "gold-precipitate-2", amount = 1}
@@ -58,8 +58,8 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "gold-solution", amount = 100},
-        {type = "item", name = "iron-oxide", amount = 2},
-        {type = "item", name = "nichrome", amount = 4}
+        {type = "item",  name = "iron-oxide",    amount = 2},
+        {type = "item",  name = "nichrome",      amount = 4}
         --pyht graphite
     },
     results = {
@@ -76,8 +76,8 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "oxygen", amount = 200},
-        {type = "item", name = "purified-gold", amount = 1}
+        {type = "fluid", name = "oxygen",        amount = 200},
+        {type = "item",  name = "purified-gold", amount = 1}
         --pyht graphite
     },
     results = {

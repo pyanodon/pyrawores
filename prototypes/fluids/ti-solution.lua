@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "fluid", name = "slacked-lime", amount = 150},
-        {type = "fluid", name = "ti-pulp-06", amount = 400},
+        {type = "fluid", name = "ti-pulp-06",   amount = 400},
     },
     results = {
         {type = "fluid", name = "ti-solution", amount = 400},
@@ -21,7 +21,7 @@ FLUID {
     type = "fluid",
     name = "ti-solution",
     icon = "__pyraworesgraphics__/graphics/icons/ti-solution.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.713, g = 0.643, b = 0.733},

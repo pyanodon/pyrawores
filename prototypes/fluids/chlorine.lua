@@ -8,9 +8,9 @@ RECIPE {
         {type = "fluid", name = "water-saline", amount = 100}
     },
     results = {
-        {type = "fluid", name = "chlorine", amount = 20},
-        {type = "fluid", name = "hydrogen", amount = 20},
-        {type = "item", name = "sodium-hydroxide", amount = 2}
+        {type = "fluid", name = "chlorine",         amount = 20},
+        {type = "fluid", name = "hydrogen",         amount = 20},
+        {type = "item",  name = "sodium-hydroxide", amount = 2}
     },
     --main_product = "chlorine",
     icon = "__pyraworesgraphics__/graphics/icons/water-saline-electrolyzer.png",

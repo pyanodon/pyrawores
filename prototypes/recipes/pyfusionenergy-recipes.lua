@@ -8,7 +8,7 @@ RECIPE {
         {type = "fluid", name = "al-tailings", amount = 300}
     },
     results = {
-        {type = "fluid", name = "vanadates", amount = 15},
+        {type = "fluid", name = "vanadates",         amount = 15},
         {type = "fluid", name = "dirty-water-heavy", amount = 75}
     },
     main_product = "vanadates",
@@ -28,10 +28,10 @@ RECIPE {
     energy_required = 150,
     ingredients = {
         {type = "fluid", name = "cold-clean-air", amount = 40},
-        {type = "item", name = "active-carbon", amount = 1}
+        {type = "item",  name = "active-carbon",  amount = 1}
     },
     results = {
-        {type = "fluid", name = "nitrogen", amount = 8000},
+        {type = "fluid", name = "nitrogen",       amount = 8000},
         {type = "fluid", name = "carbon-dioxide", amount = 150}
     },
     main_product = "nitrogen",
@@ -47,12 +47,12 @@ RECIPE {
     energy_required = 0.3,
     ingredients = {
         {type = "fluid", name = "nitrogen", amount = 50},
-        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "water",    amount = 100},
         {type = "fluid", name = "gasoline", amount = 5}
     },
     results = {
         {type = "fluid", name = "liquid-nitrogen", amount = 5},
-        {type = "fluid", name = "steam", amount = 100, temperature = 150, catalyst_amount = 100}
+        {type = "fluid", name = "steam",           amount = 100, temperature = 150, catalyst_amount = 100}
     },
     main_product = "liquid-nitrogen",
     icon = "__pyfusionenergygraphics__/graphics/icons/compress-nitrogen.png",
@@ -88,7 +88,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "vanadium-mixture", amount = 100},
-        {type = "fluid", name = "sulfuric-acid", amount = 100}
+        {type = "fluid", name = "sulfuric-acid",    amount = 100}
     },
     results = {
         {type = "fluid", name = "pregnant-solution", amount = 100}
@@ -103,8 +103,8 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "u-waste", amount = 100},
-        {type = "item", name = "sodium-carbonate", amount = 10}
+        {type = "fluid", name = "u-waste",          amount = 100},
+        {type = "item",  name = "sodium-carbonate", amount = 10}
     },
     results = {
         {type = "fluid", name = "vanadium-mixture", amount = 100}
@@ -123,12 +123,12 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "molten-titanium", amount = 100},
         {type = "fluid", name = "niobium-complex", amount = 40},
-        {type = "item", name = "sand-casting", amount = 4},
+        {type = "item",  name = "sand-casting",    amount = 4},
     },
     results = {
         {type = "item", name = "nbti-alloy", amount = 15}
     },
-    main_product= "nbti-alloy",
+    main_product = "nbti-alloy",
     icon = "__pyfusionenergygraphics__/graphics/icons/nbti-alloy.png",
     icon_size = 32,
     subgroup = "py-rawores-recipes",
@@ -143,8 +143,8 @@ RECIPE {
     energy_required = 8,
     ingredients = {
         {type = "fluid", name = "molten-silver", amount = 100},
-        {type = "fluid", name = "molten-zinc", amount = 100},
-        {type = "item", name = "sand-casting", amount = 4},
+        {type = "fluid", name = "molten-zinc",   amount = 100},
+        {type = "item",  name = "sand-casting",  amount = 4},
     },
     results = {
         {type = "item", name = "agzn-alloy", amount = 10}
@@ -159,16 +159,16 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "molten-lead", amount = 50},
-        {type = "fluid", name = "molten-steel", amount = 50},
+        {type = "fluid", name = "molten-lead",     amount = 50},
+        {type = "fluid", name = "molten-steel",    amount = 50},
         {type = "fluid", name = "niobium-complex", amount = 50},
-        {type = "item", name = "sand-casting", amount = 5},
-        {type = "item", name = "aramid", amount = 2},
+        {type = "item",  name = "sand-casting",    amount = 5},
+        {type = "item",  name = "aramid",          amount = 2},
     },
     results = {
         {type = "item", name = "lead-container", amount = 3}
     },
-    main_product = 'lead-container',
+    main_product = "lead-container",
     subgroup = "py-rawores-casting",
     order = "ec"
 }:add_unlock("casting-mk03")

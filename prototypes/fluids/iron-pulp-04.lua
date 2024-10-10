@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "iron-pulp-03", amount = 500},
+        {type = "fluid", name = "iron-pulp-03",    amount = 500},
         {type = "fluid", name = "organic-solvent", amount = 50}
     },
     results = {
