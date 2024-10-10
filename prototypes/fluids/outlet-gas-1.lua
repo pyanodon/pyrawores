@@ -6,9 +6,9 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "coke-oven-gas", amount = 100},
-        {type = "fluid", name = "tar", amount = 50},
-        {type = "item", name = "nickel-plate", amount = 1},
-        {type = "item", name = "copper-cable", amount = 3}
+        {type = "fluid", name = "tar",           amount = 50},
+        {type = "item",  name = "nickel-plate",  amount = 1},
+        {type = "item",  name = "copper-cable",  amount = 3}
     },
     results = {
         {type = "fluid", name = "outlet-gas-01", amount = 100}

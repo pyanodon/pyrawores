@@ -6,12 +6,12 @@ RECIPE {
     energy_required = 2,
     ingredients = {
         {type = "fluid", name = "phosphine-gas", amount = 5},
-        {type = "fluid", name = "water-saline", amount = 100}
+        {type = "fluid", name = "water-saline",  amount = 100}
     },
     results = {
         {type = "fluid", name = "hydrogen-chloride", amount = 40},
-        {type = "fluid", name = "phosphoric-acid", amount = 15},
-        {type = "fluid", name = "oxygen", amount = 20}
+        {type = "fluid", name = "phosphoric-acid",   amount = 15},
+        {type = "fluid", name = "oxygen",            amount = 20}
     },
     main_product = "hydrogen-chloride",
     icon = "__pyraworesgraphics__/graphics/icons/hydrogen-chloride.png",
@@ -27,11 +27,11 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "treated-wood", amount = 3},
-        {type = "item", name = "raw-fiber", amount = 5},
-        {type = "item", name = "sodium-sulfate", amount = 1},
-        {type = "item", name = "sodium-hydroxide", amount = 5},
-        {type = "fluid", name = "steam", amount = 500}
+        {type = "item",  name = "treated-wood",     amount = 3},
+        {type = "item",  name = "raw-fiber",        amount = 5},
+        {type = "item",  name = "sodium-sulfate",   amount = 1},
+        {type = "item",  name = "sodium-hydroxide", amount = 5},
+        {type = "fluid", name = "steam",            amount = 500}
     },
     results = {
         {type = "item", name = "fiberboard", amount = 8}
@@ -40,21 +40,21 @@ RECIPE {
 }
 
 RECIPE {
-    type = 'recipe',
-    name = 'fiberboard-3',
-    category = 'pulp',
+    type = "recipe",
+    name = "fiberboard-3",
+    category = "pulp",
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = 'item', name = 'treated-wood', amount = 5},
-        {type = 'item', name = 'fiber', amount = 5},
-        {type = "item", name = "sodium-sulfate", amount = 1},
-        {type = "item", name = "sodium-hydroxide", amount = 5},
-        {type = 'fluid', name = 'steam', amount = 500},
-        {type = 'fluid', name = 'anthraquinone', amount = 50},
+        {type = "item",  name = "treated-wood",     amount = 5},
+        {type = "item",  name = "fiber",            amount = 5},
+        {type = "item",  name = "sodium-sulfate",   amount = 1},
+        {type = "item",  name = "sodium-hydroxide", amount = 5},
+        {type = "fluid", name = "steam",            amount = 500},
+        {type = "fluid", name = "anthraquinone",    amount = 50},
     },
     results = {
-        {type = 'item', name = 'fiberboard', amount = 12},
+        {type = "item", name = "fiberboard", amount = 12},
     },
 }
 
@@ -65,9 +65,9 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "sub-denier-microfiber", amount = 1},
-        {type = "item", name = "resilin", amount = 1},
-        {type = "fluid", name = "nitrogen", amount = 500}
+        {type = "item",  name = "sub-denier-microfiber", amount = 1},
+        {type = "item",  name = "resilin",               amount = 1},
+        {type = "fluid", name = "nitrogen",              amount = 500}
     },
     results = {
         {type = "item", name = "biofilm", amount = 15}
@@ -82,7 +82,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "benzene", amount = 50},
+        {type = "fluid", name = "benzene",   amount = 50},
         {type = "fluid", name = "aromatics", amount = 100}
     },
     results = {
@@ -101,7 +101,7 @@ RECIPE {
     energy_required = 2,
     ingredients = {
         {type = "fluid", name = "hydrogen-chloride", amount = 100},
-        {type = "fluid", name = "ammonia", amount = 100}
+        {type = "fluid", name = "ammonia",           amount = 100}
     },
     results = {
         {type = "item", name = "ammonium-chloride", amount = 5}
@@ -122,7 +122,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "nitrogen", amount = 100},
         {type = "fluid", name = "hydrogen", amount = 300},
-        {type = "item", name = "chromium", amount = 1},
+        {type = "item",  name = "chromium", amount = 1},
     },
     results = {
         {type = "fluid", name = "ammonia", amount = 100}
@@ -136,19 +136,19 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "graphite", amount = 5},
+        {type = "item", name = "graphite",     amount = 5},
         {type = "item", name = "proton-donor", amount = 2}
     },
     results = {
-        {type = "fluid", name = "oxygen", amount = 5000},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "fluid", name = "oxygen",                     amount = 5000},
+        {type = "item",  name = "crystallographic-substrate", amount = 1,   probability = 0.3}
     },
     main_product = "oxygen",
     icons =
-		{
-			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-			{icon = "__pyraworesgraphics__/graphics/icons/oxygen.png", icon_size = 32, scale = 0.5}
-		},
+    {
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
+        {icon = "__pyraworesgraphics__/graphics/icons/oxygen.png",      icon_size = 32, scale = 0.5}
+    },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -161,19 +161,19 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = "fluid", name = "hydrogen", amount = 1000},
-        {type = "item", name = "proton-donor", amount = 20}
+        {type = "fluid", name = "hydrogen",     amount = 1000},
+        {type = "item",  name = "proton-donor", amount = 20}
     },
     results = {
-        {type = "fluid", name = "helium", amount = 80},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "fluid", name = "helium",                     amount = 80},
+        {type = "item",  name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "helium",
     icons =
-		{
-			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-			{icon = "__pyfusionenergygraphics__/graphics/icons/helium.png", icon_size = 32, scale = 0.5}
-		},
+    {
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
+        {icon = "__pyfusionenergygraphics__/graphics/icons/helium.png", icon_size = 32, scale = 0.5}
+    },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -186,19 +186,19 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = "fluid", name = "helium", amount = 100},
-        {type = "item", name = "proton-receiver", amount = 4}
+        {type = "fluid", name = "helium",          amount = 100},
+        {type = "item",  name = "proton-receiver", amount = 4}
     },
     results = {
-        {type = "fluid", name = "hydrogen", amount = 2000},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "fluid", name = "hydrogen",                   amount = 2000},
+        {type = "item",  name = "crystallographic-substrate", amount = 1,   probability = 0.3}
     },
     main_product = "hydrogen",
     icons =
-		{
-			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-			{icon = "__pyraworesgraphics__/graphics/icons/hydrogen.png", icon_size = 32, scale = 0.5}
-		},
+    {
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
+        {icon = "__pyraworesgraphics__/graphics/icons/hydrogen.png",    icon_size = 32, scale = 0.5}
+    },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -211,19 +211,19 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "carbon-dust", amount = 5},
+        {type = "item", name = "carbon-dust",     amount = 5},
         {type = "item", name = "proton-receiver", amount = 2}
     },
     results = {
-        {type = "item", name = "boron", amount = 10},
+        {type = "item", name = "boron",                      amount = 10},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "boron",
     icons =
-		{
-			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-			{icon = "__pyfusionenergygraphics__/graphics/icons/boron.png", icon_size = 32, scale = 0.5}
-		},
+    {
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
+        {icon = "__pyfusionenergygraphics__/graphics/icons/boron.png",  icon_size = 32, scale = 0.5}
+    },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -236,19 +236,19 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = "fluid", name = "nitrogen", amount = 1000},
-        {type = "item", name = "proton-receiver", amount = 2}
+        {type = "fluid", name = "nitrogen",        amount = 1000},
+        {type = "item",  name = "proton-receiver", amount = 2}
     },
     results = {
-        {type = "item", name = "coal", amount = 200},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "coal",                       amount = 200},
+        {type = "item", name = "crystallographic-substrate", amount = 1,  probability = 0.3}
     },
     main_product = "coal",
     icons =
-		{
-			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-			{icon = "__base__/graphics/icons/coal.png", icon_size = 64, scale = 0.25, icon_mipmaps = 4}
-		},
+    {
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
+        {icon = "__base__/graphics/icons/coal.png",                     icon_size = 64, scale = 0.25, icon_mipmaps = 4}
+    },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -261,19 +261,19 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "silicon", amount = 10},
+        {type = "item", name = "silicon",         amount = 10},
         {type = "item", name = "proton-receiver", amount = 1}
     },
     results = {
-        {type = "item", name = "aluminium-plate", amount = 10},
+        {type = "item", name = "aluminium-plate",            amount = 10},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "aluminium-plate",
     icons =
-		{
-			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-			{icon = "__pyraworesgraphics__/graphics/icons/aluminium-plate.png", icon_size = 32, scale = 0.5}
-		},
+    {
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png",     icon_size = 32},
+        {icon = "__pyraworesgraphics__/graphics/icons/aluminium-plate.png", icon_size = 32, scale = 0.5}
+    },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -286,19 +286,19 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "copper-plate", amount = 10},
+        {type = "item", name = "copper-plate",    amount = 10},
         {type = "item", name = "proton-receiver", amount = 1}
     },
     results = {
-        {type = "item", name = "nickel-plate", amount = 20},
+        {type = "item", name = "nickel-plate",               amount = 20},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "nickel-plate",
     icons =
-		{
-			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-			{icon = "__pyraworesgraphics__/graphics/icons/nickel-plate.png", icon_size = 32, scale = 0.5}
-		},
+    {
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png",  icon_size = 32},
+        {icon = "__pyraworesgraphics__/graphics/icons/nickel-plate.png", icon_size = 32, scale = 0.5}
+    },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -315,15 +315,15 @@ RECIPE {
         {type = "item", name = "proton-donor", amount = 1}
     },
     results = {
-        {type = "item", name = "zinc-plate", amount = 20},
+        {type = "item", name = "zinc-plate",                 amount = 20},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "zinc-plate",
     icons =
-		{
-			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-			{icon = "__pyraworesgraphics__/graphics/icons/zinc-plate.png", icon_size = 32, scale = 0.5}
-		},
+    {
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
+        {icon = "__pyraworesgraphics__/graphics/icons/zinc-plate.png",  icon_size = 32, scale = 0.5}
+    },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -340,15 +340,15 @@ RECIPE {
         {type = "item", name = "proton-donor", amount = 2}
     },
     results = {
-        {type = "item", name = "silver-plate", amount = 20},
+        {type = "item", name = "silver-plate",               amount = 20},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "silver-plate",
     icons =
-		{
-			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-			{icon = "__pyraworesgraphics__/graphics/icons/silver-plate.png", icon_size = 32}
-		},
+    {
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png",  icon_size = 32},
+        {icon = "__pyraworesgraphics__/graphics/icons/silver-plate.png", icon_size = 32}
+    },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -361,19 +361,19 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "lead-plate", amount = 10},
+        {type = "item", name = "lead-plate",      amount = 10},
         {type = "item", name = "proton-receiver", amount = 4}
     },
     results = {
-        {type = "item", name = "gold-plate", amount = 10},
+        {type = "item", name = "gold-plate",                 amount = 10},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "gold-plate",
     icons =
-		{
-			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-			{icon = "__pyraworesgraphics__/graphics/icons/gold-plate.png", icon_size = 32, scale = 0.5}
-		},
+    {
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
+        {icon = "__pyraworesgraphics__/graphics/icons/gold-plate.png",  icon_size = 32, scale = 0.5}
+    },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -387,18 +387,18 @@ RECIPE {
     energy_required = 45,
     ingredients = {
         {type = "item", name = "titanium-plate", amount = 10},
-        {type = "item", name = "proton-donor", amount = 2}
+        {type = "item", name = "proton-donor",   amount = 2}
     },
     results = {
-        {type = "item", name = "vanadium-oxide", amount = 10},
+        {type = "item", name = "vanadium-oxide",             amount = 10},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
     },
     main_product = "vanadium-oxide",
     icons =
-		{
-			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-			{icon = "__pyfusionenergygraphics__/graphics/icons/vanadium-oxide.png", icon_size = 32, scale = 0.5}
-		},
+    {
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png",         icon_size = 32},
+        {icon = "__pyfusionenergygraphics__/graphics/icons/vanadium-oxide.png", icon_size = 32, scale = 0.5}
+    },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -411,9 +411,9 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "bones", amount = 6},
-        {type = "item", name = "urea", amount = 5},
-        {type = "item", name = "ash", amount = 30},
+        {type = "item", name = "bones",             amount = 6},
+        {type = "item", name = "urea",              amount = 5},
+        {type = "item", name = "ash",               amount = 30},
         {type = "item", name = "ammonium-chloride", amount = 20}
     },
     results = {
@@ -428,10 +428,10 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "tpa", amount = 50},
-        {type = "item", name = "sub-denier-microfiber", amount = 1},
-        {type = "item", name = "aluminium-plate", amount = 5},
-        {type = "fluid", name = "chlorine", amount = 200}
+        {type = "fluid", name = "tpa",                   amount = 50},
+        {type = "item",  name = "sub-denier-microfiber", amount = 1},
+        {type = "item",  name = "aluminium-plate",       amount = 5},
+        {type = "fluid", name = "chlorine",              amount = 200}
     },
     results = {
         {type = "item", name = "aramid", amount = 20}
@@ -458,54 +458,54 @@ RECIPE {
 }
 
 RECIPE {
-    type = 'recipe',
-    name = 'cyanic-acid-01',
-    category = 'quenching-tower',
+    type = "recipe",
+    name = "cyanic-acid-01",
+    category = "quenching-tower",
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = 'fluid', name = 'methane', amount = 100},
-        {type = 'fluid', name = 'ammonia', amount = 100},
-        {type = 'item', name = 'coal', amount = 20},
+        {type = "fluid", name = "methane", amount = 100},
+        {type = "fluid", name = "ammonia", amount = 100},
+        {type = "item",  name = "coal",    amount = 20},
     },
     results = {
-        {type = 'fluid', name = 'cyanic-acid', amount = 100},
-        {type = 'fluid', name = 'hydrogen', amount = 50},
+        {type = "fluid", name = "cyanic-acid", amount = 100},
+        {type = "fluid", name = "hydrogen",    amount = 50},
     },
     main_product = "cyanic-acid",
 }:add_unlock("advanced-circuit")
 
 RECIPE {
-    type = 'recipe',
-    name = 'collagen-glycerol',
-    category = 'chemistry',
+    type = "recipe",
+    name = "collagen-glycerol",
+    category = "chemistry",
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = 'fluid', name = 'water', amount = 100},
-        {type = 'item', name = 'collagen', amount = 10},
+        {type = "fluid", name = "water",    amount = 100},
+        {type = "item",  name = "collagen", amount = 10},
     },
     results = {
-        {type = 'fluid', name = 'glycerol', amount = 100},
+        {type = "fluid", name = "glycerol", amount = 100},
     },
     main_product = "glycerol",
 }:add_unlock("advanced-circuit")
 
 RECIPE {
-    type = 'recipe',
-    name = 'fecr-alloy-2',
-    category = 'py-rawores-smelter',
+    type = "recipe",
+    name = "fecr-alloy-2",
+    category = "py-rawores-smelter",
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = 'fluid', name = 'molten-iron', amount = 50},
-        {type = 'fluid', name = 'molten-chromium', amount = 10},
-        {type = 'item', name = 'sand-casting', amount = 1}
+        {type = "fluid", name = "molten-iron",     amount = 50},
+        {type = "fluid", name = "molten-chromium", amount = 10},
+        {type = "item",  name = "sand-casting",    amount = 1}
     },
     results = {
-        {type = 'item', name = 'fecr-alloy', amount = 20}
+        {type = "item", name = "fecr-alloy", amount = 20}
     }
-}:add_unlock('alloys-mk03')
+}:add_unlock("alloys-mk03")
 
 RECIPE {
     type = "recipe",
@@ -514,15 +514,15 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "fluid", name = "molten-copper", amount = 10},
+        {type = "fluid", name = "molten-copper",   amount = 10},
         {type = "fluid", name = "molten-titanium", amount = 10},
-        {type = "item", name = "plastic-bar", amount = 5},
-        {type = "item", name = "sand-casting", amount = 5}
+        {type = "item",  name = "plastic-bar",     amount = 5},
+        {type = "item",  name = "sand-casting",    amount = 5}
     },
     results = {
         {type = "item", name = "ht-pipes", amount = 20}
     },
-    main_product = 'ht-pipes',
+    main_product = "ht-pipes",
     subgroup = "py-rawores-casting",
     order = "on"
 }:add_unlock("casting-mk04")
@@ -534,15 +534,15 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "fluid", name = "molten-copper", amount = 50},
+        {type = "fluid", name = "molten-copper",   amount = 50},
         {type = "fluid", name = "molten-titanium", amount = 10},
-        {type = "item", name = "plastic-bar", amount = 5},
-        {type = "item", name = "sand-casting", amount = 5}
+        {type = "item",  name = "plastic-bar",     amount = 5},
+        {type = "item",  name = "sand-casting",    amount = 5}
     },
     results = {
         {type = "item", name = "ht-pipes-to-ground", amount = 30}
     },
-    main_product = 'ht-pipes-to-ground',
+    main_product = "ht-pipes-to-ground",
     subgroup = "py-rawores-casting",
     order = "ou"
 }:add_unlock("casting-mk04")

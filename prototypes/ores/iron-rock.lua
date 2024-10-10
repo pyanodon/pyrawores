@@ -1,6 +1,6 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["iron-rock"] = {}
 
-data:extend{{
+data:extend {{
     type = "autoplace-control",
     category = "resource",
     name = "iron-rock",
@@ -13,7 +13,7 @@ data:extend{{
 --     name = "iron-rock"
 -- }}
 
-data:extend{
+data:extend {
     {
         type = "noise-expression",
         name = "py_iron_rock_starting_area",
@@ -44,7 +44,7 @@ data:extend{
     }
 }
 
-data:extend{{
+data:extend {{
     type = "resource",
     name = "iron-rock",
     category = "iron-rock",

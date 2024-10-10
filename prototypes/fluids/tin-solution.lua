@@ -6,11 +6,11 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "organic-solvent", amount = 80},
-        {type = "item", name = "powdered-tin", amount = 10},
+        {type = "item",  name = "powdered-tin",    amount = 10},
     },
     results = {
         {type = "fluid", name = "tin-solution", amount = 50},
-        {type = "fluid", name = "tin-slime", amount = 50},
+        {type = "fluid", name = "tin-slime",    amount = 50},
     },
     main_product = "tin-solution",
     subgroup = "py-rawores-tin",
@@ -22,7 +22,7 @@ FLUID {
     type = "fluid",
     name = "tin-solution",
     icon = "__pyraworesgraphics__/graphics/icons/tin-solution.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.258, g = 0.180, b = 0.807},

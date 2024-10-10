@@ -6,8 +6,8 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "nexelit-pulp-01", amount = 100},
-        {type = "fluid", name = "water", amount = 100},
-        {type = "fluid", name = "syngas", amount = 50} --pyht acetone
+        {type = "fluid", name = "water",           amount = 100},
+        {type = "fluid", name = "syngas",          amount = 50} --pyht acetone
     },
     results = {
         {type = "fluid", name = "nexelit-pulp-02", amount = 100}

@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "purest-nitrogen-gas", amount = 100},
-        {type = "item", name = "filtration-media", amount = 1}
+        {type = "item",  name = "filtration-media",    amount = 1}
     },
     results = {
         {type = "fluid", name = "nitrogen", amount = 200}

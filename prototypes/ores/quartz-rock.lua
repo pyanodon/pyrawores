@@ -1,6 +1,6 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["quartz-rock"] = {}
 
-data:extend{{
+data:extend {{
     type = "autoplace-control",
     category = "resource",
     name = "quartz-rock",
@@ -13,7 +13,7 @@ data:extend{{
 --     name = "quartz-rock"
 -- }}
 
-data:extend{
+data:extend {
     {
         type = "noise-expression",
         name = "py_quartz_rock_starting_area",
@@ -44,7 +44,7 @@ data:extend{
     }
 }
 
-data:extend{{
+data:extend {{
     type = "resource",
     name = "quartz-rock",
     category = "quartz-rock",

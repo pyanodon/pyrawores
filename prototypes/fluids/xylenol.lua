@@ -22,8 +22,8 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "methanol", amount = 100},
-        {type = "item", name = "iron-oxide", amount = 10},
+        {type = "fluid", name = "methanol",   amount = 100},
+        {type = "item",  name = "iron-oxide", amount = 10},
         --pyht phenol
     },
     results = {
@@ -39,7 +39,7 @@ FLUID {
     type = "fluid",
     name = "xylenol",
     icon = "__pyraworesgraphics__/graphics/icons/xylenol.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.082, g = 0.352, b = 0.125},

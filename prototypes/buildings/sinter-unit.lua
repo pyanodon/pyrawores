@@ -4,11 +4,11 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "titanium-plate", amount = 200},
-        {type = "item", name = "super-steel", amount = 50},
-        {type = "item", name = "electric-engine-unit", amount = 10},
+        {type = "item", name = "titanium-plate",        amount = 200},
+        {type = "item", name = "super-steel",           amount = 50},
+        {type = "item", name = "electric-engine-unit",  amount = 10},
         {type = "item", name = "advanced-foundry-mk03", amount = 1},
-        {type = "item", name = "processing-unit", amount = 25},
+        {type = "item", name = "processing-unit",       amount = 25},
     },
     results = {
         {type = "item", name = "sinter-unit", amount = 1}
@@ -31,7 +31,7 @@ ENTITY {
     type = "assembling-machine",
     name = "sinter-unit",
     icon = "__pyraworesgraphics__/graphics/icons/sinter-unit.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "sinter-unit"},
     fast_replaceable_group = "sinter-unit",
@@ -46,36 +46,36 @@ ENTITY {
     crafting_speed = 1,
     energy_source =
     {
-      type = "burner",
-      --fuel_categories = {"chemical"},
-      fuel_categories = {"chemical", "biomass", "jerry"},
-      effectivity = 1,
-      light_flicker =
-      {
-          minimum_intensity = 0,
-          maximum_intensity = 0,
-          light_intensity_to_size_coefficient = 0,
-          color = {1,0.93,0.19},
-      },
-      fuel_inventory_size = 1,
-      burnt_inventory_size = 1,
-      emissions_per_minute = {
-          pollution = 0.06
-      },
-      smoke =
-      {
+        type = "burner",
+        --fuel_categories = {"chemical"},
+        fuel_categories = {"chemical", "biomass", "jerry"},
+        effectivity = 1,
+        light_flicker =
         {
-            name = "smoke",
-            north_position = {3, -7.0},
-            east_position = {3, -7.0},
-            west_position = {3, -7.0},
-            south_position = {3, -7.0},
-            frequency = 90,
-            starting_vertical_speed = 0.15,
-            slow_down_factor = 1,
-            starting_frame_deviation = 60
+            minimum_intensity = 0,
+            maximum_intensity = 0,
+            light_intensity_to_size_coefficient = 0,
+            color = {1, 0.93, 0.19},
         },
-      },
+        fuel_inventory_size = 1,
+        burnt_inventory_size = 1,
+        emissions_per_minute = {
+            pollution = 0.06
+        },
+        smoke =
+        {
+            {
+                name = "smoke",
+                north_position = {3, -7.0},
+                east_position = {3, -7.0},
+                west_position = {3, -7.0},
+                south_position = {3, -7.0},
+                frequency = 90,
+                starting_vertical_speed = 0.15,
+                slow_down_factor = 1,
+                starting_frame_deviation = 60
+            },
+        },
     },
     energy_usage = "20MW",
     graphics_set = {

@@ -9,7 +9,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "crushed-quartz", amount = 1},
-        {type = "item", name = "stone", amount = 1, probability = 0.5}
+        {type = "item", name = "stone",          amount = 1, probability = 0.5}
     },
     main_product = "crushed-quartz",
     icon = "__pyraworesgraphics__/graphics/icons/crush-quartz.png",
@@ -28,7 +28,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "powdered-quartz", amount = 5},
-        {type = "item", name = "gravel", amount = 1, probability = 0.5}
+        {type = "item", name = "gravel",          amount = 1, probability = 0.5}
     },
     main_product = "powdered-quartz",
     icon = "__pyraworesgraphics__/graphics/icons/powdered-quartz.png",
@@ -39,15 +39,15 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "purified-quartz",
-    category = "leaching",--pyFE pan
+    category = "leaching", --pyFE pan
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "prepared-quartz", amount = 50},
-        {type = "fluid", name = "creosote", amount = 80},
+        {type = "fluid", name = "creosote",        amount = 80},
     },
     results = {
-        {type = "item", name = "purified-quartz", amount = 1},
+        {type = "item",  name = "purified-quartz",   amount = 1},
         {type = "fluid", name = "dirty-water-heavy", amount = 50}
     },
     main_product = "purified-quartz",
@@ -64,10 +64,10 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "high-grade-quartz-pulp", amount = 50},
-        {type = "fluid", name = "syngas", amount = 100},
+        {type = "fluid", name = "syngas",                 amount = 100},
     },
     results = {
-        {type = "item", name = "high-grade-quartz", amount = 2},
+        {type = "item",  name = "high-grade-quartz", amount = 2},
         {type = "fluid", name = "dirty-water-heavy", amount = 80}
     },
     main_product = "high-grade-quartz",
@@ -86,15 +86,15 @@ RECIPE {
         {type = "item", name = "sand", amount = 20}
     },
     results = {
-        {type = "item", name = "iron-oxide", amount = 1, probability = 0.5},
-        {type = "item", name = "gravel", amount = 4},
+        {type = "item", name = "iron-oxide",     amount = 1, probability = 0.5},
+        {type = "item", name = "gravel",         amount = 4},
         {type = "item", name = "crushed-quartz", amount = 1, probability = 0.05}
     },
     main_product = "gravel",
     icon = "__pyraworesgraphics__/graphics/icons/class-sand.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
-}--:add_unlock("separation")
+} --:add_unlock("separation")
 
 
 --GLASS--
@@ -146,7 +146,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "powdered-quartz", amount = 2},
-        {type = "item", name = "pure-sand", amount = 10},
+        {type = "item", name = "pure-sand",       amount = 10},
     },
     results = {
         {type = "fluid", name = "molten-glass", amount = 50}
@@ -165,8 +165,8 @@ RECIPE {
     enabled = false,
     energy_required = 11,
     ingredients = {
-        {type = "item", name = "purified-quartz", amount = 3},
-        {type = "item", name = "pure-sand", amount = 20},
+        {type = "item", name = "purified-quartz",  amount = 3},
+        {type = "item", name = "pure-sand",        amount = 20},
         {type = "item", name = "sodium-carbonate", amount = 2},
     },
     results = {
@@ -187,8 +187,8 @@ RECIPE {
     energy_required = 6,
     ingredients = {
         {type = "fluid", name = "high-grade-quartz-pulp", amount = 100, fluidbox_index = 1},
-        {type = "item", name = "fuelrod-mk01", amount = 1},
-        {type = "item", name = "sodium-carbonate", amount = 1},
+        {type = "item",  name = "fuelrod-mk01",           amount = 1},
+        {type = "item",  name = "sodium-carbonate",       amount = 1},
     },
     results = {
         {type = "fluid", name = "molten-glass", amount = 1800}
@@ -208,8 +208,8 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = "item", name = "high-grade-quartz", amount = 4},
-        {type = "item", name = "sodium-carbonate", amount = 4},
-        {type = "item", name = "lithium-peroxide", amount = 1},
+        {type = "item", name = "sodium-carbonate",  amount = 4},
+        {type = "item", name = "lithium-peroxide",  amount = 1},
     },
     results = {
         {type = "fluid", name = "molten-glass", amount = 2600}

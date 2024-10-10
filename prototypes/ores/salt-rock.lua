@@ -1,6 +1,6 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["salt-rock"] = {}
 
-data:extend{{
+data:extend {{
     type = "autoplace-control",
     category = "resource",
     name = "salt-rock",
@@ -13,7 +13,7 @@ data:extend{{
 --     name = "salt-rock"
 -- }}
 
-data:extend{
+data:extend {
     {
         type = "noise-expression",
         name = "py_salt_rock_starting_area",
@@ -44,7 +44,7 @@ data:extend{
     }
 }
 
-data:extend{{
+data:extend {{
     type = "resource",
     name = "salt-rock",
     category = "salt-rock",

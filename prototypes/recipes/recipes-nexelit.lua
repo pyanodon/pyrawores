@@ -1,4 +1,3 @@
-
 RECIPE {
     type = "recipe",
     name = "nexelit-ore-1",
@@ -9,7 +8,7 @@ RECIPE {
         {type = "fluid", name = "dirty-water-heavy", amount = 500}
     },
     results = {
-        {type = "item", name = "nexelit-ore", amount = 1},
+        {type = "item", name = "nexelit-ore",   amount = 1},
         {type = "item", name = "tailings-dust", amount = 1, probability = 0.4}
     },
     main_product = "nexelit-ore",
@@ -23,11 +22,11 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "nexelit-ore", amount = 3},
-        {type = "fluid", name = "water", amount = 100}
+        {type = "item",  name = "nexelit-ore", amount = 3},
+        {type = "fluid", name = "water",       amount = 100}
     },
     results = {
-        {type = "item", name = "clean-nexelit", amount = 1},
+        {type = "item",  name = "clean-nexelit",     amount = 1},
         {type = "fluid", name = "dirty-water-light", amount = 100}
     },
     main_product = "clean-nexelit",
@@ -47,7 +46,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-nexelit", amount = 1},
-        {type = "item", name = "stone", amount = 1}
+        {type = "item", name = "stone",           amount = 1}
     },
     main_product = "grade-1-nexelit",
     icon = "__pyraworesgraphics__/graphics/icons/crusher-nexelit.png",
@@ -102,7 +101,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-3-nexelit", amount = 1},
-        {type = "item", name = "sand", amount = 1}
+        {type = "item", name = "sand",            amount = 1}
     },
     main_product = "grade-3-nexelit",
     icon = "__pyraworesgraphics__/graphics/icons/recrush-grade-2-nexelit.png",
@@ -117,9 +116,9 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "grade-3-nexelit", amount = 1},
-        {type = "item", name = "sand", amount = 5},
-        {type = "fluid", name = "water", amount = 100}
+        {type = "item",  name = "grade-3-nexelit", amount = 1},
+        {type = "item",  name = "sand",            amount = 5},
+        {type = "fluid", name = "water",           amount = 100}
     },
     results = {
         {type = "item", name = "fine-nexelit-powder", amount = 1}
@@ -152,8 +151,8 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "nexelit-slurry", amount = 25},
-        {type = "fluid", name = "boric-acid", amount = 50},
-        {type = "fluid", name = "methanol", amount = 10}
+        {type = "fluid", name = "boric-acid",     amount = 50},
+        {type = "fluid", name = "methanol",       amount = 10}
     },
     results = {
         {type = "item", name = "high-grade-nexelit", amount = 1}
@@ -171,9 +170,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "high-grade-nexelit", amount = 6},
-        {type = "item", name = "sodium-sulfate", amount = 1},
-        {type = "fluid", name = "diesel", amount = 150}
+        {type = "item",  name = "high-grade-nexelit", amount = 6},
+        {type = "item",  name = "sodium-sulfate",     amount = 1},
+        {type = "fluid", name = "diesel",             amount = 150}
         --pyfe pressured air
     },
     results = {
@@ -190,9 +189,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "reduced-nexelit", amount = 1},
-        {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100}
+        {type = "item",  name = "reduced-nexelit", amount = 1},
+        {type = "item",  name = "lime",            amount = 3},
+        {type = "fluid", name = "syngas",          amount = 100}
         --pyfe pressured air
     },
     results = {
@@ -212,7 +211,7 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = "item", name = "fine-nexelit-powder", amount = 10},
-        {type = "item", name = "borax", amount = 2}
+        {type = "item", name = "borax",               amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-nexelit", amount = 35}
@@ -248,7 +247,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "high-grade-nexelit", amount = 1},
-        {type = "item", name = "borax", amount = 1}
+        {type = "item", name = "borax",              amount = 1}
     },
     results = {
         {type = "fluid", name = "molten-nexelit", amount = 17}
@@ -266,7 +265,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "reduced-nexelit", amount = 1},
-        {type = "item", name = "borax", amount = 1}
+        {type = "item", name = "borax",           amount = 1}
     },
     results = {
         {type = "fluid", name = "molten-nexelit", amount = 164}
@@ -284,7 +283,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "sintered-nexelit", amount = 2},
-        {type = "item", name = "borax", amount = 4}
+        {type = "item", name = "borax",            amount = 4}
     },
     results = {
         {type = "fluid", name = "molten-nexelit", amount = 200}
@@ -304,7 +303,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-nexelit", amount = 100},
-        {type = "item", name = "sand-casting", amount = 1}
+        {type = "item",  name = "sand-casting",   amount = 1}
     },
     results = {
         {type = "item", name = "nexelit-plate", amount = 20}

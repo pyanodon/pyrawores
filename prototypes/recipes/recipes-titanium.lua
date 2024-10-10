@@ -2,7 +2,7 @@ RECIPE {
     type = "recipe",
     name = "grade-1-ti",
     category = "solid-separator",
-     --pyFE screener
+    --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -28,7 +28,7 @@ RECIPE {
         {type = "item", name = "grade-2-ti", amount = 1}
     },
     results = {
-        {type = "item", name = "stone", amount = 1},
+        {type = "item", name = "stone",      amount = 1},
         {type = "item", name = "grade-1-ti", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-ti",
@@ -39,7 +39,7 @@ RECIPE {
     type = "recipe",
     name = "grade-3-ti",
     category = "solid-separator",
-     --pyFE screener
+    --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -59,14 +59,14 @@ RECIPE {
     type = "recipe",
     name = "ti-rejects-recrush",
     category = "crusher",
-     --pyFE secondary-crusher
+    --pyFE secondary-crusher
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item", name = "ti-rejects", amount = 1}
     },
     results = {
-        {type = "item", name = "gravel", amount = 1},
+        {type = "item", name = "gravel",     amount = 1},
         {type = "item", name = "grade-3-ti", amount = 1, probability = 0.3}
     },
     main_product = "grade-3-ti",
@@ -98,13 +98,13 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-4-ti", amount = 2},
-        {type = "fluid", name = "water", amount = 100},
-        {type = "fluid", name = "mibc", amount = 100}
+        {type = "item",  name = "grade-4-ti", amount = 2},
+        {type = "fluid", name = "water",      amount = 100},
+        {type = "fluid", name = "mibc",       amount = 100}
     },
     results = {
-        {type = "item", name = "powdered-ti", amount = 2},
-        {type = "fluid", name = "ti-pulp-03", amount = 60},
+        {type = "item",  name = "powdered-ti",       amount = 2},
+        {type = "fluid", name = "ti-pulp-03",        amount = 60},
         {type = "fluid", name = "dirty-water-heavy", amount = 40},
     },
     main_product = "powdered-ti",
@@ -115,7 +115,7 @@ RECIPE {
     type = "recipe",
     name = "ti-enriched-dust",
     category = "solid-separator",
-     --pyFE screener
+    --pyFE screener
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -123,7 +123,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "ti-enriched-dust", amount = 1},
-        {type = "item", name = "ti-rejects", amount = 1, probability = 0.5}
+        {type = "item", name = "ti-rejects",       amount = 1, probability = 0.5}
     },
     main_product = "ti-enriched-dust",
     icon = "__pyraworesgraphics__/graphics/icons/powdered-ti-screening.png",
@@ -158,8 +158,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "concentrated-ti", amount = 1},
-        {type = "item", name = "nexelit-ore", amount = 1, probability = 0.5},
-        {type = "item", name = "iron-oxide", amount = 1, probability = 0.5}
+        {type = "item", name = "nexelit-ore",     amount = 1, probability = 0.5},
+        {type = "item", name = "iron-oxide",      amount = 1, probability = 0.5}
     },
     main_product = "concentrated-ti",
     subgroup = "py-rawores-titanium",
@@ -192,9 +192,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "high-grade-ti", amount = 1},
-        {type = "item", name = "sodium-sulfate", amount = 2},
-        {type = "fluid", name = "diesel", amount = 50}
+        {type = "item",  name = "high-grade-ti",  amount = 1},
+        {type = "item",  name = "sodium-sulfate", amount = 2},
+        {type = "fluid", name = "diesel",         amount = 50}
         --pyfe pressured air
     },
     results = {
@@ -211,9 +211,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "reduced-ti", amount = 1},
-        {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100}
+        {type = "item",  name = "reduced-ti", amount = 1},
+        {type = "item",  name = "lime",       amount = 3},
+        {type = "fluid", name = "syngas",     amount = 100}
         --pyfe pressured air
     },
     results = {
@@ -233,9 +233,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "ti-enriched-dust", amount = 2},
-        {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 100}
+        {type = "item",  name = "ti-enriched-dust", amount = 2},
+        {type = "item",  name = "limestone",        amount = 3},
+        {type = "fluid", name = "heavy-oil",        amount = 100}
     },
     results = {
         {type = "fluid", name = "molten-titanium", amount = 40}
@@ -253,9 +253,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "concentrated-ti", amount = 1},
-        {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 100}
+        {type = "item",  name = "concentrated-ti", amount = 1},
+        {type = "item",  name = "limestone",       amount = 3},
+        {type = "fluid", name = "heavy-oil",       amount = 100}
     },
     results = {
         {type = "fluid", name = "molten-titanium", amount = 510}
@@ -273,9 +273,9 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "high-grade-ti", amount = 1},
-        {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 100}
+        {type = "item",  name = "high-grade-ti", amount = 1},
+        {type = "item",  name = "limestone",     amount = 3},
+        {type = "fluid", name = "heavy-oil",     amount = 100}
     },
     results = {
         {type = "fluid", name = "molten-titanium", amount = 600}
@@ -293,9 +293,9 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "reduced-ti", amount = 1},
-        {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 100}
+        {type = "item",  name = "reduced-ti", amount = 1},
+        {type = "item",  name = "limestone",  amount = 3},
+        {type = "fluid", name = "heavy-oil",  amount = 100}
     },
     results = {
         {type = "fluid", name = "molten-titanium", amount = 650}
@@ -313,9 +313,9 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "sintered-ti", amount = 1},
-        {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 100}
+        {type = "item",  name = "sintered-ti", amount = 1},
+        {type = "item",  name = "limestone",   amount = 3},
+        {type = "fluid", name = "heavy-oil",   amount = 100}
     },
     results = {
         {type = "fluid", name = "molten-titanium", amount = 400}
@@ -336,7 +336,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-titanium", amount = 100},
-        {type = "item", name = "sand-casting", amount = 1}
+        {type = "item",  name = "sand-casting",    amount = 1}
     },
     results = {
         {type = "item", name = "titanium-plate", amount = 20}

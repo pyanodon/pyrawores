@@ -9,7 +9,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "chromium-rejects", amount = 50},
-        {type = "item", name = "chromium", amount = 10},
+        {type = "item",  name = "chromium",         amount = 10},
     },
     main_product = "chromium-rejects",
     subgroup = "py-rawores-chromium",
@@ -21,7 +21,7 @@ FLUID {
     type = "fluid",
     name = "chromium-rejects",
     icon = "__pyraworesgraphics__/graphics/icons/chromium-rejects.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.486, g = 0.552, b = 0.333},

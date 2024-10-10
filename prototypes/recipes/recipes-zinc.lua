@@ -5,13 +5,13 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "ore-zinc", amount = 5},
+        {type = "item", name = "ore-zinc",   amount = 5},
         {type = "item", name = "iron-stick", amount = 3}
     },
     results = {
         {type = "item", name = "grade-1-zinc", amount = 1},
-        {type = "item", name = "soil", amount = 1, probability = 0.7},
-        {type = "item", name = "stone", amount = 1, probability = 0.5}
+        {type = "item", name = "soil",         amount = 1, probability = 0.7},
+        {type = "item", name = "stone",        amount = 1, probability = 0.5}
     },
     main_product = "grade-1-zinc",
     subgroup = "py-rawores-zinc",
@@ -28,7 +28,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-2-zinc", amount = 2},
-        {type = "item", name = "sand", amount = 1, probability = 0.5}
+        {type = "item", name = "sand",         amount = 1, probability = 0.5}
     },
     main_product = "grade-2-zinc",
     subgroup = "py-rawores-zinc",
@@ -41,11 +41,11 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-2-zinc", amount = 5},
-        {type = "fluid", name = "water", amount = 200}
+        {type = "item",  name = "grade-2-zinc", amount = 5},
+        {type = "fluid", name = "water",        amount = 200}
     },
     results = {
-        {type = "item", name = "grade-3-zinc", amount = 5},
+        {type = "item",  name = "grade-3-zinc",      amount = 5},
         {type = "fluid", name = "dirty-water-light", amount = 50}
     },
     main_product = "grade-3-zinc",
@@ -63,7 +63,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-4-zinc", amount = 1},
-        {type = "item", name = "coal-dust", amount = 1, probability = 0.5}
+        {type = "item", name = "coal-dust",    amount = 1, probability = 0.5}
     },
     main_product = "grade-4-zinc",
     subgroup = "py-rawores-zinc",
@@ -80,7 +80,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "powdered-zinc", amount = 1},
-        {type = "item", name = "grade-2-zinc", amount = 1, probability = 0.3}
+        {type = "item", name = "grade-2-zinc",  amount = 1, probability = 0.3}
     },
     main_product = "powdered-zinc",
     icon = "__pyraworesgraphics__/graphics/icons/grade-4-zinc-screening.png",
@@ -95,11 +95,11 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "zinc-pulp-03", amount = 200},
-        {type = "item", name = "sodium-hydroxide", amount = 5}
+        {type = "fluid", name = "zinc-pulp-03",     amount = 200},
+        {type = "item",  name = "sodium-hydroxide", amount = 5}
     },
     results = {
-        {type = "item", name = "purified-zinc", amount = 2},
+        {type = "item",  name = "purified-zinc", amount = 2},
         {type = "fluid", name = "zinc-overflow", amount = 40}
     },
     main_product = "purified-zinc",
@@ -117,7 +117,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "concentrated-zinc", amount = 1},
-        {type = "item", name = "lead-dust", amount = 1, probability = 0.5}
+        {type = "item", name = "lead-dust",         amount = 1, probability = 0.5}
     },
     main_product = "concentrated-zinc",
     subgroup = "py-rawores-zinc",
@@ -130,8 +130,8 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "zinc-pulp-04", amount = 400},
-        {type = "item", name = "filtration-media", amount = 1}
+        {type = "fluid", name = "zinc-pulp-04",     amount = 400},
+        {type = "item",  name = "filtration-media", amount = 1}
     },
     results = {
         {type = "item", name = "high-grade-zinc", amount = 4}
@@ -149,9 +149,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "high-grade-zinc", amount = 1},
-        {type = "item", name = "sodium-sulfate", amount = 2},
-        {type = "fluid", name = "diesel", amount = 50}
+        {type = "item",  name = "high-grade-zinc", amount = 1},
+        {type = "item",  name = "sodium-sulfate",  amount = 2},
+        {type = "fluid", name = "diesel",          amount = 50}
         --pyfe pressured air
     },
     results = {
@@ -168,9 +168,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "reduced-zinc", amount = 1},
-        {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100}
+        {type = "item",  name = "reduced-zinc", amount = 1},
+        {type = "item",  name = "lime",         amount = 3},
+        {type = "fluid", name = "syngas",       amount = 100}
         --pyfe pressured air
     },
     results = {
@@ -189,9 +189,9 @@ RECIPE {
     enabled = false,
     energy_required = 6,
     ingredients = {
-        {type = "item", name = "grade-3-zinc", amount = 4},
-        {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 100}
+        {type = "item",  name = "grade-3-zinc", amount = 4},
+        {type = "item",  name = "limestone",    amount = 3},
+        {type = "fluid", name = "heavy-oil",    amount = 100}
     },
     results = {
         {type = "fluid", name = "molten-zinc", amount = 20}
@@ -208,9 +208,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "concentrated-zinc", amount = 1},
-        {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 100}
+        {type = "item",  name = "concentrated-zinc", amount = 1},
+        {type = "item",  name = "limestone",         amount = 3},
+        {type = "fluid", name = "heavy-oil",         amount = 100}
     },
     results = {
         {type = "fluid", name = "molten-zinc", amount = 45}
@@ -227,9 +227,9 @@ RECIPE {
     enabled = false,
     energy_required = 6,
     ingredients = {
-        {type = "item", name = "high-grade-zinc", amount = 1},
-        {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 150}
+        {type = "item",  name = "high-grade-zinc", amount = 1},
+        {type = "item",  name = "limestone",       amount = 3},
+        {type = "fluid", name = "heavy-oil",       amount = 150}
     },
     results = {
         {type = "fluid", name = "molten-zinc", amount = 132}
@@ -246,9 +246,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "reduced-zinc", amount = 1},
-        {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 150}
+        {type = "item",  name = "reduced-zinc", amount = 1},
+        {type = "item",  name = "limestone",    amount = 3},
+        {type = "fluid", name = "heavy-oil",    amount = 150}
     },
     results = {
         {type = "fluid", name = "molten-zinc", amount = 200}
@@ -265,9 +265,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "sintered-zinc", amount = 1},
-        {type = "item", name = "limestone", amount = 3},
-        {type = "fluid", name = "heavy-oil", amount = 150}
+        {type = "item",  name = "sintered-zinc", amount = 1},
+        {type = "item",  name = "limestone",     amount = 3},
+        {type = "fluid", name = "heavy-oil",     amount = 150}
     },
     results = {
         {type = "fluid", name = "molten-zinc", amount = 130}
@@ -286,9 +286,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "molten-zinc", amount = 100},
-        {type = "item", name = "sand-casting", amount = 1},
-        {type = "item", name = "borax", amount = 2}
+        {type = "fluid", name = "molten-zinc",  amount = 100},
+        {type = "item",  name = "sand-casting", amount = 1},
+        {type = "item",  name = "borax",        amount = 2}
     },
     results = {
         {type = "item", name = "zinc-plate", amount = 50}

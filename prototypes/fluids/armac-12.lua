@@ -6,8 +6,8 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "oleochemicals", amount = 25},
-        {type = "fluid", name = "chlorine", amount = 150}, --pyht ammonia
-        {type = "item", name = "lead-plate", amount = 1},
+        {type = "fluid", name = "chlorine",      amount = 150}, --pyht ammonia
+        {type = "item",  name = "lead-plate",    amount = 1},
 
     },
     results = {
@@ -23,7 +23,7 @@ FLUID {
     type = "fluid",
     name = "armac-12",
     icon = "__pyraworesgraphics__/graphics/icons/armac-12.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.635, g = 0.482, b = 0.341},

@@ -5,13 +5,13 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "copper-pulp-03", amount = 100},
+        {type = "fluid", name = "copper-pulp-03",  amount = 100},
         {type = "fluid", name = "copper-solution", amount = 10},
-        {type = "fluid", name = "acid-solvent", amount = 10},
+        {type = "fluid", name = "acid-solvent",    amount = 10},
     },
     results = {
-        {type = "fluid", name = "copper-pulp-04", amount = 100},
-        {type = "fluid", name = "dirty-water-heavy", amount = 50},
+        {type = "fluid", name = "copper-pulp-04",           amount = 100},
+        {type = "fluid", name = "dirty-water-heavy",        amount = 50},
         {type = "fluid", name = "copper-pregnant-solution", amount = 20},
     },
     main_product = "copper-pulp-04",
@@ -24,7 +24,7 @@ FLUID {
     type = "fluid",
     name = "copper-pulp-04",
     icon = "__pyraworesgraphics__/graphics/icons/copper-pulp-04.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 1, g = 0.656, b = 0.1},

@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "tin-pulp-02", amount = 400},
-        {type = "item", name = "biofilm", amount = 1},
+        {type = "item",  name = "biofilm",     amount = 1},
     },
     results = {
         {type = "fluid", name = "tin-pulp-03", amount = 400},
@@ -21,7 +21,7 @@ FLUID {
     type = "fluid",
     name = "tin-pulp-03",
     icon = "__pyraworesgraphics__/graphics/icons/tin-pulp-03.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.258, g = 0.180, b = 0.807},

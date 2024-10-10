@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "tin-middle-pulp", amount = 300},
-        {type = "item", name = "chromium", amount = 1},
+        {type = "item",  name = "chromium",        amount = 1},
     },
     results = {
         {type = "fluid", name = "tin-slime", amount = 100},
@@ -21,7 +21,7 @@ FLUID {
     type = "fluid",
     name = "tin-slime",
     icon = "__pyraworesgraphics__/graphics/icons/tin-slime.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.258, g = 0.180, b = 0.807},

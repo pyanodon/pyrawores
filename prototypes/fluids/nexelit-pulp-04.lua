@@ -6,11 +6,11 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "nexelit-pulp-03", amount = 100},
-        {type = "fluid", name = "armac-12", amount = 75},
---ptfe pressured air
+        {type = "fluid", name = "armac-12",        amount = 75},
+        --ptfe pressured air
     },
     results = {
-        {type = "fluid", name = "nexelit-pulp-04", amount = 100},
+        {type = "fluid", name = "nexelit-pulp-04",   amount = 100},
         {type = "fluid", name = "dirty-water-heavy", amount = 100},
     },
     main_product = "nexelit-pulp-04",
@@ -23,7 +23,7 @@ FLUID {
     type = "fluid",
     name = "nexelit-pulp-04",
     icon = "__pyraworesgraphics__/graphics/icons/nexelit-pulp-04.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0, g = 0.545, b = 0.733},

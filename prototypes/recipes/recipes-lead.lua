@@ -27,7 +27,7 @@ RECIPE {
         {type = "item", name = "grade-1-lead", amount = 2}
     },
     results = {
-        {type = "item", name = "stone", amount = 1},
+        {type = "item", name = "stone",        amount = 1},
         {type = "item", name = "grade-2-lead", amount = 1}
     },
     main_product = "grade-2-lead",
@@ -100,7 +100,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "lead-refined-dust-03", amount = 1},
-        {type = "item", name = "sand", amount = 1}
+        {type = "item", name = "sand",                 amount = 1}
     },
     main_product = "lead-refined-dust-03",
     subgroup = "py-rawores-lead",
@@ -113,8 +113,8 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "sl-03", amount = 400},
-        {type = "item", name = "filtration-media", amount = 1}
+        {type = "fluid", name = "sl-03",            amount = 400},
+        {type = "item",  name = "filtration-media", amount = 1}
     },
     results = {
         {type = "item", name = "sl-concentrate", amount = 4}
@@ -164,9 +164,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "high-grade-lead", amount = 1},
-        {type = "item", name = "sodium-sulfate", amount = 2},
-        {type = "fluid", name = "diesel", amount = 50}
+        {type = "item",  name = "high-grade-lead", amount = 1},
+        {type = "item",  name = "sodium-sulfate",  amount = 2},
+        {type = "fluid", name = "diesel",          amount = 50}
         --pyfe pressured air
     },
     results = {
@@ -183,9 +183,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "reduced-lead", amount = 1},
-        {type = "item", name = "lime", amount = 3},
-        {type = "fluid", name = "syngas", amount = 100}
+        {type = "item",  name = "reduced-lead", amount = 1},
+        {type = "item",  name = "lime",         amount = 3},
+        {type = "fluid", name = "syngas",       amount = 100}
         --pyfe pressured air
     },
     results = {
@@ -205,7 +205,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "lead-dust", amount = 4},
-        {type = "item", name = "borax", amount = 2}
+        {type = "item", name = "borax",     amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-lead", amount = 90}
@@ -223,7 +223,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "sl-01", amount = 100},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item",  name = "borax", amount = 3}
     },
     results = {
         {type = "fluid", name = "molten-lead", amount = 70}
@@ -241,7 +241,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "high-grade-lead", amount = 1},
-        {type = "item", name = "borax", amount = 2}
+        {type = "item", name = "borax",           amount = 2}
     },
     results = {
         {type = "fluid", name = "molten-lead", amount = 500}
@@ -259,7 +259,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "reduced-lead", amount = 1},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax",        amount = 3}
     },
     results = {
         {type = "fluid", name = "molten-lead", amount = 1000}
@@ -277,7 +277,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "sintered-lead", amount = 1},
-        {type = "item", name = "borax", amount = 3}
+        {type = "item", name = "borax",         amount = 3}
     },
     results = {
         {type = "fluid", name = "molten-lead", amount = 650}
@@ -296,8 +296,8 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "molten-lead", amount = 100},
-        {type = "item", name = "sand-casting", amount = 1}
+        {type = "fluid", name = "molten-lead",  amount = 100},
+        {type = "item",  name = "sand-casting", amount = 1}
     },
     results = {
         {type = "item", name = "lead-plate", amount = 50}

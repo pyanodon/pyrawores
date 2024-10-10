@@ -4,9 +4,9 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "titanium-plate", amount = 200},
-        {type = "item", name = "super-steel", amount = 50},
-        {type = "item", name = "classifier", amount = 3},
+        {type = "item", name = "titanium-plate",  amount = 200},
+        {type = "item", name = "super-steel",     amount = 50},
+        {type = "item", name = "classifier",      amount = 3},
         {type = "item", name = "processing-unit", amount = 25},
     },
     results = {
@@ -30,7 +30,7 @@ ENTITY {
     type = "assembling-machine",
     name = "drp",
     icon = "__pyraworesgraphics__/graphics/icons/drp.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "drp"},
     fast_replaceable_group = "drp",

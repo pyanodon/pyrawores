@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "iron-oxide", amount = 140},
+        {type = "item",  name = "iron-oxide",        amount = 140},
         {type = "fluid", name = "dirty-water-heavy", amount = 300},
     },
     results = {
@@ -21,7 +21,7 @@ FLUID {
     type = "fluid",
     name = "iron-slime",
     icon = "__pyraworesgraphics__/graphics/icons/iron-slime.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.086, g = 0.180, b = 0.254},

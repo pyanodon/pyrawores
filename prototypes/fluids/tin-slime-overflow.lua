@@ -6,11 +6,11 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "tin-slime", amount = 100},
-        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "water",     amount = 100},
     },
     results = {
         {type = "fluid", name = "tin-slime-overflow", amount = 100},
-        {type = "fluid", name = "dirty-water-heavy", amount = 50},
+        {type = "fluid", name = "dirty-water-heavy",  amount = 50},
     },
     main_product = "tin-slime-overflow",
     subgroup = "py-rawores-tin",
@@ -22,7 +22,7 @@ FLUID {
     type = "fluid",
     name = "tin-slime-overflow",
     icon = "__pyraworesgraphics__/graphics/icons/tin-slime-overflow.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.258, g = 0.180, b = 0.807},

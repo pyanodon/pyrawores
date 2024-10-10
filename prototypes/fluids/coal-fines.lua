@@ -6,12 +6,12 @@ RECIPE {
     energy_required = 2,
     ingredients = {
         {type = "fluid", name = "thickened-coal-fines", amount = 100},
-        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "water",                amount = 100},
     },
     results = {
-        {type = "fluid", name = "coal-fines", amount = 100},
+        {type = "fluid", name = "coal-fines",     amount = 100},
         {type = "fluid", name = "high-ash-fines", amount = 20},
-        {type = "item", name = "pyrite", amount = 1},
+        {type = "item",  name = "pyrite",         amount = 1},
     },
     main_product = "coal-fines",
     subgroup = "py-rawores-coal",
@@ -23,7 +23,7 @@ FLUID {
     type = "fluid",
     name = "coal-fines",
     icon = "__pyraworesgraphics__/graphics/icons/coal-fines.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
     base_flow_rate = 100,
     base_color = {r = 0.0, g = 0.0, b = 0.0},
