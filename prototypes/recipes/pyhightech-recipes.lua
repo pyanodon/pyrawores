@@ -347,7 +347,7 @@ RECIPE {
     icons =
     {
         {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png",  icon_size = 32},
-        {icon = "__pyraworesgraphics__/graphics/icons/silver-plate.png", icon_size = 32}
+        {icon = "__pyraworesgraphics__/graphics/icons/silver-plate.png", icon_size = 32, scale = 0.5}
     },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
