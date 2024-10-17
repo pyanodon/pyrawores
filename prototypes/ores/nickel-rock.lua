@@ -1,4 +1,5 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["nickel-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["nickel-rock"] = {}
 
 data:extend {{
     type = "autoplace-control",
@@ -33,14 +34,14 @@ data:extend {
         name = "py_nickel_rock",
         -- Our final chance, likely a very, very small decimal
         expression = [[
-            py_nickel_rock_starting_area * py_nickel_rock_desired_frequency * var("control-setting:nickel-rock:frequency:multiplier")
+            py_nickel_rock_starting_area * py_nickel_rock_desired_frequency * var("control:nickel-rock:frequency")
         ]]
     },
     {
         -- We return the richness here, which is just the quantity the resource tile yields
         type = "noise-expression",
         name = "py_nickel_rock_richness",
-        expression = "2^16 * var('distance') * var('control-setting:nickel-rock:richness:multiplier')"
+        expression = "2^16 * var('distance') * var('control:nickel-rock:richness')"
     }
 }
 

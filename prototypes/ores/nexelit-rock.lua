@@ -1,4 +1,5 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["nexelit-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["nexelit-rock"] = {}
 
 data:extend {{
     type = "autoplace-control",
@@ -33,14 +34,14 @@ data:extend {
         name = "py_nexelit_rock",
         -- Our final chance, likely a very, very small decimal
         expression = [[
-            py_nexelit_rock_starting_area * py_nexelit_rock_desired_frequency * var("control-setting:nexelit-rock:frequency:multiplier")
+            py_nexelit_rock_starting_area * py_nexelit_rock_desired_frequency * var("control:nexelit-rock:frequency")
         ]]
     },
     {
         -- We return the richness here, which is just the quantity the resource tile yields
         type = "noise-expression",
         name = "py_nexelit_rock_richness",
-        expression = "2^16 * var('distance') * var('control-setting:nexelit-rock:richness:multiplier')"
+        expression = "2^16 * var('distance') * var('control:nexelit-rock:richness')"
     }
 }
 

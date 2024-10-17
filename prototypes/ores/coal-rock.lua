@@ -1,4 +1,5 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["coal-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["coal-rock"] = {}
 
 data:extend {{
     type = "autoplace-control",
@@ -33,14 +34,14 @@ data:extend {
         name = "py_coal_rock",
         -- Our final chance, likely a very, very small decimal
         expression = [[
-            py_coal_rock_starting_area * py_coal_rock_desired_frequency * var("control-setting:coal-rock:frequency:multiplier")
+            py_coal_rock_starting_area * py_coal_rock_desired_frequency * var("control:coal-rock:frequency")
         ]]
     },
     {
         -- We return the richness here, which is just the quantity the resource tile yields
         type = "noise-expression",
         name = "py_coal_rock_richness",
-        expression = "2^16 * var('distance') * var('control-setting:coal-rock:richness:multiplier')"
+        expression = "2^16 * var('distance') * var('control:coal-rock:richness')"
     }
 }
 

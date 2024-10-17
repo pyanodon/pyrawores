@@ -1,4 +1,5 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["lead-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["lead-rock"] = {}
 
 data:extend {{
     type = "autoplace-control",
@@ -33,14 +34,14 @@ data:extend {
         name = "py_lead_rock",
         -- Our final chance, likely a very, very small decimal
         expression = [[
-            py_lead_rock_starting_area * py_lead_rock_desired_frequency * var("control-setting:lead-rock:frequency:multiplier")
+            py_lead_rock_starting_area * py_lead_rock_desired_frequency * var("control:lead-rock:frequency")
         ]]
     },
     {
         -- We return the richness here, which is just the quantity the resource tile yields
         type = "noise-expression",
         name = "py_lead_rock_richness",
-        expression = "2^16 * var('distance') * var('control-setting:lead-rock:richness:multiplier')"
+        expression = "2^16 * var('distance') * var('control:lead-rock:richness')"
     }
 }
 

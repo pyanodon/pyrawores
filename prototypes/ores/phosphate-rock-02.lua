@@ -1,4 +1,5 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["phosphate-rock-02"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["phosphate-rock-02"] = {}
 
 data:extend {{
     type = "autoplace-control",
@@ -33,14 +34,14 @@ data:extend {
         name = "py_phosphate_rock_02",
         -- Our final chance, likely a very, very small decimal
         expression = [[
-            py_phosphate_rock_02_starting_area * py_phosphate_rock_02_desired_frequency * var("control-setting:phosphate-rock-02:frequency:multiplier")
+            py_phosphate_rock_02_starting_area * py_phosphate_rock_02_desired_frequency * var("control:phosphate-rock-02:frequency")
         ]]
     },
     {
         -- We return the richness here, which is just the quantity the resource tile yields
         type = "noise-expression",
         name = "py_phosphate_rock_02_richness",
-        expression = "2^16 * var('distance') * var('control-setting:phosphate-rock-02:richness:multiplier')"
+        expression = "2^16 * var('distance') * var('control:phosphate-rock-02:richness')"
     }
 }
 

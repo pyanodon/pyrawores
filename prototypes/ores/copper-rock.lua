@@ -1,4 +1,5 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["copper-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["copper-rock"] = {}
 
 data:extend {{
     type = "autoplace-control",
@@ -33,14 +34,14 @@ data:extend {
         name = "py_copper_rock",
         -- Our final chance, likely a very, very small decimal
         expression = [[
-            py_copper_rock_starting_area * py_copper_rock_desired_frequency * var("control-setting:copper-rock:frequency:multiplier")
+            py_copper_rock_starting_area * py_copper_rock_desired_frequency * var("control:copper-rock:frequency")
         ]]
     },
     {
         -- We return the richness here, which is just the quantity the resource tile yields
         type = "noise-expression",
         name = "py_copper_rock_richness",
-        expression = "2^16 * var('distance') * var('control-setting:copper-rock:richness:multiplier')"
+        expression = "2^16 * var('distance') * var('control:copper-rock:richness')"
     }
 }
 
