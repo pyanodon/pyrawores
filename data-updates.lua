@@ -103,10 +103,7 @@ RECIPE("steam-turbine"):add_ingredient {type = "item", name = "super-steel", amo
 RECIPE("solar-panel"):add_ingredient {type = "item", name = "pyrite", amount = 5}
 
 RECIPE("advanced-circuit"):replace_ingredient("copper-cable", "tinned-cable")
-RECIPE("red-wire"):replace_ingredient("copper-cable", "tinned-cable")
-RECIPE("green-wire"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("beacon"):replace_ingredient("copper-cable", "tinned-cable")
-RECIPE("red-wire"):replace_ingredient("copper-cable", "tinned-cable")
 
 RECIPE("wet-scrubber-mk01"):replace_ingredient("storage-tank", "py-tank-5000")
 RECIPE("wet-scrubber-mk02"):replace_ingredient("storage-tank", "py-tank-6500")
