@@ -417,7 +417,7 @@ RECIPE {
         {type = "item", name = "ammonium-chloride", amount = 20}
     },
     results = {
-        {type = "item", name = "py-fertilizer", amount = 15}
+        {type = "item", name = "fertilizer", amount = 15}
     }
 }
 
