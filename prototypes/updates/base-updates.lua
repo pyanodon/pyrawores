@@ -1,7 +1,7 @@
 -- TECH CHANGES
-data.raw.technology["uranium-mining"].enabled = false
-data.raw.technology["uranium-mining"].hidden = true
---data.raw.technology["uranium-mining"] = nil
+data.raw.technology["uranium-processing"].enabled = false
+data.raw.technology["uranium-processing"].hidden = true
+--data.raw.technology["uranium-processing"] = nil
 TECHNOLOGY("kovarex-enrichment-process"):set_fields {enabled = false}:set_fields {hidden = true}
 TECHNOLOGY("robotics"):remove_prereq("construction-robotics"):add_prereq("logistic-robotics")
 TECHNOLOGY("construction-robotics"):remove_prereq("steel-processing")
@@ -13,7 +13,7 @@ TECHNOLOGY("advanced-circuit"):remove_prereq("fast-inserter"):remove_prereq("pla
 TECHNOLOGY("automobilism"):remove_prereq("engine")
 TECHNOLOGY("battery"):remove_prereq("sulfur-processing")
 TECHNOLOGY("explosives"):remove_prereq("sulfur-processing")
-TECHNOLOGY("nuclear-power"):remove_prereq("uranium-mining")
+TECHNOLOGY("nuclear-power"):remove_prereq("uranium-processing")
 TECHNOLOGY("electric-energy-distribution-2"):remove_prereq("chemical-science-pack")
 TECHNOLOGY("advanced-material-processing-2"):remove_prereq("chemical-science-pack")
 TECHNOLOGY("logistics-2"):remove_prereq("niobium")
@@ -21,16 +21,16 @@ TECHNOLOGY("atomic-bomb"):add_pack("space-science-pack")
 TECHNOLOGY("plastics"):remove_pack("logistic-science-pack"):set_fields {prerequisites = {}}
 
 -- RECIPE UNLOCKS
-RECIPE("uranium-processing"):remove_unlock("uranium-mining"):set_fields {hidden = true}
+RECIPE("uranium-processing"):remove_unlock("uranium-processing"):set_fields {hidden = true}
 RECIPE("nuclear-fuel"):remove_unlock("kovarex-enrichment-process"):add_unlock("uranium-mk04")
 RECIPE("flying-robot-frame"):add_unlock("robotics"):set_fields {hidden = false}
 ITEM("flying-robot-frame"):remove_flag("hidden")
-RECIPE("centrifuge"):remove_unlock("uranium-mining"):add_unlock("nuclear-fuel-reprocessing")
+RECIPE("centrifuge"):remove_unlock("uranium-processing"):add_unlock("nuclear-fuel-reprocessing")
 
 -- RECIPE CHANGES
 RECIPE("atomic-bomb"):remove_ingredient("uranium-235"):add_ingredient {type = "item", name = "yellow-cake", amount = 5}
 RECIPE("kovarex-enrichment-process"):set_fields {energy_required = 5}
-RECIPE("electric-engine-unit"):remove_ingredient("copper-cable"):add_ingredient {type = "item", name = "copper-cable", amount = 150}:add_ingredient {type = "item", name = "aluminium-plate", amount = 10}:add_ingredient {type = "item", name = "bolts", amount = 20}    --:remove_ingredient("engine-unit")
+RECIPE("electric-engine-unit"):remove_ingredient("copper-cable"):add_ingredient {type = "item", name = "copper-cable", amount = 150}:add_ingredient {type = "item", name = "aluminium-plate", amount = 10}:add_ingredient {type = "item", name = "bolts", amount = 20} --:remove_ingredient("engine-unit")
 RECIPE("low-density-structure").category = "py-rawores-smelter"
 
 -- ENTITY CHANGES
