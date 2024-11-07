@@ -3,6 +3,7 @@ Version: 3.0.3
 Date: ??
   Changes:
     - Made most crafting machines flippable
+    - Added Ukrainian translation (by bootseller)
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.2
 Date: 2024-10-29
