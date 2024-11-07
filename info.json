@@ -12,7 +12,11 @@
     "pyindustry >= 1.0.12",
     "(?) pyfusionenergy",
     "(?) rso-mod",
-    "~ pyraworesgraphics >= 1.0.0"
+    "~ pyraworesgraphics >= 1.0.0",
+    "! wret-beacon-rebalance-mod",
+    "! BigBags",
+    "! ResearchFog",
+    "! omnimatter_energy"
   ],
   "package": {
     "ignore": [],
