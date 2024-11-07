@@ -3,6 +3,7 @@ Version: 3.0.3
 Date: ??
   Changes:
     - Made most crafting machines flippable
+    - Added Ukrainian translation (by bootseller)
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.2
 Date: 2024-10-29
@@ -47,7 +48,7 @@ Version: 2.4.14
 Date: 2024-3-13
   Changes:
     - Fixed that low grade copper rejects didnt actually say they were copper
-    - Fixed the vanilla nuclear reactor glow effects didnt work with pys added fuel cells correctly 
+    - Fixed the vanilla nuclear reactor glow effects didnt work with pys added fuel cells correctly
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.13
 Date: 2024-1-19
