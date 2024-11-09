@@ -47,7 +47,6 @@ ENTITY {
         pipe_picture = _G.assembler2pipepictures(),
         pipe_covers = _G.pipecoverspictures(),
         volume = 200,
-        base_level = -1,
         pipe_connections = {
             {flow_direction = "input-output", position = {5.0, 0}, direction = defines.direction.east},
         }
