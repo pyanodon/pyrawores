@@ -247,7 +247,7 @@ RECIPE {
     icons =
     {
         {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-        {icon = "__base__/graphics/icons/coal.png",                     icon_size = 64, scale = 0.25, icon_mipmaps = 4}
+        {icon = "__base__/graphics/icons/coal.png",                     icon_size = 64, scale = 0.25}
     },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
