@@ -350,7 +350,7 @@ for i = 1, 4 do
                 pipe_connections = {{flow_direction = "output", position = {-5.0, 6.0}, direction = defines.direction.south}}
             },
         },
-        vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
+        impact_category = "metal",
         working_sound = {
             sound = {filename = "__pyraworesgraphics__/sounds/smelter.ogg", volume = 1.25},
             idle_sound = {filename = "__pyraworesgraphics__/sounds/smelter.ogg", volume = 0.3},
