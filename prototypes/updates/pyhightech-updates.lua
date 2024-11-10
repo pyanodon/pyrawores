@@ -77,8 +77,8 @@ RECIPE("plastic3"):add_ingredient {type = "fluid", name = "hydrogen", amount = 5
 RECIPE("intelligent-unit"):add_ingredient {type = "item", name = "solder", amount = 4}
 RECIPE("molten-super-steel"):add_ingredient {type = "item", name = "silicon", amount = 2}
 RECIPE("full-molten-super-steel-3"):add_ingredient {type = "item", name = "silicon", amount = 2}
-RECIPE("construction-robot-ht"):add_ingredient {type = "item", name = "super-alloy", amount = 4}
-RECIPE("logistic-robot-ht"):add_ingredient {type = "item", name = "super-alloy", amount = 4}
+RECIPE("py-construction-robot-mk04"):add_ingredient {type = "item", name = "super-alloy", amount = 4}
+RECIPE("py-logistic-robot-mk04"):add_ingredient {type = "item", name = "super-alloy", amount = 4}
 RECIPE("moondrop-greenhouse-mk01"):add_ingredient {type = "item", name = "glass", amount = 40}
 RECIPE("electronics-factory-mk02"):add_ingredient {type = "item", name = "glass", amount = 40}
 RECIPE("chipshooter-mk02"):add_ingredient {type = "item", name = "glass", amount = 40}
@@ -89,8 +89,8 @@ RECIPE("nylon2"):replace_ingredient("sulfuric-acid", "chlorine")
 RECIPE("chloromethane"):replace_ingredient("sulfuric-acid", "hydrogen-chloride")
 RECIPE("molten-stainless-steel"):remove_ingredient("chromium"):add_ingredient {type = "item", name = "fecr-alloy", amount = 5}
 RECIPE("nexelit-battery"):add_ingredient {type = "item", name = "lead-plate", amount = 5}
-RECIPE("py-construction-robot-02"):add_ingredient {type = "item", name = "nexelit-battery", amount = 1}
-RECIPE("py-logistic-robot-02"):add_ingredient {type = "item", name = "nexelit-battery", amount = 1}
+RECIPE("py-construction-robot-mk02"):add_ingredient {type = "item", name = "nexelit-battery", amount = 1}
+RECIPE("py-logistic-robot-mk02"):add_ingredient {type = "item", name = "nexelit-battery", amount = 1}
 RECIPE("ht-locomotive"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient {type = "item", name = "glass", amount = 60}:add_ingredient {type = "item", name = "nickel-plate", amount = 50}
 RECIPE("ht-generic-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient {type = "item", name = "glass", amount = 20}:add_ingredient {type = "item", name = "nickel-plate", amount = 10}
 RECIPE("ht-generic-fluid-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient {type = "item", name = "glass", amount = 20}:add_ingredient {type = "item", name = "nickel-plate", amount = 10}

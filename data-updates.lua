@@ -46,15 +46,15 @@ RECIPE("mk02-locomotive"):add_ingredient {type = "item", name = "glass", amount 
 RECIPE("mk02-wagon"):add_ingredient {type = "item", name = "glass", amount = 100}:add_ingredient {type = "item", name = "duralumin", amount = 20}:add_ingredient {type = "item", name = "nickel-plate", amount = 40}
 RECIPE("mk02-fluid-wagon"):add_ingredient {type = "item", name = "glass", amount = 100}:add_ingredient {type = "item", name = "duralumin", amount = 20}:add_ingredient {type = "item", name = "nickel-plate", amount = 40}
 
-RECIPE("py-logistic-robot-01"):add_ingredient {type = "item", name = "solder", amount = 5}
-RECIPE("py-construction-robot-01"):replace_ingredient("iron-plate", "aluminium-plate"):add_ingredient {type = "item", name = "solder", amount = 5}
+RECIPE("py-logistic-robot-mk01"):add_ingredient {type = "item", name = "solder", amount = 5}
+RECIPE("py-construction-robot-mk01"):replace_ingredient("iron-plate", "aluminium-plate"):add_ingredient {type = "item", name = "solder", amount = 5}
 TECHNOLOGY("construction-robotics"):remove_prereq("steel-processing"):remove_prereq("automation")
 
 RECIPE("py-roboport-mk01"):replace_ingredient("iron-plate", "aluminium-plate")
 RECIPE("py-roboport-mk02"):replace_ingredient("steel-plate", "stainless-steel"):add_ingredient {type = "item", name = "niobium-plate", amount = 5}:add_ingredient {type = "item", name = "aluminium-plate", amount = 15}
 RECIPE("py-roboport-mk03"):add_ingredient {type = "item", name = "super-steel", amount = 30}
 RECIPE("py-recharge-station-mk01"):add_ingredient {type = "item", name = "aluminium-plate", amount = 10}
-RECIPE("quartz-mine"):add_ingredient {type = "item", name = "py-construction-robot-01", amount = 10}
+RECIPE("quartz-mine"):add_ingredient {type = "item", name = "py-construction-robot-mk01", amount = 10}
 
 RECIPE("distilator-mk04"):add_ingredient {type = "item", name = "accumulator-mk01", amount = 2}
 RECIPE("automated-factory-mk04"):add_ingredient {type = "item", name = "accumulator-mk01", amount = 2}
@@ -144,8 +144,8 @@ RECIPE("shotgun-shell"):add_ingredient {type = "item", name = "lead-plate", amou
 RECIPE("firearm-magazine"):remove_ingredient("copper-plate"):add_ingredient {type = "item", name = "lead-plate", amount = 2}
 RECIPE("piercing-shotgun-shell"):add_ingredient {type = "item", name = "plastic-bar", amount = 1}:remove_ingredient("copper-plate")
 
-RECIPE("construction-robot-ht"):replace_ingredient("py-construction-robot-01", "py-construction-robot-02")
-RECIPE("logistic-robot-ht"):replace_ingredient("py-logistic-robot-01", "py-logistic-robot-02")
+RECIPE("py-construction-robot-mk04"):replace_ingredient("py-construction-robot-mk01", "py-construction-robot-mk02")
+RECIPE("py-logistic-robot-mk04"):replace_ingredient("py-logistic-robot-mk01", "py-logistic-robot-mk02")
 RECIPE("py-burner"):remove_ingredient("steel-furnace"):add_ingredient {type = "item", name = "titanium-plate", amount = 20}
 RECIPE("nuclear-fuel"):replace_ingredient("uranium-235", "fuelrod-mk05")
 TECHNOLOGY("py-burner"):remove_prereq("advanced-material-processing"):remove_pack("logistic-science-pack")
