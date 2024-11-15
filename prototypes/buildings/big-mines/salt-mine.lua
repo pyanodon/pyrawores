@@ -34,29 +34,41 @@ ENTITY {
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "salt-mine"},
     fast_replaceable_group = "salt-mine",
-    max_health = 600,
+    max_health = 1800,
     resource_categories = {"salt-rock"},
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
     collision_box = {{-5.3, -5.3}, {5.3, 5.3}},
     selection_box = {{-5.5, -5.5}, {5.5, 5.5}},
-
-    module_slots = 1,
+    module_slots = 5,
     allowed_effects = {"consumption", "speed", "productivity"},
     mining_speed = 10,
-    energy_source =
-    {
-        type = "burner",
-        fuel_categories = {"jerry"},
-        --fuel_categories = {"chemical", "biomass"},
+    effect_receiver = {
+        -- makes green modules 9x less effective in order to not trivalize the fluid fuel challenge.
+        -- 20% consumption is still possible with green beacons later on.
+        base_effect = {consumption = 9}
+    },
+    energy_source = {
+        type = "fluid",
         effectivity = 1,
-        fuel_inventory_size = 1,
-        burnt_inventory_size = 1,
         emissions_per_minute = {
-            pollution = 0.06
+            pollution = 40
         },
-        smoke =
-        {
+        light_flicker = {
+            minimum_light_size = 2
+        },
+        burns_fluid = true,
+        scale_fluid_usage = true,
+        destroy_non_fuel_fluid = false,
+        fluid_box = {
+            volume = 3000,
+            pipe_connections = {
+                {flow_direction = "input", position = {0, 5.0}, direction = defines.direction.south}
+            },
+            pipe_covers = py.pipe_covers(false, true, true, true),
+            production_type = "input",
+        },
+        smoke = {
             {
                 name = "smoke",
                 north_position = {2.48, -3.75},
@@ -70,14 +82,7 @@ ENTITY {
             },
         },
     },
-    light_flicker =
-    {
-        minimum_intensity = 0,
-        maximum_intensity = 0,
-        light_intensity_to_size_coefficient = 0,
-        color = {0, 0, 0},
-    },
-    energy_usage = "800kW",
+    energy_usage = "4MW",
     mining_power = 3,
     resource_searching_radius = 0.49,
     vector_to_place_result = {0, -5.65},

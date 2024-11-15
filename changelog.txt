@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 3.0.7
+Date: ?
+  Changes:
+    - Salt mines no longer requires gas canisters can consume fuel directly.
+    - Greatly increased the fuel consumption of the salt mine from 800kW to 40MW.
+    - Increased the number of module slots in the salt mine 1 -> 5.
+    - Added light flicker effects to the salt mine.
+    - Diluted the effects of green modules on the salt mine by a factor of 9x.
+---------------------------------------------------------------------------------------------------
 Version: 3.0.5
 Date: 2024-11-14
   Changes:
