@@ -82,7 +82,7 @@ ENTITY {
             },
         },
     },
-    energy_usage = "4MW",
+    energy_usage = "2MW",
     mining_power = 3,
     resource_searching_radius = 0.49,
     vector_to_place_result = {0, -5.65},
