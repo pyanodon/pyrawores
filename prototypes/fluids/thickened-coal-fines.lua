@@ -15,7 +15,6 @@ RECIPE {
         {type = "item",  name = "coal",                 amount = 7},
     },
     main_product = "thickened-coal-fines",
-    allow_productivity = true,
     subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk03")

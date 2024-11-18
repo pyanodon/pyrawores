@@ -90,7 +90,6 @@ RECIPE {
     },
     main_product = "coal",
     subgroup = "py-rawores-coal",
-    allow_productivity = true,
 }:add_unlock("coal-mk03")
 
 RECIPE {
@@ -108,7 +107,6 @@ RECIPE {
         {type = "item", name = "coal", amount = 40},
     },
     main_product = "coal",
-    allow_productivity = true,
     subgroup = "py-rawores-coal",
 }:add_unlock("coal-mk04")
 
@@ -125,12 +123,11 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "high-ash-fines",    amount = 30},
-        {type = "fluid", name = "conditioned-fines", amount = 50, ignored_by_stats = 0, ignored_by_productivity = 50},
+        {type = "fluid", name = "conditioned-fines", amount = 50},
         {type = "fluid", name = "dirty-water-heavy", amount = 100},
-        {type = "item",  name = "pyrite",            amount = 8,  probability = 0.435},
+        {type = "item",  name = "pyrite",            amount = 1,  probability = 0.4},
     },
     main_product = "conditioned-fines",
-    allow_productivity = true,
     subgroup = "py-rawores-coal",
 }:add_unlock("coal-mk04")
 
@@ -151,7 +148,6 @@ RECIPE {
         {type = "fluid", name = "coal-under-pulp",     amount = 50},
     },
     main_product = "coal-under-pulp",
-    allow_productivity = true,
     subgroup = "py-rawores-coal",
 }:add_unlock("coal-mk03")
 
@@ -171,7 +167,6 @@ RECIPE {
     },
     main_product = "refsyngas",
     subgroup = "py-rawores-coal",
-    allow_productivity = true,
     order = "zaa"
 }:add_unlock("coal-mk03")
 
@@ -187,11 +182,10 @@ RECIPE {
         --pyfe pressured air
     },
     results = {
-        {type = "fluid", name = "coal-pulp-04",      amount = 50, ignored_by_stats = 0, ignored_by_productivity = 50},
+        {type = "fluid", name = "coal-pulp-04",      amount = 50},
         {type = "fluid", name = "dirty-water-heavy", amount = 100},
         {type = "item",  name = "coal",              amount = 20},
     },
     main_product = "coal",
-    allow_productivity = true,
     subgroup = "py-rawores-coal",
 }:add_unlock("coal-mk03")

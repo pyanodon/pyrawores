@@ -10,11 +10,10 @@ RECIPE {
         --pyfe pressured air
     },
     results = {
-        {type = "fluid", name = "coal-pulp-05", amount = 100, ignored_by_stats = 0, ignored_by_productivity = 100},
+        {type = "fluid", name = "coal-pulp-05", amount = 100},
         {type = "item",  name = "coal",         amount = 10},
     },
     main_product = "coal-pulp-05",
-    allow_productivity = true,
     subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk03")

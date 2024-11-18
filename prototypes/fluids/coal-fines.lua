@@ -14,7 +14,6 @@ RECIPE {
         {type = "item",  name = "pyrite",         amount = 1},
     },
     main_product = "coal-fines",
-    allow_productivity = true,
     subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk04")

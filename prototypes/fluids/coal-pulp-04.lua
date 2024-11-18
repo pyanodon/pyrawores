@@ -12,11 +12,10 @@ RECIPE {
     results = {
         {type = "fluid", name = "dirty-water-heavy", amount = 50},
         {type = "fluid", name = "coal-pulp-04",      amount = 100},
-        {type = "item",  name = "ash",               amount = 50},
+        {type = "item",  name = "ash",               amount = 20},
     },
     main_product = "coal-pulp-04",
     subgroup = "py-rawores-coal",
-    allow_productivity = true,
     order = "q-2"
 }:add_unlock("coal-mk03")
 

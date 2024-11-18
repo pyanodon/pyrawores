@@ -15,7 +15,6 @@ RECIPE {
         {type = "fluid", name = "dirty-water-heavy", amount = 50},
     },
     main_product = "coal-pulp-01",
-    allow_productivity = true,
     subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk04")
