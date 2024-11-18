@@ -14,6 +14,7 @@ RECIPE {
     },
     main_product = "conditioned-fines",
     subgroup = "py-rawores-coal",
+    allow_productivity = true,
     order = "q-2"
 }:add_unlock("coal-mk04")
 

@@ -14,6 +14,7 @@ RECIPE {
         {type = "fluid", name = "high-ash-fines", amount = 25},
     },
     main_product = "fines-pulp",
+    allow_productivity = true,
     subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk03")

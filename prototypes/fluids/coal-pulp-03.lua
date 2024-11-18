@@ -14,6 +14,7 @@ RECIPE {
         {type = "fluid", name = "coal-pulp-03", amount = 100},
     },
     main_product = "coal-pulp-03",
+    allow_productivity = true,
     subgroup = "py-rawores-coal",
     order = "q-2"
 }:add_unlock("coal-mk03")
