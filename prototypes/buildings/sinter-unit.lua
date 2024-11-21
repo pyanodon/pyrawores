@@ -27,6 +27,65 @@ ITEM {
     stack_size = 10
 }
 
+local function working_visualizations()
+    local working_visualizations = {
+        {
+            filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/bot.png",
+            frame_count = 120,
+            line_length = 10,
+            width = 224,
+            shift = util.by_pixel(0, 48),
+            height = 128,
+            animation_speed = 0.35
+        },
+        {
+            filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/mid.png",
+            priority = "high",
+            frame_count = 120,
+            line_length = 10,
+            shift = util.by_pixel(0, -80),
+            width = 224,
+            height = 128,
+            animation_speed = 0.35
+        },
+        {
+            filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/glow.png",
+            frame_count = 120,
+            line_length = 10,
+            width = 224,
+            shift = util.by_pixel(0, -80),
+            height = 128,
+            animation_speed = 0.35,
+            draw_as_glow = true
+        },
+        {
+            filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/glow.png",
+            frame_count = 120,
+            line_length = 10,
+            width = 224,
+            height = 128,
+            shift = util.by_pixel(0, -80),
+            animation_speed = 0.35,
+            draw_as_light = true
+        },
+        {
+            filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/top.png",
+            priority = "high",
+            frame_count = 120,
+            line_length = 10,
+            width = 224,
+            height = 128,
+            shift = util.by_pixel(0, -208),
+            animation_speed = 0.35
+        },
+    }
+    return {{animation = {layers = working_visualizations}}}
+end
+
+local function mouth_opening_frame_sequence()
+    return {120, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30}
+end
+
 ENTITY {
     type = "assembling-machine",
     name = "sinter-unit",
@@ -35,7 +94,7 @@ ENTITY {
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "sinter-unit"},
     fast_replaceable_group = "sinter-unit",
-    max_health = 100,
+    max_health = 1000,
     corpse = "medium-remnants",
     dying_explosion = "big-explosion",
     collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
@@ -45,26 +104,16 @@ ENTITY {
     allowed_effects = {"consumption", "speed", "pollution", "productivity"},
     crafting_categories = {"sinter"},
     crafting_speed = 1,
-    energy_source =
-    {
+    energy_source = {
         type = "burner",
-        --fuel_categories = {"chemical"},
         fuel_categories = {"chemical", "biomass", "jerry"},
         effectivity = 1,
-        light_flicker =
-        {
-            minimum_intensity = 0,
-            maximum_intensity = 0,
-            light_intensity_to_size_coefficient = 0,
-            color = {1, 0.93, 0.19},
-        },
         fuel_inventory_size = 1,
         burnt_inventory_size = 1,
         emissions_per_minute = {
             pollution = 0.06
         },
-        smoke =
-        {
+        smoke = {
             {
                 name = "smoke",
                 north_position = {3, -7.0},
@@ -79,110 +128,34 @@ ENTITY {
         },
     },
     energy_usage = "20MW",
-    graphics_set = py.finite_state_machine_working_visualisations{
+    graphics_set = py.finite_state_machine_working_visualisations {
         states = {
             {
                 name = "idle",
                 next_active = "mouth-opening",
                 next_inactive = "idle",
-                frame_sequence = {1},
+                frame_sequence = {119},
             },
             {
                 name = "mouth-opening",
                 next_active = "mouth-open",
                 next_inactive = "mouth-closing",
-                frame_sequence = py.range(2, 30)
+                frame_sequence = mouth_opening_frame_sequence()
             },
             {
                 name = "mouth-closing",
                 next_active = "mouth-opening",
                 next_inactive = "idle",
-                frame_sequence = py.range(30, 2),
-                speed = 2
+                frame_sequence = table.reverse(mouth_opening_frame_sequence())
             },
             {
                 name = "mouth-open",
                 next_active = "mouth-opening",
                 next_inactive = "idle",
-                frame_sequence = py.range(31, 120)
+                frame_sequence = py.range(31, 118)
             },
         },
-        working_visualisations = {
-            {
-                north_position = util.by_pixel(0, 48),
-                west_position = util.by_pixel(0, 48),
-                south_position = util.by_pixel(0, 48),
-                east_position = util.by_pixel(0, 48),
-                animation = {
-                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/bot.png",
-                    frame_count = 120,
-                    line_length = 10,
-                    width = 224,
-                    height = 128,
-                    animation_speed = 0.35
-                },
-            },
-            {
-                north_position = util.by_pixel(0, -80),
-                west_position = util.by_pixel(0, -80),
-                south_position = util.by_pixel(0, -80),
-                east_position = util.by_pixel(0, -80),
-                animation = {
-                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/mid.png",
-                    priority = "high",
-                    frame_count = 120,
-                    line_length = 10,
-                    width = 224,
-                    height = 128,
-                    animation_speed = 0.35
-                }
-            },
-            {
-                north_position = util.by_pixel(0, -80),
-                west_position = util.by_pixel(0, -80),
-                south_position = util.by_pixel(0, -80),
-                east_position = util.by_pixel(0, -80),
-                animation = {
-                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/glow.png",
-                    frame_count = 120,
-                    line_length = 10,
-                    width = 224,
-                    height = 128,
-                    animation_speed = 0.35,
-                    draw_as_glow = true
-                }
-            },
-            {
-                north_position = util.by_pixel(0, -80),
-                west_position = util.by_pixel(0, -80),
-                south_position = util.by_pixel(0, -80),
-                east_position = util.by_pixel(0, -80),
-                animation = {
-                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/glow.png",
-                    frame_count = 120,
-                    line_length = 10,
-                    width = 224,
-                    height = 128,
-                    animation_speed = 0.35,
-                    draw_as_light = true
-                }
-            },
-            {
-                north_position = util.by_pixel(0, -208),
-                west_position = util.by_pixel(0, -208),
-                south_position = util.by_pixel(0, -208),
-                east_position = util.by_pixel(0, -208),
-                animation = {
-                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/top.png",
-                    priority = "high",
-                    frame_count = 120,
-                    line_length = 10,
-                    width = 224,
-                    height = 128,
-                    animation_speed = 0.35
-                }
-            },
-        },
+        working_visualisations = working_visualizations(),
         shadow = {
             filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/shadow.png",
             width = 96,
