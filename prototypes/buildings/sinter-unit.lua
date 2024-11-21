@@ -79,7 +79,34 @@ ENTITY {
         },
     },
     energy_usage = "20MW",
-    graphics_set = {
+    graphics_set = py.finite_state_machine_working_visualisations{
+        states = {
+            {
+                name = "idle",
+                next_active = "mouth-opening",
+                next_inactive = "idle",
+                frame_sequence = {1},
+            },
+            {
+                name = "mouth-opening",
+                next_active = "mouth-open",
+                next_inactive = "mouth-closing",
+                frame_sequence = py.range(2, 30)
+            },
+            {
+                name = "mouth-closing",
+                next_active = "mouth-opening",
+                next_inactive = "idle",
+                frame_sequence = py.range(30, 2),
+                speed = 2
+            },
+            {
+                name = "mouth-open",
+                next_active = "mouth-opening",
+                next_inactive = "idle",
+                frame_sequence = py.range(31, 120)
+            },
+        },
         working_visualisations = {
             {
                 north_position = util.by_pixel(0, 48),
@@ -93,7 +120,7 @@ ENTITY {
                     width = 224,
                     height = 128,
                     animation_speed = 0.35
-                }
+                },
             },
             {
                 north_position = util.by_pixel(0, -80),
@@ -117,13 +144,27 @@ ENTITY {
                 east_position = util.by_pixel(0, -80),
                 animation = {
                     filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/glow.png",
-                    draw_as_glow = true,
-                    blend_mode = "additive-soft",
                     frame_count = 120,
                     line_length = 10,
                     width = 224,
                     height = 128,
-                    animation_speed = 0.35
+                    animation_speed = 0.35,
+                    draw_as_glow = true
+                }
+            },
+            {
+                north_position = util.by_pixel(0, -80),
+                west_position = util.by_pixel(0, -80),
+                south_position = util.by_pixel(0, -80),
+                east_position = util.by_pixel(0, -80),
+                animation = {
+                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/glow.png",
+                    frame_count = 120,
+                    line_length = 10,
+                    width = 224,
+                    height = 128,
+                    animation_speed = 0.35,
+                    draw_as_light = true
                 }
             },
             {
@@ -142,24 +183,13 @@ ENTITY {
                 }
             },
         },
-        animation = {
-            layers = {
-                {
-                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/off.png",
-                    width = 224,
-                    height = 384,
-                    frame_count = 1,
-                    shift = util.by_pixel(0, -80)
-                },
-                {
-                    filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/shadow.png",
-                    width = 96,
-                    height = 384,
-                    frame_count = 1,
-                    draw_as_shadow = true,
-                    shift = util.by_pixel(158, -80)
-                },
-            }
+        shadow = {
+            filename = "__pyraworesgraphics__/graphics/entity/sinter-unit/shadow.png",
+            width = 96,
+            height = 384,
+            frame_count = 1,
+            draw_as_shadow = true,
+            shift = util.by_pixel(158, -80)
         },
     },
     fluid_boxes_off_when_no_fluid_recipe = true,
