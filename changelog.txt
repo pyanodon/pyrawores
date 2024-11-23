@@ -3,6 +3,7 @@ Version: 3.0.7
 Date: ?
   Changes:
     - New graphics for sinter unit. Resolves https://github.com/pyanodon/pybugreports/issues/588
+    - The MIBC technology has been moved from chemical science to py science pack 2.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.6
 Date: 2024-11-15

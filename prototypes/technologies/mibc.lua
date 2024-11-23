@@ -8,7 +8,12 @@ TECHNOLOGY {
     effects = {},
     unit = {
         count = 100,
-        ingredients = {
+        ingredients = mods.pyalienlife and {
+            {"automation-science-pack", 3},
+            {"py-science-pack-1",       1},
+            {"logistic-science-pack",   1},
+            {"py-science-pack-2",       1},
+        } or {
             {"automation-science-pack", 1},
             {"logistic-science-pack",   1},
         },
