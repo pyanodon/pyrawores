@@ -933,12 +933,12 @@ RECIPE {
     name = "extract-limestone-01",
     category = "soil-extraction",
     enabled = true,
-    energy_required = 5,
+    energy_required = 20,
     ingredients = {
-        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "water", amount = 400},
     },
     results = {
-        {type = "item", name = "limestone", amount = 2}
+        {type = "item", name = "limestone", amount = 8}
     },
 }
 

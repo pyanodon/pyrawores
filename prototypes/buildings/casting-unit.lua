@@ -207,6 +207,7 @@ for i = 1, 4 do
             },
         },
         impact_category = "metal",
+        vector_to_place_result = {-3.5, -2.0},
         working_sound = {
             sound = {filename = "__pyraworesgraphics__/sounds/casting-unit.ogg", volume = 0.8},
             apparent_volume = 2.5
