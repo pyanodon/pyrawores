@@ -39,7 +39,7 @@ ENTITY {
     autoplace = resource_autoplace.resource_autoplace_settings {
         name = "ore-quartz",
         order = "b",
-        base_density = 6,
+        base_density = mods.pystellarexpedition and 10 or 6,
         base_spots_per_km2 = 1.25,
         has_starting_area_placement = not mods["pyalienlife"],
         random_spot_size_minimum = 2,
