@@ -6,6 +6,7 @@ Date: ?
     - The MIBC technology has been moved from logistics science to py science pack 2.
     - [space-age] Decreased the base richness of quartz ore in order to account for the new scaling resource drain rate in the crystal mine.
     - The casting unit now has an inbuilt loader. Works with belt stacking technologies.
+      Migration notice: Existing versions of this machine will not have the loader output and be marked with the (Legacy) tag. Remove this tag by simply mining the casting unit and re-building it.
     - Adjusted the limestone recipe. Reduced speed by 4x and increased output by 4x. This is effectively the same recipe however the new ratio is more friendly to belt stacking with stack inserters.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.6
