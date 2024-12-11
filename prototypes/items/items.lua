@@ -68,8 +68,14 @@ ITEM {
 ITEM {
     type = "item",
     name = "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
-    icon_size = 32,
+    icon = "__pyraworesgraphics__/graphics/icons/mip/glass-1.png",
+    icon_size = 64,
+    pictures = {
+        {size = 64, filename = "__pyraworesgraphics__/graphics/icons/mip/glass-1.png",   scale = 0.66},
+        {size = 64, filename = "__pyraworesgraphics__/graphics/icons/mip/glass-2.png",   scale = 0.66},
+        {size = 64, filename = "__pyraworesgraphics__/graphics/icons/mip/glass-3.png",   scale = 0.66},
+        {size = 64, filename = "__pyraworesgraphics__/graphics/icons/mip/glass-4.png",   scale = 0.66},
+    },
     flags = {},
     subgroup = "py-rawores-plates",
     order = "aab",
