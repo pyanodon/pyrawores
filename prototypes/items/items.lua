@@ -75,6 +75,8 @@ ITEM {
         {size = 64, filename = "__pyraworesgraphics__/graphics/icons/mip/glass-2.png",   scale = 0.66},
         {size = 64, filename = "__pyraworesgraphics__/graphics/icons/mip/glass-3.png",   scale = 0.66},
         {size = 64, filename = "__pyraworesgraphics__/graphics/icons/mip/glass-4.png",   scale = 0.66},
+        {size = 64, filename = "__pyraworesgraphics__/graphics/icons/mip/glass-5.png",   scale = 0.66},
+        {size = 64, filename = "__pyraworesgraphics__/graphics/icons/mip/glass-6.png",   scale = 0.66},
     },
     flags = {},
     subgroup = "py-rawores-plates",
