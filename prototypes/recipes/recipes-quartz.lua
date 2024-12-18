@@ -234,9 +234,6 @@ RECIPE {
     results = {
         {type = "item", name = "glass", amount = 5}
     },
-    --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/glass.png",
-    icon_size = 32,
     subgroup = "py-rawores-quartz",
     order = "aag"
 }
