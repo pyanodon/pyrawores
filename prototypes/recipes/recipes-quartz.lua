@@ -237,3 +237,22 @@ RECIPE {
     subgroup = "py-rawores-quartz",
     order = "aag"
 }
+
+RECIPE {
+    type = "recipe",
+    name = "small-lamp-casting",
+    category = "glassworks",
+    enabled = true,
+    energy_required = 9,
+    ingredients = {
+        {type = "fluid", name = "molten-iron",   amount = 60, fluidbox_index = 1},
+        {type = "fluid", name = "molten-glass", amount = 300, fluidbox_index = 2},
+        {type = "fluid", name = "molten-copper", amount = 150, fluidbox_index = 3},
+        {type = "item", name = "borax", amount = 3},
+        {type = "item", name = "mold", amount = 1},
+    },
+    results = {
+        {type = "item", name = "small-lamp", amount = 45}
+    },
+    main_product = "small-lamp",
+}:add_unlock("quartz-mk03")

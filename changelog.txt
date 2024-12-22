@@ -3,6 +3,7 @@ Version: 3.0.10
 Date: ?
   Changes:
     - New icons for glass. Resolves https://github.com/pyanodon/pybugreports/issues/776
+    - Added a new chemical science recipe for molten lamp casting.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.9
 Date: 2024-11-29
