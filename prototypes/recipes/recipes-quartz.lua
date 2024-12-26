@@ -249,8 +249,8 @@ RECIPE {
         {type = "fluid", name = "molten-glass", amount = 300, fluidbox_index = 2},
         {type = "fluid", name = "molten-copper", amount = 150, fluidbox_index = 3},
         {type = "item", name = "borax", amount = 3},
-        {type = "item", name = "mold", amount = 1},
         {type = "item", name = "electronic-circuit", amount = 1},
+        {type = 'item', name = 'sand-casting', amount = 1}
     },
     results = {
         {type = "item", name = "small-lamp", amount = 45}
