@@ -133,6 +133,7 @@ RECIPE {
         {type = "fluid", name = "tar",    amount = 30},
         {type = "item",  name = "ash",    amount = 1}
     },
+    main_product = "syngas",
     icon = "__pycoalprocessinggraphics__/graphics/icons/syngas.png",
     icon_size = 32,
     subgroup = "py-syngas",
