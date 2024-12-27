@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 3.0.11
+Date: ?
+  Changes:
+    - Fixed a crash when pyAL not installed. Resolves https://github.com/pyanodon/pybugreports/issues/801
+---------------------------------------------------------------------------------------------------
 Version: 3.0.10
 Date: 2024-12-26
   Changes:
