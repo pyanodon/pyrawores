@@ -1,6 +1,6 @@
 {
   "name": "pyrawores",
-  "version": "3.0.11",
+  "version": "3.0.12",
   "factorio_version": "2.0",
   "title": "Pyanodons Raw Ores",
   "author": "Pyanodon, Nexela, Kingarthur, notnotmelon, Mootykins, ShadowGlass, Archezekiel, Quintuple",
@@ -12,7 +12,7 @@
     "pyindustry >= 3.0.0",
     "(?) pyfusionenergy",
     "(?) rso-mod",
-    "~ pyraworesgraphics >= 3.0.2",
+    "~ pyraworesgraphics >= 3.0.3",
     "! wret-beacon-rebalance-mod",
     "! BigBags",
     "! ResearchFog",

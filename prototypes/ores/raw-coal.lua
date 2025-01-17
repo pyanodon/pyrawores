@@ -53,7 +53,7 @@ ENTITY {
     stage_counts = {2000, 1600, 1400, 1200, 800, 400, 200, 10},
     stages = {
         sheet = {
-            filename = "__pyraworesgraphics__/graphics/entity/ores/coal/hr-coal.png",
+            filename = "__pyraworesgraphics__/graphics/entity/ores/coal/coal.png",
             priority = "extra-high",
             width = 128,
             height = 128,

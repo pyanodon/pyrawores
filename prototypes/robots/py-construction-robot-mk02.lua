@@ -54,7 +54,7 @@ ENTITY {
     max_to_charge = 0.95,
     working_light = {intensity = 1, size = 4, color = {r = 0.8, g = 0.8, b = 0.8}},
     idle = {
-        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/hr-01.png",
+        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/01.png",
         priority = "high",
         line_length = 16,
         width = 128,
@@ -65,7 +65,7 @@ ENTITY {
         scale = 0.5
     },
     in_motion = {
-        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/hr-01.png",
+        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/01.png",
         priority = "high",
         line_length = 16,
         width = 128,
@@ -77,7 +77,7 @@ ENTITY {
         scale = 0.5
     },
     shadow_idle = {
-        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/hr-shadow.png",
+        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/shadow.png",
         priority = "high",
         line_length = 16,
         width = 128,
@@ -89,7 +89,7 @@ ENTITY {
         scale = 0.5
     },
     shadow_in_motion = {
-        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/hr-shadow.png",
+        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/shadow.png",
         priority = "high",
         line_length = 16,
         width = 128,
@@ -101,7 +101,7 @@ ENTITY {
         scale = 0.5
     },
     working = {
-        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/hr-02.png",
+        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/02.png",
         priority = "high",
         line_length = 2,
         width = 128,
