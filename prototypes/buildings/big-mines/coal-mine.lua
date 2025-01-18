@@ -51,12 +51,10 @@ ENTITY {
             {flow_direction = "input-output", position = {5.0, 0}, direction = defines.direction.east},
         }
     },
-
     module_slots = 1,
     allowed_effects = {"consumption", "speed", "productivity"},
     mining_speed = 20,
-    energy_source =
-    {
+    energy_source = {
         type = "burner",
         fuel_categories = {"drill"},
         effectivity = 1,
@@ -64,8 +62,7 @@ ENTITY {
         emissions_per_minute = {
             pollution = 0.06
         },
-        smoke =
-        {
+        smoke = {
             {
                 name = "smoke",
                 north_position = {1.0, -6.75},
@@ -79,8 +76,7 @@ ENTITY {
             },
         },
     },
-    light_flicker =
-    {
+    light_flicker = {
         minimum_intensity = 0,
         maximum_intensity = 0,
         light_intensity_to_size_coefficient = 0,

@@ -3,6 +3,7 @@ Version: 3.0.12
 Date: ?
   Changes:
     - Removed all legacy low-res graphic files from pyanodon.
+    - The raw coal big mine now generates 2 coal per mining operation instead of 1.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.11
 Date: 2024-12-28

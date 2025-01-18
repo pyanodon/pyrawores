@@ -60,7 +60,7 @@ data:extend {{
         -- mining_particle = "coal-rock-particle",
         mining_time = 1,
         results = {
-            {type = "item", name = "raw-coal", amount = 1}
+            {type = "item", name = "raw-coal", amount = 2}
         },
         fluid_amount = 30,
         required_fluid = "kerosene"
