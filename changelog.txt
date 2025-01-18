@@ -5,6 +5,7 @@ Date: ?
     - Removed all legacy low-res graphic files from pyanodon.
     - The raw coal big mine now generates 2 coal per mining operation instead of 1.
     - Removed the worldgen silder for vanilla coal. Resolves https://github.com/pyanodon/pybugreports/issues/751
+    - Removed hyphens from most item, fluid, entity, and recipe names in order to aid in itemsearch.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.11
 Date: 2024-12-28
