@@ -1,3 +1,5 @@
+data.raw["autoplace-control"]["coal"] = nil
+
 -- TECH CHANGES
 data.raw.technology["uranium-processing"].enabled = false
 data.raw.technology["uranium-processing"].hidden = true
