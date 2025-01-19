@@ -245,12 +245,12 @@ RECIPE {
     enabled = true,
     energy_required = 9,
     ingredients = {
-        {type = "fluid", name = "molten-iron",   amount = 60, fluidbox_index = 1},
-        {type = "fluid", name = "molten-glass", amount = 300, fluidbox_index = 2},
-        {type = "fluid", name = "molten-copper", amount = 150, fluidbox_index = 3},
-        {type = "item", name = "borax", amount = 3},
-        {type = "item", name = "electronic-circuit", amount = 1},
-        {type = 'item', name = 'sand-casting', amount = 1}
+        {type = "fluid", name = "molten-iron",        amount = 60,  fluidbox_index = 1},
+        {type = "fluid", name = "molten-glass",       amount = 300, fluidbox_index = 2},
+        {type = "fluid", name = "molten-copper",      amount = 150, fluidbox_index = 3},
+        {type = "item",  name = "borax",              amount = 3},
+        {type = "item",  name = "electronic-circuit", amount = 1},
+        {type = "item",  name = "sand-casting",       amount = 1}
     },
     results = {
         {type = "item", name = "small-lamp", amount = 45}

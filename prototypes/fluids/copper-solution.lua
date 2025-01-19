@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "copper-solution",
-    category = "chemistry",     --pyfe mixer
+    category = "chemistry", --pyfe mixer
     enabled = false,
     energy_required = 4,
     ingredients = {

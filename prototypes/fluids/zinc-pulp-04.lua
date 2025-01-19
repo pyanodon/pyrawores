@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "zinc-pulp-04",
-    category = "chemistry",     --pyfe agitator
+    category = "chemistry", --pyfe agitator
     enabled = false,
     energy_required = 12,
     ingredients = {
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "zinc-pulp-04-2",
-    category = "chemistry",     --pyfe thickener
+    category = "chemistry", --pyfe thickener
     enabled = false,
     energy_required = 4,
     ingredients = {

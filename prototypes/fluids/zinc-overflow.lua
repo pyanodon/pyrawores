@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "zinc-overflow",
-    category = "chemistry",     --pyfe jig
+    category = "chemistry", --pyfe jig
     enabled = false,
     energy_required = 3,
     ingredients = {

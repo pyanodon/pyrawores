@@ -9,12 +9,12 @@ local cargo_bot =
         enabled = false,
         ingredients = {
             {type = "item",  name = "py-logistic-robot-mk01", amount = 1},
-            {type = "item",  name = "flying-robot-frame",   amount = 1},
-            {type = "item",  name = "titanium-plate",       amount = 5},
-            {type = "item",  name = "solder",               amount = 5},
-            {type = "item",  name = "super-steel",          amount = 10},
-            {type = "item",  name = "advanced-circuit",     amount = 5},
-            {type = "fluid", name = "lubricant",            amount = 300}
+            {type = "item",  name = "flying-robot-frame",     amount = 1},
+            {type = "item",  name = "titanium-plate",         amount = 5},
+            {type = "item",  name = "solder",                 amount = 5},
+            {type = "item",  name = "super-steel",            amount = 10},
+            {type = "item",  name = "advanced-circuit",       amount = 5},
+            {type = "fluid", name = "lubricant",              amount = 300}
         },
         results = {
             {type = "item", name = "py-logistic-robot-mk02", amount = 1}

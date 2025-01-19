@@ -3,19 +3,19 @@ require "prototypes/updates/pycoalprocessing-updates"
 require "prototypes/updates/pyindustry-updates"
 
 if mods["pyfusionenergy"] then
-  require "prototypes/updates/pyfusionenergy-updates"
+    require "prototypes/updates/pyfusionenergy-updates"
 end
 
 if mods["pyhightech"] then
-  require "prototypes/updates/pyhightech-updates"
+    require "prototypes/updates/pyhightech-updates"
 end
 
 if mods["pypetroleumhandling"] then
-  require "prototypes/updates/pypetroleumhandling-updates"
+    require "prototypes/updates/pypetroleumhandling-updates"
 end
 
 if mods["pyalienlife"] then
-  require "prototypes/updates/pyalienlife-updates"
+    require "prototypes/updates/pyalienlife-updates"
 end
 
 --ADAPTATIONS
@@ -64,7 +64,7 @@ RECIPE("ball-mill-mk04"):replace_ingredient("concrete", "py-asphalt")
 RECIPE("processing-unit"):add_ingredient {type = "item", name = "gold-plate", amount = 1}
 
 if not mods["aai-industry"] then
-  RECIPE("small-lamp"):add_ingredient {type = "item", name = "glass", amount = 2}
+    RECIPE("small-lamp"):add_ingredient {type = "item", name = "glass", amount = 2}
 end
 
 RECIPE("military-science-pack"):add_ingredient {type = "item", name = "lead-plate", amount = 20}:replace_ingredient("grenade", "aluminium-plate")
@@ -159,56 +159,56 @@ ITEM("landfill").stack_size = 1000
 
 local recipes_list =
 {
-  "ceramic-2",
-  "acid-solvent",
-  "aerofloat-15",
-  "alamac",
-  "ammo-initial",
-  "ammonia2",
-  "ammonium-chloride-2",
-  "ammonium-chloride",
-  "armac-12",
-  "battery-1",
-  "battery-2",
-  "bonemeal-salt",
-  "collagen-glycerol",
-  "cresylic-acid",
-  "cyanic-acid-01",
-  "diesel",
-  "diesel2",
-  "extract-limestone-01",
-  "fertilizer-2",
-  "glycerol-hydrogen",
-  "methanol-from-hydrogen",
-  "mibc",
-  "mukmoux-fat-salt",
-  "p2s5-2",
-  "p2s5",
-  "petroleum-sulfonates",
-  "pregnant-solution-01",
-  "py-sodium-hydroxide",
-  "pyrite-burn",
-  "pyrite-make",
-  "sodium-carbonate-1",
-  "sodium-sulfate-1",
-  "solder-0",
-  "solder-1",
-  "solder-2",
-  "solder-3",
-  "starch-2",
-  "starch",
-  "sulfuric-acid-01",
-  "syngas-distilation",
-  "tinned-cable",
-  "vanadium-mixture",
-  "xylenol-3",
-  "z3-reagent",
+    "ceramic-2",
+    "acid-solvent",
+    "aerofloat-15",
+    "alamac",
+    "ammo-initial",
+    "ammonia2",
+    "ammonium-chloride-2",
+    "ammonium-chloride",
+    "armac-12",
+    "battery-1",
+    "battery-2",
+    "bonemeal-salt",
+    "collagen-glycerol",
+    "cresylic-acid",
+    "cyanic-acid-01",
+    "diesel",
+    "diesel2",
+    "extract-limestone-01",
+    "fertilizer-2",
+    "glycerol-hydrogen",
+    "methanol-from-hydrogen",
+    "mibc",
+    "mukmoux-fat-salt",
+    "p2s5-2",
+    "p2s5",
+    "petroleum-sulfonates",
+    "pregnant-solution-01",
+    "py-sodium-hydroxide",
+    "pyrite-burn",
+    "pyrite-make",
+    "sodium-carbonate-1",
+    "sodium-sulfate-1",
+    "solder-0",
+    "solder-1",
+    "solder-2",
+    "solder-3",
+    "starch-2",
+    "starch",
+    "sulfuric-acid-01",
+    "syngas-distilation",
+    "tinned-cable",
+    "vanadium-mixture",
+    "xylenol-3",
+    "z3-reagent",
 }
 
 --adding to module limitation list
 py.allow_productivity(recipes_list)
 
 if register_cache_file ~= nil then
-  register_cache_file({"pycoalprocessing", "pyindustry", "pyrawores"}, "__pyrawores__/cached-configs/pycoalprocessing+pyindustry+pyrawores.lua")
-  register_cache_file({"pycoalprocessing", "pyfusionenergy", "pyindustry", "pyrawores"}, "__pyrawores__/cached-configs/pycoalprocessing+pyfusionenergy+pyindustry+pyrawores.lua")
+    register_cache_file({"pycoalprocessing", "pyindustry", "pyrawores"}, "__pyrawores__/cached-configs/pycoalprocessing+pyindustry+pyrawores.lua")
+    register_cache_file({"pycoalprocessing", "pyfusionenergy", "pyindustry", "pyrawores"}, "__pyrawores__/cached-configs/pycoalprocessing+pyfusionenergy+pyindustry+pyrawores.lua")
 end

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nexelit-pulp-01",
-    category = "chemistry",     --pyfe pan
+    category = "chemistry", --pyfe pan
     enabled = false,
     energy_required = 20,
     ingredients = {

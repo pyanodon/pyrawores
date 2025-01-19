@@ -8,12 +8,12 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item",  name = "py-construction-robot-mk01", amount = 1},
-        {type = "item",  name = "aramid",                   amount = 5},
-        {type = "item",  name = "stainless-steel",          amount = 5},
-        {type = "item",  name = "flying-robot-frame",       amount = 1},
-        {type = "item",  name = "solder",                   amount = 5},
-        {type = "item",  name = "advanced-circuit",         amount = 3},
-        {type = "fluid", name = "lubricant",                amount = 100},
+        {type = "item",  name = "aramid",                     amount = 5},
+        {type = "item",  name = "stainless-steel",            amount = 5},
+        {type = "item",  name = "flying-robot-frame",         amount = 1},
+        {type = "item",  name = "solder",                     amount = 5},
+        {type = "item",  name = "advanced-circuit",           amount = 3},
+        {type = "fluid", name = "lubricant",                  amount = 100},
     },
     results = {
         {type = "item", name = "py-construction-robot-mk02", amount = 1}

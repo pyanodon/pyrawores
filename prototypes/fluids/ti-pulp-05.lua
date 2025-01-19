@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "ti-pulp-05",
-    category = "chemistry",     --pyfe hydrocyclone
+    category = "chemistry", --pyfe hydrocyclone
     enabled = false,
     energy_required = 3,
     ingredients = {
