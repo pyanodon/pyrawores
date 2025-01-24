@@ -59,7 +59,9 @@ ENTITY {
             height = 128,
             frame_count = 8,
             variation_count = 8,
-            scale = 0.5
+            scale = 0.5,
+            tint = {r = 0.2, g = 0.2, b = 0.2, a = 1},
+            tint_as_overlay = true
         }
     }
 }
