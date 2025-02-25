@@ -34,6 +34,19 @@ ITEM {
     stack_size = 50
 }:subgroup_order("py-robots", "e")
 
+local shadow = {
+    filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/shadow.png",
+    priority = "high",
+    line_length = 16,
+    width = 128,
+    height = 96,
+    frame_count = 1,
+    shift = util.by_pixel(33.5, 18.75),
+    draw_as_shadow = true,
+    direction_count = 16,
+    scale = 0.5
+}
+
 ENTITY {
     type = "logistic-robot",
     name = "py-logistic-robot-mk02",
@@ -99,54 +112,10 @@ ENTITY {
         direction_count = 16,
         scale = 0.5
     },
-    shadow_idle = {
-        filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/shadow.png",
-        priority = "high",
-        line_length = 16,
-        width = 128,
-        height = 96,
-        frame_count = 1,
-        shift = util.by_pixel(33.5, 18.75),
-        draw_as_shadow = true,
-        direction_count = 16,
-        scale = 0.5
-    },
-    shadow_idle_with_cargo = {
-        filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/shadow-payload.png",
-        priority = "high",
-        line_length = 16,
-        width = 128,
-        height = 96,
-        frame_count = 1,
-        shift = util.by_pixel(33.5, 18.75),
-        draw_as_shadow = true,
-        direction_count = 16,
-        scale = 0.5
-    },
-    shadow_in_motion = {
-        filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/shadow.png",
-        priority = "high",
-        line_length = 16,
-        width = 128,
-        height = 96,
-        frame_count = 1,
-        shift = util.by_pixel(33.5, 18.75),
-        draw_as_shadow = true,
-        direction_count = 16,
-        scale = 0.5
-    },
-    shadow_in_motion_with_cargo = {
-        filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/shadow-payload.png",
-        priority = "high",
-        line_length = 16,
-        width = 128,
-        height = 96,
-        frame_count = 1,
-        shift = util.by_pixel(33.5, 18.75),
-        draw_as_shadow = true,
-        direction_count = 16,
-        scale = 0.5
-    },
+    shadow_idle = shadow,
+    shadow_idle_with_cargo = shadow,
+    shadow_in_motion = shadow,
+    shadow_in_motion_with_cargo = shadow,
     working_sound = sounds.flying_robot(0.5),
     cargo_centered = {0.0, 0.2}
 }

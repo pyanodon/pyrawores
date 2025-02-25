@@ -32,6 +32,19 @@ ITEM {
     stack_size = 50
 }:subgroup_order("py-robots", "d")
 
+local shadow = {
+    filename = "__pyraworesgraphics__/graphics/entity/construction-robot/shadow.png",
+    priority = "high",
+    line_length = 16,
+    width = 128,
+    height = 128,
+    frame_count = 1,
+    shift = util.by_pixel(33.5, 18.75),
+    draw_as_shadow = true,
+    direction_count = 16,
+    scale = 0.5
+}
+
 ENTITY {
     type = "construction-robot",
     name = "py-construction-robot-mk02",
@@ -76,30 +89,6 @@ ENTITY {
         y = 128,
         scale = 0.5
     },
-    shadow_idle = {
-        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/shadow.png",
-        priority = "high",
-        line_length = 16,
-        width = 128,
-        height = 128,
-        frame_count = 1,
-        shift = util.by_pixel(33.5, 18.75),
-        draw_as_shadow = true,
-        direction_count = 16,
-        scale = 0.5
-    },
-    shadow_in_motion = {
-        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/shadow.png",
-        priority = "high",
-        line_length = 16,
-        width = 128,
-        height = 128,
-        frame_count = 1,
-        shift = util.by_pixel(33.5, 18.75),
-        draw_as_shadow = true,
-        direction_count = 16,
-        scale = 0.5
-    },
     working = {
         filename = "__pyraworesgraphics__/graphics/entity/construction-robot/02.png",
         priority = "high",
@@ -111,25 +100,6 @@ ENTITY {
         direction_count = 16,
         animation_speed = 0.3,
         scale = 0.5
-    },
-    shadow_working = {
-        stripes = util.multiplystripes(
-            2,
-            {
-                {
-                    filename = "__pyraworesgraphics__/graphics/entity/construction-robot/shadow.png",
-                    width_in_frames = 16,
-                    height_in_frames = 1
-                }
-            }
-        ),
-        priority = "high",
-        width = 64,
-        draw_as_shadow = true,
-        height = 64,
-        frame_count = 2,
-        shift = {1.09375, 0.59375},
-        direction_count = 16
     },
     smoke = {
         filename = "__base__/graphics/entity/smoke-construction/smoke-01.png",
@@ -201,6 +171,23 @@ ENTITY {
             tint = {r = 1.0, g = 0.9, b = 0.0, a = 1.0},
             animation_speed = 0.3
         }
+    },
+    shadow_idle = shadow,
+    shadow_idle_with_cargo = shadow,
+    shadow_in_motion = shadow,
+    shadow_in_motion_with_cargo = shadow,
+    shadow_working = {
+        filename = "__pyraworesgraphics__/graphics/entity/construction-robot/shadow.png",
+        priority = "high",
+        line_length = 16,
+        width = 128,
+        height = 128,
+        frame_count = 1,
+        repeat_count = 2,
+        shift = util.by_pixel(33.5, 18.75),
+        draw_as_shadow = true,
+        direction_count = 16,
+        scale = 0.5
     },
     working_sound = sounds.construction_robot(0.5),
     cargo_centered = {0.0, 0.2},
