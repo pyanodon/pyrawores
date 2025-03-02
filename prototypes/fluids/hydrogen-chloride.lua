@@ -11,7 +11,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "hydrogen-chloride", amount = 100},
-        {type = "item",  name = "small-lamp",        amount = 1,  probability = 0.5}
+        {type = "item",  name = "small-lamp",        amount = 1,  probability = 0.5, ignored_by_productivity = 1}
     },
     main_product = "hydrogen-chloride",
     icon = "__pyraworesgraphics__/graphics/icons/hydrogen-chloride.png",
