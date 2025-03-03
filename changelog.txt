@@ -2,8 +2,9 @@
 Version: 3.0.14
 Date: ???
   Changes:
-    - Fixed fluid mining drills not working when connected to pipelines with low fluid level
-    - Fixed some recipes not having defined catalysts
+    - Fixed fluid mining drills not working when connected to pipelines with low fluid level.
+    - Fixed some recipes not having defined catalysts.
+    - Uranium mines no longer have a seperate fluid buffer and instead consume directly from the pipe network.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.13
 Date: 2025-2-26
