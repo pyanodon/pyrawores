@@ -81,12 +81,12 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "molten-copper", amount = 25},
+        {type = "fluid", name = "molten-copper", amount = 50},
         {type = "item",  name = "borax",         amount = 3},
         {type = "item",  name = "sand-casting",  amount = 1}
     },
     results = {
-        {type = "item", name = "copper-cable", amount = 55}
+        {type = "item", name = "copper-cable", amount = 110}
     },
     main_product = "copper-cable",
     subgroup = "py-rawores-casting",
