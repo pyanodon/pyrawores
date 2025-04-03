@@ -12,7 +12,7 @@
         "pyindustry >= 3.0.0",
         "(?) pyfusionenergy",
         "(?) rso-mod",
-        "~ pyraworesgraphics >= 3.0.3",
+        "~ pyraworesgraphics >= 3.0.4",
         "! wret-beacon-rebalance-mod",
         "! BigBags",
         "! ResearchFog",

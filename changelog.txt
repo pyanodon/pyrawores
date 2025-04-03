@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 3.0.16
+Date: ?
+  Changes:
+    - Added new icons for molten silver. Resolves https://github.com/pyanodon/pybugreports/issues/943
+---------------------------------------------------------------------------------------------------
 Version: 3.0.15
 Date: 2025-3-9
   Changes:
