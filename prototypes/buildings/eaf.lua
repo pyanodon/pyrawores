@@ -21,15 +21,15 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"eaf-mk01",         1},
-        {"duralumin",        15},
-        {"lead-plate",       10},
-        {"engine-unit",      10},
-        {"nexelit-plate",    10},
-        {"advanced-circuit", 20},
+        {type = "item", name = "eaf-mk01",         amount = 1},
+        {type = "item", name = "duralumin",        amount = 15},
+        {type = "item", name = "lead-plate",       amount = 10},
+        {type = "item", name = "engine-unit",      amount = 10},
+        {type = "item", name = "nexelit-plate",    amount = 10},
+        {type = "item", name = "advanced-circuit", amount = 20},
     },
     results = {
-        {"eaf-mk02", 1}
+        {type = "item", name = "eaf-mk02", amount = 1}
     }
 }:add_unlock("smelters-mk02")
 
@@ -39,15 +39,15 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"eaf-mk02",             1},
-        {"titanium-plate",       20},
-        {"stainless-steel",      20},
-        {"tin-plate",            20},
-        {"electric-engine-unit", 6},
-        {"processing-unit",      10}
+        {type = "item", name = "eaf-mk02",             amount = 1},
+        {type = "item", name = "titanium-plate",       amount = 20},
+        {type = "item", name = "stainless-steel",      amount = 20},
+        {type = "item", name = "tin-plate",            amount = 20},
+        {type = "item", name = "electric-engine-unit", amount = 6},
+        {type = "item", name = "processing-unit",      amount = 10}
     },
     results = {
-        {"eaf-mk03", 1}
+        {type = "item", name = "eaf-mk03", amount = 1}
     }
 }:add_unlock("smelters-mk03")
 
@@ -57,14 +57,14 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"eaf-mk03",              1},
-        {"concrete",              15},
-        {"super-steel",           30},
-        {"low-density-structure", 10},
-        {"nbfe-alloy",            10},
+        {type = "item", name = "eaf-mk03",              amount = 1},
+        {type = "item", name = "concrete",              amount = 15},
+        {type = "item", name = "super-steel",           amount = 30},
+        {type = "item", name = "low-density-structure", amount = 10},
+        {type = "item", name = "nbfe-alloy",            amount = 10},
     },
     results = {
-        {"eaf-mk04", 1}
+        {type = "item", name = "eaf-mk04", amount = 1}
     }
 }:add_unlock("smelters-mk04")
 

@@ -23,15 +23,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"smelter-mk01",     1},
-        {"duralumin",        30},
-        {"lead-plate",       40},
-        {"nexelit-plate",    15},
-        {"advanced-circuit", 10},
-        {"engine-unit",      20},
+        {type = "item", name = "smelter-mk01",     amount = 1},
+        {type = "item", name = "duralumin",        amount = 30},
+        {type = "item", name = "lead-plate",       amount = 40},
+        {type = "item", name = "nexelit-plate",    amount = 15},
+        {type = "item", name = "advanced-circuit", amount = 10},
+        {type = "item", name = "engine-unit",      amount = 20},
     },
     results = {
-        {"smelter-mk02", 1}
+        {type = "item", name = "smelter-mk02", amount = 1}
     }
 }:add_unlock("smelters-mk02")
 
@@ -41,16 +41,16 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"smelter-mk02",         1},
-        {"storage-tank",         3},
-        {"duralumin",            30},
-        {"lead-plate",           30},
-        {"nexelit-plate",        20},
-        {"electric-engine-unit", 20},
-        {"processing-unit",      10},
+        {type = "item", name = "smelter-mk02",         amount = 1},
+        {type = "item", name = "storage-tank",         amount = 3},
+        {type = "item", name = "duralumin",            amount = 30},
+        {type = "item", name = "lead-plate",           amount = 30},
+        {type = "item", name = "nexelit-plate",        amount = 20},
+        {type = "item", name = "electric-engine-unit", amount = 20},
+        {type = "item", name = "processing-unit",      amount = 10},
     },
     results = {
-        {"smelter-mk03", 1}
+        {type = "item", name = "smelter-mk03", amount = 1}
     }
 }:add_unlock("smelters-mk03")
 
@@ -60,13 +60,13 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"smelter-mk03",          1},
-        {"super-steel",           30},
-        {"low-density-structure", 15},
-        {"nbfe-alloy",            20},
+        {type = "item", name = "smelter-mk03",          amount = 1},
+        {type = "item", name = "super-steel",           amount = 30},
+        {type = "item", name = "low-density-structure", amount = 15},
+        {type = "item", name = "nbfe-alloy",            amount = 20},
     },
     results = {
-        {"smelter-mk04", 1}
+        {type = "item", name = "smelter-mk04", amount = 1}
     }
 }:add_unlock("smelters-mk04")
 

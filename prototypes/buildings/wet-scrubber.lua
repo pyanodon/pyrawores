@@ -21,15 +21,15 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"wet-scrubber-mk01", 1},
-        {"storage-tank",      1}, --pyindustry py-tank-5000
-        {"duralumin",         20},
-        {"engine-unit",       5},
-        {"nexelit-plate",     15},
-        {"advanced-circuit",  10},
+        {type = "item", name = "wet-scrubber-mk01", amount = 1},
+        {type = "item", name = "storage-tank",      amount = 1}, --pyindustry py-tank-5000
+        {type = "item", name = "duralumin",         amount = 20},
+        {type = "item", name = "engine-unit",       amount = 5},
+        {type = "item", name = "nexelit-plate",     amount = 15},
+        {type = "item", name = "advanced-circuit",  amount = 10},
     },
     results = {
-        {"wet-scrubber-mk02", 1}
+        {type = "item", name = "wet-scrubber-mk02", amount = 1}
     }
 }:add_unlock("machines-mk03")
 
@@ -39,16 +39,16 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"wet-scrubber-mk02",    1},
-        {"storage-tank",         1}, --pyindustry py-tank-5000
-        {"titanium-plate",       20},
-        {"stainless-steel",      20},
-        {"tin-plate",            20},
-        {"electric-engine-unit", 4},
-        {"processing-unit",      10}
+        {type = "item", name = "wet-scrubber-mk02",    amount = 1},
+        {type = "item", name = "storage-tank",         amount = 1}, --pyindustry py-tank-5000
+        {type = "item", name = "titanium-plate",       amount = 20},
+        {type = "item", name = "stainless-steel",      amount = 20},
+        {type = "item", name = "tin-plate",            amount = 20},
+        {type = "item", name = "electric-engine-unit", amount = 4},
+        {type = "item", name = "processing-unit",      amount = 10}
     },
     results = {
-        {"wet-scrubber-mk03", 1}
+        {type = "item", name = "wet-scrubber-mk03", amount = 1}
     }
 }:add_unlock("machines-mk04")
 
@@ -58,14 +58,14 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"wet-scrubber-mk03",     1},
-        {"storage-tank",          1}, --pyindustry py-tank-5000
-        {"super-steel",           30},
-        {"low-density-structure", 15},
-        {"nbfe-alloy",            20},
+        {type = "item", name = "wet-scrubber-mk03",     amount = 1},
+        {type = "item", name = "storage-tank",          amount = 1}, --pyindustry py-tank-5000
+        {type = "item", name = "super-steel",           amount = 30},
+        {type = "item", name = "low-density-structure", amount = 15},
+        {type = "item", name = "nbfe-alloy",            amount = 20},
     },
     results = {
-        {"wet-scrubber-mk04", 1}
+        {type = "item", name = "wet-scrubber-mk04", amount = 1}
     }
 }:add_unlock("machines-mk05")
 

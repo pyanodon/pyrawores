@@ -312,7 +312,7 @@ RECIPE {
     enabled = false,
     energy_required = 60,
     ingredients = {
-        {"used-up-uranium-fuel-cell-mk03", 5}
+        {type = "item", name = "used-up-uranium-fuel-cell-mk03", amount = 5}
     },
     results = {
         {type = "item", name = "uranium-238", amount = 7},
@@ -329,7 +329,7 @@ RECIPE {
     enabled = false,
     energy_required = 60,
     ingredients = {
-        {"used-up-uranium-fuel-cell-mk04", 5}
+        {type = "item", name = "used-up-uranium-fuel-cell-mk04", amount = 5}
     },
     results = {
         {type = "item", name = "uranium-238", amount = 6},
@@ -346,7 +346,7 @@ RECIPE {
     enabled = false,
     energy_required = 60,
     ingredients = {
-        {"used-up-uranium-fuel-cell-mk05", 5}
+        {type = "item", name = "used-up-uranium-fuel-cell-mk05", amount = 5}
     },
     results = {
         {type = "item", name = "uranium-238", amount = 8},

@@ -1162,10 +1162,10 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {"stone-brick", 4},
+        {type = "item", name = "stone-brick", amount = 4},
     },
     results = {
-        {"stone", 8},
+        {type = "item", name = "stone", amount = 8},
     },
 }:add_unlock("crusher")
 

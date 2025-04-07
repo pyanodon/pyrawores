@@ -21,14 +21,14 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"electrolyzer-mk01", 1},
-        {"duralumin",         20},
-        {"engine-unit",       5},
-        {"nexelit-plate",     15},
-        {"advanced-circuit",  10},
+        {type = "item", name = "electrolyzer-mk01", amount = 1},
+        {type = "item", name = "duralumin",         amount = 20},
+        {type = "item", name = "engine-unit",       amount = 5},
+        {type = "item", name = "nexelit-plate",     amount = 15},
+        {type = "item", name = "advanced-circuit",  amount = 10},
     },
     results = {
-        {"electrolyzer-mk02", 1}
+        {type = "item", name = "electrolyzer-mk02", amount = 1}
     }
 }:add_unlock("machines-mk03")
 
@@ -38,15 +38,15 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"electrolyzer-mk02",    1},
-        {"titanium-plate",       20},
-        {"stainless-steel",      20},
-        {"tin-plate",            20},
-        {"electric-engine-unit", 10},
-        {"processing-unit",      10}
+        {type = "item", name = "electrolyzer-mk02",    amount = 1},
+        {type = "item", name = "titanium-plate",       amount = 20},
+        {type = "item", name = "stainless-steel",      amount = 20},
+        {type = "item", name = "tin-plate",            amount = 20},
+        {type = "item", name = "electric-engine-unit", amount = 10},
+        {type = "item", name = "processing-unit",      amount = 10}
     },
     results = {
-        {"electrolyzer-mk03", 1}
+        {type = "item", name = "electrolyzer-mk03", amount = 1}
     }
 }:add_unlock("machines-mk04")
 
@@ -56,14 +56,14 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"electrolyzer-mk03",     1},
-        {"concrete",              20},
-        {"super-steel",           30},
-        {"low-density-structure", 15},
-        {"nbfe-alloy",            20},
+        {type = "item", name = "electrolyzer-mk03",     amount = 1},
+        {type = "item", name = "concrete",              amount = 20},
+        {type = "item", name = "super-steel",           amount = 30},
+        {type = "item", name = "low-density-structure", amount = 15},
+        {type = "item", name = "nbfe-alloy",            amount = 20},
     },
     results = {
-        {"electrolyzer-mk04", 1}
+        {type = "item", name = "electrolyzer-mk04", amount = 1}
     }
 }:add_unlock("machines-mk05")
 

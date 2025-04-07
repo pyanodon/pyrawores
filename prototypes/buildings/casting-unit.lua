@@ -21,15 +21,15 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"casting-unit-mk01", 1},
-        {"duralumin",         15},
-        {"engine-unit",       15},
-        {"lead-plate",        10},
-        {"nexelit-plate",     15},
-        {"advanced-circuit",  10},
+        {type = "item", name = "casting-unit-mk01", amount = 1},
+        {type = "item", name = "duralumin",         amount = 15},
+        {type = "item", name = "engine-unit",       amount = 15},
+        {type = "item", name = "lead-plate",        amount = 10},
+        {type = "item", name = "nexelit-plate",     amount = 15},
+        {type = "item", name = "advanced-circuit",  amount = 10},
     },
     results = {
-        {"casting-unit-mk02", 1}
+        {type = "item", name = "casting-unit-mk02", amount = 1}
     }
 }:add_unlock("casting-mk02")
 
@@ -39,16 +39,16 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"casting-unit-mk02",    1},
-        {"titanium-plate",       20},
-        {"stainless-steel",      20},
-        {"storage-tank",         1},
-        {"tin-plate",            20},
-        {"electric-engine-unit", 10},
-        {"processing-unit",      10}
+        {type = "item", name = "casting-unit-mk02",    amount = 1},
+        {type = "item", name = "titanium-plate",       amount = 20},
+        {type = "item", name = "stainless-steel",      amount = 20},
+        {type = "item", name = "storage-tank",         amount = 1},
+        {type = "item", name = "tin-plate",            amount = 20},
+        {type = "item", name = "electric-engine-unit", amount = 10},
+        {type = "item", name = "processing-unit",      amount = 10}
     },
     results = {
-        {"casting-unit-mk03", 1}
+        {type = "item", name = "casting-unit-mk03", amount = 1}
     }
 }:add_unlock("casting-mk03")
 
@@ -58,15 +58,15 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"casting-unit-mk03",     1},
-        {"concrete",              15},
-        {"super-steel",           30},
-        {"storage-tank",          1},
-        {"low-density-structure", 10},
-        {"nbfe-alloy",            10},
+        {type = "item", name = "casting-unit-mk03",     amount = 1},
+        {type = "item", name = "concrete",              amount = 15},
+        {type = "item", name = "super-steel",           amount = 30},
+        {type = "item", name = "storage-tank",          amount = 1},
+        {type = "item", name = "low-density-structure", amount = 10},
+        {type = "item", name = "nbfe-alloy",            amount = 10},
     },
     results = {
-        {"casting-unit-mk04", 1}
+        {type = "item", name = "casting-unit-mk04", amount = 1}
     }
 }:add_unlock("casting-mk04")
 
