@@ -72,7 +72,7 @@ RECIPE("fusion-reactor-mk02"):add_ingredient {type = "item", name = "super-steel
 RECIPE("regolite-mine"):add_ingredient {type = "item", name = "automated-factory-mk02", amount = 1}
 RECIPE("molybdenum-concentrate"):replace_ingredient("water", "nitrogen")
 RECIPE("nmf-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("aramid")
-RECIPE("phytoplankton"):replace_ingredient("iron-ore", {"grade-1-tin", 1})
+RECIPE("phytoplankton"):replace_ingredient("iron-ore", {type = "item", name = "grade-1-tin", amount = 1})
 
 RECIPE("molybdenum-oxide"):add_ingredient {type = "fluid", name = "oxygen", amount = 100}
 RECIPE("vpulp3"):replace_ingredient("petroleum-gas", "ammonia")

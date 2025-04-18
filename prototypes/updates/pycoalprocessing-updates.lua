@@ -82,7 +82,7 @@ RECIPE("oleochemicals-distilation"):replace_result("coal", "raw-coal", 4)
 RECIPE("boric-acid").category = "electrolyzer"
 RECIPE("copper-coating").category = "electrolyzer"
 RECIPE("nbfe-alloy").category = "py-rawores-smelter"
-RECIPE("copper-coating"):replace_ingredient("organic-solvent", {"water-saline", 100})
+RECIPE("copper-coating"):replace_ingredient("organic-solvent", {type = "fluid", name = "water-saline", amount = 100})
 RECIPE("empty-gas-canister"):replace_ingredient("steel-plate", "aluminium-plate")
 RECIPE("methanol-from-syngas"):replace_ingredient("iron-plate", "zinc-plate")
 RECIPE("flying-robot-frame"):replace_ingredient("steel-plate", "niobium-plate")
@@ -137,7 +137,7 @@ RECIPE("ground-borer"):replace_ingredient("iron-plate", "titanium-plate")
 RECIPE("fts-reactor"):replace_ingredient("stone-brick", "glass")
 RECIPE("advanced-foundry-mk02"):replace_ingredient("iron-plate", "titanium-plate"):add_ingredient {type = "item", name = "glass", amount = 15}
 RECIPE("ralesia-plantation-mk01"):replace_ingredient("stone", "glass")
-RECIPE("botanical-nursery"):add_ingredient {name = "glass", amount = 10}
+RECIPE("botanical-nursery"):add_ingredient {type = "item", name = "glass", amount = 10}
 RECIPE("equipment-chassi"):replace_ingredient("iron-plate", "duralumin")
 RECIPE("glass"):set_fields {enabled = false}:set_fields {hidden = true}
 
