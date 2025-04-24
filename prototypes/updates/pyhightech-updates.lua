@@ -119,7 +119,7 @@ RECIPE("pa-silver"):add_unlock("nucleo")
 RECIPE("pa-gold"):add_unlock("nucleo-mk02")
 RECIPE("pa-vanadium2"):add_unlock("nucleo-mk02")
 RECIPE("fertilizer-2"):add_unlock("fertilizer")
-RECIPE("aramid-2"):add_unlock("nano-tech")
+RECIPE("aramid-2"):add_unlock("quantum-processor")
 RECIPE("ceramic-2"):add_unlock("integrated-circuits-1")
 
 RECIPE("heavy-fermion"):remove_unlock("integrated-circuits-3"):add_unlock("alloys-mk04")
