@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.17
 Date: tba
+  Changes:
+    - Removed prod from the initial solder recipe
   Internal:
     - remove shorthands in recipe declarations
 ---------------------------------------------------------------------------------------------------
