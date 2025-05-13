@@ -14,7 +14,7 @@ RECIPE {
         {type = "item",  name = "coal",       amount = 3}
     },
     main_product = "coal",
-    icon = "__pyraworesgraphics__/graphics/icons/coalgas-from-rawcoal.png",
+    icons = py.composite_icon("raw-coal", nil, nil, "coal-gas", "tar"),
     icon_size = 32,
     subgroup = "py-syngas",
     order = "d"
@@ -55,6 +55,7 @@ RECIPE {
         {type = "item", name = "coal", amount = 4},
     },
     main_product = "coal",
+    icons = py.composite_icon("coal", "coarse-coal"),
     subgroup = "py-rawores-coal",
 }:add_unlock("coal-mk02")
 
@@ -89,6 +90,7 @@ RECIPE {
         {type = "item", name = "coal", amount = 6},
     },
     main_product = "coal",
+    icons = py.composite_icon("coal", "fines-pulp"),
     subgroup = "py-rawores-coal",
 }:add_unlock("coal-mk03")
 
@@ -107,6 +109,7 @@ RECIPE {
         {type = "item", name = "coal", amount = 40},
     },
     main_product = "coal",
+    icons = py.composite_icon("coal", "coal-pulp-01"),
     subgroup = "py-rawores-coal",
 }:add_unlock("coal-mk04")
 
@@ -187,5 +190,6 @@ RECIPE {
         {type = "item",  name = "coal",              amount = 20},
     },
     main_product = "coal",
+    icons = py.composite_icon("coal", "coal-pulp-05"),
     subgroup = "py-rawores-coal",
 }:add_unlock("coal-mk03")

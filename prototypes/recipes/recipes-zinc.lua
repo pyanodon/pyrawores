@@ -197,6 +197,7 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 20}
     },
     main_product = "molten-zinc",
+    icons = py.composite_icon("molten-zinc", "grade-3-zinc"),
     subgroup = "py-rawores-zinc",
     order = "bae"
 }:add_unlock("zinc-mk02")
@@ -216,6 +217,7 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 45}
     },
     main_product = "molten-zinc",
+    icons = py.composite_icon("molten-zinc", "concentrated-zinc"),
     subgroup = "py-rawores-zinc",
     order = "bad"
 }:add_unlock("zinc-mk03")
@@ -235,8 +237,9 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 132}
     },
     main_product = "molten-zinc",
+    icons = py.composite_icon("molten-zinc", "high-grade-zinc"),
     subgroup = "py-rawores-zinc",
-    order = "bab"
+    order = "bac"
 }:add_unlock("zinc-mk03")
 
 RECIPE {
@@ -254,8 +257,9 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 200}
     },
     main_product = "molten-zinc",
+    icons = py.composite_icon("molten-zinc", "reduced-zinc"),
     subgroup = "py-rawores-zinc",
-    order = "baa"
+    order = "bab"
 }:add_unlock("zinc-mk04")
 
 RECIPE {
@@ -273,8 +277,9 @@ RECIPE {
         {type = "fluid", name = "molten-zinc", amount = 130}
     },
     main_product = "molten-zinc",
+    icons = py.composite_icon("molten-zinc", "sintered-zinc"),
     subgroup = "py-rawores-zinc",
-    order = "bac"
+    order = "baa"
 }:add_unlock("zinc-mk05")
 
 --CASTINGS
@@ -294,6 +299,7 @@ RECIPE {
         {type = "item", name = "zinc-plate", amount = 50}
     },
     main_product = "zinc-plate",
+    icons = py.composite_icon("zinc-plate", "molten-zinc"),
     subgroup = "py-rawores-zinc",
     order = "aaa"
 }:add_unlock("zinc-mk02")
@@ -312,6 +318,8 @@ RECIPE {
     results = {
         {type = "item", name = "zinc-plate", amount = 4}
     },
+    main_product = "zinc-plate",
+    icons = py.composite_icon("zinc-plate", "ore-zinc"),
     subgroup = "py-rawores-zinc",
     order = "aad"
 }:add_unlock("zinc-mk01")
@@ -330,6 +338,8 @@ RECIPE {
     results = {
         {type = "item", name = "zinc-plate", amount = 30}
     },
+    main_product = "zinc-plate",
+    icons = py.composite_icon("zinc-plate", "grade-2-zinc"),
     subgroup = "py-rawores-zinc",
     order = "aac"
 }:add_unlock("zinc-mk01")
@@ -346,6 +356,8 @@ RECIPE {
     results = {
         {type = "item", name = "zinc-plate", amount = 30}
     },
+    main_product = "zinc-plate",
+    icons = py.composite_icon("zinc-plate", "powdered-zinc"),
     subgroup = "py-rawores-zinc",
     order = "aab"
 }:add_unlock("zinc-mk03")

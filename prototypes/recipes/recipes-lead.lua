@@ -211,8 +211,9 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 90}
     },
     main_product = "molten-lead",
+    icons = py.composite_icon("molten-lead", "lead-dust"),
     subgroup = "py-rawores-lead",
-    order = "bad"
+    order = "bae"
 }:add_unlock("lead-mk02")
 
 RECIPE {
@@ -229,8 +230,9 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 70}
     },
     main_product = "molten-lead",
+    icons = py.composite_icon("molten-lead", "sl-01"),
     subgroup = "py-rawores-lead",
-    order = "bae"
+    order = "bad"
 }:add_unlock("lead-mk03")
 
 RECIPE {
@@ -247,6 +249,7 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 500}
     },
     main_product = "molten-lead",
+    icons = py.composite_icon("molten-lead", "high-grade-lead"),
     subgroup = "py-rawores-lead",
     order = "bac"
 }:add_unlock("lead-mk03")
@@ -265,8 +268,9 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 1000}
     },
     main_product = "molten-lead",
+    icons = py.composite_icon("molten-lead", "reduced-lead"),
     subgroup = "py-rawores-lead",
-    order = "baa"
+    order = "bab"
 }:add_unlock("lead-mk04")
 
 RECIPE {
@@ -283,8 +287,9 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 650}
     },
     main_product = "molten-lead",
+    icons = py.composite_icon("molten-lead", "sintered-lead"),  
     subgroup = "py-rawores-lead",
-    order = "bab"
+    order = "baa"
 }:add_unlock("lead-mk05")
 
 --CASTINGS
@@ -303,6 +308,7 @@ RECIPE {
         {type = "item", name = "lead-plate", amount = 50}
     },
     main_product = "lead-plate",
+    icons = py.composite_icon("lead-plate", "molten-lead"),
     subgroup = "py-rawores-lead",
     order = "aaa"
 }:add_unlock("lead-mk02")
@@ -322,6 +328,7 @@ RECIPE {
         {type = "item", name = "lead-plate", amount = 1}
     },
     subgroup = "py-rawores-lead",
+    icons = py.composite_icon("lead-plate", "ore-lead"),
     order = "aac"
 }:add_unlock("solder-mk01")
 
@@ -340,5 +347,6 @@ RECIPE {
         {type = "item", name = "lead-plate", amount = 10}
     },
     subgroup = "py-rawores-lead",
+    icons = py.composite_icon("lead-plate", "grade-1-lead"),
     order = "aab"
 }:add_unlock("lead-mk01")

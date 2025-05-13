@@ -20,15 +20,12 @@ end
 
 --ADAPTATIONS
 
-ITEM("copper-plate"):set("icon", "__pyraworesgraphics__/graphics/icons/copper-plate.png")
-ITEM("copper-plate"):set("icon_size", 32)
-ITEM("iron-plate"):set("icon", "__pyraworesgraphics__/graphics/icons/iron-plate.png")
-ITEM("iron-plate"):set("icon_size", 32)
 ITEM("copper-cable"):set("icon", "__pyraworesgraphics__/graphics/icons/copper-cable.png")
 ITEM("copper-cable"):set("icon_size", 32)
 
---RECIPES UPDATES
+RECIPE("iron-oxide-smelting").icons = py.composite_icon("iron-plate", "iron-oxide")
 
+--RECIPES UPDATES
 RECIPE("iron-plate"):remove_ingredient("iron-ore"):add_ingredient {type = "item", name = "iron-ore", amount = 8}:set_fields {energy_required = 10}
 RECIPE("copper-plate"):remove_ingredient("copper-ore"):add_ingredient {type = "item", name = "copper-ore", amount = 8}:set_fields {energy_required = 10}
 

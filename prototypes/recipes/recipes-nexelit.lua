@@ -217,6 +217,7 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 35}
     },
     main_product = "molten-nexelit",
+    icons = py.composite_icon("molten-nexelit", "fine-nexelit-powder"),
     subgroup = "py-rawores-nexelit",
     order = "bad"
 }:add_unlock("nexelit-mk02")
@@ -253,8 +254,9 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 17}
     },
     main_product = "molten-nexelit",
+    icons = py.composite_icon("molten-nexelit", "high-grade-nexelit"),
     subgroup = "py-rawores-nexelit",
-    order = "bae"
+    order = "bac"
 }:add_unlock("nexelit-mk03")
 
 RECIPE {
@@ -271,8 +273,9 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 164}
     },
     main_product = "molten-nexelit",
+    icons = py.composite_icon("molten-nexelit", "reduced-nexelit"),
     subgroup = "py-rawores-nexelit",
-    order = "bac"
+    order = "bab"
 }:add_unlock("nexelit-mk04")
 
 RECIPE {
@@ -289,6 +292,7 @@ RECIPE {
         {type = "fluid", name = "molten-nexelit", amount = 200}
     },
     main_product = "molten-nexelit",
+    icons = py.composite_icon("molten-nexelit", "sintered-nexelit"),
     subgroup = "py-rawores-nexelit",
     order = "baa"
 }:add_unlock("nexelit-mk05")
@@ -309,6 +313,7 @@ RECIPE {
         {type = "item", name = "nexelit-plate", amount = 20}
     },
     main_product = "nexelit-plate",
+    icons = py.composite_icon("nexelit-plate", "molten-nexelit"),
     subgroup = "py-rawores-nexelit",
     order = "j"
 }:add_unlock("nexelit-mk02")
@@ -346,5 +351,6 @@ RECIPE {
         {type = "item", name = "nexelit-plate", amount = 18}
     },
     subgroup = "py-rawores-nexelit",
+    icons = py.composite_icon("nexelit-plate", "clean-nexelit"),
     order = "aaa"
 }:add_unlock("nexelit-mk01")

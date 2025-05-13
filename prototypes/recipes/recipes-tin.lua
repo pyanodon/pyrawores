@@ -109,25 +109,6 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
-    name = "tin-concentrate",
-    category = "chemistry", --pyfe jig
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = "item",  name = "tin-dust", amount = 1},
-        {type = "fluid", name = "mibc",     amount = 75},
-        {type = "fluid", name = "water",    amount = 100},
-    },
-    results = {
-        {type = "item", name = "tin-rejects",     amount = 1},
-        {type = "item", name = "tin-concentrate", amount = 1, probability = 0.2},
-    },
-    main_product = "tin-concentrate",
-    subgroup = "py-rawores-tin",
-}:add_unlock("tin-mk03")
-
-RECIPE {
-    type = "recipe",
     name = "powdered-tin",
     category = "solid-separator", --pyFE screener
     enabled = false,
@@ -147,6 +128,26 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
+    name = "tin-concentrate",
+    category = "chemistry", --pyfe jig
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "item",  name = "tin-dust", amount = 1},
+        {type = "fluid", name = "mibc",     amount = 75},
+        {type = "fluid", name = "water",    amount = 100},
+    },
+    results = {
+        {type = "item", name = "tin-rejects",     amount = 1},
+        {type = "item", name = "tin-concentrate", amount = 1, probability = 0.2},
+    },
+    main_product = "tin-concentrate",
+    icons = py.composite_icon("tin-concentrate", "tin-dust"),
+    subgroup = "py-rawores-tin",
+}:add_unlock("tin-mk03")
+
+RECIPE {
+    type = "recipe",
     name = "tin-concentrate-2",
     category = "scrubber",
     enabled = false,
@@ -161,6 +162,7 @@ RECIPE {
         {type = "item",  name = "tin-concentrate",   amount = 1, probability = 0.75},
     },
     main_product = "tin-concentrate",
+    icons = py.composite_icon("tin-concentrate", "tin-bottom-pulp"),
     subgroup = "py-rawores-tin",
 }:add_unlock("tin-mk03")
 
@@ -180,6 +182,7 @@ RECIPE {
         {type = "item",  name = "tin-concentrate", amount = 5},
     },
     main_product = "tin-concentrate",
+    icons = py.composite_icon("tin-concentrate", "tin-pulp-01"),
     subgroup = "py-rawores-tin",
 }:add_unlock("tin-mk03")
 
@@ -290,6 +293,7 @@ RECIPE {
         {type = "fluid", name = "molten-tin", amount = 30},
     },
     main_product = "molten-tin",
+    icons = py.composite_icon("molten-tin", "tin-dust"),
     subgroup = "py-rawores-tin",
     order = "baf"
 }:add_unlock("tin-mk02")
@@ -344,8 +348,9 @@ RECIPE {
         {type = "fluid", name = "molten-tin", amount = 92},
     },
     main_product = "molten-tin",
+    icons = py.composite_icon("molten-tin", "high-grade-tin"),
     subgroup = "py-rawores-tin",
-    order = "bad"
+    order = "bac"
 }:add_unlock("tin-mk03")
 
 RECIPE {
@@ -362,8 +367,9 @@ RECIPE {
         {type = "fluid", name = "molten-tin", amount = 250},
     },
     main_product = "molten-tin",
+    icons = py.composite_icon("molten-tin", "reduced-tin"),
     subgroup = "py-rawores-tin",
-    order = "baa"
+    order = "bab"
 }:add_unlock("tin-mk04")
 
 RECIPE {
@@ -380,8 +386,9 @@ RECIPE {
         {type = "fluid", name = "molten-tin", amount = 80},
     },
     main_product = "molten-tin",
+    icons = py.composite_icon("molten-tin", "sintered-tin"),
     subgroup = "py-rawores-tin",
-    order = "bae"
+    order = "baa"
 }:add_unlock("tin-mk05")
 
 
@@ -402,6 +409,7 @@ RECIPE {
         {type = "item", name = "tin-plate", amount = 50}
     },
     main_product = "tin-plate",
+    icons = py.composite_icon("tin-plate", "molten-tin"),
     subgroup = "py-rawores-tin",
     order = "aaa"
 }:add_unlock("tin-mk02")
@@ -422,6 +430,8 @@ RECIPE {
     results = {
         {type = "item", name = "tin-plate", amount = 4}
     },
+    main_product = "tin-plate",
+    icons = py.composite_icon("tin-plate", "ore-tin"),
     subgroup = "py-rawores-tin",
     order = "aad"
 }
@@ -440,8 +450,10 @@ RECIPE {
     results = {
         {type = "item", name = "tin-plate", amount = 10}
     },
+    main_product = "tin-plate",
+    icons = py.composite_icon("tin-plate", "grade-1-tin"),
     subgroup = "py-rawores-tin",
-    order = "aab"
+    order = "aac"
 }:add_unlock("tin-mk01")
 
 RECIPE {
@@ -456,6 +468,8 @@ RECIPE {
     results = {
         {type = "item", name = "tin-plate", amount = 8}
     },
+    main_product = "tin-plate",
+    icons = py.composite_icon("tin-plate", "grade-4-tin"),
     subgroup = "py-rawores-tin",
-    order = "aac"
+    order = "aab"
 }:add_unlock("tin-mk02")

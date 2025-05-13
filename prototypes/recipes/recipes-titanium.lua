@@ -342,6 +342,7 @@ RECIPE {
         {type = "item", name = "titanium-plate", amount = 20}
     },
     main_product = "titanium-plate",
+    icons = py.composite_icon("titanium-plate", "molten-titanium"),
     subgroup = "py-rawores-titanium",
     order = "aaa"
 }:add_unlock("titanium-mk02")
@@ -361,6 +362,7 @@ RECIPE {
         {type = "item", name = "titanium-plate", amount = 4}
     },
     main_product = "titanium-plate",
+    icons = py.composite_icon("titanium-plate", "ore-titanium"),
     subgroup = "py-rawores-titanium",
     order = "aad"
 }:add_unlock("coal-processing-1")
@@ -380,6 +382,7 @@ RECIPE {
         {type = "item", name = "titanium-plate", amount = 10}
     },
     main_product = "titanium-plate",
+    icons = py.composite_icon("titanium-plate", "grade-3-ti"),
     subgroup = "py-rawores-titanium",
     order = "aac"
 }:add_unlock("titanium-mk01")
@@ -397,6 +400,7 @@ RECIPE {
         {type = "item", name = "titanium-plate", amount = 147}
     },
     main_product = "titanium-plate",
+    icons = py.composite_icon("titanium-plate", "grade-4-ti"),
     subgroup = "py-rawores-titanium",
     order = "aab"
 }:add_unlock("titanium-mk02")

@@ -11,7 +11,8 @@ RECIPE {
         {type = "item", name = "solder", amount = 1}
     },
     subgroup = "py-rawores-solder",
-    order = "j"
+    icons = py.composite_icon("solder", "tin-plate", "lead-plate"),
+    order = "jab"
 }:add_unlock("solder-mk01")
 
 RECIPE {
@@ -27,8 +28,9 @@ RECIPE {
         {type = "item", name = "solder", amount = 5}
     },
     main_product = "solder",
+    icons = py.composite_icon("solder", "molten-solder"),
     subgroup = "py-rawores-solder",
-    order = "j"
+    order = "jaa"
 }:add_unlock("solder-mk02")
 
 --[[
@@ -108,8 +110,9 @@ RECIPE {
         {type = "fluid", name = "molten-solder", amount = 20}
     },
     main_product = "molten-solder",
+    icons = py.composite_icon("molten-solder", "molten-tin", "molten-lead"),
     subgroup = "py-rawores-solder",
-    order = "j"
+    order = "jbd"
 }:add_unlock("solder-mk02")
 
 RECIPE {
@@ -127,8 +130,9 @@ RECIPE {
         {type = "fluid", name = "molten-solder", amount = 40}
     },
     main_product = "molten-solder",
+    icons = py.composite_icon("molten-solder", "molten-tin", "tar"),
     subgroup = "py-rawores-solder",
-    order = "j"
+    order = "jbc"
 }:add_unlock("solder-mk02")
 
 RECIPE {
@@ -147,8 +151,9 @@ RECIPE {
         {type = "fluid", name = "molten-solder", amount = 70}
     },
     main_product = "molten-solder",
+    icons = py.composite_icon("molten-solder", "molten-copper", "molten-silver"),
     subgroup = "py-rawores-solder",
-    order = "j"
+    order = "jbb"
 }:add_unlock("solder-mk03")
 
 RECIPE {
@@ -167,6 +172,7 @@ RECIPE {
         {type = "fluid", name = "molten-solder", amount = 140}
     },
     main_product = "molten-solder",
+    icons = py.composite_icon("molten-solder", "molten-lead", "molten-silver"),
     subgroup = "py-rawores-solder",
-    order = "j"
+    order = "jba"
 }:add_unlock("solder-mk04")

@@ -1,5 +1,9 @@
 ---PROCESSING RECIPES---
 
+ITEM("iron-plate"):set("icon", "__pyraworesgraphics__/graphics/icons/iron-plate.png")
+ITEM("iron-plate"):set("icon_size", 32)
+RECIPE("iron-plate"):set("icons", py.composite_icon("iron-plate", "iron-ore"))
+
 RECIPE {
     type = "recipe",
     name = "grade-1-iron-crush",
@@ -147,6 +151,7 @@ RECIPE {
         {type = "item",  name = "unslimed-iron",     amount = 1},
     },
     main_product = "unslimed-iron",
+    icons = py.composite_icon("unslimed-iron", "iron-slime"),
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk02")
 
@@ -165,6 +170,7 @@ RECIPE {
         {type = "item",  name = "unslimed-iron",     amount = 1},
     },
     main_product = "unslimed-iron",
+    icons = py.composite_icon("unslimed-iron", "iron-pulp-01"),
     subgroup = "py-rawores-iron",
 }:add_unlock("iron-mk02")
 
@@ -265,6 +271,7 @@ RECIPE {
         {type = "fluid", name = "molten-iron", amount = 10},
     },
     main_product = "molten-iron",
+    icons = py.composite_icon("molten-iron", "processed-iron-ore"),
     subgroup = "py-rawores-iron",
     order = "bae"
 }:add_unlock("iron-mk01")
@@ -284,6 +291,7 @@ RECIPE {
         {type = "fluid", name = "molten-iron", amount = 40},
     },
     main_product = "molten-iron",
+    icons = py.composite_icon("molten-iron", "unslimed-iron"),
     subgroup = "py-rawores-iron",
     order = "bad"
 }:add_unlock("iron-mk02")
@@ -303,8 +311,9 @@ RECIPE {
         {type = "fluid", name = "molten-iron", amount = 150},
     },
     main_product = "molten-iron",
+    icons = py.composite_icon("molten-iron", "high-grade-iron"),
     subgroup = "py-rawores-iron",
-    order = "bab"
+    order = "bac"
 }:add_unlock("iron-mk03")
 
 
@@ -323,8 +332,9 @@ RECIPE {
         {type = "fluid", name = "molten-iron", amount = 200},
     },
     main_product = "molten-iron",
+    icons = py.composite_icon("molten-iron", "reduced-iron"),
     subgroup = "py-rawores-iron",
-    order = "baa"
+    order = "bab"
 }:add_unlock("iron-mk04")
 
 RECIPE {
@@ -342,8 +352,9 @@ RECIPE {
         {type = "fluid", name = "molten-iron", amount = 150},
     },
     main_product = "molten-iron",
+    icons = py.composite_icon("molten-iron", "sintered-iron"),
     subgroup = "py-rawores-iron",
-    order = "bac"
+    order = "baa"
 }:add_unlock("iron-mk05")
 
 
@@ -365,6 +376,7 @@ RECIPE {
         {type = "item", name = "iron-plate", amount = 60}
     },
     main_product = "iron-plate",
+    icons = py.composite_icon("iron-plate", "molten-iron"),
     subgroup = "py-rawores-iron",
     order = "aaa"
 }:add_unlock("iron-mk01")
@@ -384,6 +396,7 @@ RECIPE {
         {type = "item", name = "iron-plate", amount = 1}
     },
     main_product = "iron-plate",
+    icons = py.composite_icon("iron-plate", "processed-iron-ore"),
     subgroup = "py-rawores-iron",
     order = "aab"
 }:add_unlock("crusher")

@@ -113,10 +113,9 @@ RECIPE {
         {type = "fluid", name = "molten-glass", amount = 10}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
-    icon_size = 64,
+    icons = py.composite_icon("molten-glass", "ore-quartz"),
     subgroup = "py-rawores-quartz",
-    order = "aaa"
+    order = "aag"
 }
 
 RECIPE {
@@ -132,10 +131,9 @@ RECIPE {
         {type = "fluid", name = "molten-glass", amount = 30}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
-    icon_size = 64,
+    icons = py.composite_icon("molten-glass", "crushed-quartz"),    
     subgroup = "py-rawores-quartz",
-    order = "aab"
+    order = "aae"
 }:add_unlock("quartz-mk01")
 
 RECIPE {
@@ -152,10 +150,9 @@ RECIPE {
         {type = "fluid", name = "molten-glass", amount = 50}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
-    icon_size = 64,
+    icons = py.composite_icon("molten-glass", "powdered-quartz"),
     subgroup = "py-rawores-quartz",
-    order = "aac"
+    order = "aad"
 }:add_unlock("quartz-mk02")
 
 RECIPE {
@@ -173,10 +170,9 @@ RECIPE {
         {type = "fluid", name = "molten-glass", amount = 1500}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
-    icon_size = 64,
+    icons = py.composite_icon("molten-glass", "purified-quartz"),
     subgroup = "py-rawores-quartz",
-    order = "aad"
+    order = "aac"
 }:add_unlock("quartz-mk03")
 
 RECIPE {
@@ -194,10 +190,9 @@ RECIPE {
         {type = "fluid", name = "molten-glass", amount = 1800}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
-    icon_size = 64,
+    icons = py.composite_icon("molten-glass", "high-grade-quartz-pulp"),
     subgroup = "py-rawores-quartz",
-    order = "aae"
+    order = "aab"
 }:add_unlock("quartz-mk04")
 
 RECIPE {
@@ -215,10 +210,9 @@ RECIPE {
         {type = "fluid", name = "molten-glass", amount = 2600}
     },
     --main_product= "glass",
-    icon = "__pyraworesgraphics__/graphics/icons/molten-glass.png",
-    icon_size = 64,
+    icons = py.composite_icon("molten-glass", "high-grade-quartz"),
     subgroup = "py-rawores-quartz",
-    order = "aaf"
+    order = "aaa"
 }:add_unlock("quartz-mk05")
 
 RECIPE {

@@ -32,6 +32,7 @@ RECIPE {
         {type = "fluid", name = "molten-steel", amount = 50},
     },
     main_product = "molten-steel",
+    icons = py.composite_icon("molten-steel", "sponge-iron"),
     subgroup = "py-rawores-iron-alloys",
     order = "baa"
 }:add_unlock("steel-mk03")
@@ -52,6 +53,7 @@ RECIPE {
         {type = "fluid", name = "flue-gas",     amount = 500},
     },
     main_product = "molten-steel",
+    icons = py.composite_icon("molten-steel", "molten-iron"),
     subgroup = "py-rawores-iron-alloys",
     order = "bab"
 }:add_unlock("steel-mk02")
@@ -70,6 +72,7 @@ RECIPE {
         {type = "item", name = "steel-plate", amount = 25},
     },
     main_product = "steel-plate",
+    icons = py.composite_icon("steel-plate", "molten-steel"),
     subgroup = "py-rawores-iron-alloys",
     order = "aaa"
 }:add_unlock("steel-mk02")
@@ -95,6 +98,7 @@ RECIPE {
         {type = "fluid", name = "molten-stainless-steel", amount = 50},
     },
     main_product = "molten-stainless-steel",
+    icons = py.composite_icon("molten-stainless-steel", "molten-steel"),
     subgroup = "py-rawores-iron-alloys",
     order = "daa"
 }:add_unlock("stainless-steel-mk01")
@@ -136,6 +140,7 @@ RECIPE {
         {type = "fluid", name = "molten-super-steel", amount = 50},
     },
     main_product = "molten-super-steel",
+    icons = py.composite_icon("molten-super-steel", "molten-stainless-steel"),
     subgroup = "py-rawores-iron-alloys",
     order = "faa"
 }:add_unlock("super-steel-mk01")
@@ -231,6 +236,7 @@ RECIPE {
         {type = "fluid", name = "molten-stainless-steel", amount = 100},
     },
     main_product = "molten-stainless-steel",
+    icons = py.composite_icon("molten-stainless-steel", "molten-stainless-steel-p3"),
     subgroup = "py-rawores-iron-alloys",
     order = "dae"
 }:add_unlock("stainless-steel-mk02")
@@ -289,6 +295,7 @@ RECIPE {
         {type = "fluid", name = "molten-super-steel", amount = 100},
     },
     main_product = "molten-super-steel",
+    icons = py.composite_icon("molten-super-steel", "molten-super-steel-p2"),
     subgroup = "py-rawores-iron-alloys",
     order = "fad"
 }:add_unlock("super-steel-mk02")

@@ -56,6 +56,7 @@ RECIPE {
         {type = "fluid", name = "molten-silver", amount = 20},
     },
     main_product = "molten-silver",
+    icons = py.composite_icon("molten-silver", "lead-refined-dust-03"),
     subgroup = "py-rawores-silver",
     order = "bad"
 }:add_unlock("silver-mk02")
@@ -75,6 +76,7 @@ RECIPE {
         {type = "fluid", name = "molten-silver", amount = 450},
     },
     main_product = "molten-silver",
+    icons = py.composite_icon("molten-silver", "high-grade-silver"),
     subgroup = "py-rawores-silver",
     order = "bac"
 }:add_unlock("silver-mk03")
@@ -94,8 +96,9 @@ RECIPE {
         {type = "fluid", name = "molten-silver", amount = 975},
     },
     main_product = "molten-silver",
+    icons = py.composite_icon("molten-silver", "reduced-silver"),
     subgroup = "py-rawores-silver",
-    order = "baa"
+    order = "bab"
 }:add_unlock("silver-mk04")
 
 RECIPE {
@@ -113,8 +116,9 @@ RECIPE {
         {type = "fluid", name = "molten-silver", amount = 650},
     },
     main_product = "molten-silver",
+    icons = py.composite_icon("molten-silver", "sintered-silver"),
     subgroup = "py-rawores-silver",
-    order = "bab"
+    order = "baa"
 }:add_unlock("silver-mk05")
 
 
@@ -135,6 +139,7 @@ RECIPE {
         {type = "item", name = "silver-plate", amount = 10}
     },
     main_product = "silver-plate",
+    icons = py.composite_icon("silver-plate", "molten-silver"),
     subgroup = "py-rawores-silver",
     order = "aaa"
 }:add_unlock("silver-mk02")
@@ -156,7 +161,8 @@ RECIPE {
         {type = "item", name = "silver-plate", amount = 9}
     },
     subgroup = "py-rawores-silver",
-    order = "aab"
+    icons = py.composite_icon("silver-plate", "lead-dust"),
+    order = "aac"
 }:add_unlock("silver-mk01")
 
 --PLATES
@@ -177,5 +183,6 @@ RECIPE {
         {type = "item", name = "silver-plate", amount = 4}
     },
     subgroup = "py-rawores-silver",
-    order = "aac"
+    icons = py.composite_icon("silver-plate", "sl-01"),
+    order = "aab"
 }:add_unlock("silver-mk02")

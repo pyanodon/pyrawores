@@ -1,5 +1,10 @@
 ---PROCESSING RECIPES---
 
+ITEM("copper-plate"):set("icon", "__pyraworesgraphics__/graphics/icons/copper-plate.png")
+ITEM("copper-plate"):set("icon_size", 32)
+RECIPE("copper-plate"):set("icons", py.composite_icon("copper-plate", "copper-ore"))
+
+
 RECIPE {
     type = "recipe",
     name = "grade-2-copper",
@@ -204,8 +209,9 @@ RECIPE {
         {type = "fluid", name = "molten-copper", amount = 60}
     },
     main_product = "molten-copper",
+    icons = py.composite_icon("molten-copper", "reduced-copper"),
     subgroup = "py-rawores-copper",
-    order = "baa"
+    order = "bab"
 }:add_unlock("copper-mk04")
 
 RECIPE {
@@ -223,8 +229,9 @@ RECIPE {
         {type = "fluid", name = "molten-copper", amount = 47}
     },
     main_product = "molten-copper",
+    icons = py.composite_icon("molten-copper", "sintered-copper"),
     subgroup = "py-rawores-copper",
-    order = "bac"
+    order = "baa"
 }:add_unlock("copper-mk05")
 
 RECIPE {
@@ -242,8 +249,9 @@ RECIPE {
         {type = "fluid", name = "molten-copper", amount = 50}
     },
     main_product = "molten-copper",
+    icons = py.composite_icon("molten-copper", "high-grade-copper"),
     subgroup = "py-rawores-copper",
-    order = "bab"
+    order = "bac"
 }:add_unlock("copper-mk03")
 
 RECIPE {
@@ -261,6 +269,7 @@ RECIPE {
         {type = "fluid", name = "molten-copper", amount = 21}
     },
     main_product = "molten-copper",
+    icons = py.composite_icon("molten-copper", "grade-4-copper"),
     subgroup = "py-rawores-copper",
     order = "bad"
 }:add_unlock("copper-mk02")
@@ -282,6 +291,7 @@ RECIPE {
         {type = "item", name = "copper-plate", amount = 60}
     },
     main_product = "copper-plate",
+    icons = py.composite_icon("copper-plate", "molten-copper"),
     subgroup = "py-rawores-copper",
     order = "aaa"
 }:add_unlock("copper-mk02")
@@ -299,6 +309,7 @@ RECIPE {
         {type = "item", name = "copper-plate", amount = 2}
     },
     main_product = "copper-plate",
+    icons = py.composite_icon("copper-plate", "grade-2-copper"),
     subgroup = "py-rawores-copper",
     order = "aab"
 }:add_unlock("copper-mk01")
@@ -318,6 +329,7 @@ RECIPE {
         {type = "item", name = "copper-plate", amount = 1, probability = 0.6}
     },
     main_product = "copper-plate",
+    icons = py.composite_icon("copper-plate", "low-grade-copper"),
     subgroup = "py-rawores-copper",
     order = "aac"
 }:add_unlock("copper-mk02")

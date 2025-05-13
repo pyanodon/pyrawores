@@ -249,6 +249,7 @@ RECIPE {
         {type = "item", name = "chromium", amount = 5}
     },
     main_product = "chromium",
+    icons = py.composite_icon("chromium", "chromite-sand"),
     subgroup = "py-rawores-chromium",
     order = "aab"
 }:add_unlock("chromium-mk01")
@@ -267,6 +268,7 @@ RECIPE {
         {type = "item", name = "chromium", amount = 25}
     },
     main_product = "chromium",
+    icons = py.composite_icon("chromium", "molten-chromium"),
     subgroup = "py-rawores-chromium",
     order = "aaa"
 }:add_unlock("chromium-mk03")
@@ -288,6 +290,7 @@ RECIPE {
         {type = "fluid", name = "molten-chromium", amount = 70}
     },
     main_product = "molten-chromium",
+    icons = py.composite_icon("molten-chromium", "chromite-sand"),
     subgroup = "py-rawores-chromium",
     order = "bac"
 }:add_unlock("chromium-mk03")
@@ -307,6 +310,7 @@ RECIPE {
         {type = "fluid", name = "molten-chromium", amount = 150}
     },
     main_product = "molten-chromium",
+    icons = py.composite_icon("molten-chromium", "sintered-chromium"),
     subgroup = "py-rawores-chromium",
     order = "baa"
 }:add_unlock("chromium-mk05")
@@ -326,6 +330,7 @@ RECIPE {
         {type = "fluid", name = "molten-chromium", amount = 150}
     },
     main_product = "molten-chromium",
+    icons = py.composite_icon("molten-chromium", "reduced-chromium"),
     subgroup = "py-rawores-chromium",
     order = "bab"
 }:add_unlock("chromium-mk04")

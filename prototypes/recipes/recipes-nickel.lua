@@ -164,6 +164,7 @@ RECIPE {
         {type = "item",  name = "pyrite",        amount = 1}
     },
     main_product = "molten-nickel",
+    icons = py.composite_icon("molten-nickel", "nickel-pulp-02"),
     subgroup = "py-rawores-nickel",
     order = "baf"
 }:add_unlock("nickel-mk03")
@@ -183,8 +184,9 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 50}
     },
     main_product = "molten-nickel",
+    icons = py.composite_icon("molten-nickel", "grade-4-nickel"),
     subgroup = "py-rawores-nickel",
-    order = "bae"
+    order = "bag"
 }:add_unlock("nickel-mk02")
 
 RECIPE {
@@ -202,8 +204,9 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 40}
     },
     main_product = "molten-nickel",
+    icons = py.composite_icon("molten-nickel", "nickel-pulp-01"),
     subgroup = "py-rawores-nickel",
-    order = "bag"
+    order = "bae"
 }:add_unlock("nickel-mk03")
 
 RECIPE {
@@ -221,6 +224,7 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 150}
     },
     main_product = "molten-nickel",
+    icons = py.composite_icon("molten-nickel", "nickel-pulp-04"),
     subgroup = "py-rawores-nickel",
     order = "bad"
 }:add_unlock("nickel-mk03")
@@ -240,6 +244,7 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 180}
     },
     main_product = "molten-nickel",
+    icons = py.composite_icon("molten-nickel", "high-grade-nickel"),
     subgroup = "py-rawores-nickel",
     order = "bac"
 }:add_unlock("nickel-mk03")
@@ -259,8 +264,9 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 530}
     },
     main_product = "molten-nickel",
+    icons = py.composite_icon("molten-nickel", "reduced-nickel"),
     subgroup = "py-rawores-nickel",
-    order = "baa"
+    order = "bab"
 }:add_unlock("nickel-mk04")
 
 RECIPE {
@@ -278,8 +284,9 @@ RECIPE {
         {type = "fluid", name = "molten-nickel", amount = 400}
     },
     main_product = "molten-nickel",
+    icons = py.composite_icon("molten-nickel", "sintered-nickel"),
     subgroup = "py-rawores-nickel",
-    order = "bab"
+    order = "baa"
 }:add_unlock("nickel-mk05")
 
 --CASTINGS
@@ -298,6 +305,7 @@ RECIPE {
         {type = "item", name = "nickel-plate", amount = 50}
     },
     main_product = "nickel-plate",
+    icons = py.composite_icon("nickel-plate", "molten-nickel"),
     subgroup = "py-rawores-nickel",
     order = "aaa"
 }:add_unlock("nickel-mk02")
@@ -335,5 +343,6 @@ RECIPE {
         {type = "item", name = "nickel-plate", amount = 1}
     },
     subgroup = "py-rawores-nickel",
+    icons = py.composite_icon("nickel-plate", "grade-1-nickel"),
     order = "aab"
 }:add_unlock("nickel-mk01")

@@ -130,6 +130,7 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 10}
     },
     main_product = "molten-aluminium",
+    icons = py.composite_icon("molten-aluminium", "powdered-aluminium"),
     subgroup = "py-rawores-aluminium",
     order = "baf"
 }:add_unlock("aluminium-mk01")
@@ -148,6 +149,7 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 50}
     },
     main_product = "molten-aluminium",
+    icons = py.composite_icon("molten-aluminium", "al-pulp-02"),
     subgroup = "py-rawores-aluminium",
     order = "bae"
 }:add_unlock("aluminium-mk02")
@@ -166,6 +168,7 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 375}
     },
     main_product = "molten-aluminium",
+    icons = py.composite_icon("molten-aluminium", "crystalized-sodium-aluminate"),
     subgroup = "py-rawores-aluminium",
     order = "bad"
 }:add_unlock("aluminium-mk03")
@@ -184,8 +187,9 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 470}
     },
     main_product = "molten-aluminium",
+    icons = py.composite_icon("molten-aluminium", "high-grade-alumina"),
     subgroup = "py-rawores-aluminium",
-    order = "bab"
+    order = "bac"
 }:add_unlock("aluminium-mk03")
 
 RECIPE {
@@ -203,8 +207,9 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 600}
     },
     main_product = "molten-aluminium",
+    icons = py.composite_icon("molten-aluminium", "reduced-aluminium"),
     subgroup = "py-rawores-aluminium",
-    order = "baa"
+    order = "bab"
 }:add_unlock("aluminium-mk04")
 
 RECIPE {
@@ -222,8 +227,9 @@ RECIPE {
         {type = "fluid", name = "molten-aluminium", amount = 440}
     },
     main_product = "molten-aluminium",
+    icons = py.composite_icon("molten-aluminium", "sintered-aluminium"),
     subgroup = "py-rawores-aluminium",
-    order = "bac"
+    order = "baa"
 }:add_unlock("aluminium-mk05")
 
 ----PLATES----
@@ -242,6 +248,7 @@ RECIPE {
         {type = "item", name = "aluminium-plate", amount = 50}
     },
     main_product = "aluminium-plate",
+    icons = py.composite_icon("aluminium-plate", "molten-aluminium"),
     subgroup = "py-rawores-aluminium",
     order = "aaa"
 }:add_unlock("aluminium-mk01")
@@ -261,6 +268,7 @@ RECIPE {
         {type = "item", name = "aluminium-plate", amount = 1}
     },
     main_product = "aluminium-plate",
+    icons = py.composite_icon("aluminium-plate", "ore-aluminium"),
     subgroup = "py-rawores-aluminium",
     order = "aab"
 }
