@@ -5,6 +5,8 @@ Date: tba
     - Removed prod from the initial solder recipe
   Internal:
     - remove shorthands in recipe declarations
+  Changes:
+    - update UK locale (big mine rename + small typo fixes)
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.16
 Date: 2025-4-13
