@@ -5,6 +5,7 @@ Date: tba
     - Removed prod from the initial solder recipe
     - Updated Ukrainian locale (big mine rename + small typo fixes)
     - Renamed "Purest nitrogen" to "Nitrogen contaminate".
+    - Allowed productivity in the purest nitrogen + filtration media recipe.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.16
 Date: 2025-4-13
