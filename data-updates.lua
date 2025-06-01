@@ -135,7 +135,7 @@ RECIPE("py-tank-8000"):replace_ingredient("iron-plate", "duralumin"):replace_ing
 RECIPE("ppd"):replace_ingredient("hydrogen", "ammonia")
 RECIPE("nuclear-reactor"):replace_ingredient("steel-plate", "titanium-plate"):replace_ingredient("copper-plate", "stainless-steel")
 RECIPE("heat-exchanger"):replace_ingredient("steel-plate", "titanium-plate"):replace_ingredient("copper-plate", "aluminium-plate"):replace_ingredient("pipe", "niobium-pipe")
-RECIPE("rail"):add_ingredient {type = "item", name = "solder", amount = 5}
+RECIPE("rail"):add_ingredient {type = "item", name = "solder", amount = 5}:multiply_result_amount("rail", 1.5)
 RECIPE("piercing-rounds-magazine"):add_ingredient {type = "item", name = "lead-plate", amount = 1}:remove_ingredient("copper-plate")
 RECIPE("shotgun-shell"):add_ingredient {type = "item", name = "lead-plate", amount = 1}:remove_ingredient("copper-plate")
 RECIPE("firearm-magazine"):remove_ingredient("copper-plate"):add_ingredient {type = "item", name = "lead-plate", amount = 2}

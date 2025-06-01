@@ -576,7 +576,7 @@ RECIPE {
         {type = "item", name = "refined-concrete", amount = 8},
     },
     results = {
-        {type = "item", name = "rail", amount = 8},
+        {type = "item", name = "rail", amount = 12},
     },
 }:add_unlock("railway-mk02")
 

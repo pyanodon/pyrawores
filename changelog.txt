@@ -6,6 +6,7 @@ Date: tba
     - Updated Ukrainian locale (big mine rename + small typo fixes)
     - Renamed "Purest nitrogen" to "Nitrogen contaminate".
     - Allowed productivity in the purest nitrogen + filtration media recipe.
+    - The rail recipe now gives 3 rails instead of 2. The improved rails recipe now gives 12 rails instead of 8. RATIONALE: Despite trains being unlocked at py1 tier, the prohibitively high cost of rails made them unreasonable to build until logistics science.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.16
 Date: 2025-4-13
