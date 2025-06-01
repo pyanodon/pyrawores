@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.17
-Date: tba
+Date: 2025-6-1
   Changes:
     - Removed prod from the initial solder recipe
     - Updated Ukrainian locale (big mine rename + small typo fixes)
