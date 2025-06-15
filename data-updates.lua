@@ -91,7 +91,6 @@ RECIPE("cargo-wagon"):add_ingredient {type = "item", name = "titanium-plate", am
 RECIPE("fluid-wagon"):add_ingredient {type = "item", name = "titanium-plate", amount = 50}
 RECIPE("artillery-wagon"):replace_ingredient("steel-plate", "super-steel"):replace_ingredient("pipe", "niobium-pipe")
 RECIPE("flying-robot-frame"):add_ingredient {type = "item", name = "duralumin", amount = 5}
-RECIPE("substation"):replace_ingredient("copper-plate", "super-steel")
 RECIPE("heat-pipe"):replace_ingredient("copper-plate", "duralumin")
 RECIPE("steam-turbine"):add_ingredient {type = "item", name = "super-steel", amount = 20}
 RECIPE("solar-panel"):add_ingredient {type = "item", name = "pyrite", amount = 5}
