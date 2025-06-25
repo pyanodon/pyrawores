@@ -143,6 +143,7 @@ RECIPE("glass"):set_fields {enabled = false}:set_fields {hidden = true}
 
 RECIPE("gasturbinemk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "duralumin"):remove_unlock("energy-2"):add_unlock("machines-mk03")
 RECIPE("gasturbinemk03"):remove_unlock("energy-3"):add_unlock("machines-mk04")
+RECIPE("drill-head").allow_productivity = false
 
 if mods.pyrawores then
     RECIPE("distilator-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 20}:add_ingredient {type = "item", name = "stainless-steel", amount = 30}
