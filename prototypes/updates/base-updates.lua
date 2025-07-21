@@ -50,6 +50,7 @@ data.raw.reactor["nuclear-reactor"].working_light_picture = {
 data.raw["assembling-machine"]["centrifuge"].crafting_speed = 4
 data.raw["assembling-machine"]["centrifuge"].module_slots = 4
 
+data.raw.resource["coal"].hidden = true
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["coal"] = nil
 data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["coal"] = nil
 
