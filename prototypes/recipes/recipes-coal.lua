@@ -127,7 +127,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "high-ash-fines",    amount = 30},
         {type = "fluid", name = "conditioned-fines", amount = 50},
-        {type = "fluid", name = "dirty-water-heavy", amount = 100},
+        {type = "fluid", name = "tailings", amount = 100},
         {type = "item",  name = "pyrite",            amount = 1,  probability = 0.4},
     },
     main_product = "conditioned-fines",
@@ -166,7 +166,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "refsyngas",         amount = 300},
-        {type = "fluid", name = "dirty-water-heavy", amount = 300},
+        {type = "fluid", name = "tailings", amount = 300},
     },
     main_product = "refsyngas",
     subgroup = "py-rawores-coal",
@@ -186,7 +186,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "coal-pulp-04",      amount = 50},
-        {type = "fluid", name = "dirty-water-heavy", amount = 100},
+        {type = "fluid", name = "tailings", amount = 100},
         {type = "item",  name = "coal",              amount = 20},
     },
     main_product = "coal",

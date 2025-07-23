@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "iron-pulp-06",      amount = 100},
-        {type = "fluid", name = "dirty-water-heavy", amount = 100},
+        {type = "fluid", name = "tailings", amount = 100},
         {type = "fluid", name = "iron-pulp-02",      amount = 50}
     },
     main_product = "iron-pulp-06",

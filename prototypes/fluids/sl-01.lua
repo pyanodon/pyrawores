@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "sl-01",             amount = 50},
         --{type = "fluid", name = "zn-pulp-01", amount = 50},
-        {type = "fluid", name = "dirty-water-heavy", amount = 100},
+        {type = "fluid", name = "tailings", amount = 100},
     },
     main_product = "sl-01",
     subgroup = "py-rawores-lead",

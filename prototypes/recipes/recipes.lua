@@ -1181,7 +1181,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "hydrogen-chloride", amount = 75},
-        {type = "fluid", name = "dirty-water-heavy", amount = 200}
+        {type = "fluid", name = "tailings", amount = 200}
     },
     main_product = "hydrogen-chloride",
     subgroup = "py-rawores-fluids",

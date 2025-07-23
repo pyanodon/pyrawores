@@ -127,7 +127,7 @@ RECIPE {
     },
     results = {
         {type = "item",  name = "low-grade-copper",  amount = 1},
-        {type = "fluid", name = "dirty-water-heavy", amount = 200}
+        {type = "fluid", name = "tailings", amount = 200}
     },
     main_product = "low-grade-copper",
     icon = "__pyraworesgraphics__/graphics/icons/wash-copper-low-dust.png",
@@ -146,7 +146,7 @@ RECIPE {
     },
     results = {
         {type = "item",  name = "high-grade-copper", amount = 1},
-        {type = "fluid", name = "dirty-water-heavy", amount = 100}
+        {type = "fluid", name = "tailings", amount = 100}
     },
     main_product = "high-grade-copper",
     subgroup = "py-rawores-copper",

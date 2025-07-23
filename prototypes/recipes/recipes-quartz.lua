@@ -48,7 +48,7 @@ RECIPE {
     },
     results = {
         {type = "item",  name = "purified-quartz",   amount = 1},
-        {type = "fluid", name = "dirty-water-heavy", amount = 50}
+        {type = "fluid", name = "tailings", amount = 50}
     },
     main_product = "purified-quartz",
     icon = "__pyraworesgraphics__/graphics/icons/purified-quartz.png",
@@ -68,7 +68,7 @@ RECIPE {
     },
     results = {
         {type = "item",  name = "high-grade-quartz", amount = 2},
-        {type = "fluid", name = "dirty-water-heavy", amount = 80}
+        {type = "fluid", name = "tailings", amount = 80}
     },
     main_product = "high-grade-quartz",
     icon = "__pyraworesgraphics__/graphics/icons/high-grade-quartz.png",

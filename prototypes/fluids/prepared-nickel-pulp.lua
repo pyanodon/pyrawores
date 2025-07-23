@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "prepared-nickel-pulp", amount = 50},
-        {type = "fluid", name = "dirty-water-heavy",    amount = 100}
+        {type = "fluid", name = "tailings",    amount = 100}
     },
     main_product = "prepared-nickel-pulp",
     subgroup = "py-rawores-nickel",

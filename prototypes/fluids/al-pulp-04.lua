@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "al-pulp-04",        amount = 50},
-        {type = "fluid", name = "dirty-water-heavy", amount = 100},
+        {type = "fluid", name = "tailings", amount = 100},
     },
     main_product = "al-pulp-04",
     icon = "__pyraworesgraphics__/graphics/icons/al-pulp-04.png",

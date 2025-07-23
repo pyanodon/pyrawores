@@ -108,7 +108,7 @@ RECIPE {
     },
     results = {
         {type = "item",  name = "iron-concentrate",  amount = 1},
-        {type = "fluid", name = "dirty-water-heavy", amount = 100},
+        {type = "fluid", name = "tailings", amount = 100},
         {type = "fluid", name = "coal-slurry",       amount = 50},
     },
     main_product = "iron-concentrate",
@@ -147,7 +147,7 @@ RECIPE {
         {type = "fluid", name = "water",      amount = 200},
     },
     results = {
-        {type = "fluid", name = "dirty-water-heavy", amount = 100},
+        {type = "fluid", name = "tailings", amount = 100},
         {type = "item",  name = "unslimed-iron",     amount = 1},
     },
     main_product = "unslimed-iron",
@@ -166,7 +166,7 @@ RECIPE {
         {type = "fluid", name = "water",        amount = 200},
     },
     results = {
-        {type = "fluid", name = "dirty-water-heavy", amount = 100},
+        {type = "fluid", name = "tailings", amount = 100},
         {type = "item",  name = "unslimed-iron",     amount = 1},
     },
     main_product = "unslimed-iron",
@@ -184,7 +184,7 @@ RECIPE {
         {type = "fluid", name = "iron-pulp-06", amount = 100},
     },
     results = {
-        {type = "fluid", name = "dirty-water-heavy", amount = 50},
+        {type = "fluid", name = "tailings", amount = 50},
         {type = "fluid", name = "iron-pulp-07",      amount = 50},
     },
     main_product = "iron-pulp-07",
