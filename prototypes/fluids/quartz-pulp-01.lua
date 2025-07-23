@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "quartz-pulp-01",    amount = 50},
-        {type = "fluid", name = "dirty-water-light", amount = 50}
+        {type = "fluid", name = "muddy-sludge", amount = 50}
     },
     main_product = "quartz-pulp-01",
     icon = "__pyraworesgraphics__/graphics/icons/quartz-pulp-01.png",

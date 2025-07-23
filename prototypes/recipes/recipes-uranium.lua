@@ -120,7 +120,7 @@ RECIPE {
     },
     results = {
         {type = "item",  name = "yellow-cake",       amount = 1},
-        {type = "fluid", name = "dirty-water-heavy", amount = 50},
+        {type = "fluid", name = "tailings", amount = 50},
         {type = "item",  name = "uranium-238",       amount = 7}
     },
     main_product = "yellow-cake",

@@ -29,7 +29,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "zinc-pulp-04",      amount = 50},
-        {type = "fluid", name = "dirty-water-heavy", amount = 50}
+        {type = "fluid", name = "tailings", amount = 50}
     },
     main_product = "zinc-pulp-04",
     subgroup = "py-rawores-zinc",

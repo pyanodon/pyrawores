@@ -9,7 +9,7 @@ RECIPE {
         {type = "fluid", name = "ti-pulp-05", amount = 500},
     },
     results = {
-        {type = "fluid", name = "dirty-water-heavy", amount = 100},
+        {type = "fluid", name = "tailings", amount = 100},
         {type = "fluid", name = "ti-pulp-06",        amount = 500},
     },
     main_product = "ti-pulp-06",

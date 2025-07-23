@@ -32,7 +32,7 @@ RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("titanium-mk02")
 RECIPE("jig-mk01"):add_ingredient {type = "item", name = "stainless-steel", amount = 20}:replace_ingredient("advanced-circuit", "electronic-circuit"):replace_ingredient("electric-engine-unit", "engine-unit")
 RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 
-if RECIPE["u-79"] then RECIPE("u-79"):replace_result("dirty-water-heavy", "u-waste") end
+if RECIPE["u-79"] then RECIPE("u-79"):replace_result("tailings", "u-waste") end
 
 RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk03"):replace_ingredient("advanced-circuit", "electronic-circuit")
 

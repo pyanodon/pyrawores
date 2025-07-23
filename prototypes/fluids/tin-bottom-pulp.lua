@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "tin-bottom-pulp",   amount = 100},
         {type = "fluid", name = "tin-middle-pulp",   amount = 100},
-        {type = "fluid", name = "dirty-water-heavy", amount = 50},
+        {type = "fluid", name = "tailings", amount = 50},
     },
     main_product = "tin-bottom-pulp",
     subgroup = "py-rawores-tin",

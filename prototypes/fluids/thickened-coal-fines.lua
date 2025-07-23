@@ -11,7 +11,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "thickened-coal-fines", amount = 100},
         {type = "fluid", name = "high-ash-fines",       amount = 10},
-        {type = "fluid", name = "dirty-water-heavy",    amount = 100},
+        {type = "fluid", name = "tailings",    amount = 100},
         {type = "item",  name = "coal",                 amount = 7},
     },
     main_product = "thickened-coal-fines",

@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "u-15",              amount = 25},
-        {type = "fluid", name = "dirty-water-heavy", amount = 50},
+        {type = "fluid", name = "tailings", amount = 50},
     },
     main_product = "u-15",
     subgroup = "py-rawores-uranium",
@@ -29,7 +29,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "u-15",              amount = 25},
-        {type = "fluid", name = "dirty-water-heavy", amount = 50},
+        {type = "fluid", name = "tailings", amount = 50},
     },
     main_product = "u-15",
     subgroup = "py-rawores-uranium",
