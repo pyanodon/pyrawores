@@ -1,3 +1,7 @@
+Version: ???
+Date: ???
+  Changes:
+    - Efficiency modules disabled in salt mines
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.21
 Date: ???
