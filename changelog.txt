@@ -1,13 +1,7 @@
----------------------------------------------------------------------------------------------------
-Version: 3.0.22
+Version: ???
 Date: ???
   Changes:
-    - Added a german translation
----------------------------------------------------------------------------------------------------
-Version: 3.0.21
-Date: Unreleased
-  Info:
-    - Skipped due to portal/github version mismatch.
+    - Efficiency modules disabled in salt mines
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.20
 Date: 2025-07-20
