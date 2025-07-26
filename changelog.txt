@@ -1,9 +1,14 @@
 ---------------------------------------------------------------------------------------------------
-Version: 3.0.21
+Version: 3.0.22
 Date: ???
   Changes:
     - Added a german translation
     - Fixed Bulk Inserter 1 and 2 technologies not having the correct prerequesites and dependants. Resolves https://github.com/pyanodon/pybugreports/issues/1086 and https://github.com/pyanodon/pybugreports/issues/1099
+---------------------------------------------------------------------------------------------------
+Version: 3.0.21
+Date: Unreleased
+  Info:
+    - Skipped due to portal/github version mismatch.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.20
 Date: 2025-07-20
