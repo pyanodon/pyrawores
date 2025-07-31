@@ -177,6 +177,7 @@ require "prototypes.fluids.coal-pulp-02"
 require "prototypes.fluids.coal-pulp-03"
 require "prototypes.fluids.coal-pulp-04"
 require "prototypes.fluids.coal-pulp-05"
+require "prototypes.fluids.diesel"
 require "prototypes.fluids.molten-lead"
 require "prototypes.fluids.molten-silver"
 require "prototypes.fluids.slz-pulp-01"
@@ -263,8 +264,6 @@ if mods["pyfusionenergy"] then
     require "prototypes.fluids.vanadium-mixture"
 end
 
---Pycoal fluids
-require "__pycoalprocessing__.prototypes.fluids.diesel"
 
 --pyfusion fluids
 if mods["pyfusionenergy"] then
