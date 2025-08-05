@@ -173,6 +173,7 @@ RECIPE {
     name = "casting-drill-heads",
     category = "casting",
     enabled = false,
+    hidden = mods["pypetroleomhandling"],
     energy_required = 10,
     ingredients = {
         {type = "fluid", name = "molten-stainless-steel", amount = 50},

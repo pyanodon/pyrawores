@@ -13,6 +13,7 @@ Date: 2025-08-23
 Version: 3.0.22
 Date: 2025-08-12
   Changes:
+    - Hid drill recipe based on if pypetro is loaded
     - Added a german translation
     - Fixed Bulk Inserter 1 and 2 technologies not having the correct prerequesites and dependants. Resolves https://github.com/pyanodon/pybugreports/issues/1086 and https://github.com/pyanodon/pybugreports/issues/1099
 ---------------------------------------------------------------------------------------------------
