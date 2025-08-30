@@ -1,81 +1,81 @@
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "smelter-mk01",
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "stone-brick",        amount = 20},
-        {type = "item", name = "steel-plate",        amount = 40},
-        {type = "item", name = "titanium-plate",     amount = 15},
-        {type = "item", name = "iron-plate",         amount = 40},
-        {type = "item", name = "steam-engine",       amount = 10},
-        {type = "item", name = "iron-gear-wheel",    amount = 50},
-        {type = "item", name = "electronic-circuit", amount = 5}
+        { type = "item", name = "stone-brick",        amount = 20 },
+        { type = "item", name = "steel-plate",        amount = 40 },
+        { type = "item", name = "titanium-plate",     amount = 15 },
+        { type = "item", name = "iron-plate",         amount = 40 },
+        { type = "item", name = "steam-engine",       amount = 10 },
+        { type = "item", name = "iron-gear-wheel",    amount = 50 },
+        { type = "item", name = "electronic-circuit", amount = 5 }
     },
     results = {
-        {type = "item", name = "smelter-mk01", amount = 1}
+        { type = "item", name = "smelter-mk01", amount = 1 }
     }
-}:add_unlock("alloys-mk01")
+}):add_unlock("alloys-mk01")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "smelter-mk02",
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "smelter-mk01",     amount = 1},
-        {type = "item", name = "duralumin",        amount = 30},
-        {type = "item", name = "lead-plate",       amount = 40},
-        {type = "item", name = "nexelit-plate",    amount = 15},
-        {type = "item", name = "advanced-circuit", amount = 10},
-        {type = "item", name = "engine-unit",      amount = 20},
+        { type = "item", name = "smelter-mk01",     amount = 1 },
+        { type = "item", name = "duralumin",        amount = 30 },
+        { type = "item", name = "lead-plate",       amount = 40 },
+        { type = "item", name = "nexelit-plate",    amount = 15 },
+        { type = "item", name = "advanced-circuit", amount = 10 },
+        { type = "item", name = "engine-unit",      amount = 20 },
     },
     results = {
-        {type = "item", name = "smelter-mk02", amount = 1}
+        { type = "item", name = "smelter-mk02", amount = 1 }
     }
-}:add_unlock("smelters-mk02")
+}):add_unlock("smelters-mk02")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "smelter-mk03",
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "smelter-mk02",         amount = 1},
-        {type = "item", name = "storage-tank",         amount = 3},
-        {type = "item", name = "duralumin",            amount = 30},
-        {type = "item", name = "lead-plate",           amount = 30},
-        {type = "item", name = "nexelit-plate",        amount = 20},
-        {type = "item", name = "electric-engine-unit", amount = 20},
-        {type = "item", name = "processing-unit",      amount = 10},
+        { type = "item", name = "smelter-mk02",         amount = 1 },
+        { type = "item", name = "storage-tank",         amount = 3 },
+        { type = "item", name = "duralumin",            amount = 30 },
+        { type = "item", name = "lead-plate",           amount = 30 },
+        { type = "item", name = "nexelit-plate",        amount = 20 },
+        { type = "item", name = "electric-engine-unit", amount = 20 },
+        { type = "item", name = "processing-unit",      amount = 10 },
     },
     results = {
-        {type = "item", name = "smelter-mk03", amount = 1}
+        { type = "item", name = "smelter-mk03", amount = 1 }
     }
-}:add_unlock("smelters-mk03")
+}):add_unlock("smelters-mk03")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "smelter-mk04",
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "smelter-mk03",          amount = 1},
-        {type = "item", name = "super-steel",           amount = 30},
-        {type = "item", name = "low-density-structure", amount = 15},
-        {type = "item", name = "nbfe-alloy",            amount = 20},
+        { type = "item", name = "smelter-mk03",          amount = 1 },
+        { type = "item", name = "super-steel",           amount = 30 },
+        { type = "item", name = "low-density-structure", amount = 15 },
+        { type = "item", name = "nbfe-alloy",            amount = 20 },
     },
     results = {
-        {type = "item", name = "smelter-mk04", amount = 1}
+        { type = "item", name = "smelter-mk04", amount = 1 }
     }
-}:add_unlock("smelters-mk04")
+}):add_unlock("smelters-mk04")
 
 for i = 1, 4 do
     local name = "smelter-mk0" .. i
     local icon = "__pyraworesgraphics__/graphics/icons/" .. name .. ".png"
     local icon_size = 64
 
-    ITEM {
+    ITEM({
         type = "item",
         name = name,
         icon = icon,
@@ -85,25 +85,25 @@ for i = 1, 4 do
         order = "a",
         place_result = name,
         stack_size = 10
-    }
+    })
 
-    ENTITY {
+    ENTITY({
         type = "assembling-machine",
         name = name,
         icon = icon,
         icon_size = icon_size,
-        flags = {"placeable-neutral", "player-creation"},
-        minable = {mining_time = 0.5, result = name},
+        flags = { "placeable-neutral", "player-creation" },
+        minable = { mining_time = 0.5, result = name },
         fast_replaceable_group = "smelter",
         max_health = 1000 * i,
         corpse = "medium-remnants",
         dying_explosion = "big-explosion",
-        collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
-        selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
+        collision_box = { { -6.3, -6.3 }, { 6.3, 6.3 } },
+        selection_box = { { -6.5, -6.5 }, { 6.5, 6.5 } },
         forced_symmetry = "diagonal-pos",
         module_slots = i,
-        allowed_effects = {"consumption", "speed", "pollution", "productivity"},
-        crafting_categories = {"py-rawores-smelter"},
+        allowed_effects = { "consumption", "speed", "pollution", "productivity" },
+        crafting_categories = { "py-rawores-smelter" },
         crafting_speed = i,
         energy_source = {
             type = "fluid",
@@ -117,10 +117,10 @@ for i = 1, 4 do
                 height = 2,
                 pipe_connections =
                 {
-                    {flow_direction = "input", position = {0, -6.0}, direction = defines.direction.north}
+                    { flow_direction = "input", position = { 0, -6.0 }, direction = defines.direction.north }
                 },
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 production_type = "input",
             },
             effectivity = 1,
@@ -130,7 +130,7 @@ for i = 1, 4 do
                 minimum_intensity = 0,
                 maximum_intensity = 0,
                 light_intensity_to_size_coefficient = 0,
-                color = {0, 0, 0},
+                color = { 0, 0, 0 },
             },
             scale_fluid_usage = true,
             fluid_usage_per_tick = 10 * i,
@@ -186,7 +186,7 @@ for i = 1, 4 do
                                 width = 128,
                                 height = 480,
                                 animation_speed = 0.3,
-                                tint = py.tints[i],
+                                tint = py.tints[ i ],
                                 shift = util.by_pixel(-144, -64)
                             },
                             {
@@ -205,7 +205,7 @@ for i = 1, 4 do
                                 width = 128,
                                 height = 480,
                                 animation_speed = 0.3,
-                                tint = py.tints[i],
+                                tint = py.tints[ i ],
                                 shift = util.by_pixel(-16, -64)
                             },
                             {
@@ -224,7 +224,7 @@ for i = 1, 4 do
                                 width = 96,
                                 height = 480,
                                 animation_speed = 0.3,
-                                tint = py.tints[i],
+                                tint = py.tints[ i ],
                                 shift = util.by_pixel(96, -64)
                             },
                         },
@@ -284,7 +284,7 @@ for i = 1, 4 do
                         height = 544,
                         frame_count = 1,
                         shift = util.by_pixel(16, -64),
-                        tint = py.tints[i],
+                        tint = py.tints[ i ],
                     },
                 }
             },
@@ -294,66 +294,66 @@ for i = 1, 4 do
             --1
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {-3.0, -6.0}, direction = defines.direction.north}}
+                pipe_connections = { { flow_direction = "input", position = { -3.0, -6.0 }, direction = defines.direction.north } }
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {-5.0, -6.0}, direction = defines.direction.north}}
+                pipe_connections = { { flow_direction = "input", position = { -5.0, -6.0 }, direction = defines.direction.north } }
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {3.0, -6.0}, direction = defines.direction.north}}
+                pipe_connections = { { flow_direction = "input", position = { 3.0, -6.0 }, direction = defines.direction.north } }
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {5.0, -6.0}, direction = defines.direction.north}}
+                pipe_connections = { { flow_direction = "input", position = { 5.0, -6.0 }, direction = defines.direction.north } }
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "output", position = {3.0, 6.0}, direction = defines.direction.south}}
+                pipe_connections = { { flow_direction = "output", position = { 3.0, 6.0 }, direction = defines.direction.south } }
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "output", position = {5.0, 6.0}, direction = defines.direction.south}}
+                pipe_connections = { { flow_direction = "output", position = { 5.0, 6.0 }, direction = defines.direction.south } }
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "output", position = {-3.0, 6.0}, direction = defines.direction.south}}
+                pipe_connections = { { flow_direction = "output", position = { -3.0, 6.0 }, direction = defines.direction.south } }
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "output", position = {-5.0, 6.0}, direction = defines.direction.south}}
+                pipe_connections = { { flow_direction = "output", position = { -5.0, 6.0 }, direction = defines.direction.south } }
             },
         },
         impact_category = "metal",
         working_sound = {
-            sound = {filename = "__pyraworesgraphics__/sounds/smelter.ogg", volume = 1.25},
-            idle_sound = {filename = "__pyraworesgraphics__/sounds/smelter.ogg", volume = 0.3},
+            sound = { filename = "__pyraworesgraphics__/sounds/smelter.ogg", volume = 1.25 },
+            idle_sound = { filename = "__pyraworesgraphics__/sounds/smelter.ogg", volume = 0.3 },
             apparent_volume = 2.5
         }
-    }
+    })
 end

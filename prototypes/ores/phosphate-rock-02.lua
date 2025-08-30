@@ -1,20 +1,20 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls["phosphate-rock-02"] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["phosphate-rock-02"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "phosphate-rock-02" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "phosphate-rock-02" ] = {}
 
-data:extend {{
+data:extend({ {
     type = "autoplace-control",
     category = "resource",
     name = "phosphate-rock-02",
     richness = true,
     order = "r-pho-b"
-}}
+} })
 
 -- data:extend{{
 --     type = "noise-layer",
 --     name = "phosphate-rock-02"
 -- }}
 
-data:extend {
+data:extend({
     {
         type = "noise-expression",
         name = "py_phosphate_rock_02_starting_area",
@@ -43,29 +43,29 @@ data:extend {
         name = "py_phosphate_rock_02_richness",
         expression = "2^16 * var('distance') * var('control:phosphate-rock-02:richness')"
     }
-}
+})
 
-data:extend {{
+data:extend({ {
     type = "resource",
     name = "phosphate-rock-02",
     category = "phosphate-rock-02",
     icon = "__pyraworesgraphics__/graphics/icons/ores/phosphate-rock-02.png",
     icon_size = 32,
-    flags = {"placeable-neutral"},
+    flags = { "placeable-neutral" },
     order = "a-b-a",
-    map_color = {r = 0.8, g = 0.8, b = 0.8},
+    map_color = { r = 0.8, g = 0.8, b = 0.8 },
     highlight = true,
     map_grid = false,
     minable = {
         -- mining_particle = "phosphate-rock-02-particle",
         mining_time = 1,
         results = {
-            {type = "item", name = "phosphate-rock", amount = 1}
+            { type = "item", name = "phosphate-rock", amount = 1 }
         }
     },
     resource_patch_search_radius = 12,
-    collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
-    selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
+    collision_box = { { -6.3, -6.3 }, { 6.3, 6.3 } },
+    selection_box = { { -6.5, -6.5 }, { 6.5, 6.5 } },
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
     autoplace = {
@@ -77,7 +77,7 @@ data:extend {{
         -- We return the richness here, which is just the quantity the resource tile yields
         richness_expression = "py_phosphate_rock_02_richness"
     },
-    stage_counts = {0},
+    stage_counts = { 0 },
     stages = {
         sheet = {
             filename = "__pyraworesgraphics__/graphics/entity/ores/phosphate/phosphate-mine-place.png",
@@ -89,4 +89,4 @@ data:extend {{
             shift = util.by_pixel(0, 0)
         }
     }
-}}
+} })

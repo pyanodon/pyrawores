@@ -1,5 +1,5 @@
-if not mods["pyalienlife"] then
-    TECHNOLOGY {
+if not mods[ "pyalienlife" ] then
+    TECHNOLOGY({
         type = "technology",
         name = "starch",
         icon = "__pyraworesgraphics__/graphics/technology/starch.png",
@@ -10,11 +10,11 @@ if not mods["pyalienlife"] then
         unit = {
             count = 100,
             ingredients = {
-                {"automation-science-pack", 1},
-                {"logistic-science-pack",   1},
-                {"chemical-science-pack",   1},
+                { "automation-science-pack", 1 },
+                { "logistic-science-pack",   1 },
+                { "chemical-science-pack",   1 },
             },
             time = 45
         }
-    }
+    })
 end

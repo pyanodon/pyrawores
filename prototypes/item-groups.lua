@@ -1,4 +1,4 @@
-data:extend {
+data:extend({
     {
         type = "item-group",
         name = "py-rawores",
@@ -228,11 +228,11 @@ data:extend {
         group = "py-rawores",
         order = "xd"
     }
-}
+})
 
-data.raw.item["iron-ore"].subgroup = "py-rawores-iron"
-data.raw.item["iron-plate"].subgroup = "py-rawores-iron"
-data.raw.item["steel-plate"].subgroup = "py-rawores-iron-alloys"
-data.raw.item["copper-ore"].subgroup = "py-rawores-copper"
-data.raw.item["copper-plate"].subgroup = "py-rawores-copper"
-data.raw.item["uranium-ore"].subgroup = "py-rawores-uranium"
+data.raw.item[ "iron-ore" ].subgroup = "py-rawores-iron"
+data.raw.item[ "iron-plate" ].subgroup = "py-rawores-iron"
+data.raw.item[ "steel-plate" ].subgroup = "py-rawores-iron-alloys"
+data.raw.item[ "copper-ore" ].subgroup = "py-rawores-copper"
+data.raw.item[ "copper-plate" ].subgroup = "py-rawores-copper"
+data.raw.item[ "uranium-ore" ].subgroup = "py-rawores-uranium"

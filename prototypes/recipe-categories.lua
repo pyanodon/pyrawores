@@ -1,4 +1,4 @@
-data:extend {
+data:extend({
     {
         type = "resource-category",
         name = "ore-quartz"
@@ -127,4 +127,4 @@ data:extend {
         type = "recipe-category",
         name = "py-rawores-concrete"
     },
-}
+})

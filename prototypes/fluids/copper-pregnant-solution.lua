@@ -1,34 +1,34 @@
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "copper-pregnant-solution",
     category = "flotation",
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "copper-pulp-04",  amount = 100},
-        {type = "fluid", name = "copper-solution", amount = 10},
-        {type = "fluid", name = "acid-solvent",    amount = 10},
+        { type = "fluid", name = "copper-pulp-04",  amount = 100 },
+        { type = "fluid", name = "copper-solution", amount = 10 },
+        { type = "fluid", name = "acid-solvent",    amount = 10 },
     },
     results = {
-        {type = "fluid", name = "tailings",        amount = 50},
-        {type = "fluid", name = "copper-pregnant-solution", amount = 20},
+        { type = "fluid", name = "tailings",                 amount = 50 },
+        { type = "fluid", name = "copper-pregnant-solution", amount = 20 },
     },
     main_product = "copper-pregnant-solution",
     subgroup = "py-rawores-copper",
     order = "q-2"
-}:add_unlock("copper-mk03")
+}):add_unlock("copper-mk03")
 
 
-FLUID {
+FLUID({
     type = "fluid",
     name = "copper-pregnant-solution",
     icon = "__pyraworesgraphics__/graphics/icons/copper-pregnant-solution.png",
     icon_size = 32,
     default_temperature = 10, -- less than 15 = liquid / equal a 15 = gas
-    base_color = {r = 1, g = 0.656, b = 0.1},
-    flow_color = {r = 1, g = 1, b = 1},
+    base_color = { r = 1, g = 0.656, b = 0.1 },
+    flow_color = { r = 1, g = 1, b = 1 },
     max_temperature = 100,
     gas_temperature = 15,
     subgroup = "py-rawores-copper",
     order = "c"
-}
+})

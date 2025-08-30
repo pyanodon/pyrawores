@@ -1,28 +1,28 @@
-local sounds = require "__base__/prototypes/entity/sounds"
+local sounds = require("__base__/prototypes/entity/sounds")
 
 local cargo_bot =
-    RECIPE {
+    RECIPE({
         type = "recipe",
         name = "py-logistic-robot-mk02",
         energy_required = 10,
         category = "crafting-with-fluid",
         enabled = false,
         ingredients = {
-            {type = "item",  name = "py-logistic-robot-mk01", amount = 1},
-            {type = "item",  name = "flying-robot-frame",     amount = 1},
-            {type = "item",  name = "titanium-plate",         amount = 5},
-            {type = "item",  name = "solder",                 amount = 5},
-            {type = "item",  name = "super-steel",            amount = 10},
-            {type = "item",  name = "advanced-circuit",       amount = 5},
-            {type = "fluid", name = "lubricant",              amount = 300}
+            { type = "item",  name = "py-logistic-robot-mk01", amount = 1 },
+            { type = "item",  name = "flying-robot-frame",     amount = 1 },
+            { type = "item",  name = "titanium-plate",         amount = 5 },
+            { type = "item",  name = "solder",                 amount = 5 },
+            { type = "item",  name = "super-steel",            amount = 10 },
+            { type = "item",  name = "advanced-circuit",       amount = 5 },
+            { type = "fluid", name = "lubricant",              amount = 300 }
         },
         results = {
-            {type = "item", name = "py-logistic-robot-mk02", amount = 1}
+            { type = "item", name = "py-logistic-robot-mk02", amount = 1 }
         }
-    }
-cargo_bot:add_unlock {"robotics"}
+    })
+cargo_bot:add_unlock({ "robotics" })
 
-ITEM {
+ITEM({
     type = "item",
     name = "py-logistic-robot-mk02",
     icon = "__pyraworesgraphics__/graphics/icons/py-logistic-robot-02.png",
@@ -32,7 +32,7 @@ ITEM {
     order = "c",
     place_result = "py-logistic-robot-mk02",
     stack_size = 50
-}:subgroup_order("py-robots", "e")
+}):subgroup_order("py-robots", "e")
 
 local shadow = {
     filename = "__pyraworesgraphics__/graphics/entity/cargo-robot/shadow.png",
@@ -47,17 +47,17 @@ local shadow = {
     scale = 0.5
 }
 
-ENTITY {
+ENTITY({
     type = "logistic-robot",
     name = "py-logistic-robot-mk02",
     icon = "__pyraworesgraphics__/graphics/icons/py-logistic-robot-02.png",
     icon_size = 32,
-    flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
-    minable = {mining_time = 0.1, result = "py-logistic-robot-mk02"},
-    resistances = {{type = "fire", percent = 85}},
+    flags = { "placeable-player", "player-creation", "placeable-off-grid", "not-on-map" },
+    minable = { mining_time = 0.1, result = "py-logistic-robot-mk02" },
+    resistances = { { type = "fire", percent = 85 } },
     max_health = 100,
-    collision_box = {{0, 0}, {0, 0}},
-    selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
+    collision_box = { { 0, 0 }, { 0, 0 } },
+    selection_box = { { -0.5, -1.5 }, { 0.5, -0.5 } },
     max_payload_size = 5,
     speed = 0.13,
     transfer_distance = 0.5,
@@ -117,5 +117,5 @@ ENTITY {
     shadow_in_motion = shadow,
     shadow_in_motion_with_cargo = shadow,
     working_sound = sounds.flying_robot(0.5),
-    cargo_centered = {0.0, 0.2}
-}
+    cargo_centered = { 0.0, 0.2 }
+})

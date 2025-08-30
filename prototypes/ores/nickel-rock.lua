@@ -1,20 +1,20 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls["nickel-rock"] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["nickel-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "nickel-rock" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "nickel-rock" ] = {}
 
-data:extend {{
+data:extend({ {
     type = "autoplace-control",
     category = "resource",
     name = "nickel-rock",
     richness = true,
     order = "r-ni"
-}}
+} })
 
 -- data:extend{{
 --     type = "noise-layer",
 --     name = "nickel-rock"
 -- }}
 
-data:extend {
+data:extend({
     {
         type = "noise-expression",
         name = "py_nickel_rock_starting_area",
@@ -43,29 +43,29 @@ data:extend {
         name = "py_nickel_rock_richness",
         expression = "2^16 * var('distance') * var('control:nickel-rock:richness')"
     }
-}
+})
 
-data:extend {{
+data:extend({ {
     type = "resource",
     name = "nickel-rock",
     category = "nickel-rock",
     icon = "__pyraworesgraphics__/graphics/icons/ores/nickel-rock.png",
     icon_size = 32,
-    flags = {"placeable-neutral"},
+    flags = { "placeable-neutral" },
     order = "a-b-a",
-    map_color = {r = 0.164, g = 0.388, b = 0.192},
+    map_color = { r = 0.164, g = 0.388, b = 0.192 },
     highlight = true,
     map_grid = false,
     minable = {
         -- mining_particle = "nickel-rock-particle",
         mining_time = 1,
         results = {
-            {type = "item", name = "ore-nickel", amount = 1}
+            { type = "item", name = "ore-nickel", amount = 1 }
         }
     },
     resource_patch_search_radius = 12,
-    collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
-    selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
+    collision_box = { { -6.3, -6.3 }, { 6.3, 6.3 } },
+    selection_box = { { -6.5, -6.5 }, { 6.5, 6.5 } },
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
     autoplace = {
@@ -77,7 +77,7 @@ data:extend {{
         -- We return the richness here, which is just the quantity the resource tile yields
         richness_expression = "py_nickel_rock_richness"
     },
-    stage_counts = {0},
+    stage_counts = { 0 },
     stages = {
         sheet = {
             filename = "__pyraworesgraphics__/graphics/entity/ores/nickel/nickel-mine-place.png",
@@ -89,4 +89,4 @@ data:extend {{
             shift = util.by_pixel(0, 0)
         }
     }
-}}
+} })

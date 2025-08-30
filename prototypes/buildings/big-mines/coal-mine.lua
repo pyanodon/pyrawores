@@ -1,22 +1,22 @@
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "coal-mine",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "automated-factory-mk01", amount = 2},
-        {type = "item", name = "electric-mining-drill",  amount = 20},
-        {type = "item", name = "stainless-steel",        amount = 50},
-        {type = "item", name = "nexelit-plate",          amount = 50},
-        {type = "item", name = "aramid",                 amount = 40},
-        {type = "item", name = "advanced-circuit",       amount = 30} --add mo plates, vanadium
+        { type = "item", name = "automated-factory-mk01", amount = 2 },
+        { type = "item", name = "electric-mining-drill",  amount = 20 },
+        { type = "item", name = "stainless-steel",        amount = 50 },
+        { type = "item", name = "nexelit-plate",          amount = 50 },
+        { type = "item", name = "aramid",                 amount = 40 },
+        { type = "item", name = "advanced-circuit",       amount = 30 } --add mo plates, vanadium
     },
     results = {
-        {type = "item", name = "coal-mine", amount = 1}
+        { type = "item", name = "coal-mine", amount = 1 }
     }
-}:add_unlock("big-mines")
+}):add_unlock("big-mines")
 
-ITEM {
+ITEM({
     type = "item",
     name = "coal-mine",
     icon = "__pyraworesgraphics__/graphics/icons/mega-coal.png",
@@ -26,36 +26,36 @@ ITEM {
     order = "a",
     place_result = "coal-mine",
     stack_size = 10
-}
+})
 
-ENTITY {
+ENTITY({
     type = "mining-drill",
     name = "coal-mine",
     icon = "__pyraworesgraphics__/graphics/icons/mega-coal.png",
     icon_size = 32,
-    flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "coal-mine"},
+    flags = { "placeable-neutral", "player-creation" },
+    minable = { mining_time = 1, result = "coal-mine" },
     fast_replaceable_group = "coal-mine",
     max_health = 600,
-    resource_categories = {"coal-rock"},
+    resource_categories = { "coal-rock" },
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
-    collision_box = {{-5.3, -5.3}, {5.3, 5.3}},
-    selection_box = {{-5.5, -5.5}, {5.5, 5.5}},
+    collision_box = { { -5.3, -5.3 }, { 5.3, 5.3 } },
+    selection_box = { { -5.5, -5.5 }, { 5.5, 5.5 } },
     input_fluid_box = {
         pipe_picture = _G.assembler2pipepictures(),
         pipe_covers = _G.pipecoverspictures(),
         volume = 200,
         pipe_connections = {
-            {flow_direction = "input-output", position = {5.0, 0}, direction = defines.direction.east},
+            { flow_direction = "input-output", position = { 5.0, 0 }, direction = defines.direction.east },
         }
     },
     module_slots = 1,
-    allowed_effects = {"consumption", "speed", "productivity"},
+    allowed_effects = { "consumption", "speed", "productivity" },
     mining_speed = 20,
     energy_source = {
         type = "burner",
-        fuel_categories = {"drill"},
+        fuel_categories = { "drill" },
         effectivity = 1,
         fuel_inventory_size = 1,
         emissions_per_minute = {
@@ -64,10 +64,10 @@ ENTITY {
         smoke = {
             {
                 name = "smoke",
-                north_position = {1.0, -6.75},
-                east_position = {1.0, -6.75},
-                west_position = {1.0, -6.75},
-                south_position = {1.0, -6.75},
+                north_position = { 1.0, -6.75 },
+                east_position = { 1.0, -6.75 },
+                west_position = { 1.0, -6.75 },
+                south_position = { 1.0, -6.75 },
                 frequency = 90,
                 starting_vertical_speed = 0.08,
                 slow_down_factor = 1,
@@ -79,18 +79,18 @@ ENTITY {
         minimum_intensity = 0,
         maximum_intensity = 0,
         light_intensity_to_size_coefficient = 0,
-        color = {0, 0, 0},
+        color = { 0, 0, 0 },
     },
     energy_usage = "1000kW",
     mining_power = 6,
     resource_searching_radius = 0.49,
-    vector_to_place_result = {0, -5.65},
+    vector_to_place_result = { 0, -5.65 },
     radius_visualisation_picture = {
         filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-radius-visualization.png",
         width = 12,
         height = 12,
     },
-    circuit_connector = circuit_connector_definitions["coal-mine"],
+    circuit_connector = circuit_connector_definitions[ "coal-mine" ],
     circuit_wire_max_distance = _G.default_circuit_wire_max_distance,
     graphics_set = {
         animation = {
@@ -140,8 +140,8 @@ ENTITY {
     },
     impact_category = "metal-large",
     working_sound = {
-        sound = {filename = "__pyraworesgraphics__/sounds/coal-mine.ogg", volume = 0.8},
-        idle_sound = {filename = "__pyraworesgraphics__/sounds/coal-mine.ogg", volume = 0.3},
+        sound = { filename = "__pyraworesgraphics__/sounds/coal-mine.ogg", volume = 0.8 },
+        idle_sound = { filename = "__pyraworesgraphics__/sounds/coal-mine.ogg", volume = 0.3 },
         apparent_volume = 2.5
     }
-}
+})

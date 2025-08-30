@@ -1,79 +1,79 @@
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "eaf-mk01",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "boiler",                amount = 5},
-        {type = "item", name = "electric-mining-drill", amount = 1},
-        {type = "item", name = "steel-plate",           amount = 25},
-        {type = "item", name = "steam-engine",          amount = 3},
-        {type = "item", name = "electronic-circuit",    amount = 10},
+        { type = "item", name = "boiler",                amount = 5 },
+        { type = "item", name = "electric-mining-drill", amount = 1 },
+        { type = "item", name = "steel-plate",           amount = 25 },
+        { type = "item", name = "steam-engine",          amount = 3 },
+        { type = "item", name = "electronic-circuit",    amount = 10 },
     },
     results = {
-        {type = "item", name = "eaf-mk01", amount = 1}
+        { type = "item", name = "eaf-mk01", amount = 1 }
     }
-}:add_unlock("smelters-mk01")
+}):add_unlock("smelters-mk01")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "eaf-mk02",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "eaf-mk01",         amount = 1},
-        {type = "item", name = "duralumin",        amount = 15},
-        {type = "item", name = "lead-plate",       amount = 10},
-        {type = "item", name = "engine-unit",      amount = 10},
-        {type = "item", name = "nexelit-plate",    amount = 10},
-        {type = "item", name = "advanced-circuit", amount = 20},
+        { type = "item", name = "eaf-mk01",         amount = 1 },
+        { type = "item", name = "duralumin",        amount = 15 },
+        { type = "item", name = "lead-plate",       amount = 10 },
+        { type = "item", name = "engine-unit",      amount = 10 },
+        { type = "item", name = "nexelit-plate",    amount = 10 },
+        { type = "item", name = "advanced-circuit", amount = 20 },
     },
     results = {
-        {type = "item", name = "eaf-mk02", amount = 1}
+        { type = "item", name = "eaf-mk02", amount = 1 }
     }
-}:add_unlock("smelters-mk02")
+}):add_unlock("smelters-mk02")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "eaf-mk03",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "eaf-mk02",             amount = 1},
-        {type = "item", name = "titanium-plate",       amount = 20},
-        {type = "item", name = "stainless-steel",      amount = 20},
-        {type = "item", name = "tin-plate",            amount = 20},
-        {type = "item", name = "electric-engine-unit", amount = 6},
-        {type = "item", name = "processing-unit",      amount = 10}
+        { type = "item", name = "eaf-mk02",             amount = 1 },
+        { type = "item", name = "titanium-plate",       amount = 20 },
+        { type = "item", name = "stainless-steel",      amount = 20 },
+        { type = "item", name = "tin-plate",            amount = 20 },
+        { type = "item", name = "electric-engine-unit", amount = 6 },
+        { type = "item", name = "processing-unit",      amount = 10 }
     },
     results = {
-        {type = "item", name = "eaf-mk03", amount = 1}
+        { type = "item", name = "eaf-mk03", amount = 1 }
     }
-}:add_unlock("smelters-mk03")
+}):add_unlock("smelters-mk03")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "eaf-mk04",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "eaf-mk03",              amount = 1},
-        {type = "item", name = "concrete",              amount = 15},
-        {type = "item", name = "super-steel",           amount = 30},
-        {type = "item", name = "low-density-structure", amount = 10},
-        {type = "item", name = "nbfe-alloy",            amount = 10},
+        { type = "item", name = "eaf-mk03",              amount = 1 },
+        { type = "item", name = "concrete",              amount = 15 },
+        { type = "item", name = "super-steel",           amount = 30 },
+        { type = "item", name = "low-density-structure", amount = 10 },
+        { type = "item", name = "nbfe-alloy",            amount = 10 },
     },
     results = {
-        {type = "item", name = "eaf-mk04", amount = 1}
+        { type = "item", name = "eaf-mk04", amount = 1 }
     }
-}:add_unlock("smelters-mk04")
+}):add_unlock("smelters-mk04")
 
 for i = 1, 4 do
     local name = "eaf-mk0" .. i
     local icon = "__pyraworesgraphics__/graphics/icons/" .. name .. ".png"
     local icon_size = 32
 
-    ITEM {
+    ITEM({
         type = "item",
         name = name,
         icon = icon,
@@ -83,25 +83,25 @@ for i = 1, 4 do
         order = "c",
         place_result = name,
         stack_size = 10
-    }
+    })
 
-    ENTITY {
+    ENTITY({
         type = "assembling-machine",
         name = name,
         icon = icon,
         icon_size = icon_size,
-        flags = {"placeable-neutral", "player-creation"},
-        minable = {mining_time = 1, result = name},
+        flags = { "placeable-neutral", "player-creation" },
+        minable = { mining_time = 1, result = name },
         fast_replaceable_group = "eaf",
         max_health = 500 * i,
         corpse = "medium-remnants",
         dying_explosion = "big-explosion",
-        collision_box = {{-2.3, -2.3}, {2.3, 2.3}},
-        selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
+        collision_box = { { -2.3, -2.3 }, { 2.3, 2.3 } },
+        selection_box = { { -2.5, -2.5 }, { 2.5, 2.5 } },
         forced_symmetry = "diagonal-pos",
         module_slots = i,
-        allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
-        crafting_categories = {"eaf"},
+        allowed_effects = { "speed", "productivity", "consumption", "pollution", "quality" },
+        crafting_categories = { "eaf" },
         crafting_speed = i,
         energy_source = {
             type = "electric",
@@ -113,10 +113,10 @@ for i = 1, 4 do
             {
                 {
                     name = "smoke",
-                    north_position = {3.0, -5.0},
-                    east_position = {3.0, -5.0},
-                    west_position = {3.0, -5.0},
-                    south_position = {3.0, -5.0},
+                    north_position = { 3.0, -5.0 },
+                    east_position = { 3.0, -5.0 },
+                    west_position = { 3.0, -5.0 },
+                    south_position = { 3.0, -5.0 },
                     frequency = 90,
                     starting_vertical_speed = 0.05,
                     slow_down_factor = 1,
@@ -153,7 +153,7 @@ for i = 1, 4 do
                                 width = 128,
                                 height = 128,
                                 animation_speed = 3,
-                                tint = py.tints[i]
+                                tint = py.tints[ i ]
                             },
                         }
                     }
@@ -174,7 +174,7 @@ for i = 1, 4 do
                         height = 192,
                         frame_count = 1,
                         shift = util.by_pixel(0, -16),
-                        tint = py.tints[i]
+                        tint = py.tints[ i ]
                     },
                 }
             },
@@ -184,38 +184,38 @@ for i = 1, 4 do
             --1
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {1.0, -2.0}, direction = defines.direction.north}}
+                pipe_connections = { { flow_direction = "input", position = { 1.0, -2.0 }, direction = defines.direction.north } }
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {-1.0, -2.0}, direction = defines.direction.north}}
+                pipe_connections = { { flow_direction = "input", position = { -1.0, -2.0 }, direction = defines.direction.north } }
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
-                pipe_connections = {{flow_direction = "output", position = {1.0, 2.0}, direction = defines.direction.south}}
+                pipe_connections = { { flow_direction = "output", position = { 1.0, 2.0 }, direction = defines.direction.south } }
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
-                pipe_connections = {{flow_direction = "output", position = {-1.0, 2.0}, direction = defines.direction.south}}
+                pipe_connections = { { flow_direction = "output", position = { -1.0, 2.0 }, direction = defines.direction.south } }
             },
         },
         impact_category = "metal",
         working_sound = {
-            sound = {filename = "__pyraworesgraphics__/sounds/eaf.ogg", volume = 0.75},
-            idle_sound = {filename = "__pyraworesgraphics__/sounds/eaf.ogg", volume = 0.3},
+            sound = { filename = "__pyraworesgraphics__/sounds/eaf.ogg", volume = 0.75 },
+            idle_sound = { filename = "__pyraworesgraphics__/sounds/eaf.ogg", volume = 0.3 },
             apparent_volume = 2.5
         }
-    }
+    })
 end

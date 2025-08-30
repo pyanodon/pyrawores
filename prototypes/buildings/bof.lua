@@ -1,81 +1,81 @@
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "bof-mk01",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "boiler",             amount = 3},
-        {type = "item", name = "washer",             amount = 1},
-        {type = "item", name = "iron-plate",         amount = 15},
-        {type = "item", name = "steam-engine",       amount = 1},
-        {type = "item", name = "electronic-circuit", amount = 10},
+        { type = "item", name = "boiler",             amount = 3 },
+        { type = "item", name = "washer",             amount = 1 },
+        { type = "item", name = "iron-plate",         amount = 15 },
+        { type = "item", name = "steam-engine",       amount = 1 },
+        { type = "item", name = "electronic-circuit", amount = 10 },
     },
     results = {
-        {type = "item", name = "bof-mk01", amount = 1}
+        { type = "item", name = "bof-mk01", amount = 1 }
     }
-}:add_unlock("smelters-mk01")
+}):add_unlock("smelters-mk01")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "bof-mk02",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "bof-mk01",         amount = 1},
-        {type = "item", name = "duralumin",        amount = 15},
-        {type = "item", name = "lead-plate",       amount = 10},
-        {type = "item", name = "engine-unit",      amount = 5},
-        {type = "item", name = "nexelit-plate",    amount = 15},
-        {type = "item", name = "advanced-circuit", amount = 10},
+        { type = "item", name = "bof-mk01",         amount = 1 },
+        { type = "item", name = "duralumin",        amount = 15 },
+        { type = "item", name = "lead-plate",       amount = 10 },
+        { type = "item", name = "engine-unit",      amount = 5 },
+        { type = "item", name = "nexelit-plate",    amount = 15 },
+        { type = "item", name = "advanced-circuit", amount = 10 },
     },
     results = {
-        {type = "item", name = "bof-mk02", amount = 1}
+        { type = "item", name = "bof-mk02", amount = 1 }
     }
-}:add_unlock("smelters-mk02")
+}):add_unlock("smelters-mk02")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "bof-mk03",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "bof-mk02",             amount = 1},
-        {type = "item", name = "titanium-plate",       amount = 20},
-        {type = "item", name = "super-steel",          amount = 20},
-        {type = "item", name = "electric-engine-unit", amount = 5},
-        {type = "item", name = "glass",                amount = 20},
-        {type = "item", name = "tin-plate",            amount = 20},
-        {type = "item", name = "processing-unit",      amount = 10}
+        { type = "item", name = "bof-mk02",             amount = 1 },
+        { type = "item", name = "titanium-plate",       amount = 20 },
+        { type = "item", name = "super-steel",          amount = 20 },
+        { type = "item", name = "electric-engine-unit", amount = 5 },
+        { type = "item", name = "glass",                amount = 20 },
+        { type = "item", name = "tin-plate",            amount = 20 },
+        { type = "item", name = "processing-unit",      amount = 10 }
     },
     results = {
-        {type = "item", name = "bof-mk03", amount = 1}
+        { type = "item", name = "bof-mk03", amount = 1 }
     }
-}:add_unlock("smelters-mk03")
+}):add_unlock("smelters-mk03")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "bof-mk04",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "bof-mk03",              amount = 1},
-        {type = "item", name = "concrete",              amount = 15},
-        {type = "item", name = "super-steel",           amount = 30},
-        {type = "item", name = "glass",                 amount = 10},
-        {type = "item", name = "low-density-structure", amount = 10},
-        {type = "item", name = "nbfe-alloy",            amount = 10},
+        { type = "item", name = "bof-mk03",              amount = 1 },
+        { type = "item", name = "concrete",              amount = 15 },
+        { type = "item", name = "super-steel",           amount = 30 },
+        { type = "item", name = "glass",                 amount = 10 },
+        { type = "item", name = "low-density-structure", amount = 10 },
+        { type = "item", name = "nbfe-alloy",            amount = 10 },
     },
     results = {
-        {type = "item", name = "bof-mk04", amount = 1}
+        { type = "item", name = "bof-mk04", amount = 1 }
     }
-}:add_unlock("smelters-mk04")
+}):add_unlock("smelters-mk04")
 
 for i = 1, 4 do
     local name = "bof-mk0" .. i
     local icon = "__pyraworesgraphics__/graphics/icons/" .. name .. ".png"
     local icon_size = 32
 
-    ITEM {
+    ITEM({
         type = "item",
         name = name,
         icon = icon,
@@ -85,35 +85,35 @@ for i = 1, 4 do
         order = "a",
         place_result = name,
         stack_size = 10
-    }
+    })
 
-    ENTITY {
+    ENTITY({
         type = "assembling-machine",
         name = name,
         icon = icon,
         icon_size = icon_size,
-        flags = {"placeable-neutral", "player-creation"},
-        minable = {mining_time = 0.5, result = name},
+        flags = { "placeable-neutral", "player-creation" },
+        minable = { mining_time = 0.5, result = name },
         fast_replaceable_group = "bof",
         max_health = 300 * i,
         corpse = "medium-remnants",
         dying_explosion = "big-explosion",
-        collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
-        selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
+        collision_box = { { -3.3, -3.3 }, { 3.3, 3.3 } },
+        selection_box = { { -3.5, -3.5 }, { 3.5, 3.5 } },
         forced_symmetry = "diagonal-pos",
         module_slots = i,
-        allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
-        crafting_categories = {"bof"},
+        allowed_effects = { "speed", "productivity", "consumption", "pollution", "quality" },
+        crafting_categories = { "bof" },
         crafting_speed = i,
         energy_source = {
             light_flicker = {
                 minimum_intensity = 0,
                 maximum_intensity = 0,
                 light_intensity_to_size_coefficient = 0,
-                color = {0, 0, 0},
+                color = { 0, 0, 0 },
             },
             type = "burner",
-            fuel_categories = {"chemical", "biomass"},
+            fuel_categories = { "chemical", "biomass" },
             effectivity = 1,
             fuel_inventory_size = 1,
             burnt_inventory_size = 1,
@@ -123,10 +123,10 @@ for i = 1, 4 do
             smoke = {
                 {
                     name = "smoke",
-                    north_position = {2.95, -5.0},
-                    east_position = {2.95, -5.0},
-                    west_position = {2.95, -5.0},
-                    south_position = {2.95, -5.0},
+                    north_position = { 2.95, -5.0 },
+                    east_position = { 2.95, -5.0 },
+                    west_position = { 2.95, -5.0 },
+                    south_position = { 2.95, -5.0 },
                     frequency = 90,
                     starting_vertical_speed = 0.05,
                     slow_down_factor = 1,
@@ -190,51 +190,51 @@ for i = 1, 4 do
             --1
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {3.0, -3.0}, direction = defines.direction.north}}
+                pipe_connections = { { flow_direction = "input", position = { 3.0, -3.0 }, direction = defines.direction.north } }
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {1.0, -3.0}, direction = defines.direction.north}}
+                pipe_connections = { { flow_direction = "input", position = { 1.0, -3.0 }, direction = defines.direction.north } }
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {-1.0, -3.0}, direction = defines.direction.north}}
+                pipe_connections = { { flow_direction = "input", position = { -1.0, -3.0 }, direction = defines.direction.north } }
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {-3.0, -3.0}, direction = defines.direction.north}}
+                pipe_connections = { { flow_direction = "input", position = { -3.0, -3.0 }, direction = defines.direction.north } }
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
-                pipe_connections = {{flow_direction = "output", position = {1.0, 3.0}, direction = defines.direction.south}}
+                pipe_connections = { { flow_direction = "output", position = { 1.0, 3.0 }, direction = defines.direction.south } }
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
-                pipe_connections = {{flow_direction = "output", position = {-1.0, 3.0}, direction = defines.direction.south}}
+                pipe_connections = { { flow_direction = "output", position = { -1.0, 3.0 }, direction = defines.direction.south } }
             },
         },
         impact_category = "metal",
         working_sound = {
-            sound = {filename = "__pyraworesgraphics__/sounds/bof.ogg", volume = 0.8},
-            idle_sound = {filename = "__pyraworesgraphics__/sounds/bof.ogg", volume = 0.02},
+            sound = { filename = "__pyraworesgraphics__/sounds/bof.ogg", volume = 0.8 },
+            idle_sound = { filename = "__pyraworesgraphics__/sounds/bof.ogg", volume = 0.02 },
         }
-    }
+    })
 end

@@ -1,81 +1,81 @@
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "casting-unit-mk01",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "steam-engine", amount = 2},
-        {type = "item", name = "steel-plate",  amount = 15},
-        {type = "item", name = "copper-plate", amount = 20},
-        {type = "item", name = "radar",        amount = 1}, --pyindustry local radar
-        {type = "item", name = "lab",          amount = 1},
+        { type = "item", name = "steam-engine", amount = 2 },
+        { type = "item", name = "steel-plate",  amount = 15 },
+        { type = "item", name = "copper-plate", amount = 20 },
+        { type = "item", name = "radar",        amount = 1 }, --pyindustry local radar
+        { type = "item", name = "lab",          amount = 1 },
     },
     results = {
-        {type = "item", name = "casting-unit-mk01", amount = 1}
+        { type = "item", name = "casting-unit-mk01", amount = 1 }
     }
-}:add_unlock("casting-mk01")
+}):add_unlock("casting-mk01")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "casting-unit-mk02",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "casting-unit-mk01", amount = 1},
-        {type = "item", name = "duralumin",         amount = 15},
-        {type = "item", name = "engine-unit",       amount = 15},
-        {type = "item", name = "lead-plate",        amount = 10},
-        {type = "item", name = "nexelit-plate",     amount = 15},
-        {type = "item", name = "advanced-circuit",  amount = 10},
+        { type = "item", name = "casting-unit-mk01", amount = 1 },
+        { type = "item", name = "duralumin",         amount = 15 },
+        { type = "item", name = "engine-unit",       amount = 15 },
+        { type = "item", name = "lead-plate",        amount = 10 },
+        { type = "item", name = "nexelit-plate",     amount = 15 },
+        { type = "item", name = "advanced-circuit",  amount = 10 },
     },
     results = {
-        {type = "item", name = "casting-unit-mk02", amount = 1}
+        { type = "item", name = "casting-unit-mk02", amount = 1 }
     }
-}:add_unlock("casting-mk02")
+}):add_unlock("casting-mk02")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "casting-unit-mk03",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "casting-unit-mk02",    amount = 1},
-        {type = "item", name = "titanium-plate",       amount = 20},
-        {type = "item", name = "stainless-steel",      amount = 20},
-        {type = "item", name = "storage-tank",         amount = 1},
-        {type = "item", name = "tin-plate",            amount = 20},
-        {type = "item", name = "electric-engine-unit", amount = 10},
-        {type = "item", name = "processing-unit",      amount = 10}
+        { type = "item", name = "casting-unit-mk02",    amount = 1 },
+        { type = "item", name = "titanium-plate",       amount = 20 },
+        { type = "item", name = "stainless-steel",      amount = 20 },
+        { type = "item", name = "storage-tank",         amount = 1 },
+        { type = "item", name = "tin-plate",            amount = 20 },
+        { type = "item", name = "electric-engine-unit", amount = 10 },
+        { type = "item", name = "processing-unit",      amount = 10 }
     },
     results = {
-        {type = "item", name = "casting-unit-mk03", amount = 1}
+        { type = "item", name = "casting-unit-mk03", amount = 1 }
     }
-}:add_unlock("casting-mk03")
+}):add_unlock("casting-mk03")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "casting-unit-mk04",
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "casting-unit-mk03",     amount = 1},
-        {type = "item", name = "concrete",              amount = 15},
-        {type = "item", name = "super-steel",           amount = 30},
-        {type = "item", name = "storage-tank",          amount = 1},
-        {type = "item", name = "low-density-structure", amount = 10},
-        {type = "item", name = "nbfe-alloy",            amount = 10},
+        { type = "item", name = "casting-unit-mk03",     amount = 1 },
+        { type = "item", name = "concrete",              amount = 15 },
+        { type = "item", name = "super-steel",           amount = 30 },
+        { type = "item", name = "storage-tank",          amount = 1 },
+        { type = "item", name = "low-density-structure", amount = 10 },
+        { type = "item", name = "nbfe-alloy",            amount = 10 },
     },
     results = {
-        {type = "item", name = "casting-unit-mk04", amount = 1}
+        { type = "item", name = "casting-unit-mk04", amount = 1 }
     }
-}:add_unlock("casting-mk04")
+}):add_unlock("casting-mk04")
 
 for i = 1, 4 do
     local name = "casting-unit-mk0" .. i
     local icon = "__pyraworesgraphics__/graphics/icons/" .. name .. ".png"
     local icon_size = 32
 
-    ITEM {
+    ITEM({
         type = "item",
         name = name,
         icon = icon,
@@ -85,25 +85,25 @@ for i = 1, 4 do
         order = "b",
         place_result = name,
         stack_size = 10
-    }
+    })
 
-    ENTITY {
+    ENTITY({
         type = "assembling-machine",
         name = name,
         icon = icon,
         icon_size = icon_size,
-        flags = {"placeable-neutral", "player-creation"},
-        minable = {mining_time = 1, result = name},
+        flags = { "placeable-neutral", "player-creation" },
+        minable = { mining_time = 1, result = name },
         fast_replaceable_group = "casting-unit",
         max_health = 400 * i,
         corpse = "medium-remnants",
         dying_explosion = "big-explosion",
-        collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
-        selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
+        collision_box = { { -3.3, -3.3 }, { 3.3, 3.3 } },
+        selection_box = { { -3.5, -3.5 }, { 3.5, 3.5 } },
         forced_symmetry = "diagonal-pos",
         module_slots = i,
-        allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
-        crafting_categories = {"casting"},
+        allowed_effects = { "speed", "productivity", "consumption", "pollution", "quality" },
+        crafting_categories = { "casting" },
         crafting_speed = i,
         energy_source = {
             type = "electric",
@@ -141,7 +141,7 @@ for i = 1, 4 do
                                 width = 237,
                                 height = 234,
                                 animation_speed = 0.5,
-                                tint = py.tints[i]
+                                tint = py.tints[ i ]
                             },
                         }
                     }
@@ -162,7 +162,7 @@ for i = 1, 4 do
                         height = 234,
                         frame_count = 1,
                         shift = util.by_pixel(7, -5),
-                        tint = py.tints[i]
+                        tint = py.tints[ i ]
                     },
                 }
             },
@@ -172,55 +172,55 @@ for i = 1, 4 do
             --1
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {0.0, -3.0}, direction = defines.direction.north}}
+                pipe_connections = { { flow_direction = "input", position = { 0.0, -3.0 }, direction = defines.direction.north } }
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {0.0, 3.0}, direction = defines.direction.south}}
+                pipe_connections = { { flow_direction = "input", position = { 0.0, 3.0 }, direction = defines.direction.south } }
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {3.0, 0.0}, direction = defines.direction.east}}
+                pipe_connections = { { flow_direction = "input", position = { 3.0, 0.0 }, direction = defines.direction.east } }
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 1000,
-                pipe_connections = {{flow_direction = "input", position = {3.0, 2.0}, direction = defines.direction.east}}
+                pipe_connections = { { flow_direction = "input", position = { 3.0, 2.0 }, direction = defines.direction.east } }
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
-                pipe_connections = {{flow_direction = "output", position = {-3.0, 0.0}, direction = defines.direction.west}}
+                pipe_connections = { { flow_direction = "output", position = { -3.0, 0.0 }, direction = defines.direction.west } }
             },
         },
         impact_category = "metal",
-        vector_to_place_result = {-3.51, -2.0},
+        vector_to_place_result = { -3.51, -2.0 },
         working_sound = {
-            sound = {filename = "__pyraworesgraphics__/sounds/casting-unit.ogg", volume = 0.8},
+            sound = { filename = "__pyraworesgraphics__/sounds/casting-unit.ogg", volume = 0.8 },
             apparent_volume = 2.5
         }
-    }
+    })
 
     -- https://github.com/pyanodon/pycoalprocessing/commit/cf03a35fa5dec4c74a464d847b4e266394317726
-    if not mods["pystellarexpedition"] then
-        local legacy = table.deepcopy(data.raw["assembling-machine"][name])
+    if not mods[ "pystellarexpedition" ] then
+        local legacy = table.deepcopy(data.raw[ "assembling-machine" ][ name ])
         legacy.vector_to_place_result = nil
         legacy.name = name .. "-legacy"
         legacy.hidden = true
-        legacy.localised_name = {"", {"entity-name." .. name}, " (Legacy)"}
-        data:extend {legacy}
+        legacy.localised_name = { "", { "entity-name." .. name }, " (Legacy)" }
+        data:extend({ legacy })
     end
 end

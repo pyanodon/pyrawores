@@ -1,20 +1,20 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls["salt-rock"] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["salt-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "salt-rock" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "salt-rock" ] = {}
 
-data:extend {{
+data:extend({ {
     type = "autoplace-control",
     category = "resource",
     name = "salt-rock",
     richness = true,
     order = "r-su"
-}}
+} })
 
 -- data:extend{{
 --     type = "noise-layer",
 --     name = "salt-rock"
 -- }}
 
-data:extend {
+data:extend({
     {
         type = "noise-expression",
         name = "py_salt_rock_starting_area",
@@ -43,29 +43,29 @@ data:extend {
         name = "py_salt_rock_richness",
         expression = "2^16 * var('distance') * var('control:salt-rock:richness')"
     }
-}
+})
 
-data:extend {{
+data:extend({ {
     type = "resource",
     name = "salt-rock",
     category = "salt-rock",
     icon = "__pyraworesgraphics__/graphics/icons/ores/salt-rock.png",
     icon_size = 32,
-    flags = {"placeable-neutral"},
+    flags = { "placeable-neutral" },
     order = "a-b-a",
-    map_color = {r = 0.8, g = 0.8, b = 0.8},
+    map_color = { r = 0.8, g = 0.8, b = 0.8 },
     highlight = true,
     map_grid = false,
     minable = {
         -- mining_particle = "salt-rock-particle",
         mining_time = 1,
         results = {
-            {type = "item", name = "salt", amount = 1}
+            { type = "item", name = "salt", amount = 1 }
         }
     },
     resource_patch_search_radius = 12,
-    collision_box = {{-5.3, -5.3}, {5.3, 5.3}},
-    selection_box = {{-5.5, -5.5}, {5.5, 5.5}},
+    collision_box = { { -5.3, -5.3 }, { 5.3, 5.3 } },
+    selection_box = { { -5.5, -5.5 }, { 5.5, 5.5 } },
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
     autoplace = {
@@ -77,7 +77,7 @@ data:extend {{
         -- We return the richness here, which is just the quantity the resource tile yields
         richness_expression = "py_salt_rock_richness"
     },
-    stage_counts = {0},
+    stage_counts = { 0 },
     stages = {
         sheet = {
             filename = "__pyraworesgraphics__/graphics/entity/ores/salt/salt-rock.png",
@@ -89,4 +89,4 @@ data:extend {{
             shift = util.by_pixel(0, 0)
         }
     }
-}}
+} })

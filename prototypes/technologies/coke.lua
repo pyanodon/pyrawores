@@ -1,4 +1,4 @@
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "coke-mk01",
     icon = "__pyraworesgraphics__/graphics/technology/coke-1.png",
@@ -9,47 +9,47 @@ TECHNOLOGY {
     unit = {
         count = 100,
         ingredients = {
-            {"automation-science-pack", 1},
+            { "automation-science-pack", 1 },
         },
         time = 45
     }
-}
+})
 
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "coke-mk02",
     icon = "__pyraworesgraphics__/graphics/technology/coke-2.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"coke-mk01"},
-    dependencies = {"coke-mk01"},
+    prerequisites = { "coke-mk01" },
+    dependencies = { "coke-mk01" },
     effects = {},
     unit = {
         count = 100,
         ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack",   1}
+            { "automation-science-pack", 1 },
+            { "logistic-science-pack",   1 }
         },
         time = 45
     }
-}
+})
 
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "coke-mk03",
     icon = "__pyraworesgraphics__/graphics/technology/coke-3.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"coke-mk02"},
-    dependencies = {"coke-mk02"},
+    prerequisites = { "coke-mk02" },
+    dependencies = { "coke-mk02" },
     effects = {},
     unit = {
         count = 100,
         ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack",   1},
-            {"chemical-science-pack",   1}
+            { "automation-science-pack", 1 },
+            { "logistic-science-pack",   1 },
+            { "chemical-science-pack",   1 }
         },
         time = 60
     }
-}
+})

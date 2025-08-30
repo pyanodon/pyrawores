@@ -1,42 +1,42 @@
-local resource_autoplace = require "resource-autoplace"
+local resource_autoplace = require("resource-autoplace")
 
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls["raw-coal"] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["raw-coal"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "raw-coal" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "raw-coal" ] = {}
 
-data:extend {{
+data:extend({ {
     type = "autoplace-control",
     category = "resource",
     name = "raw-coal",
     richness = true,
     order = "p-raw"
-}}
+} })
 
 -- data:extend{{
 --     type = "noise-layer",
 --     name = "raw-coal"
 -- }}
 
-ENTITY {
+ENTITY({
     type = "resource",
     name = "raw-coal",
     --category = "borax",
     icon = "__pyraworesgraphics__/graphics/icons/ores/raw-coal.png",
     icon_size = 32,
-    flags = {"placeable-neutral"},
+    flags = { "placeable-neutral" },
     order = "a-b-a",
-    map_color = {r = 0.0, g = 0.0, b = 0.0},
+    map_color = { r = 0.0, g = 0.0, b = 0.0 },
     minable = {
         -- mining_particle = "raw-coal-ore-particle",
         mining_time = 0.5,
         results = {
-            {type = "item", name = "raw-coal", amount = 1}
+            { type = "item", name = "raw-coal", amount = 1 }
         }
     },
-    collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
-    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+    collision_box = { { -0.1, -0.1 }, { 0.1, 0.1 } },
+    selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
-    autoplace = resource_autoplace.resource_autoplace_settings {
+    autoplace = resource_autoplace.resource_autoplace_settings({
         name = "raw-coal",
         order = "b",
         base_density = 10,
@@ -49,8 +49,8 @@ ENTITY {
         regular_rq_factor_multiplier = 1,
         starting_rq_factor_multiplier = 2,
         candidate_spot_count = 20
-    },
-    stage_counts = {2000, 1600, 1400, 1200, 800, 400, 200, 10},
+    }),
+    stage_counts = { 2000, 1600, 1400, 1200, 800, 400, 200, 10 },
     stages = {
         sheet = {
             filename = "__pyraworesgraphics__/graphics/entity/ores/coal/coal.png",
@@ -60,8 +60,8 @@ ENTITY {
             frame_count = 8,
             variation_count = 8,
             scale = 0.5,
-            tint = {r = 0.2, g = 0.2, b = 0.2, a = 1},
+            tint = { r = 0.2, g = 0.2, b = 0.2, a = 1 },
             tint_as_overlay = true
         }
     }
-}
+})

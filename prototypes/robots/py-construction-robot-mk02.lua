@@ -1,26 +1,26 @@
-local sounds = require "__base__/prototypes/entity/sounds"
+local sounds = require("__base__/prototypes/entity/sounds")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "py-construction-robot-mk02",
     energy_required = 10,
     category = "crafting-with-fluid",
     enabled = false,
     ingredients = {
-        {type = "item",  name = "py-construction-robot-mk01", amount = 1},
-        {type = "item",  name = "aramid",                     amount = 5},
-        {type = "item",  name = "stainless-steel",            amount = 5},
-        {type = "item",  name = "flying-robot-frame",         amount = 1},
-        {type = "item",  name = "solder",                     amount = 5},
-        {type = "item",  name = "advanced-circuit",           amount = 3},
-        {type = "fluid", name = "lubricant",                  amount = 100},
+        { type = "item",  name = "py-construction-robot-mk01", amount = 1 },
+        { type = "item",  name = "aramid",                     amount = 5 },
+        { type = "item",  name = "stainless-steel",            amount = 5 },
+        { type = "item",  name = "flying-robot-frame",         amount = 1 },
+        { type = "item",  name = "solder",                     amount = 5 },
+        { type = "item",  name = "advanced-circuit",           amount = 3 },
+        { type = "fluid", name = "lubricant",                  amount = 100 },
     },
     results = {
-        {type = "item", name = "py-construction-robot-mk02", amount = 1}
+        { type = "item", name = "py-construction-robot-mk02", amount = 1 }
     }
-}:add_unlock("robotics")
+}):add_unlock("robotics")
 
-ITEM {
+ITEM({
     type = "item",
     name = "py-construction-robot-mk02",
     icon = "__pyraworesgraphics__/graphics/icons/py-construction-robot-02.png",
@@ -30,7 +30,7 @@ ITEM {
     order = "b",
     place_result = "py-construction-robot-mk02",
     stack_size = 50
-}:subgroup_order("py-robots", "d")
+}):subgroup_order("py-robots", "d")
 
 local shadow = {
     filename = "__pyraworesgraphics__/graphics/entity/construction-robot/shadow.png",
@@ -45,17 +45,17 @@ local shadow = {
     scale = 0.5
 }
 
-ENTITY {
+ENTITY({
     type = "construction-robot",
     name = "py-construction-robot-mk02",
     icon = "__pyraworesgraphics__/graphics/icons/py-construction-robot-02.png",
     icon_size = 32,
-    flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
-    minable = {mining_time = 0.1, result = "py-construction-robot-mk02"},
-    resistances = {{type = "fire", percent = 85}},
+    flags = { "placeable-player", "player-creation", "placeable-off-grid", "not-on-map" },
+    minable = { mining_time = 0.1, result = "py-construction-robot-mk02" },
+    resistances = { { type = "fire", percent = 85 } },
     max_health = 20,
-    collision_box = {{0, 0}, {0, 0}},
-    selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
+    collision_box = { { 0, 0 }, { 0, 0 } },
+    selection_box = { { -0.5, -1.5 }, { 0.5, -0.5 } },
     max_payload_size = 1,
     speed = 0.13,
     transfer_distance = 0.5,
@@ -65,7 +65,7 @@ ENTITY {
     energy_per_move = "3.4kJ",
     min_to_charge = 0.2,
     max_to_charge = 0.95,
-    working_light = {intensity = 1, size = 4, color = {r = 0.8, g = 0.8, b = 0.8}},
+    working_light = { intensity = 1, size = 4, color = { r = 0.8, g = 0.8, b = 0.8 } },
     idle = {
         filename = "__pyraworesgraphics__/graphics/entity/construction-robot/01.png",
         priority = "high",
@@ -107,7 +107,7 @@ ENTITY {
         height = 32,
         frame_count = 19,
         line_length = 19,
-        shift = {0.078125, -0.15625},
+        shift = { 0.078125, -0.15625 },
         animation_speed = 0.3
     },
     sparks = {
@@ -117,8 +117,8 @@ ENTITY {
             height = 34,
             frame_count = 19,
             line_length = 19,
-            shift = {-0.109375, 0.3125},
-            tint = {r = 1.0, g = 0.9, b = 0.0, a = 1.0},
+            shift = { -0.109375, 0.3125 },
+            tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
             animation_speed = 0.3
         },
         {
@@ -127,8 +127,8 @@ ENTITY {
             height = 32,
             frame_count = 19,
             line_length = 19,
-            shift = {0.03125, 0.125},
-            tint = {r = 1.0, g = 0.9, b = 0.0, a = 1.0},
+            shift = { 0.03125, 0.125 },
+            tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
             animation_speed = 0.3
         },
         {
@@ -137,8 +137,8 @@ ENTITY {
             height = 29,
             frame_count = 19,
             line_length = 19,
-            shift = {-0.0625, 0.203125},
-            tint = {r = 1.0, g = 0.9, b = 0.0, a = 1.0},
+            shift = { -0.0625, 0.203125 },
+            tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
             animation_speed = 0.3
         },
         {
@@ -147,8 +147,8 @@ ENTITY {
             height = 35,
             frame_count = 19,
             line_length = 19,
-            shift = {-0.0625, 0.234375},
-            tint = {r = 1.0, g = 0.9, b = 0.0, a = 1.0},
+            shift = { -0.0625, 0.234375 },
+            tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
             animation_speed = 0.3
         },
         {
@@ -157,8 +157,8 @@ ENTITY {
             height = 29,
             frame_count = 19,
             line_length = 19,
-            shift = {-0.109375, 0.171875},
-            tint = {r = 1.0, g = 0.9, b = 0.0, a = 1.0},
+            shift = { -0.109375, 0.171875 },
+            tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
             animation_speed = 0.3
         },
         {
@@ -167,8 +167,8 @@ ENTITY {
             height = 36,
             frame_count = 19,
             line_length = 19,
-            shift = {0.03125, 0.3125},
-            tint = {r = 1.0, g = 0.9, b = 0.0, a = 1.0},
+            shift = { 0.03125, 0.3125 },
+            tint = { r = 1.0, g = 0.9, b = 0.0, a = 1.0 },
             animation_speed = 0.3
         }
     },
@@ -190,6 +190,6 @@ ENTITY {
         scale = 0.5
     },
     working_sound = sounds.construction_robot(0.5),
-    cargo_centered = {0.0, 0.2},
-    construction_vector = {0.30, 0.22}
-}
+    cargo_centered = { 0.0, 0.2 },
+    construction_vector = { 0.30, 0.22 }
+})

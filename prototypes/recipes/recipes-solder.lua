@@ -1,37 +1,37 @@
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "solder-0",
     enabled = false,
     energy_required = 6,
     ingredients = {
-        {type = "item", name = "tin-plate",  amount = 2},
-        {type = "item", name = "lead-plate", amount = 4},
+        { type = "item", name = "tin-plate",  amount = 2 },
+        { type = "item", name = "lead-plate", amount = 4 },
     },
     results = {
-        {type = "item", name = "solder", amount = 1}
+        { type = "item", name = "solder", amount = 1 }
     },
     subgroup = "py-rawores-solder",
     icons = py.composite_icon("solder", "tin-plate", "lead-plate"),
     order = "jab"
-}:add_unlock("solder-mk01")
+}):add_unlock("solder-mk01")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "solder",
     category = "casting",
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "molten-solder", amount = 50},
+        { type = "fluid", name = "molten-solder", amount = 50 },
     },
     results = {
-        {type = "item", name = "solder", amount = 5}
+        { type = "item", name = "solder", amount = 5 }
     },
     main_product = "solder",
     icons = py.composite_icon("solder", "molten-solder"),
     subgroup = "py-rawores-solder",
     order = "jaa"
-}:add_unlock("solder-mk02")
+}):add_unlock("solder-mk02")
 
 --[[
 RECIPE {
@@ -96,83 +96,83 @@ RECIPE {
 
 --SOLDER
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "molten-solder-0",
     category = "bof",
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "molten-tin",  amount = 10},
-        {type = "fluid", name = "molten-lead", amount = 20},
+        { type = "fluid", name = "molten-tin",  amount = 10 },
+        { type = "fluid", name = "molten-lead", amount = 20 },
     },
     results = {
-        {type = "fluid", name = "molten-solder", amount = 20}
+        { type = "fluid", name = "molten-solder", amount = 20 }
     },
     main_product = "molten-solder",
     icons = py.composite_icon("molten-solder", "molten-tin", "molten-lead"),
     subgroup = "py-rawores-solder",
     order = "jbd"
-}:add_unlock("solder-mk02")
+}):add_unlock("solder-mk02")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "molten-solder-1",
     category = "bof",
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "fluid", name = "molten-tin",  amount = 10},
-        {type = "fluid", name = "molten-lead", amount = 20},
-        {type = "fluid", name = "tar",         amount = 30},
+        { type = "fluid", name = "molten-tin",  amount = 10 },
+        { type = "fluid", name = "molten-lead", amount = 20 },
+        { type = "fluid", name = "tar",         amount = 30 },
     },
     results = {
-        {type = "fluid", name = "molten-solder", amount = 40}
+        { type = "fluid", name = "molten-solder", amount = 40 }
     },
     main_product = "molten-solder",
     icons = py.composite_icon("molten-solder", "molten-tin", "tar"),
     subgroup = "py-rawores-solder",
     order = "jbc"
-}:add_unlock("solder-mk02")
+}):add_unlock("solder-mk02")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "molten-solder-2",
     category = "bof",
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "fluid", name = "molten-tin",    amount = 30},
-        {type = "fluid", name = "molten-copper", amount = 10},
-        {type = "fluid", name = "molten-silver", amount = 10},
-        {type = "fluid", name = "tar",           amount = 30},
+        { type = "fluid", name = "molten-tin",    amount = 30 },
+        { type = "fluid", name = "molten-copper", amount = 10 },
+        { type = "fluid", name = "molten-silver", amount = 10 },
+        { type = "fluid", name = "tar",           amount = 30 },
     },
     results = {
-        {type = "fluid", name = "molten-solder", amount = 70}
+        { type = "fluid", name = "molten-solder", amount = 70 }
     },
     main_product = "molten-solder",
     icons = py.composite_icon("molten-solder", "molten-copper", "molten-silver"),
     subgroup = "py-rawores-solder",
     order = "jbb"
-}:add_unlock("solder-mk03")
+}):add_unlock("solder-mk03")
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "molten-solder-3",
     category = "bof",
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "fluid", name = "molten-tin",    amount = 20},
-        {type = "fluid", name = "molten-lead",   amount = 50},
-        {type = "fluid", name = "molten-silver", amount = 10},
-        {type = "fluid", name = "tar",           amount = 50},
+        { type = "fluid", name = "molten-tin",    amount = 20 },
+        { type = "fluid", name = "molten-lead",   amount = 50 },
+        { type = "fluid", name = "molten-silver", amount = 10 },
+        { type = "fluid", name = "tar",           amount = 50 },
     },
     results = {
-        {type = "fluid", name = "molten-solder", amount = 140}
+        { type = "fluid", name = "molten-solder", amount = 140 }
     },
     main_product = "molten-solder",
     icons = py.composite_icon("molten-solder", "molten-lead", "molten-silver"),
     subgroup = "py-rawores-solder",
     order = "jba"
-}:add_unlock("solder-mk04")
+}):add_unlock("solder-mk04")
