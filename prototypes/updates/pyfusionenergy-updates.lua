@@ -32,7 +32,7 @@ RECIPE("jig-mk01"):remove_unlock("diamond-mining"):add_unlock("titanium-mk02")
 RECIPE("jig-mk01"):add_ingredient({ type = "item", name = "stainless-steel", amount = 20 }):replace_ingredient("advanced-circuit", "electronic-circuit"):replace_ingredient("electric-engine-unit", "engine-unit")
 RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 
-if RECIPE[ "u-79" ] then RECIPE("u-79"):replace_result("tailings", "u-waste") end
+if RECIPE["u-79"] then RECIPE("u-79"):replace_result("tailings", "u-waste") end
 
 RECIPE("centrifugal-pan-mk01"):remove_unlock("diamond-mining"):add_unlock("machines-mk03"):replace_ingredient("advanced-circuit", "electronic-circuit")
 
@@ -62,7 +62,7 @@ RECIPE("regolite-mine"):replace_ingredient("iron-plate", "titanium-plate")
 RECIPE("jig-mk01"):replace_ingredient("pipe", "niobium-pipe")
 RECIPE("centrifugal-pan-mk01"):replace_ingredient("pipe", "niobium-pipe"):add_ingredient({ type = "item", name = "titanium-plate", amount = 20 })
 RECIPE("compressor-mk01"):add_ingredient({ type = "item", name = "titanium-plate", amount = 20 })
-if not mods[ "pyalienlife" ] then
+if not mods["pyalienlife"] then
     RECIPE("genlab-mk01"):add_ingredient({ type = "item", name = "glass", amount = 50 })
 end
 RECIPE("bio-reactor-mk01"):add_ingredient({ type = "item", name = "glass", amount = 50 })
@@ -482,7 +482,7 @@ RECIPE("fuelrod-mk03"):replace_ingredient("lead-plate", { type = "item", name = 
 RECIPE("fuelrod-mk04"):replace_ingredient("zinc-plate", { type = "item", name = "coated-container", amount = 1 })
 RECIPE("fuelrod-mk05"):replace_ingredient("stainless-steel", { type = "item", name = "coated-container", amount = 1 })
 
-if mods[ "pyhightech" ] then
+if mods["pyhightech"] then
     RECIPE("aramid-2"):add_ingredient({ type = "item", name = "molybdenum-plate", amount = 5 }).category = "nmf"
     RECIPE("xylenol-3").category = "mixer"
 end

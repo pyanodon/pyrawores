@@ -119,7 +119,7 @@ ENTITY({
         width = 12,
         height = 12
     },
-    circuit_connector = circuit_connector_definitions[ "aluminium-mine" ],
+    circuit_connector = circuit_connector_definitions["aluminium-mine"],
     circuit_wire_max_distance = _G.default_circuit_wire_max_distance,
     graphics_set = {
         animation = {

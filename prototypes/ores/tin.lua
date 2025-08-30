@@ -1,7 +1,7 @@
 local resource_autoplace = require("resource-autoplace")
 
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "ore-tin" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "ore-tin" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["ore-tin"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["ore-tin"] = {}
 
 data:extend({ {
     type = "autoplace-control",
@@ -43,7 +43,7 @@ ENTITY({
         order = "b",
         base_density = 10,
         base_spots_per_km2 = 1.25,
-        has_starting_area_placement = not mods[ "pyalienlife" ],
+        has_starting_area_placement = not mods["pyalienlife"],
         random_spot_size_minimum = 2,
         random_spot_size_maximum = 4,
         regular_rq_factor_multiplier = 1,

@@ -153,7 +153,7 @@ for i = 1, 4 do
                                 width = 128,
                                 height = 128,
                                 animation_speed = 3,
-                                tint = py.tints[ i ]
+                                tint = py.tints[i]
                             },
                         }
                     }
@@ -174,7 +174,7 @@ for i = 1, 4 do
                         height = 192,
                         frame_count = 1,
                         shift = util.by_pixel(0, -16),
-                        tint = py.tints[ i ]
+                        tint = py.tints[i]
                     },
                 }
             },

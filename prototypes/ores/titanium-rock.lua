@@ -1,5 +1,5 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "titanium-rock" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "titanium-rock" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["titanium-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["titanium-rock"] = {}
 
 data:extend({ {
     type = "autoplace-control",

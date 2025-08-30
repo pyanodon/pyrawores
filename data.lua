@@ -5,7 +5,7 @@ require("prototypes.items.items")
 
 require("prototypes.circuit-connector-definitions")
 
-if mods[ "pyalienlife" ] then
+if mods["pyalienlife"] then
     require("prototypes.items.pyalienlife-items")
 end
 
@@ -258,7 +258,7 @@ require("prototypes.fluids.zinc-waste")
 require("prototypes.fluids.molten-zinc")
 require("prototypes.fluids.molten-solder")
 
-if mods[ "pyfusionenergy" ] then
+if mods["pyfusionenergy"] then
     require("prototypes.fluids.u-waste")
     require("prototypes.fluids.vanadium-mixture")
 end
@@ -267,7 +267,7 @@ end
 require("__pycoalprocessing__.prototypes.fluids.diesel")
 
 --pyfusion fluids
-if mods[ "pyfusionenergy" ] then
+if mods["pyfusionenergy"] then
     require("__pyfusionenergy__.prototypes.fluids.liquid-nitrogen")
 end
 
@@ -293,11 +293,11 @@ require("prototypes.recipes.recipes-zinc")
 require("prototypes.recipes.recipes-casting")
 require("prototypes.recipes.recipes-solder")
 
-if mods[ "pyfusionenergy" ] then
+if mods["pyfusionenergy"] then
     require("prototypes.recipes.pyfusionenergy-recipes")
 end
 
-if mods[ "pyhightech" ] then
+if mods["pyhightech"] then
     require("prototypes.recipes.pyhightech-recipes")
 end
 
@@ -306,20 +306,20 @@ end
 require("prototypes.robots.py-construction-robot-mk02")
 require("prototypes.robots.py-logistic-robot-mk02")
 
-data.raw.fluid[ "coke-oven-gas" ].fuel_value = "1MJ"
-data.raw.fluid[ "kerosene" ].fuel_value = "1.5MJ"
-data.raw.fluid[ "hydrogen" ].fuel_value = "20kJ"
-data.raw.fluid[ "outlet-gas-01" ].fuel_value = "0.5MJ"
-data.raw.fluid[ "outlet-gas-02" ].fuel_value = "0.5MJ"
-data.raw.fluid[ "outlet-gas-03" ].fuel_value = "0.5MJ"
-data.raw.fluid[ "outlet-gas-04" ].fuel_value = "0.5MJ"
-data.raw.fluid[ "high-ash-fines" ].fuel_value = "0.5MJ"
-data.raw.fluid[ "diesel" ].fuel_value = "1.5MJ"
+data.raw.fluid["coke-oven-gas"].fuel_value = "1MJ"
+data.raw.fluid["kerosene"].fuel_value = "1.5MJ"
+data.raw.fluid["hydrogen"].fuel_value = "20kJ"
+data.raw.fluid["outlet-gas-01"].fuel_value = "0.5MJ"
+data.raw.fluid["outlet-gas-02"].fuel_value = "0.5MJ"
+data.raw.fluid["outlet-gas-03"].fuel_value = "0.5MJ"
+data.raw.fluid["outlet-gas-04"].fuel_value = "0.5MJ"
+data.raw.fluid["high-ash-fines"].fuel_value = "0.5MJ"
+data.raw.fluid["diesel"].fuel_value = "1.5MJ"
 
-table.insert(data.raw[ "fluid-turret" ][ "flamethrower-turret" ].attack_parameters.fluids, { type = "diesel", damage_modifier = 2 })
-table.insert(data.raw[ "fluid-turret" ][ "flamethrower-turret" ].attack_parameters.fluids, { type = "kerosene", damage_modifier = 2 })
+table.insert(data.raw["fluid-turret"]["flamethrower-turret"].attack_parameters.fluids, { type = "diesel", damage_modifier = 2 })
+table.insert(data.raw["fluid-turret"]["flamethrower-turret"].attack_parameters.fluids, { type = "kerosene", damage_modifier = 2 })
 
-if mods[ "pyhightech" ] then
+if mods["pyhightech"] then
     require("prototypes.ores.phosphate-rock-02")
     require("prototypes.buildings.big-mines.phosphate-mine-02")
 end

@@ -1,5 +1,5 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "phosphate-rock-02" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "phosphate-rock-02" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["phosphate-rock-02"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["phosphate-rock-02"] = {}
 
 data:extend({ {
     type = "autoplace-control",

@@ -64,9 +64,9 @@ ITEM("crushed-copper").hidden = true
 ITEM("crushed-iron").hidden = true
 
 RECIPE("coke-coal"):remove_unlock("coal-processing-1"):add_unlock("coke-mk01"):replace_ingredient("coal", "raw-coal")
-if RECIPE[ "fuelrod-mk01" ] then RECIPE("fuelrod-mk01"):remove_unlock("advanced-material-processing-2"):set_fields({ hidden = true }) end
+if RECIPE["fuelrod-mk01"] then RECIPE("fuelrod-mk01"):remove_unlock("advanced-material-processing-2"):set_fields({ hidden = true }) end
 --RECIPE('advanced-foundry-mk01'):remove_unlock('nexelit'):add_unlock('smelters-mk01')
-if not mods[ "pypetroleumhandling" ] then
+if not mods["pypetroleumhandling"] then
     RECIPE("filtration-media"):remove_unlock("advanced-oil-processing"):add_unlock("filtration")
 end
 RECIPE("olefin-plant"):remove_unlock("lubricant"):add_unlock("fuel-production")
@@ -274,45 +274,45 @@ end
 local indexes = {}
 local function change_subgroup(prototype, subgroup)
     if prototype then
-        if not indexes[ subgroup ] then
-            indexes[ subgroup ] = 100
+        if not indexes[subgroup] then
+            indexes[subgroup] = 100
         end
         prototype.subgroup = subgroup
-        prototype.order = "[" .. subgroup .. "]-[" .. indexes[ subgroup ] .. "]"
-        indexes[ subgroup ] = indexes[ subgroup ] + 1
+        prototype.order = "[" .. subgroup .. "]-[" .. indexes[subgroup] .. "]"
+        indexes[subgroup] = indexes[subgroup] + 1
     end
 end
-change_subgroup(data.raw.item[ "niobium-ore" ], "py-rawores-niobium")
-change_subgroup(data.raw.item[ "niobium-powder" ], "py-rawores-niobium")
-change_subgroup(data.raw.recipe[ "niobium-powder" ], "py-rawores-niobium")
-change_subgroup(data.raw.item[ "niobium-dust" ], "py-rawores-niobium")
-change_subgroup(data.raw.item[ "niobium-concentrate" ], "py-rawores-niobium")
-change_subgroup(data.raw.item[ "niobium-oxide" ], "py-rawores-niobium")
-change_subgroup(data.raw.item[ "niobium-plate" ], "py-rawores-niobium")
-change_subgroup(data.raw.item[ "nbfe-alloy" ], "py-rawores-niobium")
-change_subgroup(data.raw.item[ "nbfe-coating" ], "py-rawores-niobium")
-change_subgroup(data.raw.item[ "nbti-alloy" ], "py-rawores-niobium")
-change_subgroup(data.raw.item[ "lithium-niobate" ], "py-rawores-niobium")
-change_subgroup(data.raw.recipe[ "niobium-complex" ], "py-rawores-niobium")
-change_subgroup(data.raw.fluid[ "niobium-complex" ], "py-rawores-niobium")
+change_subgroup(data.raw.item["niobium-ore"], "py-rawores-niobium")
+change_subgroup(data.raw.item["niobium-powder"], "py-rawores-niobium")
+change_subgroup(data.raw.recipe["niobium-powder"], "py-rawores-niobium")
+change_subgroup(data.raw.item["niobium-dust"], "py-rawores-niobium")
+change_subgroup(data.raw.item["niobium-concentrate"], "py-rawores-niobium")
+change_subgroup(data.raw.item["niobium-oxide"], "py-rawores-niobium")
+change_subgroup(data.raw.item["niobium-plate"], "py-rawores-niobium")
+change_subgroup(data.raw.item["nbfe-alloy"], "py-rawores-niobium")
+change_subgroup(data.raw.item["nbfe-coating"], "py-rawores-niobium")
+change_subgroup(data.raw.item["nbti-alloy"], "py-rawores-niobium")
+change_subgroup(data.raw.item["lithium-niobate"], "py-rawores-niobium")
+change_subgroup(data.raw.recipe["niobium-complex"], "py-rawores-niobium")
+change_subgroup(data.raw.fluid["niobium-complex"], "py-rawores-niobium")
 
-change_subgroup(data.raw.item[ "rare-earth-ore" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.recipe[ "crusher-ree" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.item[ "rare-earth-powder" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.item[ "rare-earth-dust" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.fluid[ "rare-earth-mud" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.fluid[ "ree-slurry" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.fluid[ "ree-solution" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.item[ "ree-concentrate" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.item[ "reo" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.item[ "re-tin" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.fluid[ "re-pulp-01" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.fluid[ "re-pulp-02" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.fluid[ "re-pulp-03" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.fluid[ "re-pulp-04" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.item[ "re-precipitate-01" ], "py-rawores-rare-earth")
-change_subgroup(data.raw.item[ "re-precipitate-02" ], "py-rawores-rare-earth")
+change_subgroup(data.raw.item["rare-earth-ore"], "py-rawores-rare-earth")
+change_subgroup(data.raw.recipe["crusher-ree"], "py-rawores-rare-earth")
+change_subgroup(data.raw.item["rare-earth-powder"], "py-rawores-rare-earth")
+change_subgroup(data.raw.item["rare-earth-dust"], "py-rawores-rare-earth")
+change_subgroup(data.raw.fluid["rare-earth-mud"], "py-rawores-rare-earth")
+change_subgroup(data.raw.fluid["ree-slurry"], "py-rawores-rare-earth")
+change_subgroup(data.raw.fluid["ree-solution"], "py-rawores-rare-earth")
+change_subgroup(data.raw.item["ree-concentrate"], "py-rawores-rare-earth")
+change_subgroup(data.raw.item["reo"], "py-rawores-rare-earth")
+change_subgroup(data.raw.item["re-tin"], "py-rawores-rare-earth")
+change_subgroup(data.raw.fluid["re-pulp-01"], "py-rawores-rare-earth")
+change_subgroup(data.raw.fluid["re-pulp-02"], "py-rawores-rare-earth")
+change_subgroup(data.raw.fluid["re-pulp-03"], "py-rawores-rare-earth")
+change_subgroup(data.raw.fluid["re-pulp-04"], "py-rawores-rare-earth")
+change_subgroup(data.raw.item["re-precipitate-01"], "py-rawores-rare-earth")
+change_subgroup(data.raw.item["re-precipitate-02"], "py-rawores-rare-earth")
 
 ITEM("fuelrod-mk01"):set_fields({ subgroup = "py-rawores-items", order = "baa" })
-if RECIPE[ "fuelrod-mk01" ] then RECIPE("fuelrod-mk01"):set_fields({ subgroup = "py-rawores-uranium" }) end
-if RECIPE[ "fuelrod-mk01-1" ] then RECIPE("fuelrod-mk01-1"):set_fields({ subgroup = "py-rawores-uranium" }) end
+if RECIPE["fuelrod-mk01"] then RECIPE("fuelrod-mk01"):set_fields({ subgroup = "py-rawores-uranium" }) end
+if RECIPE["fuelrod-mk01-1"] then RECIPE("fuelrod-mk01-1"):set_fields({ subgroup = "py-rawores-uranium" }) end

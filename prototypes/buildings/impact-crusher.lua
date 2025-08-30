@@ -136,7 +136,7 @@ for i = 1, 4 do
                                 height = 224,
                                 animation_speed = 2.0,
                                 shift = util.by_pixel(-48, -16),
-                                tint = py.tints[ i ],
+                                tint = py.tints[i],
                             },
                             {
                                 filename = "__pyraworesgraphics__/graphics/entity/impact-crusher/right.png",
@@ -157,7 +157,7 @@ for i = 1, 4 do
                                 height = 224,
                                 animation_speed = 2.0,
                                 shift = util.by_pixel(48, -16),
-                                tint = py.tints[ i ],
+                                tint = py.tints[i],
                             }
                         }
                     }
@@ -178,7 +178,7 @@ for i = 1, 4 do
                         height = 224,
                         frame_count = 1,
                         shift = util.by_pixel(0, -16),
-                        tint = py.tints[ i ],
+                        tint = py.tints[i],
                     },
                     {
                         filename = "__pyraworesgraphics__/graphics/entity/impact-crusher/shadow.png",

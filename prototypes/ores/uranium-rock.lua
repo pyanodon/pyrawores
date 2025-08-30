@@ -1,5 +1,5 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "uranium-rock" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "uranium-rock" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["uranium-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["uranium-rock"] = {}
 
 data:extend({ {
     type = "autoplace-control",
@@ -63,7 +63,7 @@ data:extend({ {
             { type = "item", name = "uranium-ore", amount = 1 }
         },
         fluid_amount = 10,
-        required_fluid = (mods[ "pyfusionenergy" ] and "gasoline" or "diesel")
+        required_fluid = (mods["pyfusionenergy"] and "gasoline" or "diesel")
     },
     resource_patch_search_radius = 12,
     collision_box = { { -5.3, -5.3 }, { 5.3, 5.3 } },

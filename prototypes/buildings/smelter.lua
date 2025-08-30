@@ -186,7 +186,7 @@ for i = 1, 4 do
                                 width = 128,
                                 height = 480,
                                 animation_speed = 0.3,
-                                tint = py.tints[ i ],
+                                tint = py.tints[i],
                                 shift = util.by_pixel(-144, -64)
                             },
                             {
@@ -205,7 +205,7 @@ for i = 1, 4 do
                                 width = 128,
                                 height = 480,
                                 animation_speed = 0.3,
-                                tint = py.tints[ i ],
+                                tint = py.tints[i],
                                 shift = util.by_pixel(-16, -64)
                             },
                             {
@@ -224,7 +224,7 @@ for i = 1, 4 do
                                 width = 96,
                                 height = 480,
                                 animation_speed = 0.3,
-                                tint = py.tints[ i ],
+                                tint = py.tints[i],
                                 shift = util.by_pixel(96, -64)
                             },
                         },
@@ -284,7 +284,7 @@ for i = 1, 4 do
                         height = 544,
                         frame_count = 1,
                         shift = util.by_pixel(16, -64),
-                        tint = py.tints[ i ],
+                        tint = py.tints[i],
                     },
                 }
             },

@@ -1,5 +1,5 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "lead-rock" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "lead-rock" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["lead-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["lead-rock"] = {}
 
 data:extend({ {
     type = "autoplace-control",

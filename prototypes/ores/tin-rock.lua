@@ -1,5 +1,5 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "tin-rock" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "tin-rock" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["tin-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["tin-rock"] = {}
 
 data:extend({ {
     type = "autoplace-control",

@@ -1,5 +1,5 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "iron-rock" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "iron-rock" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["iron-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["iron-rock"] = {}
 
 data:extend({ {
     type = "autoplace-control",

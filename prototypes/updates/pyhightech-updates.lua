@@ -2,8 +2,8 @@
 -- TECHNOLOGY('coal-processing-3'):add_prereq('ht-trains')
 
 --ENITITY
-if mods[ "pyhightech" ] and not mods[ "pyalienlife" ] then
-    table.insert(data.raw[ "assembling-machine" ][ "crash-site-assembling-machine-1-repaired" ].minable.results, { type = "item", name = "duralumin", amount = 50 })
+if mods["pyhightech"] and not mods["pyalienlife"] then
+    table.insert(data.raw["assembling-machine"]["crash-site-assembling-machine-1-repaired"].minable.results, { type = "item", name = "duralumin", amount = 50 })
 end
 
 RECIPE("al-pulp-01"):replace_ingredient("boric-acid", "phosphoric-acid")
@@ -374,6 +374,6 @@ RECIPE("mibc"):replace_ingredient("aromatics", "acetone")
 RECIPE("nexelit-pulp-02"):replace_ingredient("syngas", "acetone")
 RECIPE("outlet-gas-04"):add_ingredient({ type = "fluid", name = "tall-oil", amount = 50 })
 RECIPE("slz-pulp-01"):replace_ingredient("water", "cyanic-acid")
-if RECIPE[ "u-83" ] then RECIPE("u-83"):replace_ingredient("nitrogen", "ammonia") end
+if RECIPE["u-83"] then RECIPE("u-83"):replace_ingredient("nitrogen", "ammonia") end
 RECIPE("xylenol-2"):add_ingredient({ type = "item", name = "phenol", amount = 10 })
 RECIPE("z3-reagent"):replace_ingredient("sulfuric-acid", "phosphorous-acid"):replace_ingredient("organic-solvent", "carbon-sulfide")

@@ -2,19 +2,19 @@ require("prototypes/updates/base-updates")
 require("prototypes/updates/pycoalprocessing-updates")
 require("prototypes/updates/pyindustry-updates")
 
-if mods[ "pyfusionenergy" ] then
+if mods["pyfusionenergy"] then
     require("prototypes/updates/pyfusionenergy-updates")
 end
 
-if mods[ "pyhightech" ] then
+if mods["pyhightech"] then
     require("prototypes/updates/pyhightech-updates")
 end
 
-if mods[ "pypetroleumhandling" ] then
+if mods["pypetroleumhandling"] then
     require("prototypes/updates/pypetroleumhandling-updates")
 end
 
-if mods[ "pyalienlife" ] then
+if mods["pyalienlife"] then
     require("prototypes/updates/pyalienlife-updates")
 end
 
@@ -60,7 +60,7 @@ RECIPE("ball-mill-mk04"):replace_ingredient("concrete", "py-asphalt")
 
 RECIPE("processing-unit"):add_ingredient({ type = "item", name = "gold-plate", amount = 1 })
 
-if not mods[ "aai-industry" ] then
+if not mods["aai-industry"] then
     RECIPE("small-lamp"):add_ingredient({ type = "item", name = "glass", amount = 2 })
 end
 

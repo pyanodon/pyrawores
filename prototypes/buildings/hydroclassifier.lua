@@ -148,7 +148,7 @@ for i = 1, 4 do
                         frame_count = 150,
                         animation_speed = 1,
                         shift = util.by_pixel(-63, -2),
-                        tint = py.tints[ i ],
+                        tint = py.tints[i],
                         draw_as_glow = true,
                     },
                     {
@@ -159,7 +159,7 @@ for i = 1, 4 do
                         frame_count = 150,
                         animation_speed = 1,
                         shift = util.by_pixel(31, -2),
-                        tint = py.tints[ i ],
+                        tint = py.tints[i],
                         draw_as_glow = true,
                     },
                     {
@@ -170,7 +170,7 @@ for i = 1, 4 do
                         frame_count = 150,
                         animation_speed = 1,
                         shift = util.by_pixel(95, -2),
-                        tint = py.tints[ i ],
+                        tint = py.tints[i],
                         draw_as_glow = true,
                     },
                     {

@@ -1,7 +1,7 @@
 local resource_autoplace = require("resource-autoplace")
 
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "raw-coal" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "raw-coal" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["raw-coal"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["raw-coal"] = {}
 
 data:extend({ {
     type = "autoplace-control",

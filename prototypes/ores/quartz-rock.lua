@@ -1,5 +1,5 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "quartz-rock" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "quartz-rock" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["quartz-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["quartz-rock"] = {}
 
 data:extend({ {
     type = "autoplace-control",
@@ -63,7 +63,7 @@ data:extend({ {
             { type = "item", name = "ore-quartz", amount = 1 }
         },
         fluid_amount = 30,
-        required_fluid = (mods[ "pyfusionenergy" ] and "acetylene" or "diesel")
+        required_fluid = (mods["pyfusionenergy"] and "acetylene" or "diesel")
     },
     resource_patch_search_radius = 12,
     collision_box = { { -6.3, -6.3 }, { 6.3, 6.3 } },

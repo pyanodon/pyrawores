@@ -139,7 +139,7 @@ for i = 1, 4 do
                                 width = 192,
                                 height = 160,
                                 animation_speed = 1,
-                                tint = py.tints[ i ]
+                                tint = py.tints[i]
                             },
                         }
                     }
@@ -160,7 +160,7 @@ for i = 1, 4 do
                         height = 229,
                         frame_count = 1,
                         shift = util.by_pixel(-1, -19),
-                        tint = py.tints[ i ]
+                        tint = py.tints[i]
                     },
                     {
                         filename = "__pyraworesgraphics__/graphics/entity/flotation-cell/sh.png",

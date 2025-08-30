@@ -1,5 +1,5 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "chromium-rock" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "chromium-rock" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["chromium-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["chromium-rock"] = {}
 
 data:extend({ {
     type = "autoplace-control",

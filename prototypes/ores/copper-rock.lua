@@ -1,5 +1,5 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "copper-rock" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "copper-rock" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["copper-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["copper-rock"] = {}
 
 data:extend({ {
     type = "autoplace-control",

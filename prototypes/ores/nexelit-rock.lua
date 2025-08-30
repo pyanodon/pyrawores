@@ -1,5 +1,5 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "nexelit-rock" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "nexelit-rock" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["nexelit-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["nexelit-rock"] = {}
 
 data:extend({ {
     type = "autoplace-control",

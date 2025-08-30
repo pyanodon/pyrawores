@@ -1,5 +1,5 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "zinc-rock" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "zinc-rock" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["zinc-rock"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["zinc-rock"] = {}
 
 data:extend({ {
     type = "autoplace-control",
