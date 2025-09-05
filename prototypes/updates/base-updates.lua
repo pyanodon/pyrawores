@@ -26,7 +26,7 @@ TECHNOLOGY("plastics"):remove_pack("logistic-science-pack"):set_fields {prerequi
 RECIPE("uranium-processing"):remove_unlock("uranium-processing"):set_fields {hidden = true}
 RECIPE("nuclear-fuel"):remove_unlock("kovarex-enrichment-process"):add_unlock("uranium-mk04")
 RECIPE("flying-robot-frame"):add_unlock("robotics"):set_fields {hidden = false}
-ITEM("flying-robot-frame"):remove_flag("hidden")
+ITEM("flying-robot-frame"):set_fields {hidden = false}
 RECIPE("centrifuge"):remove_unlock("uranium-processing"):add_unlock("nuclear-fuel-reprocessing")
 
 -- RECIPE CHANGES
