@@ -2,7 +2,8 @@
 Version: 3.0.24
 Date: ?????
   Changes:
-    - Added Dutch locale
+    - Added Dutch locale (thanks, QatSquirrel!)
+    - Flying robot frame item is no longer hidden.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.23
 Date: 2025-08-23
