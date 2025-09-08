@@ -23,7 +23,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nexelit-mk01"},
-    dependencies = {"nexelit-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -43,7 +42,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nexelit-mk02"},
-    dependencies = {"nexelit-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -64,7 +62,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nexelit-mk03"},
-    dependencies = {"nexelit-mk03"},
     effects = {},
     unit = {
         count = 100,
@@ -87,7 +84,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nexelit-mk04"},
-    dependencies = {"nexelit-mk04"},
     effects = {},
     unit = {
         count = 100,

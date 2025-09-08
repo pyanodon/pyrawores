@@ -23,7 +23,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"uranium-mk01"},
-    dependencies = {"uranium-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -43,7 +42,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"uranium-mk02"},
-    dependencies = {"uranium-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -65,7 +63,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"uranium-mk03"},
-    dependencies = {"uranium-mk03"},
     effects = {},
     unit = {
         count = 100,

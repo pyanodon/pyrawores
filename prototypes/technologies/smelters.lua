@@ -22,7 +22,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"smelters-mk01"},
-    dependencies = {"smelters-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -42,7 +41,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"smelters-mk02"},
-    dependencies = {"smelters-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -63,7 +61,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"smelters-mk03"},
-    dependencies = {"smelters-mk03"},
     effects = {},
     unit = {
         count = 100,

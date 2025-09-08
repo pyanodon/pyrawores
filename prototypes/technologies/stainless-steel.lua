@@ -22,8 +22,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/stainless-steel-2.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {},
-    dependencies = {"stainless-steel-mk01"},
+    prerequisites = {"stainless-steel-mk01"},
     effects = {},
     unit = {
         count = 100,
