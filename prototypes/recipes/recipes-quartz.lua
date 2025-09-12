@@ -94,6 +94,7 @@ RECIPE {
     icon = "__pyraworesgraphics__/graphics/icons/class-sand.png",
     icon_size = 32,
     subgroup = "py-rawores-quartz",
+    autotech_is_not_primary_recipe = true
 } --:add_unlock("separation")
 
 
