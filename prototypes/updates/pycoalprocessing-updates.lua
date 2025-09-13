@@ -7,7 +7,7 @@ TECHNOLOGY("advanced-material-processing"):remove_prereq("crusher"):remove_prere
 TECHNOLOGY("nexelit"):set_fields {enabled = false}:set_fields {hidden = true}
 TECHNOLOGY("chromium"):set_fields {enabled = false}:set_fields {hidden = true}
 TECHNOLOGY("coal-processing-2"):remove_prereq("concrete"):remove_prereq("chromium")
-TECHNOLOGY("concrete"):remove_pack("logistic-science-pack"):remove_prereq("logistic-science-pack"):remove_prereq("advanced-material-processing")
+TECHNOLOGY("concrete"):remove_pack("logistic-science-pack"):remove_prereq("logistic-science-pack")
 TECHNOLOGY("fine-electronics"):remove_prereq("sulfur-processing"):remove_prereq("kevlar")
 TECHNOLOGY("coal-processing-1"):remove_prereq("fluid-handling")
 TECHNOLOGY("py-asphalt"):remove_pack("logistic-science-pack")
