@@ -87,7 +87,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "iron-oxide",     amount = 1, probability = 0.5},
-        {type = "item", name = "gravel",         amount = 4, autotech_ignore = not not mods.pyalienlife},
+        {type = "item", name = "gravel",         amount = 4, autotech_is_not_primary_source = not not mods.pyalienlife},
         {type = "item", name = "crushed-quartz", amount = 1, probability = 0.05}
     },
     main_product = "gravel",
