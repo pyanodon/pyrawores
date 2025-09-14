@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.24
-Date: ???
+Date: ?????
   Changes:
     - Remade tech tree with autotech 2.0. Science pack cost comparasion:
     - automation: n/a -> trigger
@@ -14,6 +14,7 @@ Date: ???
     - utility: 1500 -> 4000
     - space: 1000 -> 4500
     - phyrric: 3000 -> 10000
+    - Added Dutch locale (thanks, QatSquirrel!)
     - Flying robot frame item is no longer hidden.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.23
