@@ -23,7 +23,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"silver-mk01"},
-    dependencies = {"silver-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -43,7 +42,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"silver-mk02"},
-    dependencies = {"silver-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -64,7 +62,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"silver-mk03"},
-    dependencies = {"silver-mk03"},
     effects = {},
     unit = {
         count = 100,
@@ -87,7 +84,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"silver-mk04"},
-    dependencies = {"silver-mk04"},
     effects = {},
     unit = {
         count = 100,

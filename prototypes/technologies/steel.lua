@@ -22,8 +22,7 @@ TECHNOLOGY {
     icon = "__base__/graphics/technology/steel-processing.png",
     icon_size = 256,
     order = "c-a",
-    prerequisites = {},
-    dependencies = {"steel-mk02"},
+    prerequisites = {"steel-mk02"},
     effects = {},
     unit = {
         count = 100,

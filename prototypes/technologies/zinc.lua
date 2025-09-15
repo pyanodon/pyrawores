@@ -22,7 +22,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"zinc-mk01"},
-    dependencies = {"zinc-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -41,7 +40,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"zinc-mk02"},
-    dependencies = {"zinc-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -61,7 +59,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"zinc-mk03"},
-    dependencies = {"zinc-mk03"},
     effects = {},
     unit = {
         count = 100,
@@ -82,7 +79,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"zinc-mk04"},
-    dependencies = {"zinc-mk04"},
     effects = {},
     unit = {
         count = 100,

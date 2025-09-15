@@ -22,7 +22,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nickel-mk01"},
-    dependencies = {"nickel-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -41,7 +40,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nickel-mk02"},
-    dependencies = {"nickel-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -61,7 +59,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nickel-mk03"},
-    dependencies = {"nickel-mk03"},
     effects = {},
     unit = {
         count = 100,
@@ -82,7 +79,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nickel-mk04"},
-    dependencies = {"nickel-mk04"},
     effects = {},
     unit = {
         count = 100,

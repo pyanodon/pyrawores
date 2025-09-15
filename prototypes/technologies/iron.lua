@@ -22,7 +22,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"iron-mk01"},
-    dependencies = {"iron-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -40,8 +39,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/iron-3.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"chemical-science-pack"},
-    dependencies = {"iron-mk02"},
+    prerequisites = {"iron-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -61,7 +59,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"iron-mk03"},
-    dependencies = {"iron-mk03"},
     effects = {},
     unit = {
         count = 100,
@@ -82,7 +79,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"iron-mk04"},
-    dependencies = {"iron-mk04"},
     effects = {},
     unit = {
         count = 100,

@@ -21,7 +21,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/drill-head-mk02.png",
     icon_size = 128,
     order = "c-a",
-    dependencies = {"drill-head-mk01"},
+    prerequisites = {"drill-head-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -40,7 +40,7 @@ TECHNOLOGY {
     icon = "__pyraworesgraphics__/graphics/technology/drill-head-mk03.png",
     icon_size = 128,
     order = "c-a",
-    dependencies = {"drill-head-mk02"},
+    prerequisites = {"drill-head-mk02"},
     effects = {},
     unit = {
         count = 100,

@@ -22,7 +22,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"titanium-mk01"},
-    dependencies = {"titanium-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -41,7 +40,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"titanium-mk02"},
-    dependencies = {"titanium-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -61,7 +59,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"titanium-mk03"},
-    dependencies = {"titanium-mk03"},
     effects = {},
     unit = {
         count = 100,
@@ -82,7 +79,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"titanium-mk04"},
-    dependencies = {"titanium-mk04"},
     effects = {},
     unit = {
         count = 100,
