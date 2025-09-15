@@ -22,7 +22,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"solder-mk01"},
-    dependencies = {"solder-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -41,7 +40,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"solder-mk02"},
-    dependencies = {"solder-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -61,7 +59,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"solder-mk03"},
-    dependencies = {"solder-mk03"},
     effects = {},
     unit = {
         count = 100,
@@ -82,7 +79,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = 'c-a',
     prerequisites = {'solder-mk04'},
-    dependencies = {'solder-mk04'},
     effects = {},
     unit = {
         count = 100,

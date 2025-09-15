@@ -16,17 +16,18 @@ TECHNOLOGY("automobilism"):remove_prereq("engine")
 TECHNOLOGY("battery"):remove_prereq("sulfur-processing")
 TECHNOLOGY("explosives"):remove_prereq("sulfur-processing")
 TECHNOLOGY("nuclear-power"):remove_prereq("uranium-processing")
+TECHNOLOGY("uranium-ammo"):remove_prereq("uranium-processing")
 TECHNOLOGY("electric-energy-distribution-2"):remove_prereq("chemical-science-pack")
 TECHNOLOGY("advanced-material-processing-2"):remove_prereq("chemical-science-pack")
 TECHNOLOGY("logistics-2"):remove_prereq("niobium")
 TECHNOLOGY("atomic-bomb"):add_pack("space-science-pack")
-TECHNOLOGY("plastics"):remove_pack("logistic-science-pack"):set_fields {prerequisites = {}}
+TECHNOLOGY("plastics"):remove_pack("logistic-science-pack")
 
 -- RECIPE UNLOCKS
 RECIPE("uranium-processing"):remove_unlock("uranium-processing"):set_fields {hidden = true}
 RECIPE("nuclear-fuel"):remove_unlock("kovarex-enrichment-process"):add_unlock("uranium-mk04")
 RECIPE("flying-robot-frame"):add_unlock("robotics"):set_fields {hidden = false}
-ITEM("flying-robot-frame"):remove_flag("hidden")
+ITEM("flying-robot-frame"):set_fields {hidden = false}
 RECIPE("centrifuge"):remove_unlock("uranium-processing"):add_unlock("nuclear-fuel-reprocessing")
 
 -- RECIPE CHANGES

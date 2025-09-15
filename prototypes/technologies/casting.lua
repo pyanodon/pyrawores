@@ -22,7 +22,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"casting-mk01"},
-    dependencies = {"casting-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -42,7 +41,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"casting-mk02"},
-    dependencies = {"casting-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -63,7 +61,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"casting-mk03"},
-    dependencies = {"casting-mk03"},
     effects = {},
     unit = {
         count = 100,

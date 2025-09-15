@@ -24,7 +24,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"super-steel-mk01"},
-    dependencies = {"super-steel-mk01"},
     effects = {},
     unit = {
         count = 100,
