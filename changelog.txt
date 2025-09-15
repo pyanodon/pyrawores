@@ -17,6 +17,7 @@ Date: ?????
     - Added Dutch locale (thanks, QatSquirrel!)
     - Flying robot frame item is no longer hidden.
     - Removed "nexelit" and "chromium" hidden techs from the game.
+    - Removed "nexelit-plate" and "making-chromium" hidden recipes from the game.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.23
 Date: 2025-08-23
