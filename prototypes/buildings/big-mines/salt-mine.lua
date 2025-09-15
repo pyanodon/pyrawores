@@ -41,13 +41,8 @@ ENTITY {
     collision_box = {{-5.3, -5.3}, {5.3, 5.3}},
     selection_box = {{-5.5, -5.5}, {5.5, 5.5}},
     module_slots = 5,
-    allowed_effects = {"consumption", "speed", "productivity"},
+    allowed_effects = {"speed", "productivity"},
     mining_speed = 10,
-    effect_receiver = {
-        -- makes green modules 9x less effective in order to not trivalize the fluid fuel challenge.
-        -- 20% consumption is still possible with green beacons later on.
-        base_effect = {consumption = 9}
-    },
     energy_source = {
         type = "fluid",
         effectivity = 1,
@@ -82,7 +77,7 @@ ENTITY {
             },
         },
     },
-    energy_usage = "2MW",
+    energy_usage = "20MW",
     mining_power = 3,
     resource_searching_radius = 0.49,
     vector_to_place_result = {0, -5.65},
