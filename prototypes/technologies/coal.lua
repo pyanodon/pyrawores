@@ -22,7 +22,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"coal-mk01"},
-    dependencies = {"coal-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -41,7 +40,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"coal-mk02"},
-    dependencies = {"coal-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -61,7 +59,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"coal-mk03"},
-    dependencies = {"coal-mk03"},
     effects = {},
     unit = {
         count = 100,

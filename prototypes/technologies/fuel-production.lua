@@ -7,7 +7,6 @@ TECHNOLOGY {
     icon_size = fp.icon_size,
     order = "c-a",
     prerequisites = {"fuel-production"},
-    dependencies = {"fuel-production"},
     effects = table.deepcopy(fp.effects),
     unit = table.deepcopy(fp.unit)
 }

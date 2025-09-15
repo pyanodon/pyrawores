@@ -4,10 +4,10 @@ TECHNOLOGY("excavation-1"):remove_pack("chemical-science-pack"):remove_prereq("c
 TECHNOLOGY("ralesia"):remove_prereq("wood-processing")
 TECHNOLOGY("energy-1"):remove_prereq("coal-processing-1")
 TECHNOLOGY("advanced-material-processing"):remove_prereq("crusher"):remove_prereq("filtration")
-TECHNOLOGY("nexelit"):set_fields {enabled = false}:set_fields {hidden = true}
-TECHNOLOGY("chromium"):set_fields {enabled = false}:set_fields {hidden = true}
+data.raw.technology["nexelit"] = nil
+data.raw.technology["chromium"] = nil
 TECHNOLOGY("coal-processing-2"):remove_prereq("concrete"):remove_prereq("chromium")
-TECHNOLOGY("concrete"):remove_pack("logistic-science-pack"):remove_prereq("logistic-science-pack"):remove_prereq("advanced-material-processing")
+TECHNOLOGY("concrete"):remove_pack("logistic-science-pack"):remove_prereq("logistic-science-pack")
 TECHNOLOGY("fine-electronics"):remove_prereq("sulfur-processing"):remove_prereq("kevlar")
 TECHNOLOGY("coal-processing-1"):remove_prereq("fluid-handling")
 TECHNOLOGY("py-asphalt"):remove_pack("logistic-science-pack")
@@ -18,9 +18,7 @@ TECHNOLOGY("mukmoux"):remove_prereq("coal-processing-2")
 TECHNOLOGY("fluid-separation"):remove_prereq("sulfur-processing")
 TECHNOLOGY("energy-3"):remove_prereq("fuel-production")
 
-
 -- RECIPE UNLOCKS
-RECIPE("making-chromium"):remove_unlock("chromium"):set_fields {hidden = true}
 RECIPE("nichrome"):remove_unlock("chromium"):add_unlock("nichrome")
 RECIPE("tailings-copper-iron"):remove_unlock("separation"):set_fields {hidden = true}
 RECIPE("sand-casting"):remove_unlock("nexelit"):add_unlock("casting-mk01")
@@ -28,13 +26,8 @@ RECIPE("concrete-richclay"):remove_unlock("concrete"):set_fields {hidden = true}
 RECIPE("slacked-lime"):remove_unlock("filtration-mk02"):add_unlock("salts")
 RECIPE("glass-2"):remove_unlock("advanced-material-processing")
 RECIPE("powdered-quartz"):remove_unlock("advanced-material-processing")
-
---TECHNOLOGY('machines-mk01'):add_prereq('concrete')
-
---RECIPE('quenching-tower'):remove_unlock('fluid-separation'):add_unlock('machines-mk01')
-
-RECIPE("nexelit-plate"):remove_unlock("nexelit"):set_fields {hidden = true}
-
+data.raw.recipe["nexelit-plate"] = nil
+data.raw.recipe["making-chromium"] = nil
 
 --Autofactory
 

@@ -22,7 +22,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"lead-mk01"},
-    dependencies = {"lead-mk01"},
     effects = {},
     unit = {
         count = 100,
@@ -41,7 +40,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"lead-mk02"},
-    dependencies = {"lead-mk02"},
     effects = {},
     unit = {
         count = 100,
@@ -61,7 +59,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"lead-mk03"},
-    dependencies = {"lead-mk03"},
     effects = {},
     unit = {
         count = 100,
@@ -82,7 +79,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"lead-mk04"},
-    dependencies = {"lead-mk04"},
     effects = {},
     unit = {
         count = 100,

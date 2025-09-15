@@ -16,11 +16,12 @@ TECHNOLOGY("automobilism"):remove_prereq("engine")
 TECHNOLOGY("battery"):remove_prereq("sulfur-processing")
 TECHNOLOGY("explosives"):remove_prereq("sulfur-processing")
 TECHNOLOGY("nuclear-power"):remove_prereq("uranium-processing")
+TECHNOLOGY("uranium-ammo"):remove_prereq("uranium-processing")
 TECHNOLOGY("electric-energy-distribution-2"):remove_prereq("chemical-science-pack")
 TECHNOLOGY("advanced-material-processing-2"):remove_prereq("chemical-science-pack")
 TECHNOLOGY("logistics-2"):remove_prereq("niobium")
 TECHNOLOGY("atomic-bomb"):add_pack("space-science-pack")
-TECHNOLOGY("plastics"):remove_pack("logistic-science-pack"):set_fields {prerequisites = {}}
+TECHNOLOGY("plastics"):remove_pack("logistic-science-pack")
 
 -- RECIPE UNLOCKS
 RECIPE("uranium-processing"):remove_unlock("uranium-processing"):set_fields {hidden = true}
