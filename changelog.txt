@@ -1,6 +1,7 @@
-Version: ???
+Version: 4.0.0
 Date: ???
   Changes:
+    - Linearilized Dependencies.
     - Efficiency modules disabled in salt mines
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.24
