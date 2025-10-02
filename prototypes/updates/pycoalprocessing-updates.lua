@@ -188,17 +188,17 @@ if mods.pyrawores then
     RECIPE("evaporator-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 40}:add_ingredient {type = "item", name = "stainless-steel", amount = 30}
     RECIPE("evaporator-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "super-steel", amount = 35}
 
-    RECIPE("fluid-separator-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 30}:add_ingredient {type = "item", name = "lead-plate", amount = 20}:replace_ingredient("storage-tank", "py-tank-15000")
-    RECIPE("fluid-separator-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 20}:add_ingredient {type = "item", name = "stainless-steel", amount = 20}:replace_ingredient("storage-tank", "py-tank-75000")
-    RECIPE("fluid-separator-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "super-steel", amount = 10}:replace_ingredient("storage-tank", "py-tank-125000")
+    RECIPE("fluid-separator-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 30}:add_ingredient {type = "item", name = "lead-plate", amount = 20}:replace_ingredient("storage-tank", "py-tank-3")
+    RECIPE("fluid-separator-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 20}:add_ingredient {type = "item", name = "stainless-steel", amount = 20}:replace_ingredient("storage-tank", "py-tank-7")
+    RECIPE("fluid-separator-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "super-steel", amount = 10}:replace_ingredient("storage-tank", "py-tank-8")
 
     RECIPE("fts-reactor-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 20}:add_ingredient {type = "item", name = "lead-plate", amount = 20}
     RECIPE("fts-reactor-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 25}:add_ingredient {type = "item", name = "stainless-steel", amount = 20}
     RECIPE("fts-reactor-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "super-steel", amount = 20}
 
-    RECIPE("gasifier-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 20}:add_ingredient {type = "item", name = "lead-plate", amount = 20}:replace_ingredient("storage-tank", "py-tank-15000")
-    RECIPE("gasifier-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 25}:add_ingredient {type = "item", name = "stainless-steel", amount = 20}:replace_ingredient("storage-tank", "py-tank-75000")
-    RECIPE("gasifier-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "super-steel", amount = 20}:add_ingredient {type = "item", name = "tin-plate", amount = 40}:replace_ingredient("storage-tank", "py-tank-125000")
+    RECIPE("gasifier-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 20}:add_ingredient {type = "item", name = "lead-plate", amount = 20}:replace_ingredient("storage-tank", "py-tank-3")
+    RECIPE("gasifier-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 25}:add_ingredient {type = "item", name = "stainless-steel", amount = 20}:replace_ingredient("storage-tank", "py-tank-7")
+    RECIPE("gasifier-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "super-steel", amount = 20}:add_ingredient {type = "item", name = "tin-plate", amount = 40}:replace_ingredient("storage-tank", "py-tank-8")
 
     RECIPE("hpf-mk02"):add_unlock("smelters-mk02"):add_ingredient {type = "item", name = "duralumin", amount = 30}:add_ingredient {type = "item", name = "tin-plate", amount = 30}
     RECIPE("hpf-mk03"):add_unlock("smelters-mk03"):add_ingredient {type = "item", name = "titanium-plate", amount = 20}:add_ingredient {type = "item", name = "stainless-steel", amount = 15}
@@ -212,9 +212,9 @@ if mods.pyrawores then
     RECIPE("methanol-reactor-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 30}:add_ingredient {type = "item", name = "stainless-steel", amount = 15}
     RECIPE("methanol-reactor-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "tin-plate", amount = 30}:add_ingredient {type = "item", name = "super-steel", amount = 20}
 
-    RECIPE("olefin-plant-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 15}:add_ingredient {type = "item", name = "tin-plate", amount = 25}:replace_ingredient("storage-tank", "py-tank-15000")
-    RECIPE("olefin-plant-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 40}:add_ingredient {type = "item", name = "stainless-steel", amount = 30}:replace_ingredient("storage-tank", "py-tank-75000")
-    RECIPE("olefin-plant-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "super-steel", amount = 35}:replace_ingredient("storage-tank", "py-tank-125000")
+    RECIPE("olefin-plant-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 15}:add_ingredient {type = "item", name = "tin-plate", amount = 25}:replace_ingredient("storage-tank", "py-tank-3")
+    RECIPE("olefin-plant-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 40}:add_ingredient {type = "item", name = "stainless-steel", amount = 30}:replace_ingredient("storage-tank", "py-tank-7")
+    RECIPE("olefin-plant-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "super-steel", amount = 35}:replace_ingredient("storage-tank", "py-tank-8")
 
     RECIPE("quenching-tower-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 20}:add_ingredient {type = "item", name = "lead-plate", amount = 20}
     RECIPE("quenching-tower-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 25}:add_ingredient {type = "item", name = "stainless-steel", amount = 20}
@@ -225,14 +225,14 @@ if mods.pyrawores then
     RECIPE("power-house-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "lead-plate", amount = 20}
 
     RECIPE("chemical-plant-mk01"):add_ingredient {type = "item", name = "glass", amount = 50}
-    RECIPE("chemical-plant-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 15}:add_ingredient {type = "item", name = "tin-plate", amount = 25}:replace_ingredient("storage-tank", "py-tank-15000")
-    RECIPE("chemical-plant-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 40}:add_ingredient {type = "item", name = "stainless-steel", amount = 40}:replace_ingredient("storage-tank", "py-tank-75000")
-    RECIPE("chemical-plant-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "super-steel", amount = 45}:replace_ingredient("storage-tank", "py-tank-125000")
+    RECIPE("chemical-plant-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 15}:add_ingredient {type = "item", name = "tin-plate", amount = 25}:replace_ingredient("storage-tank", "py-tank-3")
+    RECIPE("chemical-plant-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 40}:add_ingredient {type = "item", name = "stainless-steel", amount = 40}:replace_ingredient("storage-tank", "py-tank-7")
+    RECIPE("chemical-plant-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "super-steel", amount = 45}:replace_ingredient("storage-tank", "py-tank-8")
 
     RECIPE("rectisol"):remove_unlock("methanol-processing-1"):add_unlock("machines-mk01")
-    RECIPE("rectisol-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 20}:replace_ingredient("storage-tank", "py-tank-15000")
-    RECIPE("rectisol-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 30}:add_ingredient {type = "item", name = "stainless-steel", amount = 15}:replace_ingredient("storage-tank", "py-tank-75000")
-    RECIPE("rectisol-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "tin-plate", amount = 30}:add_ingredient {type = "item", name = "super-steel", amount = 20}:replace_ingredient("storage-tank", "py-tank-125000")
+    RECIPE("rectisol-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 20}:replace_ingredient("storage-tank", "py-tank-3")
+    RECIPE("rectisol-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 30}:add_ingredient {type = "item", name = "stainless-steel", amount = 15}:replace_ingredient("storage-tank", "py-tank-7")
+    RECIPE("rectisol-mk04"):add_unlock("machines-mk05"):add_ingredient {type = "item", name = "tin-plate", amount = 30}:add_ingredient {type = "item", name = "super-steel", amount = 20}:replace_ingredient("storage-tank", "py-tank-8")
 
     RECIPE("sand-extractor-mk02"):add_unlock("machines-mk03"):add_ingredient {type = "item", name = "duralumin", amount = 20}:add_ingredient {type = "item", name = "stainless-steel", amount = 30}:add_ingredient {type = "item", name = "tin-plate", amount = 30}
     RECIPE("sand-extractor-mk03"):add_unlock("machines-mk04"):add_ingredient {type = "item", name = "titanium-plate", amount = 60}:add_ingredient {type = "item", name = "super-steel", amount = 30}

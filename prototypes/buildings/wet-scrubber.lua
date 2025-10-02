@@ -4,7 +4,7 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "storage-tank",       amount = 1}, --pyindustry py-tank-65000
+        {type = "item", name = "storage-tank",       amount = 1}, --pyindustry py-tank-5
         {type = "item", name = "steel-plate",        amount = 15},
         {type = "item", name = "distilator",         amount = 1},
         {type = "item", name = "pipe",               amount = 10},
@@ -22,7 +22,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "wet-scrubber-mk01", amount = 1},
-        {type = "item", name = "storage-tank",      amount = 1}, --pyindustry py-tank-65000
+        {type = "item", name = "storage-tank",      amount = 1}, --pyindustry py-tank-5
         {type = "item", name = "duralumin",         amount = 20},
         {type = "item", name = "engine-unit",       amount = 5},
         {type = "item", name = "nexelit-plate",     amount = 15},
@@ -40,7 +40,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "wet-scrubber-mk02",    amount = 1},
-        {type = "item", name = "storage-tank",         amount = 1}, --pyindustry py-tank-65000
+        {type = "item", name = "storage-tank",         amount = 1}, --pyindustry py-tank-5
         {type = "item", name = "titanium-plate",       amount = 20},
         {type = "item", name = "stainless-steel",      amount = 20},
         {type = "item", name = "tin-plate",            amount = 20},
@@ -59,7 +59,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "wet-scrubber-mk03",     amount = 1},
-        {type = "item", name = "storage-tank",          amount = 1}, --pyindustry py-tank-65000
+        {type = "item", name = "storage-tank",          amount = 1}, --pyindustry py-tank-5
         {type = "item", name = "super-steel",           amount = 30},
         {type = "item", name = "low-density-structure", amount = 15},
         {type = "item", name = "nbfe-alloy",            amount = 20},
