@@ -63,7 +63,7 @@ data:extend {{
             {type = "item", name = "uranium-ore", amount = 1}
         },
         fluid_amount = 10,
-        required_fluid = (mods["pyfusionenergy"] and "gasoline" or "diesel")
+        required_fluid = ("gasoline")
     },
     resource_patch_search_radius = 12,
     collision_box = {{-5.3, -5.3}, {5.3, 5.3}},
