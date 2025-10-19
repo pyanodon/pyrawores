@@ -1,6 +1,4 @@
-if mods["pyfusionenergy"] then
-    RECIPE("casting-lead-container"):replace_ingredient("sand-casting", "mold")
-end
+RECIPE("casting-lead-container"):replace_ingredient("sand-casting", "mold")
 
 if mods["pyhightech"] then
     RECIPE("casting-ht-pipe"):replace_ingredient("sand-casting", "mold")

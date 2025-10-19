@@ -258,10 +258,8 @@ require "prototypes.fluids.zinc-waste"
 require "prototypes.fluids.molten-zinc"
 require "prototypes.fluids.molten-solder"
 
-if mods["pyfusionenergy"] then
-    require "prototypes.fluids.u-waste"
-    require "prototypes.fluids.vanadium-mixture"
-end
+require "prototypes.fluids.u-waste"
+require "prototypes.fluids.vanadium-mixture"
 
 --Pycoal fluids
 require "__pycoalprocessing__.prototypes.fluids.diesel"

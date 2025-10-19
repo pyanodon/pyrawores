@@ -1172,7 +1172,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "boric-acid-hcl",
-    category = mods.pyfusionenergy and "mixer" or "chemistry",
+    category = "mixer",
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1181,7 +1181,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "hydrogen-chloride", amount = 75},
-        {type = "fluid", name = "tailings", amount = 200}
+        {type = "fluid", name = "tailings",          amount = 200}
     },
     main_product = "hydrogen-chloride",
     subgroup = "py-rawores-fluids",
