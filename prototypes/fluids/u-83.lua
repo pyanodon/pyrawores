@@ -16,6 +16,10 @@ RECIPE {
     order = "q-2"
 }:add_unlock("uranium-mk04")
 
+if mods.pyhightech then
+    RECIPE("u-83"):replace_ingredient_unsafe("nitrogen", {type = "fluid", name = "ammonia", amount = 100})
+end
+
 
 FLUID {
     type = "fluid",

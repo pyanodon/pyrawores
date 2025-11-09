@@ -53,6 +53,10 @@ RECIPE {
     }
 }:add_unlock("machines-mk04")
 
+if mods.pyhightech then
+    RECIPE("leaching-station-mk03"):add_ingredient_unsafe {type = "item", name = "phosphate-glass", amount = 50}:add_ingredient_unsafe {type = "item", name = "biopolymer", amount = 35}:add_ingredient_unsafe {type = "item", name = "aerogel", amount = 15}
+end
+
 RECIPE {
     type = "recipe",
     name = "leaching-station-mk04",
@@ -70,6 +74,10 @@ RECIPE {
         {type = "item", name = "leaching-station-mk04", amount = 1}
     }
 }:add_unlock("machines-mk05")
+
+if mods.pyhightech then
+    RECIPE("leaching-station-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "hyperelastic-material", amount = 4}
+end
 
 for i = 1, 4 do
     local name = "leaching-station-mk0" .. i

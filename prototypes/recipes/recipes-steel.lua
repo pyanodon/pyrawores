@@ -37,6 +37,10 @@ RECIPE {
     order = "baa"
 }:add_unlock("steel-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-steel-02"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-steel",
@@ -88,10 +92,10 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "molten-steel",  amount = 100},
         {type = "item",  name = "sulfur",        amount = 1},
-        {type = "item",  name = "chromium",      amount = 7},
         {type = "item",  name = "copper-plate",  amount = 2},
         {type = "item",  name = "nickel-plate",  amount = 5},
         {type = "item",  name = "niobium-plate", amount = 2},
+        {type = "item",  name = "fecr-alloy",    amount = 5}
         --pyht phosphorous rock
     },
     results = {
@@ -102,6 +106,10 @@ RECIPE {
     subgroup = "py-rawores-iron-alloys",
     order = "daa"
 }:add_unlock("stainless-steel-mk01")
+
+if mods.pyhightech then
+    RECIPE("molten-stainless-steel"):add_ingredient_unsafe {type = "item", name = "phosphate-rock", amount = 4}
+end
 
 RECIPE {
     type = "recipe",
@@ -144,6 +152,10 @@ RECIPE {
     subgroup = "py-rawores-iron-alloys",
     order = "faa"
 }:add_unlock("super-steel-mk01")
+
+if mods.pyhightech then
+    RECIPE("molten-super-steel"):add_ingredient_unsafe {type = "item", name = "silicon", amount = 2}
+end
 
 RECIPE {
     type = "recipe",
@@ -220,6 +232,10 @@ RECIPE {
     subgroup = "py-rawores-iron-alloys",
     order = "dad"
 }:add_unlock("stainless-steel-mk02")
+
+if mods.pyhightech then
+    RECIPE("full-molten-stainless-steel-3"):add_ingredient_unsafe {type = "item", name = "phosphate-rock", amount = 4}
+end
 
 RECIPE {
     type = "recipe",
@@ -299,3 +315,7 @@ RECIPE {
     subgroup = "py-rawores-iron-alloys",
     order = "fad"
 }:add_unlock("super-steel-mk02")
+
+if mods.pyhightech then
+    RECIPE("full-molten-super-steel-3"):add_ingredient_unsafe {type = "item", name = "silicon", amount = 2}
+end

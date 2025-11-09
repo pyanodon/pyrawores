@@ -18,6 +18,10 @@ RECIPE {
     order = "q-2"
 }:add_unlock("additives")
 
+if mods.pyhightech then
+    RECIPE("armac-12"):replace_ingredient_unsafe("chlorine", {type = "fluid", name = "ammonia", amount = 150})
+end
+
 
 FLUID {
     type = "fluid",

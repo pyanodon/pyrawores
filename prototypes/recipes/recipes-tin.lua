@@ -82,8 +82,8 @@ RECIPE {
         {type = "fluid", name = "water",       amount = 100},
     },
     results = {
-        {type = "item",  name = "grade-4-tin",       amount = 1},
-        {type = "fluid", name = "tailings", amount = 100},
+        {type = "item",  name = "grade-4-tin", amount = 1},
+        {type = "fluid", name = "tailings",    amount = 100},
     },
     main_product = "grade-4-tin",
     icon = "__pyraworesgraphics__/graphics/icons/wash-grade-3-tin.png",
@@ -158,8 +158,8 @@ RECIPE {
         {type = "fluid", name = "tin-bottom-pulp", amount = 100},
     },
     results = {
-        {type = "fluid", name = "tailings", amount = 50},
-        {type = "item",  name = "tin-concentrate",   amount = 1, probability = 0.75},
+        {type = "fluid", name = "tailings",        amount = 50},
+        {type = "item",  name = "tin-concentrate", amount = 1, probability = 0.75},
     },
     main_product = "tin-concentrate",
     icons = py.composite_icon("tin-concentrate", "tin-bottom-pulp"),
@@ -298,6 +298,10 @@ RECIPE {
     order = "baf"
 }:add_unlock("tin-mk02")
 
+if mods.pyhightech then
+    RECIPE("molten-tin-01"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 6}
+end
+
 -- RECIPE {
 --     type = "recipe",
 --     name = "molten-tin-02",
@@ -353,6 +357,10 @@ RECIPE {
     order = "bac"
 }:add_unlock("tin-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-tin-03"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-tin-04",
@@ -372,6 +380,10 @@ RECIPE {
     order = "bab"
 }:add_unlock("tin-mk04")
 
+if mods.pyhightech then
+    RECIPE("molten-tin-04"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-tin-05",
@@ -390,6 +402,10 @@ RECIPE {
     subgroup = "py-rawores-tin",
     order = "baa"
 }:add_unlock("tin-mk05")
+
+if mods.pyhightech then
+    RECIPE("molten-tin-05"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 2}
+end
 
 
 --CASTINGS

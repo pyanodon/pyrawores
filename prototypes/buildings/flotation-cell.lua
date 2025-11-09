@@ -52,6 +52,10 @@ RECIPE {
     }
 }:add_unlock("machines-mk04")
 
+if mods.pyhightech then
+    RECIPE("flotation-cell-mk03"):add_ingredient_unsafe {type = "item", name = "biopolymer", amount = 15}:add_ingredient_unsafe {type = "item", name = "carbon-aerogel", amount = 20}
+end
+
 RECIPE {
     type = "recipe",
     name = "flotation-cell-mk04",
@@ -69,6 +73,10 @@ RECIPE {
         {type = "item", name = "flotation-cell-mk04", amount = 1}
     }
 }:add_unlock("machines-mk05")
+
+if mods.pyhightech then
+    RECIPE("flotation-cell-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "quantum-dots", amount = 5}
+end
 
 for i = 1, 4 do
     local name = "flotation-cell-mk0" .. i

@@ -74,6 +74,10 @@ RECIPE {
     subgroup = "py-rawores-aluminium",
 }:add_unlock("aluminium-mk03")
 
+if mods.pyhightech then
+    RECIPE("high-grade-alumina"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 --SINTER and DRP IMPROVEMENTS
 
 RECIPE {
@@ -135,6 +139,10 @@ RECIPE {
     order = "baf"
 }:add_unlock("aluminium-mk01")
 
+if mods.pyhightech then
+    RECIPE("molten-aluminium-01"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-02",
@@ -153,6 +161,10 @@ RECIPE {
     subgroup = "py-rawores-aluminium",
     order = "bae"
 }:add_unlock("aluminium-mk02")
+
+if mods.pyhightech then
+    RECIPE("molten-aluminium-02"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
 
 RECIPE {
     type = "recipe",
@@ -173,6 +185,10 @@ RECIPE {
     order = "bad"
 }:add_unlock("aluminium-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-aluminium-03"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-03-2",
@@ -191,6 +207,10 @@ RECIPE {
     subgroup = "py-rawores-aluminium",
     order = "bac"
 }:add_unlock("aluminium-mk03")
+
+if mods.pyhightech then
+    RECIPE("molten-aluminium-03-2"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
 
 RECIPE {
     type = "recipe",
@@ -212,6 +232,10 @@ RECIPE {
     order = "bab"
 }:add_unlock("aluminium-mk04")
 
+if mods.pyhightech then
+    RECIPE("molten-aluminium-04"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-05",
@@ -231,6 +255,10 @@ RECIPE {
     subgroup = "py-rawores-aluminium",
     order = "baa"
 }:add_unlock("aluminium-mk05")
+
+if mods.pyhightech then
+    RECIPE("molten-aluminium-05"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
 
 ----PLATES----
 

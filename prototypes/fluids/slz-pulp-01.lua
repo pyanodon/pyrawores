@@ -19,6 +19,10 @@ RECIPE {
     order = "q-1"
 }:add_unlock("lead-mk03")
 
+if mods.pyhightech then
+    RECIPE("slz-pulp-01"):replace_ingredient_unsafe("water", {type = "fluid", name = "cyanic-acid", amount = 25})
+end
+
 FLUID {
     type = "fluid",
     name = "slz-pulp-01",

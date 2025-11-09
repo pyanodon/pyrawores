@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "powdered-ralesia-seeds",
-    category = "ball-mill",
+    category = mods.pyhightech and "pulp" or "ball-mill",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -37,6 +37,10 @@ RECIPE {
     order = "j"
 }:add_unlock("starch")
 
+if mods.pyhightech then
+    RECIPE("starch"):add_ingredient_unsafe {type = "item", name = "fiberboard", amount = 1}
+end
+
 RECIPE {
     type = "recipe",
     name = "starch-2",
@@ -57,6 +61,10 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "j"
 }:add_unlock("starch")
+
+if mods.pyhightech then
+    RECIPE("starch-2"):add_ingredient_unsafe {type = "item", name = "fiberboard", amount = 1}
+end
 
 RECIPE {
     type = "recipe",
@@ -236,6 +244,10 @@ RECIPE {
     main_product = "p2s5",
 }:add_unlock("additives")
 
+if mods.pyhightech then
+    RECIPE("p2s5"):remove_ingredient("stone"):add_ingredient_unsafe {type = "item", name = "phosphate-rock", amount = 5}
+end
+
 RECIPE {
     type = "recipe",
     name = "p2s5-2",
@@ -252,6 +264,10 @@ RECIPE {
     },
     main_product = "p2s5",
 }:add_unlock("additives")
+
+if mods.pyhightech then
+    RECIPE("p2s5-2"):remove_ingredient("stone"):add_ingredient_unsafe {type = "item", name = "phosphate-rock", amount = 5}
+end
 
 RECIPE {
     type = "recipe",
@@ -275,6 +291,10 @@ RECIPE {
     subgroup = "py-rawores-items",
     order = "q-2"
 }:add_unlock("salts")
+
+if mods.pyhightech then
+    RECIPE("ammonium-chloride"):replace_ingredient_unsafe("water", {type = "fluid", name = "ammonia", amount = 100}).category = "fbreactor"
+end
 
 RECIPE {
     type = "recipe",
@@ -333,6 +353,10 @@ RECIPE {
     },
 }:add_unlock("battery")
 
+if mods.pyhightech then
+    RECIPE("battery-1"):add_ingredient_unsafe {type = "item", name = "rayon", amount = 2}
+end
+
 RECIPE {
     type = "recipe",
     name = "battery-2",
@@ -349,6 +373,10 @@ RECIPE {
         {type = "item", name = "battery", amount = 4}
     },
 }:add_unlock("battery")
+
+if mods.pyhightech then
+    RECIPE("battery-2"):add_ingredient_unsafe {type = "item", name = "rayon", amount = 2}
+end
 
 RECIPE {
     type = "recipe",

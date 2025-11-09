@@ -169,6 +169,10 @@ RECIPE {
     order = "baf"
 }:add_unlock("nickel-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-nickel-00"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-nickel-01",

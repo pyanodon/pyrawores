@@ -17,6 +17,10 @@ RECIPE {
     }
 }:add_unlock("alloys-mk01")
 
+if mods.pyhightech then
+    RECIPE("smelter-mk01"):add_ingredient_unsafe {type = "item", name = "ceramic", amount = 50}
+end
+
 RECIPE {
     type = "recipe",
     name = "smelter-mk02",
@@ -34,6 +38,10 @@ RECIPE {
         {type = "item", name = "smelter-mk02", amount = 1}
     }
 }:add_unlock("smelters-mk02")
+
+if mods.pyhightech then
+    RECIPE("smelter-mk02"):add_ingredient_unsafe {type = "item", name = "ceramic", amount = 50}
+end
 
 RECIPE {
     type = "recipe",
@@ -54,6 +62,10 @@ RECIPE {
     }
 }:add_unlock("smelters-mk03")
 
+if mods.pyhightech then
+    RECIPE("smelter-mk03"):add_ingredient_unsafe {type = "item", name = "heavy-fermion", amount = 20}:add_ingredient_unsafe {type = "item", name = "carbon-aerogel", amount = 20}:add_ingredient_unsafe {type = "item", name = "graphene-roll", amount = 15}
+end
+
 RECIPE {
     type = "recipe",
     name = "smelter-mk04",
@@ -69,6 +81,10 @@ RECIPE {
         {type = "item", name = "smelter-mk04", amount = 1}
     }
 }:add_unlock("smelters-mk04")
+
+if mods.pyhightech then
+    RECIPE("smelter-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "harmonic-absorber", amount = 10}
+end
 
 for i = 1, 4 do
     local name = "smelter-mk0" .. i

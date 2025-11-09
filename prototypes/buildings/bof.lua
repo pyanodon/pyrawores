@@ -52,6 +52,10 @@ RECIPE {
     }
 }:add_unlock("smelters-mk03")
 
+if mods.pyhightech then
+    RECIPE("bof-mk03"):add_ingredient_unsafe {type = "item", name = "heavy-fermion", amount = 20}:add_ingredient_unsafe {type = "item", name = "carbon-aerogel", amount = 20}:add_ingredient_unsafe {type = "item", name = "graphene-roll", amount = 15}
+end
+
 RECIPE {
     type = "recipe",
     name = "bof-mk04",
@@ -69,6 +73,10 @@ RECIPE {
         {type = "item", name = "bof-mk04", amount = 1}
     }
 }:add_unlock("smelters-mk04")
+
+if mods.pyhightech then
+    RECIPE("bof-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "harmonic-absorber", amount = 10}
+end
 
 for i = 1, 4 do
     local name = "bof-mk0" .. i

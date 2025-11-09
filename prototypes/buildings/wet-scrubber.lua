@@ -52,6 +52,10 @@ RECIPE {
     }
 }:add_unlock("machines-mk04")
 
+if mods.pyhightech then
+    RECIPE("wet-scrubber-mk03"):add_ingredient_unsafe {type = "item", name = "biopolymer", amount = 15}:add_ingredient_unsafe {type = "item", name = "carbon-aerogel", amount = 20}
+end
+
 RECIPE {
     type = "recipe",
     name = "wet-scrubber-mk04",
@@ -68,6 +72,10 @@ RECIPE {
         {type = "item", name = "wet-scrubber-mk04", amount = 1}
     }
 }:add_unlock("machines-mk05")
+
+if mods.pyhightech then
+    RECIPE("wet-scrubber-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "quantum-dots", amount = 5}
+end
 
 for i = 1, 4 do
     local name = "wet-scrubber-mk0" .. i

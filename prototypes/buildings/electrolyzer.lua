@@ -32,6 +32,10 @@ RECIPE {
     }
 }:add_unlock("machines-mk03")
 
+if mods.pyhightech then
+    RECIPE("electrolyzer-mk03"):add_ingredient_unsafe {type = "item", name = "biopolymer", amount = 40}:add_ingredient_unsafe {type = "item", name = "carbon-nanotube", amount = 30}:add_ingredient_unsafe {type = "item", name = "graphene-roll", amount = 10}
+end
+
 RECIPE {
     type = "recipe",
     name = "electrolyzer-mk03",
@@ -49,6 +53,10 @@ RECIPE {
         {type = "item", name = "electrolyzer-mk03", amount = 1}
     }
 }:add_unlock("machines-mk04")
+
+if mods.pyhightech then
+    RECIPE("electrolyzer-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "nv-center", amount = 2}
+end
 
 RECIPE {
     type = "recipe",

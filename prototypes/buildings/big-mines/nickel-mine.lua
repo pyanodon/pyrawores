@@ -16,6 +16,10 @@ RECIPE {
     }
 }:add_unlock("big-mines")
 
+if mods.pyhightech then
+    RECIPE("nickel-mine"):add_ingredient {type = "item", name = "graphene-roll", amount = 5}
+end
+
 ITEM {
     type = "item",
     name = "nickel-mine",

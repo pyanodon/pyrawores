@@ -50,6 +50,10 @@ RECIPE {
     }
 }:add_unlock("machines-mk04")
 
+if mods.pyhightech then
+    RECIPE("scrubber-mk03"):add_ingredient_unsafe {type = "item", name = "heavy-fermion", amount = 20}:add_ingredient_unsafe {type = "item", name = "superconductor", amount = 10}
+end
+
 RECIPE {
     type = "recipe",
     name = "scrubber-mk04",
@@ -65,6 +69,10 @@ RECIPE {
         {type = "item", name = "scrubber-mk04", amount = 1}
     }
 }:add_unlock("machines-mk05")
+
+if mods.pyhightech then
+    RECIPE("scrubber-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "harmonic-absorber", amount = 10}
+end
 
 for i = 1, 4 do
     local name = "scrubber-mk0" .. i

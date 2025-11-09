@@ -295,6 +295,10 @@ RECIPE {
     order = "bac"
 }:add_unlock("chromium-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-chromium-01"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-chromium-02",
@@ -315,6 +319,10 @@ RECIPE {
     order = "baa"
 }:add_unlock("chromium-mk05")
 
+if mods.pyhightech then
+    RECIPE("molten-chromium-02"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-chromium-03",
@@ -334,6 +342,10 @@ RECIPE {
     subgroup = "py-rawores-chromium",
     order = "bab"
 }:add_unlock("chromium-mk04")
+
+if mods.pyhightech then
+    RECIPE("molten-chromium-03"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
 
 --SINTER and DRP IMPROVEMENTS
 

@@ -216,6 +216,10 @@ RECIPE {
     order = "bae"
 }:add_unlock("lead-mk02")
 
+if mods.pyhightech then
+    RECIPE("molten-lead-01"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 2}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-lead-02",
@@ -234,6 +238,10 @@ RECIPE {
     subgroup = "py-rawores-lead",
     order = "bad"
 }:add_unlock("lead-mk03")
+
+if mods.pyhightech then
+    RECIPE("molten-lead-02"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
 
 RECIPE {
     type = "recipe",
@@ -254,6 +262,10 @@ RECIPE {
     order = "bac"
 }:add_unlock("lead-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-lead-03"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 2}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-lead-04",
@@ -273,6 +285,10 @@ RECIPE {
     order = "bab"
 }:add_unlock("lead-mk04")
 
+if mods.pyhightech then
+    RECIPE("molten-lead-04"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-lead-05",
@@ -287,10 +303,14 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 650}
     },
     main_product = "molten-lead",
-    icons = py.composite_icon("molten-lead", "sintered-lead"),  
+    icons = py.composite_icon("molten-lead", "sintered-lead"),
     subgroup = "py-rawores-lead",
     order = "baa"
 }:add_unlock("lead-mk05")
+
+if mods.pyhightech then
+    RECIPE("molten-lead-05"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
 
 --CASTINGS
 

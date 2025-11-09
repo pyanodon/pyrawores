@@ -15,6 +15,10 @@ RECIPE {
     }
 }:add_unlock("machines-mk05")
 
+if mods.pyhightech then
+    RECIPE("sinter-unit"):replace_ingredient_unsafe("processing-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "carbon-aerogel", amount = 20}
+end
+
 ITEM {
     type = "item",
     name = "sinter-unit",

@@ -18,6 +18,10 @@ RECIPE {
     order = "q-2"
 }:add_unlock("coke-mk03")
 
+if mods.pyhightech then
+    RECIPE("outlet-gas-04"):add_ingredient_unsafe {type = "fluid", name = "tall-oil", amount = 50}
+end
+
 FLUID {
     type = "fluid",
     name = "outlet-gas-04",

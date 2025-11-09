@@ -52,6 +52,10 @@ RECIPE {
     }
 }:add_unlock("machines-mk04")
 
+if mods.pyhightech then
+    RECIPE("impact-crusher-mk03"):add_ingredient_unsafe {type = "item", name = "heavy-fermion", amount = 40}:add_ingredient_unsafe {type = "item", name = "re-magnet", amount = 30}
+end
+
 RECIPE {
     type = "recipe",
     name = "impact-crusher-mk04",
@@ -67,6 +71,10 @@ RECIPE {
         {type = "item", name = "impact-crusher-mk04", amount = 1}
     }
 }:add_unlock("machines-mk05")
+
+if mods.pyhightech then
+    RECIPE("impact-crusher-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "nv-center", amount = 2}:add_ingredient_unsafe {type = "item", name = "harmonic-absorber", amount = 10}
+end
 
 for i = 1, 4 do
     local name = "impact-crusher-mk0" .. i

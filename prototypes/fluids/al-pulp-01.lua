@@ -20,6 +20,9 @@ RECIPE {
     order = "cag"
 }:add_unlock("aluminium-mk02")
 
+if mods.pyhightech then
+    RECIPE("al-pulp-01"):replace_ingredient_unsafe("boric-acid", {type = "fluid", name = "phosphoric-acid", amount = 30})
+end
 
 FLUID {
     type = "fluid",

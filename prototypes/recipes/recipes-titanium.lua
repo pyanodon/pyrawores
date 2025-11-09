@@ -103,9 +103,9 @@ RECIPE {
         {type = "fluid", name = "mibc",       amount = 100}
     },
     results = {
-        {type = "item",  name = "powdered-ti",       amount = 2},
-        {type = "fluid", name = "ti-pulp-03",        amount = 60},
-        {type = "fluid", name = "tailings", amount = 40},
+        {type = "item",  name = "powdered-ti", amount = 2},
+        {type = "fluid", name = "ti-pulp-03",  amount = 60},
+        {type = "fluid", name = "tailings",    amount = 40},
     },
     main_product = "powdered-ti",
     subgroup = "py-rawores-titanium",
@@ -182,6 +182,10 @@ RECIPE {
     main_product = "high-grade-ti",
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk03")
+
+if mods.pyhightech then
+    RECIPE("high-grade-ti"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
 
 --SINTER and DRP IMPROVEMENTS
 
