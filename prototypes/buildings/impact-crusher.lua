@@ -45,7 +45,8 @@ RECIPE {
         {type = "item", name = "stainless-steel",      amount = 20},
         {type = "item", name = "tin-plate",            amount = 20},
         {type = "item", name = "electric-engine-unit", amount = 12},
-        {type = "item", name = "processing-unit",      amount = 10}
+        {type = "item", name = "processing-unit",      amount = 10},
+        {type = "item", name = "sc-unit",              amount = 2}
     },
     results = {
         {type = "item", name = "impact-crusher-mk03", amount = 1}
@@ -66,6 +67,10 @@ RECIPE {
         {type = "item", name = "super-steel",           amount = 30},
         {type = "item", name = "low-density-structure", amount = 15},
         {type = "item", name = "nbfe-alloy",            amount = 20},
+        {type = "item", name = "super-alloy",           amount = 20},
+        {type = "item", name = "boron-carbide",         amount = 30},
+        {type = "item", name = "science-coating",       amount = 1},
+        {type = "item", name = "control-unit",          amount = 5},
     },
     results = {
         {type = "item", name = "impact-crusher-mk04", amount = 1}

@@ -8,7 +8,8 @@ RECIPE {
     results = {
         {type = "fluid", name = "purest-nitrogen-gas", amount = 60},
         {type = "fluid", name = "nitrogen",            amount = 20},
-        {type = "fluid", name = "oxygen",              amount = 20}
+        {type = "fluid", name = "oxygen",              amount = 20},
+        {type = "fluid", name = "pressured-air",       amount = 100},
     },
     main_product = "purest-nitrogen-gas",
     subgroup = "py-rawores-fluids",

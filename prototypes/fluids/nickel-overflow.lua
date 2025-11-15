@@ -19,7 +19,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nickel-overflow-2",
-    category = "chemistry", --ptfe pan
+    category = "pan", --ptfe pan
     enabled = false,
     energy_required = 3,
     ingredients = {

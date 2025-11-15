@@ -1,4 +1,5 @@
-RECIPE {
+--DEPRECIATED--
+--[[RECIPE {
     type = "recipe",
     name = "hydrogen-chloride-2",
     category = "mixer", --pyfe mixer
@@ -545,4 +546,4 @@ RECIPE {
     main_product = "ht-pipes-to-ground",
     subgroup = "py-rawores-casting",
     order = "ou"
-}:add_unlock("casting-mk04")
+}:add_unlock("casting-mk04")]] --

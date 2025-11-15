@@ -38,7 +38,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-u-crush",
-    category = "crusher", --pyfe secondary crusher
+    category = "secondary-crusher", --pyfe secondary crusher
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -119,9 +119,9 @@ RECIPE {
         {type = "item",  name = "biofilm", amount = 5}
     },
     results = {
-        {type = "item",  name = "yellow-cake",       amount = 1},
-        {type = "fluid", name = "tailings", amount = 50},
-        {type = "item",  name = "uranium-238",       amount = 7}
+        {type = "item",  name = "yellow-cake", amount = 1},
+        {type = "fluid", name = "tailings",    amount = 50},
+        {type = "item",  name = "uranium-238", amount = 7}
     },
     main_product = "yellow-cake",
     subgroup = "py-rawores-uranium",
@@ -153,7 +153,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "20-u-powder",    amount = 4},
         --{type = "item", name = "fuelrod-mk01", amount = 1},
-        {type = "item", name = "titanium-plate", amount = 2},
+        {type = "item", name = "lead-container", amount = 1},
     },
     results = {
         {type = "item", name = "fuelrod-mk02", amount = 1},
@@ -169,9 +169,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "40-u-powder", amount = 4},
+        {type = "item", name = "40-u-powder",    amount = 4},
         --{type = "item", name = "fuelrod-mk02", amount = 1},
-        {type = "item", name = "lead-plate",  amount = 5},
+        {type = "item", name = "lead-container", amount = 1},
     },
     results = {
         {type = "item", name = "fuelrod-mk03", amount = 1},
@@ -187,9 +187,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "70-u-powder", amount = 4},
+        {type = "item", name = "70-u-powder",    amount = 4},
         --{type = "item", name = "fuelrod-mk03", amount = 1},
-        {type = "item", name = "zinc-plate",  amount = 2},
+        {type = "item", name = "lead-container", amount = 1},
     },
     results = {
         {type = "item", name = "fuelrod-mk04", amount = 1},
@@ -205,9 +205,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "yellow-cake",     amount = 2},
+        {type = "item", name = "yellow-cake",    amount = 2},
         --{type = "item", name = "fuelrod-mk04", amount = 1},
-        {type = "item", name = "stainless-steel", amount = 1},
+        {type = "item", name = "lead-container", amount = 1},
     },
     results = {
         {type = "item", name = "fuelrod-mk05", amount = 1},

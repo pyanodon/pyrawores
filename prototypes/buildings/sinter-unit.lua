@@ -9,6 +9,7 @@ RECIPE {
         {type = "item", name = "electric-engine-unit",  amount = 10},
         {type = "item", name = "advanced-foundry-mk03", amount = 1},
         {type = "item", name = "processing-unit",       amount = 25},
+        {type = "item", name = "super-alloy",           amount = 15},
     },
     results = {
         {type = "item", name = "sinter-unit", amount = 1}

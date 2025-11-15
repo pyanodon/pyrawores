@@ -1,12 +1,12 @@
 RECIPE {
     type = "recipe",
     name = "iron-slime",
-    category = "chemistry", --pyfe mixer
+    category = "mixer", --pyfe mixer
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item",  name = "iron-oxide",        amount = 140},
-        {type = "fluid", name = "tailings", amount = 300},
+        {type = "item",  name = "iron-oxide", amount = 140},
+        {type = "fluid", name = "tailings",   amount = 300},
     },
     results = {
         {type = "fluid", name = "iron-slime", amount = 50},

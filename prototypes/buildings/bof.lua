@@ -45,7 +45,8 @@ RECIPE {
         {type = "item", name = "electric-engine-unit", amount = 5},
         {type = "item", name = "glass",                amount = 20},
         {type = "item", name = "tin-plate",            amount = 20},
-        {type = "item", name = "processing-unit",      amount = 10}
+        {type = "item", name = "processing-unit",      amount = 10},
+        {type = "item", name = "nbti-alloy",           amount = 20},
     },
     results = {
         {type = "item", name = "bof-mk03", amount = 1}
@@ -68,6 +69,10 @@ RECIPE {
         {type = "item", name = "glass",                 amount = 10},
         {type = "item", name = "low-density-structure", amount = 10},
         {type = "item", name = "nbfe-alloy",            amount = 10},
+        {type = "item", name = "super-alloy",           amount = 10},
+        {type = "item", name = "boron-carbide",         amount = 30},
+        {type = "item", name = "science-coating",       amount = 1},
+        {type = "item", name = "control-unit",          amount = 5},
     },
     results = {
         {type = "item", name = "bof-mk04", amount = 1}

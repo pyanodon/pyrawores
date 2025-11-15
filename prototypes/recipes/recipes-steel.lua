@@ -8,6 +8,7 @@ RECIPE {
         {type = "item",  name = "iron-oxide",     amount = 10},
         {type = "item",  name = "sodium-sulfate", amount = 2},
         {type = "fluid", name = "light-oil",      amount = 100},
+        {type = "fluid", name = "pressured-air",  amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -143,6 +144,8 @@ RECIPE {
         {type = "item",  name = "fuelrod-mk02",           amount = 3},
         {type = "item",  name = "niobium-plate",          amount = 1},
         {type = "item",  name = "titanium-plate",         amount = 4},
+        {type = "item",  name = "molybdenum-plate",       amount = 1},
+        {type = "item",  name = "vanadium-oxide",         amount = 2},
     },
     results = {
         {type = "fluid", name = "molten-super-steel", amount = 50},
@@ -288,6 +291,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "molten-super-steel-p1", amount = 50},
         {type = "fluid", name = "molten-titanium",       amount = 20},
+        {type = "item",  name = "vanadium-oxide",        amount = 3},
     },
     results = {
         {type = "fluid", name = "molten-super-steel-p2", amount = 60},
@@ -306,6 +310,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-super-steel-p2", amount = 60},
+        {type = "item",  name = "molybdenum-oxide",      amount = 4},
     },
     results = {
         {type = "fluid", name = "molten-super-steel", amount = 100},

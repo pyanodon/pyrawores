@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "u-rich-pulp",
-    category = "chemistry", --agitator
+    category = "agitator", --agitator
     enabled = false,
     energy_required = 4,
     ingredients = {

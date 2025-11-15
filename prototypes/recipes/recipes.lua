@@ -385,12 +385,11 @@ RECIPE {
     enabled = false,
     energy_required = 6,
     ingredients = {
-        {type = "item",  name = "super-steel",     amount = 10},
+        {type = "item",  name = "super-alloy",     amount = 10},
         {type = "item",  name = "aluminium-plate", amount = 10},
-        {type = "fluid", name = "nitrogen",        amount = 50}, --pyfe helium
-        --pyfe diamond
-        --pyfe super-alloy
-        --pyfe boron-carbide
+        {type = "fluid", name = "helium",          amount = 50},
+        {type = "item",  name = "diamond",         amount = 3},
+        {type = "item",  name = "boron-carbide",   amount = 5},
     },
     results = {
         {type = "item", name = "mega-drill-head", amount = 3}
@@ -428,6 +427,7 @@ RECIPE {
         {type = "item",  name = "sodium-hydroxide", amount = 10},
         {type = "item",  name = "aluminium-plate",  amount = 3},
         {type = "fluid", name = "sulfuric-acid",    amount = 100},
+        {type = "item",  name = "molybdenum-plate", amount = 5}
     },
     results = {
         {type = "item", name = "aramid", amount = 8}
@@ -745,8 +745,8 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "glycerol", amount = 20},
-        {type = "fluid", name = "water",    amount = 50} --pyfe-liquid-nitrogen
+        {type = "fluid", name = "glycerol",        amount = 20},
+        {type = "fluid", name = "liquid-nitrogen", amount = 50} --pyfe-liquid-nitrogen
     },
     results = {
         {type = "fluid", name = "hydrogen", amount = 300}
@@ -978,7 +978,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "titanium-plate", amount = 5},
+        {type = "item", name = "lead-container", amount = 1},
         {type = "item", name = "20-u-powder",    amount = 4},
         {type = "item", name = "coke",           amount = 10}
     },
@@ -1003,6 +1003,10 @@ RECIPE {
     }
 }:add_unlock("uranium-mk02")
 
+if not mods.pyalternativeenergy then
+    RECIPE("fuelrod-mk01-2"):replace_ingredient("niobium-plate", {type = "item", name = "lead-container", amount = 1})
+end
+
 RECIPE {
     type = "recipe",
     name = "fuelrod-mk01-3",
@@ -1018,6 +1022,10 @@ RECIPE {
         {type = "item", name = "fuelrod-mk01", amount = 8}
     }
 }:add_unlock("uranium-mk03")
+
+if not mods.pyalternativeenergy then
+    RECIPE("fuelrod-mk01-3"):replace_ingredient("niobium-plate", {type = "item", name = "lead-container", amount = 1})
+end
 
 RECIPE {
     type = "recipe",

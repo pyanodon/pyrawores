@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "ti-pulp-04",
-    category = "chemistry", --pyfe thickener
+    category = "thickener", --pyfe thickener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -9,8 +9,8 @@ RECIPE {
         {type = "fluid", name = "water",             amount = 100},
     },
     results = {
-        {type = "fluid", name = "ti-pulp-04",        amount = 100},
-        {type = "fluid", name = "tailings", amount = 50},
+        {type = "fluid", name = "ti-pulp-04", amount = 100},
+        {type = "fluid", name = "tailings",   amount = 50},
     },
     main_product = "ti-pulp-04",
     subgroup = "py-rawores-titanium",

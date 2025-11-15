@@ -17,6 +17,10 @@ RECIPE {
     order = "q-2"
 }:add_unlock("uranium-mk04")
 
+if mods.pyalternativeenergy then
+    RECIPE("u-81"):replace_ingredient("water", "soda-ash")
+end
+
 
 FLUID {
     type = "fluid",

@@ -7,10 +7,11 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "slz-pulp-02", amount = 100},
         {type = "fluid", name = "z3-reagent",  amount = 50},
+        {type = "fluid", name = "pressured-air", amount = 50},,
         --pyfe pressured air
     },
     results = {
-        {type = "fluid", name = "sl-01",             amount = 50},
+        {type = "fluid", name = "sl-01",    amount = 50},
         --{type = "fluid", name = "zn-pulp-01", amount = 50},
         {type = "fluid", name = "tailings", amount = 100},
     },
@@ -29,6 +30,7 @@ RECIPE {
         {type = "item",  name = "lead-refined-dust-03", amount = 3},
         {type = "fluid", name = "oleochemicals",        amount = 150},
         {type = "fluid", name = "z3-reagent",           amount = 150},
+        {type = "fluid", name = "pressured-air",        amount = 350},
         --pyfe pressured air
     },
     results = {

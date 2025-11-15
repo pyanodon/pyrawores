@@ -45,7 +45,7 @@ RECIPE {
         {type = "fluid", name = "water",        amount = 200}
     },
     results = {
-        {type = "item",  name = "grade-3-zinc",      amount = 5},
+        {type = "item",  name = "grade-3-zinc", amount = 5},
         {type = "fluid", name = "muddy-sludge", amount = 50}
     },
     main_product = "grade-3-zinc",
@@ -72,11 +72,11 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "powdered-zinc",
-    category = "solid-separator", --pyfe screener
+    category = "screener", --pyfe screener
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "grade-4-zinc", amount = 1}
+        {type = "item", name = "grade-4-zinc", amount = 1},
     },
     results = {
         {type = "item", name = "powdered-zinc", amount = 1},
@@ -91,12 +91,13 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "purified-zinc",
-    category = "chemistry", --pyfe grease
+    category = "grease", --pyfe grease
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "zinc-pulp-03",     amount = 200},
-        {type = "item",  name = "sodium-hydroxide", amount = 5}
+        {type = "item",  name = "sodium-hydroxide", amount = 5},
+        {type = "fluid", name = "grease",           amount = 25},
     },
     results = {
         {type = "item",  name = "purified-zinc", amount = 2},
@@ -151,7 +152,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "high-grade-zinc", amount = 1},
         {type = "item",  name = "sodium-sulfate",  amount = 2},
-        {type = "fluid", name = "diesel",          amount = 50}
+        {type = "fluid", name = "diesel",          amount = 50},
+        {type = "fluid", name = "pressured-air",   amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -168,9 +170,10 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item",  name = "reduced-zinc", amount = 1},
-        {type = "item",  name = "lime",         amount = 3},
-        {type = "fluid", name = "syngas",       amount = 100}
+        {type = "item",  name = "reduced-zinc",  amount = 1},
+        {type = "item",  name = "lime",          amount = 3},
+        {type = "fluid", name = "syngas",        amount = 100},
+        {type = "fluid", name = "pressured-air", amount = 100},
         --pyfe pressured air
     },
     results = {

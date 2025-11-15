@@ -1,13 +1,14 @@
 RECIPE {
     type = "recipe",
     name = "zinc-pulp-04",
-    category = "chemistry", --pyfe agitator
+    category = "agitator", --pyfe agitator
     enabled = false,
     energy_required = 12,
     ingredients = {
         {type = "item",  name = "concentrated-zinc", amount = 5},
         {type = "item",  name = "lime",              amount = 17},
-        {type = "fluid", name = "water",             amount = 100}
+        {type = "fluid", name = "water",             amount = 100},
+        {type = "fluid", name = "soda-ash",          amount = 300}
     },
     results = {
         {type = "fluid", name = "zinc-pulp-04", amount = 250}
@@ -20,16 +21,16 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "zinc-pulp-04-2",
-    category = "chemistry", --pyfe thickener
+    category = "thickener", --pyfe thickener
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "zinc-waste", amount = 150},
-        {type = "fluid", name = "water",      amount = 400}
+        {type = "fluid", name = "water",      amount = 400},
     },
     results = {
-        {type = "fluid", name = "zinc-pulp-04",      amount = 50},
-        {type = "fluid", name = "tailings", amount = 50}
+        {type = "fluid", name = "zinc-pulp-04", amount = 50},
+        {type = "fluid", name = "tailings",     amount = 50}
     },
     main_product = "zinc-pulp-04",
     subgroup = "py-rawores-zinc",

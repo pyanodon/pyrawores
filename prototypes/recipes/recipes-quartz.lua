@@ -39,7 +39,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "purified-quartz",
-    category = "leaching", --pyFE pan
+    category = "pan", --pyFE pan
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -47,8 +47,8 @@ RECIPE {
         {type = "fluid", name = "creosote",        amount = 80},
     },
     results = {
-        {type = "item",  name = "purified-quartz",   amount = 1},
-        {type = "fluid", name = "tailings", amount = 50}
+        {type = "item",  name = "purified-quartz", amount = 1},
+        {type = "fluid", name = "tailings",        amount = 50}
     },
     main_product = "purified-quartz",
     icon = "__pyraworesgraphics__/graphics/icons/purified-quartz.png",
@@ -68,7 +68,7 @@ RECIPE {
     },
     results = {
         {type = "item",  name = "high-grade-quartz", amount = 2},
-        {type = "fluid", name = "tailings", amount = 80}
+        {type = "fluid", name = "tailings",          amount = 80}
     },
     main_product = "high-grade-quartz",
     icon = "__pyraworesgraphics__/graphics/icons/high-grade-quartz.png",
@@ -131,7 +131,7 @@ RECIPE {
         {type = "fluid", name = "molten-glass", amount = 30}
     },
     --main_product= "glass",
-    icons = py.composite_icon("molten-glass", "crushed-quartz"),    
+    icons = py.composite_icon("molten-glass", "crushed-quartz"),
     subgroup = "py-rawores-quartz",
     order = "aae"
 }:add_unlock("quartz-mk01")

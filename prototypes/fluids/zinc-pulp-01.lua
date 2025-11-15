@@ -7,6 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "zinc-overflow", amount = 400},
         {type = "fluid", name = "cresylic-acid", amount = 30},
+        {type = "fluid", name = "pressured-air", amount = 100},
     },
     results = {
         {type = "fluid", name = "zinc-pulp-01", amount = 400},

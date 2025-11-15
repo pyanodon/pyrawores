@@ -26,6 +26,7 @@ RECIPE {
         {type = "item", name = "engine-unit",       amount = 5},
         {type = "item", name = "nexelit-plate",     amount = 15},
         {type = "item", name = "advanced-circuit",  amount = 10},
+        {type = "item", name = "nbti-alloy",        amount = 20},
     },
     results = {
         {type = "item", name = "electrolyzer-mk02", amount = 1}
@@ -47,7 +48,11 @@ RECIPE {
         {type = "item", name = "stainless-steel",      amount = 20},
         {type = "item", name = "tin-plate",            amount = 20},
         {type = "item", name = "electric-engine-unit", amount = 10},
-        {type = "item", name = "processing-unit",      amount = 10}
+        {type = "item", name = "processing-unit",      amount = 10},
+        {type = "item", name = "super-alloy",          amount = 10},
+        {type = "item", name = "boron-carbide",        amount = 30},
+        {type = "item", name = "science-coating",      amount = 1},
+        {type = "item", name = "control-unit",         amount = 5},
     },
     results = {
         {type = "item", name = "electrolyzer-mk03", amount = 1}

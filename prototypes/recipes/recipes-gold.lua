@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "gold-precipitate",
-    category = "chemistry", --pyfe agitator
+    category = "agitator", --pyfe agitator
     enabled = false,
     energy_required = 3,
     ingredients = {

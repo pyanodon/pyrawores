@@ -9,7 +9,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 200},
     },
     results = {
-        {type = "fluid", name = "u-15",              amount = 25},
+        {type = "fluid", name = "u-15",     amount = 25},
         {type = "fluid", name = "tailings", amount = 50},
     },
     main_product = "u-15",
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "u-15-2",
-    category = "chemistry", --thickener
+    category = not mods.pyalternativeenergy and "thickener" or "chemistry", --thickener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -28,7 +28,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 200},
     },
     results = {
-        {type = "fluid", name = "u-15",              amount = 25},
+        {type = "fluid", name = "u-15",     amount = 25},
         {type = "fluid", name = "tailings", amount = 50},
     },
     main_product = "u-15",

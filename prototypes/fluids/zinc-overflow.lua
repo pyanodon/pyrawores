@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "zinc-overflow",
-    category = "chemistry", --pyfe jig
+    category = "jig", --pyfe jig
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -10,8 +10,8 @@ RECIPE {
         {type = "fluid", name = "kerosene",      amount = 50}
     },
     results = {
-        {type = "fluid", name = "zinc-overflow",     amount = 50},
-        {type = "fluid", name = "tailings", amount = 50}
+        {type = "fluid", name = "zinc-overflow", amount = 50},
+        {type = "fluid", name = "tailings",      amount = 50}
     },
     main_product = "zinc-overflow",
     icon = "__pyraworesgraphics__/graphics/icons/zinc-overflow.png",

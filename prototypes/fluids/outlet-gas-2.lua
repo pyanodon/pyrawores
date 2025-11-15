@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "outlet-gas-02",
-    category = mods.pyhightech and "chemistry" or "fbreactor", --pyfe gasseparator -- pyht fbreactor
+    category = mods.pyhightech and "gas-separator" or "fbreactor", --pyfe gasseparator -- pyht fbreactor
     enabled = false,
     energy_required = 3,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "u-23",
-    category = "chemistry", --thickener
+    category = mods.pyalternativeenergy and "thickener" or "chemistry", --thickener
     enabled = false,
     energy_required = 3,
     ingredients = {

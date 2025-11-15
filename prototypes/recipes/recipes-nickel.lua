@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-nickel",
-    category = "solid-separator", --pyFE screener
+    category = "screener", --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -41,7 +41,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nickel-rejects-recrush",
-    category = "crusher", --pyfe secondary-crusher
+    category = "secondary-crusher", --pyfe secondary-crusher
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -117,7 +117,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "high-grade-nickel", amount = 1},
         {type = "item",  name = "sodium-sulfate",    amount = 2},
-        {type = "fluid", name = "diesel",            amount = 50}
+        {type = "fluid", name = "diesel",            amount = 50},
+        {type = "fluid", name = "pressured-air",     amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -136,7 +137,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "reduced-nickel", amount = 1},
         {type = "item",  name = "lime",           amount = 3},
-        {type = "fluid", name = "syngas",         amount = 100}
+        {type = "fluid", name = "syngas",         amount = 100},
+        {type = "fluid", name = "pressured-air",  amount = 100},
         --pyfe pressured air
     },
     results = {

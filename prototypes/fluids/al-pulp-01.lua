@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "al-pulp-01",
-    category = "chemistry", --pyfe mixer
+    category = "mixer", --pyfe mixer
     enabled = false,
     energy_required = 3,
     ingredients = {

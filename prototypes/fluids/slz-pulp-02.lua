@@ -5,8 +5,8 @@ RECIPE {
     enabled = false,
     energy_required = 1,
     ingredients = {
-        {type = "fluid", name = "slz-pulp-01",     amount = 300},
-        {type = "fluid", name = "organic-solvent", amount = 50}, --pyfe soda-ash
+        {type = "fluid", name = "slz-pulp-01", amount = 300},
+        {type = "fluid", name = "soda-ash",    amount = 50}, --pyfe soda-ash
 
     },
     results = {

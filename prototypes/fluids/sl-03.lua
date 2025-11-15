@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "sl-03",
-    category = "chemistry", --pyFE thickener
+    category = "thickener", --pyFE thickener
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -9,7 +9,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 300},
     },
     results = {
-        {type = "fluid", name = "sl-03",             amount = 50},
+        {type = "fluid", name = "sl-03",    amount = 50},
         {type = "fluid", name = "tailings", amount = 100},
     },
     main_product = "sl-03",

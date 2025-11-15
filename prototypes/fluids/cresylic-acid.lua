@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "cresylic-acid",
-    category = "chemistry",
+    category = "mixer",
     enabled = false,
     energy_required = 5,
     ingredients = {

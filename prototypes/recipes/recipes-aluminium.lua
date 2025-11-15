@@ -27,7 +27,8 @@ RECIPE {
         {type = "fluid", name = "al-pulp-04",       amount = 300},
         {type = "fluid", name = "water",            amount = 300},
         {type = "item",  name = "sodium-hydroxide", amount = 5},
-        {type = "item",  name = "starch",           amount = 5}
+        {type = "item",  name = "starch",           amount = 5},
+        {type = "item",  name = "sodium-chlorate",  amount = 5},
     },
     results = {
         {type = "item",  name = "sodium-aluminate", amount = 4},
@@ -45,7 +46,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "item",  name = "sodium-aluminate", amount = 8},
-        {type = "fluid", name = "steam",            amount = 300} --pyfe pressured air
+        {type = "fluid", name = "pressured-air",    amount = 500} --pyfe pressured air
     },
     results = {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 2}
@@ -89,7 +90,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "high-grade-alumina", amount = 1},
         {type = "item",  name = "iron-oxide",         amount = 2},
-        {type = "fluid", name = "diesel",             amount = 50}
+        {type = "fluid", name = "diesel",             amount = 50},
+        {type = "fluid", name = "pressured-air",      amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -108,7 +110,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "reduced-aluminium", amount = 1},
         {type = "item",  name = "lime",              amount = 3},
-        {type = "fluid", name = "syngas",            amount = 100}
+        {type = "fluid", name = "syngas",            amount = 100},
+        {type = "fluid", name = "pressured-air",     amount = 100},
         --pyfe pressured air
     },
     results = {
