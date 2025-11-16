@@ -5,9 +5,9 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "fluid", name = "slz-pulp-02", amount = 100},
-        {type = "fluid", name = "z3-reagent",  amount = 50},
-        {type = "fluid", name = "pressured-air", amount = 50},,
+        {type = "fluid", name = "slz-pulp-02",   amount = 100},
+        {type = "fluid", name = "z3-reagent",    amount = 50},
+        {type = "fluid", name = "pressured-air", amount = 50},
         --pyfe pressured air
     },
     results = {
