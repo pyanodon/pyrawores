@@ -5,9 +5,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "u-79",  amount = 100},
-        {type = "fluid", name = "water", amount = 100}, --pyfe soda-ash
-        {type = "item",  name = "sand",  amount = 10},
+        {type = "fluid", name = "u-79",     amount = 100},
+        {type = "fluid", name = "soda-ash", amount = 100}, --pyfe soda-ash
+        {type = "item",  name = "sand",     amount = 10},
     },
     results = {
         {type = "fluid", name = "u-81", amount = 100},
@@ -16,11 +16,6 @@ RECIPE {
     subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("uranium-mk04")
-
-if mods.pyalternativeenergy then
-    RECIPE("u-81"):replace_ingredient("water", "soda-ash")
-end
-
 
 FLUID {
     type = "fluid",

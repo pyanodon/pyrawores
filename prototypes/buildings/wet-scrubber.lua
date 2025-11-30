@@ -27,7 +27,7 @@ RECIPE {
         {type = "item", name = "engine-unit",       amount = 5},
         {type = "item", name = "nexelit-plate",     amount = 15},
         {type = "item", name = "advanced-circuit",  amount = 10},
-        {type = "item", name = "nbti-alloy",        amount = 15},
+
     },
     results = {
         {type = "item", name = "wet-scrubber-mk02", amount = 1}
@@ -46,11 +46,8 @@ RECIPE {
         {type = "item", name = "stainless-steel",      amount = 20},
         {type = "item", name = "tin-plate",            amount = 20},
         {type = "item", name = "electric-engine-unit", amount = 4},
+        {type = "item", name = "nbti-alloy",           amount = 15},
         {type = "item", name = "processing-unit",      amount = 10},
-        {type = "item", name = "super-alloy",          amount = 10},
-        {type = "item", name = "wall-shield",          amount = 4},
-        {type = "item", name = "science-coating",      amount = 1},
-        {type = "item", name = "control-unit",         amount = 3},
     },
     results = {
         {type = "item", name = "wet-scrubber-mk03", amount = 1}
@@ -72,6 +69,10 @@ RECIPE {
         {type = "item", name = "super-steel",           amount = 30},
         {type = "item", name = "low-density-structure", amount = 15},
         {type = "item", name = "nbfe-alloy",            amount = 20},
+        {type = "item", name = "super-alloy",           amount = 10},
+        {type = "item", name = "wall-shield",           amount = 4},
+        {type = "item", name = "science-coating",       amount = 1},
+        {type = "item", name = "control-unit",          amount = 3},
     },
     results = {
         {type = "item", name = "wet-scrubber-mk04", amount = 1}

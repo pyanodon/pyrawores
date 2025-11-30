@@ -23,7 +23,7 @@ local cargo_bot =
 cargo_bot:add_unlock {"robotics"}
 
 if mods.pyhightech then
-    RECIPE("py-logistic-robot-mk02"):add_ingredient {type = "item", name = "nexelit-battery", amount = 1}
+    RECIPE("py-logistic-robot-mk02"):add_ingredient_unsafe {type = "item", name = "nexelit-battery", amount = 1}
 end
 
 ITEM {

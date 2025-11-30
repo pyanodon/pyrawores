@@ -93,10 +93,10 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "molten-steel",  amount = 100},
         {type = "item",  name = "sulfur",        amount = 1},
+        {type = "item",  name = "chromium",      amount = 7},
         {type = "item",  name = "copper-plate",  amount = 2},
         {type = "item",  name = "nickel-plate",  amount = 5},
         {type = "item",  name = "niobium-plate", amount = 2},
-        {type = "item",  name = "fecr-alloy",    amount = 5}
         --pyht phosphorous rock
     },
     results = {
@@ -109,7 +109,7 @@ RECIPE {
 }:add_unlock("stainless-steel-mk01")
 
 if mods.pyhightech then
-    RECIPE("molten-stainless-steel"):add_ingredient_unsafe {type = "item", name = "phosphate-rock", amount = 4}
+    RECIPE("molten-stainless-steel"):add_ingredient_unsafe {type = "item", name = "phosphate-rock", amount = 4}:add_ingredient_unsafe {type = "item", name = "fecr-alloy", amount = 5}:remove_ingredient("chromium")
 end
 
 RECIPE {

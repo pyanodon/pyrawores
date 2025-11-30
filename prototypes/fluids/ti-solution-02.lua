@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "ti-solution-02",
-    category = "agitator",
+    category = "flotation",
     enabled = false,
     energy_required = 4,
     ingredients = {

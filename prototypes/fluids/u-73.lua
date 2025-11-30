@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "u-73",
-    category = mods.pyalternativeenergy and "mixer" or "chemistry", --mixer
+    category = "mixer", --mixer
     enabled = false,
     energy_required = 3,
     ingredients = {

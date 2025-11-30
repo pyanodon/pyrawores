@@ -198,6 +198,10 @@ RECIPE {
     subgroup = "py-rawores-uranium",
 }:add_unlock("uranium-mk03")
 
+if mods.pyrawores then
+    RECIPE("fuelrod-mk04"):replace_ingredient_unsafe("lead-container", "coated-container")
+end
+
 RECIPE {
     type = "recipe",
     name = "fuelrod-mk05",
@@ -215,6 +219,10 @@ RECIPE {
     main_product = "fuelrod-mk05",
     subgroup = "py-rawores-uranium",
 }:add_unlock("uranium-mk04")
+
+if mods.pyrawores then
+    RECIPE("fuelrod-mk05"):replace_ingredient_unsafe("lead-container", "coated-container")
+end
 
 RECIPE {
     type = "recipe",

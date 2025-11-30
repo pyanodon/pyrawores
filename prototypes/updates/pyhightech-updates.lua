@@ -1,3 +1,5 @@
+--Most was removed see <commit link> for prev versions
+
 --TECHNOLOGY--
 -- TECHNOLOGY('coal-processing-3'):add_prereq('ht-trains')
 

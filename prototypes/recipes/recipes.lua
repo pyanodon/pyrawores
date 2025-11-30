@@ -418,7 +418,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "aramid",
-    category = "crafting-with-fluid",
+    category = "nmf",
     enabled = false,
     energy_required = 4,
     ingredients = {

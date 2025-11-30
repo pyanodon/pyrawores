@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "outlet-gas-02",
-    category = mods.pyhightech and "gas-separator" or "fbreactor", --pyfe gasseparator -- pyht fbreactor
+    category = mods.pyhightech and "fbreactor" or "gas-separator", --pyfe gasseparator -- pyht fbreactor
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -16,10 +16,6 @@ RECIPE {
     subgroup = "py-rawores-coke",
     order = "q-2"
 }:add_unlock("coke-mk02")
-
-if mods.pyhightech then
-
-end
 
 FLUID {
     type = "fluid",
