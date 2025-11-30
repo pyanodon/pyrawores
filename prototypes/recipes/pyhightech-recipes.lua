@@ -1,4 +1,4 @@
---DEPRECIATED--
+--DEPRECIATED see commit for more details--
 --[[RECIPE {
     type = "recipe",
     name = "hydrogen-chloride-2",
