@@ -8,6 +8,7 @@ RECIPE {
         {type = "item",  name = "iron-oxide",     amount = 10},
         {type = "item",  name = "sodium-sulfate", amount = 2},
         {type = "fluid", name = "light-oil",      amount = 100},
+        {type = "fluid", name = "pressured-air",  amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -36,6 +37,10 @@ RECIPE {
     subgroup = "py-rawores-iron-alloys",
     order = "baa"
 }:add_unlock("steel-mk03")
+
+if mods.pyhightech then
+    RECIPE("molten-steel-02"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
 
 RECIPE {
     type = "recipe",
@@ -103,6 +108,10 @@ RECIPE {
     order = "daa"
 }:add_unlock("stainless-steel-mk01")
 
+if mods.pyhightech then
+    RECIPE("molten-stainless-steel"):add_ingredient_unsafe {type = "item", name = "phosphate-rock", amount = 4}:add_ingredient_unsafe {type = "item", name = "fecr-alloy", amount = 5}:remove_ingredient("chromium")
+end
+
 RECIPE {
     type = "recipe",
     name = "stainless-steel",
@@ -135,6 +144,8 @@ RECIPE {
         {type = "item",  name = "fuelrod-mk02",           amount = 3},
         {type = "item",  name = "niobium-plate",          amount = 1},
         {type = "item",  name = "titanium-plate",         amount = 4},
+        {type = "item",  name = "molybdenum-plate",       amount = 1},
+        {type = "item",  name = "vanadium-oxide",         amount = 2},
     },
     results = {
         {type = "fluid", name = "molten-super-steel", amount = 50},
@@ -144,6 +155,10 @@ RECIPE {
     subgroup = "py-rawores-iron-alloys",
     order = "faa"
 }:add_unlock("super-steel-mk01")
+
+if mods.pyhightech then
+    RECIPE("molten-super-steel"):add_ingredient_unsafe {type = "item", name = "silicon", amount = 2}
+end
 
 RECIPE {
     type = "recipe",
@@ -221,6 +236,10 @@ RECIPE {
     order = "dad"
 }:add_unlock("stainless-steel-mk02")
 
+if mods.pyhightech then
+    RECIPE("full-molten-stainless-steel-3"):add_ingredient_unsafe {type = "item", name = "phosphate-rock", amount = 4}
+end
+
 RECIPE {
     type = "recipe",
     name = "full-molten-stainless-steel-4",
@@ -272,6 +291,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "molten-super-steel-p1", amount = 50},
         {type = "fluid", name = "molten-titanium",       amount = 20},
+        {type = "item",  name = "vanadium-oxide",        amount = 3},
     },
     results = {
         {type = "fluid", name = "molten-super-steel-p2", amount = 60},
@@ -290,6 +310,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "molten-super-steel-p2", amount = 60},
+        {type = "item",  name = "molybdenum-oxide",      amount = 4},
     },
     results = {
         {type = "fluid", name = "molten-super-steel", amount = 100},
@@ -299,3 +320,7 @@ RECIPE {
     subgroup = "py-rawores-iron-alloys",
     order = "fad"
 }:add_unlock("super-steel-mk02")
+
+if mods.pyhightech then
+    RECIPE("full-molten-super-steel-3"):add_ingredient_unsafe {type = "item", name = "silicon", amount = 2}
+end

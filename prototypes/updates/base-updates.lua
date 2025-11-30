@@ -35,6 +35,12 @@ RECIPE("atomic-bomb"):remove_ingredient("uranium-235"):add_ingredient {type = "i
 RECIPE("kovarex-enrichment-process"):set_fields {energy_required = 5}
 RECIPE("electric-engine-unit"):remove_ingredient("copper-cable"):add_ingredient {type = "item", name = "copper-cable", amount = 150}:add_ingredient {type = "item", name = "aluminium-plate", amount = 10}:add_ingredient {type = "item", name = "bolts", amount = 20} --:remove_ingredient("engine-unit")
 RECIPE("low-density-structure").category = "py-rawores-smelter"
+RECIPE("express-splitter"):add_ingredient {type = "item", name = "super-alloy", amount = 1}
+RECIPE("express-underground-belt"):add_ingredient {type = "item", name = "super-alloy", amount = 1}
+RECIPE("express-transport-belt"):add_ingredient {type = "item", name = "super-alloy", amount = 1}
+RECIPE("nuclear-reactor"):add_ingredient {type = "item", name = "super-steel", amount = 100}
+RECIPE("substation"):replace_ingredient("steel", "super-alloy")
+RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-steel"):remove_ingredient("steel-plate")
 
 -- ENTITY CHANGES
 data.raw.reactor["nuclear-reactor"].use_fuel_glow_color = true

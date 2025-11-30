@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "conditioned-fines",
-    category = "chemistry",
+    category = "pan",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "conditioned-fines", amount = 100},
-        {type = "fluid", name = "tailings", amount = 50},
+        {type = "fluid", name = "tailings",          amount = 50},
     },
     main_product = "conditioned-fines",
     subgroup = "py-rawores-coal",

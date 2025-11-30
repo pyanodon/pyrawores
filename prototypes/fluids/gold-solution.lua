@@ -17,6 +17,10 @@ RECIPE {
     order = "q-2"
 }:add_unlock("gold")
 
+if mods.pyhightech then
+    RECIPE("gold-solution"):replace_ingredient_unsafe("water", {type = "fluid", name = "ammonia", amount = 200})
+end
+
 FLUID {
     type = "fluid",
     name = "gold-solution",

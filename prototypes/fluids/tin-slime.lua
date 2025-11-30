@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "tin-slime",
-    category = "chemistry", --pyfe hydrocyclone
+    category = "hydrocyclone", --pyfe hydrocyclone
     enabled = false,
     energy_required = 3,
     ingredients = {

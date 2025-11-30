@@ -4,11 +4,13 @@ RECIPE {
     category = "distilator",
     enabled = false,
     energy_required = 5,
-    ingredients = {},
+    ingredients = {
+        {name = "pressured-air", type = "fluid", amount = 100}
+    },
     results = {
         {type = "fluid", name = "purest-nitrogen-gas", amount = 60},
         {type = "fluid", name = "nitrogen",            amount = 20},
-        {type = "fluid", name = "oxygen",              amount = 20}
+        {type = "fluid", name = "oxygen",              amount = 20},
     },
     main_product = "purest-nitrogen-gas",
     subgroup = "py-rawores-fluids",

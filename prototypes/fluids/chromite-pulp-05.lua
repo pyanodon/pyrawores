@@ -7,6 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "chromite-pulp-06", amount = 100},
         {type = "fluid", name = "glycerol",         amount = 100},
+        {type = "fluid", name = "pressured-air",    amount = 150},
     },
     results = {
         {type = "fluid", name = "chromite-pulp-05", amount = 50},

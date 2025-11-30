@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "water",            amount = 100},
         {type = "item",  name = "ti-enriched-dust", amount = 6},
-        {type = "item",  name = "sodium-carbonate", amount = 2} --pyfe sodium chlorate
+        {type = "item",  name = "sodium-chlorate",  amount = 2} --pyfe sodium chlorate
     },
     results = {
         {type = "fluid", name = "ti-pulp-01", amount = 300}

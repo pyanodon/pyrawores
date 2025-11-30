@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "ti-pulp-06",
-    category = "chemistry", --pyfe pan
+    category = "pan", --pyfe pan
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -9,8 +9,8 @@ RECIPE {
         {type = "fluid", name = "ti-pulp-05", amount = 500},
     },
     results = {
-        {type = "fluid", name = "tailings", amount = 100},
-        {type = "fluid", name = "ti-pulp-06",        amount = 500},
+        {type = "fluid", name = "tailings",   amount = 100},
+        {type = "fluid", name = "ti-pulp-06", amount = 500},
     },
     main_product = "ti-pulp-06",
     subgroup = "py-rawores-titanium",

@@ -7,6 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "nickel-pulp-01", amount = 100},
         {type = "fluid", name = "water",          amount = 200},
+        {type = "fluid", name = "pressured-air",  amount = 150},
         --pyfe pressured air
     },
     results = {

@@ -1,12 +1,12 @@
 RECIPE {
     type = "recipe",
     name = "ti-pulp-02",
-    category = "chemistry", --pyfe grease table
+    category = "grease", --pyfe grease table
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "ti-pulp-01", amount = 400},
-        {type = "fluid", name = "heavy-oil",  amount = 100}, --pyfe grease
+        {type = "fluid", name = "grease",     amount = 50}, --pyfe grease
     },
     results = {
         {type = "fluid", name = "ti-pulp-02", amount = 400},

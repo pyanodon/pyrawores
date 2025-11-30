@@ -23,8 +23,9 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item",  name = "redhot-coke", amount = 6},
-        {type = "fluid", name = "water",       amount = 200}
+        {type = "item",  name = "redhot-coke",   amount = 6},
+        {type = "fluid", name = "water",         amount = 200},
+        {type = "fluid", name = "pressured-air", amount = 150},
         --pyfe pressured-air
     },
     results = {

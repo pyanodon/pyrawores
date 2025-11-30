@@ -39,7 +39,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-chromite-beneficiation",
-    category = "solid-separator", --pyFE screener
+    category = "screener", --pyFE screener
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -58,7 +58,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-4-chromite",
-    category = "chemistry", --pyFE hydrocyclone
+    category = "hydrocyclone", --pyFE hydrocyclone
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -97,7 +97,8 @@ RECIPE {
     energy_required = 6,
     ingredients = {
         {type = "fluid", name = "chromite-pulp-01", amount = 200},
-        {type = "fluid", name = "aerofloat-15",     amount = 50}
+        {type = "fluid", name = "aerofloat-15",     amount = 50},
+        {type = "fluid", name = "pressured-air",    amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -111,7 +112,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "recrush-processed-chromite",
-    category = "impact-crusher",
+    category = "secondary-crusher",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -295,6 +296,10 @@ RECIPE {
     order = "bac"
 }:add_unlock("chromium-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-chromium-01"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-chromium-02",
@@ -314,6 +319,10 @@ RECIPE {
     subgroup = "py-rawores-chromium",
     order = "baa"
 }:add_unlock("chromium-mk05")
+
+if mods.pyhightech then
+    RECIPE("molten-chromium-02"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
 
 RECIPE {
     type = "recipe",
@@ -335,6 +344,10 @@ RECIPE {
     order = "bab"
 }:add_unlock("chromium-mk04")
 
+if mods.pyhightech then
+    RECIPE("molten-chromium-03"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 --SINTER and DRP IMPROVEMENTS
 
 RECIPE {
@@ -346,7 +359,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "reduced-chromium", amount = 1},
         {type = "item",  name = "lime",             amount = 3},
-        {type = "fluid", name = "syngas",           amount = 100}
+        {type = "fluid", name = "syngas",           amount = 100},
+        {type = "fluid", name = "pressured-air",    amount = 100}
         --pyfe pressured air
     },
     results = {
@@ -365,7 +379,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "chromite-sand",    amount = 15},
         {type = "item",  name = "sodium-hydroxide", amount = 2},
-        {type = "fluid", name = "light-oil",        amount = 100}
+        {type = "fluid", name = "light-oil",        amount = 100},
+        {type = "fluid", name = "pressured-air",    amount = 100},
         --pyfe pressured air
     },
     results = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "prepared-nickel-pulp",
-    category = "chemistry", --pyfe hydrocyclone
+    category = "hydrocyclone", --pyfe hydrocyclone
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "prepared-nickel-pulp", amount = 50},
-        {type = "fluid", name = "tailings",    amount = 100}
+        {type = "fluid", name = "tailings",             amount = 100}
     },
     main_product = "prepared-nickel-pulp",
     subgroup = "py-rawores-nickel",

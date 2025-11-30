@@ -18,6 +18,10 @@ RECIPE {
     order = "q-2"
 }:add_unlock("nexelit-mk03")
 
+if mods.pyhightech then
+    RECIPE("nexelit-refined-pulp"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 FLUID {
     type = "fluid",
     name = "nexelit-refined-pulp",

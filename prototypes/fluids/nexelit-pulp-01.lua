@@ -1,13 +1,14 @@
 RECIPE {
     type = "recipe",
     name = "nexelit-pulp-01",
-    category = "chemistry", --pyfe pan
+    category = "pan", --pyfe pan
     enabled = false,
     energy_required = 20,
     ingredients = {
         {type = "item",  name = "fine-nexelit-powder", amount = 10},
         {type = "fluid", name = "glycerol",            amount = 25},
-        {type = "fluid", name = "syngas",              amount = 75}
+        {type = "fluid", name = "syngas",              amount = 75},
+        {type = "item",  name = "sodium-chlorate",     amount = 2},
         --pyfe sodium chlorate
     },
     results = {

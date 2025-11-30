@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "armac-12",
-    category = "chemistry", --pyfe mixer
+    category = "mixer", --pyfe mixer
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -17,6 +17,10 @@ RECIPE {
     subgroup = "py-rawores-recipes",
     order = "q-2"
 }:add_unlock("additives")
+
+if mods.pyhightech then
+    RECIPE("armac-12"):replace_ingredient_unsafe("chlorine", {type = "fluid", name = "ammonia", amount = 150})
+end
 
 
 FLUID {

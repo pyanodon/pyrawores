@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "grade-1-ti",
-    category = "solid-separator",
+    category = "screener",
     --pyFE screener
     enabled = false,
     energy_required = 3,
@@ -38,7 +38,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-ti",
-    category = "solid-separator",
+    category = "screener",
     --pyFE screener
     enabled = false,
     energy_required = 3,
@@ -58,7 +58,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ti-rejects-recrush",
-    category = "crusher",
+    category = "secondary-crusher",
     --pyFE secondary-crusher
     enabled = false,
     energy_required = 3,
@@ -94,7 +94,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "powdered-ti",
-    category = "chemistry", --pyFE jig
+    category = "jig", --pyFE jig
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -103,9 +103,9 @@ RECIPE {
         {type = "fluid", name = "mibc",       amount = 100}
     },
     results = {
-        {type = "item",  name = "powdered-ti",       amount = 2},
-        {type = "fluid", name = "ti-pulp-03",        amount = 60},
-        {type = "fluid", name = "tailings", amount = 40},
+        {type = "item",  name = "powdered-ti", amount = 2},
+        {type = "fluid", name = "ti-pulp-03",  amount = 60},
+        {type = "fluid", name = "tailings",    amount = 40},
     },
     main_product = "powdered-ti",
     subgroup = "py-rawores-titanium",
@@ -114,7 +114,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ti-enriched-dust",
-    category = "solid-separator",
+    category = "screener",
     --pyFE screener
     enabled = false,
     energy_required = 4,
@@ -183,6 +183,10 @@ RECIPE {
     subgroup = "py-rawores-titanium",
 }:add_unlock("titanium-mk03")
 
+if mods.pyhightech then
+    RECIPE("high-grade-ti"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 --SINTER and DRP IMPROVEMENTS
 
 RECIPE {
@@ -194,7 +198,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "high-grade-ti",  amount = 1},
         {type = "item",  name = "sodium-sulfate", amount = 2},
-        {type = "fluid", name = "diesel",         amount = 50}
+        {type = "fluid", name = "diesel",         amount = 50},
+        {type = "fluid", name = "pressured-air",  amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -211,9 +216,10 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item",  name = "reduced-ti", amount = 1},
-        {type = "item",  name = "lime",       amount = 3},
-        {type = "fluid", name = "syngas",     amount = 100}
+        {type = "item",  name = "reduced-ti",    amount = 1},
+        {type = "item",  name = "lime",          amount = 3},
+        {type = "fluid", name = "syngas",        amount = 100},
+        {type = "fluid", name = "pressured-air", amount = 100},
         --pyfe pressured air
     },
     results = {
