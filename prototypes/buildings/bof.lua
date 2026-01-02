@@ -113,7 +113,7 @@ for i = 1, 4 do
                 color = {0, 0, 0},
             },
             type = "burner",
-            fuel_categories = {"chemical", "biomass"},
+            fuel_categories = {"chemical", "biomass", i > 1 and "jerry" or nil},
             effectivity = 1,
             fuel_inventory_size = 1,
             burnt_inventory_size = 1,
