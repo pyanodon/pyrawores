@@ -3,6 +3,7 @@ Version: 3.0.26
 Date: ????
   Changes:
     - Fixed that basic oxygen furnace mk02+ could not burn jerry cans as fuel. Resolves https://github.com/pyanodon/pybugreports/issues/1343
+    - Fixed that casting unit would sometimes drop items on the ground instead of in containers or on belts. Resolves https://github.com/pyanodon/pybugreports/issues/1366
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.25
 Date: 2025-12-28
