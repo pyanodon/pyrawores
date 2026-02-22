@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "al-pulp-04",
-    category = "chemistry", --pyfe agitator
+    category = "agitator", --pyfe agitator
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -9,8 +9,8 @@ RECIPE {
         {type = "fluid", name = "water",      amount = 150},
     },
     results = {
-        {type = "fluid", name = "al-pulp-04",        amount = 50},
-        {type = "fluid", name = "tailings", amount = 100},
+        {type = "fluid", name = "al-pulp-04", amount = 50},
+        {type = "fluid", name = "tailings",   amount = 100},
     },
     main_product = "al-pulp-04",
     icon = "__pyraworesgraphics__/graphics/icons/al-pulp-04.png",

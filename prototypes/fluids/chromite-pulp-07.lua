@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "chromite-pulp-07",
-    category = "chemistry", --pyfe thickener
+    category = "thickener", --pyfe thickener
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -9,8 +9,8 @@ RECIPE {
         {type = "fluid", name = "water",            amount = 300},
     },
     results = {
-        {type = "fluid", name = "chromite-pulp-07",  amount = 100},
-        {type = "fluid", name = "tailings", amount = 200},
+        {type = "fluid", name = "chromite-pulp-07", amount = 100},
+        {type = "fluid", name = "tailings",         amount = 200},
     },
     main_product = "chromite-pulp-07",
     subgroup = "py-rawores-chromium",

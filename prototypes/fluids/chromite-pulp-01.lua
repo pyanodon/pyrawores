@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "chromite-pulp-01",
-    category = "chemistry", --pyFE agitator
+    category = "agitator", --pyFE agitator
     enabled = false,
     energy_required = 3,
     ingredients = {

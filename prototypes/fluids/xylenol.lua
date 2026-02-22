@@ -34,6 +34,10 @@ RECIPE {
     order = "q-1"
 }:add_unlock("additives")
 
+if mods.pyhightech then
+    RECIPE("xylenol-2"):add_ingredient_unsafe {type = "item", name = "phenol", amount = 10}
+end
+
 
 FLUID {
     type = "fluid",

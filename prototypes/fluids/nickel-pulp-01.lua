@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nickel-pulp-01",
-    category = "chemistry", --pyfe agitator
+    category = "agitator", --pyfe agitator
     enabled = false,
     energy_required = 3,
     ingredients = {

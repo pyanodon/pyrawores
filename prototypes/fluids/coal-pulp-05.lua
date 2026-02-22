@@ -5,8 +5,9 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "coal-pulp-04", amount = 100},
-        {type = "fluid", name = "methanol",     amount = 100},
+        {type = "fluid", name = "coal-pulp-04",  amount = 100},
+        {type = "fluid", name = "methanol",      amount = 100},
+        {type = "fluid", name = "pressured-air", amount = 150},
         --pyfe pressured air
     },
     results = {

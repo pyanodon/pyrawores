@@ -17,6 +17,10 @@ RECIPE {
     order = "q-2"
 }:add_unlock("nexelit-mk03")
 
+if mods.pyhightech then
+    RECIPE("nexelit-pulp-02"):replace_ingredient_unsafe("syngas", {type = "fluid", name = "acetone", amount = 50})
+end
+
 FLUID {
     type = "fluid",
     name = "nexelit-pulp-02",

@@ -26,8 +26,8 @@ RECIPE {
         {type = "fluid", name = "water",       amount = 100}
     },
     results = {
-        {type = "item",  name = "clean-nexelit",     amount = 1},
-        {type = "fluid", name = "muddy-sludge", amount = 100}
+        {type = "item",  name = "clean-nexelit", amount = 1},
+        {type = "fluid", name = "muddy-sludge",  amount = 100}
     },
     main_product = "clean-nexelit",
     icon = "__pyraworesgraphics__/graphics/icons/wash-nexelit.png",
@@ -57,7 +57,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-nexelit",
-    category = "solid-separator", --pyFE screener
+    category = "screener", --pyFE screener
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -93,7 +93,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nex-grade-2-crush",
-    category = "crusher", --pyfe secondary-crusher
+    category = "secondary-crusher", --pyfe secondary-crusher
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -172,7 +172,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "high-grade-nexelit", amount = 6},
         {type = "item",  name = "sodium-sulfate",     amount = 1},
-        {type = "fluid", name = "diesel",             amount = 150}
+        {type = "fluid", name = "diesel",             amount = 150},
+        {type = "fluid", name = "pressured-air",      amount = 450},
         --pyfe pressured air
     },
     results = {
@@ -191,7 +192,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "reduced-nexelit", amount = 1},
         {type = "item",  name = "lime",            amount = 3},
-        {type = "fluid", name = "syngas",          amount = 100}
+        {type = "fluid", name = "syngas",          amount = 100},
+        {type = "fluid", name = "pressured-air",   amount = 100},
         --pyfe pressured air
     },
     results = {

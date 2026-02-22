@@ -1,16 +1,16 @@
 RECIPE {
     type = "recipe",
     name = "tin-pulp-01",
-    category = "chemistry", --pyfe pan
+    category = "pan", --pyfe pan
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "tin-slime-overflow", amount = 100},
-        {type = "fluid", name = "nitrogen",           amount = 50}, --pyfe soda-ash
+        {type = "fluid", name = "soda-ash",           amount = 50}, --pyfe soda-ash
     },
     results = {
-        {type = "fluid", name = "tin-pulp-01",       amount = 100},
-        {type = "fluid", name = "tailings", amount = 50},
+        {type = "fluid", name = "tin-pulp-01", amount = 100},
+        {type = "fluid", name = "tailings",    amount = 50},
     },
     main_product = "tin-pulp-01",
     subgroup = "py-rawores-tin",

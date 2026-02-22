@@ -26,7 +26,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-iron",
-    category = "solid-separator", --pyfe screener
+    category = "screener", --pyfe screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -46,7 +46,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-iron-processing",
-    category = "solid-separator", --pyfe secondary-crusher
+    category = "secondary-crusher", --pyfe secondary-crusher
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -99,7 +99,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "iron-concentrate",
-    category = "chemistry", --pyfe jig
+    category = "jig", --pyfe jig
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -107,9 +107,9 @@ RECIPE {
         {type = "fluid", name = "water",        amount = 100},
     },
     results = {
-        {type = "item",  name = "iron-concentrate",  amount = 1},
-        {type = "fluid", name = "tailings", amount = 100},
-        {type = "fluid", name = "coal-slurry",       amount = 50},
+        {type = "item",  name = "iron-concentrate", amount = 1},
+        {type = "fluid", name = "tailings",         amount = 100},
+        {type = "fluid", name = "coal-slurry",      amount = 50},
     },
     main_product = "iron-concentrate",
     icon = "__pyraworesgraphics__/graphics/icons/iron-concentrate.png",
@@ -147,8 +147,8 @@ RECIPE {
         {type = "fluid", name = "water",      amount = 200},
     },
     results = {
-        {type = "fluid", name = "tailings", amount = 100},
-        {type = "item",  name = "unslimed-iron",     amount = 1},
+        {type = "fluid", name = "tailings",      amount = 100},
+        {type = "item",  name = "unslimed-iron", amount = 1},
     },
     main_product = "unslimed-iron",
     icons = py.composite_icon("unslimed-iron", "iron-slime"),
@@ -158,7 +158,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "unslimed-iron-2",
-    category = "hydroclassifier",
+    category = "hydrocyclone",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -166,8 +166,8 @@ RECIPE {
         {type = "fluid", name = "water",        amount = 200},
     },
     results = {
-        {type = "fluid", name = "tailings", amount = 100},
-        {type = "item",  name = "unslimed-iron",     amount = 1},
+        {type = "fluid", name = "tailings",      amount = 100},
+        {type = "item",  name = "unslimed-iron", amount = 1},
     },
     main_product = "unslimed-iron",
     icons = py.composite_icon("unslimed-iron", "iron-pulp-01"),
@@ -177,15 +177,15 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "iron-pulp-06-thickener",
-    category = "chemistry", --pyfe thickener
+    category = "thickener", --pyfe thickener
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "iron-pulp-06", amount = 100},
     },
     results = {
-        {type = "fluid", name = "tailings", amount = 50},
-        {type = "fluid", name = "iron-pulp-07",      amount = 50},
+        {type = "fluid", name = "tailings",     amount = 50},
+        {type = "fluid", name = "iron-pulp-07", amount = 50},
     },
     main_product = "iron-pulp-07",
     subgroup = "py-rawores-iron",
@@ -223,6 +223,7 @@ RECIPE {
         {type = "item",  name = "high-grade-iron", amount = 1},
         {type = "item",  name = "sodium-sulfate",  amount = 2},
         {type = "fluid", name = "diesel",          amount = 50},
+        {type = "fluid", name = "pressured-air",   amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -239,9 +240,10 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item",  name = "reduced-iron", amount = 1},
-        {type = "item",  name = "lime",         amount = 3},
-        {type = "fluid", name = "syngas",       amount = 100},
+        {type = "item",  name = "reduced-iron",  amount = 1},
+        {type = "item",  name = "lime",          amount = 3},
+        {type = "fluid", name = "syngas",        amount = 100},
+        {type = "fluid", name = "pressured-air", amount = 100},
         --pyfe pressured air
     },
     results = {

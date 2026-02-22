@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "iron-pulp-02",
-    category = "chemistry", --pyfe pan
+    category = "pan", --pyfe pan
     enabled = false,
     energy_required = 3,
     ingredients = {

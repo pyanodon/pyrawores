@@ -6,7 +6,8 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "iron-pulp-03",    amount = 500},
-        {type = "fluid", name = "organic-solvent", amount = 50}
+        {type = "fluid", name = "organic-solvent", amount = 50},
+        {type = "fluid", name = "pressured-air",   amount = 150},
     },
     results = {
         {type = "fluid", name = "iron-pulp-04", amount = 500}

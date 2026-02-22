@@ -10,6 +10,7 @@ RECIPE {
         {type = "item",  name = "high-grade-silver", amount = 1},
         {type = "item",  name = "sodium-sulfate",    amount = 2},
         {type = "fluid", name = "diesel",            amount = 50},
+        {type = "fluid", name = "pressured-air",     amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -29,6 +30,7 @@ RECIPE {
         {type = "item",  name = "reduced-silver", amount = 1},
         {type = "item",  name = "lime",           amount = 3},
         {type = "fluid", name = "syngas",         amount = 100},
+        {type = "fluid", name = "pressured-air",  amount = 100},
         --pyfe pressured air
     },
     results = {

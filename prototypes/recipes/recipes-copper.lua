@@ -8,7 +8,7 @@ RECIPE("copper-plate"):set("icons", py.composite_icon("copper-plate", "copper-or
 RECIPE {
     type = "recipe",
     name = "grade-2-copper",
-    category = "solid-separator", --pyfe screener
+    category = "screener", --pyfe screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -44,7 +44,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-copper",
-    category = "solid-separator", --pyfe screener
+    category = "screener", --pyfe screener
     enabled = false,
     energy_required = 2.5,
     ingredients = {
@@ -80,7 +80,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-4-copper",
-    category = "solid-separator", --pyfe screener
+    category = "screener", --pyfe screener
     enabled = false,
     energy_required = 2.5,
     ingredients = {
@@ -126,8 +126,8 @@ RECIPE {
         {type = "fluid", name = "water",           amount = 200}
     },
     results = {
-        {type = "item",  name = "low-grade-copper",  amount = 1},
-        {type = "fluid", name = "tailings", amount = 200}
+        {type = "item",  name = "low-grade-copper", amount = 1},
+        {type = "fluid", name = "tailings",         amount = 200}
     },
     main_product = "low-grade-copper",
     icon = "__pyraworesgraphics__/graphics/icons/wash-copper-low-dust.png",
@@ -138,7 +138,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-copper",
-    category = "chemistry", --pyfe agitador
+    category = "agitator", --pyfe agitador
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -146,7 +146,7 @@ RECIPE {
     },
     results = {
         {type = "item",  name = "high-grade-copper", amount = 1},
-        {type = "fluid", name = "tailings", amount = 100}
+        {type = "fluid", name = "tailings",          amount = 100}
     },
     main_product = "high-grade-copper",
     subgroup = "py-rawores-copper",
@@ -163,7 +163,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "high-grade-copper", amount = 1},
         {type = "item",  name = "sodium-sulfate",    amount = 2},
-        {type = "fluid", name = "diesel",            amount = 50}
+        {type = "fluid", name = "diesel",            amount = 50},
+        {type = "fluid", name = "pressured-air",     amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -182,7 +183,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "reduced-copper", amount = 1},
         {type = "item",  name = "lime",           amount = 3},
-        {type = "fluid", name = "syngas",         amount = 100}
+        {type = "fluid", name = "syngas",         amount = 100},
+        {type = "fluid", name = "pressured-air",  amount = 100},
         --pyfe pressured air
     },
     results = {

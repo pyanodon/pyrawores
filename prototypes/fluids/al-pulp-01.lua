@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "al-pulp-01",
-    category = "chemistry", --pyfe mixer
+    category = "mixer", --pyfe mixer
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -20,6 +20,9 @@ RECIPE {
     order = "cag"
 }:add_unlock("aluminium-mk02")
 
+if mods.pyhightech then
+    RECIPE("al-pulp-01"):replace_ingredient_unsafe("boric-acid", {type = "fluid", name = "phosphoric-acid", amount = 30})
+end
 
 FLUID {
     type = "fluid",

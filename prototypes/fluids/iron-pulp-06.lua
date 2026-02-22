@@ -6,12 +6,13 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "iron-pulp-05",  amount = 100},
-        {type = "fluid", name = "sulfuric-acid", amount = 50}
+        {type = "fluid", name = "sulfuric-acid", amount = 50},
+        {type = "fluid", name = "pressured-air", amount = 150},
     },
     results = {
-        {type = "fluid", name = "iron-pulp-06",      amount = 100},
-        {type = "fluid", name = "tailings", amount = 100},
-        {type = "fluid", name = "iron-pulp-02",      amount = 50}
+        {type = "fluid", name = "iron-pulp-06", amount = 100},
+        {type = "fluid", name = "tailings",     amount = 100},
+        {type = "fluid", name = "iron-pulp-02", amount = 50}
     },
     main_product = "iron-pulp-06",
     subgroup = "py-rawores-iron",

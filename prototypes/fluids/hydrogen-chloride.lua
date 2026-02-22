@@ -41,6 +41,10 @@ RECIPE {
     order = "j"
 }:add_unlock("salts")
 
+if mods.pyrawores then
+    RECIPE("sodium-bisulfate").category = "mixer"
+end
+
 RECIPE {
     type = "recipe",
     name = "sodium-sulfate",

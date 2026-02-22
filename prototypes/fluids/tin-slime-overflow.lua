@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "tin-slime-overflow",
-    category = "chemistry", --pyfe thickener
+    category = "thickener", --pyfe thickener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "tin-slime-overflow", amount = 100},
-        {type = "fluid", name = "tailings",  amount = 50},
+        {type = "fluid", name = "tailings",           amount = 50},
     },
     main_product = "tin-slime-overflow",
     subgroup = "py-rawores-tin",

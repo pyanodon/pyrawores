@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "u-83",
-    category = "chemistry", --agitator
+    category = "agitator", --agitator
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -15,6 +15,10 @@ RECIPE {
     subgroup = "py-rawores-uranium",
     order = "q-2"
 }:add_unlock("uranium-mk04")
+
+if mods.pyhightech then
+    RECIPE("u-83"):replace_ingredient_unsafe("nitrogen", {type = "fluid", name = "ammonia", amount = 100})
+end
 
 
 FLUID {

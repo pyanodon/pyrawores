@@ -16,6 +16,10 @@ RECIPE {
     order = "q-2"
 }:add_unlock("additives")
 
+if mods.pyhightech then
+    RECIPE("z3-reagent"):replace_ingredient_unsafe("sulfuric-acid", {type = "fluid", name = "phosphorous-acid", amount = 100}):replace_ingredient_unsafe("organic-solvent", {type = "fluid", name = "carbon-sulfide", amount = 100})
+end
+
 
 FLUID {
     type = "fluid",

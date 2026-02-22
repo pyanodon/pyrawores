@@ -7,10 +7,11 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "copper-solution", amount = 10},
         {type = "fluid", name = "acid-solvent",    amount = 10},
+        {type = "fluid", name = "grease",          amount = 10},
     },
     results = {
         {type = "fluid", name = "copper-pulp-01",           amount = 100},
-        {type = "fluid", name = "tailings",        amount = 50},
+        {type = "fluid", name = "tailings",                 amount = 50},
         {type = "fluid", name = "copper-pregnant-solution", amount = 20},
     },
     main_product = "copper-pulp-01",

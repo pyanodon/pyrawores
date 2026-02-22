@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "cresylic-acid",
-    category = "chemistry",
+    category = "mixer",
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -16,7 +16,9 @@ RECIPE {
     subgroup = "py-rawores-fluids",
     order = "q-2"
 }:add_unlock("additives")
-
+if mods.pyhightech then
+    RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient_unsafe {type = "item", name = "phenol", amount = 10}
+end
 
 FLUID {
     type = "fluid",

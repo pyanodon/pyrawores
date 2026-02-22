@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "quartz-pulp-01",
-    category = "chemistry", --pyfe hydrocyclone
+    category = "hydrocyclone", --pyfe hydrocyclone
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -9,8 +9,8 @@ RECIPE {
         {type = "fluid", name = "water",           amount = 100},
     },
     results = {
-        {type = "fluid", name = "quartz-pulp-01",    amount = 50},
-        {type = "fluid", name = "muddy-sludge", amount = 50}
+        {type = "fluid", name = "quartz-pulp-01", amount = 50},
+        {type = "fluid", name = "muddy-sludge",   amount = 50}
     },
     main_product = "quartz-pulp-01",
     icon = "__pyraworesgraphics__/graphics/icons/quartz-pulp-01.png",

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "sl-02",
-    category = "chemistry", --pyFE hydrocyclone
+    category = "hydrocyclone", --pyFE hydrocyclone
     enabled = false,
     energy_required = 2,
     ingredients = {

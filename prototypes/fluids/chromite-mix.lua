@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "chromite-mix",
-    category = "chemistry", --pyFE mixer
+    category = "mixer", --pyFE mixer
     enabled = false,
     energy_required = 5,
     ingredients = {
