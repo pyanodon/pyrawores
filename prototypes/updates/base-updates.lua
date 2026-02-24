@@ -1,10 +1,9 @@
 data.raw["autoplace-control"]["coal"] = nil
 
 -- TECH CHANGES
-data.raw.technology["uranium-processing"].enabled = false
-data.raw.technology["uranium-processing"].hidden = true
+TECHNOLOGY("uranium-processing"):hide().enabled = false
 --data.raw.technology["uranium-processing"] = nil
-TECHNOLOGY("kovarex-enrichment-process"):set_fields {enabled = false}:set_fields {hidden = true}
+TECHNOLOGY("kovarex-enrichment-process"):set_fields {enabled = false}:hide()
 TECHNOLOGY("robotics"):remove_prereq("construction-robotics"):add_prereq("logistic-robotics")
 TECHNOLOGY("construction-robotics"):remove_prereq("steel-processing")
 TECHNOLOGY("fluid-handling"):remove_prereq("automation"):remove_prereq("steel-processing")
@@ -24,10 +23,10 @@ TECHNOLOGY("atomic-bomb"):add_pack("space-science-pack")
 TECHNOLOGY("plastics"):remove_pack("logistic-science-pack")
 
 -- RECIPE UNLOCKS
-RECIPE("uranium-processing"):remove_unlock("uranium-processing"):set_fields {hidden = true}
+RECIPE("uranium-processing"):remove_unlock("uranium-processing"):hide()
 RECIPE("nuclear-fuel"):remove_unlock("kovarex-enrichment-process"):add_unlock("uranium-mk04")
-RECIPE("flying-robot-frame"):add_unlock("robotics"):set_fields {hidden = false}
-ITEM("flying-robot-frame"):set_fields {hidden = false}
+RECIPE("flying-robot-frame"):add_unlock("robotics"):unhide()
+ITEM("flying-robot-frame"):unhide()
 RECIPE("centrifuge"):remove_unlock("uranium-processing"):add_unlock("nuclear-fuel-reprocessing")
 
 -- RECIPE CHANGES

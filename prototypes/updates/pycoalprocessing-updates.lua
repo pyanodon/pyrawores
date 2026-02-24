@@ -20,9 +20,9 @@ TECHNOLOGY("energy-3"):remove_prereq("fuel-production")
 
 -- RECIPE UNLOCKS
 RECIPE("nichrome"):remove_unlock("chromium"):add_unlock("nichrome")
-RECIPE("tailings-copper-iron"):remove_unlock("separation"):set_fields {hidden = true}
+RECIPE("tailings-copper-iron"):remove_unlock("separation"):hide()
 RECIPE("sand-casting"):remove_unlock("nexelit"):add_unlock("casting-mk01")
-RECIPE("concrete-richclay"):remove_unlock("concrete"):set_fields {hidden = true}
+RECIPE("concrete-richclay"):remove_unlock("concrete"):hide()
 RECIPE("slacked-lime"):remove_unlock("filtration-mk02"):add_unlock("salts")
 RECIPE("glass-2"):remove_unlock("advanced-material-processing")
 RECIPE("powdered-quartz"):remove_unlock("advanced-material-processing")
@@ -47,17 +47,17 @@ TECHNOLOGY("fine-electronics"):add_prereq("iron-mk01"):add_prereq("lead-mk01")
 
 --RECIPES
 
-RECIPE("crushing-copper"):remove_unlock("advanced-material-processing"):set_fields {hidden = true}
-RECIPE("crushed-copper"):remove_unlock("advanced-material-processing"):set_fields {hidden = true}
-RECIPE("crushing-iron"):remove_unlock("advanced-material-processing"):set_fields {hidden = true}
-RECIPE("crushed-iron"):remove_unlock("advanced-material-processing"):set_fields {hidden = true}
-RECIPE("steel-plate2"):remove_unlock("advanced-material-processing-2"):set_fields {hidden = true}
+RECIPE("crushing-copper"):remove_unlock("advanced-material-processing"):hide()
+RECIPE("crushed-copper"):remove_unlock("advanced-material-processing"):hide()
+RECIPE("crushing-iron"):remove_unlock("advanced-material-processing"):hide()
+RECIPE("crushed-iron"):remove_unlock("advanced-material-processing"):hide()
+RECIPE("steel-plate2"):remove_unlock("advanced-material-processing-2"):hide()
 
 --ITEM("crushed-copper").hidden = true
 --ITEM("crushed-iron").hidden = true
 
 RECIPE("coke-coal"):remove_unlock("coal-processing-1"):add_unlock("coke-mk01") --:replace_ingredient("coal", "raw-coal")
-if RECIPE["fuelrod-mk01"] then RECIPE("fuelrod-mk01"):remove_unlock("advanced-material-processing-2"):set_fields {hidden = true} end
+if RECIPE["fuelrod-mk01"] then RECIPE("fuelrod-mk01"):remove_unlock("advanced-material-processing-2"):hide() end
 --RECIPE('advanced-foundry-mk01'):remove_unlock('nexelit'):add_unlock('smelters-mk01')
 RECIPE("filtration-media"):remove_unlock("advanced-oil-processing"):add_unlock("filtration")
 RECIPE("olefin-plant"):remove_unlock("lubricant"):add_unlock("fuel-production")
