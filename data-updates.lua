@@ -10,10 +10,6 @@ if mods["pyhightech"] then
     require "prototypes/updates/pyhightech-updates"
 end
 
-if mods["pypetroleumhandling"] then
-    require "prototypes/updates/pypetroleumhandling-updates"
-end
-
 if mods["pyalienlife"] then
     require "prototypes/updates/pyalienlife-updates"
 end

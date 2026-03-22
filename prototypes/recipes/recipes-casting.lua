@@ -132,6 +132,10 @@ RECIPE {
     order = "e"
 }:add_unlock("casting-mk03")
 
+if mods.pypetroleumhandling then
+    RECIPE("casting-engine-unit"):add_ingredient {type = "item", name = "belt", amount = 5}
+end
+
 RECIPE {
     type = "recipe",
     name = "casting-niobium-pipe",
