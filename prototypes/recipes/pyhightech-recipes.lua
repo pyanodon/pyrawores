@@ -141,7 +141,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "oxygen",                     amount = 5000},
-        {type = "item",  name = "crystallographic-substrate", amount = 1,   probability = 0.3}
+        {type = "item",  name = "crystallographic-substrate", amount = 1,   probability = 0.3, ignored_by_productivity = 1}
     },
     main_product = "oxygen",
     icons =
@@ -166,7 +166,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "helium",                     amount = 80},
-        {type = "item",  name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item",  name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1}
     },
     main_product = "helium",
     icons =
@@ -191,7 +191,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "hydrogen",                   amount = 2000},
-        {type = "item",  name = "crystallographic-substrate", amount = 1,   probability = 0.3}
+        {type = "item",  name = "crystallographic-substrate", amount = 1,   probability = 0.3, ignored_by_productivity = 1}
     },
     main_product = "hydrogen",
     icons =
@@ -216,7 +216,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "boron",                      amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1}
     },
     main_product = "boron",
     icons =
@@ -241,7 +241,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "coal",                       amount = 200},
-        {type = "item", name = "crystallographic-substrate", amount = 1,  probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1,  probability = 0.3, ignored_by_productivity = 1}
     },
     main_product = "coal",
     icons =
@@ -266,7 +266,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "aluminium-plate",            amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1}
     },
     main_product = "aluminium-plate",
     icons =
@@ -291,7 +291,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "nickel-plate",               amount = 20},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1}
     },
     main_product = "nickel-plate",
     icons =
@@ -316,7 +316,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "zinc-plate",                 amount = 20},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1}
     },
     main_product = "zinc-plate",
     icons =
@@ -341,7 +341,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "silver-plate",               amount = 20},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1}
     },
     main_product = "silver-plate",
     icons =
@@ -366,7 +366,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "gold-plate",                 amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1}
     },
     main_product = "gold-plate",
     icons =
@@ -391,7 +391,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "vanadium-oxide",             amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1}
     },
     main_product = "vanadium-oxide",
     icons =
