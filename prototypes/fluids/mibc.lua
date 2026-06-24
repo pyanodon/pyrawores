@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "mibc",
-    category = "chemistry", --pyfe mixer
+    categories = {"chemistry"}, --pyfe mixer
     enabled = false,
     energy_required = 4,
     ingredients = {

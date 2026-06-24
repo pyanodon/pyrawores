@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "ti-pulp-03",
-    category = "chemistry", --pyfe grease table
+    categories = {"chemistry"}, --pyfe grease table
     enabled = false,
     energy_required = 3,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "redhot-coke",
-    category = "bof",
+    categories = {"bof"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -19,7 +19,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "quench-redcoke",
-    category = "quenching-tower",
+    categories = {"quenching-tower"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -40,7 +40,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "outlet-gas-04-breakdown",
-    category = "wet-scrubber",
+    categories = {"wet-scrubber"},
     enabled = false,
     energy_required = 3,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nickel-overflow",
-    category = "leaching",
+    categories = {"leaching"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -19,7 +19,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nickel-overflow-2",
-    category = "chemistry", --ptfe pan
+    categories = {"chemistry"}, --ptfe pan
     enabled = false,
     energy_required = 3,
     ingredients = {

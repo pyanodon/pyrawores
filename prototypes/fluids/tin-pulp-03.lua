@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "tin-pulp-03",
-    category = "carbonfilter",
+    categories = {"carbonfilter"},
     enabled = false,
     energy_required = 4,
     ingredients = {

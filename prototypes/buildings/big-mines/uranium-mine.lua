@@ -43,7 +43,7 @@ ENTITY {
     collision_box = {{-5.3, -5.3}, {5.3, 5.3}},
     selection_box = {{-5.5, -5.5}, {5.5, 5.5}},
     input_fluid_box = {
-        pipe_picture = _G.assembler2pipepictures(),
+        pipe_picture = py.pipe_pictures("assembling-machine-2"),
         pipe_covers = _G.pipecoverspictures(),
         volume = 200,
         pipe_connections = {
@@ -72,9 +72,8 @@ ENTITY {
 
     },
     energy_usage = "2500kW",
-    mining_power = 6,
     resource_searching_radius = 0.49,
-    vector_to_place_result = {0, -5.65},
+    vector_to_place_result = {0, -5.8},
     radius_visualisation_picture = {
         filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-radius-visualization.png",
         width = 12,
@@ -131,6 +130,5 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyraworesgraphics__/sounds/uranium-mine.ogg", volume = 1},
         idle_sound = {filename = "__pyraworesgraphics__/sounds/uranium-mine.ogg", volume = 0.3},
-        apparent_volume = 2.5
     }
 }

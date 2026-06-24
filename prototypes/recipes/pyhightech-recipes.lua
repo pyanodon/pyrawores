@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "hydrogen-chloride-2",
-    category = "mixer", --pyfe mixer
+    categories = {"mixer"}, --pyfe mixer
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -23,7 +23,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fiberboard-mk02",
-    category = "pulp",
+    categories = {"pulp"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -42,7 +42,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fiberboard-3",
-    category = "pulp",
+    categories = {"pulp"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -61,7 +61,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "biofilm-pyht",
-    category = "nano",
+    categories = {"nano"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -78,7 +78,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "xylenol-3",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -96,7 +96,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ammonium-chloride-2",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -116,7 +116,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ammonia2",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -132,7 +132,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-oxygen",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -141,7 +141,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "oxygen",                     amount = 5000},
-        {type = "item",  name = "crystallographic-substrate", amount = 1,   probability = 0.3}
+        {type = "item",  name = "crystallographic-substrate", amount = 1,   independent_probability = 0.3}
     },
     main_product = "oxygen",
     icons =
@@ -157,7 +157,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-helium",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -166,7 +166,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "helium",                     amount = 80},
-        {type = "item",  name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item",  name = "crystallographic-substrate", amount = 1, independent_probability = 0.3}
     },
     main_product = "helium",
     icons =
@@ -182,7 +182,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-hydrogen",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -191,7 +191,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "hydrogen",                   amount = 2000},
-        {type = "item",  name = "crystallographic-substrate", amount = 1,   probability = 0.3}
+        {type = "item",  name = "crystallographic-substrate", amount = 1,   independent_probability = 0.3}
     },
     main_product = "hydrogen",
     icons =
@@ -207,7 +207,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-boron",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -216,7 +216,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "boron",                      amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3}
     },
     main_product = "boron",
     icons =
@@ -232,7 +232,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-coal2",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -241,7 +241,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "coal",                       amount = 200},
-        {type = "item", name = "crystallographic-substrate", amount = 1,  probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1,  independent_probability = 0.3}
     },
     main_product = "coal",
     icons =
@@ -257,7 +257,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-aluminium",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -266,7 +266,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "aluminium-plate",            amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3}
     },
     main_product = "aluminium-plate",
     icons =
@@ -282,7 +282,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-nickel",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -291,7 +291,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "nickel-plate",               amount = 20},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3}
     },
     main_product = "nickel-plate",
     icons =
@@ -307,7 +307,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-zinc",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -316,7 +316,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "zinc-plate",                 amount = 20},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3}
     },
     main_product = "zinc-plate",
     icons =
@@ -332,7 +332,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-silver",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -341,7 +341,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "silver-plate",               amount = 20},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3}
     },
     main_product = "silver-plate",
     icons =
@@ -357,7 +357,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-gold",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -366,7 +366,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "gold-plate",                 amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3}
     },
     main_product = "gold-plate",
     icons =
@@ -382,7 +382,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-vanadium2",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 45,
     ingredients = {
@@ -391,7 +391,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "vanadium-oxide",             amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3}
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3}
     },
     main_product = "vanadium-oxide",
     icons =
@@ -407,7 +407,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fertilizer-2",
-    category = "mixer",
+    categories = {"mixer"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -424,7 +424,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "aramid-2",
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -443,7 +443,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ceramic-2",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -460,7 +460,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "cyanic-acid-01",
-    category = "quenching-tower",
+    categories = {"quenching-tower"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -478,7 +478,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "collagen-glycerol",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -494,7 +494,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fecr-alloy-2",
-    category = "py-rawores-smelter",
+    categories = {"py-rawores-smelter"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -510,7 +510,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-ht-pipe",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -530,7 +530,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-ht-pipe-underground",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 5,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "ti-pulp-05",
-    category = "chemistry", --pyfe hydrocyclone
+    categories = {"chemistry"}, --pyfe hydrocyclone
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -9,7 +9,7 @@ RECIPE {
         {type = "fluid", name = "water",      amount = 1000}
     },
     results = {
-        {type = "item",  name = "grade-4-ti", amount = 1,  probability = 0.3},
+        {type = "item",  name = "grade-4-ti", amount = 1,  independent_probability = 0.3},
         {type = "fluid", name = "ti-pulp-05", amount = 500}
     },
     main_product = "ti-pulp-05",

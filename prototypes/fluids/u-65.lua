@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "u-65",
-    category = "chemistry", --hydrocyclone
+    categories = {"chemistry"}, --hydrocyclone
     enabled = false,
     energy_required = 3,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "grade-1-lead",
-    category = "solid-separator", --pyFE screener
+    categories = {"solid-separator"}, --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -9,7 +9,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-lead", amount = 1},
-        --{type = "item", name = "grade-2-lead", amount = 1, probability = 0.5}
+        --{type = "item", name = "grade-2-lead", amount = 1, independent_probability = 0.5}
     },
     main_product = "grade-1-lead",
     icon = "__pyraworesgraphics__/graphics/icons/ore-lead-screening.png",
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-lead-crusher",
-    category = "impact-crusher",
+    categories = {"impact-crusher"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -39,14 +39,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-lead",
-    category = "solid-separator", --pyFE screener
+    categories = {"solid-separator"}, --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item", name = "grade-2-lead", amount = 2}
     },
     results = {
-        {type = "item", name = "grade-1-lead", amount = 1, probability = 0.5},
+        {type = "item", name = "grade-1-lead", amount = 1, independent_probability = 0.5},
         {type = "item", name = "grade-3-lead", amount = 1}
     },
     main_product = "grade-3-lead",
@@ -58,7 +58,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-crush-lead",
-    category = "crusher", --pyfe secondary-crusher
+    categories = {"crusher"}, --pyfe secondary-crusher
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -76,7 +76,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "lead-refined-dust-02",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 2.5,
     ingredients = {
@@ -92,7 +92,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "lead-refined-dust-03",
-    category = "solid-separator", --pyfe screener
+    categories = {"solid-separator"}, --pyfe screener
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -109,7 +109,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sl-concentrate",
-    category = "carbonfilter",
+    categories = {"carbonfilter"},
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -126,7 +126,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-sl",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     enabled = false,
     energy_required = 3.0,
     ingredients = {
@@ -142,7 +142,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-silv",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     enabled = false,
     energy_required = 3.0,
     ingredients = {
@@ -160,7 +160,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reduction-lead",
-    category = "drp",
+    categories = {"drp"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -179,7 +179,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-lead-2",
-    category = "sinter",
+    categories = {"sinter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -200,7 +200,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-lead-01",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -219,7 +219,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-lead-02",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -238,7 +238,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-lead-03",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -257,7 +257,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-lead-04",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -276,7 +276,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-lead-05",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -297,7 +297,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "lead-plate-3",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -318,7 +318,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "lead-plate-1",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -337,7 +337,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "lead-plate-2",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = false,
     energy_required = 40,
     ingredients = {

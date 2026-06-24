@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "ti-pulp-04",
-    category = "chemistry", --pyfe thickener
+    categories = {"chemistry"}, --pyfe thickener
     enabled = false,
     energy_required = 3,
     ingredients = {

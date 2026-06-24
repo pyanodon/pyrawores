@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "coal-fines",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 2,
     ingredients = {

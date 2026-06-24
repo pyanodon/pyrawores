@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "sl-03",
-    category = "chemistry", --pyFE thickener
+    categories = {"chemistry"}, --pyFE thickener
     enabled = false,
     energy_required = 2,
     ingredients = {

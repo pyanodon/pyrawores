@@ -7,7 +7,7 @@ RECIPE("iron-plate"):set("icons", py.composite_icon("iron-plate", "iron-ore"))
 RECIPE {
     type = "recipe",
     name = "grade-1-iron-crush",
-    category = "crusher",
+    categories = {"crusher"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -26,7 +26,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-iron",
-    category = "solid-separator", --pyfe screener
+    categories = {"solid-separator"}, --pyfe screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -34,8 +34,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-iron", amount = 1},
-        {type = "item", name = "grade-2-iron", amount = 1, probability = 0.5},
-        {type = "item", name = "grade-3-iron", amount = 1, probability = 0.5},
+        {type = "item", name = "grade-2-iron", amount = 1, independent_probability = 0.5},
+        {type = "item", name = "grade-3-iron", amount = 1, independent_probability = 0.5},
     },
     main_product = "grade-1-iron",
     icon = "__pyraworesgraphics__/graphics/icons/processed-iron-ore-screening.png",
@@ -46,7 +46,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-iron-processing",
-    category = "solid-separator", --pyfe secondary-crusher
+    categories = {"solid-separator"}, --pyfe secondary-crusher
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -64,14 +64,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-crush",
-    category = "impact-crusher",
+    categories = {"impact-crusher"},
     enabled = false,
     energy_required = 1,
     ingredients = {
         {type = "item", name = "grade-2-iron", amount = 1}
     },
     results = {
-        {type = "item", name = "gravel",       amount = 1, probability = 0.5},
+        {type = "item", name = "gravel",       amount = 1, independent_probability = 0.5},
         {type = "item", name = "grade-1-iron", amount = 1}
     },
     main_product = "grade-1-iron",
@@ -81,7 +81,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "iron-ore-dust",
-    category = "ball-mill", --pyfe screener
+    categories = {"ball-mill"}, --pyfe screener
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -99,7 +99,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "iron-concentrate",
-    category = "chemistry", --pyfe jig
+    categories = {"chemistry"}, --pyfe jig
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -120,15 +120,15 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "iron-ore-dust-2",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item", name = "iron-concentrate", amount = 1},
     },
     results = {
-        {type = "item", name = "iron-ore-dust",         amount = 1, probability = 0.3},
-        {type = "item", name = "iron-dust-concentrate", amount = 1, probability = 0.5},
+        {type = "item", name = "iron-ore-dust",         amount = 1, independent_probability = 0.3},
+        {type = "item", name = "iron-dust-concentrate", amount = 1, independent_probability = 0.5},
     },
     main_product = "iron-dust-concentrate",
     icon = "__pyraworesgraphics__/graphics/icons/iron-dust-concentrate.png",
@@ -139,7 +139,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "unslimed-iron",
-    category = "hydroclassifier",
+    categories = {"hydroclassifier"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -158,7 +158,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "unslimed-iron-2",
-    category = "hydroclassifier",
+    categories = {"hydroclassifier"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -177,7 +177,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "iron-pulp-06-thickener",
-    category = "chemistry", --pyfe thickener
+    categories = {"chemistry"}, --pyfe thickener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -195,7 +195,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-iron",
-    category = "carbonfilter",
+    categories = {"carbonfilter"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -216,7 +216,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reduction-iron",
-    category = "drp",
+    categories = {"drp"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -235,7 +235,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-iron-2",
-    category = "sinter",
+    categories = {"sinter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -259,7 +259,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-iron-05",
-    category = "bof",
+    categories = {"bof"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -279,7 +279,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-iron-06",
-    category = "bof",
+    categories = {"bof"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -299,7 +299,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-iron-03",
-    category = "bof",
+    categories = {"bof"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -320,7 +320,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-iron-02",
-    category = "bof",
+    categories = {"bof"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -340,7 +340,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-iron-01",
-    category = "bof",
+    categories = {"bof"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -364,7 +364,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "iron-plate-1",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -386,7 +386,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "low-grade-smelting-iron",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = false,
     energy_required = 6,
     ingredients = {

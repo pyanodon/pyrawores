@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "slz-pulp-01",
-    category = "hydroclassifier",
+    categories = {"hydroclassifier"},
     enabled = false,
     energy_required = 1,
     ingredients = {

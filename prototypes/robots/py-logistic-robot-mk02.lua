@@ -5,7 +5,7 @@ local cargo_bot =
         type = "recipe",
         name = "py-logistic-robot-mk02",
         energy_required = 10,
-        category = "crafting-with-fluid",
+        categories = {"crafting-with-fluid"},
         enabled = false,
         ingredients = {
             {type = "item",  name = "py-logistic-robot-mk01", amount = 1},
@@ -60,7 +60,6 @@ ENTITY {
     selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
     max_payload_size = 5,
     speed = 0.13,
-    transfer_distance = 0.5,
     max_energy = "2.5MJ",
     energy_per_tick = "0.06kJ",
     speed_multiplier_when_out_of_energy = 0.2,
@@ -117,5 +116,4 @@ ENTITY {
     shadow_in_motion = shadow,
     shadow_in_motion_with_cargo = shadow,
     working_sound = sounds.flying_robot(0.5),
-    cargo_centered = {0.0, 0.2}
 }
