@@ -127,6 +127,7 @@ ENTITY {
         },
     },
     energy_usage = "20MW",
+    tall = true,
     graphics_set = py.finite_state_machine_working_visualisations {
         states = {
             {
