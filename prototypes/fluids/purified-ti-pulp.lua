@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "purified-ti-pulp",
-    category = "leaching",
+    categories = {"leaching"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "purified-ti-pulp-02",
-    category = "carbonfilter",
+    categories = {"carbonfilter"},
     enabled = false,
     energy_required = 4,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "crushing-quartz",
-    category = "crusher",
+    categories = {"crusher"},
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -9,7 +9,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "crushed-quartz", amount = 1},
-        {type = "item", name = "stone",          amount = 1, probability = 0.5}
+        {type = "item", name = "stone",          amount = 1, independent_probability = 0.5}
     },
     main_product = "crushed-quartz",
     icon = "__pyraworesgraphics__/graphics/icons/crush-quartz.png",
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "powdered-quartz",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -28,7 +28,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "powdered-quartz", amount = 5},
-        {type = "item", name = "gravel",          amount = 1, probability = 0.5}
+        {type = "item", name = "gravel",          amount = 1, independent_probability = 0.5}
     },
     main_product = "powdered-quartz",
     icon = "__pyraworesgraphics__/graphics/icons/powdered-quartz.png",
@@ -39,7 +39,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "purified-quartz",
-    category = "leaching", --pyFE pan
+    categories = {"leaching"}, --pyFE pan
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -59,7 +59,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-quartz",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -79,16 +79,16 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sand-classification",
-    category = "classifier",
+    categories = {"classifier"},
     enabled = false,
     energy_required = 1,
     ingredients = {
         {type = "item", name = "sand", amount = 20}
     },
     results = {
-        {type = "item", name = "iron-oxide",     amount = 1, probability = 0.5},
+        {type = "item", name = "iron-oxide",     amount = 1, independent_probability = 0.5},
         {type = "item", name = "gravel",         amount = 4, autotech_is_not_primary_source = not not mods.pyalienlife},
-        {type = "item", name = "crushed-quartz", amount = 1, probability = 0.05}
+        {type = "item", name = "crushed-quartz", amount = 1, independent_probability = 0.05}
     },
     main_product = "gravel",
     icon = "__pyraworesgraphics__/graphics/icons/class-sand.png",
@@ -103,7 +103,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-1",
-    category = "glassworks",
+    categories = {"glassworks"},
     enabled = true,
     energy_required = 5,
     ingredients = {
@@ -121,7 +121,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-2",
-    category = "glassworks",
+    categories = {"glassworks"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -139,7 +139,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-3",
-    category = "glassworks",
+    categories = {"glassworks"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -158,7 +158,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-4",
-    category = "glassworks",
+    categories = {"glassworks"},
     enabled = false,
     energy_required = 11,
     ingredients = {
@@ -178,7 +178,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-5",
-    category = "glassworks",
+    categories = {"glassworks"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -198,7 +198,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-6",
-    category = "glassworks",
+    categories = {"glassworks"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -218,7 +218,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-glass",
-    category = "glassworks",
+    categories = {"glassworks"},
     enabled = true,
     energy_required = 3,
     ingredients = {
@@ -235,7 +235,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "small-lamp-casting",
-    category = "glassworks",
+    categories = {"glassworks"},
     enabled = true,
     energy_required = 9,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "quartz-pulp-01",
-    category = "chemistry", --pyfe hydrocyclone
+    categories = {"chemistry"}, --pyfe hydrocyclone
     enabled = false,
     energy_required = 1,
     ingredients = {

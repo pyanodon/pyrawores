@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "chlorine",
-    category = "electrolyzer",
+    categories = {"electrolyzer"},
     enabled = false,
     energy_required = 2,
     ingredients = {

@@ -77,15 +77,14 @@ ENTITY {
                 south_position = {2.48, -3.75},
                 frequency = 90,
                 starting_vertical_speed = 0.09,
-                slow_down_factor = 1,
+                vertical_speed_slowdown = 1,
                 starting_frame_deviation = 60
             },
         },
     },
     energy_usage = "2MW",
-    mining_power = 3,
     resource_searching_radius = 0.49,
-    vector_to_place_result = {0, -5.65},
+    vector_to_place_result = {0, -5.8},
     radius_visualisation_picture = {
         filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-radius-visualization.png",
         width = 12,
@@ -160,6 +159,5 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyraworesgraphics__/sounds/salt-mine.ogg", volume = 0.8},
         idle_sound = {filename = "__pyraworesgraphics__/sounds/salt-mine.ogg", volume = 0.3},
-        apparent_volume = 2.5
     }
 }

@@ -69,7 +69,6 @@ data:extend {{
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
     autoplace = {
-        name = "chromium-rock",
         order = "b-chromium-rock",
         control = "chromium-rock",
         -- We return the chance of spawning on any given tile here

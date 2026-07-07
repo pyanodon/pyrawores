@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "zinc-pulp-03",
-    category = "flotation",
+    categories = {"flotation"},
     enabled = false,
     energy_required = 10,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nexelit-refined-pulp",
-    category = "electrolyzer",
+    categories = {"electrolyzer"},
     enabled = false,
     energy_required = 3,
     ingredients = {

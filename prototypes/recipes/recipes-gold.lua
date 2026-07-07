@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "gold-precipitate",
-    category = "chemistry", --pyfe agitator
+    categories = {"chemistry"}, --pyfe agitator
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -18,7 +18,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "gold-concentrate",
-    category = "leaching",
+    categories = {"leaching"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -35,7 +35,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "gold-precipitate-2",
-    category = "wet-scrubber",
+    categories = {"wet-scrubber"},
     enabled = false,
     energy_required = 3.5,
     ingredients = {
@@ -53,7 +53,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "purified-gold",
-    category = "electrolyzer",
+    categories = {"electrolyzer"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -72,7 +72,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "gold-plate",
-    category = "bof",
+    categories = {"bof"},
     enabled = false,
     energy_required = 3,
     ingredients = {

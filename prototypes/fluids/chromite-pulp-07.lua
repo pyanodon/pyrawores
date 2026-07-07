@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "chromite-pulp-07",
-    category = "chemistry", --pyfe thickener
+    categories = {"chemistry"}, --pyfe thickener
     enabled = false,
     energy_required = 2,
     ingredients = {

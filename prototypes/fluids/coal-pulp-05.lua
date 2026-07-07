@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "coal-pulp-05",
-    category = "flotation",
+    categories = {"flotation"},
     enabled = false,
     energy_required = 3,
     ingredients = {

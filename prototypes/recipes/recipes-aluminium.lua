@@ -3,7 +3,7 @@
 RECIPE {
     type = "recipe",
     name = "powdered-aluminium",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -11,7 +11,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "powdered-aluminium", amount = 1},
-        {type = "item", name = "gravel",             amount = 1, probability = 0.5}
+        {type = "item", name = "gravel",             amount = 1, independent_probability = 0.5}
     },
     main_product = "powdered-aluminium",
     subgroup = "py-rawores-aluminium",
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sodium-aluminate",
-    category = "hydroclassifier",
+    categories = {"hydroclassifier"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -40,7 +40,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "crystalized-sodium-aluminate",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -57,7 +57,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-alumina",
-    category = "electrolyzer",
+    categories = {"electrolyzer"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -79,7 +79,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reduction-aluminium",
-    category = "drp",
+    categories = {"drp"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -98,7 +98,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-aluminium-2",
-    category = "sinter",
+    categories = {"sinter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -119,7 +119,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-01",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -138,7 +138,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-02",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -157,7 +157,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-03",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -176,7 +176,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-03-2",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -195,7 +195,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-04",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -215,7 +215,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-05",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -237,7 +237,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "aluminium-plate-3",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -258,7 +258,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "aluminium-plate-1",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = true,
     energy_required = 6,
     ingredients = {

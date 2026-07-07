@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "u-73",
-    category = "chemistry", --mixer
+    categories = {"chemistry"}, --mixer
     enabled = false,
     energy_required = 3,
     ingredients = {

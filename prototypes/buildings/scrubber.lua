@@ -96,7 +96,6 @@ for i = 1, 4 do
         dying_explosion = "big-explosion",
         collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
         selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
-        forced_symmetry = "diagonal-pos",
         module_slots = i,
         allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
         crafting_categories = {"scrubber"},
@@ -109,6 +108,7 @@ for i = 1, 4 do
             },
         },
         energy_usage = (300 * i) .. "kW",
+        tall = true,
         graphics_set = {
             animation = {
                 layers = {
@@ -141,42 +141,42 @@ for i = 1, 4 do
                 production_type = "input",
                 pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 1000,
+                volume = 100,
                 pipe_connections = {{flow_direction = "input", position = {-2.0, -3.0}, direction = defines.direction.north}}
             },
             {
                 production_type = "input",
                 pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 1000,
+                volume = 100,
                 pipe_connections = {{flow_direction = "input", position = {0.0, -3.0}, direction = defines.direction.north}}
             },
             {
                 production_type = "input",
                 pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 1000,
+                volume = 100,
                 pipe_connections = {{flow_direction = "input", position = {2.0, -3.0}, direction = defines.direction.north}}
             },
             {
                 production_type = "output",
                 pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 1000,
+                volume = 100,
                 pipe_connections = {{flow_direction = "output", position = {0.0, 3.0}, direction = defines.direction.south}}
             },
             {
                 production_type = "output",
                 pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 1000,
+                volume = 100,
                 pipe_connections = {{flow_direction = "output", position = {-2.0, 3.0}, direction = defines.direction.south}}
             },
             {
                 production_type = "output",
                 pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 1000,
+                volume = 100,
                 pipe_connections = {{flow_direction = "output", position = {2.0, 3.0}, direction = defines.direction.south}}
             },
         },
@@ -184,7 +184,6 @@ for i = 1, 4 do
         working_sound = {
             sound = {filename = "__pyraworesgraphics__/sounds/scrubber.ogg", volume = 2.0},
             idle_sound = {filename = "__pyraworesgraphics__/sounds/scrubber.ogg", volume = 0.3},
-            apparent_volume = 2.5
         }
     }
 end

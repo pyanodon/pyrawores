@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "hydrogen-chloride",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -11,7 +11,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "hydrogen-chloride", amount = 100},
-        {type = "item",  name = "small-lamp",        amount = 1,  probability = 0.5, ignored_by_productivity = 1}
+        {type = "item",  name = "small-lamp",        amount = 1,  independent_probability = 0.5, ignored_by_productivity = 1}
     },
     main_product = "hydrogen-chloride",
     icon = "__pyraworesgraphics__/graphics/icons/hydrogen-chloride.png",
@@ -23,7 +23,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sodium-bisulfate",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -44,7 +44,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sodium-sulfate",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 4,
     ingredients = {

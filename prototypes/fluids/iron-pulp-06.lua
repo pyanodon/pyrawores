@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "iron-pulp-06",
-    category = "flotation",
+    categories = {"flotation"},
     enabled = false,
     energy_required = 3,
     ingredients = {

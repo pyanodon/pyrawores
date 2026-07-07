@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "xylenol-1",
-    category = "distilator",
+    categories = {"distilator"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -18,7 +18,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "xylenol-2",
-    category = "methanol",
+    categories = {"methanol"},
     enabled = false,
     energy_required = 3,
     ingredients = {
