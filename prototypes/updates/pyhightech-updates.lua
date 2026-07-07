@@ -96,9 +96,8 @@ RECIPE("ht-generic-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):
 RECIPE("ht-generic-fluid-wagon"):replace_ingredient("steel-plate", "aluminium-plate"):add_ingredient {type = "item", name = "glass", amount = 20}:add_ingredient {type = "item", name = "nickel-plate", amount = 10}
 
 RECIPE("cresylic-acid"):remove_ingredient("aromatics"):add_ingredient {type = "item", name = "phenol", amount = 10}
-RECIPE("outlet-gas-02"):replace_category("chemistry", "fbreactor")
+RECIPE("outlet-gas-02"):replace_category(mods["pyfusionenergy"] and "gas-separator" or "chemistry", "fbreactor")
 RECIPE("fecr-alloy"):add_ingredient {type = "item", name = "graphite", amount = 3}:remove_unlock("basic-electronics"):add_unlock("stainless-steel-mk01"):replace_category("hpf", "py-rawores-smelter")
-RECIPE("ndfeb-alloy"):replace_category("advanced-foundry", "py-rawores-smelter")
 RECIPE("crco-alloy"):replace_category("advanced-foundry", "py-rawores-smelter")
 RECIPE("re-tin"):replace_category("advanced-foundry", "py-rawores-smelter")
 
