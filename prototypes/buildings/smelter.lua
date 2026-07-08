@@ -100,6 +100,7 @@ for i = 1, 4 do
         dying_explosion = "big-explosion",
         collision_box = {{-6.3, -6.3}, {6.3, 6.3}},
         selection_box = {{-6.5, -6.5}, {6.5, 6.5}},
+        use_mirroring = true,
         module_slots = i,
         allowed_effects = {"consumption", "speed", "pollution", "productivity"},
         crafting_categories = {"py-rawores-smelter"},

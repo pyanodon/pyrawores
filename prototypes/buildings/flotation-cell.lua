@@ -100,6 +100,7 @@ for i = 1, 4 do
         dying_explosion = "big-explosion",
         collision_box = {{-2.7, -2.7}, {2.7, 2.7}},
         selection_box = {{-3.0, -3.0}, {3.0, 3.0}},
+        use_mirroring = true,
         module_slots = i,
         allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
         crafting_categories = {"flotation"},
