@@ -1,6 +1,6 @@
 {
     "name": "pyrawores",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "factorio_version": "2.1",
     "title": "Pyanodons Raw Ores",
     "author": "Pyanodon, Nexela, Kingarthur, notnotmelon, Mootykins, ShadowGlass, Archezekiel, Quintuple, przemo1232, protocol_1903",
@@ -9,11 +9,11 @@
     "description": "Unlock advanced mining, processing, and refining for the various ore types. Each resource has a completely unique chain with dozens of byproducts. The more effort used, the more you can extract.",
     "dependencies": [
         "base >= 2.1.0",
-        "pycoalprocessing >= 3.1.0",
-        "pyindustry >= 3.1.0",
+        "pycoalprocessing >= 3.1.1",
+        "pyindustry >= 3.1.1",
         "(?) pyfusionenergy",
         "(?) rso-mod",
-        "~ pyraworesgraphics >= 3.1.0",
+        "~ pyraworesgraphics >= 3.1.1",
         "! wret-beacon-rebalance-mod",
         "! BigBags",
         "! ResearchFog",
