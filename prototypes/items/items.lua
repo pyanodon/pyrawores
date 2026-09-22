@@ -845,7 +845,7 @@ ITEM {
     order = "aaa",
     stack_size = 50,
     fuel_value = "3MJ",
-    fuel_category = "chemical"
+    fuel_categories = {"chemical"}
 }
 
 ITEM {
@@ -857,7 +857,7 @@ ITEM {
     subgroup = "py-rawores-coal",
     order = "aab",
     fuel_value = "6MJ",
-    fuel_category = "chemical",
+    fuel_categories = {"chemical"},
     stack_size = 100
 }
 
@@ -870,7 +870,7 @@ ITEM {
     subgroup = "py-rawores-coal",
     order = "aac",
     fuel_value = "10MJ",
-    fuel_category = "chemical",
+    fuel_categories = {"chemical"},
     stack_size = 100
 }
 
@@ -1583,7 +1583,7 @@ ITEM {
     name = "fuelrod-mk02",
     icon = "__pyraworesgraphics__/graphics/icons/fuelrod-mk02.png",
     icon_size = 32,
-    fuel_category = "fuelrod",
+    fuel_categories = {"fuelrod"},
     fuel_value = "125MJ",
     flags = {},
     subgroup = "py-rawores-items",
@@ -1596,7 +1596,7 @@ ITEM {
     name = "fuelrod-mk03",
     icon = "__pyraworesgraphics__/graphics/icons/fuel-rod-mk03.png",
     icon_size = 32,
-    fuel_category = "fuelrod",
+    fuel_categories = {"fuelrod"},
     fuel_value = "225MJ",
     flags = {},
     subgroup = "py-rawores-items",
@@ -1609,7 +1609,7 @@ ITEM {
     name = "fuelrod-mk04",
     icon = "__pyraworesgraphics__/graphics/icons/fuel-rod-mk04.png",
     icon_size = 32,
-    fuel_category = "fuelrod",
+    fuel_categories = {"fuelrod"},
     fuel_value = "450MJ",
     flags = {},
     subgroup = "py-rawores-items",
@@ -1622,7 +1622,7 @@ ITEM {
     name = "fuelrod-mk05",
     icon = "__pyraworesgraphics__/graphics/icons/fuel-rod-mk05.png",
     icon_size = 32,
-    fuel_category = "fuelrod",
+    fuel_categories = {"fuelrod"},
     fuel_value = "550MJ",
     flags = {},
     subgroup = "py-rawores-items",
@@ -1635,7 +1635,7 @@ ITEM {
     name = "uranium-fuel-cell-mk02",
     icon = "__pyraworesgraphics__/graphics/icons/uranium-fuel-cell-mk02.png",
     icon_size = 32,
-    fuel_category = "nuclear",
+    fuel_categories = {"nuclear"},
     burnt_result = "used-up-uranium-fuel-cell-mk02",
     fuel_value = "8GJ",
     fuel_glow_color = {0, 0, 1, 1},
@@ -1650,7 +1650,7 @@ ITEM {
     name = "uranium-fuel-cell-mk03",
     icon = "__pyraworesgraphics__/graphics/icons/uranium-fuel-cell-mk03.png",
     icon_size = 32,
-    fuel_category = "nuclear",
+    fuel_categories = {"nuclear"},
     burnt_result = "used-up-uranium-fuel-cell-mk03",
     fuel_value = "16GJ",
     fuel_glow_color = {1, 1, 0, 1},
@@ -1665,7 +1665,7 @@ ITEM {
     name = "uranium-fuel-cell-mk04",
     icon = "__pyraworesgraphics__/graphics/icons/uranium-fuel-cell-mk04.png",
     icon_size = 32,
-    fuel_category = "nuclear",
+    fuel_categories = {"nuclear"},
     burnt_result = "used-up-uranium-fuel-cell-mk04",
     fuel_value = "24GJ",
     fuel_glow_color = {1, 0.5, 0, 1},
@@ -1680,7 +1680,7 @@ ITEM {
     name = "uranium-fuel-cell-mk05",
     icon = "__pyraworesgraphics__/graphics/icons/uranium-fuel-cell-mk05.png",
     icon_size = 32,
-    fuel_category = "nuclear",
+    fuel_categories = {"nuclear"},
     burnt_result = "used-up-uranium-fuel-cell-mk05",
     fuel_value = "32GJ",
     fuel_glow_color = {1, 0, 0, 1},
@@ -1879,7 +1879,7 @@ ITEM {
     icon = "__pyraworesgraphics__/graphics/icons/mega-drill-head.png",
     icon_size = 32,
     fuel_value = "10GJ",
-    fuel_category = "drill",
+    fuel_categories = {"drill"},
     flags = {},
     subgroup = "py-rawores-items",
     order = "g",
