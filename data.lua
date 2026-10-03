@@ -316,8 +316,8 @@ data.raw.fluid["outlet-gas-04"].fuel_value = "0.5MJ"
 data.raw.fluid["high-ash-fines"].fuel_value = "0.5MJ"
 data.raw.fluid["diesel"].fuel_value = "1.5MJ"
 
-table.insert(data.raw["fluid-turret"]["flamethrower-turret"].attack_parameters.fluids, {type = "diesel", damage_modifier = 2})
-table.insert(data.raw["fluid-turret"]["flamethrower-turret"].attack_parameters.fluids, {type = "kerosene", damage_modifier = 2})
+table.insert(data.raw["fluid-turret"]["flamethrower-turret"].attack_parameters.fluids--[[@cast -?]], {type = "diesel", damage_modifier = 2})
+table.insert(data.raw["fluid-turret"]["flamethrower-turret"].attack_parameters.fluids--[[@cast -?]], {type = "kerosene", damage_modifier = 2})
 
 if mods["pyhightech"] then
     require "prototypes.ores.phosphate-rock-02"

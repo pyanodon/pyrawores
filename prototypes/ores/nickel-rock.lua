@@ -1,3 +1,4 @@
+---@diagnostic disable-next-line: need-check-nil
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["nickel-rock"] = {}
 data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["nickel-rock"] = {}
 
