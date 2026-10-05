@@ -52,12 +52,13 @@ data.raw["assembling-machine"]["centrifuge"].crafting_speed = 4
 data.raw["assembling-machine"]["centrifuge"].module_slots = 4
 
 data.raw.resource["coal"].hidden = true
+---@diagnostic disable-next-line: need-check-nil
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["coal"] = nil
 data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["coal"] = nil
 
 if data.raw.resource["uranium-ore"] ~= nil then
-    data.raw.resource["uranium-ore"].minable.required_fluid = nil
-    data.raw.resource["uranium-ore"].minable.fluid_amount = nil
+    data.raw.resource["uranium-ore"].minable--[[@cast -?]].required_fluid = nil
+    data.raw.resource["uranium-ore"].minable--[[@cast -?]].fluid_amount = nil
 end
 
 -- ITEM CHANGES
