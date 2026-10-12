@@ -49,6 +49,7 @@ local shadow = {
 
 ENTITY {
     type = "logistic-robot",
+    tall = true,
     name = "py-logistic-robot-mk02",
     icon = "__pyraworesgraphics__/graphics/icons/py-logistic-robot-02.png",
     icon_size = 32,
