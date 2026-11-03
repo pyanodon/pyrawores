@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "iron-pulp-03",
-    category = "leaching",
+    categories = {"leaching"},
     enabled = false,
     energy_required = 3,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "chromite-fines",
-    category = "scrubber",
+    categories = {"scrubber"},
     enabled = false,
     energy_required = 5,
     ingredients = {

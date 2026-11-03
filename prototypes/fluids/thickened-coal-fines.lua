@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "thickened-coal-fines",
-    category = "hydroclassifier",
+    categories = {"hydroclassifier"},
     enabled = false,
     energy_required = 2,
     ingredients = {

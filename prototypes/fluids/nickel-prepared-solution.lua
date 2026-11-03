@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nickel-prepared-solution",
-    category = "wet-scrubber",
+    categories = {"wet-scrubber"},
     enabled = false,
     energy_required = 3,
     ingredients = {

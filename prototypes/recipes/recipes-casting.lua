@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "casting-gear",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-pipe",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -39,7 +39,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-pipe-ug",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -58,7 +58,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-sticks",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -77,7 +77,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-copper-cable",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -96,7 +96,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-tin-cable",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -116,7 +116,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-engine-unit",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -135,7 +135,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-niobium-pipe",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -153,7 +153,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-niobium-pipe-underground",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -171,7 +171,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-drill-heads",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -191,7 +191,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-equipment-chassi",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 10,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "outlet-gas-01",
-    category = "carbonfilter",
+    categories = {"carbonfilter"},
     enabled = false,
     energy_required = 3,
     ingredients = {

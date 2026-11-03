@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "coal-pulp-03",
-    category = "scrubber",
+    categories = {"scrubber"},
     enabled = false,
     energy_required = 3,
     ingredients = {

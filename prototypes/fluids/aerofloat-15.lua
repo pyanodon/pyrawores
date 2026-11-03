@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "aerofloat-15",
-    category = "wet-scrubber",
+    categories = {"wet-scrubber"},
     enabled = false,
     energy_required = 5,
     ingredients = {

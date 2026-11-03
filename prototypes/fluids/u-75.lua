@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "u-75",
-    category = "carbonfilter",
+    categories = {"carbonfilter"},
     enabled = false,
     energy_required = 3,
     ingredients = {
