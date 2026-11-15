@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "tin-bottom-pulp",
-    category = "scrubber",
+    categories = {"scrubber"},
     enabled = false,
     energy_required = 4,
     ingredients = {

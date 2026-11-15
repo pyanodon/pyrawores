@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "tin-slime-overflow",
-    category = "chemistry", --pyfe thickener
+    categories = {"chemistry"}, --pyfe thickener
     enabled = false,
     energy_required = 3,
     ingredients = {

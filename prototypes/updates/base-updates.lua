@@ -34,7 +34,7 @@ RECIPE("centrifuge"):remove_unlock("uranium-processing"):add_unlock("nuclear-fue
 RECIPE("atomic-bomb"):remove_ingredient("uranium-235"):add_ingredient {type = "item", name = "yellow-cake", amount = 5}
 RECIPE("kovarex-enrichment-process"):set_fields {energy_required = 5}
 RECIPE("electric-engine-unit"):remove_ingredient("copper-cable"):add_ingredient {type = "item", name = "copper-cable", amount = 150}:add_ingredient {type = "item", name = "aluminium-plate", amount = 10}:add_ingredient {type = "item", name = "bolts", amount = 20} --:remove_ingredient("engine-unit")
-RECIPE("low-density-structure").category = "py-rawores-smelter"
+RECIPE("low-density-structure"):replace_category("crafting-with-fluid", "py-rawores-smelter")
 
 -- ENTITY CHANGES
 data.raw.reactor["nuclear-reactor"].use_fuel_glow_color = true
@@ -52,12 +52,13 @@ data.raw["assembling-machine"]["centrifuge"].crafting_speed = 4
 data.raw["assembling-machine"]["centrifuge"].module_slots = 4
 
 data.raw.resource["coal"].hidden = true
+---@diagnostic disable-next-line: need-check-nil
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["coal"] = nil
 data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["coal"] = nil
 
 if data.raw.resource["uranium-ore"] ~= nil then
-    data.raw.resource["uranium-ore"].minable.required_fluid = nil
-    data.raw.resource["uranium-ore"].minable.fluid_amount = nil
+    data.raw.resource["uranium-ore"].minable--[[@cast -?]].required_fluid = nil
+    data.raw.resource["uranium-ore"].minable--[[@cast -?]].fluid_amount = nil
 end
 
 -- ITEM CHANGES

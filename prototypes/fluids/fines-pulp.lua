@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "fines-pulp",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 2,
     ingredients = {

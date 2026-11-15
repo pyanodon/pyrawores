@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "alamac",
-    category = "wet-scrubber",
+    categories = {"wet-scrubber"},
     enabled = false,
     energy_required = 3,
     ingredients = {

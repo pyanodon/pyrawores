@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "petroleum-sulfonates",
-    category = "rectisol",
+    categories = {"rectisol"},
     enabled = false,
     energy_required = 3,
     ingredients = {

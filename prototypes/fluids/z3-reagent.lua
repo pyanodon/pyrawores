@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "z3-reagent",
-    category = "methanol",
+    categories = {"methanol"},
     enabled = false,
     energy_required = 3,
     ingredients = {

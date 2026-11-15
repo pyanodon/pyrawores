@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "u-81",
-    category = "scrubber",
+    categories = {"scrubber"},
     enabled = false,
     energy_required = 4,
     ingredients = {

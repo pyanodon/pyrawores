@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "grade-1-zinc",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -10,8 +10,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-zinc", amount = 1},
-        {type = "item", name = "soil",         amount = 1, probability = 0.7},
-        {type = "item", name = "stone",        amount = 1, probability = 0.5}
+        {type = "item", name = "soil",         amount = 1, independent_probability = 0.7},
+        {type = "item", name = "stone",        amount = 1, independent_probability = 0.5}
     },
     main_product = "grade-1-zinc",
     subgroup = "py-rawores-zinc",
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-zinc",
-    category = "impact-crusher",
+    categories = {"impact-crusher"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -28,7 +28,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-2-zinc", amount = 2},
-        {type = "item", name = "sand",         amount = 1, probability = 0.5}
+        {type = "item", name = "sand",         amount = 1, independent_probability = 0.5}
     },
     main_product = "grade-2-zinc",
     subgroup = "py-rawores-zinc",
@@ -37,7 +37,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-zinc",
-    category = "hydroclassifier",
+    categories = {"hydroclassifier"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -55,7 +55,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-4-zinc",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -63,7 +63,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-4-zinc", amount = 1},
-        {type = "item", name = "coal-dust",    amount = 1, probability = 0.5}
+        {type = "item", name = "coal-dust",    amount = 1, independent_probability = 0.5}
     },
     main_product = "grade-4-zinc",
     subgroup = "py-rawores-zinc",
@@ -72,7 +72,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "powdered-zinc",
-    category = "solid-separator", --pyfe screener
+    categories = {"solid-separator"}, --pyfe screener
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -80,7 +80,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "powdered-zinc", amount = 1},
-        {type = "item", name = "grade-2-zinc",  amount = 1, probability = 0.3}
+        {type = "item", name = "grade-2-zinc",  amount = 1, independent_probability = 0.3}
     },
     main_product = "powdered-zinc",
     icon = "__pyraworesgraphics__/graphics/icons/grade-4-zinc-screening.png",
@@ -91,7 +91,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "purified-zinc",
-    category = "chemistry", --pyfe grease
+    categories = {"chemistry"}, --pyfe grease
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -109,7 +109,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "concentrated-zinc",
-    category = "classifier",
+    categories = {"classifier"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -117,7 +117,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "concentrated-zinc", amount = 1},
-        {type = "item", name = "lead-dust",         amount = 1, probability = 0.5}
+        {type = "item", name = "lead-dust",         amount = 1, independent_probability = 0.5}
     },
     main_product = "concentrated-zinc",
     subgroup = "py-rawores-zinc",
@@ -126,7 +126,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-zinc",
-    category = "carbonfilter",
+    categories = {"carbonfilter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -145,7 +145,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reduced-zinc",
-    category = "drp",
+    categories = {"drp"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -164,7 +164,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-zinc-2",
-    category = "sinter",
+    categories = {"sinter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -185,7 +185,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-zinc-01",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -205,7 +205,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-zinc-02",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -225,7 +225,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-zinc-03",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -245,7 +245,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-zinc-04",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -265,7 +265,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-zinc-05",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -287,7 +287,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "zinc-plate-3",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -309,7 +309,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "zinc-plate-1",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = false,
     energy_required = 60,
     ingredients = {
@@ -329,7 +329,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "zinc-plate-2",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = false,
     energy_required = 40,
     ingredients = {
@@ -347,7 +347,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "zinc-plate-4",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = false,
     energy_required = 50,
     ingredients = {

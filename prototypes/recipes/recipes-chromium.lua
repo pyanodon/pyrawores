@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "grade-1-chromite",
-    category = "crusher",
+    categories = {"crusher"},
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -9,7 +9,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-chromite", amount = 1},
-        {type = "item", name = "stone",            amount = 1, probability = 0.5}
+        {type = "item", name = "stone",            amount = 1, independent_probability = 0.5}
     },
     main_product = "grade-1-chromite",
     icon = "__pyraworesgraphics__/graphics/icons/crusher-chromium.png",
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-chromite",
-    category = "impact-crusher",
+    categories = {"impact-crusher"},
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -28,7 +28,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-3-chromite", amount = 1},
-        {type = "item", name = "grade-2-chromite", amount = 1, probability = 0.4}
+        {type = "item", name = "grade-2-chromite", amount = 1, independent_probability = 0.4}
     },
     main_product = "grade-3-chromite",
     icon = "__pyraworesgraphics__/graphics/icons/grade-3-chromite.png",
@@ -39,15 +39,15 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-chromite-beneficiation",
-    category = "solid-separator", --pyFE screener
+    categories = {"solid-separator"}, --pyFE screener
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item", name = "grade-2-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "grade-1-chromite", amount = 1, probability = 0.65},
-        {type = "item", name = "gravel",           amount = 1, probability = 0.5}
+        {type = "item", name = "grade-1-chromite", amount = 1, independent_probability = 0.65},
+        {type = "item", name = "gravel",           amount = 1, independent_probability = 0.5}
     },
     main_product = "grade-1-chromite",
     icon = "__pyraworesgraphics__/graphics/icons/chromite-2-grade-screener.png",
@@ -58,7 +58,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-4-chromite",
-    category = "chemistry", --pyFE hydrocyclone
+    categories = {"chemistry"}, --pyFE hydrocyclone
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -76,14 +76,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "chromite-rejects-processing",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item", name = "chromite-rejects", amount = 3}
     },
     results = {
-        {type = "item", name = "grade-3-chromite", amount = 1, probability = 0.6}
+        {type = "item", name = "grade-3-chromite", amount = 1, independent_probability = 0.6}
     },
     main_product = "grade-3-chromite",
     subgroup = "py-rawores-chromium",
@@ -92,7 +92,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-chromite",
-    category = "flotation",
+    categories = {"flotation"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -111,15 +111,15 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "recrush-processed-chromite",
-    category = "impact-crusher",
+    categories = {"impact-crusher"},
     enabled = false,
     energy_required = 2,
     ingredients = {
         {type = "item", name = "processed-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "high-chromite", amount = 1, probability = 0.4},
-        {type = "item", name = "sand",          amount = 1, probability = 0.4}
+        {type = "item", name = "high-chromite", amount = 1, independent_probability = 0.4},
+        {type = "item", name = "sand",          amount = 1, independent_probability = 0.4}
     },
     main_product = "high-chromite",
     icon = "__pyraworesgraphics__/graphics/icons/recrush-high-chromite.png",
@@ -132,7 +132,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tier-5-chromite-sand",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -148,7 +148,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tier-4-chromite-sand",
-    category = "scrubber",
+    categories = {"scrubber"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -167,7 +167,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tier-3-chromite-sand",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -184,7 +184,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tier-2-chromite-sand",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -201,7 +201,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tier-1-chromite-sand",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     enabled = false,
     energy_required = 4.5,
     ingredients = {
@@ -218,7 +218,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tier-0-chromite-sand",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -236,7 +236,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "chromium-01",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -257,7 +257,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "chromium-02",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -278,7 +278,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-chromium-01",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -298,7 +298,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-chromium-02",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -318,7 +318,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-chromium-03",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -340,7 +340,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-chromium",
-    category = "sinter",
+    categories = {"sinter"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -359,7 +359,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reduction-chromium",
-    category = "drp",
+    categories = {"drp"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -380,7 +380,7 @@ RECIPE {
 -- RECIPE {
 --     type = "recipe",
 --     name = "chromium-plate-1",
---     category = "smelting",
+--     categories = {"smelting"},
 --     enabled = false,
 --     energy_required = 25,
 --     ingredients = {

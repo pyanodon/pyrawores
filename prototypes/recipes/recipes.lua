@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "powdered-ralesia-seeds",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "starch",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -40,7 +40,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "starch-2",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -61,7 +61,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "water-saline",
-    category = "washer",
+    categories = {"washer"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -81,7 +81,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "py-sodium-hydroxide",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -101,7 +101,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "salt-ex",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -120,7 +120,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "syngas2",
-    category = "gasifier",
+    categories = {"gasifier"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -143,7 +143,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "syngas-distilation",
-    category = "distilator",
+    categories = {"distilator"},
     enabled = false,
     energy_required = 1.5,
     ingredients = {
@@ -163,7 +163,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "hydrogen-combustion",
-    category = "combustion",
+    categories = {"combustion"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -185,7 +185,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "bonemeal-salt",
-    category = "ulric",
+    categories = {"ulric"},
     enabled = false,
     energy_required = 25,
     ingredients = {
@@ -205,7 +205,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mukmoux-fat-salt",
-    category = "mukmoux",
+    categories = {"mukmoux"},
     enabled = false,
     energy_required = 35,
     ingredients = {
@@ -222,7 +222,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "p2s5",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -239,7 +239,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "p2s5-2",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -256,7 +256,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ammonium-chloride",
-    category = "rectisol", --pyht fbreactor
+    categories = {"rectisol"}, --pyht fbreactor
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -279,7 +279,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "duralumin-1",
-    category = "py-rawores-smelter",
+    categories = {"py-rawores-smelter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -299,7 +299,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "duralumin-2",
-    category = "py-rawores-smelter",
+    categories = {"py-rawores-smelter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -320,7 +320,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "battery-1",
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -336,7 +336,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "battery-2",
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -353,7 +353,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mega-drill-head",
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -374,7 +374,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tinned-cable",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = true,
     energy_required = 0.5,
     ingredients = {
@@ -391,7 +391,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "aramid",
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -411,7 +411,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pyrite-burn",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -427,7 +427,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pyrite-make",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -443,7 +443,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sulfuric-acid-01",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -460,7 +460,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sodium-carbonate-1",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -478,7 +478,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sodium-sulfate-1",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -496,7 +496,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'ammo-initial',
-    category = 'crafting',
+    categories = {'crafting'},
     enabled = true,
     energy_required = 12,
     ingredients = {
@@ -512,7 +512,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nichrome-2",
-    category = "py-rawores-smelter",
+    categories = {"py-rawores-smelter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -533,7 +533,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "syngas-from-hydrogen-1",
-    category = "olefin",
+    categories = {"olefin"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -551,7 +551,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "dedicated-syngas-from-hydrogen-1",
-    category = "olefin",
+    categories = {"olefin"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -567,7 +567,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "rail-2",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -583,7 +583,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "methanol-from-hydrogen",
-    category = "methanol",
+    categories = {"methanol"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -603,7 +603,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "kerosene-combustion",
-    category = "combustion",
+    categories = {"combustion"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -625,7 +625,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrodmk02-combustion",
-    category = "combustion",
+    categories = {"combustion"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -647,7 +647,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrodmk03-combustion",
-    category = "combustion",
+    categories = {"combustion"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -669,7 +669,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrodmk04-combustion",
-    category = "combustion",
+    categories = {"combustion"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -691,7 +691,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrodmk05-combustion",
-    category = "combustion",
+    categories = {"combustion"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -713,7 +713,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glycerol-hydrogen",
-    category = "electrolyzer",
+    categories = {"electrolyzer"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -732,7 +732,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mining-aluminium",
-    category = "ground-borer",
+    categories = {"ground-borer"},
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -752,7 +752,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mining-chromium",
-    category = "ground-borer",
+    categories = {"ground-borer"},
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -772,7 +772,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mining-copper",
-    category = "ground-borer",
+    categories = {"ground-borer"},
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -792,7 +792,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mining-iron",
-    category = "ground-borer",
+    categories = {"ground-borer"},
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -812,7 +812,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mining-lead",
-    category = "ground-borer",
+    categories = {"ground-borer"},
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -832,7 +832,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mining-nickel",
-    category = "ground-borer",
+    categories = {"ground-borer"},
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -852,7 +852,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mining-quartz",
-    category = "ground-borer",
+    categories = {"ground-borer"},
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -872,7 +872,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mining-tin",
-    category = "ground-borer",
+    categories = {"ground-borer"},
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -892,7 +892,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mining-titanium",
-    category = "ground-borer",
+    categories = {"ground-borer"},
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -912,7 +912,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mining-zinc",
-    category = "ground-borer",
+    categories = {"ground-borer"},
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -932,7 +932,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "extract-limestone-01",
-    category = "soil-extraction",
+    categories = {"soil-extraction"},
     enabled = true,
     energy_required = 20,
     ingredients = {
@@ -946,7 +946,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrod-mk01-1",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -962,7 +962,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrod-mk01-2",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 3.5,
     ingredients = {
@@ -978,7 +978,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrod-mk01-3",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 3.5,
     ingredients = {
@@ -994,7 +994,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nbfe-alloy-2",
-    category = "py-rawores-smelter",
+    categories = {"py-rawores-smelter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -1015,7 +1015,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "drill-head-2",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -1031,7 +1031,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "drill-head-3",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1047,7 +1047,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "drill-head-4",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1063,7 +1063,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "drill-head-5",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1079,7 +1079,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "diesel",
-    category = "olefin",
+    categories = {"olefin"},
     enabled = false,
     energy_required = 1.5,
     ingredients = {
@@ -1101,7 +1101,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "diesel2",
-    category = "olefin",
+    categories = {"olefin"},
     enabled = false,
     energy_required = 1.5,
     ingredients = {
@@ -1121,7 +1121,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "diesel-combustion",
-    category = "combustion",
+    categories = {"combustion"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -1158,7 +1158,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "bricks-to-stone",
-    category = "crusher",
+    categories = {"crusher"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1172,7 +1172,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "boric-acid-hcl",
-    category = mods.pyfusionenergy and "mixer" or "chemistry",
+    categories = {mods.pyfusionenergy and "mixer" or "chemistry"},
     enabled = false,
     energy_required = 5,
     ingredients = {

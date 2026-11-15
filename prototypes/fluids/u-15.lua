@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "u-15",
-    category = "hydroclassifier",
+    categories = {"hydroclassifier"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "u-15-2",
-    category = "chemistry", --thickener
+    categories = {"chemistry"}, --thickener
     enabled = false,
     energy_required = 3,
     ingredients = {

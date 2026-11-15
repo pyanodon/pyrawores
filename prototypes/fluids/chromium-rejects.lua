@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "chromium-rejects",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 3,
     ingredients = {

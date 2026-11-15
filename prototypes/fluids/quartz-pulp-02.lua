@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "quartz-pulp-02",
-    category = "scrubber",
+    categories = {"scrubber"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -11,7 +11,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "quartz-pulp-02", amount = 50},
-        {type = "item",  name = "iron-oxide",     amount = 1, probability = 0.5},
+        {type = "item",  name = "iron-oxide",     amount = 1, independent_probability = 0.5},
     },
     main_product = "quartz-pulp-02",
     icon = "__pyraworesgraphics__/graphics/icons/quartz-pulp-02.png",

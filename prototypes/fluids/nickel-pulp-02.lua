@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nickel-pulp-02",
-    category = "flotation",
+    categories = {"flotation"},
     enabled = false,
     energy_required = 3,
     ingredients = {

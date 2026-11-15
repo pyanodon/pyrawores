@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "sponge-iron",
-    category = "drp",
+    categories = {"drp"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -21,7 +21,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-steel-02",
-    category = "eaf",
+    categories = {"eaf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -40,7 +40,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-steel",
-    category = "bof",
+    categories = {"bof"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -61,7 +61,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "steel-20",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -82,7 +82,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-stainless-steel",
-    category = "py-rawores-smelter",
+    categories = {"py-rawores-smelter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -106,7 +106,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "stainless-steel",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -127,7 +127,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-super-steel",
-    category = "py-rawores-smelter",
+    categories = {"py-rawores-smelter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -148,7 +148,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "super-steel",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -169,7 +169,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "full-molten-stainless-steel-1",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -188,7 +188,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "full-molten-stainless-steel-2",
-    category = "py-rawores-smelter",
+    categories = {"py-rawores-smelter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -206,7 +206,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "full-molten-stainless-steel-3",
-    category = "py-rawores-smelter",
+    categories = {"py-rawores-smelter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -224,7 +224,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "full-molten-stainless-steel-4",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -246,7 +246,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "full-molten-super-steel-1",
-    category = "py-rawores-smelter",
+    categories = {"py-rawores-smelter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -266,7 +266,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "full-molten-super-steel-2",
-    category = "py-rawores-smelter",
+    categories = {"py-rawores-smelter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -285,7 +285,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "full-molten-super-steel-3",
-    category = "py-rawores-smelter",
+    categories = {"py-rawores-smelter"},
     enabled = false,
     energy_required = 4,
     ingredients = {

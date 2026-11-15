@@ -8,7 +8,7 @@ RECIPE("copper-plate"):set("icons", py.composite_icon("copper-plate", "copper-or
 RECIPE {
     type = "recipe",
     name = "grade-2-copper",
-    category = "solid-separator", --pyfe screener
+    categories = {"solid-separator"}, --pyfe screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -27,7 +27,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-1-copper-crush",
-    category = "crusher",
+    categories = {"crusher"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -44,7 +44,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-copper",
-    category = "solid-separator", --pyfe screener
+    categories = {"solid-separator"}, --pyfe screener
     enabled = false,
     energy_required = 2.5,
     ingredients = {
@@ -63,14 +63,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "copper-rejects-recrush",
-    category = "impact-crusher",
+    categories = {"impact-crusher"},
     enabled = false,
     energy_required = 1,
     ingredients = {
         {type = "item", name = "copper-rejects", amount = 1}
     },
     results = {
-        {type = "item", name = "grade-3-copper", amount = 1, probability = 0.5},
+        {type = "item", name = "grade-3-copper", amount = 1, independent_probability = 0.5},
         {type = "item", name = "gravel",         amount = 1}
     },
     main_product = "grade-3-copper",
@@ -80,7 +80,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-4-copper",
-    category = "solid-separator", --pyfe screener
+    categories = {"solid-separator"}, --pyfe screener
     enabled = false,
     energy_required = 2.5,
     ingredients = {
@@ -99,14 +99,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "classify-low-grade",
-    category = "classifier",
+    categories = {"classifier"},
     enabled = false,
     energy_required = 2,
     ingredients = {
         {type = "item", name = "low-grade-rejects", amount = 4}
     },
     results = {
-        {type = "item", name = "grade-4-copper",  amount = 1, probability = 0.3},
+        {type = "item", name = "grade-4-copper",  amount = 1, independent_probability = 0.3},
         {type = "item", name = "copper-low-dust", amount = 1}
     },
     main_product = "grade-4-copper",
@@ -118,7 +118,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "wash-coper-low-dust",
-    category = "washer",
+    categories = {"washer"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -138,7 +138,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-copper",
-    category = "chemistry", --pyfe agitador
+    categories = {"chemistry"}, --pyfe agitador
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -157,7 +157,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reduction-copper",
-    category = "drp",
+    categories = {"drp"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -176,7 +176,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-copper-2",
-    category = "sinter",
+    categories = {"sinter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -197,7 +197,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-copper-01",
-    category = "bof",
+    categories = {"bof"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -217,7 +217,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-copper-02",
-    category = "bof",
+    categories = {"bof"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -237,7 +237,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-copper-03",
-    category = "bof",
+    categories = {"bof"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -257,7 +257,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-copper-04",
-    category = "bof",
+    categories = {"bof"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -279,7 +279,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "copper-plate-1",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -299,7 +299,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "copper-plate-4",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -319,14 +319,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "low-grade-smelting-copper",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = false,
     energy_required = 1,
     ingredients = {
         {type = "item", name = "low-grade-copper", amount = 1}
     },
     results = {
-        {type = "item", name = "copper-plate", amount = 1, probability = 0.6}
+        {type = "item", name = "copper-plate", amount = 1, independent_probability = 0.6}
     },
     main_product = "copper-plate",
     icons = py.composite_icon("copper-plate", "low-grade-copper"),

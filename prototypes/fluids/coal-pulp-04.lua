@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "coal-pulp-04",
-    category = "chemistry", --pyfe Jig
+    categories = {"chemistry"}, --pyfe Jig
     enabled = false,
     energy_required = 3,
     ingredients = {

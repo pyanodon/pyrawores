@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "u-83",
-    category = "chemistry", --agitator
+    categories = {"chemistry"}, --agitator
     enabled = false,
     energy_required = 4,
     ingredients = {

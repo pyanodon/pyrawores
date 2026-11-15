@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nexelit-ore-1",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -9,7 +9,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "nexelit-ore",   amount = 1},
-        {type = "item", name = "tailings-dust", amount = 1, probability = 0.4}
+        {type = "item", name = "tailings-dust", amount = 1, independent_probability = 0.4}
     },
     main_product = "nexelit-ore",
     subgroup = "py-rawores-nexelit",
@@ -18,7 +18,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "clean-nexelit",
-    category = "washer",
+    categories = {"washer"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -38,7 +38,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-1-nexelit",
-    category = "crusher",
+    categories = {"crusher"},
     enabled = false,
     energy_required = 1.5,
     ingredients = {
@@ -57,14 +57,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-nexelit",
-    category = "solid-separator", --pyFE screener
+    categories = {"solid-separator"}, --pyFE screener
     enabled = false,
     energy_required = 2,
     ingredients = {
         {type = "item", name = "grade-1-nexelit", amount = 1}
     },
     results = {
-        {type = "item", name = "grade-2-nexelit", amount = 1, probability = 0.6},
+        {type = "item", name = "grade-2-nexelit", amount = 1, independent_probability = 0.6},
         {type = "item", name = "grade-3-nexelit", amount = 1},
         {type = "item", name = "nexelit-rejects", amount = 1}
     },
@@ -77,14 +77,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nexelit-rejects-recrush",
-    category = "impact-crusher",
+    categories = {"impact-crusher"},
     enabled = false,
     energy_required = 2,
     ingredients = {
         {type = "item", name = "nexelit-rejects", amount = 1}
     },
     results = {
-        {type = "item", name = "grade-1-nexelit", amount = 1, probability = 0.6}
+        {type = "item", name = "grade-1-nexelit", amount = 1, independent_probability = 0.6}
     },
     main_product = "grade-1-nexelit",
     subgroup = "py-rawores-nexelit",
@@ -93,7 +93,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nex-grade-2-crush",
-    category = "crusher", --pyfe secondary-crusher
+    categories = {"crusher"}, --pyfe secondary-crusher
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -112,7 +112,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fine-nexelit-powder",
-    category = "scrubber",
+    categories = {"scrubber"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -130,7 +130,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-nexelit-1",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -146,7 +146,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-nexelit-2",
-    category = "wet-scrubber",
+    categories = {"wet-scrubber"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -166,7 +166,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reduction-nexelit",
-    category = "drp",
+    categories = {"drp"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -185,7 +185,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-nexelit-2",
-    category = "sinter",
+    categories = {"sinter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -206,7 +206,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nexelit-01",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -225,7 +225,7 @@ RECIPE {
 -- RECIPE {
 --     type = "recipe",
 --     name = "molten-nexelit-02",
---     category = "advanced-foundry",
+--     categories = {"advanced-foundry"},
 --     enabled = false,
 --     energy_required = 3,
 --     ingredients = {
@@ -243,7 +243,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nexelit-03",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -262,7 +262,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nexelit-04",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -281,7 +281,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nexelit-05",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -302,7 +302,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nexelit-plate-3",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -323,7 +323,7 @@ RECIPE {
 -- RECIPE {
 --     type = "recipe",
 --     name = "nexelit-plate-1",
---     category = "smelting",
+--     categories = {"smelting"},
 --     enabled = false,
 --     energy_required = 10,
 --     ingredients = {
@@ -341,7 +341,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nexelit-plate-2",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = false,
     energy_required = 60,
     ingredients = {

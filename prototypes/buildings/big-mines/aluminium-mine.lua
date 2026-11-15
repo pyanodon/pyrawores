@@ -72,7 +72,7 @@ ENTITY {
                 south_position = {5.5, -15.5},
                 frequency = 40,
                 starting_vertical_speed = 0.1,
-                slow_down_factor = 1,
+                vertical_speed_slowdown = 1,
                 starting_frame_deviation = 60
             },
             {
@@ -83,7 +83,7 @@ ENTITY {
                 south_position = {8.33, -10},
                 frequency = 90,
                 starting_vertical_speed = 0.15,
-                slow_down_factor = 1,
+                vertical_speed_slowdown = 1,
                 starting_frame_deviation = 60
             },
             {
@@ -94,7 +94,7 @@ ENTITY {
                 south_position = {-3, -10.9},
                 frequency = 40,
                 starting_vertical_speed = 0.00,
-                slow_down_factor = 1,
+                vertical_speed_slowdown = 1,
                 starting_frame_deviation = 60
             },
             {
@@ -105,15 +105,14 @@ ENTITY {
                 south_position = {-5.2, -4.0},
                 frequency = 20,
                 starting_vertical_speed = 0.02,
-                slow_down_factor = 1,
+                vertical_speed_slowdown = 1,
                 starting_frame_deviation = 60
             },
         },
     },
     energy_usage = "2500kW",
-    mining_power = 6,
     resource_searching_radius = 0.49,
-    vector_to_place_result = {0, -9.65},
+    vector_to_place_result = {0, -9.8},
     radius_visualisation_picture = {
         filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-radius-visualization.png",
         width = 12,
@@ -294,6 +293,5 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyraworesgraphics__/sounds/aluminium-mine.ogg", volume = 1.0},
         idle_sound = {filename = "__pyraworesgraphics__/sounds/aluminium-mine.ogg", volume = 0.3},
-        apparent_volume = 2.5
     }
 }

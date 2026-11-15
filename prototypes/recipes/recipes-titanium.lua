@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "grade-1-ti",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     --pyFE screener
     enabled = false,
     energy_required = 3,
@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-ti", amount = 1},
-        {type = "item", name = "grade-2-ti", amount = 1, probability = 0.5}
+        {type = "item", name = "grade-2-ti", amount = 1, independent_probability = 0.5}
     },
     main_product = "grade-1-ti",
     icon = "__pyraworesgraphics__/graphics/icons/ore-titanium-screening.png",
@@ -21,7 +21,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-ti-crush",
-    category = "crusher",
+    categories = {"crusher"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -29,7 +29,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "stone",      amount = 1},
-        {type = "item", name = "grade-1-ti", amount = 1, probability = 0.5}
+        {type = "item", name = "grade-1-ti", amount = 1, independent_probability = 0.5}
     },
     main_product = "grade-1-ti",
     subgroup = "py-rawores-titanium",
@@ -38,7 +38,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-ti",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     --pyFE screener
     enabled = false,
     energy_required = 3,
@@ -47,7 +47,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-3-ti", amount = 1},
-        {type = "item", name = "ti-rejects", amount = 1, probability = 0.5}
+        {type = "item", name = "ti-rejects", amount = 1, independent_probability = 0.5}
     },
     main_product = "grade-3-ti",
     icon = "__pyraworesgraphics__/graphics/icons/grade-1-ti-screening.png",
@@ -58,7 +58,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ti-rejects-recrush",
-    category = "crusher",
+    categories = {"crusher"},
     --pyFE secondary-crusher
     enabled = false,
     energy_required = 3,
@@ -67,7 +67,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "gravel",     amount = 1},
-        {type = "item", name = "grade-3-ti", amount = 1, probability = 0.3}
+        {type = "item", name = "grade-3-ti", amount = 1, independent_probability = 0.3}
     },
     main_product = "grade-3-ti",
     icon = "__pyraworesgraphics__/graphics/icons/recrush-ti-rejects.png",
@@ -78,7 +78,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-4-ti",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -94,7 +94,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "powdered-ti",
-    category = "chemistry", --pyFE jig
+    categories = {"chemistry"}, --pyFE jig
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -114,7 +114,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ti-enriched-dust",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     --pyFE screener
     enabled = false,
     energy_required = 4,
@@ -123,7 +123,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "ti-enriched-dust", amount = 1},
-        {type = "item", name = "ti-rejects",       amount = 1, probability = 0.5}
+        {type = "item", name = "ti-rejects",       amount = 1, independent_probability = 0.5}
     },
     main_product = "ti-enriched-dust",
     icon = "__pyraworesgraphics__/graphics/icons/powdered-ti-screening.png",
@@ -134,7 +134,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-ti-powder",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -150,7 +150,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "concentrated-ti",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -158,8 +158,8 @@ RECIPE {
     },
     results = {
         {type = "item", name = "concentrated-ti", amount = 1},
-        {type = "item", name = "nexelit-ore",     amount = 1, probability = 0.5},
-        {type = "item", name = "iron-oxide",      amount = 1, probability = 0.5}
+        {type = "item", name = "nexelit-ore",     amount = 1, independent_probability = 0.5},
+        {type = "item", name = "iron-oxide",      amount = 1, independent_probability = 0.5}
     },
     main_product = "concentrated-ti",
     subgroup = "py-rawores-titanium",
@@ -168,7 +168,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-ti",
-    category = "electrolyzer",
+    categories = {"electrolyzer"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -188,7 +188,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reduction-titanium",
-    category = "drp",
+    categories = {"drp"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -207,7 +207,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-titanium-2",
-    category = "sinter",
+    categories = {"sinter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -229,7 +229,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-titanium-01",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -249,7 +249,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-titanium-02",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -269,7 +269,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-titanium-03",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -289,7 +289,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-titanium-04",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -309,7 +309,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-titanium-05",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -331,7 +331,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "titanium-plate-3",
-    category = "casting",
+    categories = {"casting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -352,7 +352,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "titanium-plate-1",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = false,
     energy_required = 60,
     ingredients = {
@@ -372,7 +372,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "titanium-plate-2",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = false,
     energy_required = 25,
     ingredients = {
@@ -390,7 +390,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "titanium-plate-4",
-    category = "smelting",
+    categories = {"smelting"},
     enabled = false,
     energy_required = 35,
     ingredients = {

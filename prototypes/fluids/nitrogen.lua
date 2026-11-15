@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nitrogen",
-    category = "carbonfilter",
+    categories = {"carbonfilter"},
     enabled = false,
     energy_required = 4,
     ingredients = {

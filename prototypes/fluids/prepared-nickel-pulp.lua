@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "prepared-nickel-pulp",
-    category = "chemistry", --pyfe hydrocyclone
+    categories = {"chemistry"}, --pyfe hydrocyclone
     enabled = false,
     energy_required = 3,
     ingredients = {

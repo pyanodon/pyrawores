@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "hydrogen",
-    category = "electrolyzer",
+    categories = {"electrolyzer"},
     enabled = false,
     energy_required = 10,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "grade-1-u",
-    category = "crusher",
+    categories = {"crusher"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -10,7 +10,7 @@ RECIPE {
     results = {
         {type = "item", name = "grade-1-u", amount = 1},
         {type = "item", name = "stone",     amount = 1},
-        {type = "item", name = "grade-2-u", amount = 1, probability = 0.2},
+        {type = "item", name = "grade-2-u", amount = 1, independent_probability = 0.2},
     },
     main_product = "grade-1-u",
     icon = "__pyraworesgraphics__/graphics/icons/crush-uranium.png",
@@ -21,7 +21,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-1-u-recrush",
-    category = "impact-crusher",
+    categories = {"impact-crusher"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -29,7 +29,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-2-u", amount = 1},
-        {type = "item", name = "gravel",    amount = 1, probability = 0.5},
+        {type = "item", name = "gravel",    amount = 1, independent_probability = 0.5},
     },
     main_product = "grade-2-u",
     subgroup = "py-rawores-uranium",
@@ -38,7 +38,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-u-crush",
-    category = "crusher", --pyfe secondary crusher
+    categories = {"crusher"}, --pyfe secondary crusher
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -46,7 +46,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "powdered-u", amount = 1},
-        {type = "item", name = "sand",       amount = 1, probability = 0.5},
+        {type = "item", name = "sand",       amount = 1, independent_probability = 0.5},
     },
     main_product = "powdered-u",
     icon = "__pyraworesgraphics__/graphics/icons/grade-2-u-recrush.png",
@@ -57,7 +57,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "20-u-powder",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -65,19 +65,19 @@ RECIPE {
     },
     results = {
         {type = "item", name = "20-u-powder", amount = 1},
-        {type = "item", name = "sand",        amount = 1, probability = 0.3},
+        {type = "item", name = "sand",        amount = 1, independent_probability = 0.3},
         {type = "item", name = "uranium-238", amount = 7}
     },
     main_product = "20-u-powder",
     icon = "__pyraworesgraphics__/graphics/icons/powdered-u-screening.png",
     icon_size = 32,
     subgroup = "py-rawores-uranium",
-}:add_unlock("uranium-mk01") --.category = 'screener' TODO: move to something with a fluid box
+}:add_unlock("uranium-mk01") --.categories = {'screener'} TODO: move to something with a fluid box
 
 RECIPE {
     type = "recipe",
     name = "40-u-powder",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -94,7 +94,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "70-u-powder",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -111,7 +111,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "yellow-cake",
-    category = "carbonfilter",
+    categories = {"carbonfilter"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -130,7 +130,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "yellow-cake-u235",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 7.5,
     ingredients = {
@@ -147,7 +147,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrod-mk02",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -165,7 +165,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrod-mk03",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -183,7 +183,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrod-mk04",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -201,7 +201,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fuelrod-mk05",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -219,7 +219,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "uranium-fuel-cell-mk02",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -237,7 +237,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "uranium-fuel-cell-mk03",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -255,7 +255,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "uranium-fuel-cell-mk04",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -273,7 +273,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "uranium-fuel-cell-mk05",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -291,7 +291,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nuclear-fuel-reprocessing-mk02",
-    category = "centrifuging",
+    categories = {"centrifuging"},
     enabled = false,
     energy_required = 60,
     ingredients = {
@@ -308,7 +308,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nuclear-fuel-reprocessing-mk03",
-    category = "centrifuging",
+    categories = {"centrifuging"},
     enabled = false,
     energy_required = 60,
     ingredients = {
@@ -325,7 +325,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nuclear-fuel-reprocessing-mk04",
-    category = "centrifuging",
+    categories = {"centrifuging"},
     enabled = false,
     energy_required = 60,
     ingredients = {
@@ -342,7 +342,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nuclear-fuel-reprocessing-mk05",
-    category = "centrifuging",
+    categories = {"centrifuging"},
     enabled = false,
     energy_required = 60,
     ingredients = {

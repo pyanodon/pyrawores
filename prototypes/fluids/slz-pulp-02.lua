@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "slz-pulp-02",
-    category = "leaching",
+    categories = {"leaching"},
     enabled = false,
     energy_required = 1,
     ingredients = {

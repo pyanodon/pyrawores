@@ -1,3 +1,4 @@
+---@diagnostic disable-next-line: need-check-nil
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["phosphate-rock-02"] = {}
 data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["phosphate-rock-02"] = {}
 
@@ -69,7 +70,6 @@ data:extend {{
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
     autoplace = {
-        name = "phosphate-rock-02",
         order = "b-phosphate-rock-02",
         control = "phosphate-rock-02",
         -- We return the chance of spawning on any given tile here

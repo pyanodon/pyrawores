@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "high-grade-quartz-pulp",
-    category = "flotation",
+    categories = {"flotation"},
     enabled = false,
     energy_required = 3,
     ingredients = {

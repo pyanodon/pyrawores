@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "sl-01",
-    category = "flotation",
+    categories = {"flotation"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -22,7 +22,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sl-01-2",
-    category = "flotation",
+    categories = {"flotation"},
     enabled = false,
     energy_required = 5,
     ingredients = {
