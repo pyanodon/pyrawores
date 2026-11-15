@@ -44,12 +44,17 @@ RECIPE {
         {type = "item", name = "stainless-steel",      amount = 20},
         {type = "item", name = "tin-plate",            amount = 20},
         {type = "item", name = "electric-engine-unit", amount = 6},
-        {type = "item", name = "processing-unit",      amount = 10}
+        {type = "item", name = "processing-unit",      amount = 10},
+        {type = "item", name = "nbti-alloy",           amount = 20},
     },
     results = {
         {type = "item", name = "eaf-mk03", amount = 1}
     }
 }:add_unlock("smelters-mk03")
+
+if mods.pyhightech then
+    RECIPE("eaf-mk03"):add_ingredient_unsafe {type = "item", name = "paramagnetic-material", amount = 10}:add_ingredient_unsafe {type = "item", name = "superconductor", amount = 5}:add_ingredient_unsafe {type = "item", name = "crco-alloy", amount = 20}
+end
 
 RECIPE {
     type = "recipe",
@@ -62,11 +67,19 @@ RECIPE {
         {type = "item", name = "super-steel",           amount = 30},
         {type = "item", name = "low-density-structure", amount = 10},
         {type = "item", name = "nbfe-alloy",            amount = 10},
+        {type = "item", name = "super-alloy",           amount = 10},
+        {type = "item", name = "boron-carbide",         amount = 30},
+        {type = "item", name = "science-coating",       amount = 1},
+        {type = "item", name = "control-unit",          amount = 5},
     },
     results = {
         {type = "item", name = "eaf-mk04", amount = 1}
     }
 }:add_unlock("smelters-mk04")
+
+if mods.pyhightech then
+    RECIPE("eaf-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "quantum-dots", amount = 5}
+end
 
 for i = 1, 4 do
     local name = "eaf-mk0" .. i

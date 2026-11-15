@@ -258,18 +258,14 @@ require "prototypes.fluids.zinc-waste"
 require "prototypes.fluids.molten-zinc"
 require "prototypes.fluids.molten-solder"
 
-if mods["pyfusionenergy"] then
-    require "prototypes.fluids.u-waste"
-    require "prototypes.fluids.vanadium-mixture"
-end
+require "prototypes.fluids.u-waste"
+require "prototypes.fluids.vanadium-mixture"
 
 --Pycoal fluids
 require "__pycoalprocessing__.prototypes.fluids.diesel"
 
 --pyfusion fluids
-if mods["pyfusionenergy"] then
-    require "__pyfusionenergy__.prototypes.fluids.liquid-nitrogen"
-end
+require "__pyfusionenergy__.prototypes.fluids.liquid-nitrogen"
 
 --(( RECIPES ))--
 require "prototypes.recipes.recipes"
@@ -293,13 +289,11 @@ require "prototypes.recipes.recipes-zinc"
 require "prototypes.recipes.recipes-casting"
 require "prototypes.recipes.recipes-solder"
 
-if mods["pyfusionenergy"] then
-    require "prototypes.recipes.pyfusionenergy-recipes"
-end
+require "prototypes.recipes.pyfusionenergy-recipes"
 
-if mods["pyhightech"] then
-    require "prototypes.recipes.pyhightech-recipes"
-end
+-- if mods["pyhightech"] then
+--     require "prototypes.recipes.pyhightech-recipes"
+-- end
 
 --(( OTHERS ))--
 

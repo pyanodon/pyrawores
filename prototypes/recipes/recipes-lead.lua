@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "grade-1-lead",
-    categories = {"solid-separator"}, --pyFE screener
+    category = "screener", --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -9,7 +9,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-lead", amount = 1},
-        --{type = "item", name = "grade-2-lead", amount = 1, independent_probability = 0.5}
+        --{type = "item", name = "grade-2-lead", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-lead",
     icon = "__pyraworesgraphics__/graphics/icons/ore-lead-screening.png",
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-lead-crusher",
-    categories = {"impact-crusher"},
+    category = "impact-crusher",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -39,14 +39,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-lead",
-    categories = {"solid-separator"}, --pyFE screener
+    category = "screener", --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item", name = "grade-2-lead", amount = 2}
     },
     results = {
-        {type = "item", name = "grade-1-lead", amount = 1, independent_probability = 0.5},
+        {type = "item", name = "grade-1-lead", amount = 1, probability = 0.5},
         {type = "item", name = "grade-3-lead", amount = 1}
     },
     main_product = "grade-3-lead",
@@ -58,7 +58,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-crush-lead",
-    categories = {"crusher"}, --pyfe secondary-crusher
+    category = "secondary-crusher", --pyfe secondary-crusher
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -76,7 +76,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "lead-refined-dust-02",
-    categories = {"ball-mill"},
+    category = "ball-mill",
     enabled = false,
     energy_required = 2.5,
     ingredients = {
@@ -92,7 +92,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "lead-refined-dust-03",
-    categories = {"solid-separator"}, --pyfe screener
+    category = "screener", --pyfe screener
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -109,7 +109,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sl-concentrate",
-    categories = {"carbonfilter"},
+    category = "carbonfilter",
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -126,7 +126,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-sl",
-    categories = {"solid-separator"},
+    category = "solid-separator",
     enabled = false,
     energy_required = 3.0,
     ingredients = {
@@ -142,7 +142,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-silv",
-    categories = {"solid-separator"},
+    category = "solid-separator",
     enabled = false,
     energy_required = 3.0,
     ingredients = {
@@ -160,13 +160,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reduction-lead",
-    categories = {"drp"},
+    category = "drp",
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item",  name = "high-grade-lead", amount = 1},
         {type = "item",  name = "sodium-sulfate",  amount = 2},
-        {type = "fluid", name = "diesel",          amount = 50}
+        {type = "fluid", name = "diesel",          amount = 50},
+        {type = "fluid", name = "pressured-air",   amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -179,13 +180,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-lead-2",
-    categories = {"sinter"},
+    category = "sinter",
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item",  name = "reduced-lead", amount = 1},
-        {type = "item",  name = "lime",         amount = 3},
-        {type = "fluid", name = "syngas",       amount = 100}
+        {type = "item",  name = "reduced-lead",  amount = 1},
+        {type = "item",  name = "lime",          amount = 3},
+        {type = "fluid", name = "syngas",        amount = 100},
+        {type = "fluid", name = "pressured-air", amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -200,7 +202,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-lead-01",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -216,10 +218,14 @@ RECIPE {
     order = "bae"
 }:add_unlock("lead-mk02")
 
+if mods.pyhightech then
+    RECIPE("molten-lead-01"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 2}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-lead-02",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -235,10 +241,14 @@ RECIPE {
     order = "bad"
 }:add_unlock("lead-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-lead-02"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-lead-03",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -254,10 +264,14 @@ RECIPE {
     order = "bac"
 }:add_unlock("lead-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-lead-03"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 2}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-lead-04",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -273,10 +287,14 @@ RECIPE {
     order = "bab"
 }:add_unlock("lead-mk04")
 
+if mods.pyhightech then
+    RECIPE("molten-lead-04"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-lead-05",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -287,17 +305,21 @@ RECIPE {
         {type = "fluid", name = "molten-lead", amount = 650}
     },
     main_product = "molten-lead",
-    icons = py.composite_icon("molten-lead", "sintered-lead"),  
+    icons = py.composite_icon("molten-lead", "sintered-lead"),
     subgroup = "py-rawores-lead",
     order = "baa"
 }:add_unlock("lead-mk05")
+
+if mods.pyhightech then
+    RECIPE("molten-lead-05"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
 
 --CASTINGS
 
 RECIPE {
     type = "recipe",
     name = "lead-plate-3",
-    categories = {"casting"},
+    category = "casting",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -318,7 +340,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "lead-plate-1",
-    categories = {"smelting"},
+    category = "smelting",
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -337,7 +359,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "lead-plate-2",
-    categories = {"smelting"},
+    category = "smelting",
     enabled = false,
     energy_required = 40,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "slz-pulp-01",
-    categories = {"hydroclassifier"},
+    category = "hydroclassifier",
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -18,6 +18,10 @@ RECIPE {
     subgroup = "py-rawores-lead",
     order = "q-1"
 }:add_unlock("lead-mk03")
+
+if mods.pyhightech then
+    RECIPE("slz-pulp-01"):replace_ingredient_unsafe("water", {type = "fluid", name = "cyanic-acid", amount = 25})
+end
 
 FLUID {
     type = "fluid",

@@ -1,10 +1,9 @@
 data.raw["autoplace-control"]["coal"] = nil
 
 -- TECH CHANGES
-data.raw.technology["uranium-processing"].enabled = false
-data.raw.technology["uranium-processing"].hidden = true
+TECHNOLOGY("uranium-processing"):hide().enabled = false
 --data.raw.technology["uranium-processing"] = nil
-TECHNOLOGY("kovarex-enrichment-process"):set_fields {enabled = false}:set_fields {hidden = true}
+TECHNOLOGY("kovarex-enrichment-process"):set_fields {enabled = false}:hide()
 TECHNOLOGY("robotics"):remove_prereq("construction-robotics"):add_prereq("logistic-robotics")
 TECHNOLOGY("construction-robotics"):remove_prereq("steel-processing")
 TECHNOLOGY("fluid-handling"):remove_prereq("automation"):remove_prereq("steel-processing")
@@ -24,17 +23,23 @@ TECHNOLOGY("atomic-bomb"):add_pack("space-science-pack")
 TECHNOLOGY("plastics"):remove_pack("logistic-science-pack")
 
 -- RECIPE UNLOCKS
-RECIPE("uranium-processing"):remove_unlock("uranium-processing"):set_fields {hidden = true}
+RECIPE("uranium-processing"):remove_unlock("uranium-processing"):hide()
 RECIPE("nuclear-fuel"):remove_unlock("kovarex-enrichment-process"):add_unlock("uranium-mk04")
-RECIPE("flying-robot-frame"):add_unlock("robotics"):set_fields {hidden = false}
-ITEM("flying-robot-frame"):set_fields {hidden = false}
+RECIPE("flying-robot-frame"):add_unlock("robotics"):unhide()
+ITEM("flying-robot-frame"):unhide()
 RECIPE("centrifuge"):remove_unlock("uranium-processing"):add_unlock("nuclear-fuel-reprocessing")
 
 -- RECIPE CHANGES
 RECIPE("atomic-bomb"):remove_ingredient("uranium-235"):add_ingredient {type = "item", name = "yellow-cake", amount = 5}
 RECIPE("kovarex-enrichment-process"):set_fields {energy_required = 5}
 RECIPE("electric-engine-unit"):remove_ingredient("copper-cable"):add_ingredient {type = "item", name = "copper-cable", amount = 150}:add_ingredient {type = "item", name = "aluminium-plate", amount = 10}:add_ingredient {type = "item", name = "bolts", amount = 20} --:remove_ingredient("engine-unit")
-RECIPE("low-density-structure"):replace_category("crafting-with-fluid", "py-rawores-smelter")
+RECIPE("low-density-structure").category = "py-rawores-smelter"
+RECIPE("express-splitter"):add_ingredient {type = "item", name = "super-alloy", amount = 1}
+RECIPE("express-underground-belt"):add_ingredient {type = "item", name = "super-alloy", amount = 1}
+RECIPE("express-transport-belt"):add_ingredient {type = "item", name = "super-alloy", amount = 1}
+RECIPE("nuclear-reactor"):add_ingredient {type = "item", name = "super-steel", amount = 100}
+RECIPE("substation"):replace_ingredient("steel", "super-alloy")
+RECIPE("low-density-structure"):replace_ingredient("niobium-plate", "super-steel"):remove_ingredient("steel-plate")
 
 -- ENTITY CHANGES
 data.raw.reactor["nuclear-reactor"].use_fuel_glow_color = true
@@ -52,13 +57,12 @@ data.raw["assembling-machine"]["centrifuge"].crafting_speed = 4
 data.raw["assembling-machine"]["centrifuge"].module_slots = 4
 
 data.raw.resource["coal"].hidden = true
----@diagnostic disable-next-line: need-check-nil
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["coal"] = nil
 data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["coal"] = nil
 
 if data.raw.resource["uranium-ore"] ~= nil then
-    data.raw.resource["uranium-ore"].minable--[[@cast -?]].required_fluid = nil
-    data.raw.resource["uranium-ore"].minable--[[@cast -?]].fluid_amount = nil
+    data.raw.resource["uranium-ore"].minable.required_fluid = nil
+    data.raw.resource["uranium-ore"].minable.fluid_amount = nil
 end
 
 -- ITEM CHANGES

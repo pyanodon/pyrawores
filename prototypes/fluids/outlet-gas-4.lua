@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "outlet-gas-04",
-    categories = {"wet-scrubber"},
+    category = "wet-scrubber",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -17,6 +17,10 @@ RECIPE {
     subgroup = "py-rawores-coke",
     order = "q-2"
 }:add_unlock("coke-mk03")
+
+if mods.pyhightech then
+    RECIPE("outlet-gas-04"):add_ingredient_unsafe {type = "fluid", name = "tall-oil", amount = 50}
+end
 
 FLUID {
     type = "fluid",

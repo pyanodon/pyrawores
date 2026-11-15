@@ -4,7 +4,7 @@ RECIPE {
     type = "recipe",
     name = "py-construction-robot-mk02",
     energy_required = 10,
-    categories = {"crafting-with-fluid"},
+    category = "crafting-with-fluid",
     enabled = false,
     ingredients = {
         {type = "item",  name = "py-construction-robot-mk01", amount = 1},
@@ -19,6 +19,10 @@ RECIPE {
         {type = "item", name = "py-construction-robot-mk02", amount = 1}
     }
 }:add_unlock("robotics")
+
+if mods.pyhightech then
+    RECIPE("py-construction-robot-mk02"):add_ingredient_unsafe {type = "item", name = "nexelit-battery", amount = 1}
+end
 
 ITEM {
     type = "item",
@@ -47,7 +51,6 @@ local shadow = {
 
 ENTITY {
     type = "construction-robot",
-    tall = true,
     name = "py-construction-robot-mk02",
     icon = "__pyraworesgraphics__/graphics/icons/py-construction-robot-02.png",
     icon_size = 32,
@@ -59,6 +62,7 @@ ENTITY {
     selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
     max_payload_size = 1,
     speed = 0.13,
+    transfer_distance = 0.5,
     max_energy = "2.5MJ",
     energy_per_tick = "0.06kJ",
     speed_multiplier_when_out_of_energy = 0.2,
@@ -173,7 +177,9 @@ ENTITY {
         }
     },
     shadow_idle = shadow,
+    shadow_idle_with_cargo = shadow,
     shadow_in_motion = shadow,
+    shadow_in_motion_with_cargo = shadow,
     shadow_working = {
         filename = "__pyraworesgraphics__/graphics/entity/construction-robot/shadow.png",
         priority = "high",
@@ -188,5 +194,6 @@ ENTITY {
         scale = 0.5
     },
     working_sound = sounds.construction_robot(0.5),
+    cargo_centered = {0.0, 0.2},
     construction_vector = {0.30, 0.22}
 }

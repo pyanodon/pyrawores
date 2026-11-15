@@ -1,16 +1,17 @@
 RECIPE {
     type = "recipe",
     name = "chromite-pulp-05",
-    categories = {"flotation"},
+    category = "flotation",
     enabled = false,
     energy_required = 2,
     ingredients = {
         {type = "fluid", name = "chromite-pulp-06", amount = 100},
         {type = "fluid", name = "glycerol",         amount = 100},
+        {type = "fluid", name = "pressured-air",    amount = 150},
     },
     results = {
         {type = "fluid", name = "chromite-pulp-05", amount = 50},
-        {type = "item",  name = "high-chromite",    amount = 1, independent_probability = 0.2},
+        {type = "item",  name = "high-chromite",    amount = 1, probability = 0.2},
     },
     main_product = "chromite-pulp-05",
     subgroup = "py-rawores-chromium",

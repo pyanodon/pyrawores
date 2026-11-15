@@ -16,6 +16,10 @@ RECIPE {
     }
 }:add_unlock("big-mines")
 
+if mods.pyhightech then
+    RECIPE("phosphate-mine-02"):add_ingredient_unsafe {type = "item", name = "graphene-roll", amount = 5}
+end
+
 ITEM {
     type = "item",
     name = "phosphate-mine-02",

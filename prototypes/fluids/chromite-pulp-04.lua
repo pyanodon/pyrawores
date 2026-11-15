@@ -1,17 +1,18 @@
 RECIPE {
     type = "recipe",
     name = "chromite-pulp-04",
-    categories = {"flotation"},
+    category = "flotation",
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "chromite-pulp-03", amount = 100},
         {type = "fluid", name = "methanol",         amount = 100},
+        {type = "fluid", name = "pressured-air",    amount = 150},
     },
     results = {
-        {type = "fluid", name = "chromite-pulp-04",  amount = 50},
-        {type = "fluid", name = "chromite-pulp-05",  amount = 50},
-        {type = "fluid", name = "tailings", amount = 100},
+        {type = "fluid", name = "chromite-pulp-04", amount = 50},
+        {type = "fluid", name = "chromite-pulp-05", amount = 50},
+        {type = "fluid", name = "tailings",         amount = 100},
     },
     main_product = "chromite-pulp-04",
     subgroup = "py-rawores-chromium",

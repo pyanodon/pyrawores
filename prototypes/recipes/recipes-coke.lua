@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "redhot-coke",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -19,12 +19,13 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "quench-redcoke",
-    categories = {"quenching-tower"},
+    category = "quenching-tower",
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item",  name = "redhot-coke", amount = 6},
-        {type = "fluid", name = "water",       amount = 200}
+        {type = "item",  name = "redhot-coke",   amount = 6},
+        {type = "fluid", name = "water",         amount = 200},
+        {type = "fluid", name = "pressured-air", amount = 150},
         --pyfe pressured-air
     },
     results = {
@@ -40,7 +41,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "outlet-gas-04-breakdown",
-    categories = {"wet-scrubber"},
+    category = "wet-scrubber",
     enabled = false,
     energy_required = 3,
     ingredients = {

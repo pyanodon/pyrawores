@@ -1,12 +1,13 @@
 RECIPE {
     type = "recipe",
     name = "chromite-pulp-06",
-    categories = {"flotation"},
+    category = "flotation",
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "chromite-pulp-04", amount = 100},
         {type = "fluid", name = "tar",              amount = 100},
+        {type = "fluid", name = "pressured-air",    amount = 150},
     },
     results = {
         {type = "fluid", name = "chromite-pulp-06",  amount = 100},

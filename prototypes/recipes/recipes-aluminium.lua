@@ -3,7 +3,7 @@
 RECIPE {
     type = "recipe",
     name = "powdered-aluminium",
-    categories = {"ball-mill"},
+    category = "ball-mill",
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -11,7 +11,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "powdered-aluminium", amount = 1},
-        {type = "item", name = "gravel",             amount = 1, independent_probability = 0.5}
+        {type = "item", name = "gravel",             amount = 1, probability = 0.5}
     },
     main_product = "powdered-aluminium",
     subgroup = "py-rawores-aluminium",
@@ -20,14 +20,15 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sodium-aluminate",
-    categories = {"hydroclassifier"},
+    category = "hydroclassifier",
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "al-pulp-04",       amount = 300},
         {type = "fluid", name = "water",            amount = 300},
         {type = "item",  name = "sodium-hydroxide", amount = 5},
-        {type = "item",  name = "starch",           amount = 5}
+        {type = "item",  name = "starch",           amount = 5},
+        {type = "item",  name = "sodium-chlorate",  amount = 5},
     },
     results = {
         {type = "item",  name = "sodium-aluminate", amount = 4},
@@ -40,12 +41,12 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "crystalized-sodium-aluminate",
-    categories = {"evaporator"},
+    category = "evaporator",
     enabled = false,
     energy_required = 5,
     ingredients = {
         {type = "item",  name = "sodium-aluminate", amount = 8},
-        {type = "fluid", name = "steam",            amount = 300} --pyfe pressured air
+        {type = "fluid", name = "pressured-air",    amount = 500} --pyfe pressured air
     },
     results = {
         {type = "item", name = "crystalized-sodium-aluminate", amount = 2}
@@ -57,7 +58,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-alumina",
-    categories = {"electrolyzer"},
+    category = "electrolyzer",
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -74,18 +75,23 @@ RECIPE {
     subgroup = "py-rawores-aluminium",
 }:add_unlock("aluminium-mk03")
 
+if mods.pyhightech then
+    RECIPE("high-grade-alumina"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 --SINTER and DRP IMPROVEMENTS
 
 RECIPE {
     type = "recipe",
     name = "reduction-aluminium",
-    categories = {"drp"},
+    category = "drp",
     enabled = false,
     energy_required = 5,
     ingredients = {
         {type = "item",  name = "high-grade-alumina", amount = 1},
         {type = "item",  name = "iron-oxide",         amount = 2},
-        {type = "fluid", name = "diesel",             amount = 50}
+        {type = "fluid", name = "diesel",             amount = 50},
+        {type = "fluid", name = "pressured-air",      amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -98,13 +104,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-aluminium-2",
-    categories = {"sinter"},
+    category = "sinter",
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item",  name = "reduced-aluminium", amount = 1},
         {type = "item",  name = "lime",              amount = 3},
-        {type = "fluid", name = "syngas",            amount = 100}
+        {type = "fluid", name = "syngas",            amount = 100},
+        {type = "fluid", name = "pressured-air",     amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -119,7 +126,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-01",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -135,10 +142,14 @@ RECIPE {
     order = "baf"
 }:add_unlock("aluminium-mk01")
 
+if mods.pyhightech then
+    RECIPE("molten-aluminium-01"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-02",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -154,10 +165,14 @@ RECIPE {
     order = "bae"
 }:add_unlock("aluminium-mk02")
 
+if mods.pyhightech then
+    RECIPE("molten-aluminium-02"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-03",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -173,10 +188,14 @@ RECIPE {
     order = "bad"
 }:add_unlock("aluminium-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-aluminium-03"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-03-2",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -192,10 +211,14 @@ RECIPE {
     order = "bac"
 }:add_unlock("aluminium-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-aluminium-03-2"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-04",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -212,10 +235,14 @@ RECIPE {
     order = "bab"
 }:add_unlock("aluminium-mk04")
 
+if mods.pyhightech then
+    RECIPE("molten-aluminium-04"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-aluminium-05",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -232,12 +259,16 @@ RECIPE {
     order = "baa"
 }:add_unlock("aluminium-mk05")
 
+if mods.pyhightech then
+    RECIPE("molten-aluminium-05"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 ----PLATES----
 
 RECIPE {
     type = "recipe",
     name = "aluminium-plate-3",
-    categories = {"casting"},
+    category = "casting",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -258,7 +289,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "aluminium-plate-1",
-    categories = {"smelting"},
+    category = "smelting",
     enabled = true,
     energy_required = 6,
     ingredients = {

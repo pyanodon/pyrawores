@@ -17,6 +17,10 @@ RECIPE {
     }
 }:add_unlock("alloys-mk01")
 
+if mods.pyhightech then
+    RECIPE("smelter-mk01"):add_ingredient_unsafe {type = "item", name = "ceramic", amount = 50}
+end
+
 RECIPE {
     type = "recipe",
     name = "smelter-mk02",
@@ -35,6 +39,10 @@ RECIPE {
     }
 }:add_unlock("smelters-mk02")
 
+if mods.pyhightech then
+    RECIPE("smelter-mk02"):add_ingredient_unsafe {type = "item", name = "ceramic", amount = 50}
+end
+
 RECIPE {
     type = "recipe",
     name = "smelter-mk03",
@@ -48,11 +56,18 @@ RECIPE {
         {type = "item", name = "nexelit-plate",        amount = 20},
         {type = "item", name = "electric-engine-unit", amount = 20},
         {type = "item", name = "processing-unit",      amount = 10},
+        {type = "item", name = "nbti-alloy",           amount = 15},
+        {type = "item", name = "boron-carbide",        amount = 20},
+        {type = "item", name = "py-heat-exchanger",    amount = 1},
     },
     results = {
         {type = "item", name = "smelter-mk03", amount = 1}
     }
 }:add_unlock("smelters-mk03")
+
+if mods.pyhightech then
+    RECIPE("smelter-mk03"):add_ingredient_unsafe {type = "item", name = "heavy-fermion", amount = 20}:add_ingredient_unsafe {type = "item", name = "carbon-aerogel", amount = 20}:add_ingredient_unsafe {type = "item", name = "graphene-roll", amount = 15}
+end
 
 RECIPE {
     type = "recipe",
@@ -64,11 +79,19 @@ RECIPE {
         {type = "item", name = "super-steel",           amount = 30},
         {type = "item", name = "low-density-structure", amount = 15},
         {type = "item", name = "nbfe-alloy",            amount = 20},
+        {type = "item", name = "super-alloy",           amount = 20},
+        {type = "item", name = "wall-shield",           amount = 2},
+        {type = "item", name = "science-coating",       amount = 1},
+        {type = "item", name = "control-unit",          amount = 5},
     },
     results = {
         {type = "item", name = "smelter-mk04", amount = 1}
     }
 }:add_unlock("smelters-mk04")
+
+if mods.pyhightech then
+    RECIPE("smelter-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "harmonic-absorber", amount = 10}
+end
 
 for i = 1, 4 do
     local name = "smelter-mk0" .. i

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "distilled-raw-coal",
-    categories = {"distilator"},
+    category = "distilator",
     enabled = true,
     energy_required = 2,
     ingredients = {
@@ -10,7 +10,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "coal-gas",   amount = 60},
         {type = "fluid", name = "tar",        amount = 30},
-        {type = "item",  name = "iron-oxide", amount = 1, independent_probability = 0.2},
+        {type = "item",  name = "iron-oxide", amount = 1, probability = 0.2},
         {type = "item",  name = "coal",       amount = 3}
     },
     main_product = "coal",
@@ -25,7 +25,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "crushed-coal",
-    categories = {"crusher"},
+    category = "secondary-crusher",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -34,7 +34,7 @@ RECIPE {
     results = {
         {type = "item", name = "crushed-coal", amount = 1},
         {type = "item", name = "coal",         amount = 2},
-        {type = "item", name = "coal-dust",    amount = 1, independent_probability = 0.3}
+        {type = "item", name = "coal-dust",    amount = 1, probability = 0.3}
     },
     main_product = "crushed-coal",
     icon = "__pyraworesgraphics__/graphics/icons/recrush-coal.png",
@@ -45,7 +45,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "coarse-coal-to-coal",
-    categories = {"crusher"},
+    category = "secondary-crusher",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -62,7 +62,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "coarse-coal",
-    categories = {"solid-separator"},
+    category = "screener",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -71,7 +71,7 @@ RECIPE {
     results = {
         {type = "item", name = "coarse-coal", amount = 1},
         {type = "item", name = "coal",        amount = 4},
-        {type = "item", name = "coal-dust",   amount = 1, independent_probability = 0.3}
+        {type = "item", name = "coal-dust",   amount = 1, probability = 0.3}
     },
     main_product = "coarse-coal",
     subgroup = "py-rawores-coal",
@@ -80,7 +80,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "coarse-to-coal",
-    categories = {"evaporator"},
+    category = "evaporator",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -97,7 +97,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "filter-coal-pulp-01",
-    categories = {"carbonfilter"},
+    category = "carbonfilter",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -116,19 +116,20 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "coal-pulp-02",
-    categories = {"flotation"},
+    category = "flotation",
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "coal-pulp-02", amount = 100},
-        {type = "fluid", name = "slacked-lime", amount = 100},
+        {type = "fluid", name = "coal-pulp-02",  amount = 100},
+        {type = "fluid", name = "slacked-lime",  amount = 100},
+        {type = "fluid", name = "pressured-air", amount = 150},
         --pyFE air
     },
     results = {
         {type = "fluid", name = "high-ash-fines",    amount = 30},
         {type = "fluid", name = "conditioned-fines", amount = 50},
-        {type = "fluid", name = "tailings", amount = 100},
-        {type = "item",  name = "pyrite",            amount = 1,  independent_probability = 0.4},
+        {type = "fluid", name = "tailings",          amount = 100},
+        {type = "item",  name = "pyrite",            amount = 1,  probability = 0.4},
     },
     main_product = "conditioned-fines",
     subgroup = "py-rawores-coal",
@@ -140,7 +141,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-ash-fines-reclamation",
-    categories = {"hydroclassifier"},
+    category = "hydroclassifier",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -157,16 +158,16 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "coal-slime-overflow",
-    categories = {"chemistry"}, --pyfe thickener
+    category = "thickener", --pyfe thickener
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "coal-slime-overflow", amount = 100},
-        {type = "fluid", name = "organic-solvent",     amount = 50}, --pyfe industrial solvent
+        {type = "fluid", name = "industrial-solvent",  amount = 50}, --pyfe industrial solvent
     },
     results = {
-        {type = "fluid", name = "refsyngas",         amount = 300},
-        {type = "fluid", name = "tailings", amount = 300},
+        {type = "fluid", name = "refsyngas", amount = 300},
+        {type = "fluid", name = "tailings",  amount = 300},
     },
     main_product = "refsyngas",
     subgroup = "py-rawores-coal",
@@ -176,18 +177,19 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "coal-pulp-05-refining",
-    categories = {"flotation"},
+    category = "flotation",
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "coal-pulp-05", amount = 100},
-        {type = "fluid", name = "tar",          amount = 100},
+        {type = "fluid", name = "coal-pulp-05",  amount = 100},
+        {type = "fluid", name = "tar",           amount = 100},
+        {type = "fluid", name = "pressured-air", amount = 150},
         --pyfe pressured air
     },
     results = {
-        {type = "fluid", name = "coal-pulp-04",      amount = 50},
-        {type = "fluid", name = "tailings", amount = 100},
-        {type = "item",  name = "coal",              amount = 20},
+        {type = "fluid", name = "coal-pulp-04", amount = 50},
+        {type = "fluid", name = "tailings",     amount = 100},
+        {type = "item",  name = "coal",         amount = 20},
     },
     main_product = "coal",
     icons = py.composite_icon("coal", "coal-pulp-05"),

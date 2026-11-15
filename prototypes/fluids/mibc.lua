@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "mibc",
-    categories = {"chemistry"}, --pyfe mixer
+    category = "chemistry", --pyfe mixer
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -16,6 +16,14 @@ RECIPE {
     subgroup = "py-rawores-fluids",
     order = "q-2"
 }:add_unlock("mibc")
+
+if mods.pyrawores then
+    RECIPE("mibc").category = "mixer"
+end
+
+if mods.pyhightech then
+    RECIPE("mibc"):replace_ingredient_unsafe("aromatics", {type = "fluid", name = "acetone", amount = 50})
+end
 
 
 FLUID {

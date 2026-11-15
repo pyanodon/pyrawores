@@ -1,11 +1,7 @@
-if mods["pyfusionenergy"] then
-    RECIPE("casting-lead-container"):replace_ingredient("sand-casting", "mold")
-end
+RECIPE("casting-lead-container"):replace_ingredient("sand-casting", "mold")
 
-if mods["pyhightech"] then
-    RECIPE("casting-ht-pipe"):replace_ingredient("sand-casting", "mold")
-    RECIPE("casting-ht-pipe-underground"):replace_ingredient("sand-casting", "mold")
-end
+RECIPE("casting-ht-pipe"):replace_ingredient("sand-casting", "mold")
+RECIPE("casting-ht-pipe-underground"):replace_ingredient("sand-casting", "mold")
 
 RECIPE("casting-gear"):replace_ingredient("sand-casting", "mold")
 RECIPE("casting-pipe"):replace_ingredient("sand-casting", "mold")

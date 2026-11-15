@@ -9,11 +9,16 @@ RECIPE {
         {type = "item", name = "electric-engine-unit",  amount = 10},
         {type = "item", name = "advanced-foundry-mk03", amount = 1},
         {type = "item", name = "processing-unit",       amount = 25},
+        {type = "item", name = "super-alloy",           amount = 15},
     },
     results = {
         {type = "item", name = "sinter-unit", amount = 1}
     }
 }:add_unlock("machines-mk05")
+
+if mods.pyhightech then
+    RECIPE("sinter-unit"):replace_ingredient_unsafe("processing-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "carbon-aerogel", amount = 20}
+end
 
 ITEM {
     type = "item",

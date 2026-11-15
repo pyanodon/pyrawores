@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "grade-1-nickel",
-    categories = {"crusher"},
+    category = "crusher",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -9,7 +9,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-nickel", amount = 1},
-        {type = "item", name = "stone",          amount = 1, independent_probability = 0.5}
+        {type = "item", name = "stone",          amount = 1, probability = 0.5}
     },
     main_product = "grade-1-nickel",
     icon = "__pyraworesgraphics__/graphics/icons/crusher-nickel.png",
@@ -20,14 +20,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-nickel",
-    categories = {"solid-separator"}, --pyFE screener
+    category = "screener", --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item", name = "grade-1-nickel", amount = 2}
     },
     results = {
-        {type = "item", name = "grade-3-nickel", amount = 1, independent_probability = 0.5},
+        {type = "item", name = "grade-3-nickel", amount = 1, probability = 0.5},
         {type = "item", name = "grade-2-nickel", amount = 1},
         {type = "item", name = "nickel-rejects", amount = 1},
         {type = "item", name = "gravel",         amount = 1}
@@ -41,14 +41,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nickel-rejects-recrush",
-    categories = {"crusher"}, --pyfe secondary-crusher
+    category = "secondary-crusher", --pyfe secondary-crusher
     enabled = false,
     energy_required = 1,
     ingredients = {
         {type = "item", name = "nickel-rejects", amount = 3}
     },
     results = {
-        {type = "item", name = "grade-1-nickel", amount = 1, independent_probability = 0.5}
+        {type = "item", name = "grade-1-nickel", amount = 1, probability = 0.5}
     },
     main_product = "grade-1-nickel",
     icon = "__pyraworesgraphics__/graphics/icons/recrush-nickel-rejects.png",
@@ -59,14 +59,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-nickel-recrush",
-    categories = {"impact-crusher"},
+    category = "impact-crusher",
     enabled = false,
     energy_required = 2.0,
     ingredients = {
         {type = "item", name = "grade-2-nickel", amount = 1}
     },
     results = {
-        {type = "item", name = "grade-1-nickel", amount = 1, independent_probability = 0.5},
+        {type = "item", name = "grade-1-nickel", amount = 1, probability = 0.5},
         {type = "item", name = "sand",           amount = 1}
     },
     main_product = "grade-1-nickel",
@@ -76,7 +76,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-4-nickel",
-    categories = {"ball-mill"},
+    category = "ball-mill",
     enabled = false,
     energy_required = 2.0,
     ingredients = {
@@ -92,7 +92,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-nickel",
-    categories = {"carbonfilter"},
+    category = "carbonfilter",
     enabled = false,
     energy_required = 3.0,
     ingredients = {
@@ -111,13 +111,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reduction-nickel",
-    categories = {"drp"},
+    category = "drp",
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item",  name = "high-grade-nickel", amount = 1},
         {type = "item",  name = "sodium-sulfate",    amount = 2},
-        {type = "fluid", name = "diesel",            amount = 50}
+        {type = "fluid", name = "diesel",            amount = 50},
+        {type = "fluid", name = "pressured-air",     amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -130,13 +131,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-nickel-2",
-    categories = {"sinter"},
+    category = "sinter",
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item",  name = "reduced-nickel", amount = 1},
         {type = "item",  name = "lime",           amount = 3},
-        {type = "fluid", name = "syngas",         amount = 100}
+        {type = "fluid", name = "syngas",         amount = 100},
+        {type = "fluid", name = "pressured-air",  amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -151,7 +153,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nickel-00",
-    categories = {"electrolyzer"},
+    category = "electrolyzer",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -169,10 +171,14 @@ RECIPE {
     order = "baf"
 }:add_unlock("nickel-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-nickel-00"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-nickel-01",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -192,7 +198,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nickel-02",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -212,7 +218,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nickel-02-2",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -232,7 +238,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nickel-03",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -252,7 +258,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nickel-04",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -272,7 +278,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-nickel-05",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 9,
     ingredients = {
@@ -294,7 +300,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nickel-plate-3",
-    categories = {"casting"},
+    category = "casting",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -315,7 +321,7 @@ RECIPE {
 -- RECIPE {
 --     type = "recipe",
 --     name = "nickel-plate-1",
---     categories = {"smelting"},
+--     category = "smelting",
 --     enabled = false,
 --     energy_required = 15,
 --     ingredients = {
@@ -333,7 +339,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nickel-plate-2",
-    categories = {"smelting"},
+    category = "smelting",
     enabled = false,
     energy_required = 10,
     ingredients = {

@@ -47,11 +47,17 @@ RECIPE {
         {type = "item", name = "nexelit-plate",         amount = 15},
         {type = "item", name = "electric-engine-unit",  amount = 4},
         {type = "item", name = "processing-unit",       amount = 10},
+        {type = "item", name = "nbti-alloy",            amount = 10},
+        {type = "item", name = "nmf-mk01",              amount = 1},
     },
     results = {
         {type = "item", name = "leaching-station-mk03", amount = 1}
     }
 }:add_unlock("machines-mk04")
+
+if mods.pyhightech then
+    RECIPE("leaching-station-mk03"):add_ingredient_unsafe {type = "item", name = "phosphate-glass", amount = 50}:add_ingredient_unsafe {type = "item", name = "biopolymer", amount = 35}:add_ingredient_unsafe {type = "item", name = "aerogel", amount = 15}
+end
 
 RECIPE {
     type = "recipe",
@@ -65,11 +71,19 @@ RECIPE {
         {type = "item", name = "super-steel",           amount = 30},
         {type = "item", name = "low-density-structure", amount = 15},
         {type = "item", name = "nbfe-alloy",            amount = 20},
+        {type = "item", name = "super-alloy",           amount = 10},
+        {type = "item", name = "boron-carbide",         amount = 10},
+        {type = "item", name = "science-coating",       amount = 1},
+        {type = "item", name = "control-unit",          amount = 3},
     },
     results = {
         {type = "item", name = "leaching-station-mk04", amount = 1}
     }
 }:add_unlock("machines-mk05")
+
+if mods.pyhightech then
+    RECIPE("leaching-station-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "hyperelastic-material", amount = 4}
+end
 
 for i = 1, 4 do
     local name = "leaching-station-mk0" .. i

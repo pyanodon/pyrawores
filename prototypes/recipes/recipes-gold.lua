@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "gold-precipitate",
-    categories = {"chemistry"}, --pyfe agitator
+    category = "agitator", --pyfe agitator
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -18,7 +18,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "gold-concentrate",
-    categories = {"leaching"},
+    category = "leaching",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -32,10 +32,14 @@ RECIPE {
     subgroup = "py-rawores-gold",
 }:add_unlock("gold")
 
+if mods.pyhightech then
+    RECIPE("gold-concentrate"):replace_ingredient_unsafe("sulfuric-acid", {type = "fluid", name = "cyanic-acid", amount = 100})
+end
+
 RECIPE {
     type = "recipe",
     name = "gold-precipitate-2",
-    categories = {"wet-scrubber"},
+    category = "wet-scrubber",
     enabled = false,
     energy_required = 3.5,
     ingredients = {
@@ -53,7 +57,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "purified-gold",
-    categories = {"electrolyzer"},
+    category = "electrolyzer",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -69,10 +73,14 @@ RECIPE {
     subgroup = "py-rawores-gold",
 }:add_unlock("gold")
 
+if mods.pyhightech then
+    RECIPE("purified-gold"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "gold-plate",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 3,
     ingredients = {

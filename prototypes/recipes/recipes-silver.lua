@@ -3,13 +3,14 @@
 RECIPE {
     type = "recipe",
     name = "reduction-silver",
-    categories = {"drp"},
+    category = "drp",
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item",  name = "high-grade-silver", amount = 1},
         {type = "item",  name = "sodium-sulfate",    amount = 2},
         {type = "fluid", name = "diesel",            amount = 50},
+        {type = "fluid", name = "pressured-air",     amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -22,13 +23,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-silver-2",
-    categories = {"sinter"},
+    category = "sinter",
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item",  name = "reduced-silver", amount = 1},
         {type = "item",  name = "lime",           amount = 3},
         {type = "fluid", name = "syngas",         amount = 100},
+        {type = "fluid", name = "pressured-air",  amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -44,7 +46,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-silver-01",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -64,7 +66,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-silver-02",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -84,7 +86,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-silver-03",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -104,7 +106,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-silver-04",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -128,7 +130,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "silver-plate-3",
-    categories = {"casting"},
+    category = "casting",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -151,7 +153,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "silver-plate-1",
-    categories = {"smelting"},
+    category = "smelting",
     enabled = false,
     energy_required = 45,
     ingredients = {
@@ -170,7 +172,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "silver-plate-2",
-    categories = {"advanced-foundry"},
+    category = "advanced-foundry",
     enabled = false,
     energy_required = 1,
     ingredients = {
