@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "prepared-chromium",
-    categories = {"wet-scrubber"},
+    category = "wet-scrubber",
     enabled = false,
     energy_required = 3,
     ingredients = {

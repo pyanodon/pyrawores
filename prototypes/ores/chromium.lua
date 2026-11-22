@@ -1,6 +1,5 @@
 local resource_autoplace = require "resource-autoplace"
 
----@diagnostic disable-next-line: need-check-nil
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["ore-chromium"] = {}
 data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["ore-chromium"] = {}
 
@@ -35,6 +34,7 @@ ENTITY {
         fluid_amount = 40,
         required_fluid = "syngas"
     },
+    starting_area = true,
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     tree_removal_probability = 0.7,

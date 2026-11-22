@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "kerosene",
-    categories = {"olefin"},
+    category = "olefin",
     enabled = false,
     energy_required = 3,
     ingredients = {

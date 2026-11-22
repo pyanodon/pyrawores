@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "classify-iron-ore-dust",
-    categories = {"hydroclassifier"},
+    category = "hydroclassifier",
     enabled = false,
     energy_required = 2.5,
     ingredients = {

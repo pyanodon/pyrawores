@@ -104,7 +104,7 @@ ENTITY {
     dying_explosion = "big-explosion",
     collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
     selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
-    use_mirroring = true,
+    forced_symmetry = "diagonal-pos",
     module_slots = 4,
     allowed_effects = {"consumption", "speed", "pollution", "productivity"},
     crafting_categories = {"sinter"},
@@ -127,13 +127,12 @@ ENTITY {
                 south_position = {3, -7.0},
                 frequency = 90,
                 starting_vertical_speed = 0.15,
-                vertical_speed_slowdown = 1,
+                slow_down_factor = 1,
                 starting_frame_deviation = 60
             },
         },
     },
     energy_usage = "20MW",
-    tall = true,
     graphics_set = py.finite_state_machine_working_visualisations {
         states = {
             {
@@ -176,28 +175,28 @@ ENTITY {
         --1
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
-            volume = 100,
+            volume = 1000,
             pipe_connections = {{flow_direction = "input", position = {1.0, -3.0}, direction = defines.direction.north}}
         },
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
-            volume = 100,
+            volume = 1000,
             pipe_connections = {{flow_direction = "input", position = {-1.0, -3.0}, direction = defines.direction.north}}
         },
         {
             production_type = "output",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 100,
             pipe_connections = {{flow_direction = "output", position = {1.0, 3.0}, direction = defines.direction.south}}
         },
         {
             production_type = "output",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 100,
             pipe_connections = {{flow_direction = "output", position = {-1.0, 3.0}, direction = defines.direction.south}}
@@ -207,5 +206,6 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyraworesgraphics__/sounds/sinter-unit.ogg", volume = 0.75},
         idle_sound = {filename = "__pyraworesgraphics__/sounds/sinter-unit.ogg", volume = 0.3},
+        apparent_volume = 2.5
     }
 }

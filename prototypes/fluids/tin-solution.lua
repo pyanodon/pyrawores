@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "tin-solution",
-    categories = {"hydroclassifier"},
+    category = "hydroclassifier",
     enabled = false,
     energy_required = 4,
     ingredients = {

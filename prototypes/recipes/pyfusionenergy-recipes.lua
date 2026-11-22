@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "al-tailings-separation",
-    categories = {"fluid-separator"},
+    category = "fluid-separator",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -23,7 +23,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nitrogen-pyfe",
-    categories = {"wet-scrubber"},
+    category = "wet-scrubber",
     enabled = false,
     energy_required = 150,
     ingredients = {
@@ -42,7 +42,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "liquid-nitrogen",
-    categories = {"compressor"},
+    category = "compressor",
     enabled = false,
     energy_required = 0.3,
     ingredients = {
@@ -64,7 +64,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "evaporate-nitrogen",
-    categories = {"evaporator"},
+    category = "evaporator",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -83,7 +83,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pregnant-solution-01",
-    categories = {"mixer"},
+    category = "mixer",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -99,7 +99,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "vanadium-mixture",
-    categories = {"mixer"},
+    category = "mixer",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -117,7 +117,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nbti-alloy-2",
-    categories = {"py-rawores-smelter"},
+    category = "py-rawores-smelter",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -138,7 +138,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "agzn-alloy-2",
-    categories = {"py-rawores-smelter"},
+    category = "py-rawores-smelter",
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -155,7 +155,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "casting-lead-container",
-    categories = {"casting"},
+    category = "casting",
     enabled = false,
     energy_required = 10,
     ingredients = {

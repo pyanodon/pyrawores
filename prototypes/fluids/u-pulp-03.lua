@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "u-pulp-03",
-    categories = {"leaching"},
+    category = "leaching",
     enabled = false,
     energy_required = 4,
     ingredients = {

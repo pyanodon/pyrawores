@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nickel-pulp-03",
-    categories = {"scrubber"},
+    category = "scrubber",
     enabled = false,
     energy_required = 3,
     ingredients = {
