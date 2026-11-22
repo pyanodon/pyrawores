@@ -4,58 +4,8 @@ Date: ???
     - Linearilized Dependencies.
     - Efficiency modules disabled in salt mines
 ---------------------------------------------------------------------------------------------------
-Version: 3.1.5
-Date: ???
-  Changes:
-    - Made bots tall
-    - Ignored productivity on crystallographic substrate in nucleosynthesis recipes
----------------------------------------------------------------------------------------------------
-Version: 3.1.4
-Date: 2026-09-22
-  Changes:
-    - Updated autotech caches to apply latest tech tree fixes
-    - Changed to ItemPrototype.fuel_categories
----------------------------------------------------------------------------------------------------
-Version: 3.1.3
-Date: 2026-08-28
-  Changes:
-    - Fixed misaligned pipe connection graphics. Resolves https://github.com/pyanodon/pybugreports/issues/1540
----------------------------------------------------------------------------------------------------
-Version: 3.1.2
-Date: 2026-07-09
-  Changes:
-    - Fixed incorrect dependency version requirement
----------------------------------------------------------------------------------------------------
-Version: 3.1.1
-Date: 2026-07-09
-  Changes:
-    - Restored mirroring for buildings
----------------------------------------------------------------------------------------------------
-Version: 3.1.0
-Date: 2026-07-07
-  Changes:
-    - Updated to Factorio 2.1
-    - Removed unnecessary prototype values to clear up the log
-    - Updated vector_to_place_result so items shouldn't drop on the floor. Resolves https://github.com/pyanodon/pybugreports/issues/1486
-    - Fixed that many buildings did not have certain pipe covers rendered
-    - Reduced most fluidbox sizes from 1000 to 100
-    - Added the following entities to be hidden when visibility of tall entities is toggled: scrubber, wet scrubber, sinter unit, smelter
----------------------------------------------------------------------------------------------------
-Version: 3.0.26
-Date: ????
-  Changes:
-    - Fixed that basic oxygen furnace mk02+ could not burn jerry cans as fuel. Resolves https://github.com/pyanodon/pybugreports/issues/1343
-    - Fixed that casting unit would sometimes drop items on the ground instead of in containers or on belts. Resolves https://github.com/pyanodon/pybugreports/issues/1366
----------------------------------------------------------------------------------------------------
-Version: 3.0.25
-Date: 2025-12-28
-  Changes:
-    - Fixed some techs having a too-fast cycle time
-    - Increased the output fluidbox size of all buildings from 100->1000. Allows fluid transfer at even higher rates before hitting engine limitations. Resolves https://github.com/pyanodon/pybugreports/issues/1203
-    - Fixed all techs added by "enable all feature flags" not being seen by autotech.
----------------------------------------------------------------------------------------------------
 Version: 3.0.24
-Date: 2025-09-15
+Date: ?????
   Changes:
     - Remade tech tree with autotech 2.0. Science pack cost comparasion:
     - automation: n/a -> trigger
@@ -83,12 +33,6 @@ Version: 3.0.22
 Date: 2025-08-12
   Changes:
     - Added a german translation
-    - Fixed Bulk Inserter 1 and 2 technologies not having the correct prerequesites and dependants. Resolves https://github.com/pyanodon/pybugreports/issues/1086 and https://github.com/pyanodon/pybugreports/issues/1099
----------------------------------------------------------------------------------------------------
-Version: 3.0.21
-Date: Unreleased
-  Info:
-    - Skipped due to portal/github version mismatch.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.20
 Date: 2025-07-20
