@@ -1,12 +1,13 @@
 RECIPE {
     type = "recipe",
     name = "iron-pulp-05",
-    categories = {"flotation"},
+    category = "flotation",
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "iron-pulp-04", amount = 100},
-        {type = "fluid", name = "water",        amount = 300}
+        {type = "fluid", name = "iron-pulp-04",  amount = 100},
+        {type = "fluid", name = "water",         amount = 300},
+        {type = "fluid", name = "pressured-air", amount = 150},
     },
     results = {
         {type = "fluid", name = "iron-pulp-05", amount = 100}

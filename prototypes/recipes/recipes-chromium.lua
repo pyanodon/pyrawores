@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "grade-1-chromite",
-    categories = {"crusher"},
+    category = "crusher",
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -9,7 +9,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-chromite", amount = 1},
-        {type = "item", name = "stone",            amount = 1, independent_probability = 0.5}
+        {type = "item", name = "stone",            amount = 1, probability = 0.5}
     },
     main_product = "grade-1-chromite",
     icon = "__pyraworesgraphics__/graphics/icons/crusher-chromium.png",
@@ -20,7 +20,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-chromite",
-    categories = {"impact-crusher"},
+    category = "impact-crusher",
     enabled = false,
     energy_required = 1,
     ingredients = {
@@ -28,7 +28,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-3-chromite", amount = 1},
-        {type = "item", name = "grade-2-chromite", amount = 1, independent_probability = 0.4}
+        {type = "item", name = "grade-2-chromite", amount = 1, probability = 0.4}
     },
     main_product = "grade-3-chromite",
     icon = "__pyraworesgraphics__/graphics/icons/grade-3-chromite.png",
@@ -39,15 +39,15 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-chromite-beneficiation",
-    categories = {"solid-separator"}, --pyFE screener
+    category = "screener", --pyFE screener
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item", name = "grade-2-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "grade-1-chromite", amount = 1, independent_probability = 0.65},
-        {type = "item", name = "gravel",           amount = 1, independent_probability = 0.5}
+        {type = "item", name = "grade-1-chromite", amount = 1, probability = 0.65},
+        {type = "item", name = "gravel",           amount = 1, probability = 0.5}
     },
     main_product = "grade-1-chromite",
     icon = "__pyraworesgraphics__/graphics/icons/chromite-2-grade-screener.png",
@@ -58,7 +58,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-4-chromite",
-    categories = {"chemistry"}, --pyFE hydrocyclone
+    category = "hydrocyclone", --pyFE hydrocyclone
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -76,14 +76,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "chromite-rejects-processing",
-    categories = {"ball-mill"},
+    category = "ball-mill",
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item", name = "chromite-rejects", amount = 3}
     },
     results = {
-        {type = "item", name = "grade-3-chromite", amount = 1, independent_probability = 0.6}
+        {type = "item", name = "grade-3-chromite", amount = 1, probability = 0.6}
     },
     main_product = "grade-3-chromite",
     subgroup = "py-rawores-chromium",
@@ -92,12 +92,13 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-chromite",
-    categories = {"flotation"},
+    category = "flotation",
     enabled = false,
     energy_required = 6,
     ingredients = {
         {type = "fluid", name = "chromite-pulp-01", amount = 200},
-        {type = "fluid", name = "aerofloat-15",     amount = 50}
+        {type = "fluid", name = "aerofloat-15",     amount = 50},
+        {type = "fluid", name = "pressured-air",    amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -111,15 +112,15 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "recrush-processed-chromite",
-    categories = {"impact-crusher"},
+    category = "secondary-crusher",
     enabled = false,
     energy_required = 2,
     ingredients = {
         {type = "item", name = "processed-chromite", amount = 1}
     },
     results = {
-        {type = "item", name = "high-chromite", amount = 1, independent_probability = 0.4},
-        {type = "item", name = "sand",          amount = 1, independent_probability = 0.4}
+        {type = "item", name = "high-chromite", amount = 1, probability = 0.4},
+        {type = "item", name = "sand",          amount = 1, probability = 0.4}
     },
     main_product = "high-chromite",
     icon = "__pyraworesgraphics__/graphics/icons/recrush-high-chromite.png",
@@ -132,7 +133,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tier-5-chromite-sand",
-    categories = {"evaporator"},
+    category = "evaporator",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -148,7 +149,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tier-4-chromite-sand",
-    categories = {"scrubber"},
+    category = "scrubber",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -167,7 +168,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tier-3-chromite-sand",
-    categories = {"solid-separator"},
+    category = "solid-separator",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -184,7 +185,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tier-2-chromite-sand",
-    categories = {"solid-separator"},
+    category = "solid-separator",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -201,7 +202,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tier-1-chromite-sand",
-    categories = {"solid-separator"},
+    category = "solid-separator",
     enabled = false,
     energy_required = 4.5,
     ingredients = {
@@ -218,7 +219,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tier-0-chromite-sand",
-    categories = {"solid-separator"},
+    category = "solid-separator",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -236,7 +237,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "chromium-01",
-    categories = {"casting"},
+    category = "casting",
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -257,7 +258,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "chromium-02",
-    categories = {"casting"},
+    category = "casting",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -278,7 +279,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-chromium-01",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -295,10 +296,14 @@ RECIPE {
     order = "bac"
 }:add_unlock("chromium-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-chromium-01"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-chromium-02",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -315,10 +320,14 @@ RECIPE {
     order = "baa"
 }:add_unlock("chromium-mk05")
 
+if mods.pyhightech then
+    RECIPE("molten-chromium-02"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-chromium-03",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -335,18 +344,23 @@ RECIPE {
     order = "bab"
 }:add_unlock("chromium-mk04")
 
+if mods.pyhightech then
+    RECIPE("molten-chromium-03"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 --SINTER and DRP IMPROVEMENTS
 
 RECIPE {
     type = "recipe",
     name = "sinter-chromium",
-    categories = {"sinter"},
+    category = "sinter",
     enabled = false,
     energy_required = 5,
     ingredients = {
         {type = "item",  name = "reduced-chromium", amount = 1},
         {type = "item",  name = "lime",             amount = 3},
-        {type = "fluid", name = "syngas",           amount = 100}
+        {type = "fluid", name = "syngas",           amount = 100},
+        {type = "fluid", name = "pressured-air",    amount = 100}
         --pyfe pressured air
     },
     results = {
@@ -359,13 +373,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reduction-chromium",
-    categories = {"drp"},
+    category = "drp",
     enabled = false,
     energy_required = 5,
     ingredients = {
         {type = "item",  name = "chromite-sand",    amount = 15},
         {type = "item",  name = "sodium-hydroxide", amount = 2},
-        {type = "fluid", name = "light-oil",        amount = 100}
+        {type = "fluid", name = "light-oil",        amount = 100},
+        {type = "fluid", name = "pressured-air",    amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -380,7 +395,7 @@ RECIPE {
 -- RECIPE {
 --     type = "recipe",
 --     name = "chromium-plate-1",
---     categories = {"smelting"},
+--     category = "smelting",
 --     enabled = false,
 --     energy_required = 25,
 --     ingredients = {

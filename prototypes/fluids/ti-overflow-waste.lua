@@ -1,16 +1,17 @@
 RECIPE {
     type = "recipe",
     name = "ti-overflow-waste",
-    categories = {"flotation"},
+    category = "flotation",
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "ti-solution-02", amount = 300},
         {type = "fluid", name = "alamac",         amount = 50},
+        {type = "fluid", name = "pressured-air",  amount = 350},
     },
     results = {
         {type = "fluid", name = "ti-overflow-waste", amount = 300},
-        {type = "fluid", name = "tailings", amount = 50},
+        {type = "fluid", name = "tailings",          amount = 50},
     },
     main_product = "ti-overflow-waste",
     subgroup = "py-rawores-titanium",

@@ -45,12 +45,17 @@ RECIPE {
         {type = "item", name = "electric-engine-unit", amount = 5},
         {type = "item", name = "glass",                amount = 20},
         {type = "item", name = "tin-plate",            amount = 20},
-        {type = "item", name = "processing-unit",      amount = 10}
+        {type = "item", name = "processing-unit",      amount = 10},
+        {type = "item", name = "nbti-alloy",           amount = 20},
     },
     results = {
         {type = "item", name = "bof-mk03", amount = 1}
     }
 }:add_unlock("smelters-mk03")
+
+if mods.pyhightech then
+    RECIPE("bof-mk03"):add_ingredient_unsafe {type = "item", name = "heavy-fermion", amount = 20}:add_ingredient_unsafe {type = "item", name = "carbon-aerogel", amount = 20}:add_ingredient_unsafe {type = "item", name = "graphene-roll", amount = 15}
+end
 
 RECIPE {
     type = "recipe",
@@ -64,11 +69,19 @@ RECIPE {
         {type = "item", name = "glass",                 amount = 10},
         {type = "item", name = "low-density-structure", amount = 10},
         {type = "item", name = "nbfe-alloy",            amount = 10},
+        {type = "item", name = "super-alloy",           amount = 10},
+        {type = "item", name = "boron-carbide",         amount = 30},
+        {type = "item", name = "science-coating",       amount = 1},
+        {type = "item", name = "control-unit",          amount = 5},
     },
     results = {
         {type = "item", name = "bof-mk04", amount = 1}
     }
 }:add_unlock("smelters-mk04")
+
+if mods.pyhightech then
+    RECIPE("bof-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "harmonic-absorber", amount = 10}
+end
 
 for i = 1, 4 do
     local name = "bof-mk0" .. i
@@ -100,7 +113,7 @@ for i = 1, 4 do
         dying_explosion = "big-explosion",
         collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
         selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
-        use_mirroring = true,
+        forced_symmetry = "diagonal-pos",
         module_slots = i,
         allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
         crafting_categories = {"bof"},
@@ -113,7 +126,7 @@ for i = 1, 4 do
                 color = {0, 0, 0},
             },
             type = "burner",
-            fuel_categories = {"chemical", "biomass", i > 1 and "jerry" or nil},
+            fuel_categories = {"chemical", "biomass"},
             effectivity = 1,
             fuel_inventory_size = 1,
             burnt_inventory_size = 1,
@@ -129,7 +142,7 @@ for i = 1, 4 do
                     south_position = {2.95, -5.0},
                     frequency = 90,
                     starting_vertical_speed = 0.05,
-                    vertical_speed_slowdown = 1,
+                    slow_down_factor = 1,
                     starting_frame_deviation = 60
                 },
             },
@@ -190,42 +203,42 @@ for i = 1, 4 do
             --1
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 100,
+                volume = 1000,
                 pipe_connections = {{flow_direction = "input", position = {3.0, -3.0}, direction = defines.direction.north}}
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 100,
+                volume = 1000,
                 pipe_connections = {{flow_direction = "input", position = {1.0, -3.0}, direction = defines.direction.north}}
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 100,
+                volume = 1000,
                 pipe_connections = {{flow_direction = "input", position = {-1.0, -3.0}, direction = defines.direction.north}}
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 100,
+                volume = 1000,
                 pipe_connections = {{flow_direction = "input", position = {-3.0, -3.0}, direction = defines.direction.north}}
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
                 pipe_connections = {{flow_direction = "output", position = {1.0, 3.0}, direction = defines.direction.south}}
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
                 pipe_connections = {{flow_direction = "output", position = {-1.0, 3.0}, direction = defines.direction.south}}

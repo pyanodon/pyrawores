@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "xylenol-1",
-    categories = {"distilator"},
+    category = "distilator",
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -18,7 +18,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "xylenol-2",
-    categories = {"methanol"},
+    category = "methanol",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -33,6 +33,10 @@ RECIPE {
     subgroup = "py-rawores-fluids",
     order = "q-1"
 }:add_unlock("additives")
+
+if mods.pyhightech then
+    RECIPE("xylenol-2"):add_ingredient_unsafe {type = "item", name = "phenol", amount = 10}
+end
 
 
 FLUID {

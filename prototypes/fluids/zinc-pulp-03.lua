@@ -1,12 +1,13 @@
 RECIPE {
     type = "recipe",
     name = "zinc-pulp-03",
-    categories = {"flotation"},
+    category = "flotation",
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "zinc-pulp-02", amount = 300},
-        {type = "fluid", name = "aerofloat-15", amount = 20},
+        {type = "fluid", name = "zinc-pulp-02",  amount = 300},
+        {type = "fluid", name = "aerofloat-15",  amount = 20},
+        {type = "fluid", name = "pressured-air", amount = 250},
     },
     results = {
         {type = "fluid", name = "zinc-pulp-03", amount = 300},

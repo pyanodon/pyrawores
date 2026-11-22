@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "chromite-pulp-02",
-    categories = {"chemistry"},
+    category = "pan",
     --pyFE pan
     enabled = false,
     energy_required = 5,

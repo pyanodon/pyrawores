@@ -15,6 +15,10 @@ RECIPE {
     }
 }:add_unlock("big-mines")
 
+if mods.pyhightech then
+    RECIPE("nexelit-mine"):add_ingredient_unsafe {type = "item", name = "graphene-roll", amount = 5}
+end
+
 ITEM {
     type = "item",
     name = "nexelit-mine",
@@ -70,7 +74,7 @@ ENTITY {
                 south_position = {-4.0, -2.0},
                 frequency = 80,
                 starting_vertical_speed = 0.12,
-                vertical_speed_slowdown = 1,
+                slow_down_factor = 1,
                 starting_frame_deviation = 60
             },
             {
@@ -81,7 +85,7 @@ ENTITY {
                 south_position = {4.5, -2.1},
                 frequency = 40,
                 starting_vertical_speed = 0.08,
-                vertical_speed_slowdown = 1,
+                slow_down_factor = 1,
                 starting_frame_deviation = 60
             },
             {
@@ -92,14 +96,15 @@ ENTITY {
                 south_position = {-4.0, 1.5},
                 frequency = 3,
                 starting_vertical_speed = 0.03,
-                vertical_speed_slowdown = 1,
+                slow_down_factor = 3,
                 starting_frame_deviation = 60
             },
         },
     },
     energy_usage = "2500kW",
+    mining_power = 6,
     resource_searching_radius = 0.49,
-    vector_to_place_result = {0, -5.8},
+    vector_to_place_result = {0, -5.65},
     radius_visualisation_picture = {
         filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-radius-visualization.png",
         width = 12,
@@ -232,5 +237,6 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyraworesgraphics__/sounds/nexelit-mine.ogg", volume = 1.2},
         idle_sound = {filename = "__pyraworesgraphics__/sounds/nexelit-mine.ogg", volume = 0.3},
+        apparent_volume = 2.5
     }
 }

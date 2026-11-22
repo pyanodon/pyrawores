@@ -1,17 +1,18 @@
 RECIPE {
     type = "recipe",
     name = "nexelit-pulp-04",
-    categories = {"flotation"},
+    category = "flotation",
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "nexelit-pulp-03", amount = 100},
         {type = "fluid", name = "armac-12",        amount = 75},
+        {type = "fluid", name = "pressured-air",   amount = 75},
         --ptfe pressured air
     },
     results = {
-        {type = "fluid", name = "nexelit-pulp-04",   amount = 100},
-        {type = "fluid", name = "tailings", amount = 100},
+        {type = "fluid", name = "nexelit-pulp-04", amount = 100},
+        {type = "fluid", name = "tailings",        amount = 100},
     },
     main_product = "nexelit-pulp-04",
     subgroup = "py-rawores-nexelit",

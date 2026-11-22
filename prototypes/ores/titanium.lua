@@ -1,6 +1,5 @@
 local resource_autoplace = require "resource-autoplace"
 
----@diagnostic disable-next-line: need-check-nil
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["ore-titanium"] = {}
 data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["ore-titanium"] = {}
 
@@ -33,7 +32,7 @@ ENTITY {
             {type = "item", name = "ore-titanium", amount = 1}
         },
         fluid_amount = 40,
-        required_fluid = (mods["pyfusionenergy"] and "acetylene" or "syngas")
+        required_fluid = ("acetylene")
     },
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},

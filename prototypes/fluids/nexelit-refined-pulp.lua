@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nexelit-refined-pulp",
-    categories = {"electrolyzer"},
+    category = "electrolyzer",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -17,6 +17,10 @@ RECIPE {
     subgroup = "py-rawores-nexelit",
     order = "q-2"
 }:add_unlock("nexelit-mk03")
+
+if mods.pyhightech then
+    RECIPE("nexelit-refined-pulp"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
 
 FLUID {
     type = "fluid",

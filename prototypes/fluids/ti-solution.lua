@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "ti-solution",
-    categories = {"chemistry"}, --pyfe agitator
+    category = "agitator", --pyfe agitator
     enabled = false,
     energy_required = 5,
     ingredients = {

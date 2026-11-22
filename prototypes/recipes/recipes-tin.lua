@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "grade-1-tin",
-    categories = {"solid-separator"}, --pyFE screener
+    category = "screener", --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -9,7 +9,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-1-tin", amount = 1},
-        {type = "item", name = "grade-2-tin", amount = 1, independent_probability = 0.5},
+        {type = "item", name = "grade-2-tin", amount = 1, probability = 0.5},
     },
     main_product = "grade-1-tin",
     icon = "__pyraworesgraphics__/graphics/icons/ore-tin-screening.png",
@@ -20,14 +20,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-2-crush-tin",
-    categories = {"crusher"},
+    category = "crusher",
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item", name = "grade-2-tin", amount = 1}
     },
     results = {
-        {type = "item", name = "grade-1-tin", amount = 1, independent_probability = 0.5},
+        {type = "item", name = "grade-1-tin", amount = 1, probability = 0.5},
         {type = "item", name = "stone",       amount = 1}
     },
     main_product = "grade-1-tin",
@@ -37,7 +37,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "grade-3-tin",
-    categories = {"solid-separator"}, --pyFE screener
+    category = "screener", --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -45,7 +45,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "grade-3-tin",     amount = 1},
-        {type = "item", name = "tin-ore-rejects", amount = 1, independent_probability = 0.5},
+        {type = "item", name = "tin-ore-rejects", amount = 1, probability = 0.5},
     },
     main_product = "grade-3-tin",
     icon = "__pyraworesgraphics__/graphics/icons/grade-1-tin-screening.png",
@@ -56,14 +56,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tin-ore-rejects",
-    categories = {"crusher"}, --pyFE secondary crusher
+    category = "secondary-crusher", --pyFE secondary crusher
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item", name = "tin-ore-rejects", amount = 1},
     },
     results = {
-        {type = "item", name = "grade-1-tin", amount = 1, independent_probability = 0.5},
+        {type = "item", name = "grade-1-tin", amount = 1, probability = 0.5},
     },
     main_product = "grade-1-tin",
     icon = "__pyraworesgraphics__/graphics/icons/recrush-tin-ore-rejects.png",
@@ -74,7 +74,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "wash-grade-3-tin",
-    categories = {"washer"},
+    category = "washer",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -82,8 +82,8 @@ RECIPE {
         {type = "fluid", name = "water",       amount = 100},
     },
     results = {
-        {type = "item",  name = "grade-4-tin",       amount = 1},
-        {type = "fluid", name = "tailings", amount = 100},
+        {type = "item",  name = "grade-4-tin", amount = 1},
+        {type = "fluid", name = "tailings",    amount = 100},
     },
     main_product = "grade-4-tin",
     icon = "__pyraworesgraphics__/graphics/icons/wash-grade-3-tin.png",
@@ -94,7 +94,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ball-grade-4-tin",
-    categories = {"ball-mill"},
+    category = "ball-mill",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -110,7 +110,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "powdered-tin",
-    categories = {"solid-separator"}, --pyFE screener
+    category = "screener", --pyFE screener
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -129,7 +129,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tin-concentrate",
-    categories = {"chemistry"}, --pyfe jig
+    category = "jig", --pyfe jig
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -139,7 +139,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "tin-rejects",     amount = 1},
-        {type = "item", name = "tin-concentrate", amount = 1, independent_probability = 0.2},
+        {type = "item", name = "tin-concentrate", amount = 1, probability = 0.2},
     },
     main_product = "tin-concentrate",
     icons = py.composite_icon("tin-concentrate", "tin-dust"),
@@ -149,7 +149,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tin-concentrate-2",
-    categories = {"scrubber"},
+    category = "scrubber",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -158,8 +158,8 @@ RECIPE {
         {type = "fluid", name = "tin-bottom-pulp", amount = 100},
     },
     results = {
-        {type = "fluid", name = "tailings", amount = 50},
-        {type = "item",  name = "tin-concentrate",   amount = 1, independent_probability = 0.75},
+        {type = "fluid", name = "tailings",        amount = 50},
+        {type = "item",  name = "tin-concentrate", amount = 1, probability = 0.75},
     },
     main_product = "tin-concentrate",
     icons = py.composite_icon("tin-concentrate", "tin-bottom-pulp"),
@@ -169,13 +169,13 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tin-concentrate-3",
-    categories = {"chemistry"}, --pyfe grease table
+    category = "grease", --pyfe grease table
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item",  name = "filtration-media", amount = 1},
         {type = "fluid", name = "tin-pulp-01",      amount = 450},
-        {type = "fluid", name = "heavy-oil",        amount = 100}, --pyfe grease
+        {type = "fluid", name = "grease",           amount = 50}, --pyfe grease
     },
     results = {
         {type = "fluid", name = "lubricant",       amount = 50},
@@ -189,7 +189,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-tin-concentrate",
-    categories = {"classifier"},
+    category = "classifier",
     enabled = false,
     energy_required = 3.5,
     ingredients = {
@@ -206,7 +206,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-tin-mix",
-    categories = {"evaporator"},
+    category = "evaporator",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -222,7 +222,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-grade-tin",
-    categories = {"solid-separator"},
+    category = "solid-separator",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -230,7 +230,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "high-grade-tin", amount = 1},
-        {type = "item", name = "iron-ore-dust",  amount = 1, independent_probability = 0.5},
+        {type = "item", name = "iron-ore-dust",  amount = 1, probability = 0.5},
     },
     main_product = "high-grade-tin",
     subgroup = "py-rawores-tin",
@@ -242,13 +242,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reduction-tin",
-    categories = {"drp"},
+    category = "drp",
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "item",  name = "high-grade-tin", amount = 1},
         {type = "item",  name = "sodium-sulfate", amount = 1},
         {type = "fluid", name = "diesel",         amount = 50},
+        {type = "fluid", name = "pressured-air",  amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -261,13 +262,14 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sinter-tin-2",
-    categories = {"sinter"},
+    category = "sinter",
     enabled = false,
     energy_required = 8,
     ingredients = {
-        {type = "item",  name = "reduced-tin", amount = 3},
-        {type = "item",  name = "lime",        amount = 3},
-        {type = "fluid", name = "syngas",      amount = 100},
+        {type = "item",  name = "reduced-tin",   amount = 3},
+        {type = "item",  name = "lime",          amount = 3},
+        {type = "fluid", name = "syngas",        amount = 100},
+        {type = "fluid", name = "pressured-air", amount = 100},
         --pyfe pressured air
     },
     results = {
@@ -282,7 +284,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-tin-01",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -298,10 +300,14 @@ RECIPE {
     order = "baf"
 }:add_unlock("tin-mk02")
 
+if mods.pyhightech then
+    RECIPE("molten-tin-01"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 6}
+end
+
 -- RECIPE {
 --     type = "recipe",
 --     name = "molten-tin-02",
---     categories = {"eaf"},
+--     category = "eaf",
 --     enabled = false,
 --     energy_required = 8,
 --     ingredients = {
@@ -319,7 +325,7 @@ RECIPE {
 -- RECIPE {
 --     type = "recipe",
 --     name = "molten-tin-02-2",
---     categories = {"eaf"},
+--     category = "eaf",
 --     enabled = false,
 --     energy_required = 4,
 --     ingredients = {
@@ -337,7 +343,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-tin-03",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -353,10 +359,14 @@ RECIPE {
     order = "bac"
 }:add_unlock("tin-mk03")
 
+if mods.pyhightech then
+    RECIPE("molten-tin-03"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-tin-04",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -372,10 +382,14 @@ RECIPE {
     order = "bab"
 }:add_unlock("tin-mk04")
 
+if mods.pyhightech then
+    RECIPE("molten-tin-04"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "molten-tin-05",
-    categories = {"eaf"},
+    category = "eaf",
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -391,6 +405,10 @@ RECIPE {
     order = "baa"
 }:add_unlock("tin-mk05")
 
+if mods.pyhightech then
+    RECIPE("molten-tin-05"):add_ingredient_unsafe {type = "item", name = "graphite", amount = 2}
+end
+
 
 --CASTINGS
 
@@ -398,7 +416,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tin-plate-3",
-    categories = {"casting"},
+    category = "casting",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -421,7 +439,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tin-plate-1",
-    categories = {"smelting"},
+    category = "smelting",
     enabled = true,
     energy_required = 60,
     ingredients = {
@@ -441,7 +459,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tin-plate-2",
-    categories = {"smelting"},
+    category = "smelting",
     enabled = false,
     energy_required = 50,
     ingredients = {
@@ -459,7 +477,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tin-plate-4",
-    categories = {"smelting"},
+    category = "smelting",
     enabled = false,
     energy_required = 20,
     ingredients = {

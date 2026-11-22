@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nickel-tailings",
-    categories = {"methanol"},
+    category = "methanol",
     enabled = false,
     energy_required = 3,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "chromite-concentrate",
-    categories = {"quenching-tower"},
+    category = "quenching-tower",
     enabled = false,
     energy_required = 3,
     ingredients = {

@@ -1,18 +1,19 @@
 RECIPE {
     type = "recipe",
     name = "coal-pulp-01",
-    categories = {"flotation"},
+    category = "flotation",
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "fluid", name = "conditioned-fines", amount = 100},
         {type = "fluid", name = "xylenol",           amount = 100},
+        {type = "fluid", name = "pressured-air",     amount = 150},
         --pyFE air
     },
     results = {
-        {type = "fluid", name = "coal-pulp-01",      amount = 50},
-        {type = "fluid", name = "coal-pulp-02",      amount = 50},
-        {type = "fluid", name = "tailings", amount = 50},
+        {type = "fluid", name = "coal-pulp-01", amount = 50},
+        {type = "fluid", name = "coal-pulp-02", amount = 50},
+        {type = "fluid", name = "tailings",     amount = 50},
     },
     main_product = "coal-pulp-01",
     subgroup = "py-rawores-coal",

@@ -18,7 +18,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "solder",
-    categories = {"casting"},
+    category = "casting",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -37,7 +37,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "solder-1",
-    categories = {"hpf"},
+    category = "hpf",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -56,7 +56,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "solder-2",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -76,7 +76,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "solder-3",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -99,7 +99,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-solder-0",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -118,7 +118,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-solder-1",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -138,7 +138,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-solder-2",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -159,7 +159,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "molten-solder-3",
-    categories = {"bof"},
+    category = "bof",
     enabled = false,
     energy_required = 2,
     ingredients = {

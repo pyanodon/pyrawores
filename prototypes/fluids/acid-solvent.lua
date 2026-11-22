@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "acid-solvent",
-    categories = {"chemistry"}, --pyfe
+    category = "mixer", --pyfe
     enabled = false,
     energy_required = 3,
     ingredients = {

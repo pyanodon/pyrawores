@@ -16,6 +16,10 @@ RECIPE {
     }
 }:add_unlock("big-mines")
 
+if mods.pyhightech then
+    RECIPE("chromium-mine"):add_ingredient_unsafe {type = "item", name = "graphene-roll", amount = 5}
+end
+
 ITEM {
     type = "item",
     name = "chromium-mine",
@@ -54,17 +58,18 @@ ENTITY {
         emissions_per_minute = {
             pollution = 0.06
         },
-        light_flicker = {
-            minimum_intensity = 0,
-            maximum_intensity = 0,
-            light_intensity_to_size_coefficient = 0,
-            color = {0, 0, 0},
-        },
+    },
+    light_flicker =
+    {
+        minimum_intensity = 0,
+        maximum_intensity = 0,
+        light_intensity_to_size_coefficient = 0,
+        color = {0, 0, 0},
     },
     energy_usage = "2500kW",
     mining_speed = 20,
     resource_searching_radius = 0.49,
-    vector_to_place_result = {0, -5.8},
+    vector_to_place_result = {0, -5.65},
     radius_visualisation_picture = {
         filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-radius-visualization.png",
         width = 12,
@@ -136,5 +141,6 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyraworesgraphics__/sounds/chromium-mine.ogg", volume = 1.4},
         idle_sound = {filename = "__pyraworesgraphics__/sounds/chromium-mine.ogg", volume = 0.3},
+        apparent_volume = 2.5
     }
 }

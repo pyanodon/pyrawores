@@ -1,13 +1,14 @@
 RECIPE {
     type = "recipe",
     name = "tin-pulp-02",
-    categories = {"flotation"},
+    category = "flotation",
     enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "oleochemicals",        amount = 50},
         {type = "fluid", name = "kerosene",             amount = 100},
-        {type = "item",  name = "high-tin-concentrate", amount = 8}
+        {type = "item",  name = "high-tin-concentrate", amount = 8},
+        {type = "fluid", name = "pressured-air",        amount = 250},
     },
     results = {
         {type = "fluid", name = "sulfuric-acid", amount = 200},

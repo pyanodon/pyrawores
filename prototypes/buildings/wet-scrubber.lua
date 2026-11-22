@@ -4,7 +4,7 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "storage-tank",       amount = 1}, --pyindustry py-tank-5000
+        {type = "item", name = "storage-tank",       amount = 1}, --pyindustry py-tank-5
         {type = "item", name = "steel-plate",        amount = 15},
         {type = "item", name = "distilator",         amount = 1},
         {type = "item", name = "pipe",               amount = 10},
@@ -22,11 +22,12 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "wet-scrubber-mk01", amount = 1},
-        {type = "item", name = "storage-tank",      amount = 1}, --pyindustry py-tank-5000
+        {type = "item", name = "storage-tank",      amount = 1}, --pyindustry py-tank-5
         {type = "item", name = "duralumin",         amount = 20},
         {type = "item", name = "engine-unit",       amount = 5},
         {type = "item", name = "nexelit-plate",     amount = 15},
         {type = "item", name = "advanced-circuit",  amount = 10},
+
     },
     results = {
         {type = "item", name = "wet-scrubber-mk02", amount = 1}
@@ -40,17 +41,22 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "wet-scrubber-mk02",    amount = 1},
-        {type = "item", name = "storage-tank",         amount = 1}, --pyindustry py-tank-5000
+        {type = "item", name = "storage-tank",         amount = 1}, --pyindustry py-tank-5
         {type = "item", name = "titanium-plate",       amount = 20},
         {type = "item", name = "stainless-steel",      amount = 20},
         {type = "item", name = "tin-plate",            amount = 20},
         {type = "item", name = "electric-engine-unit", amount = 4},
-        {type = "item", name = "processing-unit",      amount = 10}
+        {type = "item", name = "nbti-alloy",           amount = 15},
+        {type = "item", name = "processing-unit",      amount = 10},
     },
     results = {
         {type = "item", name = "wet-scrubber-mk03", amount = 1}
     }
 }:add_unlock("machines-mk04")
+
+if mods.pyhightech then
+    RECIPE("wet-scrubber-mk03"):add_ingredient_unsafe {type = "item", name = "biopolymer", amount = 15}:add_ingredient_unsafe {type = "item", name = "carbon-aerogel", amount = 20}
+end
 
 RECIPE {
     type = "recipe",
@@ -59,15 +65,23 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "wet-scrubber-mk03",     amount = 1},
-        {type = "item", name = "storage-tank",          amount = 1}, --pyindustry py-tank-5000
+        {type = "item", name = "storage-tank",          amount = 1}, --pyindustry py-tank-5
         {type = "item", name = "super-steel",           amount = 30},
         {type = "item", name = "low-density-structure", amount = 15},
         {type = "item", name = "nbfe-alloy",            amount = 20},
+        {type = "item", name = "super-alloy",           amount = 10},
+        {type = "item", name = "wall-shield",           amount = 4},
+        {type = "item", name = "science-coating",       amount = 1},
+        {type = "item", name = "control-unit",          amount = 3},
     },
     results = {
         {type = "item", name = "wet-scrubber-mk04", amount = 1}
     }
 }:add_unlock("machines-mk05")
+
+if mods.pyhightech then
+    RECIPE("wet-scrubber-mk04"):replace_ingredient_unsafe("control-unit", "intelligent-unit"):add_ingredient_unsafe {type = "item", name = "superconductor-servomechanims", amount = 5}:add_ingredient_unsafe {type = "item", name = "quantum-dots", amount = 5}
+end
 
 for i = 1, 4 do
     local name = "wet-scrubber-mk0" .. i
@@ -99,7 +113,7 @@ for i = 1, 4 do
         dying_explosion = "big-explosion",
         collision_box = {{-2.7, -2.7}, {2.7, 2.7}},
         selection_box = {{-3.0, -3.0}, {3.0, 3.0}},
-        use_mirroring = true,
+        forced_symmetry = "diagonal-pos",
         module_slots = i,
         allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
         crafting_categories = {"wet-scrubber"},
@@ -112,7 +126,6 @@ for i = 1, 4 do
             },
         },
         energy_usage = (200 * i) .. "kW",
-        tall = true,
         graphics_set = {
             working_visualisations = {
                 {
@@ -162,42 +175,42 @@ for i = 1, 4 do
             --1
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 100,
+                volume = 1000,
                 pipe_connections = {{flow_direction = "input", position = {-2.5, -2.5}, direction = defines.direction.north}}
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 100,
+                volume = 1000,
                 pipe_connections = {{flow_direction = "input", position = {-0.5, -2.5}, direction = defines.direction.north}}
             },
             {
                 production_type = "input",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
-                volume = 100,
+                volume = 1000,
                 pipe_connections = {{flow_direction = "input", position = {1.5, -2.5}, direction = defines.direction.north}}
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
                 pipe_connections = {{flow_direction = "output", position = {-0.5, 2.5}, direction = defines.direction.south}}
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
                 pipe_connections = {{flow_direction = "output", position = {-2.5, 2.5}, direction = defines.direction.south}}
             },
             {
                 production_type = "output",
-                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.75}, nil, nil),
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
                 pipe_covers = py.pipe_covers(false, true, true, true),
                 volume = 100,
                 pipe_connections = {{flow_direction = "output", position = {1.5, 2.5}, direction = defines.direction.south}}
@@ -207,6 +220,7 @@ for i = 1, 4 do
         working_sound = {
             sound = {filename = "__pyraworesgraphics__/sounds/wet-scrubber.ogg", volume = 1.4},
             idle_sound = {filename = "__pyraworesgraphics__/sounds/wet-scrubber.ogg", volume = 0.3},
+            apparent_volume = 2.5
         }
     }
 end
